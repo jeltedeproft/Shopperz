@@ -247,6 +247,34 @@ const foodCategoryOrder = [
   "Bieren & Dranken"        // Drinks
 ];
 
+// --- Helper: Localize standard ingredient metric units (e.g. kl to koffielepel / tsp / c. à café) ---
+function getTranslatedUnit(unit, lang) {
+  if (!unit) return "";
+  const unitLower = unit.toLowerCase().trim();
+
+  const translations = {
+    kl: { en: "tsp", nl: "koffielepel", fr: "c. à café" },
+    el: { en: "tbsp", nl: "eetlepel", fr: "c. à soupe" },
+    "st.": { en: "pcs", nl: "stuks", fr: "pcs" },
+    piece: { en: "pcs", nl: "stuks", fr: "pcs" },
+    pieces: { en: "pcs", nl: "stuks", fr: "pcs" },
+    "to taste": { en: "to taste", nl: "naar smaak", fr: "au goût" },
+    servings: { en: "servings", nl: "porties", fr: "portions" },
+    can: { en: "can", nl: "blik", fr: "boîte" },
+    cans: { en: "can", nl: "blik", fr: "boîte" },
+    pinch: { en: "pinch", nl: "snuifje", fr: "pincée" },
+    pinches: { en: "pinch", nl: "snuifje", fr: "pincée" },
+    stalk: { en: "stalk", nl: "stengel", fr: "branche" },
+    stalks: { en: "stalks", nl: "stengels", fr: "branches" }
+  };
+
+  const match = translations[unitLower];
+  if (match) {
+    return match[lang] || match['en'];
+  }
+  return unit;
+}
+
 // --- State Management ---
 let state = {
   recipes: [],
@@ -265,7 +293,7 @@ let state = {
 // --- Initialization ---
 function initApp() {
   // Version-controlled database migration to push new images/recipes to cached local storage
-  const CURRENT_DB_VERSION = "v7";
+  const CURRENT_DB_VERSION = "v8";
   const storedDbVersion = localStorage.getItem('belgian_db_version');
   if (storedDbVersion !== CURRENT_DB_VERSION) {
     localStorage.removeItem('belgian_recipes');
@@ -989,11 +1017,11 @@ function updateScaledIngredients() {
 
   container.innerHTML = state.selectedRecipe.ingredients.map(ing => {
     let quantityDisplay = '';
-    if (typeof ing.amount === 'number' && ing.amount > 1) {
+    if (typeof ing.amount === 'number' && ing.amount > 0) {
       const scaledAmount = Math.round(ing.amount * ratio * 10) / 10;
-      quantityDisplay = `${scaledAmount} ${ing.unit}`;
+      quantityDisplay = `${scaledAmount} ${getTranslatedUnit(ing.unit, lang)}`;
     } else {
-      quantityDisplay = ing.unit;
+      quantityDisplay = getTranslatedUnit(ing.unit, lang);
     }
 
     const nameStr = typeof ing.name === 'object' ? (ing.name[lang] || ing.name['en']) : ing.name;
@@ -1152,7 +1180,7 @@ function renderGroceryList() {
         </h4>
         <div class="grocery-list-items">
           ${items.map(item => {
-            const qtyDisplay = typeof item.amount === 'number' ? `${item.amount} ${item.unit}` : item.unit;
+            const qtyDisplay = typeof item.amount === 'number' ? `${item.amount} ${getTranslatedUnit(item.unit, lang)}` : getTranslatedUnit(item.unit, lang);
             return `
               <div class="grocery-item" data-id="${item.id}">
                 <div class="checkbox-wrapper ${item.checked ? 'checked' : ''}">
@@ -1368,7 +1396,7 @@ function renderFormIngredientsPreview() {
   container.innerHTML = state.customRecipeIngredients.map((ing, index) => `
     <span class="preview-ing-tag">
       <span>${ing.name}</span>
-      <span class="qty">${ing.amount ? ing.amount : ''} ${ing.unit}</span>
+      <span class="qty">${ing.amount ? ing.amount : ''} ${getTranslatedUnit(ing.unit, state.settings.language)}</span>
       <button type="button" data-index="${index}">&times;</button>
     </span>
   `).join('');

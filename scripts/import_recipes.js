@@ -243,6 +243,49 @@ function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
   return steps;
 }
 
+// --- Helper: Scrub Spoonacular/Foodista clinical boilerplate from descriptions ---
+function sanitizeDescription(desc, lang) {
+  if (!desc) return "";
+  const sentences = desc.split(/(?<=[.!?])\s+/);
+  const cleanSentences = sentences.filter(s => {
+    const sLower = s.toLowerCase();
+    if (lang === 'en') {
+      if (sLower.includes('spoonacular')) return false;
+      if (sLower.includes('foodista')) return false;
+      if (sLower.includes('similar recipes')) return false;
+      if (sLower.includes('per serving')) return false;
+      if (sLower.includes('daily requirements')) return false;
+      if (sLower.includes('calories') && sLower.includes('protein')) return false;
+      if (sLower.includes('score of')) return false;
+      if (sLower.includes('very similar to')) return false;
+      if (sLower.includes('would make it again')) return false;
+    } else if (lang === 'nl') {
+      if (sLower.includes('spoonacular')) return false;
+      if (sLower.includes('foodista')) return false;
+      if (sLower.includes('vergelijkbare recepten')) return false;
+      if (sLower.includes('soortgelijke recepten')) return false;
+      if (sLower.includes('per portie')) return false;
+      if (sLower.includes('dagelijkse behoefte')) return false;
+      if (sLower.includes('calorieën') && sLower.includes('eiwit')) return false;
+      if (sLower.includes('lepelscore')) return false;
+      if (sLower.includes('lijken erg op dit recept')) return false;
+      if (sLower.includes('zouden het nog een keer maken')) return false;
+    } else if (lang === 'fr') {
+      if (sLower.includes('spoonacular')) return false;
+      if (sLower.includes('foodista')) return false;
+      if (sLower.includes('recettes similaires')) return false;
+      if (sLower.includes('par portion')) return false;
+      if (sLower.includes('besoins quotidiens')) return false;
+      if (sLower.includes('calories') && sLower.includes('protéine')) return false;
+      if (sLower.includes('score cuillère')) return false;
+      if (sLower.includes('sont très similaires')) return false;
+      if (sLower.includes('le referaient')) return false;
+    }
+    return true;
+  });
+  return cleanSentences.join(' ').trim();
+}
+
 // --- Helper: Extract first sentence from text for appetizing recipe card subtitles ---
 function getFirstSentence(text) {
   if (!text) return "";
@@ -353,43 +396,47 @@ async function main() {
       });
     }
 
-    const uniqueId = `imported-${Date.now()}`;
-    const newRecipe = {
-      id: uniqueId,
-      prepTime: extracted.prep,
-      cookTime: extracted.cook,
-      difficulty: { en: "Medium", nl: "Gemiddeld", fr: "Moyen" },
-      servings: extracted.servings,
-      category: { en: "Custom", nl: "Eigen recepten", fr: "Personnalisées" },
-      image: "images/witloof_gratin.jpg", // default cover placeholder
-      isGlutenFree: false,
-      isNutFree: true,
-      isDairyFree: false,
-      isEggFree: false,
-      isVegetarian: false,
-      isVegan: false,
-      isCandidaFriendly: false,
-      isKeto: false,
-      translations: {
-        en: {
-          title: extracted.title,
-          subtitle: getFirstSentence(extracted.desc || extracted.title),
-          description: extracted.desc,
-          instructions: extracted.steps
+      // Scrub boilerplate descriptions
+      const cleanDescEN = sanitizeDescription(extracted.desc || extracted.title, 'en');
+      const cleanDescNL = sanitizeDescription(descNL || titleNL, 'nl');
+      const cleanDescFR = sanitizeDescription(descFR || titleFR, 'fr');
+
+      const newRecipe = {
+        id: uniqueId,
+        prepTime: extracted.prep,
+        cookTime: extracted.cook,
+        difficulty: { en: "Medium", nl: "Gemiddeld", fr: "Moyen" },
+        servings: servings,
+        category: { en: "Custom", nl: "Eigen recepten", fr: "Personnalisées" },
+        image: "images/witloof_gratin.jpg", // default cover placeholder
+        isGlutenFree: false,
+        isNutFree: true,
+        isDairyFree: false,
+        isEggFree: false,
+        isVegetarian: false,
+        isVegan: false,
+        isCandidaFriendly: false,
+        isKeto: false,
+        translations: {
+          en: {
+            title: extracted.title,
+            subtitle: getFirstSentence(cleanDescEN || extracted.title),
+            description: cleanDescEN,
+            instructions: extracted.steps
+          },
+          nl: {
+            title: titleNL,
+            subtitle: getFirstSentence(cleanDescNL || titleNL),
+            description: cleanDescNL,
+            instructions: stepsNL
+          },
+          fr: {
+            title: titleFR,
+            subtitle: getFirstSentence(cleanDescFR || titleFR),
+            description: cleanDescFR,
+            instructions: stepsFR
+          }
         },
-        nl: {
-          title: titleNL,
-          subtitle: getFirstSentence(descNL || titleNL),
-          description: descNL,
-          instructions: stepsNL
-        },
-        fr: {
-          title: titleFR,
-          subtitle: getFirstSentence(descFR || titleFR),
-          description: descFR,
-          instructions: stepsFR
-        }
-      },
       ingredients: translatedIngredients
     };
 
