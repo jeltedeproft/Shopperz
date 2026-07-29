@@ -20,18 +20,15 @@ const uiTranslations = {
     recipeCategoryCustom: "Custom",
     createRecipeHeader: "Create Custom Recipe",
     checklistTitle: "Grocery List",
-    checklistDesc: "Sorted by supermarket aisles for quick navigation",
+    checklistDesc: "Sorted by food categories for quick navigation",
     editListBtn: "✍️ Edit List",
     inStoreBtn: "🛒 In-Store",
     clearCheckedBtn: "Clear Checked",
     customItemPlaceholder: "E.g., 500g witloof or 2 bottles beer...",
     emptyListHeader: "Your checklist is empty",
-    emptyListDesc: "Select recipes or add items manually before heading to the store!",
+    emptyListDesc: "Select recipes or add items manually!",
     prefTitle: "Preferences",
-    prefDesc: "Configure language and supermarket defaults",
-    storeLayoutTitle: "Supermarket Route Layout",
-    storeSelectLabel: "Preferred Store",
-    storeSelectDesc: "Organises checklist to match aisles layout",
+    prefDesc: "Configure language preferences",
     langGroupTitle: "Language Settings",
     langSelectLabel: "App Language",
     langSelectDesc: "Choose the interface language",
@@ -101,18 +98,15 @@ const uiTranslations = {
     recipeCategoryCustom: "Eigen recepten",
     createRecipeHeader: "Nieuw Recept Toevoegen",
     checklistTitle: "Boodschappenlijst",
-    checklistDesc: "Gesorteerd per supermarktafdeling voor snel winkelen",
+    checklistDesc: "Gesorteerd per voedselcategorie voor snel winkelen",
     editListBtn: "✍️ Lijst bewerken",
     inStoreBtn: "🛒 In de winkel",
     clearCheckedBtn: "Wis afgevinkt",
     customItemPlaceholder: "Bv. 500g witloof of 2 flessen bier...",
     emptyListHeader: "Je boodschappenlijst is leeg",
-    emptyListDesc: "Selecteer recepten of voeg zelf items toe voordat je gaat winkelen!",
+    emptyListDesc: "Selecteer recepten of voeg zelf items toe!",
     prefTitle: "Instellingen",
-    prefDesc: "Stel de taal en supermarkt voorkeuren in",
-    storeLayoutTitle: "Winkel Route-indeling",
-    storeSelectLabel: "Voorkeurswinkel",
-    storeSelectDesc: "Sorteert boodschappen op winkelafdeling",
+    prefDesc: "Stel de taalvoorkeuren in",
     langGroupTitle: "Taalinstellingen",
     langSelectLabel: "App Taal",
     langSelectDesc: "Kies de interfacetaal van de app",
@@ -182,7 +176,7 @@ const uiTranslations = {
     recipeCategoryCustom: "Personnalisées",
     createRecipeHeader: "Créer une Recette Custom",
     checklistTitle: "Liste de Courses",
-    checklistDesc: "Triée par rayon de supermarché pour un parcours rapide",
+    checklistDesc: "Triée par catégories pour une navigation rapide",
     editListBtn: "✍️ Modifier Liste",
     inStoreBtn: "🛒 En magasin",
     clearCheckedBtn: "Effacer cochés",
@@ -190,10 +184,7 @@ const uiTranslations = {
     emptyListHeader: "Votre liste est vide",
     emptyListDesc: "Sélectionnez des recettes ou ajoutez des articles manuellement !",
     prefTitle: "Préférences",
-    prefDesc: "Configurez la langue et le magasin par défaut",
-    storeLayoutTitle: "Parcours en Supermarché",
-    storeSelectLabel: "Magasin Préféré",
-    storeSelectDesc: "Trie vos courses selon l'agencement des rayons",
+    prefDesc: "Configurez la langue de l'application",
     langGroupTitle: "Paramètres de Langue",
     langSelectLabel: "Langue de l'App",
     langSelectDesc: "Choisissez la langue de l'interface",
@@ -245,48 +236,15 @@ const uiTranslations = {
   }
 };
 
-const supermarketTips = {
-  Colruyt: {
-    icon: '🛒',
-    en: 'Colruyt does not heat its fresh market. Meat, cheese, and vegetables are in a large cold-room (versmarkt). <strong>Bring a sweater</strong>! Also, bring a €1 or €2 coin for the shopping trolley.',
-    nl: 'Colruyt verwarmt de versmarkt niet. Vlees, kaas en groenten liggen in een grote koelcel. <strong>Neem een trui of jas mee</strong>! Zorg ook voor een muntstuk van €1 of €2 voor de winkelkar.',
-    fr: 'Colruyt ne chauffe pas son marché frais. La viande, le fromage et les légumes se trouvent dans une grande chambre froide. <strong>Apportez un pull</strong>! Prévoyez aussi une pièce de 1€ ou 2€ pour le caddie.'
-  },
-  Delhaize: {
-    icon: '🦁',
-    en: 'Delhaize features premium organic (Bio) sections. Look for green shelf labels to identify Nutri-Score A/B items. Keep your <strong>SuperPlus card</strong> ready at the check-out for healthy discounts.',
-    nl: 'Delhaize blinkt uit in bio-producten. Let op de groene schaplabels voor gezonde Nutri-Score A/B artikelen. Houd je <strong>SuperPlus-kaart</strong> bij de hand voor directe kortingen.',
-    fr: 'Delhaize propose d\'excellents rayons bio. Repérez les étiquettes vertes pour identifier les articles sains Nutri-Score A/B. Ayez votre <strong>carte SuperPlus</strong> prête pour des réductions.'
-  },
-  Carrefour: {
-    icon: '🔵',
-    en: 'Carrefour Hypermarkets are massive. Grouping your shopping list by category is vital to avoid crossing the store multiple times. Scan your <strong>Bonus Card</strong> to collect points.',
-    nl: 'Carrefour Hypermarkten zijn gigantisch. Sorteer je lijst per afdeling om heen-en-weer lopen te vermijden. Scan je <strong>Bonus Card</strong> om punten te sparen voor kortingsbonnen.',
-    fr: 'Les hypermarchés Carrefour sont immenses. Grouper votre liste par rayon est essentiel pour s\'épargner des allers-retours. Scannez votre <strong>carte Bonus</strong> pour accumuler des points.'
-  },
-  AlbertHeijn: {
-    icon: '🔵',
-    en: 'AH stores in Belgium combine Dutch favorites and local brands. <strong>You MUST scan a Bonus Card</strong> at checkout to unlock discount prices, which are significantly cheaper.',
-    nl: 'AH winkels in België mixen Nederlandse favorieten met Belgische merken. <strong>Je MOET een Bonuskaart scannen</strong> aan de kassa om kortingen (Bonus) te ontvangen.',
-    fr: 'Les magasins AH en Belgique combinent des marques néerlandaises et locales. <strong>Vous DEVEZ scanner une carte Bonus</strong> pour bénéficier des prix promotionnels.'
-  },
-  Jumbo: {
-    icon: '🟡',
-    en: 'Jumbo is famous for its "7 Zekerheden" (7 Guarantees). Scan your <strong>Jumbo Extra</strong> app or card at checkout to save points for discounts and free groceries.',
-    nl: 'Jumbo staat bekend om zijn 7 Zekerheden. Scan je <strong>Jumbo Extra’s</strong> app of pas aan de kassa om punten te sparen voor gratis boodschappen.',
-    fr: 'Jumbo est réputé pour ses 7 Garanties. Scannez votre application ou carte <strong>Jumbo Extra</strong> à la caisse pour accumuler des points et obtenir des réductions.'
-  }
-};
-
-// Typical walk-through sorting order in Belgian Supermarkets
-const standardAisleOrder = [
-  "Groenten & Fruit",       // Produce (entry)
+// Generic food category sorting order for the grocery list
+const foodCategoryOrder = [
+  "Groenten & Fruit",       // Produce
   "Visafdeling",            // Seafood
   "Slagerij & Gevogelte",   // Meat/Poultry
   "Zuivel & Eieren",        // Dairy
   "Bakkerij",               // Bakery
   "Kruidenier",             // Pantry
-  "Bieren & Dranken"        // Drinks (near exit)
+  "Bieren & Dranken"        // Drinks
 ];
 
 // --- State Management ---
@@ -296,7 +254,6 @@ let state = {
   selectedRecipes: [], // For batch converting
   favorites: [], // Favorites bookmarking list
   settings: {
-    supermarket: 'Colruyt',
     language: 'en'
   },
   activeTab: 'home',
@@ -308,7 +265,7 @@ let state = {
 // --- Initialization ---
 function initApp() {
   // Version-controlled database migration to push new images/recipes to cached local storage
-  const CURRENT_DB_VERSION = "v3";
+  const CURRENT_DB_VERSION = "v4";
   const storedDbVersion = localStorage.getItem('belgian_db_version');
   if (storedDbVersion !== CURRENT_DB_VERSION) {
     localStorage.removeItem('belgian_recipes');
@@ -528,17 +485,7 @@ function setupEventListeners() {
   document.getElementById('mode-store-btn').addEventListener('click', () => toggleShoppingMode(true));
   document.getElementById('clear-grocery-btn').addEventListener('click', clearCompletedGroceryItems);
 
-  // Supermarket Selector
-  const storeSelect = document.getElementById('supermarket-select');
-  if (storeSelect) {
-    storeSelect.addEventListener('change', (e) => {
-      state.settings.supermarket = e.target.value;
-      saveSettings();
-      renderHomeHeader();
-      renderHomeTab();
-      showToast(`Store profile: ${e.target.value}`, 'info');
-    });
-  }
+  // (Store selection listener removed)
 
   // Reset actions
   document.getElementById('reset-data-btn').addEventListener('click', () => {
@@ -606,48 +553,17 @@ function setupEventListeners() {
 
 // --- Render Controllers ---
 function renderApp() {
-  renderHomeHeader();
   renderHomeTab();
   renderRecipesList();
   renderGroceryList();
   renderSettingsTab();
 }
 
-function renderHomeHeader() {
-  const badgeContainer = document.getElementById('market-badge-container');
-  if (badgeContainer) {
-    badgeContainer.innerHTML = `
-      <div class="market-badge" onclick="switchTab('settings')">
-        <span>📍 Store: <strong>${state.settings.supermarket}</strong></span>
-      </div>
-    `;
-  }
-}
-
 function renderHomeTab(filterQuery = '') {
   const lang = state.settings.language;
   const dict = uiTranslations[lang];
 
-  // 1. Tip Box rendering
-  const tipContainer = document.getElementById('store-tip-container');
-  const activeShop = state.settings.supermarket;
-  const rawTipKey = activeShop.replace(/\s+/g, '');
-  const tip = supermarketTips[rawTipKey] || supermarketTips['Colruyt'];
-  
-  if (tipContainer) {
-    const storeLabel = activeShop === 'Albert Heijn' ? 'Albert Heijn' : activeShop;
-    tipContainer.innerHTML = `
-      <div class="store-tip-box">
-        <span style="font-size: 20px;">${tip.icon}</span>
-        <div>
-          <strong>${storeLabel} tip</strong>
-          ${tip[lang]}
-        </div>
-      </div>
-    `;
-  }
-
-  // 2. Suggestion Recipe Card
+  // 1. Suggestion Recipe Card
   const featuredContainer = document.getElementById('featured-recipe-container');
   const featuredRecipe = state.recipes.find(r => r.id === 'carbonnade-flamande') || state.recipes[0];
   
@@ -893,10 +809,6 @@ function filterRecipes(category, query) {
 }
 
 function renderSettingsTab() {
-  const storeSelect = document.getElementById('supermarket-select');
-  if (storeSelect) {
-    storeSelect.value = state.settings.supermarket;
-  }
   const langSelect = document.getElementById('language-select');
   if (langSelect) {
     langSelect.value = state.settings.language;
@@ -1209,10 +1121,10 @@ function renderGroceryList() {
     groups[item.category].push(item);
   });
 
-  // Sort groups by typical supermarket aisle order
+  // Sort groups by generic food category order
   const sortedCategories = Object.keys(groups).sort((a, b) => {
-    let idxA = standardAisleOrder.indexOf(a);
-    let idxB = standardAisleOrder.indexOf(b);
+    let idxA = foodCategoryOrder.indexOf(a);
+    let idxB = foodCategoryOrder.indexOf(b);
     if (idxA === -1) idxA = 999;
     if (idxB === -1) idxB = 999;
     return idxA - idxB;
