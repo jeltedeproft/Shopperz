@@ -132,6 +132,14 @@ function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
   return steps;
 }
 
+// --- Helper: Extract first sentence from text for appetizing recipe card subtitles ---
+function getFirstSentence(text) {
+  if (!text) return "";
+  const clean = text.replace(/<[^>]*>?/gm, '').trim();
+  const match = clean.match(/^[^.!?]+[.!?]/);
+  return match ? match[0].trim() : clean;
+}
+
 // --- Main Engine ---
 async function main() {
   const args = process.argv.slice(2);
@@ -244,19 +252,19 @@ async function main() {
           translations: {
             en: {
               title: recipe.title,
-              subtitle: "Spoonacular Import",
+              subtitle: getFirstSentence(recipe.summary || recipe.title),
               description: recipe.summary ? recipe.summary.replace(/<[^>]*>?/gm, '') : recipe.title,
               instructions: steps
             },
             nl: {
               title: titleNL,
-              subtitle: "Spoonacular-import",
+              subtitle: getFirstSentence(descNL || titleNL),
               description: descNL,
               instructions: stepsNL
             },
             fr: {
               title: titleFR,
-              subtitle: "Import Spoonacular",
+              subtitle: getFirstSentence(descFR || titleFR),
               description: descFR,
               instructions: stepsFR
             }

@@ -243,6 +243,14 @@ function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
   return steps;
 }
 
+// --- Helper: Extract first sentence from text for appetizing recipe card subtitles ---
+function getFirstSentence(text) {
+  if (!text) return "";
+  const clean = text.replace(/<[^>]*>?/gm, '').trim();
+  const match = clean.match(/^[^.!?]+[.!?]/);
+  return match ? match[0].trim() : clean;
+}
+
 // --- Importer: Method 1 (Spoonacular API with Key) ---
 async function fetchSpoonacular(recipeId, apiKey) {
   console.log(`📡 Fetching from Spoonacular (Recipe ID: ${recipeId})...`);
@@ -361,19 +369,19 @@ async function main() {
       translations: {
         en: {
           title: extracted.title,
-          subtitle: "Imported Recipe",
+          subtitle: getFirstSentence(extracted.desc || extracted.title),
           description: extracted.desc,
           instructions: extracted.steps
         },
         nl: {
           title: titleNL,
-          subtitle: "Geïmporteerd recept",
+          subtitle: getFirstSentence(descNL || titleNL),
           description: descNL,
           instructions: stepsNL
         },
         fr: {
           title: titleFR,
-          subtitle: "Recette importée",
+          subtitle: getFirstSentence(descFR || titleFR),
           description: descFR,
           instructions: stepsFR
         }
