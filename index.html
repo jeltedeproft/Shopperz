@@ -87,13 +87,66 @@
           <p style="font-size: 12px; color: var(--text-secondary);" data-translate="recipeBookDesc">Your collection of premium Belgian dishes</p>
         </header>
 
-        <!-- Search bar -->
-        <div class="search-container">
-          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-          <input type="text" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="Search by name or ingredients...">
+        <!-- Search bar & Filter Trigger -->
+        <div class="search-container" style="display: flex; gap: 8px; margin-bottom: 12px;">
+          <div style="position: relative; flex: 1;">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="Search by name or ingredients...">
+          </div>
+          <button type="button" id="recipe-filter-toggle-btn" class="btn-small" style="height: 44px; width: 44px; border-radius: var(--radius-md); display: flex; justify-content: center; align-items: center; background: var(--bg-secondary); border: 1px solid var(--border-color); flex-shrink: 0;" title="Filters">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px; color: var(--text-primary);">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Sliding Expandable Filter Tray -->
+        <div id="recipe-filter-tray" style="display: none; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 12px; margin-bottom: 16px;">
+          <div style="margin-bottom: 12px;">
+            <span style="font-size: 10px; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.5px;" data-translate="dietFilterLabel">Diets</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+              <label class="filter-pill-label">
+                <input type="checkbox" class="diet-filter-cb" value="vegetarian">
+                <span data-translate="dietVegetarian">Vegetarian</span>
+              </label>
+              <label class="filter-pill-label">
+                <input type="checkbox" class="diet-filter-cb" value="vegan">
+                <span data-translate="dietVegan">Vegan</span>
+              </label>
+              <label class="filter-pill-label">
+                <input type="checkbox" class="diet-filter-cb" value="candida">
+                <span data-translate="dietCandida">Candida Diet</span>
+              </label>
+              <label class="filter-pill-label">
+                <input type="checkbox" class="diet-filter-cb" value="keto">
+                <span data-translate="dietKeto">Keto</span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <span style="font-size: 10px; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.5px;" data-translate="intoleranceFilterLabel">Allergens & Intolerances</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+              <label class="filter-pill-label">
+                <input type="checkbox" class="intol-filter-cb" value="gluten">
+                <span data-translate="intolGluten">Gluten-Free</span>
+              </label>
+              <label class="filter-pill-label">
+                <input type="checkbox" class="intol-filter-cb" value="nuts">
+                <span data-translate="intolNuts">Nut-Free</span>
+              </label>
+              <label class="filter-pill-label">
+                <input type="checkbox" class="intol-filter-cb" value="dairy">
+                <span data-translate="intolDairy">Dairy-Free</span>
+              </label>
+              <label class="filter-pill-label">
+                <input type="checkbox" class="intol-filter-cb" value="eggs">
+                <span data-translate="intolEggs">Egg-Free</span>
+              </label>
+            </div>
+          </div>
         </div>
 
         <!-- Horizontal Categories Scroller -->
@@ -212,6 +265,18 @@
               <option value="nl">Nederlands</option>
               <option value="fr">Français</option>
             </select>
+          </div>
+        </div>
+
+        <!-- Database Scale Testing -->
+        <div class="settings-group">
+          <div class="settings-group-title" data-translate="scaleTestTitle">Performance Scale Testing</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="scaleTestLabel">Load 2,000 Demo Recipes</div>
+              <div class="settings-desc" data-translate="scaleTestDesc">Simulate thousands of recipes to test search speed</div>
+            </div>
+            <button id="generate-bulk-btn" class="btn-small" style="color: var(--accent-gold); border-color: var(--border-color);" data-translate="generateBtnText">Generate</button>
           </div>
         </div>
 

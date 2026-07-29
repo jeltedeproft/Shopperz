@@ -1693,3 +1693,31 @@ textarea.form-control {
   transform: scale(1);
 }
 
+/* Custom Filter Tag Pills Checkboxes */
+.filter-pill-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  padding: 6px 10px;
+  border-radius: 14px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  user-select: none;
+  transition: var(--transition-fast);
+}
+.filter-pill-label:hover {
+  background: var(--bg-surface);
+}
+.filter-pill-label input {
+  display: none; /* Hide default checkbox */
+}
+.filter-pill-label:has(input:checked) {
+  background: var(--accent-gold-dim);
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+

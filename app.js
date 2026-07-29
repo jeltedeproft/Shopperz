@@ -64,7 +64,22 @@ const uiTranslations = {
     aisleBakery: "🍞 Bakery",
     aisleDrinks: "🍺 Beverages / Belgian Beers",
     aislePantry: "🥫 Pantry / Grocery",
-    aisleSeafood: "🐟 Seafood"
+    aisleSeafood: "🐟 Seafood",
+    // Filters UI
+    dietFilterLabel: "Diets",
+    intoleranceFilterLabel: "Allergens & Intolerances",
+    dietVegetarian: "Vegetarian",
+    dietVegan: "Vegan",
+    dietCandida: "Candida Diet",
+    dietKeto: "Keto",
+    intolGluten: "Gluten-Free",
+    intolNuts: "Nut-Free",
+    intolDairy: "Dairy-Free",
+    intolEggs: "Egg-Free",
+    scaleTestTitle: "Performance Scale Testing",
+    scaleTestLabel: "Load 2,000 Demo Recipes",
+    scaleTestDesc: "Simulate thousands of recipes to test search speed",
+    generateBtnText: "Generate"
   },
   nl: {
     appTitle: "Mijn Kookpot",
@@ -130,7 +145,22 @@ const uiTranslations = {
     aisleBakery: "🍞 Bakkerij",
     aisleDrinks: "🍺 Bieren & Dranken",
     aislePantry: "🥫 Kruidenier",
-    aisleSeafood: "🐟 Visafdeling"
+    aisleSeafood: "🐟 Visafdeling",
+    // Filters UI
+    dietFilterLabel: "Diëten",
+    intoleranceFilterLabel: "Allergenen & Intoleranties",
+    dietVegetarian: "Vegetarisch",
+    dietVegan: "Vegan",
+    dietCandida: "Candida Dieet",
+    dietKeto: "Keto",
+    intolGluten: "Glutenvrij",
+    intolNuts: "Notenvrij",
+    intolDairy: "Lactosevrij",
+    intolEggs: "Eivrij",
+    scaleTestTitle: "Prestatie Schaaltest",
+    scaleTestLabel: "Laad 2.000 testrecepten",
+    scaleTestDesc: "Simuleer duizenden recepten om de zoeksnelheid te testen",
+    generateBtnText: "Genereren"
   },
   fr: {
     appTitle: "Mijn Kookpot",
@@ -196,7 +226,22 @@ const uiTranslations = {
     aisleBakery: "🍞 Boulangerie",
     aisleDrinks: "🍺 Bières & Boissons",
     aislePantry: "🥫 Épicerie",
-    aisleSeafood: "🐟 Poissonnerie"
+    aisleSeafood: "🐟 Poissonnerie",
+    // Filters UI
+    dietFilterLabel: "Régimes",
+    intoleranceFilterLabel: "Allergènes & Intolérances",
+    dietVegetarian: "Végétarien",
+    dietVegan: "Végétalien",
+    dietCandida: "Régime Candida",
+    dietKeto: "Cétogène (Keto)",
+    intolGluten: "Sans Gluten",
+    intolNuts: "Sans Noix",
+    intolDairy: "Sans Lactose",
+    intolEggs: "Sans Œufs",
+    scaleTestTitle: "Test de Performance",
+    scaleTestLabel: "Charger 2 000 recettes",
+    scaleTestDesc: "Simuler des milliers de recettes pour tester la vitesse",
+    generateBtnText: "Générer"
   }
 };
 
@@ -497,6 +542,34 @@ function setupEventListeners() {
       showToast(lang === 'nl' ? 'Boodschappenlijst leeg!' : lang === 'fr' ? 'Liste vidée !' : 'Grocery list wiped!', 'info');
     }
   });
+
+  // Filter tray toggle
+  const filterToggle = document.getElementById('recipe-filter-toggle-btn');
+  if (filterToggle) {
+    filterToggle.addEventListener('click', () => {
+      const tray = document.getElementById('recipe-filter-tray');
+      const isHidden = tray.style.display === 'none';
+      tray.style.display = isHidden ? 'block' : 'none';
+      filterToggle.style.borderColor = isHidden ? 'var(--accent-gold)' : 'var(--border-color)';
+      filterToggle.style.background = isHidden ? 'var(--accent-gold-dim)' : 'var(--bg-secondary)';
+    });
+  }
+
+  // Filter checkboxes change triggers re-filtration
+  document.querySelectorAll('.diet-filter-cb, .intol-filter-cb').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const searchVal = document.getElementById('recipe-search').value.toLowerCase();
+      const activePill = document.querySelector('#recipe-categories-row .cat-pill.active');
+      const category = activePill ? activePill.dataset.category : 'All';
+      filterRecipes(category, searchVal);
+    });
+  });
+
+  // Bulk generation of 2,000 recipes for performance testing
+  const bulkGenBtn = document.getElementById('generate-bulk-btn');
+  if (bulkGenBtn) {
+    bulkGenBtn.addEventListener('click', generateBulkRecipes);
+  }
 }
 
 // --- Render Controllers ---
@@ -593,6 +666,9 @@ function renderHomeTab(filterQuery = '') {
                r.ingredients.some(i => (i.name[lang] || i.name['en']).toLowerCase().includes(filterQuery));
       });
     }
+
+    // Cap Home grid display at 6 recipes for visual layout comfort
+    filteredList = filteredList.slice(0, 6);
 
     if (filteredList.length === 0) {
       homeGrid.innerHTML = `<div style="grid-column: span 2; text-align: center; color: var(--text-secondary); padding: 20px;">No recipes match "${filterQuery}"</div>`;
@@ -692,7 +768,6 @@ function filterRecipes(category, query) {
     if (category === 'Custom') {
       filtered = state.recipes.filter(r => r.id.startsWith('custom-'));
     } else {
-      // Matches translated categories or EN fallback
       filtered = state.recipes.filter(r => {
         const catEN = r.category['en'];
         return catEN === category || (category === 'Belgian Classics' && catEN === 'Belgian Classics') || (category === 'Comfort Food' && catEN === 'Comfort Food') || (category === 'Seafood' && catEN === 'Seafood');
@@ -700,13 +775,37 @@ function filterRecipes(category, query) {
     }
   }
 
-  // Search filter
+  // Search query filter
   if (query) {
     filtered = filtered.filter(r => {
       const tr = r.translations[lang] || r.translations['en'];
       return tr.title.toLowerCase().includes(query) || 
              tr.subtitle.toLowerCase().includes(query) ||
              r.ingredients.some(i => (i.name[lang] || i.name['en']).toLowerCase().includes(query));
+    });
+  }
+
+  // Diet filter checkboxes
+  const selectedDiets = Array.from(document.querySelectorAll('.diet-filter-cb:checked')).map(cb => cb.value);
+  if (selectedDiets.length > 0) {
+    filtered = filtered.filter(r => {
+      if (selectedDiets.includes('vegetarian') && !r.isVegetarian) return false;
+      if (selectedDiets.includes('vegan') && !r.isVegan) return false;
+      if (selectedDiets.includes('candida') && !r.isCandidaFriendly) return false;
+      if (selectedDiets.includes('keto') && !r.isKeto) return false;
+      return true;
+    });
+  }
+
+  // Allergen/Intolerance filter checkboxes
+  const selectedIntols = Array.from(document.querySelectorAll('.intol-filter-cb:checked')).map(cb => cb.value);
+  if (selectedIntols.length > 0) {
+    filtered = filtered.filter(r => {
+      if (selectedIntols.includes('gluten') && !r.isGlutenFree) return false;
+      if (selectedIntols.includes('nuts') && !r.isNutFree) return false;
+      if (selectedIntols.includes('dairy') && !r.isDairyFree) return false;
+      if (selectedIntols.includes('eggs') && !r.isEggFree) return false;
+      return true;
     });
   }
 
@@ -927,6 +1026,7 @@ function openRecipeDrawer(recipeId) {
   document.getElementById('recipe-drawer').classList.add('active');
 }
 
+// Standard close drawer
 function closeRecipeDrawer() {
   document.getElementById('drawer-backdrop').classList.remove('active');
   document.getElementById('recipe-drawer').classList.remove('active');
@@ -978,7 +1078,7 @@ function renderRecipeInstructions(steps) {
     </div>
   `).join('');
 
-  // Settle complete checklists inside cooking drawer
+  // Toggles complete visual markers on instructions list
   container.querySelectorAll('.step-card').forEach(card => {
     card.addEventListener('click', (e) => {
       e.currentTarget.classList.toggle('completed');
@@ -1277,7 +1377,8 @@ function saveGroceryList() {
   localStorage.setItem('belgian_grocery_list', JSON.stringify(state.groceryList));
 }
 
-// --- Custom Recipe Builder ---
+
+// --- Add Custom Recipe Form Handler ---
 function openRecipeModal() {
   state.customRecipeIngredients = [];
   renderFormIngredientsPreview();
@@ -1366,7 +1467,7 @@ function handleCustomRecipeSubmit(e) {
     return;
   }
 
-  // Create trilingual block using written values for all languages as default
+  // Determine standard dietary flags for custom recipe (Default true for simplicity, editable by code)
   const newRecipe = {
     id: 'custom-' + Date.now(),
     prepTime: prepTime,
@@ -1375,6 +1476,14 @@ function handleCustomRecipeSubmit(e) {
     servings: servings,
     category: { en: category, nl: category, fr: category },
     image: 'images/witloof_gratin.jpg', // fallback gratin
+    isGlutenFree: true,
+    isNutFree: true,
+    isDairyFree: true,
+    isEggFree: true,
+    isVegetarian: true,
+    isVegan: true,
+    isCandidaFriendly: true,
+    isKeto: false,
     translations: {
       en: { title, subtitle, description, instructions },
       nl: { title, subtitle, description, instructions },
@@ -1395,6 +1504,110 @@ function handleCustomRecipeSubmit(e) {
   renderHomeTab();
   closeRecipeModal();
   showToast(`Created: ${newRecipe.translations[lang].title}`, 'success');
+}
+
+// --- Developer Tool: Bulk Recipe Simulator (Scale Testing) ---
+function generateBulkRecipes() {
+  const rawRecipes = [];
+  const diffs = [
+    { en: "Easy", nl: "Gemakkelijk", fr: "Facile" },
+    { en: "Medium", nl: "Gemiddeld", fr: "Moyen" },
+    { en: "Hard", nl: "Moeilijk", fr: "Difficile" }
+  ];
+  const categories = [
+    { en: "Belgian Classics", nl: "Belgische Klassiekers", fr: "Classiques Belges" },
+    { en: "Comfort Food", nl: "Dagelijkse Kost", fr: "Plats Réconfortants" },
+    { en: "Seafood", nl: "Vis & Zeevruchten", fr: "Fruits de Mer" }
+  ];
+  const names = [
+    { en: "Stoemp with", nl: "Stoemp met", fr: "Stoemp aux" },
+    { en: "Flemish", nl: "Vlaamse", fr: "Marmite" },
+    { en: "Ghent Style", nl: "Gentse", fr: "Gantoise" },
+    { en: "Brussels Special", nl: "Brusselse", fr: "Spécialité Bruxelloise" }
+  ];
+  const foods = [
+    { en: "Leeks", nl: "prei", fr: "poireaux" },
+    { en: "Apples", nl: "appels", fr: "pommes" },
+    { en: "Endives", nl: "witloof", fr: "chicons" },
+    { en: "Mushrooms", nl: "champignons", fr: "champignons" },
+    { en: "Beer sauce", nl: "biersaus", fr: "sauce à la bière" },
+    { en: "Cheese gratin", nl: "kaasgratin", fr: "gratin au fromage" }
+  ];
+
+  for (let i = 1; i <= 2000; i++) {
+    const nameTemplate = names[Math.floor(Math.random() * names.length)];
+    const foodTemplate = foods[Math.floor(Math.random() * foods.length)];
+    const prep = (10 + Math.floor(Math.random() * 40)) + " mins";
+    const cook = (15 + Math.floor(Math.random() * 90)) + " mins";
+    const diff = diffs[Math.floor(Math.random() * diffs.length)];
+    const cat = categories[Math.floor(Math.random() * categories.length)];
+    const servings = 2 + Math.floor(Math.random() * 6);
+    
+    // Random allergen/diet configurations
+    const isGF = Math.random() > 0.5;
+    const isNF = Math.random() > 0.3;
+    const isDF = Math.random() > 0.5;
+    const isEF = Math.random() > 0.3;
+    const isVeg = Math.random() > 0.4;
+    const isVegan = isVeg && Math.random() > 0.5;
+    const isCandida = isGF && isDF && Math.random() > 0.5;
+    const isKeto = Math.random() > 0.6;
+
+    rawRecipes.push({
+      id: `bulk-${i}`,
+      prepTime: prep,
+      cookTime: cook,
+      difficulty: diff,
+      servings: servings,
+      category: cat,
+      image: "images/witloof_gratin.jpg",
+      isGlutenFree: isGF,
+      isNutFree: isNF,
+      isDairyFree: isDF,
+      isEggFree: isEF,
+      isVegetarian: isVeg,
+      isVegan: isVegan,
+      isCandidaFriendly: isCandida,
+      isKeto: isKeto,
+      translations: {
+        en: {
+          title: `${nameTemplate.en} ${foodTemplate.en} #${i}`,
+          subtitle: "Simulated Scale Test Recipe",
+          description: "A simulated Belgian recipe for performance testing.",
+          instructions: ["Clean ingredients.", "Heat through.", "Serve hot."]
+        },
+        nl: {
+          title: `${nameTemplate.nl} ${foodTemplate.nl} #${i}`,
+          subtitle: "Gesimuleerd testrecept",
+          description: "Een gesimuleerd Belgisch recept om laadsnelheden te testen.",
+          instructions: ["Maak ingrediënten schoon.", "Warm alles goed door.", "Serveer warm."]
+        },
+        fr: {
+          title: `${nameTemplate.fr} ${foodTemplate.fr} #${i}`,
+          subtitle: "Recette de test simulée",
+          description: "Une recette belge simulée pour tester les performances de recherche.",
+          instructions: ["Nettoyer les ingrédients.", "Faire chauffer le tout.", "Servir chaud."]
+        }
+      },
+      ingredients: [
+        { name: { en: "Simulated Ingredient", nl: "Gesimuleerd ingrediënt", fr: "Ingrédient simulé" }, amount: 200, unit: "g", category: "Kruidenier" }
+      ]
+    });
+  }
+
+  // Merge bulk recipes in memory (omit saving to localStorage to prevent quota exhaustion)
+  state.recipes = [...state.recipes.filter(r => !r.id.startsWith('bulk-')), ...rawRecipes];
+  
+  const lang = state.settings.language;
+  const msg = lang === 'nl' 
+    ? "⚡ Succesvol 2.000 testrecepten ingeladen!" 
+    : lang === 'fr' 
+    ? "⚡ 2 000 recettes de test chargées !" 
+    : "⚡ Successfully loaded 2,000 test recipes!";
+  
+  showToast(msg, "success");
+  renderRecipesList();
+  renderHomeTab();
 }
 
 // --- Notification Banner ---
