@@ -164,39 +164,143 @@ header {
   margin-bottom: 20px;
   display: flex;
   gap: 8px;
+  align-items: center;
 }
 
-.search-input-wrapper {
+.search-container > div {
   position: relative;
   flex: 1;
+  display: flex;
+  align-items: center;
 }
 
-.search-input-wrapper svg {
+.search-icon {
   position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 12px;
   width: 14px;
   height: 14px;
   color: var(--accent-gold);
   pointer-events: none;
+  z-index: 5;
 }
 
-.search-bar {
+.search-input {
   width: 100%;
+  height: 44px;
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
-  padding: 10px 16px 10px 38px;
+  padding: 10px 16px 10px 34px;
   color: var(--text-primary);
   font-family: var(--font-body);
   font-size: 12px;
   outline: none;
+  transition: all var(--transition-fast);
 }
 
-.search-bar:focus {
+.search-input:focus {
   border-color: var(--accent-gold);
 }
+
+/* Grocery Checklist Controls & Modes */
+.list-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 8px;
+}
+
+.shopping-mode-toggle {
+  display: flex;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.mode-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.mode-btn.active {
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+}
+
+.clear-btn {
+  background: var(--danger-dim);
+  border: 1px solid var(--danger);
+  color: var(--danger);
+  padding: 6px 12px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+  height: 32px;
+}
+
+.clear-btn:hover {
+  background: var(--danger);
+  color: var(--text-primary);
+}
+
+.clear-btn svg {
+  width: 12px;
+  height: 12px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+}
+
+/* Progress bar container box */
+.progress-container {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.progress-bar-bg {
+  width: 100%;
+  height: 5px;
+  background: var(--bg-surface);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--accent-gold);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
 
 .filter-toggle-btn {
   background: var(--bg-secondary);
