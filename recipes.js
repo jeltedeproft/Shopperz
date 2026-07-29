@@ -1598,5 +1598,424 @@ window.initialRecipes = [
         "category": "Kruidenier"
       }
     ]
+  },
+  {
+    "id": "spoonacular-659135",
+    "prepTime": "45 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": {
+      "en": "Custom",
+      "nl": "Eigen recepten",
+      "fr": "Personnalisées"
+    },
+    "image": "https://img.spoonacular.com/recipes/659135-312x231.jpg",
+    "isGlutenFree": true,
+    "isNutFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "translations": {
+      "en": {
+        "title": "Salmon with roasted vegetables",
+        "subtitle": "Spoonacular Import",
+        "description": "Salmon with roasted vegetables takes approximately 45 minutes from beginning to end. For $5.2 per serving, this recipe covers 45% of your daily requirements of vitamins and minerals. This recipe serves 2. One serving contains 496 calories, 39g of protein, and 18g of fat. Head to the store and pick up lemon juice, salt, carrot, and a few other things to make it today. Not a lot of people made this recipe, and 7 would say it hit the spot. It works well as a main course. It is a good option if you're following a gluten free, dairy free, whole 30, and pescatarian diet. It is brought to you by Foodista. Overall, this recipe earns a great spoonacular score of 94%. If you like this recipe, take a look at these similar recipes: Roasted Salmon & Vegetables, Roasted Salmon & Vegetables, and Salmon with roasted vegetables.",
+        "instructions": [
+          "Clean ingredients, prepare, and serve."
+        ]
+      },
+      "nl": {
+        "title": "Zalm met geroosterde groenten",
+        "subtitle": "Spoonacular-import",
+        "description": "Zalm met geroosterde groenten duurt van begin tot eind ongeveer 45 minuten. Voor $ 5,2 per portie dekt dit recept 45% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept is voor 2 personen. Eén portie bevat 496 calorieën, 39 g eiwit en 18 g vet. Ga naar de winkel en koop citroensap, zout, wortel en nog een paar andere dingen om het vandaag te maken. Niet veel mensen hebben dit recept gemaakt, en 7 zouden zeggen dat het een schot in de roos was. Het werkt goed als hoofdgerecht. Het is een goede optie als u een glutenvrij, zuivelvrij, geheel 30- en pescatarisch dieet volgt. Het wordt u aangeboden door Foodista. Over het geheel genomen verdient dit recept een geweldige lepelscore van 94%. Als je dit recept lekker vindt, kijk dan eens naar deze vergelijkbare recepten: Geroosterde zalm en groenten, Geroosterde zalm en groenten en Zalm met geroosterde groenten.",
+        "instructions": [
+          "Reinig de ingrediënten, bereid ze voor en serveer."
+        ]
+      },
+      "fr": {
+        "title": "Saumon aux légumes rôtis",
+        "subtitle": "Import Spoonacular",
+        "description": "Le saumon aux légumes rôtis prend environ 45 minutes du début à la fin. Pour 5,2 $ par portion, cette recette couvre 45 % de vos besoins quotidiens en vitamines et minéraux. Cette recette en sert 2. Une portion contient 496 calories, 39 g de protéines et 18 g de matières grasses. Rendez-vous au magasin et procurez-vous du jus de citron, du sel, des carottes et quelques autres éléments pour le préparer aujourd'hui. Peu de gens ont fait cette recette, et 7 diraient qu’elle a fait mouche. Cela fonctionne bien comme plat principal. C'est une bonne option si vous suivez un régime sans gluten, sans produits laitiers, entier 30 et pescatarien. Il vous est présenté par Foodista. Dans l'ensemble, cette recette obtient un excellent score cuillère de 94 %. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Saumon rôti et légumes, Saumon rôti et légumes et Saumon aux légumes rôtis.",
+        "instructions": [
+          "Nettoyer les ingrédients, préparer et servir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "name": {
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "parsnip",
+          "nl": "pastinaak",
+          "fr": "panais"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "cherry tomatoes",
+          "nl": "kerstomaatjes",
+          "fr": "tomates cerises"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "salmon",
+          "nl": "zalm",
+          "fr": "saumon"
+        },
+        "amount": 2,
+        "unit": "fillet",
+        "category": "Visafdeling"
+      },
+      {
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 2,
+        "unit": "servings",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "rosemary and thyme",
+          "nl": "rozemarijn en tijm",
+          "fr": "romarin et thym"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier"
+      }
+    ]
+  },
+  {
+    "id": "spoonacular-642619",
+    "prepTime": "25 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": {
+      "en": "Custom",
+      "nl": "Eigen recepten",
+      "fr": "Personnalisées"
+    },
+    "image": "https://img.spoonacular.com/recipes/642619-312x231.jpg",
+    "isGlutenFree": false,
+    "isNutFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isCandidaFriendly": false,
+    "isKeto": false,
+    "translations": {
+      "en": {
+        "title": "Feta Encrusted Salmon",
+        "subtitle": "Spoonacular Import",
+        "description": "Fetan Encrusted Salmon takes about 25 minutes from beginning to end. For $5.06 per serving, this recipe covers 36% of your daily requirements of vitamins and minerals. One serving contains 388 calories, 44g of protein, and 15g of fat. This recipe serves 4. This recipe from Foodista requires dill, salmon fillets, sea salt, and olive oil. 1 person found this recipe to be yummy and satisfying. It works well as a main course. It is a good option if you're following a pescatarian diet. With a spoonacular score of 92%, this dish is excellent. If you like this recipe, you might also like recipes such as Almond Encrusted Salmon, Thyme Encrusted Salmon with Blackberry Gastrique, and Sweet and Spicy Dijon Encrusted Salmon.",
+        "instructions": [
+          "Clean ingredients, prepare, and serve."
+        ]
+      },
+      "nl": {
+        "title": "Met feta ingelegde zalm",
+        "subtitle": "Spoonacular-import",
+        "description": "Fetan Encrusted Salmon duurt ongeveer 25 minuten van begin tot eind. Voor $ 5,06 per portie dekt dit recept 36% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie bevat 388 calorieën, 44 g eiwit en 15 g vet. Dit recept is voor 4 personen. Voor dit recept van Foodista zijn dille, zalmfilets, zeezout en olijfolie nodig. 1 persoon vond dit recept lekker en bevredigend. Het werkt goed als hoofdgerecht. Het is een goede optie als je een pescatarisch dieet volgt. Met een lepelscore van 92% is dit gerecht uitstekend. Als je dit recept lekker vindt, vind je misschien ook wel recepten leuk zoals met amandel ingelegde zalm, met tijm ingelegde zalm met Blackberry Gastrique en zoete en pittige uit Dijon ingelegde zalm.",
+        "instructions": [
+          "Reinig de ingrediënten, bereid ze voor en serveer."
+        ]
+      },
+      "fr": {
+        "title": "Saumon incrusté de feta",
+        "subtitle": "Import Spoonacular",
+        "description": "Le saumon incrusté de fetan prend environ 25 minutes du début à la fin. Pour 5,06 $ par portion, cette recette couvre 36 % de vos besoins quotidiens en vitamines et minéraux. Une portion contient 388 calories, 44 g de protéines et 15 g de matières grasses. Cette recette en sert 4. Cette recette de Foodista nécessite de l'aneth, des filets de saumon, du sel marin et de l'huile d'olive. 1 personne a trouvé cette recette délicieuse et satisfaisante. Cela fonctionne bien comme plat principal. C'est une bonne option si vous suivez un régime pescatarien. Avec un score cuillère de 92%, ce plat est excellent. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Saumon incrusté d'amandes, Saumon incrusté de thym et gastrique de mûres et Saumon incrusté de Dijon sucré et épicé.",
+        "instructions": [
+          "Nettoyer les ingrédients, préparer et servir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "name": {
+          "en": "dill",
+          "nl": "dille",
+          "fr": "aneth"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "feta",
+          "nl": "feta",
+          "fr": "feta"
+        },
+        "amount": 113,
+        "unit": "g",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "juice of lemon",
+          "nl": "sap van citroen",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "panko",
+          "nl": "panko",
+          "fr": "panko"
+        },
+        "amount": 125,
+        "unit": "g",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 4,
+        "unit": "servings",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "salmon fillets",
+          "nl": "zalmfilets",
+          "fr": "filets de saumon"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Visafdeling"
+      },
+      {
+        "name": {
+          "en": "sea salt",
+          "nl": "zeezout",
+          "fr": "sel de mer"
+        },
+        "amount": 4,
+        "unit": "servings",
+        "category": "Kruidenier"
+      }
+    ]
+  },
+  {
+    "id": "spoonacular-654435",
+    "prepTime": "25 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": {
+      "en": "Custom",
+      "nl": "Eigen recepten",
+      "fr": "Personnalisées"
+    },
+    "image": "https://img.spoonacular.com/recipes/654435-312x231.jpg",
+    "isGlutenFree": true,
+    "isNutFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "translations": {
+      "en": {
+        "title": "Pan Seared Salmon",
+        "subtitle": "Spoonacular Import",
+        "description": "You can never have too many main course recipes, so give Pan Seared Salmon a try. This recipe serves 2. One portion of this dish contains about 34g of protein, 38g of fat, and a total of 485 calories. For $4.2 per serving, this recipe covers 26% of your daily requirements of vitamins and minerals. 2 people were glad they tried this recipe. From preparation to the plate, this recipe takes around 25 minutes. It is brought to you by Foodista. It is a good option if you're following a gluten free, dairy free, paleolithic, and primal diet. If you have pepper, dill, salmon fillets, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe deserves a spoonacular score of 90%. This score is spectacular. If you like this recipe, you might also like recipes such as Pan Seared Honey Glazed Salmon with Browned Butter Lime Sauce – The Best Salmon I’ve Ever Eaten, Pan Seared Honey Glazed Salmon with Browned Butter Lime Sauce – The Best Salmon I’ve Ever Eaten, and Pan-seared Salmon.",
+        "instructions": [
+          "Clean ingredients, prepare, and serve."
+        ]
+      },
+      "nl": {
+        "title": "In de pan geschroeide zalm",
+        "subtitle": "Spoonacular-import",
+        "description": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Pan Seared Salmon eens. Dit recept is voor 2 personen. Eén portie van dit gerecht bevat ongeveer 34 g eiwit, 38 g vet en in totaal 485 calorieën. Voor $ 4,2 per portie dekt dit recept 26% van uw dagelijkse behoefte aan vitamines en mineralen. 2 mensen waren blij dat ze dit recept probeerden. Van bereiding tot op het bord duurt dit recept ongeveer 25 minuten. Het wordt u aangeboden door Foodista. Het is een goede optie als je een glutenvrij, zuivelvrij, paleolithisch en oerdieet volgt. Als je peper, dille, zalmfilets en nog wat andere ingrediënten bij de hand hebt, kun je het maken. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 90% verdient. Deze score is spectaculair. Als je dit recept lekker vindt, vind je misschien ook wel recepten leuk zoals in de pan aangebraden honinggeglazuurde zalm met gebruinde boter-limoensaus – de beste zalm die ik ooit heb gegeten, in de pan geschroeide honinggeglazuurde zalm met gebruinde boter-limoensaus – de beste zalm die ik ooit heb gegeten, en in de pan geschroeide zalm.",
+        "instructions": [
+          "Reinig de ingrediënten, bereid ze voor en serveer."
+        ]
+      },
+      "fr": {
+        "title": "Saumon poêlé",
+        "subtitle": "Import Spoonacular",
+        "description": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, alors essayez le saumon poêlé. Cette recette en sert 2. Une portion de ce plat contient environ 34 g de protéines, 38 g de matières grasses et un total de 485 calories. Pour 4,2 $ par portion, cette recette couvre 26 % de vos besoins quotidiens en vitamines et minéraux. 2 personnes étaient contentes d'avoir essayé cette recette. De la préparation à l'assiette, cette recette prend environ 25 minutes. Il vous est présenté par Foodista. C'est une bonne option si vous suivez un régime sans gluten, sans produits laitiers, paléolithique et primal. Si vous avez du poivre, de l'aneth, des filets de saumon et quelques autres ingrédients sous la main, vous pouvez le préparer. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 90 %. Ce score est spectaculaire. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Saumon glacé au miel poêlé avec sauce au beurre et au citron vert doré – Le meilleur saumon que j'ai jamais mangé, Saumon glacé au miel poêlé avec sauce au beurre et au citron vert doré – Le meilleur saumon que j'ai jamais mangé et Saumon poêlé.",
+        "instructions": [
+          "Nettoyer les ingrédients, préparer et servir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.3,
+        "unit": "kl",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "dill",
+          "nl": "dille",
+          "fr": "aneth"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "garlic clove",
+          "nl": "teentje knoflook",
+          "fr": "gousse d'ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "lemon wedges",
+          "nl": "partjes citroen",
+          "fr": "quartiers de citron"
+        },
+        "amount": 2,
+        "unit": "servings",
+        "category": "Groenten & Fruit"
+      },
+      {
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier"
+      },
+      {
+        "name": {
+          "en": "salmon fillets",
+          "nl": "zalmfilets",
+          "fr": "filets de saumon"
+        },
+        "amount": 340,
+        "unit": "g",
+        "category": "Visafdeling"
+      },
+      {
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.1,
+        "unit": "kl",
+        "category": "Kruidenier"
+      }
+    ]
   }
 ];
