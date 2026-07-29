@@ -339,7 +339,7 @@ window.initialRecipes = [
     difficulty: { en: "Easy", nl: "Gemakkelijk", fr: "Facile" },
     servings: 4,
     category: { en: "Belgian Classics", nl: "Belgische Klassiekers", fr: "Classiques Belges" },
-    image: "images/witloof_gratin.jpg", // reuse gratin image visually
+    image: "images/asperges_flamande.jpg",
     isGlutenFree: true,
     isNutFree: true,
     isDairyFree: false,
@@ -403,7 +403,7 @@ window.initialRecipes = [
     difficulty: { en: "Easy", nl: "Gemakkelijk", fr: "Facile" },
     servings: 2,
     category: { en: "Seafood", nl: "Vis & Zeevruchten", fr: "Fruits de Mer" },
-    image: "images/mussels_fries.jpg", // reuse seafood image visually
+    image: "images/tomate_crevettes.jpg",
     isGlutenFree: true,
     isNutFree: true,
     isDairyFree: true,
@@ -464,7 +464,7 @@ window.initialRecipes = [
     difficulty: { en: "Medium", nl: "Gemiddeld", fr: "Moyen" },
     servings: 4,
     category: { en: "Comfort Food", nl: "Dagelijkse Kost", fr: "Plats Réconfortants" },
-    image: "images/vol_au_vent.jpg", // reuse video/image wrapper
+    image: "images/gentse_waterzooi.jpg",
     isGlutenFree: true,
     isNutFree: true,
     isDairyFree: true,
@@ -658,7 +658,7 @@ window.initialRecipes = [
     difficulty: { en: "Hard", nl: "Moeilijk", fr: "Difficile" },
     servings: 6,
     category: { en: "Comfort Food", nl: "Dagelijkse Kost", fr: "Desserts" },
-    image: "images/witloof_gratin.jpg", // placeholder
+    image: "images/gaufre_liege.jpg",
     isGlutenFree: false,
     isNutFree: true,
     isDairyFree: false,

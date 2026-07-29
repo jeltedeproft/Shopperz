@@ -307,6 +307,14 @@ let state = {
 
 // --- Initialization ---
 function initApp() {
+  // Version-controlled database migration to push new images/recipes to cached local storage
+  const CURRENT_DB_VERSION = "v3";
+  const storedDbVersion = localStorage.getItem('belgian_db_version');
+  if (storedDbVersion !== CURRENT_DB_VERSION) {
+    localStorage.removeItem('belgian_recipes');
+    localStorage.setItem('belgian_db_version', CURRENT_DB_VERSION);
+  }
+
   // Load settings first to establish correct language
   const storedSettings = localStorage.getItem('belgian_app_settings');
   if (storedSettings) {
