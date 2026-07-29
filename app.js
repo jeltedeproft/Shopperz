@@ -269,6 +269,12 @@ const supermarketTips = {
     en: 'AH stores in Belgium combine Dutch favorites and local brands. <strong>You MUST scan a Bonus Card</strong> at checkout to unlock discount prices, which are significantly cheaper.',
     nl: 'AH winkels in België mixen Nederlandse favorieten met Belgische merken. <strong>Je MOET een Bonuskaart scannen</strong> aan de kassa om kortingen (Bonus) te ontvangen.',
     fr: 'Les magasins AH en Belgique combinent des marques néerlandaises et locales. <strong>Vous DEVEZ scanner une carte Bonus</strong> pour bénéficier des prix promotionnels.'
+  },
+  Jumbo: {
+    icon: '🟡',
+    en: 'Jumbo is famous for its "7 Zekerheden" (7 Guarantees). Scan your <strong>Jumbo Extra</strong> app or card at checkout to save points for discounts and free groceries.',
+    nl: 'Jumbo staat bekend om zijn 7 Zekerheden. Scan je <strong>Jumbo Extra’s</strong> app of pas aan de kassa om punten te sparen voor gratis boodschappen.',
+    fr: 'Jumbo est réputé pour ses 7 Garanties. Scannez votre application ou carte <strong>Jumbo Extra</strong> à la caisse pour accumuler des points et obtenir des réductions.'
   }
 };
 
@@ -313,8 +319,21 @@ function initApp() {
 
   // Load recipes
   const storedRecipes = localStorage.getItem('belgian_recipes');
+  let loaded = null;
   if (storedRecipes) {
-    state.recipes = JSON.parse(storedRecipes);
+    try {
+      loaded = JSON.parse(storedRecipes);
+      // Force database structure upgrade if local storage data is in the old format
+      if (Array.isArray(loaded) && (loaded.length === 0 || !loaded[0].translations)) {
+        loaded = null;
+      }
+    } catch(e) {
+      loaded = null;
+    }
+  }
+
+  if (loaded) {
+    state.recipes = loaded;
   } else {
     state.recipes = [...window.initialRecipes];
     localStorage.setItem('belgian_recipes', JSON.stringify(state.recipes));
