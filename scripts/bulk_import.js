@@ -91,6 +91,47 @@ function parseAndConvertIngredient(rawName, amount, unit) {
   };
 }
 
+// --- Helper: Robust parser to extract clean list of steps from raw HTML instructions ---
+function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
+  let steps = [];
+
+  // 1. Try to extract from analyzedInstructions
+  if (analyzedInstructions && analyzedInstructions.length > 0) {
+    for (const block of analyzedInstructions) {
+      if (block.steps && block.steps.length > 0) {
+        steps.push(...block.steps.map(s => s.step));
+      }
+    }
+  }
+
+  // 2. If no steps found, parse the instructionsHtml string
+  if (steps.length === 0 && instructionsHtml) {
+    // If it contains <li> tags, extract each <li> text
+    const liRegex = /<li\b[^>]*>([\s\S]*?)<\/li>/gi;
+    let match;
+    while ((match = liRegex.exec(instructionsHtml)) !== null) {
+      const stepText = match[1].replace(/<[^>]*>?/gm, '').trim();
+      if (stepText) steps.push(stepText);
+    }
+
+    // If still no steps (e.g., plain text or paragraphs)
+    if (steps.length === 0) {
+      const cleanText = instructionsHtml.replace(/<[^>]*>?/gm, '\n');
+      steps = cleanText
+        .split(/\n+/)
+        .map(s => s.trim())
+        .filter(s => s.length > 10);
+    }
+  }
+
+  // 3. Fallback
+  if (steps.length === 0) {
+    steps = ["Prepare ingredients according to list.", "Cook and bake to desired doneness.", "Serve hot and enjoy!"];
+  }
+
+  return steps;
+}
+
 // --- Main Engine ---
 async function main() {
   const args = process.argv.slice(2);
@@ -110,7 +151,7 @@ async function main() {
   }
 
   console.log(`📡 Querying Spoonacular complexSearch (Search: "${query}", Count: ${count})...`);
-  const endpoint = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&number=${count}&addRecipeInformation=true&fillIngredients=true&query=${encodeURIComponent(query)}`;
+  const endpoint = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&number=${count}&addRecipeInformation=true&fillIngredients=true&instructionsRequired=true&query=${encodeURIComponent(query)}`;
   
   try {
     const res = await fetch(endpoint);
@@ -136,10 +177,8 @@ async function main() {
       const cook = `${recipe.cookingMinutes || 15} mins`;
       const servings = recipe.servings || 4;
 
-      // Extract raw instructions
-      const steps = recipe.analyzedInstructions && recipe.analyzedInstructions.length > 0
-        ? recipe.analyzedInstructions[0].steps.map(s => s.step)
-        : [recipe.instructions || "Clean ingredients, prepare, and serve."];
+      // Extract raw instructions using helper
+      const steps = extractStepsFromInstructions(recipe.instructions, recipe.analyzedInstructions);
 
       // Convert ingredients with safe fallback check
       const ingredientsList = recipe.extendedIngredients || [];

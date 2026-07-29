@@ -202,6 +202,47 @@ async function fetchMealDb(mealId) {
   return { title, desc, prep, cook, servings, ingredients, steps };
 }
 
+// --- Helper: Robust parser to extract clean list of steps from raw HTML instructions ---
+function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
+  let steps = [];
+
+  // 1. Try to extract from analyzedInstructions
+  if (analyzedInstructions && analyzedInstructions.length > 0) {
+    for (const block of analyzedInstructions) {
+      if (block.steps && block.steps.length > 0) {
+        steps.push(...block.steps.map(s => s.step));
+      }
+    }
+  }
+
+  // 2. If no steps found, parse the instructionsHtml string
+  if (steps.length === 0 && instructionsHtml) {
+    // If it contains <li> tags, extract each <li> text
+    const liRegex = /<li\b[^>]*>([\s\S]*?)<\/li>/gi;
+    let match;
+    while ((match = liRegex.exec(instructionsHtml)) !== null) {
+      const stepText = match[1].replace(/<[^>]*>?/gm, '').trim();
+      if (stepText) steps.push(stepText);
+    }
+
+    // If still no steps (e.g., plain text or paragraphs)
+    if (steps.length === 0) {
+      const cleanText = instructionsHtml.replace(/<[^>]*>?/gm, '\n');
+      steps = cleanText
+        .split(/\n+/)
+        .map(s => s.trim())
+        .filter(s => s.length > 10);
+    }
+  }
+
+  // 3. Fallback
+  if (steps.length === 0) {
+    steps = ["Prepare ingredients according to list.", "Cook and bake to desired doneness.", "Serve hot and enjoy!"];
+  }
+
+  return steps;
+}
+
 // --- Importer: Method 1 (Spoonacular API with Key) ---
 async function fetchSpoonacular(recipeId, apiKey) {
   console.log(`📡 Fetching from Spoonacular (Recipe ID: ${recipeId})...`);
@@ -221,9 +262,7 @@ async function fetchSpoonacular(recipeId, apiKey) {
     return parseAndConvertIngredient(ing.name, ing.amount, ing.unit);
   });
 
-  const steps = recipe.analyzedInstructions && recipe.analyzedInstructions.length > 0
-    ? recipe.analyzedInstructions[0].steps.map(s => s.step)
-    : [];
+  const steps = extractStepsFromInstructions(recipe.instructions, recipe.analyzedInstructions);
 
   return { title, desc, prep, cook, servings, ingredients, steps };
 }
