@@ -1466,7 +1466,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Teriyaki Chicken Casserole",
-        "subtitle": "Imported Recipe",
+        "subtitle": "Traditional Japanese Chicken compiled from TheMealDB.",
         "description": "Traditional Japanese Chicken compiled from TheMealDB.",
         "instructions": [
           "Preheat oven to 350° F. Spray a 9x13-inch baking pan with non-stick spray.",
@@ -1479,7 +1479,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Teriyaki kipschotel",
-        "subtitle": "Geïmporteerd recept",
+        "subtitle": "Traditionele Japanse Kip samengesteld uit TheMealDB.",
         "description": "Traditionele Japanse Kip samengesteld uit TheMealDB.",
         "instructions": [
           "Verwarm de oven voor op 350 ° F. Spuit een 9x13-inch bakvorm in met antiaanbakspray.",
@@ -1492,7 +1492,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Casserole de poulet teriyaki",
-        "subtitle": "Recette importée",
+        "subtitle": "Poulet japonais traditionnel compilé à partir de TheMealDB.",
         "description": "Poulet japonais traditionnel compilé à partir de TheMealDB.",
         "instructions": [
           "Préchauffer le four à 350° F. Vaporiser un plat allant au four de 9 x 13 pouces avec un spray antiadhésif.",
@@ -1624,7 +1624,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Ratatouille Pasta",
-        "subtitle": "Forget going out to eat or ordering takeout every time you crave Mediterranean food.",
+        "subtitle": "Forget going out to eat or ordering takeout every time you crave Me...",
         "description": "Forget going out to eat or ordering takeout every time you crave Mediterranean food. Try making Ratatouille Pastan at home. This recipe serves 4 and costs $2.63 per serving. This main course has 691 calories, 25g of protein, and 37g of fat per serving. 1 person found this recipe to be scrumptious and satisfying. From preparation to the plate, this recipe takes roughly 45 minutes. This recipe from Foodista requires artichokes, seasoning, spaghetti, and garlic. Overall, this recipe earns an amazing spoonacular score of 85%. Similar recipes include Ratatouille Pasta, Ratatouille Pasta, and Ratatouille Pasta.",
         "instructions": [
           "Saute the yellow onion in a large skillet or saute pan with enough Olive oil to coat the bottom of the pan, over medium-low heat until tender and translucent. Season with salt and pepper.",
@@ -1637,7 +1637,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Ratatouille-pasta",
-        "subtitle": "Vergeet uit eten te gaan of afhaalmaaltijden te bestellen telkens wanneer u zin ​​heeft in Mediterraans eten.",
+        "subtitle": "Vergeet uit eten te gaan of afhaalmaaltijden te bestellen telkens w...",
         "description": "Vergeet uit eten te gaan of afhaalmaaltijden te bestellen telkens wanneer u zin ​​heeft in Mediterraans eten. Probeer thuis Ratatouille Pastan te maken. Dit recept is voor 4 personen en kost $ 2,63 per portie. Dit hoofdgerecht bevat 691 calorieën, 25 g eiwit en 37 g vet per portie. 1 persoon vond dit recept heerlijk en bevredigend. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Voor dit recept van Foodista zijn artisjokken, kruiden, spaghetti en knoflook nodig. Over het geheel genomen verdient dit recept een verbazingwekkende lepelscore van 85%. Soortgelijke recepten zijn onder meer Ratatouille Pasta, Ratatouille Pasta en Ratatouille Pasta.",
         "instructions": [
           "Bak de gele ui in een grote koekenpan of bakpan met voldoende olijfolie om de bodem van de pan te bedekken, op middelhoog vuur tot ze gaar en doorschijnend is. Breng op smaak met zout en peper.",
@@ -1650,7 +1650,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pâtes Ratatouille",
-        "subtitle": "Oubliez d'aller manger au restaurant ou de commander des plats à emporter chaque fois que vous avez envie de cuisine méditerranéenne.",
+        "subtitle": "Oubliez d'aller manger au restaurant ou de commander des plats à em...",
         "description": "Oubliez d'aller manger au restaurant ou de commander des plats à emporter chaque fois que vous avez envie de cuisine méditerranéenne. Essayez de préparer des pâtes Ratatouille à la maison. Cette recette sert 4 personnes et coûte 2,63 $ par portion. Ce plat principal contient 691 calories, 25 g de protéines et 37 g de matières grasses par portion. 1 personne a trouvé cette recette délicieuse et satisfaisante. De la préparation à l'assiette, cette recette prend environ 45 minutes. Cette recette de Foodista nécessite des artichauts, des assaisonnements, des spaghettis et de l'ail. Dans l’ensemble, cette recette obtient un score cuillère incroyable de 85 %. Des recettes similaires incluent les pâtes Ratatouille, les pâtes Ratatouille et les pâtes Ratatouille.",
         "instructions": [
           "Faire revenir l'oignon jaune dans une grande poêle ou une sauteuse avec suffisamment d'huile d'olive pour enrober le fond de la poêle, à feu moyen-doux jusqu'à ce qu'il soit tendre et translucide. Assaisonner de sel et de poivre.",
@@ -1990,7 +1990,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Garam Masala Pork Chops with Mint Yogurt and Spiced Couscous",
-        "subtitle": "Garam Masala Pork Chops with Mint Yogurt and Spiced Couscous might be just the Indian recipe you are searching for.",
+        "subtitle": "Garam Masala Pork Chops with Mint Yogurt and Spiced Couscous might...",
         "description": "Garam Masala Pork Chops with Mint Yogurt and Spiced Couscous might be just the Indian recipe you are searching for. For $4.57 per serving, you get a main course that serves 4. One serving contains 461 calories, 47g of protein, and 15g of fat. This recipe from Foodista requires yogurt, raisins, couscous, and lemon. 2 people have made this recipe and would make it again. From preparation to the plate, this recipe takes approximately 45 minutes. With a spoonacular score of 77%, this dish is solid. Similar recipes are Garam Masala Lamb Chops with Apricot Couscous, Spiced Lamb Chops on Sauteed Peppers and Onions with Garlic and Mint Couscous, and garam masala , how to make punjabi garam masala powder at home.",
         "instructions": [
           "Chops:Trim pork chops of excess fat. Rub garam masala into chops (both sides).",
@@ -2002,7 +2002,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Garam Masala varkenskarbonades met muntyoghurt en gekruide couscous",
-        "subtitle": "Garam Masala varkenskarbonades met muntyoghurt en gekruide couscous is misschien wel precies het Indiase recept waar u naar op zoek bent.",
+        "subtitle": "Garam Masala varkenskarbonades met muntyoghurt en gekruide couscous...",
         "description": "Garam Masala varkenskarbonades met muntyoghurt en gekruide couscous is misschien wel precies het Indiase recept waar u naar op zoek bent. Voor $ 4,57 per portie krijg je een hoofdgerecht voor 4 personen. Eén portie bevat 461 calorieën, 47 g eiwit en 15 g vet. Voor dit recept van Foodista heb je yoghurt, rozijnen, couscous en citroen nodig. 2 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Met een lepelscore van 77% is dit gerecht stevig. Soortgelijke recepten zijn Garam Masala lamskoteletjes met abrikozencouscous, gekruide lamskoteletten op gebakken paprika en uien met knoflook en muntcouscous, en garam masala, hoe je punjabi garam masala-poeder thuis kunt maken.",
         "instructions": [
           "Karbonades: Snijd het overtollige vet van de karbonades. Wrijf garam masala in karbonades (beide kanten).",
@@ -2014,7 +2014,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Côtelettes de porc au garam masala avec yaourt à la menthe et couscous épicé",
-        "subtitle": "Les côtelettes de porc au garam masala avec du yogourt à la menthe et du couscous épicé pourraient bien être la recette indienne que vous recherchez.",
+        "subtitle": "Les côtelettes de porc au garam masala avec du yogourt à la menthe...",
         "description": "Les côtelettes de porc au garam masala avec du yogourt à la menthe et du couscous épicé pourraient bien être la recette indienne que vous recherchez. Pour 4,57 $ par portion, vous obtenez un plat principal pour 4 personnes. Une portion contient 461 calories, 47 g de protéines et 15 g de matières grasses. Cette recette de Foodista nécessite du yaourt, des raisins secs, du couscous et du citron. 2 personnes ont réalisé cette recette et la referaient. De la préparation à l'assiette, cette recette prend environ 45 minutes. Avec un score cuillère de 77%, ce plat est solide. Des recettes similaires sont les côtelettes d'agneau au garam masala avec couscous aux abricots, les côtelettes d'agneau épicées sur poivrons et oignons sautés avec couscous à l'ail et à la menthe, et le garam masala, comment préparer de la poudre de garam masala punjabi à la maison.",
         "instructions": [
           "Côtelettes : Débarrassez les côtelettes de porc de l'excès de gras. Frotter le garam masala sur les côtelettes (des deux côtés).",
@@ -2185,7 +2185,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Dark Shadows Baileys Chocolate Cheesecake Brownies",
-        "subtitle": "Dark Shadows Baileys Chocolate Cheesecake Brownies is an American recipe that serves 16.",
+        "subtitle": "Dark Shadows Baileys Chocolate Cheesecake Brownies is an American r...",
         "description": "Dark Shadows Baileys Chocolate Cheesecake Brownies is an American recipe that serves 16. One serving contains 435 calories, 6g of protein, and 29g of fat. For 94 cents per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. Head to the store and pick up baking powder, walnuts, eggs, and a few other things to make it today. It works well as a dessert. 8 people found this recipe to be flavorful and satisfying. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately 45 minutes. With a spoonacular score of 28%, this dish is rather bad. Baileys Dark Chocolate Guinness Bread, Baileys Dark Chocolate Guinness Bread, and Baileys Dark Chocolate Guinness Bread are very similar to this recipe.",
         "instructions": [
           "Place the cream cheese, sugar, egg yolk and Baileys Irish Cream in the bowl of a food processor and process until smooth.Directions for Brownies:Preheat the oven to 350 degrees. Lightly grease an 8-by-8-inch baking pan with cooking spray. To make removing the brownies easy, line the pan lengthwise and widthwise with two 7-by-12-inch sheets of parchment paper or aluminum foil, shiny side up, and use the overhang as handles.",
@@ -2197,7 +2197,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Dark Shadows Baileys Chocolade Cheesecake Brownies",
-        "subtitle": "Dark Shadows Baileys Chocolate Cheesecake Brownies is een Amerikaans recept voor 16 personen.",
+        "subtitle": "Dark Shadows Baileys Chocolate Cheesecake Brownies is een Amerikaan...",
         "description": "Dark Shadows Baileys Chocolate Cheesecake Brownies is een Amerikaans recept voor 16 personen. Eén portie bevat 435 calorieën, 6 g eiwit en 29 g vet. Voor 94 cent per portie dekt dit recept 8% van je dagelijkse behoefte aan vitamines en mineralen. Ga naar de winkel en koop bakpoeder, walnoten, eieren en nog een paar andere dingen om het vandaag nog te maken. Het werkt goed als dessert. 8 mensen vonden dit recept smaakvol en bevredigend. Het wordt u aangeboden door Foodista. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Met een lepelscore van 28% is dit gerecht behoorlijk slecht. Baileys Dark Chocolate Guinness Bread, Baileys Dark Chocolate Guinness Bread en Baileys Dark Chocolate Guinness Bread lijken erg op dit recept.",
         "instructions": [
           "Doe de roomkaas, suiker, eigeel en Baileys Irish Cream in de kom van een keukenmachine en maal tot een gladde massa. Gebruiksaanwijzing voor Brownies: Verwarm de oven voor op 350 graden. Vet een bakvorm van 8 bij 8 inch licht in met kookspray. Om het verwijderen van de brownies gemakkelijk te maken, bekleedt u de pan in de lengte en breedte met twee vellen perkamentpapier of aluminiumfolie van 7 bij 12 inch, met de glanzende kant naar boven, en gebruikt u het overhangende gedeelte als handgrepen.",
@@ -2209,7 +2209,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Brownies au gâteau au fromage et au chocolat Baileys Dark Shadows",
-        "subtitle": "Les brownies au cheesecake au chocolat Baileys Dark Shadows sont une recette américaine pour 16 personnes.",
+        "subtitle": "Les brownies au cheesecake au chocolat Baileys Dark Shadows sont un...",
         "description": "Les brownies au cheesecake au chocolat Baileys Dark Shadows sont une recette américaine pour 16 personnes. Une portion contient 435 calories, 6 g de protéines et 29 g de matières grasses. Pour 94 cents par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Rendez-vous au magasin et procurez-vous de la levure chimique, des noix, des œufs et quelques autres éléments pour le préparer aujourd'hui. Cela fonctionne bien comme dessert. 8 personnes ont trouvé cette recette savoureuse et satisfaisante. Il vous est présenté par Foodista. De la préparation à l'assiette, cette recette prend environ 45 minutes. Avec un score cuillère de 28%, ce plat est plutôt mauvais. Le pain Guinness au chocolat noir Baileys, le pain Guinness au chocolat noir Baileys et le pain Guinness au chocolat noir Baileys sont très similaires à cette recette.",
         "instructions": [
           "Placez le fromage à la crème, le sucre, le jaune d'œuf et la Baileys Irish Cream dans le bol d'un robot culinaire et mélangez jusqu'à consistance lisse. Instructions pour les brownies : Préchauffez le four à 350 degrés. Graisser légèrement un plat allant au four de 8 x 8 pouces avec un enduit à cuisson. Pour faciliter le retrait des brownies, tapissez le moule dans le sens de la longueur et de la largeur avec deux feuilles de papier parchemin ou de papier d'aluminium de 7 x 12 pouces, côté brillant vers le haut, et utilisez le surplomb comme poignées.",
@@ -2390,7 +2390,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Vegan Strawberry Shortcake served with Vegan Whipped Cream",
-        "subtitle": "Vegan Strawberry Shortcake served with Vegan Whipped Cream might be just the dessert you are searching for.",
+        "subtitle": "Vegan Strawberry Shortcake served with Vegan Whipped Cream might be...",
         "description": "Vegan Strawberry Shortcake served with Vegan Whipped Cream might be just the dessert you are searching for. One serving contains 174 calories, 4g of protein, and 6g of fat. This recipe serves 10 and costs 68 cents per serving. It can be enjoyed any time, but it is especially good for Mother's Day. 23 people found this recipe to be flavorful and satisfying. If you have vegetable oil, salt, turbinado sugar, and a few other ingredients on hand, you can make it. It is a good option if you're following a dairy free diet. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly 45 minutes. All things considered, we decided this recipe deserves a spoonacular score of 38%. This score is not so spectacular. Users who liked this recipe also liked Vegan Strawberry Shortcake With Whipped Cream, Easy Vegan and Gluten-Free Pancakes (Strawberry Shortcake + Whipped Cream), and Easy Strawberry Shortcake with Whipped Cream.",
         "instructions": [
           "Preheat your oven to 400 degrees F.",
@@ -2412,7 +2412,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Vegan Strawberry Shortcake geserveerd met veganistische slagroom",
-        "subtitle": "Vegan Strawberry Shortcake geserveerd met Vegan Slagroom is misschien wel het dessert waar je naar op zoek bent.",
+        "subtitle": "Vegan Strawberry Shortcake geserveerd met Vegan Slagroom is misschi...",
         "description": "Vegan Strawberry Shortcake geserveerd met Vegan Slagroom is misschien wel het dessert waar je naar op zoek bent. Eén portie bevat 174 calorieën, 4 g eiwit en 6 g vet. Dit recept serveert 10 personen en kost 68 cent per portie. Je kunt er op elk moment van genieten, maar het is vooral lekker voor Moederdag. 23 mensen vonden dit recept smaakvol en bevredigend. Als je plantaardige olie, zout, turbinadosuiker en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het is een goede optie als u een zuivelvrij dieet volgt. Het wordt u aangeboden door Foodista. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 38% verdient. Deze score is niet zo spectaculair. Gebruikers die dit recept lekker vonden, genoten ook van Vegan Strawberry Shortcake met slagroom, Easy Vegan en glutenvrije pannenkoekjes (Strawberry Shortcake + Slagroom) en Easy Strawberry Shortcake met slagroom.",
         "instructions": [
           "Verwarm uw oven voor op 400 graden F.",
@@ -2434,7 +2434,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Shortcake végétalien aux fraises servi avec de la crème fouettée végétalienne",
-        "subtitle": "Le shortcake végétalien aux fraises servi avec de la crème fouettée végétalienne pourrait être exactement le dessert que vous recherchez.",
+        "subtitle": "Le shortcake végétalien aux fraises servi avec de la crème fouettée...",
         "description": "Le shortcake végétalien aux fraises servi avec de la crème fouettée végétalienne pourrait être exactement le dessert que vous recherchez. Une portion contient 174 calories, 4 g de protéines et 6 g de matières grasses. Cette recette sert 10 personnes et coûte 68 cents par portion. On peut le déguster à tout moment, mais il est particulièrement bon pour la fête des mères. 23 personnes ont trouvé cette recette savoureuse et satisfaisante. Si vous avez de l’huile végétale, du sel, du sucre turbinado et quelques autres ingrédients sous la main, vous pouvez le préparer. C'est une bonne option si vous suivez un régime sans produits laitiers. Il vous est présenté par Foodista. De la préparation à l'assiette, cette recette prend environ 45 minutes. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 38 %. Ce score n'est pas si spectaculaire. Les utilisateurs qui ont aimé cette recette ont également aimé Shortcake végétalien aux fraises avec crème fouettée, Crêpes faciles végétaliennes et sans gluten (Shortcake aux fraises + crème fouettée) et Shortcake facile aux fraises avec crème fouettée.",
         "instructions": [
           "Préchauffez votre four à 400 degrés F.",
@@ -2585,7 +2585,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Crockpot Applesauce",
-        "subtitle": "If you have approximately 45 minutes to spend in the kitchen, Crockpot Applesauce might be a spectacular gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipe to try.",
+        "subtitle": "If you have approximately 45 minutes to spend in the kitchen, Crock...",
         "description": "If you have approximately 45 minutes to spend in the kitchen, Crockpot Applesauce might be a spectacular gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipe to try. This recipe serves 3. For $2.92 per serving, this recipe covers 12% of your daily requirements of vitamins and minerals. One serving contains 412 calories, 2g of protein, and 1g of fat. It is brought to you by fullbellysisters.blogspot.com. Plenty of people really liked this hor d'oeuvre. Head to the store and pick up orange juice, vanilla, juice of lemon, and a few other things to make it today. 1703 people have tried and liked this recipe. All things considered, we decided this recipe deserves a spoonacular score of 67%. This score is solid. Similar recipes are Crockpot Applesauce, Crockpot Applesauce, and Crockpot Applesauce.",
         "instructions": [
           "Prepare ingredients according to list.",
@@ -2595,7 +2595,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Crockpot Appelmoes",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, is Crockpot Appelmoes misschien een spectaculair glutenvrij, zuivelvrij, paleolithisch en lacto-ovo-vegetarisch recept om uit te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te bre...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, is Crockpot Appelmoes misschien een spectaculair glutenvrij, zuivelvrij, paleolithisch en lacto-ovo-vegetarisch recept om uit te proberen. Dit recept is voor 3 personen. Voor $ 2,92 per portie dekt dit recept 12% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie bevat 412 calorieën, 2 g eiwit en 1 g vet. Het wordt u aangeboden door fullbellysisters.blogspot.com. Veel mensen vonden dit hor d'oeuvre erg lekker. Ga naar de winkel en koop sinaasappelsap, vanille, citroensap en nog een paar andere dingen om het vandaag te maken. 1703 mensen hebben dit recept geprobeerd en vonden het lekker. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 67% verdient. Deze score is solide. Soortgelijke recepten zijn Crockpot Appelmoes, Crockpot Appelmoes en Crockpot Appelmoes.",
         "instructions": [
           "Ingrediënten bereiden volgens lijst.",
@@ -2605,7 +2605,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Compote de pommes à la mijoteuse",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, la compote de pommes Crockpot pourrait être une recette spectaculaire sans gluten, sans produits laitiers, paléolithique et lacto ovo végétarienne à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, la compot...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, la compote de pommes Crockpot pourrait être une recette spectaculaire sans gluten, sans produits laitiers, paléolithique et lacto ovo végétarienne à essayer. Cette recette en sert 3. Pour 2,92 $ par portion, cette recette couvre 12 % de vos besoins quotidiens en vitamines et minéraux. Une portion contient 412 calories, 2 g de protéines et 1 g de matières grasses. Il vous est présenté par fullbellysisters.blogspot.com. Beaucoup de gens ont vraiment aimé cet hor-d'œuvre. Rendez-vous au magasin et procurez-vous du jus d'orange, de la vanille, du jus de citron et quelques autres choses à préparer aujourd'hui. 1703 personnes ont essayé et aimé cette recette. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 67 %. Ce score est solide. Des recettes similaires sont la compote de pommes Crockpot, la compote de pommes Crockpot et la compote de pommes Crockpot.",
         "instructions": [
           "Préparez les ingrédients selon la liste.",
@@ -2720,7 +2720,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Steak de surlonge au four",
-        "subtitle": "La recette Steak de surlonge au four peut être préparée en 45 minutes environ.",
+        "subtitle": "La recette Steak de surlonge au four peut être préparée en 45 minut...",
         "description": "La recette Steak de surlonge au four peut être préparée en 45 minutes environ. Une portion contient 578 calories, 6 g de protéines et 24 g de matières grasses. Pour 2,22 $ par portion, cette recette couvre 21 % de vos besoins quotidiens en vitamines et minéraux. Cette recette en sert 1. Elle fonctionne bien comme hors-d'œuvre. 3 personnes ont réalisé cette recette et la referaient. Rendez-vous au magasin et récupérez du beurre, du ketchup, du sel et quelques autres choses pour le préparer aujourd'hui. Il peut être dégusté à tout moment, mais il est particulièrement bon pour la Saint-Valentin. C'est une bonne option si vous suivez un régime sans gluten. Il vous est présenté par Foodista. Dans l’ensemble, cette recette obtient un solide score cuillère de 45 %. Le steak de surlonge au four, le steak de surlonge au four et le steak de surlonge au four sont très similaires à cette recette.",
         "instructions": [
           "Frotter les deux côtés du steak avec du beurre.",
@@ -3007,7 +3007,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Caramel Peanut Fudge Cake",
-        "subtitle": "Caramel Peanut Fudge Cake might be just the dessert you are searching for.",
+        "subtitle": "Caramel Peanut Fudge Cake might be just the dessert you are searchi...",
         "description": "Caramel Peanut Fudge Cake might be just the dessert you are searching for. One portion of this dish contains approximately 16g of protein, 35g of fat, and a total of 459 calories. This recipe serves 10. For $1.24 per serving, this recipe covers 23% of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about 45 minutes. 84 people were glad they tried this recipe. If you have almonds, sugar, cream, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. It is a good option if you're following a gluten free and lacto ovo vegetarian diet. Taking all factors into account, this recipe earns a spoonacular score of 74%, which is solid. If you like this recipe, you might also like recipes such as Slow Cooker Caramel Peanut Butter Hot Fudge Cake, Slow Cooker Caramel Peanut Butter Hot Fudge Cake, and Caramel Peanut Butter Fudge.",
         "instructions": [
           "For the sponge, beat egg yolks with sugar for 3-4 minutes until the mixture doubles in volume and becomes pale yellow.",
@@ -3024,7 +3024,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Karamel-pinda-fudgecake",
-        "subtitle": "Caramel Peanut Fudge Cake is misschien wel het dessert waar je naar op zoek bent.",
+        "subtitle": "Caramel Peanut Fudge Cake is misschien wel het dessert waar je naar...",
         "description": "Caramel Peanut Fudge Cake is misschien wel het dessert waar je naar op zoek bent. Eén portie van dit gerecht bevat ongeveer 16 g eiwit, 35 g vet en in totaal 459 calorieën. Dit recept is voor 10 personen. Voor $ 1,24 per portie dekt dit recept 23% van uw dagelijkse behoefte aan vitamines en mineralen. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. 84 mensen waren blij dat ze dit recept probeerden. Als je amandelen, suiker, room en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het wordt u aangeboden door Foodista. Het is een goede optie als je een glutenvrij en lacto-ovo-vegetarisch dieet volgt. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 74%, wat solide is. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Slow Cooker Caramel Peanut Butter Hot Fudge Cake, Slow Cooker Caramel Peanut Butter Hot Fudge Cake en Caramel Peanut Butter Fudge.",
         "instructions": [
           "Klop voor het biscuitdeeg de eierdooiers met suiker gedurende 3-4 minuten tot het mengsel in volume verdubbeld is en lichtgeel wordt.",
@@ -3041,7 +3041,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteau au caramel et aux cacahuètes",
-        "subtitle": "Le gâteau au fudge et au caramel et aux cacahuètes pourrait être exactement le dessert que vous recherchez.",
+        "subtitle": "Le gâteau au fudge et au caramel et aux cacahuètes pourrait être ex...",
         "description": "Le gâteau au fudge et au caramel et aux cacahuètes pourrait être exactement le dessert que vous recherchez. Une portion de ce plat contient environ 16 g de protéines, 35 g de matières grasses et un total de 459 calories. Cette recette en sert 10. Pour 1,24 $ par portion, cette recette couvre 23 % de vos besoins quotidiens en vitamines et minéraux. De la préparation à l'assiette, cette recette prend environ 45 minutes. 84 personnes étaient heureuses d'avoir essayé cette recette. Si vous avez des amandes, du sucre, de la crème et quelques autres ingrédients sous la main, vous pouvez le préparer. Il vous est présenté par Foodista. C'est une bonne option si vous suivez un régime végétarien sans gluten et lacto ovo. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 74 %, ce qui est solide. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Gâteau au fudge chaud au caramel et au beurre de cacahuète à la mijoteuse, Gâteau au fudge chaud au caramel et au beurre de cacahuète à la mijoteuse et Fudge au caramel et au beurre de cacahuète.",
         "instructions": [
           "Pour le biscuit, battre les jaunes d'œufs avec le sucre pendant 3-4 minutes jusqu'à ce que le mélange double de volume et devienne jaune pâle.",
@@ -3177,7 +3177,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cumin and Paprika Rubbed Chicken Drumsticks",
-        "subtitle": "If you have around 45 minutes to spend in the kitchen, Cumin and Paprika Rubbed Chicken Drumsticks might be a great gluten free, dairy free, paleolithic, and primal recipe to try.",
+        "subtitle": "If you have around 45 minutes to spend in the kitchen, Cumin and Pa...",
         "description": "If you have around 45 minutes to spend in the kitchen, Cumin and Paprika Rubbed Chicken Drumsticks might be a great gluten free, dairy free, paleolithic, and primal recipe to try. This marinade has 220 calories, 15g of protein, and 17g of fat per serving. For 68 cents per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. This recipe serves 2. 2 people have tried and liked this recipe. If you have salt and pepper, cumin powder, paprika powder, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 34%. This score is not so awesome. Similar recipes include Paprika-Herb Rubbed Chicken, Cumin-Rubbed Chicken with Guacamole Sauce, and Garlic & Smoked Paprikan Air Fryer Chicken Drumsticks.",
         "instructions": [
           "Marinate the chicken with the spice powders, garlic, lemon juice and a tsp of olive oil.",
@@ -3191,7 +3191,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Komijn en paprika gewreven kippendrumsticks",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, zijn Komijn en Paprika Rubbed Chicken Drumsticks misschien een geweldig glutenvrij, zuivelvrij, paleolithisch en oerrecept om te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te bre...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, zijn Komijn en Paprika Rubbed Chicken Drumsticks misschien een geweldig glutenvrij, zuivelvrij, paleolithisch en oerrecept om te proberen. Deze marinade bevat 220 calorieën, 15 g eiwit en 17 g vet per portie. Voor 68 cent per portie dekt dit recept 8% van je dagelijkse behoefte aan vitamines en mineralen. Dit recept is voor 2 personen. 2 mensen hebben dit recept geprobeerd en vonden het leuk. Als je zout en peper, komijnpoeder, paprikapoeder en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 34% verdient. Deze score is niet zo geweldig. Soortgelijke recepten zijn onder meer kip met paprika en kruiden, kip met komijn en guacamolesaus en kipdrumsticks uit de luchtfriteuse met knoflook en gerookte paprika.",
         "instructions": [
           "Marineer de kip met de kruidenpoeders, knoflook, citroensap en een theelepel olijfolie.",
@@ -3205,7 +3205,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pilons de poulet frottés au cumin et au paprika",
-        "subtitle": "Si vous avez environ 45 minutes à passer en cuisine, les pilons de poulet frottés au cumin et au paprika pourraient être une excellente recette sans gluten, sans produits laitiers, paléolithique et primale à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à passer en cuisine, les pilons de...",
         "description": "Si vous avez environ 45 minutes à passer en cuisine, les pilons de poulet frottés au cumin et au paprika pourraient être une excellente recette sans gluten, sans produits laitiers, paléolithique et primale à essayer. Cette marinade contient 220 calories, 15 g de protéines et 17 g de matières grasses par portion. Pour 68 cents par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est pour 2 personnes. 2 personnes ont essayé et aimé cette recette. Si vous avez du sel et du poivre, de la poudre de cumin, de la poudre de paprika et quelques autres ingrédients sous la main, vous pouvez le préparer. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 34 %. Ce score n'est pas si génial. Des recettes similaires incluent le poulet frotté au paprika et aux herbes, le poulet frotté au cumin avec sauce guacamole et les pilons de poulet à la friteuse à l'ail et au paprikan fumé.",
         "instructions": [
           "Faites mariner le poulet avec les poudres d'épices, l'ail, le jus de citron et une cuillère à café d'huile d'olive.",
@@ -3426,7 +3426,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Pork Chops with Garlic Cream",
-        "subtitle": "Pork Chops with Garlic Cream might be just the main course you are searching for.",
+        "subtitle": "Pork Chops with Garlic Cream might be just the main course you are...",
         "description": "Pork Chops with Garlic Cream might be just the main course you are searching for. This recipe makes 4 servings with 728 calories, 52g of protein, and 51g of fat each. For $3.87 per serving, this recipe covers 40% of your daily requirements of vitamins and minerals. This recipe is liked by 13 foodies and cooks. A mixture of butter, bell pepper, shallot, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately 45 minutes. It is a good option if you're following a gluten free and ketogenic diet. Overall, this recipe earns a spectacular spoonacular score of 88%. If you like this recipe, take a look at these similar recipes: Garlic Baked Pork Chops + FREE PORK CHOPS, Garlic Roasted Pork Chops, and Honey & Garlic Pork Chops.",
         "instructions": [
           "In a small sauce pan melt the butter over medium-low heat and cook the shallots until softened, about 5 minutes.",
@@ -3437,7 +3437,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Varkenshaasjes met Knoflookcrème",
-        "subtitle": "Varkenskarbonades met knoflookcrème zijn misschien wel het hoofdgerecht waar u naar op zoek bent.",
+        "subtitle": "Varkenskarbonades met knoflookcrème zijn misschien wel het hoofdger...",
         "description": "Varkenskarbonades met knoflookcrème zijn misschien wel het hoofdgerecht waar u naar op zoek bent. Dit recept maakt 4 porties met elk 728 calorieën, 52 g eiwit en 51 g vet. Voor $ 3,87 per portie dekt dit recept 40% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept is geliefd bij 13 foodies en koks. Een mengsel van boter, paprika, sjalot en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het is een goede optie als je een glutenvrij en ketogeen dieet volgt. Over het geheel genomen verdient dit recept een spectaculaire lepelscore van 88%. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: In knoflook gebakken varkenskarbonades + GRATIS VARKENSKOTELETTEN, Knoflook geroosterde varkenskarbonades en Honing- en knoflookkarbonades.",
         "instructions": [
           "Smelt de boter in een kleine pan op middelhoog vuur en kook de sjalotjes tot ze zacht zijn, ongeveer 5 minuten.",
@@ -3448,7 +3448,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Côtelettes de porc à la crème d'ail",
-        "subtitle": "Les côtelettes de porc à la crème d’ail pourraient bien être le plat principal que vous recherchez.",
+        "subtitle": "Les côtelettes de porc à la crème d’ail pourraient bien être le pla...",
         "description": "Les côtelettes de porc à la crème d’ail pourraient bien être le plat principal que vous recherchez. Cette recette donne 4 portions avec 728 calories, 52 g de protéines et 51 g de matières grasses chacune. Pour 3,87 $ par portion, cette recette couvre 40 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est appréciée par 13 gourmets et cuisiniers. Un mélange de beurre, de poivron, d'échalote et d'une poignée d'autres ingrédients suffit pour rendre cette recette si délicieuse. Il vous est présenté par Foodista. De la préparation à l'assiette, cette recette prend environ 45 minutes. C'est une bonne option si vous suivez un régime sans gluten et cétogène. Dans l'ensemble, cette recette obtient un score cuillère spectaculaire de 88 %. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Côtelettes de porc au four à l'ail + CÔTELETTES DE PORC GRATUITES, Côtelettes de porc rôties à l'ail et Côtelettes de porc au miel et à l'ail.",
         "instructions": [
           "Dans une petite casserole, faire fondre le beurre à feu moyen-doux et cuire les échalotes jusqu'à ce qu'elles soient tendres, environ 5 minutes.",
@@ -3598,7 +3598,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Turkey Pot Pie",
-        "subtitle": "You can never have too many main course recipes, so give Turkey Pot Pie a try.",
+        "subtitle": "You can never have too many main course recipes, so give Turkey Pot...",
         "description": "You can never have too many main course recipes, so give Turkey Pot Pie a try. This recipe serves 8 and costs $2.06 per serving. One serving contains 728 calories, 23g of protein, and 42g of fat. If you have flour, salt, chicken broth, and a few other ingredients on hand, you can make it. This recipe from Pink When has 17134 fans. From preparation to the plate, this recipe takes around 45 minutes. Overall, this recipe earns a spectacular spoonacular score of 88%. Similar recipes are Curry Turkey Pot Pie With Homemade Butter Pie Crust, Turkey Pot Pie!, and Turkey Pot Pie.",
         "instructions": [
           "Preheat oven to 425 degrees. Melt the butter and add the celeryand onion to a medium pot and saute over medium heat for about 8 minutes.Step 2: Stir in 2/3 cup flour, salt and pepper, celery seed, onion powder, garlic powder, and Italian seasoning. Slowly whisk in the chicken broth and milk, stirring constantly until the the mixture begins to thicken and then simmer lightly until thickened.",
@@ -3615,7 +3615,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Kalkoentaart",
-        "subtitle": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Turkey Pot Pie eens.",
+        "subtitle": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Turke...",
         "description": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Turkey Pot Pie eens. Dit recept serveert 8 personen en kost $ 2,06 per portie. Eén portie bevat 728 calorieën, 23 g eiwit en 42 g vet. Als je bloem, zout, kippenbouillon en een paar andere ingrediënten bij de hand hebt, kun je het maken. Dit recept van Pink When heeft 17134 fans. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Over het geheel genomen verdient dit recept een spectaculaire lepelscore van 88%. Soortgelijke recepten zijn Curry Kalkoentaart met zelfgemaakte botertaartkorst, Kalkoenpottaart! en Kalkoenpottaart.",
         "instructions": [
           "Verwarm de oven voor op 425 graden. Smelt de boter en voeg de selderij en ui toe aan een middelgrote pan en bak op middelhoog vuur gedurende ongeveer 8 minuten. Stap 2: Roer 2/3 kopje bloem, zout en peper, selderijzaad, uienpoeder, knoflookpoeder en Italiaanse kruiden erdoor. Voeg langzaam de kippenbouillon en de melk toe, onder voortdurend roeren, tot het mengsel begint in te dikken en laat het dan lichtjes sudderen tot het dikker wordt.",
@@ -3632,7 +3632,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pâté à la dinde",
-        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, alors essayez la tourte à la dinde.",
+        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, a...",
         "description": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, alors essayez la tourte à la dinde. Cette recette sert 8 personnes et coûte 2,06 $ par portion. Une portion contient 728 calories, 23 g de protéines et 42 g de matières grasses. Si vous avez de la farine, du sel, du bouillon de poulet et quelques autres ingrédients sous la main, vous pouvez le préparer. Cette recette de Pink When compte 17 134 fans. De la préparation à l'assiette, cette recette prend environ 45 minutes. Dans l'ensemble, cette recette obtient un score cuillère spectaculaire de 88 %. Des recettes similaires sont la tourte au pot au curry et à la dinde avec croûte de tarte au beurre maison, la tourte au pot à la dinde ! et la tourte au pot à la dinde.",
         "instructions": [
           "Préchauffer le four à 425 degrés. Faites fondre le beurre, ajoutez le céleri et l'oignon dans une casserole moyenne et faites revenir à feu moyen pendant environ 8 minutes. Étape 2 : Incorporez 2/3 tasse de farine, le sel et le poivre, les graines de céleri, la poudre d'oignon, la poudre d'ail et l'assaisonnement italien. Incorporer lentement le bouillon de poulet et le lait en remuant constamment jusqu'à ce que le mélange commence à épaissir, puis laisser mijoter légèrement jusqu'à épaississement.",
@@ -3848,7 +3848,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Fresh Peach Margarita With Lime Sugar",
-        "subtitle": "If you have around 45 minutes to spend in the kitchen, Fresh Peach Margarita With Lime Sugar might be an awesome gluten free, dairy free, lacto ovo vegetarian, and vegan recipe to try.",
+        "subtitle": "If you have around 45 minutes to spend in the kitchen, Fresh Peach...",
         "description": "If you have around 45 minutes to spend in the kitchen, Fresh Peach Margarita With Lime Sugar might be an awesome gluten free, dairy free, lacto ovo vegetarian, and vegan recipe to try. One portion of this dish contains around 1g of protein, 0g of fat, and a total of 293 calories. This recipe serves 2. For $3.99 per serving, this recipe covers 3% of your daily requirements of vitamins and minerals. If you have ice, juice of lime, orange liquor, and a few other ingredients on hand, you can make it. 3 people have tried and liked this recipe. It works well as a beverage. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 12%. This score is rather bad. If you like this recipe, take a look at these similar recipes: Fresh Peach Margarita, Fresh Peach Jalapeño Margarita, and Fresh Lime Margarita.",
         "instructions": [
           "Add 1/2 teaspoon of finely minced lime zest to 1/4 cup granulated sugar and set aside for about 30 minutes, stirring occasionally.For a pretty presentation, coat the rims of the glasses you are using with lime sugar (of course you can alternatively use plain white sugar).  Do this by rubbing the rim with a lime wedge and then placing the rim into a plate that has the sugar in it until the rim is coated with sugar.",
@@ -3858,7 +3858,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Verse Perzik Margarita Met Limoensuiker",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, is Verse Perzikmargarita met Limoensuiker wellicht een geweldig glutenvrij, zuivelvrij, lacto ovo-vegetarisch en veganistisch recept om uit te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te bre...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, is Verse Perzikmargarita met Limoensuiker wellicht een geweldig glutenvrij, zuivelvrij, lacto ovo-vegetarisch en veganistisch recept om uit te proberen. Eén portie van dit gerecht bevat ongeveer 1 gram eiwit, 0 gram vet en in totaal 293 calorieën. Dit recept is voor 2 personen. Voor $ 3,99 per portie dekt dit recept 3% van uw dagelijkse behoefte aan vitamines en mineralen. Als je ijs, limoensap, sinaasappellikeur en een paar andere ingrediënten bij de hand hebt, kun je het maken. 3 mensen hebben dit recept geprobeerd en vonden het leuk. Het werkt goed als drank. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 12% verdient. Deze score is nogal slecht. Als je dit recept lekker vindt, kijk dan eens naar deze vergelijkbare recepten: Fresh Peach Margarita, Fresh Peach Jalapeño Margarita en Fresh Lime Margarita.",
         "instructions": [
           "Voeg 1/2 theelepel fijngehakte limoenschil toe aan 1/4 kopje kristalsuiker en laat ongeveer 30 minuten staan, af en toe roeren. Voor een mooie presentatie bestrijkt u de randen van de glazen die u gebruikt met limoensuiker (u kunt natuurlijk ook gewone witte suiker gebruiken).  Doe dit door over de rand te wrijven met een schijfje limoen en de rand vervolgens in een bord met suiker te plaatsen totdat de rand bedekt is met suiker.",
@@ -3868,7 +3868,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Margarita aux pêches fraîches avec sucre au citron vert",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, la margarita aux pêches fraîches et au sucre citron vert pourrait être une superbe recette sans gluten, sans produits laitiers, lacto ovo végétarienne et végétalienne à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, la margar...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, la margarita aux pêches fraîches et au sucre citron vert pourrait être une superbe recette sans gluten, sans produits laitiers, lacto ovo végétarienne et végétalienne à essayer. Une portion de ce plat contient environ 1 g de protéines, 0 g de matières grasses et un total de 293 calories. Cette recette en sert 2. Pour 3,99 $ par portion, cette recette couvre 3 % de vos besoins quotidiens en vitamines et minéraux. Si vous avez de la glace, du jus de citron vert, de la liqueur d'orange et quelques autres ingrédients sous la main, vous pouvez le préparer. 3 personnes ont essayé et aimé cette recette. Cela fonctionne bien comme boisson. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 12 %. Ce score est plutôt mauvais. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Margarita aux pêches fraîches, Margarita aux pêches jalapeño fraîches et Margarita au citron vert frais.",
         "instructions": [
           "Ajoutez 1/2 cuillère à café de zeste de citron vert finement haché à 1/4 tasse de sucre cristallisé et laissez reposer environ 30 minutes en remuant de temps en temps. Pour une jolie présentation, enduisez les bords des verres que vous utilisez avec du sucre de citron vert (vous pouvez bien sûr également utiliser du sucre blanc nature).  Pour ce faire, frottez le bord avec un quartier de citron vert, puis placez le bord dans une assiette contenant du sucre jusqu'à ce que le bord soit recouvert de sucre.",
@@ -3987,7 +3987,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Apple Custard Pie With Oatmeal Crust",
-        "subtitle": "Apple Custard Pie With Oatmeal Crust might be just the dessert you are searching for.",
+        "subtitle": "Apple Custard Pie With Oatmeal Crust might be just the dessert you...",
         "description": "Apple Custard Pie With Oatmeal Crust might be just the dessert you are searching for. This recipe makes 10 servings with 604 calories, 7g of protein, and 19g of fat each. For 67 cents per serving, this recipe covers 10% of your daily requirements of vitamins and minerals. 2 people have tried and liked this recipe. From preparation to the plate, this recipe takes around 45 minutes. It is a good option if you're following a lacto ovo vegetarian diet. A mixture of milk, brown sugar, cinnamon, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is brought to you by Foodista. Taking all factors into account, this recipe earns a spoonacular score of 28%, which is not so spectacular. If you like this recipe, take a look at these similar recipes: Apple Custard Pie with Oatmeal Crust, Apple Custard Pie With Oatmeal Crust, and Apple Custard Pie With Oatmeal Crust.",
         "instructions": [
           "Preheat Oven 350 degrees:In a food processor combine oats, flour, cinnamon and brown sugar and give a few good chops until oats are ground.In a bowl combine butter and add mixture from the food processor and mix until dough is crumbly.Butter the bottom of a pie plate and press the dough to the bottom and sides.",
@@ -3997,7 +3997,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Appelvlataart Met Havermoutkorst",
-        "subtitle": "Appelvlataart met havermoutkorst is misschien wel het dessert waar je naar op zoek bent.",
+        "subtitle": "Appelvlataart met havermoutkorst is misschien wel het dessert waar...",
         "description": "Appelvlataart met havermoutkorst is misschien wel het dessert waar je naar op zoek bent. Dit recept maakt 10 porties met elk 604 calorieën, 7 g eiwit en 19 g vet. Voor 67 cent per portie dekt dit recept 10% van je dagelijkse behoefte aan vitamines en mineralen. 2 mensen hebben dit recept geprobeerd en vonden het leuk. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het is een goede optie als je een lacto-ovo-vegetarisch dieet volgt. Een mengsel van melk, bruine suiker, kaneel en een handvol andere ingrediënten is voldoende om dit recept zo smaakvol te maken. Het wordt u aangeboden door Foodista. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 28%, wat niet zo spectaculair is. Als je dit recept lekker vindt, kijk dan eens naar deze vergelijkbare recepten: Appelvlataart met havermoutkorst, Appelvlataart met havermoutkorst en Appelvlataart met havermoutkorst.",
         "instructions": [
           "Verwarm de oven voor op 350 graden: Combineer haver, bloem, kaneel en bruine suiker in een keukenmachine en geef een paar goede karbonades tot de haver gemalen is. Combineer de boter in een kom en voeg het mengsel uit de keukenmachine toe en meng tot het deeg kruimelig is. Beboter de bodem van een taartvorm en druk het deeg tegen de bodem en zijkanten.",
@@ -4007,7 +4007,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tarte À La Crème Aux Pommes Avec Croûte De Gruau",
-        "subtitle": "La tarte à la crème aux pommes et à la croûte d’avoine pourrait bien être le dessert que vous recherchez.",
+        "subtitle": "La tarte à la crème aux pommes et à la croûte d’avoine pourrait bie...",
         "description": "La tarte à la crème aux pommes et à la croûte d’avoine pourrait bien être le dessert que vous recherchez. Cette recette donne 10 portions avec 604 calories, 7 g de protéines et 19 g de matières grasses chacune. Pour 67 cents par portion, cette recette couvre 10 % de vos besoins quotidiens en vitamines et minéraux. 2 personnes ont essayé et aimé cette recette. De la préparation à l'assiette, cette recette prend environ 45 minutes. C'est une bonne option si vous suivez un régime lacto-ovo-végétarien. Un mélange de lait, de cassonade, de cannelle et d'une poignée d'autres ingrédients suffit pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 28 %, ce qui n'est pas si spectaculaire. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Tarte à la crème aux pommes avec croûte à l'avoine, Tarte à la crème aux pommes avec croûte à l'avoine et Tarte à la crème aux pommes avec croûte à l'avoine.",
         "instructions": [
           "Préchauffer le four à 350 degrés : Dans un robot culinaire, mélanger les flocons d'avoine, la farine, la cannelle et la cassonade et donner quelques bonnes côtelettes jusqu'à ce que l'avoine soit moulue. Dans un bol, mélanger le beurre et ajouter le mélange du robot culinaire et mélanger jusqu'à ce que la pâte soit friable. Beurrer le fond d'une assiette à tarte et presser la pâte au fond et sur les côtés.",
@@ -4406,7 +4406,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Fresh Fig, Walnut, Rosemary Upside Down Cake And A Crisp Citrusy Chardonnay",
-        "subtitle": "Fresh Fig, Walnut, Rosemary Upside Down Cake And A Crisp Citrusy Chardonnay could be just the lacto ovo vegetarian recipe you've been looking for.",
+        "subtitle": "Fresh Fig, Walnut, Rosemary Upside Down Cake And A Crisp Citrusy Ch...",
         "description": "Fresh Fig, Walnut, Rosemary Upside Down Cake And A Crisp Citrusy Chardonnay could be just the lacto ovo vegetarian recipe you've been looking for. This recipe serves 8. For $1.56 per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. One serving contains 374 calories, 5g of protein, and 11g of fat. This recipe from Foodista has 10 fans. A mixture of lemon juice, flour, citron vodka, and a handful of other ingredients are all it takes to make this recipe so yummy. From preparation to the plate, this recipe takes around 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 26%, which is not so amazing. Similar recipes include Fresh Fig, Walnut, And Rosemary Upside-down Cake, Honey and Rosemary Upside Down Fig Cake, and Upside-Down Fresh Fig Cake.",
         "instructions": [
           "Position a rack in the center of the oven, and preheat to 350 degrees.",
@@ -4430,7 +4430,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Verse vijgen, walnoten, rozemarijn ondersteboven cake en een frisse, citrusachtige chardonnay",
-        "subtitle": "Verse vijgen-, walnoot-, rozemarijn-omgekeerde cake en een knapperige citrus-chardonnay zouden wel eens precies het lacto-ovo-vegetarische recept kunnen zijn waar u naar op zoek was.",
+        "subtitle": "Verse vijgen-, walnoot-, rozemarijn-omgekeerde cake en een knapperi...",
         "description": "Verse vijgen-, walnoot-, rozemarijn-omgekeerde cake en een knapperige citrus-chardonnay zouden wel eens precies het lacto-ovo-vegetarische recept kunnen zijn waar u naar op zoek was. Dit recept is voor 8 personen. Voor $ 1,56 per portie dekt dit recept 8% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie bevat 374 calorieën, 5 g eiwit en 11 g vet. Dit recept van Foodista heeft 10 fans. Een mengsel van citroensap, bloem, citroenwodka en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 26%, wat niet zo verbazingwekkend is. Soortgelijke recepten zijn onder meer de omgekeerde vijgen-, walnoot- en rozemarijncake, de omgekeerde vijgencake met honing en rozemarijn en de omgekeerde verse vijgencake.",
         "instructions": [
           "Plaats een rek in het midden van de oven en verwarm voor op 350 graden.",
@@ -4454,7 +4454,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteau renversé aux figues fraîches, aux noix, au romarin et un chardonnay croquant aux agrumes",
-        "subtitle": "Un gâteau renversé aux figues fraîches, aux noix, au romarin et un chardonnay croustillant aux agrumes pourraient être exactement la recette lacto ovo végétarienne que vous recherchiez.",
+        "subtitle": "Un gâteau renversé aux figues fraîches, aux noix, au romarin et un...",
         "description": "Un gâteau renversé aux figues fraîches, aux noix, au romarin et un chardonnay croustillant aux agrumes pourraient être exactement la recette lacto ovo végétarienne que vous recherchiez. Cette recette en sert 8. Pour 1,56 $ par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Une portion contient 374 calories, 5 g de protéines et 11 g de matières grasses. Cette recette de Foodista compte 10 fans. Un mélange de jus de citron, de farine, de vodka au citron et une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 26 %, ce qui n’est pas si étonnant. Des recettes similaires incluent le gâteau renversé aux figues fraîches, aux noix et au romarin, le gâteau renversé aux figues au miel et au romarin et le gâteau renversé aux figues fraîches.",
         "instructions": [
           "Placez une grille au centre du four et préchauffez à 350 degrés.",
@@ -4657,7 +4657,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cinnamon French Toast Sticks",
-        "subtitle": "Cinnamon French Toast Sticks might be a good recipe to expand your breakfast recipe box.",
+        "subtitle": "Cinnamon French Toast Sticks might be a good recipe to expand your...",
         "description": "Cinnamon French Toast Sticks might be a good recipe to expand your breakfast recipe box. This recipe makes 1 servings with 695 calories, 23g of protein, and 26g of fat each. For $2.91 per serving, this recipe covers 28% of your daily requirements of vitamins and minerals. A mixture of icing sugar, milk, fruit, and a handful of other ingredients are all it takes to make this recipe so delicious. This recipe from Afrolems has 4 fans. It is a good option if you're following a lacto ovo vegetarian diet. From preparation to the plate, this recipe takes roughly 45 minutes. Not a lot of people really liked this American dish. All things considered, we decided this recipe deserves a spoonacular score of 62%. This score is solid. If you like this recipe, take a look at these similar recipes: Cinnamon French Toast Sticks, Cinnamon French Toast Sticks, and Cinnamon Sugar French Toast Sticks.",
         "instructions": [
           "Slice your bread into smaller rectangular sticks",
@@ -4668,7 +4668,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Kaneel wentelteefjes",
-        "subtitle": "Kaneel-wentelteefjes zijn misschien een goed recept om je ontbijtreceptendoos uit te breiden.",
+        "subtitle": "Kaneel-wentelteefjes zijn misschien een goed recept om je ontbijtre...",
         "description": "Kaneel-wentelteefjes zijn misschien een goed recept om je ontbijtreceptendoos uit te breiden. Dit recept maakt 1 portie met elk 695 calorieën, 23 g eiwit en 26 g vet. Voor $ 2,91 per portie dekt dit recept 28% van uw dagelijkse behoefte aan vitamines en mineralen. Een mengsel van poedersuiker, melk, fruit en een handvol andere ingrediënten is alles wat nodig is om dit recept zo heerlijk te maken. Dit recept van Afrolems heeft 4 fans. Het is een goede optie als je een lacto-ovo-vegetarisch dieet volgt. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Niet veel mensen hielden echt van dit Amerikaanse gerecht. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 62% verdient. Deze score is solide. Als je dit recept lekker vindt, kijk dan eens naar deze vergelijkbare recepten: Franse toaststokjes met kaneel, Franse toaststokjes met kaneel en Franse toaststicks met kaneelsuiker.",
         "instructions": [
           "Snijd je brood in kleinere rechthoekige stokjes",
@@ -4679,7 +4679,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Bâtonnets de pain perdu à la cannelle",
-        "subtitle": "Les bâtonnets de pain perdu à la cannelle pourraient être une bonne recette pour élargir votre boîte de recettes de petit-déjeuner.",
+        "subtitle": "Les bâtonnets de pain perdu à la cannelle pourraient être une bonne...",
         "description": "Les bâtonnets de pain perdu à la cannelle pourraient être une bonne recette pour élargir votre boîte de recettes de petit-déjeuner. Cette recette donne 1 portion avec 695 calories, 23 g de protéines et 26 g de matières grasses chacune. Pour 2,91 $ par portion, cette recette couvre 28 % de vos besoins quotidiens en vitamines et minéraux. Un mélange de sucre glace, de lait, de fruits et une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. Cette recette d'Afrolems a 4 fans. C'est une bonne option si vous suivez un régime lacto-ovo-végétarien. De la préparation à l'assiette, cette recette prend environ 45 minutes. Peu de gens ont vraiment aimé ce plat américain. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 62 %. Ce score est solide. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Bâtonnets de pain perdu à la cannelle, Bâtonnets de pain perdu à la cannelle et Bâtonnets de pain perdu à la cannelle et au sucre.",
         "instructions": [
           "Coupez votre pain en petits bâtonnets rectangulaires",
@@ -4837,7 +4837,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Plat principal d'artichauts farcis",
-        "subtitle": "Le plat principal aux artichauts farcis est une recette sans gluten de 2 portions.",
+        "subtitle": "Le plat principal aux artichauts farcis est une recette sans gluten...",
         "description": "Le plat principal aux artichauts farcis est une recette sans gluten de 2 portions. Une portion de ce plat contient environ 56 g de protéines, 9 g de matières grasses et un total de 500 calories. Pour 3,58 $ par portion, cette recette couvre 41 % de vos besoins quotidiens en vitamines et minéraux. Cette recette de Foodista nécessite du fromage mozzarella, des poitrines de poulet, de l'ail et du parmesan. 18 personnes ont essayé et aimé cette recette. Quelques personnes ont vraiment aimé ce plat principal. De la préparation à l'assiette, cette recette prend environ 1 heure. Avec une note cuillère de 95%, ce plat est excellent. Des recettes similaires sont le minestrone du plat principal, la salade de crevettes du plat principal et le plat principal de nouilles au thon.",
         "instructions": [
           "Séparez les feuilles centrales de l'artichaut",
@@ -5120,7 +5120,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Classic New England Crab Cakes",
-        "subtitle": "If you want to add more pescatarian and ketogenic recipes to your collection, Classic New England Crab Cakes might be a recipe you should try.",
+        "subtitle": "If you want to add more pescatarian and ketogenic recipes to your c...",
         "description": "If you want to add more pescatarian and ketogenic recipes to your collection, Classic New England Crab Cakes might be a recipe you should try. This recipe serves 6. One serving contains 322 calories, 15g of protein, and 26g of fat. For $3.06 per serving, this recipe covers 17% of your daily requirements of vitamins and minerals. This recipe from Foodista has 23 fans. A couple people really liked this hor d'oeuvre. A mixture of worcestershire sauce, celery, butter, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes around 45 minutes. All things considered, we decided this recipe deserves a spoonacular score of 55%. This score is good. Classic Crab Cakes, Classic Crab Cakes, and Classic Crab Cakes are very similar to this recipe.",
         "instructions": [
           "Cook onion and celery in 4 tablespoons butter over moderately low heat, until tender and transfer to a bowl. Stir in crab and bread crumbs.",
@@ -5131,7 +5131,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Klassieke krabkoekjes uit New England",
-        "subtitle": "Als je meer pescatarische en ketogene recepten aan je verzameling wilt toevoegen, is Classic New England Crab Cakes misschien een recept dat je zou moeten proberen.",
+        "subtitle": "Als je meer pescatarische en ketogene recepten aan je verzameling w...",
         "description": "Als je meer pescatarische en ketogene recepten aan je verzameling wilt toevoegen, is Classic New England Crab Cakes misschien een recept dat je zou moeten proberen. Dit recept is voor 6 personen. Eén portie bevat 322 calorieën, 15 g eiwit en 26 g vet. Voor $ 3,06 per portie dekt dit recept 17% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept van Foodista heeft 23 fans. Een paar mensen vonden dit hor d'oeuvre erg lekker. Een mengsel van worcestershiresaus, selderij, boter en een handvol andere ingrediënten is voldoende om dit recept zo heerlijk te maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 55% verdient. Dit cijfer is goed. Classic Crab Cakes, Classic Crab Cakes en Classic Crab Cakes lijken erg op dit recept.",
         "instructions": [
           "Kook de ui en bleekselderij in 4 eetlepels boter op matig laag vuur tot ze gaar zijn en doe ze in een kom. Roer de krab en broodkruimels erdoor.",
@@ -5142,7 +5142,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteaux de crabe classiques de la Nouvelle-Angleterre",
-        "subtitle": "Si vous souhaitez ajouter plus de recettes pescatariennes et cétogènes à votre collection, les galettes de crabe classiques de la Nouvelle-Angleterre pourraient être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter plus de recettes pescatariennes et cétogè...",
         "description": "Si vous souhaitez ajouter plus de recettes pescatariennes et cétogènes à votre collection, les galettes de crabe classiques de la Nouvelle-Angleterre pourraient être une recette que vous devriez essayer. Cette recette en sert 6. Une portion contient 322 calories, 15 g de protéines et 26 g de matières grasses. Pour 3,06 $ par portion, cette recette couvre 17 % de vos besoins quotidiens en vitamines et minéraux. Cette recette de Foodista compte 23 fans. Quelques personnes ont vraiment aimé cet hor-d'œuvre. Un mélange de sauce Worcestershire, de céleri, de beurre et d'une poignée d'autres ingrédients suffit pour rendre cette recette si délicieuse. De la préparation à l'assiette, cette recette prend environ 45 minutes. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 55 %. Ce score est bon. Les gâteaux de crabe classiques, les gâteaux de crabe classiques et les gâteaux de crabe classiques sont très similaires à cette recette.",
         "instructions": [
           "Cuire l'oignon et le céleri dans 4 cuillères à soupe de beurre à feu moyen-doux, jusqu'à ce qu'ils soient tendres, puis transférer dans un bol. Incorporer le crabe et la chapelure.",
@@ -5282,7 +5282,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Apple- Pomegranate Crisp",
-        "subtitle": "If you have around 45 minutes to spend in the kitchen, Apple- Pomegranate Crisp might be a tremendous lacto ovo vegetarian recipe to try.",
+        "subtitle": "If you have around 45 minutes to spend in the kitchen, Apple- Pomeg...",
         "description": "If you have around 45 minutes to spend in the kitchen, Apple- Pomegranate Crisp might be a tremendous lacto ovo vegetarian recipe to try. This recipe serves 12 and costs $1.05 per serving. This dessert has 295 calories, 4g of protein, and 11g of fat per serving. 2 people were impressed by this recipe. Head to the store and pick up ground cinnamon, apple juice, corn starch, and a few other things to make it today. It is brought to you by Foodista. Taking all factors into account, this recipe earns a spoonacular score of 22%, which is not so outstanding. Users who liked this recipe also liked Apple- Pomegranate Crisp, Brenda's Apple and Pomegranate Crisp, and Apple Crisp with Maple Syrup & Pomegranate.",
         "instructions": [
           "Preheat oven to 425 degrees.",
@@ -5297,7 +5297,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Appel-Granaatappel Crisp",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, is Apple-Pomegranate Crisp wellicht een geweldig lacto-ovo-vegetarisch recept om te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, i...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, is Apple-Pomegranate Crisp wellicht een geweldig lacto-ovo-vegetarisch recept om te proberen. Dit recept serveert 12 personen en kost $ 1,05 per portie. Dit dessert bevat 295 calorieën, 4 g eiwit en 11 g vet per portie. 2 mensen waren onder de indruk van dit recept. Ga naar de winkel en koop gemalen kaneel, appelsap, maïszetmeel en nog een paar andere dingen om het vandaag nog te maken. Het wordt u aangeboden door Foodista. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 22%, wat niet zo uitstekend is. Gebruikers die dit recept lekker vonden, waren ook dol op Apple-Pomegranate Crisp, Brenda's Apple and Pomegranate Crisp en Apple Crisp met Maple Syrup & Pomegranate.",
         "instructions": [
           "Verwarm de oven voor op 425 graden.",
@@ -5312,7 +5312,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Croustillant Pomme-Grenade",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, le croustillant aux pommes et à la grenade pourrait être une formidable recette lacto ovo végétarienne à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, le croust...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, le croustillant aux pommes et à la grenade pourrait être une formidable recette lacto ovo végétarienne à essayer. Cette recette sert 12 personnes et coûte 1,05 $ par portion. Ce dessert contient 295 calories, 4 g de protéines et 11 g de matières grasses par portion. 2 personnes ont été impressionnées par cette recette. Rendez-vous au magasin et procurez-vous de la cannelle moulue, du jus de pomme, de la fécule de maïs et quelques autres éléments à préparer aujourd'hui. Il vous est présenté par Foodista. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 22 %, ce qui n'est pas si exceptionnel. Les utilisateurs qui ont aimé cette recette ont également aimé le croustillant aux pommes et à la grenade, le croustillant aux pommes et à la grenade de Brenda et le croustillant aux pommes au sirop d'érable et à la grenade.",
         "instructions": [
           "Préchauffer le four à 425 degrés.",
@@ -5526,7 +5526,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Honeyed Bacon\" Baklava",
-        "subtitle": "If you want to add more middl eastern recipes to your recipe box, Honeyed Bacon\" Baklava might be a recipe you should try.",
+        "subtitle": "If you want to add more middl eastern recipes to your recipe box, H...",
         "description": "If you want to add more middl eastern recipes to your recipe box, Honeyed Bacon\" Baklava might be a recipe you should try. One serving contains 395 calories, 8g of protein, and 30g of fat. This recipe serves 24 and costs $1.81 per serving. A mixture of walnuts, sugar, ground cinnamon, and a handful of other ingredients are all it takes to make this recipe so tasty. 11 person were glad they tried this recipe. From preparation to the plate, this recipe takes around 45 minutes. It is brought to you by Foodista. With a spoonacular score of 24%, this dish is rather bad. Users who liked this recipe also liked Bacon Baklava, Honeyed Chicken, and Honeyed Olives.",
         "instructions": [
           "In large bowl of food processor, add walnuts, bacon, sugar, and cinnamon. Pulse until walnuts and bacon are chopped; set aside. (Be sure to fry the bacon to a crispy stage. Then it will chop up finely and evenly.)",
@@ -5543,7 +5543,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Honingspek\" Baklava",
-        "subtitle": "Als je meer recepten uit het Midden-Oosten aan je receptendoos wilt toevoegen, is Baklava met honingbacon misschien een recept dat je zou moeten proberen.",
+        "subtitle": "Als je meer recepten uit het Midden-Oosten aan je receptendoos wilt...",
         "description": "Als je meer recepten uit het Midden-Oosten aan je receptendoos wilt toevoegen, is Baklava met honingbacon misschien een recept dat je zou moeten proberen. Eén portie bevat 395 calorieën, 8 g eiwit en 30 g vet. Dit recept is geschikt voor 24 personen en kost $ 1,81 per portie. Een mengsel van walnoten, suiker, gemalen kaneel en een handvol andere ingrediënten is alles wat nodig is om dit recept zo lekker te maken. 11 personen waren blij dat ze dit recept hebben geprobeerd. Van voorbereiding tot op het bord, Dit recept duurt ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Met een lepelscore van 24% is dit gerecht nogal slecht. Gebruikers die dit recept lekker vonden, hielden ook van Bacon Baklava, Honeyed Chicken en Honeyed Olives.",
         "instructions": [
           "Voeg in een grote kom van de keukenmachine walnoten, spek, suiker en kaneel toe. Pulseer tot walnoten en spek zijn gehakt; opzij zetten. (Zorg ervoor dat je het spek knapperig bakt. Dan wordt het fijn en gelijkmatig gehakt.)",
@@ -5560,7 +5560,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Baklava au bacon au miel",
-        "subtitle": "Si vous souhaitez ajouter d'autres recettes du Moyen-Orient à votre boîte de recettes, le Baklava au bacon et au miel pourrait être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter d'autres recettes du Moyen-Orient à votre...",
         "description": "Si vous souhaitez ajouter d'autres recettes du Moyen-Orient à votre boîte de recettes, le Baklava au bacon et au miel pourrait être une recette que vous devriez essayer. Une portion contient 395 calories, 8 g de protéines et 30 g de matières grasses. cette recette prend environ 45 minutes. Elle vous est proposée par Foodista. Avec un score cuillère de 24%, ce plat est plutôt mauvais. Les utilisateurs qui ont aimé cette recette ont également aimé le Bacon Baklava, le Poulet au Miel et les Olives au Miel.",
         "instructions": [
           "Dans un grand bol du robot culinaire, ajouter les noix, le bacon, le sucre et la cannelle. Pulser jusqu'à ce que les noix et le bacon soient hachés; annuler. (Assurez-vous de faire frire le bacon jusqu'à ce qu'il soit croustillant. Il sera ensuite haché finement et uniformément.)",
@@ -5676,7 +5676,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Vegetarian Tostadas With Spicy Black Beans (+gluten free)",
-        "subtitle": "If you want to add more gluten free and lacto ovo vegetarian recipes to your recipe box, Vegetarian Tostadas With Spicy Black Beans (+gluten free) might be a recipe you should try.",
+        "subtitle": "If you want to add more gluten free and lacto ovo vegetarian recipe...",
         "description": "If you want to add more gluten free and lacto ovo vegetarian recipes to your recipe box, Vegetarian Tostadas With Spicy Black Beans (+gluten free) might be a recipe you should try. For $1.67 per serving, you get a hor d'oeuvre that serves 4. One portion of this dish contains about 14g of protein, 12g of fat, and a total of 296 calories. From preparation to the plate, this recipe takes around 45 minutes. 3 people were glad they tried this recipe. A mixture of chiles in adobo sauce, cherry tomatoes, feta cheese, and a handful of other ingredients are all it takes to make this recipe so tasty. It is an affordable recipe for fans of Mexican food. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 75%. This score is solid. Users who liked this recipe also liked Vegetarian Tostadas With Spicy Black Beans (+gluten free), Gluten Free Cashew Chicken (Spicy, Vegetarian, Nut-Free, & Soy-Free Options), and Gluten Free Chicken Black Beans and Rice.",
         "instructions": [
           "Heat a large saute pan on medium high heat.",
@@ -5690,7 +5690,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Vegetarische Tostadas Met Pittige Zwarte Bonen (+glutenvrij)",
-        "subtitle": "Als je meer glutenvrije en lacto ovo-vegetarische recepten aan je receptendoos wilt toevoegen, is Vegetarische Tostadas met Pittige Zwarte Bonen (+glutenvrij) wellicht een recept dat je moet proberen.",
+        "subtitle": "Als je meer glutenvrije en lacto ovo-vegetarische recepten aan je r...",
         "description": "Als je meer glutenvrije en lacto ovo-vegetarische recepten aan je receptendoos wilt toevoegen, is Vegetarische Tostadas met Pittige Zwarte Bonen (+glutenvrij) wellicht een recept dat je moet proberen. Voor $ 1,67 per portie krijg je een hor d'oeuvre voor 4 personen. Eén portie van dit gerecht bevat ongeveer 14 g eiwit, 12 g vet en in totaal 296 calorieën. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. 3 mensen waren blij dat ze dit recept probeerden. Een mengsel van chilipepers in adobosaus, kerstomaatjes, fetakaas en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het is een betaalbaar recept voor liefhebbers van Mexicaans eten. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 75% verdient. Deze score is solide. Gebruikers die dit recept lekker vonden, hielden ook van vegetarische tostadas met pittige zwarte bonen (+glutenvrij), glutenvrije cashewkip (pikante, vegetarische, notenvrije en sojavrije opties) en glutenvrije kip, zwarte bonen en rijst.",
         "instructions": [
           "Verhit een grote koekenpan op middelhoog vuur.",
@@ -5704,7 +5704,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tostadas végétariennes aux haricots noirs épicés (+ sans gluten)",
-        "subtitle": "Si vous souhaitez ajouter plus de recettes végétariennes sans gluten et lacto ovo à votre boîte de recettes, les tostadas végétariennes aux haricots noirs épicés (+ sans gluten) pourraient être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter plus de recettes végétariennes sans glute...",
         "description": "Si vous souhaitez ajouter plus de recettes végétariennes sans gluten et lacto ovo à votre boîte de recettes, les tostadas végétariennes aux haricots noirs épicés (+ sans gluten) pourraient être une recette que vous devriez essayer. Pour 1,67 $ par portion, vous obtenez un hors-d'œuvre pour 4 personnes. Une portion de ce plat contient environ 14 g de protéines, 12 g de matières grasses et un total de 296 calories. De la préparation à l'assiette, cette recette prend environ 45 minutes. 3 personnes étaient contentes d'avoir essayé cette recette. Un mélange de piments à la sauce adobo, de tomates cerises, de fromage feta et d'une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. C'est une recette abordable pour les amateurs de cuisine mexicaine. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 75 %. Ce score est solide. Les utilisateurs qui ont aimé cette recette ont également aimé Tostadas végétariennes aux haricots noirs épicés (+ sans gluten), Poulet aux noix de cajou sans gluten (options épicées, végétariennes, sans noix et sans soja) et Poulet sans gluten, haricots noirs et riz.",
         "instructions": [
           "Faites chauffer une grande sauteuse à feu moyen-vif.",
@@ -5867,7 +5867,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Bittersweet Chocolate Ice Cream",
-        "subtitle": "Bittersweet Chocolate Ice Cream is a gluten free, lacto ovo vegetarian, and primal recipe with 2 servings.",
+        "subtitle": "Bittersweet Chocolate Ice Cream is a gluten free, lacto ovo vegetar...",
         "description": "Bittersweet Chocolate Ice Cream is a gluten free, lacto ovo vegetarian, and primal recipe with 2 servings. One portion of this dish contains approximately 11g of protein, 71g of fat, and a total of 734 calories. For $1.6 per serving, this recipe covers 12% of your daily requirements of vitamins and minerals. 68 people have tried and liked this recipe. A mixture of half& half, heavy whipping cream, vanillan extract, and a handful of other ingredients are all it takes to make this recipe so flavorful. From preparation to the plate, this recipe takes roughly 45 minutes. It will be a hit at your Summer event. It is brought to you by Foodista. With a spoonacular score of 52%, this dish is good. If you like this recipe, you might also like recipes such as Bittersweet Chocolate Ice Cream, Chocolate Pound Cake with Strawberry Ice Cream and Bittersweet Chocolate Sauce, and Bittersweet Molten Chocolate Cakes with Coffee Ice Cream.",
         "instructions": [
           "Prep your ice cream maker according to the manufacturers directions.In a medium sauce pan, heat the half & half until warm- not hot.In a bowl, whisk the egg yolks until blended.",
@@ -5881,7 +5881,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Bitterzoet chocolade-ijs",
-        "subtitle": "Bitterzoet chocolade-ijs is een glutenvrij, lacto-ovo-vegetarisch en oerrecept met 2 porties.",
+        "subtitle": "Bitterzoet chocolade-ijs is een glutenvrij, lacto-ovo-vegetarisch e...",
         "description": "Bitterzoet chocolade-ijs is een glutenvrij, lacto-ovo-vegetarisch en oerrecept met 2 porties. Eén portie van dit gerecht bevat ongeveer 11 g eiwit, 71 g vet en in totaal 734 calorieën. Voor $ 1,6 per portie dekt dit recept 12% van uw dagelijkse behoefte aan vitamines en mineralen. 68 mensen hebben dit recept geprobeerd en vonden het leuk. Een mengsel van half en half zware slagroom, vanille-extract en een handvol andere ingrediënten is alles wat nodig is om dit recept zo smaakvol te maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het zal een hit zijn op uw zomerevenement. Het wordt u aangeboden door Foodista. Met een lepelscore van 52% is dit gerecht goed. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals bitterzoet chocolade-ijs, chocoladetaart met aardbeienijs en bitterzoete chocoladesaus, en bitterzoete gesmolten chocoladetaarten met koffie-ijs.",
         "instructions": [
           "Bereid uw ijsmachine voor volgens de aanwijzingen van de fabrikant. Verhit de helft en de helft in een middelgrote pan tot het warm is (niet heet). Klop de eidooiers in een kom tot ze gemengd zijn.",
@@ -5895,7 +5895,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Glace au chocolat aigre-doux",
-        "subtitle": "La crème glacée au chocolat doux-amer est une recette sans gluten, lacto ovo végétarienne et primale avec 2 portions.",
+        "subtitle": "La crème glacée au chocolat doux-amer est une recette sans gluten,...",
         "description": "La crème glacée au chocolat doux-amer est une recette sans gluten, lacto ovo végétarienne et primale avec 2 portions. Une portion de ce plat contient environ 11 g de protéines, 71 g de matières grasses et un total de 734 calories. Pour 1,6 $ par portion, cette recette couvre 12 % de vos besoins quotidiens en vitamines et minéraux. 68 personnes ont essayé et aimé cette recette. Un mélange moitié-moitié, de la crème fouettée épaisse, de l'extrait de vanille et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. De la préparation à l'assiette, cette recette prend environ 45 minutes. Ce sera un succès lors de votre événement d'été. Il vous est présenté par Foodista. Avec un score cuillère de 52%, ce plat est bon. Si vous aimez cette recette, vous aimerez peut-être également des recettes telles que Glace au chocolat aigre-doux, Quatre-quarts au chocolat avec glace à la fraise et sauce au chocolat aigre-doux, et Gâteaux au chocolat fondu aigre-doux avec glace au café.",
         "instructions": [
           "Préparez votre sorbetière selon les instructions du fabricant. Dans une casserole moyenne, faites chauffer la moitié-moitié jusqu'à ce qu'elle soit chaude, pas chaude. Dans un bol, fouettez les jaunes d'œufs jusqu'à ce que le mélange soit homogène.",
@@ -5978,7 +5978,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Yogurt Marinated Lamb Skewers",
-        "subtitle": "Yogurt Marinated Lamb Skewers could be just the gluten free recipe you've been looking for.",
+        "subtitle": "Yogurt Marinated Lamb Skewers could be just the gluten free recipe...",
         "description": "Yogurt Marinated Lamb Skewers could be just the gluten free recipe you've been looking for. One portion of this dish contains approximately 50g of protein, 18g of fat, and a total of 385 calories. For $4.43 per serving, this recipe covers 30% of your daily requirements of vitamins and minerals. This recipe serves 12. This recipe is liked by 10 foodies and cooks. A mixture of veg oil, cumin, yogurt, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It works well as a main course. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 84%. This score is excellent. Users who liked this recipe also liked Yogurt- and Mint-Marinated Lamb Skewers, Yogurt- and Mint-Marinated Lamb Skewers, and Yogurt Marinated Chicken Skewers With Toum Garlic Sauce.",
         "instructions": [
           "Bone the lamb and cut into 1\" cubes.",
@@ -5987,7 +5987,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "In yoghurt gemarineerde lamsspiesjes",
-        "subtitle": "Met yoghurt gemarineerde lamsspiesjes zou wel eens precies het glutenvrije recept kunnen zijn waar u naar op zoek was.",
+        "subtitle": "Met yoghurt gemarineerde lamsspiesjes zou wel eens precies het glut...",
         "description": "Met yoghurt gemarineerde lamsspiesjes zou wel eens precies het glutenvrije recept kunnen zijn waar u naar op zoek was. Eén portie van dit gerecht bevat ongeveer 50 gram eiwit, 18 gram vet en in totaal 385 calorieën. Voor $ 4,43 per portie dekt dit recept 30% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept is voor 12 personen. Dit recept is geliefd bij 10 foodies en koks. Een mengsel van plantaardige olie, komijn, yoghurt en een handvol andere ingrediënten is voldoende om dit recept zo heerlijk te maken. Het werkt goed als hoofdgerecht. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 84% verdient. Deze score is uitstekend. Gebruikers die dit recept lekker vonden, hielden ook van in yoghurt en munt gemarineerde lamsspiesjes, in yoghurt en munt gemarineerde lamsspiesjes en in yoghurt gemarineerde kipspiesjes met toum-knoflooksaus.",
         "instructions": [
           "Ontbeen het lamsvlees en snijd het in blokjes van 1 inch.",
@@ -5996,7 +5996,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Brochettes d'agneau marinées au yaourt",
-        "subtitle": "Les brochettes d'agneau marinées au yaourt pourraient bien être la recette sans gluten que vous recherchiez.",
+        "subtitle": "Les brochettes d'agneau marinées au yaourt pourraient bien être la...",
         "description": "Les brochettes d'agneau marinées au yaourt pourraient bien être la recette sans gluten que vous recherchiez. Une portion de ce plat contient environ 50 g de protéines, 18 g de matières grasses et un total de 385 calories. Pour 4,43 $ par portion, cette recette couvre 30 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est pour 12 personnes. Cette recette est appréciée par 10 gourmets et cuisiniers. Un mélange d’huile végétale, de cumin, de yaourt et d’une poignée d’autres ingrédients suffit pour rendre cette recette si délicieuse. Cela fonctionne bien comme plat principal. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 84 %. Cette note est excellente. Les utilisateurs qui ont aimé cette recette ont également aimé les brochettes d'agneau marinées au yaourt et à la menthe, les brochettes d'agneau marinées au yaourt et à la menthe et les brochettes de poulet marinées au yaourt avec sauce à l'ail et au toum.",
         "instructions": [
           "Désossez l'agneau et coupez-le en cubes de 1\".",
@@ -6114,7 +6114,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Sweet Florida Orange Breakfast Bread",
-        "subtitle": "Sweet Floridan Orange Breakfast Bread might be a good recipe to expand your breakfast repertoire.",
+        "subtitle": "Sweet Floridan Orange Breakfast Bread might be a good recipe to exp...",
         "description": "Sweet Floridan Orange Breakfast Bread might be a good recipe to expand your breakfast repertoire. For 50 cents per serving, this recipe covers 7% of your daily requirements of vitamins and minerals. Watching your figure? This lacto ovo vegetarian recipe has 354 calories, 5g of protein, and 13g of fat per serving. This recipe serves 16. This recipe from Foodista requires flour, sugar, orange zest, and salt. 6 people were glad they tried this recipe. From preparation to the plate, this recipe takes approximately 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 22%, which is rather bad. Crispy Pan Seared Florida Snapper with Passion Fruit Cream and Florida Citrus and Shaved Fennel Salad, Garnished with Sauteed Florida Gulf Shrimp and Spicy Green Mango Jam, Floridan Orange Cake, and Orange-Rhubarb Breakfast Bread are very similar to this recipe.",
         "instructions": [
           "Preheat oven to 350F.",
@@ -6138,7 +6138,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Zoet Florida Oranje Ontbijtbrood",
-        "subtitle": "Zoet Floridan Orange Breakfast Bread is misschien een goed recept om je ontbijtrepertoire uit te breiden.",
+        "subtitle": "Zoet Floridan Orange Breakfast Bread is misschien een goed recept o...",
         "description": "Zoet Floridan Orange Breakfast Bread is misschien een goed recept om je ontbijtrepertoire uit te breiden. Voor 50 cent per portie dekt dit recept 7% van je dagelijkse behoefte aan vitamines en mineralen. Op je figuur letten? Dit lacto ovo-vegetarische recept bevat 354 calorieën, 5 g eiwit en 13 g vet per portie. Dit recept serveert 16 personen. Dit recept van Foodista vereist bloem, suiker, sinaasappelschil en zout. 6 mensen waren blij dat ze dit recept probeerden. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 22%, wat nogal slecht is. Krokant gebakken Florida Snapper met passievruchtencrème en salade van Florida citrus en geschoren venkel, gegarneerd met gebakken Florida Gulf Shrimp en pittige groene mangojam, Floridan Orange Cake en Orange-Rabarber ontbijtbrood lijken erg op dit recept.",
         "instructions": [
           "Verwarm de oven voor op 350F.",
@@ -6162,7 +6162,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pain de petit-déjeuner sucré à l'orange de Floride",
-        "subtitle": "Le pain de petit-déjeuner sucré à l'orange de Floride pourrait être une bonne recette pour élargir votre répertoire de petit-déjeuner.",
+        "subtitle": "Le pain de petit-déjeuner sucré à l'orange de Floride pourrait être...",
         "description": "Le pain de petit-déjeuner sucré à l'orange de Floride pourrait être une bonne recette pour élargir votre répertoire de petit-déjeuner. Pour 50 cents par portion, cette recette couvre 7 % de vos besoins quotidiens en vitamines et minéraux. Vous surveillez votre silhouette ? Cette recette lacto ovo végétarienne contient 354 calories, 5 g de protéines et 13 g de matières grasses par portion. Cette recette en sert 16. Cette recette de Foodista nécessite de la farine, du sucre, du zeste d'orange et du sel. 6 personnes étaient contentes d'avoir essayé cette recette. De la préparation à l'assiette, cette recette prend environ 45 minutes. En prenant en compte tous les facteurs, cette recette obtient un score cuillère de 22 %, ce qui est plutôt mauvais. Le vivaneau de Floride poêlé croustillant avec crème de fruit de la passion et salade d'agrumes de Floride et de fenouil rasé, garni de crevettes sautées du golfe de Floride et de confiture de mangue verte épicée, de gâteau à l'orange de Floride et de pain de petit-déjeuner à l'orange et à la rhubarbe sont très similaires à cette recette.",
         "instructions": [
           "Préchauffer le four à 350F.",
@@ -6345,7 +6345,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Chinese Potstickers",
-        "subtitle": "If you have approximately 45 minutes to spend in the kitchen, Chinese Potstickers might be an excellent dairy free recipe to try.",
+        "subtitle": "If you have approximately 45 minutes to spend in the kitchen, Chine...",
         "description": "If you have approximately 45 minutes to spend in the kitchen, Chinese Potstickers might be an excellent dairy free recipe to try. This recipe makes 24 servings with 135 calories, 4g of protein, and 5g of fat each. For 26 cents per serving, this recipe covers 4% of your daily requirements of vitamins and minerals. A couple people really liked this hor d'oeuvre. This recipe is typical of Chinese cuisine. This recipe from Foodista requires vegetable oil, flour to dust, scallions, and sugar. 37 people have tried and liked this recipe. Overall, this recipe earns a rather bad spoonacular score of 23%. Try Chinese Potstickers, Chinese Potstickers, and Chinese Dumplings And Potstickers for similar recipes.",
         "instructions": [
           "Place 200g of ground pork in a large mixing bowl. If preferred, pork may be substituted with ground chicken.",
@@ -6374,7 +6374,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Chinese Potstickers",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, zijn Chinese Potstickers misschien een uitstekend zuivelvrij recept om te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, z...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, zijn Chinese Potstickers misschien een uitstekend zuivelvrij recept om te proberen. Dit recept maakt 24 porties met elk 135 calorieën, 4 g eiwit en 5 g vet. Voor 26 cent per portie dekt dit recept 4% van je dagelijkse behoefte aan vitamines en mineralen. Een paar mensen vonden dit hor d'oeuvre erg lekker. Dit recept is typisch voor de Chinese keuken. Dit recept van Foodista vereist plantaardige olie, bloem tot stof, lente-uitjes en suiker. 37 mensen hebben dit recept geprobeerd en vonden het leuk. Over het geheel genomen verdient dit recept een nogal slechte lepelscore van 23%. Probeer Chinese Potstickers, Chinese Potstickers en Chinese Dumplings en Potstickers voor soortgelijke recepten.",
         "instructions": [
           "Doe 200 g varkensgehakt in een grote mengkom. Indien gewenst kan varkensvlees worden vervangen door gemalen kip.",
@@ -6403,7 +6403,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Potstickers chinois",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les Potstickers chinois pourraient être une excellente recette sans produits laitiers à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les Potst...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, les Potstickers chinois pourraient être une excellente recette sans produits laitiers à essayer. Cette recette donne 24 portions avec 135 calories, 4 g de protéines et 5 g de matières grasses chacune. Pour 26 cents par portion, cette recette couvre 4 % de vos besoins quotidiens en vitamines et minéraux. Quelques personnes ont vraiment aimé cet hor-d'œuvre. Cette recette est typique de la cuisine chinoise. Cette recette de Foodista nécessite de l'huile végétale, de la farine en poudre, des oignons verts et du sucre. 37 personnes ont essayé et aimé cette recette. Dans l'ensemble, cette recette obtient un score cuillère plutôt mauvais de 23 %. Essayez les Potstickers chinois, les Potstickers chinois et les Dumplings et Potstickers chinois pour des recettes similaires.",
         "instructions": [
           "Mettez 200 g de porc haché dans un grand bol à mélanger. Si vous préférez, le porc peut être remplacé par du poulet haché.",
@@ -6591,7 +6591,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant",
-        "subtitle": "The recipe Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant could satisfy your Indian craving in around 45 minutes.",
+        "subtitle": "The recipe Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted...",
         "description": "The recipe Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant could satisfy your Indian craving in around 45 minutes. This recipe serves 6 and costs 94 cents per serving. This hor d'oeuvre has 129 calories, 7g of protein, and 2g of fat per serving. It is brought to you by foodandspice.blogspot.com. If you have black-eyed peas, olive oil, globe, and a few other ingredients on hand, you can make it. This recipe is liked by 32 foodies and cooks. It is a good option if you're following a gluten free, dairy free, lacto ovo vegetarian, and vegan diet. All things considered, we decided this recipe deserves a spoonacular score of 98%. This score is outstanding. Try Roasted Eggplant and Swiss Chard Lasagna, Pumpkin, Black-Eyed Pea, and Coconut Curry, and Spicy Black-eyed Pea Relish for similar recipes.",
         "instructions": [
           "Rinse the black-eyed peas and soak in several inches of water for 6 hours or overnight.",
@@ -6611,7 +6611,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Pittige Black-Eyed Pea Curry met snijbiet en geroosterde aubergine",
-        "subtitle": "Het recept Pittige Black-Eyed Pea Curry met snijbiet en geroosterde aubergine kan uw Indiase trek in ongeveer 45 minuten stillen.",
+        "subtitle": "Het recept Pittige Black-Eyed Pea Curry met snijbiet en geroosterde...",
         "description": "Het recept Pittige Black-Eyed Pea Curry met snijbiet en geroosterde aubergine kan uw Indiase trek in ongeveer 45 minuten stillen. Dit recept serveert 6 personen en kost 94 cent per portie. Dit hor d'oeuvre bevat 129 calorieën, 7 g eiwit en 2 g vet per portie. Het wordt u aangeboden door foodandspice.blogspot.com. Als je erwten met zwarte ogen, olijfolie, globe en een paar andere ingrediënten bij de hand hebt, kun je het maken. Dit recept is geliefd bij 32 foodies en koks. Het is een goede optie als je een glutenvrij, zuivelvrij, lacto ovo-vegetarisch en veganistisch dieet volgt. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 98% verdient. Deze score is uitmuntend. Probeer geroosterde aubergine en snijbietlasagne, pompoen, Black-Eyed Pea en Coconut Curry en Spicy Black-eyed Pea Relish voor soortgelijke recepten.",
         "instructions": [
           "Spoel de erwten met zwarte ogen af ​​en laat ze gedurende 6 uur of een nacht in enkele centimeters water weken.",
@@ -6631,7 +6631,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Curry épicé aux pois noirs avec blettes à carde et aubergines rôties",
-        "subtitle": "La recette Curry épicé aux pois noirs avec blettes à carde et aubergines rôties pourrait satisfaire votre envie indienne en 45 minutes environ.",
+        "subtitle": "La recette Curry épicé aux pois noirs avec blettes à carde et auber...",
         "description": "La recette Curry épicé aux pois noirs avec blettes à carde et aubergines rôties pourrait satisfaire votre envie indienne en 45 minutes environ. Cette recette sert 6 personnes et coûte 94 cents par portion. Ce hors-d'œuvre contient 129 calories, 7 g de protéines et 2 g de matières grasses par portion. Il vous est présenté par foodandspice.blogspot.com. Si vous avez des pois aux yeux noirs, de l'huile d'olive, du globe et quelques autres ingrédients sous la main, vous pouvez le préparer. Cette recette est appréciée par 32 gourmets et cuisiniers. C'est une bonne option si vous suivez un régime sans gluten, sans produits laitiers, lacto ovo végétarien et végétalien. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 98 %. Ce score est exceptionnel. Essayez la lasagne aux aubergines rôties et aux blettes, le curry à la citrouille, aux pois aux yeux noirs et à la noix de coco, ainsi que la relish épicée aux pois aux yeux noirs pour des recettes similaires.",
         "instructions": [
           "Rincez les pois aux yeux noirs et laissez-les tremper dans plusieurs centimètres d'eau pendant 6 heures ou toute la nuit.",
@@ -6830,7 +6830,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "One Soup, Two Ways: Chunky Vegetables and Cream Of Vegetables",
-        "subtitle": "The recipe One Soup, Two Ways: Chunky Vegetables and Cream Of Vegetables can be made in around 45 minutes.",
+        "subtitle": "The recipe One Soup, Two Ways: Chunky Vegetables and Cream Of Veget...",
         "description": "The recipe One Soup, Two Ways: Chunky Vegetables and Cream Of Vegetables can be made in around 45 minutes. This gluten free and lacto ovo vegetarian recipe serves 6 and costs $1.13 per serving. This hor d'oeuvre has 167 calories, 7g of protein, and 4g of fat per serving. It will be a hit at your Autumn event. 2 people were glad they tried this recipe. A mixture of beans, cooking cream, carrots, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Foodista. With a spoonacular score of 57%, this dish is solid. If you like this recipe, you might also like recipes such as One Soup, Two Ways: Chunky Vegetables and Cream Of Vegetables, Chunky Vegetables with Fusilli, and Chunky pasta sauce with more vegetables than meat.",
         "instructions": [
           "Heat olive oil over medium low heat in a soup pot (big enough to hold everything you have) and throw in garlic, onions, carrots and celery.",
@@ -6846,7 +6846,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Eén soep, twee manieren: dikke groenten en groentecrème",
-        "subtitle": "Het recept Eén soep, twee manieren: dikke groenten en groentecrème is in ongeveer 45 minuten te maken.",
+        "subtitle": "Het recept Eén soep, twee manieren: dikke groenten en groentecrème...",
         "description": "Het recept Eén soep, twee manieren: dikke groenten en groentecrème is in ongeveer 45 minuten te maken. Dit glutenvrije en lacto-ovo-vegetarische recept is geschikt voor 6 personen en kost $ 1,13 per portie. Dit hor d'oeuvre bevat 167 calorieën, 7 gram eiwit en 4 gram vet per portie. Het zal een hit zijn op uw herfstevenement. 2 mensen waren blij dat ze dit recept probeerden. Een mengsel van bonen, kookroom, wortelen en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Met een lepelscore van 57% is dit gerecht stevig. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Eén soep, Twee manieren: dikke groenten en crème van groenten, Dikke groenten met Fusilli en Dikke pastasaus met meer groenten dan vlees.",
         "instructions": [
           "Verhit olijfolie op middelhoog vuur in een soeppan (groot genoeg voor alles wat je hebt) en doe de knoflook, uien, wortels en selderij erbij.",
@@ -6862,7 +6862,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Une soupe, deux façons : légumes en morceaux et crème de légumes",
-        "subtitle": "La recette Une soupe, deux façons : gros légumes et crème de légumes peut être préparée en 45 minutes environ.",
+        "subtitle": "La recette Une soupe, deux façons : gros légumes et crème de légume...",
         "description": "La recette Une soupe, deux façons : gros légumes et crème de légumes peut être préparée en 45 minutes environ. Cette recette végétarienne sans gluten et lacto ovo sert 6 personnes et coûte 1,13 $ par portion. Ce hors-d'œuvre contient 167 calories, 7 g de protéines et 4 g de matières grasses par portion. Ce sera un succès lors de votre événement d'automne. 2 personnes étaient contentes d'avoir essayé cette recette. Un mélange de haricots, de crème de cuisson, de carottes et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. Avec un score cuillère de 57%, ce plat est solide. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Une soupe, deux façons : légumes en morceaux et crème de légumes, Légumes en morceaux avec fusilli et Sauce pour pâtes en morceaux avec plus de légumes que de viande.",
         "instructions": [
           "Faites chauffer l'huile d'olive à feu moyen-doux dans une marmite (assez grande pour contenir tout ce que vous avez) et ajoutez-y l'ail, les oignons, les carottes et le céleri.",
@@ -7199,7 +7199,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Olive Tapenade Flatbread",
-        "subtitle": "If you want to add more lacto ovo vegetarian recipes to your recipe box, Olive Tapenade Flatbread might be a recipe you should try.",
+        "subtitle": "If you want to add more lacto ovo vegetarian recipes to your recipe...",
         "description": "If you want to add more lacto ovo vegetarian recipes to your recipe box, Olive Tapenade Flatbread might be a recipe you should try. This recipe serves 4. For $1.8 per serving, this recipe covers 6% of your daily requirements of vitamins and minerals. One portion of this dish contains approximately 13g of protein, 25g of fat, and a total of 404 calories. Only a few people made this recipe, and 4 would say it hit the spot. A mixture of kalamatan olives, extra virgin olive oil, extra virgin olive oil, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes approximately 20 minutes. It is brought to you by Foodista. Overall, this recipe earns a not so amazing spoonacular score of 26%. Users who liked this recipe also liked Olive Tapenade Flatbread, Olive Tapenade Flatbread, and Olive Tapenade Flatbread.",
         "instructions": [
           "Preheat BBQ grill to medium high.Use the tablespoon of olive oil to brush both sides of the naan.Grill naan for 3 minutes on each side",
@@ -7212,7 +7212,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Olijftapenade Platbrood",
-        "subtitle": "Als je meer lacto ovo vegetarische recepten aan je receptendoos wilt toevoegen, is Olijfolietapenade Flatbread wellicht een recept dat je moet proberen.",
+        "subtitle": "Als je meer lacto ovo vegetarische recepten aan je receptendoos wil...",
         "description": "Als je meer lacto ovo vegetarische recepten aan je receptendoos wilt toevoegen, is Olijfolietapenade Flatbread wellicht een recept dat je moet proberen. Dit recept is voor 4 personen. Voor $ 1,8 per portie dekt dit recept 6% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie van dit gerecht bevat ongeveer 13 g eiwit, 25 g vet en in totaal 404 calorieën. Slechts een paar mensen hebben dit recept gemaakt, en vier zouden zeggen dat het een succes was. Een mengsel van Kalamatan-olijven, extra vierge olijfolie, extra vierge olijfolie en een handvol andere ingrediënten is voldoende om dit recept zo heerlijk te maken. Van bereiding tot op het bord duurt dit recept ongeveer 20 minuten. Het wordt u aangeboden door Foodista. Over het geheel genomen verdient dit recept een niet zo verbazingwekkende lepelscore van 26%. Gebruikers die dit recept lekker vonden, hielden ook van Olive Tapenade Flatbread, Olive Tapenade Flatbread en Olive Tapenade Flatbread.",
         "instructions": [
           "Verwarm de BBQ-grill voor op middelhoog. Gebruik de eetlepel olijfolie om beide kanten van de naan te bestrijken. Grill de naan 3 minuten aan elke kant",
@@ -7225,7 +7225,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pain Plat Tapenade Aux Olives",
-        "subtitle": "Si vous souhaitez ajouter plus de recettes lacto ovo végétariennes à votre boîte de recettes, le pain plat à la tapenade aux olives pourrait être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter plus de recettes lacto ovo végétariennes...",
         "description": "Si vous souhaitez ajouter plus de recettes lacto ovo végétariennes à votre boîte de recettes, le pain plat à la tapenade aux olives pourrait être une recette que vous devriez essayer. Cette recette en sert 4. Pour 1,8 $ par portion, cette recette couvre 6 % de vos besoins quotidiens en vitamines et minéraux. Une portion de ce plat contient environ 13 g de protéines, 25 g de matières grasses et un total de 404 calories. Seules quelques personnes ont fait cette recette, et 4 diraient qu’elle a fait mouche. Un mélange d'olives Kalamatan, d'huile d'olive extra vierge, d'huile d'olive extra vierge et une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. De la préparation à l'assiette, cette recette prend environ 20 minutes. Il vous est présenté par Foodista. Dans l’ensemble, cette recette obtient un score cuillère pas si étonnant de 26 %. Les utilisateurs qui ont aimé cette recette ont également aimé Pain plat à la tapenade aux olives, Pain plat à la tapenade aux olives et Pain plat à la tapenade aux olives.",
         "instructions": [
           "Préchauffer le barbecue à feu moyen-vif. Utiliser la cuillère à soupe d'huile d'olive pour badigeonner les deux côtés du naan. Griller le naan pendant 3 minutes de chaque côté.",
@@ -7361,7 +7361,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Geschroeide Sint-Jakobsschelpen Met Verwelkte Groenen",
-        "subtitle": "Aangebraden Sint-Jakobsschelpen Met Verwelkte Groenen is een hoofdgerecht voor 4 personen.",
+        "subtitle": "Aangebraden Sint-Jakobsschelpen Met Verwelkte Groenen is een hoofdg...",
         "description": "Aangebraden Sint-Jakobsschelpen Met Verwelkte Groenen is een hoofdgerecht voor 4 personen. Eén portie van dit gerecht bevat ongeveer 19 g eiwit, 18 g vet en in totaal 271 calorieën. Voor $ 2,7 per portie dekt dit recept 15% van uw dagelijkse behoefte aan vitamines en mineralen. Een mengsel van boter, sojasaus, sint-jakobsschelpen en een handvol andere ingrediënten is alles wat nodig is om dit recept zo heerlijk te maken. Dit recept van Foodista heeft 2 fans. Het is een goede optie als je een glutenvrij dieet volgt. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 58% verdient. Deze score is behoorlijk goed. Aangebraden Sint-jakobsschelpen met verwelkte groenten, aangebraden Sint-jakobsschelpen met verwelkte groenten en geschroeide Sint-jakobsschelpen met verwelkte groenten lijken erg op dit recept.",
         "instructions": [
           "Snijd de boerenkoolstelen in dunne stukken en de bladeren in grotere reepjes.",
@@ -7375,7 +7375,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pétoncles poêlés aux légumes verts fanés",
-        "subtitle": "Les pétoncles poêlés aux légumes verts fanés sont un plat principal pour 4 personnes.",
+        "subtitle": "Les pétoncles poêlés aux légumes verts fanés sont un plat principal...",
         "description": "Les pétoncles poêlés aux légumes verts fanés sont un plat principal pour 4 personnes. Une portion de ce plat contient environ 19 g de protéines, 18 g de matières grasses et un total de 271 calories. Pour 2,7 $ par portion, cette recette couvre 15 % de vos besoins quotidiens en vitamines et minéraux. Un mélange de beurre, de sauce soja, de pétoncles géants et d'une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. Cette recette de Foodista a 2 fans. C'est une bonne option si vous suivez un régime sans gluten. De la préparation à l'assiette, cette recette prend environ 45 minutes. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 58 %. Ce score est plutôt bon. Les pétoncles poêlés aux légumes verts fanés, les pétoncles poêlés aux légumes verts fanés et les pétoncles poêlés aux légumes verts fanés sont très similaires à cette recette.",
         "instructions": [
           "Coupez les tiges du chou frisé en fines tranches et les feuilles en lanières plus grosses.",
@@ -7654,7 +7654,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Japanese Curry Puffs",
-        "subtitle": "If you have about 45 minutes to spend in the kitchen, Japanese Curry Puffs might be a tremendous dairy free, lacto ovo vegetarian, and vegan recipe to try.",
+        "subtitle": "If you have about 45 minutes to spend in the kitchen, Japanese Curr...",
         "description": "If you have about 45 minutes to spend in the kitchen, Japanese Curry Puffs might be a tremendous dairy free, lacto ovo vegetarian, and vegan recipe to try. For $1.51 per serving, you get a hor d'oeuvre that serves 4. One portion of this dish contains approximately 12g of protein, 50g of fat, and a total of 815 calories. Only a few people made this recipe, and 3 would say it hit the spot. It is a rather inexpensive recipe for fans of Japanese food. This recipe from Foodista requires carrots, water, puff pastry dough sheets, and japanese curry. Overall, this recipe earns a solid spoonacular score of 67%. Users who liked this recipe also liked Japanese Curry Puffs, Japanese Curry, and Japanese Curry.",
         "instructions": [
           "Preheat oven to 350 degrees.",
@@ -7668,7 +7668,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Japanse currysoesjes",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, zijn Japanse Curry Puffs wellicht een geweldig zuivelvrij, lacto-ovo-vegetarisch en veganistisch recept om te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te bre...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken door te brengen, zijn Japanse Curry Puffs wellicht een geweldig zuivelvrij, lacto-ovo-vegetarisch en veganistisch recept om te proberen. Voor $ 1,51 per portie krijg je een hor d'oeuvre voor 4 personen. Eén portie van dit gerecht bevat ongeveer 12 g eiwit, 50 g vet en in totaal 815 calorieën. Slechts een paar mensen hebben dit recept gemaakt, en drie zouden zeggen dat het een succes was. Het is een vrij goedkoop recept voor fans van Japans eten. Voor dit recept van Foodista heb je wortels, water, bladerdeegdeegvellen en Japanse curry nodig. Over het geheel genomen verdient dit recept een solide lepelscore van 67%. Gebruikers die dit recept lekker vonden, hielden ook van Japanse Curry Puffs, Japanse Curry en Japanse Curry.",
         "instructions": [
           "Verwarm de oven voor op 350 graden.",
@@ -7682,7 +7682,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Choux au curry japonais",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les choux au curry japonais pourraient être une formidable recette sans produits laitiers, lacto ovo végétarienne et végétalienne à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les choux...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, les choux au curry japonais pourraient être une formidable recette sans produits laitiers, lacto ovo végétarienne et végétalienne à essayer. Pour 1,51 $ par portion, vous obtenez un hors-d'œuvre pour 4 personnes. Une portion de ce plat contient environ 12 g de protéines, 50 g de matières grasses et un total de 815 calories. Only a few people made this recipe, and 3 would say it hit the spot. It is a rather inexpensive recipe for fans of Japanese food. This recipe from Foodista requires carrots, water, puff pastry dough sheets, and japanese curry. Overall, this recipe earns a solid spoonacular score of 67%. Users who liked this recipe also liked Japanese Curry Puffs, Japanese Curry, and Japanese Curry.",
         "instructions": [
           "Préchauffer le four à 350 degrés.",
@@ -7821,7 +7821,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Brownies végétaliens sains au velours rouge",
-        "subtitle": "Les brownies végétaliens sains au velours rouge sont un dessert pour 8 personnes.",
+        "subtitle": "Les brownies végétaliens sains au velours rouge sont un dessert pou...",
         "description": "Les brownies végétaliens sains au velours rouge sont un dessert pour 8 personnes. Pour 42 cents par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Vous surveillez votre silhouette ? Cette recette sans gluten, sans produits laitiers, lacto ovo végétarienne et végétalienne contient 181 calories, 5 g de protéines et 5 g de matières grasses par portion. Un mélange de bicarbonate de soude, de sel, de graines de lin moulues et d’une poignée d’autres ingrédients suffisent pour rendre cette recette si savoureuse. 91 personnes ont trouvé cette recette délicieuse et satisfaisante. Quelques personnes ont vraiment aimé ce plat américain. Il vous est présenté par Foodista. C'est parfait pour la Saint-Valentin. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 69 %, ce qui est bien. Les brownies végétaliens sains au velours rouge, les brownies sains au quinoa rouge velours et les brownies sains au quinoa velours rouge sont très similaires à cette recette.",
         "instructions": [
           "Préchauffer le four à 350 F. Vaporiser une poêle de 8 x 8 pouces avec un enduit à cuisson. Réserver. Au robot culinaire, réduire en purée les haricots rouges et les betteraves.",
@@ -7973,7 +7973,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Lick-Your-Plate Amazing Tiramisu",
-        "subtitle": "Lick-Your-Plate Amazing Tiramisu requires about 45 minutes from start to finish.",
+        "subtitle": "Lick-Your-Plate Amazing Tiramisu requires about 45 minutes from sta...",
         "description": "Lick-Your-Plate Amazing Tiramisu requires about 45 minutes from start to finish. This recipe makes 8 servings with 275 calories, 8g of protein, and 15g of fat each. For $1.12 per serving, this recipe covers 9% of your daily requirements of vitamins and minerals. A mixture of chocolate, egg whites, egg yolks, and a handful of other ingredients are all it takes to make this recipe so scrumptious. This recipe from Foodista has 38 fans. A couple people really liked this Mediterranean dish. It is a good option if you're following a dairy free diet. With a spoonacular score of 43%, this dish is pretty good. Lick Your Chops Supper, Lick-the-Bowl-Clean Hummus, and Classic Tiramisu And A Coffee-free Chocolate-orange Tiramisu are very similar to this recipe.",
         "instructions": [
           "Make your pot of coffee & let cool.Beat the egg yolks with the sugar in a bowl until light, pale & \"ribbons.\" Then mix in the mascarpone.Stiffly whisk the egg whites in a different grease-free bowl.Gently fold in the egg whites in thirds to the mascarpone mix.Make a single layer of ladyfingers on the base of a deep serving dish making sure they fit tightly together on the bottom. Then brush the lady fingers evenly with coffee (don't be shy, a good two passes with the brush should be plenty).Make a nice even layer of the mascarpone cream/egg mixture and sprinkle/cover with grated chocolate.Continue making layers until all the ingredients are used (you should have 3 layers), finishing with a layer of mascarpone cream/egg mixture.Dust with cocoa, wrap with plastic and chill in the fridge for about 3 hours. Enjoy!!"
@@ -7981,7 +7981,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Lik-je-bord Geweldige Tiramisu",
-        "subtitle": "Lick-Your-Plate Geweldige Tiramisu heeft van begin tot eind ongeveer 45 minuten nodig.",
+        "subtitle": "Lick-Your-Plate Geweldige Tiramisu heeft van begin tot eind ongevee...",
         "description": "Lick-Your-Plate Geweldige Tiramisu heeft van begin tot eind ongeveer 45 minuten nodig. Dit recept maakt 8 porties met elk 275 calorieën, 8 g eiwit en 15 g vet. Voor $ 1,12 per portie dekt dit recept 9% van uw dagelijkse behoefte aan vitamines en mineralen. Een mengsel van chocolade, eiwit, eierdooiers en een handvol andere ingrediënten is voldoende om dit recept zo heerlijk te maken. Dit recept van Foodista heeft 38 fans. Een paar mensen vonden dit mediterrane gerecht erg lekker. Het is een goede optie als u een zuivelvrij dieet volgt. Met een lepelscore van 43% is dit gerecht behoorlijk goed. Lick Your Chops Supper, Lick-the-Bowl-Clean Hummus en Classic Tiramisu en een koffievrije chocolade-sinaasappel-tiramisu lijken erg op dit recept.",
         "instructions": [
           "Zet je pot koffie en laat afkoelen. Klop de eidooiers met de suiker in een kom tot ze licht, bleek en \"linten\" zijn. Meng vervolgens de mascarpone erdoor. Klop de eiwitten stijf in een andere vetvrije kom. Spatel de eiwitten voorzichtig in drieën door het mascarponemengsel. Leg een enkele laag lange vingers op de bodem van een diepe serveerschaal en zorg ervoor dat ze goed op elkaar aansluiten op de bodem. Bestrijk vervolgens de lange vingers gelijkmatig met koffie (wees niet verlegen, twee keer goed met de kwast is voldoende). Maak een mooie, gelijkmatige laag van het mascarponeroom/eimengsel en bestrooi/dek af met geraspte chocolade. Ga door met het maken van lagen totdat alle ingrediënten op zijn (je zou 3 lagen moeten hebben) en eindig met een laag mascarponeroom/eimengsel. Bestrooi met cacao, wikkel in plastic en zet ongeveer 3 uur in de koelkast. Genieten!!"
@@ -7989,7 +7989,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tiramisu incroyable à lécher dans votre assiette",
-        "subtitle": "Lick-Your-Plate Amazing Tiramisu nécessite environ 45 minutes du début à la fin.",
+        "subtitle": "Lick-Your-Plate Amazing Tiramisu nécessite environ 45 minutes du dé...",
         "description": "Lick-Your-Plate Amazing Tiramisu nécessite environ 45 minutes du début à la fin. Cette recette donne 8 portions avec 275 calories, 8 g de protéines et 15 g de matières grasses chacune. Pour 1,12 $ par portion, cette recette couvre 9 % de vos besoins quotidiens en vitamines et minéraux. Un mélange de chocolat, de blancs d'œufs, de jaunes d'œufs et d'une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. Cette recette de Foodista compte 38 fans. Quelques personnes ont vraiment aimé ce plat méditerranéen. C'est une bonne option si vous suivez un régime sans produits laitiers. Avec un score cuillère de 43%, ce plat est plutôt bon. Le souper de léchez vos côtelettes, le houmous propre à lécher le bol et le tiramisu classique et un tiramisu au chocolat et à l'orange sans café sont très similaires à cette recette.",
         "instructions": [
           "Préparez votre cafetière et laissez refroidir. Battez les jaunes d'œufs avec le sucre dans un bol jusqu'à ce que le mélange soit léger, pâle et forme des « rubans ». Incorporez ensuite le mascarpone. Fouettez fermement les blancs d'œufs dans un autre bol non gras. Incorporez délicatement les blancs d'œufs en tiers au mélange de mascarpone. Faites une seule couche de boudoirs au fond d'un plat de service profond en vous assurant qu'ils s'emboîtent bien au fond. Badigeonnez ensuite uniformément les boudoirs avec du café (ne soyez pas timide, deux bons passages avec le pinceau devraient suffire).Faites une belle couche uniforme du mélange crème mascarpone/oeuf et saupoudrez/couvrez de chocolat râpé.Continuez à faire des couches jusqu'à ce que tous les ingrédients soient utilisés (vous devriez avoir 3 couches), en terminant par une couche du mélange crème mascarpone/oeuf.Saupoudrez de cacao, enveloppez de plastique et réservez au réfrigérateur pendant environ 3 heures. Apprécier!!"
@@ -8066,7 +8066,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Mexi-Chicken Roll Ups",
-        "subtitle": "Mexi-Chicken Roll Ups requires roughly 45 minutes from start to finish.",
+        "subtitle": "Mexi-Chicken Roll Ups requires roughly 45 minutes from start to fin...",
         "description": "Mexi-Chicken Roll Ups requires roughly 45 minutes from start to finish. This hor d'oeuvre has 525 calories, 55g of protein, and 23g of fat per serving. This gluten free recipe serves 6 and costs $2.94 per serving. 4 people have made this recipe and would make it again. This recipe from Foodista requires chicken breasts, tortilla chips, bunch cilantro, and cumin. Overall, this recipe earns an excellent spoonacular score of 81%. Similar recipes are Chicken Roll-ups, Chicken Roll-ups, and Chicken Roll-em Ups for Two.",
         "instructions": [
           "Flatten out the chicken breasts to about 1/4\" thickness.",
@@ -8078,7 +8078,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Mexi-kip roll-ups",
-        "subtitle": "Mexi-Chicken Roll Ups hebben van begin tot eind ongeveer 45 minuten nodig.",
+        "subtitle": "Mexi-Chicken Roll Ups hebben van begin tot eind ongeveer 45 minuten...",
         "description": "Mexi-Chicken Roll Ups hebben van begin tot eind ongeveer 45 minuten nodig. Dit hor d'oeuvre bevat 525 calorieën, 55 g eiwit en 23 g vet per portie. Dit glutenvrije recept is geschikt voor 6 personen en kost $ 2,94 per portie. 4 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Voor dit recept van Foodista heb je kipfilets, tortillachips, bosje koriander en komijn nodig. Over het geheel genomen verdient dit recept een uitstekende lepelscore van 81%. Soortgelijke recepten zijn Chicken Roll-ups, Chicken Roll-ups en Chicken Roll-em Ups voor twee.",
         "instructions": [
           "Maak de kipfilets plat tot een dikte van ongeveer 1/4 \".",
@@ -8090,7 +8090,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Rouleaux de poulet mexicains",
-        "subtitle": "Les Mexi-Chicken Roll Ups nécessitent environ 45 minutes du début à la fin.",
+        "subtitle": "Les Mexi-Chicken Roll Ups nécessitent environ 45 minutes du début à...",
         "description": "Les Mexi-Chicken Roll Ups nécessitent environ 45 minutes du début à la fin. Ce hors-d'œuvre contient 525 calories, 55 g de protéines et 23 g de matières grasses par portion. Cette recette sans gluten sert 6 personnes et coûte 2,94 $ par portion. 4 personnes ont réalisé cette recette et la referaient. Cette recette de Foodista nécessite des poitrines de poulet, des chips tortilla, un bouquet de coriandre et du cumin. Dans l'ensemble, cette recette obtient un excellent score cuillère de 81 %. Des recettes similaires sont les roulés au poulet, les roulés au poulet et les roulés au poulet pour deux.",
         "instructions": [
           "Aplatissez les poitrines de poulet à environ 1/4\" d'épaisseur.",
@@ -8221,7 +8221,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Corn Chowder with Potatoes, Poblanos, and Smoked Gouda",
-        "subtitle": "Corn Chowder with Potatoes, Poblanos, and Smoked Gouda might be a good recipe to expand your hor d'oeuvre recipe box.",
+        "subtitle": "Corn Chowder with Potatoes, Poblanos, and Smoked Gouda might be a g...",
         "description": "Corn Chowder with Potatoes, Poblanos, and Smoked Gouda might be a good recipe to expand your hor d'oeuvre recipe box. For $1.28 per serving, this recipe covers 13% of your daily requirements of vitamins and minerals. One serving contains 316 calories, 9g of protein, and 14g of fat. This recipe serves 6. A few people made this recipe, and 22 would say it hit the spot. From preparation to the plate, this recipe takes around 45 minutes. A mixture of potatoes, half-and-half, poblano chiles, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Foodista. It is a good option if you're following a gluten free and lacto ovo vegetarian diet. Taking all factors into account, this recipe earns a spoonacular score of 51%, which is solid. Similar recipes are Smoked Chicken Enchiladas with corn & roasted poblanos, Smoked Chicken Enchiladas with corn & roasted poblanos, and Smoked Gouda Mashed Potatoes.",
         "instructions": [
           "In a large saut pan, melt the butter over medium heat and saut the onion for about 10 minutes, or until lightly browned.",
@@ -8232,7 +8232,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Maïssoep met Aardappelen, Poblanos en Gerookte Gouda",
-        "subtitle": "Maïssoep met Aardappelen, Poblanos en Gerookte Gouda is misschien een goed recept om je hor d'oeuvre-receptendoos uit te breiden.",
+        "subtitle": "Maïssoep met Aardappelen, Poblanos en Gerookte Gouda is misschien e...",
         "description": "Maïssoep met Aardappelen, Poblanos en Gerookte Gouda is misschien een goed recept om je hor d'oeuvre-receptendoos uit te breiden. Voor $ 1,28 per portie dekt dit recept 13% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie bevat 316 calorieën, 9 g eiwit en 14 g vet. Dit recept is voor zes personen. Een paar mensen hebben dit recept gemaakt, en 22 zouden zeggen dat het een schot in de roos was. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Een mengsel van aardappelen, half en half, poblano chilipepers en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Het is een goede optie als je een glutenvrij en lacto-ovo-vegetarisch dieet volgt. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 51%, wat solide is. Soortgelijke recepten zijn gerookte kip-enchiladas met maïs en geroosterde poblanos, gerookte kip-enchiladas met maïs en geroosterde poblanos en gerookte Goudse aardappelpuree.",
         "instructions": [
           "Smelt de boter in een grote koekenpan op middelhoog vuur en bak de ui ongeveer 10 minuten, of tot hij lichtbruin is.",
@@ -8243,7 +8243,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Chaudrée de maïs avec pommes de terre, poblanos et gouda fumé",
-        "subtitle": "La chaudrée de maïs avec pommes de terre, poblanos et gouda fumé pourrait être une bonne recette pour élargir votre boîte de recettes de hors-d'œuvre.",
+        "subtitle": "La chaudrée de maïs avec pommes de terre, poblanos et gouda fumé po...",
         "description": "La chaudrée de maïs avec pommes de terre, poblanos et gouda fumé pourrait être une bonne recette pour élargir votre boîte de recettes de hors-d'œuvre. Pour 1,28 $ par portion, cette recette couvre 13 % de vos besoins quotidiens en vitamines et minéraux. Une portion contient 316 calories, 9 g de protéines et 14 g de matières grasses. Cette recette en sert 6. Quelques personnes ont fait cette recette, et 22 diraient qu'elle a fait mouche. De la préparation à l'assiette, cette recette prend environ 45 minutes. Un mélange de pommes de terre, moitié-moitié, de piments poblano et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. C'est une bonne option si vous suivez un régime végétarien sans gluten et lacto ovo. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 51 %, ce qui est solide. Des recettes similaires sont les enchiladas au poulet fumé avec du maïs et des poblanos rôtis, les enchiladas au poulet fumé avec du maïs et des poblanos rôtis et la purée de pommes de terre au gouda fumé.",
         "instructions": [
           "Dans une grande sauteuse, faire fondre le beurre à feu moyen et faire revenir l'oignon pendant environ 10 minutes ou jusqu'à ce qu'il soit légèrement doré.",
@@ -8403,7 +8403,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "South Carolina Style Pulled Pork",
-        "subtitle": "The recipe South Carolina Style Pulled Pork is ready in roughly 45 minutes and is definitely an amazing gluten free and dairy free option for lovers of American food.",
+        "subtitle": "The recipe South Carolina Style Pulled Pork is ready in roughly 45...",
         "description": "The recipe South Carolina Style Pulled Pork is ready in roughly 45 minutes and is definitely an amazing gluten free and dairy free option for lovers of American food. One serving contains 692 calories, 48g of protein, and 21g of fat. This recipe serves 10. For $3.19 per serving, this recipe covers 36% of your daily requirements of vitamins and minerals. 3 people were glad they tried this recipe. Not a lot of people really liked this main course. If you have apple cider vinegar, ground cumin, garlic, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. With a spoonacular score of 81%, this dish is awesome. If you like this recipe, you might also like recipes such as North Carolina-Style Pulled Pork, Carolina Style Pulled Pork Sliders, and Carolina-Style Pulled Pork Sandwiches.",
         "instructions": [
           "Massage mustard sauce into the meat. Wrap the meat tightly in a double layer of plastic wrap and refrigerate for at least 3 hours or up to 3 days. (The sauce was really thin and liquid-y so after dumping about half on the meat and realizing massaging was just not going to happen, I threw the meat and the sauce into a ziplock bag, shook it up and made sure it was coated then threw it in the fridge for the three day marinating marathon.)At least one hour prior to cooking, remove the roast from the refrigerator and unwrap, placing the meat and the marinating juices into a disposable 913 disposable aluminum pan and let it come to room temperature. (As I mentioned above, my pans were a bit flimsy so I doubled up.) Soak the wood chips in cold water to cover for 1 hour and drain.Meanwhile, light a large chimney starter filled halfway with charcoal (about 3 quarts) and allow to burn until the coals are partially covered with a layer of ash. Build a modified two-level fire by arranging all the coals over half of the grill, leaving the other half empty. Open the bottom grill vents completely.",
@@ -8417,7 +8417,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Pulled Pork in South Carolina-stijl",
-        "subtitle": "Het recept South Carolina Style Pulled Pork is in ongeveer 45 minuten klaar en is absoluut een geweldige glutenvrije en zuivelvrije optie voor liefhebbers van Amerikaans eten.",
+        "subtitle": "Het recept South Carolina Style Pulled Pork is in ongeveer 45 minut...",
         "description": "Het recept South Carolina Style Pulled Pork is in ongeveer 45 minuten klaar en is absoluut een geweldige glutenvrije en zuivelvrije optie voor liefhebbers van Amerikaans eten. Eén portie bevat 692 calorieën, 48 g eiwit en 21 g vet. Dit recept serveert 10 personen. Voor $ 3,19 per portie dekt dit recept 36% van uw dagelijkse behoefte aan vitamines en mineralen. 3 mensen waren blij dat ze dit recept probeerden. Niet veel mensen vonden dit hoofdgerecht echt lekker. Als je appelciderazijn, gemalen komijn, knoflook en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het wordt u aangeboden door Foodista. Met een lepelscore van 81% is dit gerecht geweldig. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Pulled Pork in North Carolina-stijl, Pulled Pork Sliders in Carolina-stijl en Pulled Pork Sandwiches in Carolina-stijl.",
         "instructions": [
           "Masseer de mosterdsaus in het vlees. Wikkel het vlees stevig in een dubbele laag plasticfolie en zet het minimaal 3 uur tot maximaal 3 dagen in de koelkast. (De saus was erg dun en vloeibaar, dus nadat ik ongeveer de helft op het vlees had gedumpt en besefte dat masseren gewoon niet zou gebeuren, gooide ik het vlees en de saus in een ritssluitingszak, schudde het en zorgde ervoor dat het bedekt was en gooide het vervolgens in de koelkast voor de driedaagse marineermarathon.) Haal het braadstuk minstens een uur vóór het koken uit de koelkast en pak het uit. Plaats het vlees en de marinerende sappen in een wegwerpbare 913 aluminium wegwerppan en laat het op kamertemperatuur komen. (Zoals ik hierboven al zei, mijn pannen waren een beetje dun, dus ik heb ze verdubbeld.) Week de houtsnippers een uur in koud water en laat ze uitlekken. Steek ondertussen een grote schoorsteenstarter aan die voor de helft gevuld is met houtskool (ongeveer 3 liter) en laat branden totdat de kolen gedeeltelijk bedekt zijn met een laag as. Bouw een aangepast vuur met twee niveaus door alle kolen over de helft van de grill te plaatsen en de andere helft leeg te laten. Open de ventilatieopeningen van de onderste grill volledig.",
@@ -8431,7 +8431,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Porc effiloché à la façon de Caroline du Sud",
-        "subtitle": "La recette de porc effiloché à la façon de la Caroline du Sud est prête en 45 minutes environ et constitue sans aucun doute une incroyable option sans gluten et sans produits laitiers pour les amateurs de cuisine américaine.",
+        "subtitle": "La recette de porc effiloché à la façon de la Caroline du Sud est p...",
         "description": "La recette de porc effiloché à la façon de la Caroline du Sud est prête en 45 minutes environ et constitue sans aucun doute une incroyable option sans gluten et sans produits laitiers pour les amateurs de cuisine américaine. Une portion contient 692 calories, 48 ​​g de protéines et 21 g de matières grasses. Cette recette en sert 10. Pour 3,19 $ par portion, cette recette couvre 36 % de vos besoins quotidiens en vitamines et minéraux. 3 personnes étaient contentes d'avoir essayé cette recette. Peu de gens ont vraiment aimé ce plat principal. Si vous avez du vinaigre de cidre de pomme, du cumin moulu, de l'ail et quelques autres ingrédients sous la main, vous pouvez le préparer. Il vous est présenté par Foodista. Avec un score cuillère de 81 %, ce plat est génial. Si vous aimez cette recette, vous aimerez peut-être également des recettes telles que le porc effiloché à la Caroline du Nord, les sliders de porc effiloché à la Caroline et les sandwichs au porc effiloché à la Caroline.",
         "instructions": [
           "Massez la sauce moutarde dans la viande. Enveloppez hermétiquement la viande dans une double couche de pellicule plastique et réfrigérez-la pendant au moins 3 heures ou jusqu'à 3 jours. (La sauce était vraiment fine et liquide, donc après en avoir versé environ la moitié sur la viande et réalisé que le massage n'allait tout simplement pas se produire, j'ai jeté la viande et la sauce dans un sac ziplock, je l'ai secoué et je me suis assuré qu'elle était enrobée, puis je l'ai jetée au réfrigérateur pour le marathon de marinade de trois jours.) Au moins une heure avant la cuisson, sortez le rôti du réfrigérateur et déballer, en plaçant la viande et le jus de marinade dans une poêle jetable en aluminium 913 jetable et laissez-le revenir à température ambiante. (Comme je l'ai mentionné ci-dessus, mes casseroles étaient un peu fragiles, j'ai donc doublé.) Faites tremper les copeaux de bois dans de l'eau froide pour les couvrir pendant 1 heure et égouttez-les. Pendant ce temps, allumez une grande cheminée remplie à moitié de charbon de bois (environ 3 litres) et laissez brûler jusqu'à ce que les charbons soient partiellement recouverts d'une couche de cendres. Construisez un feu modifié à deux niveaux en disposant tous les charbons sur la moitié du gril, en laissant l'autre moitié vide. Ouvrez complètement les évents du gril inférieur.",
@@ -8644,7 +8644,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Curious George's Gluten-Free Banana Nut Bread",
-        "subtitle": "Curious George's Gluten-Free Banana Nut Bread might be just the breakfast you are searching for.",
+        "subtitle": "Curious George's Gluten-Free Banana Nut Bread might be just the bre...",
         "description": "Curious George's Gluten-Free Banana Nut Bread might be just the breakfast you are searching for. Watching your figure? This gluten free and fodmap friendly recipe has 453 calories, 6g of protein, and 31g of fat per serving. This recipe serves 8. For 72 cents per serving, this recipe covers 7% of your daily requirements of vitamins and minerals. 3 people were glad they tried this recipe. A mixture of lemon juice, butter, very browned bananas, and a handful of other ingredients are all it takes to make this recipe so scrumptious. From preparation to the plate, this recipe takes around 45 minutes. It is brought to you by Foodista. Taking all factors into account, this recipe earns a spoonacular score of 21%, which is not so amazing. Curious George Banana Hot Chocolate, Gluten-free Banana Nut Bread, and Gluten Free Bananan Oatmeal Muffins with Banana Nut Cheerios are very similar to this recipe.",
         "instructions": [
           "Preheat oven to 35",
@@ -8660,7 +8660,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Curious George's glutenvrij bananen-notenbrood",
-        "subtitle": "Curious George's glutenvrije bananen-notenbrood is misschien wel precies het ontbijt waar u naar op zoek bent.",
+        "subtitle": "Curious George's glutenvrije bananen-notenbrood is misschien wel pr...",
         "description": "Curious George's glutenvrije bananen-notenbrood is misschien wel precies het ontbijt waar u naar op zoek bent. Op je figuur letten? Dit glutenvrije en fodmapvriendelijke recept bevat 453 calorieën, 6 g eiwit en 31 g vet per portie. Dit recept is voor 8 personen. Voor 72 cent per portie dekt dit recept 7% van je dagelijkse behoefte aan vitamines en mineralen. 3 mensen waren blij dat ze dit recept probeerden. Een mengsel van citroensap, boter, zeer gebruinde bananen en een handvol andere ingrediënten is alles wat nodig is om dit recept zo heerlijk te maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 21%, wat niet zo verbazingwekkend is. Curious George Banana Hot Chocolate, glutenvrij bananennotenbrood en glutenvrije bananen-havermoutmuffins met bananennoot-cheerios lijken erg op dit recept.",
         "instructions": [
           "Verwarm de oven voor op 35",
@@ -8676,7 +8676,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pain aux bananes et aux noix sans gluten Curious George's",
-        "subtitle": "Le pain aux bananes et aux noix sans gluten de Curious George est peut-être exactement le petit-déjeuner que vous recherchez.",
+        "subtitle": "Le pain aux bananes et aux noix sans gluten de Curious George est p...",
         "description": "Le pain aux bananes et aux noix sans gluten de Curious George est peut-être exactement le petit-déjeuner que vous recherchez. Vous surveillez votre silhouette ? Cette recette sans gluten et adaptée aux fodmaps contient 453 calories, 6 g de protéines et 31 g de matières grasses par portion. Cette recette en sert 8. Pour 72 cents par portion, cette recette couvre 7 % de vos besoins quotidiens en vitamines et minéraux. 3 personnes étaient contentes d'avoir essayé cette recette. Un mélange de jus de citron, de beurre, de bananes très dorées et une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 21 %, ce qui n'est pas si étonnant. Le chocolat chaud Curious George à la banane, le pain aux bananes et aux noix sans gluten et les muffins à l'avoine et à la banane sans gluten avec Cheerios à la banane et aux noix sont très similaires à cette recette.",
         "instructions": [
           "Préchauffer le four à 35",
@@ -8821,7 +8821,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Peanut Butter Cookie Bars",
-        "subtitle": "You can never have too many dessert recipes, so give Peanut Butter Cookie Bars a try.",
+        "subtitle": "You can never have too many dessert recipes, so give Peanut Butter...",
         "description": "You can never have too many dessert recipes, so give Peanut Butter Cookie Bars a try. One portion of this dish contains roughly 17g of protein, 56g of fat, and a total of 846 calories. This recipe serves 6. For 83 cents per serving, this recipe covers 22% of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. A mixture of baking soda, rolled oats, granulated sugar, and a handful of other ingredients are all it takes to make this recipe so tasty. 2 people have made this recipe and would make it again. All things considered, we decided this recipe deserves a spoonacular score of 48%. This score is solid. Similar recipes include Peanut butter cookie bars with Reese’s peanut butter eggs, Peanut Brittle Cookie Bars with Peanut Butter Icing, and Peanut Butter Cookie Bars.",
         "instructions": [
           "Preheat oven to 375 degrees. In a small bowl with melted butter, beat in the brown sugar, granulated sugar, peanut butter and eggs. Set aside. In a separate bowl, combine the flour, bran, oats and baking soda. Stir mixture into butter mixture. In a glass baking dishes, press out half of dough mixture into each.",
@@ -8831,7 +8831,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Koekjesrepen met pindakaas",
-        "subtitle": "Je kunt nooit genoeg dessertrecepten hebben, dus probeer Peanut Butter Cookie Bars eens.",
+        "subtitle": "Je kunt nooit genoeg dessertrecepten hebben, dus probeer Peanut But...",
         "description": "Je kunt nooit genoeg dessertrecepten hebben, dus probeer Peanut Butter Cookie Bars eens. Eén portie van dit gerecht bevat ongeveer 17 gram eiwit, 56 gram vet en in totaal 846 calorieën. Dit recept is voor 6 personen. Voor 83 cent per portie dekt dit recept 22% van je dagelijkse behoefte aan vitamines en mineralen. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Een mengsel van zuiveringszout, havermout, kristalsuiker en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. 2 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 48% verdient. Deze score is solide. Soortgelijke recepten zijn onder meer pindakaaskoekjesrepen met Reese's pindakaaseieren, Peanut Brittle Cookie Bars met Peanut Butter Icing en Peanut Butter Cookie Bars.",
         "instructions": [
           "Verwarm de oven voor op 375 graden. Klop in een kleine kom met gesmolten boter de bruine suiker, kristalsuiker, pindakaas en eieren erdoor. Zet opzij. Meng in een aparte kom de bloem, zemelen, haver en zuiveringszout. Roer het mengsel door het botermengsel. Druk in een glazen bakvorm de helft van het deegmengsel erin.",
@@ -8841,7 +8841,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Barres aux biscuits au beurre de cacahuète",
-        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de desserts, alors essayez les barres de biscuits au beurre de cacahuète.",
+        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de desserts, alors ess...",
         "description": "Vous ne pouvez jamais avoir trop de recettes de desserts, alors essayez les barres de biscuits au beurre de cacahuète. Une portion de ce plat contient environ 17 g de protéines, 56 g de matières grasses et un total de 846 calories. Cette recette en sert 6. Pour 83 cents par portion, cette recette couvre 22 % de vos besoins quotidiens en vitamines et minéraux. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Un mélange de bicarbonate de soude, de flocons d'avoine, de sucre cristallisé et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. 2 personnes ont réalisé cette recette et la referaient. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 48 %. Ce score est solide. Des recettes similaires incluent des barres de biscuits au beurre de cacahuète avec des œufs au beurre de cacahuète de Reese, des barres de biscuits cassants aux cacahuètes avec glaçage au beurre de cacahuète et des barres de biscuits au beurre de cacahuète.",
         "instructions": [
           "Préchauffer le four à 375 degrés. Dans un petit bol avec le beurre fondu, incorporer la cassonade, le sucre cristallisé, le beurre de cacahuète et les œufs. Annuler. Dans un autre bol, mélanger la farine, le son, les flocons d'avoine et le bicarbonate de soude. Incorporer le mélange au mélange de beurre. Dans un plat allant au four, verser la moitié du mélange de pâte dans chacun.",
@@ -8990,7 +8990,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Bourbon Street Beignets",
-        "subtitle": "You can never have too many hor d'oeuvre recipes, so give Bourbon Street Beignets a try.",
+        "subtitle": "You can never have too many hor d'oeuvre recipes, so give Bourbon S...",
         "description": "You can never have too many hor d'oeuvre recipes, so give Bourbon Street Beignets a try. This recipe serves 60 and costs 10 cents per serving. One serving contains 103 calories, 1g of protein, and 4g of fat. This recipe from Foodista requires egg, flour, shortening, and sugar. 20 people were impressed by this recipe. From preparation to the plate, this recipe takes around 45 minutes. With a spoonacular score of 11%, this dish is not so outstanding. Apple Cider Beignets with Butter-Bourbon Dipping Sauce, Bourbon Street Sundaes, and Bourbon Street Buffalo Wings are very similar to this recipe.",
         "instructions": [
           "Dissolve yeast in warm water according to package instructions; set aside.",
@@ -9003,7 +9003,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Bourbon Street Beignets",
-        "subtitle": "Je kunt nooit teveel hor d'oeuvre-recepten hebben, dus probeer Bourbon Street Beignets eens.",
+        "subtitle": "Je kunt nooit teveel hor d'oeuvre-recepten hebben, dus probeer Bour...",
         "description": "Je kunt nooit teveel hor d'oeuvre-recepten hebben, dus probeer Bourbon Street Beignets eens. Dit recept serveert 60 personen en kost 10 cent per portie. Eén portie bevat 103 calorieën, 1 g eiwit en 4 g vet. Voor dit recept van Foodista zijn eieren, bloem, bakvet en suiker nodig. 20 mensen waren onder de indruk van dit recept. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Met een lepelscore van 11% is dit gerecht niet zo uitmuntend. Appelciderbeignets met boter-Bourbon-dipsaus, Bourbon Street Sundaes en Bourbon Street Buffalo Wings lijken erg op dit recept.",
         "instructions": [
           "Los gist op in warm water volgens de instructies op de verpakking; opzij zetten.",
@@ -9016,7 +9016,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Beignets Bourbon Street",
-        "subtitle": "Vous n'aurez jamais trop de recettes de hors-d'œuvre, alors essayez les Bourbon Street Beignets.",
+        "subtitle": "Vous n'aurez jamais trop de recettes de hors-d'œuvre, alors essayez...",
         "description": "Vous n'aurez jamais trop de recettes de hors-d'œuvre, alors essayez les Bourbon Street Beignets. Cette recette sert 60 personnes et coûte 10 cents par portion. Une portion contient 103 calories, 1 g de protéines et 4 g de matières grasses. Cette recette de Foodista nécessite de l'œuf, de la farine, du shortening et du sucre. 20 personnes ont été impressionnées par cette recette. De la préparation à l'assiette, cette recette prend environ 45 minutes. Avec un score cuillère de 11%, ce plat n'est pas si remarquable. Les beignets au cidre de pomme avec trempette au beurre et au bourbon, les coupes glacées de Bourbon Street et les ailes de Buffalo de Bourbon Street sont très similaires à cette recette.",
         "instructions": [
           "Dissoudre la levure dans l'eau tiède selon les instructions sur l'emballage ; annuler.",
@@ -9158,7 +9158,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Beet Greens and Poached Eggs",
-        "subtitle": "The recipe Beet Greens and Poached Eggs can be made in around 45 minutes.",
+        "subtitle": "The recipe Beet Greens and Poached Eggs can be made in around 45 mi...",
         "description": "The recipe Beet Greens and Poached Eggs can be made in around 45 minutes. This recipe makes 2 servings with 186 calories, 10g of protein, and 13g of fat each. For $1.53 per serving, this recipe covers 21% of your daily requirements of vitamins and minerals. 4 people were glad they tried this recipe. If you have juice of lemon, vinegar, leek, and a few other ingredients on hand, you can make it. It works well as a reasonably priced breakfast. It is a good option if you're following a gluten free and primal diet. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 38%. This score is not so great. Users who liked this recipe also liked Sauteed Beet Greens with Poached Eggs, Creamy Polenta with Braised Greens and Poached Eggs, and Two-Potato Hash with Poached Eggs and Greens {.",
         "instructions": [
           "Heat a small skillet over medium low heat with 2 of water until small bubble start to rise.",
@@ -9172,7 +9172,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Bietengranen en gepocheerde eieren",
-        "subtitle": "Het recept Bietengranen en Gepocheerde Eieren maak je in ongeveer 45 minuten.",
+        "subtitle": "Het recept Bietengranen en Gepocheerde Eieren maak je in ongeveer 4...",
         "description": "Het recept Bietengranen en Gepocheerde Eieren maak je in ongeveer 45 minuten. Dit recept maakt 2 porties met elk 186 calorieën, 10 g eiwit en 13 g vet. Voor $ 1,53 per portie dekt dit recept 21% van uw dagelijkse behoefte aan vitamines en mineralen. 4 mensen waren blij dat ze dit recept probeerden. Als je citroensap, azijn, prei en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het werkt goed als een redelijk geprijsd ontbijt. Het is een goede optie als je een glutenvrij en primair dieet volgt. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 38% verdient. Deze score is niet zo geweldig. Gebruikers die dit recept lekker vonden, hielden ook van gebakken bietengranen met gepocheerde eieren, romige polenta met gestoofde groenten en gepocheerde eieren, en twee-aardappelhasj met gepocheerde eieren en groenten {.",
         "instructions": [
           "Verhit een kleine koekenpan op middelhoog vuur met 2 eetlepels water tot er kleine belletjes beginnen te rijzen.",
@@ -9186,7 +9186,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Feuilles de betterave et œufs pochés",
-        "subtitle": "La recette Feuilles de betterave et œufs pochés peut être préparée en 45 minutes environ.",
+        "subtitle": "La recette Feuilles de betterave et œufs pochés peut être préparée...",
         "description": "La recette Feuilles de betterave et œufs pochés peut être préparée en 45 minutes environ. Cette recette donne 2 portions de 186 calories, 10 g de protéines et 13 g de matières grasses chacune. Pour 1,53 $ par portion, cette recette couvre 21 % de vos besoins quotidiens en vitamines et minéraux. 4 personnes étaient contentes d'avoir essayé cette recette. Si vous avez du jus de citron, du vinaigre, du poireau et quelques autres ingrédients sous la main, vous pouvez le préparer. Cela fonctionne bien comme petit-déjeuner à un prix raisonnable. C'est une bonne option si vous suivez un régime sans gluten et primal. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 38 %. Ce score n'est pas si génial. Les utilisateurs qui ont aimé cette recette ont également aimé Feuilles de betterave sautées avec œufs pochés, Polenta crémeuse avec légumes braisés et œufs pochés et Hachis de deux pommes de terre avec œufs pochés et légumes verts {.",
         "instructions": [
           "Faites chauffer une petite poêle à feu moyen-doux avec 2 litres d'eau jusqu'à ce que de petites bulles commencent à monter.",
@@ -9319,7 +9319,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Rosemary Rum Raisin Soda Bread with Pecans",
-        "subtitle": "Rosemary Rum Raisin Soda Bread with Pecans is a lacto ovo vegetarian recipe with 16 servings.",
+        "subtitle": "Rosemary Rum Raisin Soda Bread with Pecans is a lacto ovo vegetaria...",
         "description": "Rosemary Rum Raisin Soda Bread with Pecans is a lacto ovo vegetarian recipe with 16 servings. This breakfast has 173 calories, 5g of protein, and 4g of fat per serving. For 44 cents per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. Only a few people really liked this European dish. A mixture of anise seeds, rum, flour, and a handful of other ingredients are all it takes to make this recipe so flavorful. 4 people were impressed by this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes about 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 53%, which is solid. Irish Soda Bread Pudding With Raisin Jam, Rum Raisin Bread, and Rum Raisin Cinnamon Bread are very similar to this recipe.",
         "instructions": [
           "Combine the rum and raisins in a small saucepan. Bring to a boil. Simmer for 30 seconds, then remove from heat. Cover and allow the raisins to macerate for at least 4 hours, but preferably overnight.",
@@ -9341,7 +9341,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Rozemarijn Rum Rozijnensodabrood met Pecannoten",
-        "subtitle": "Rosemary Rum Rozijnensodabrood met Pecannoten is een lacto ovo-vegetarisch recept met 16 porties.",
+        "subtitle": "Rosemary Rum Rozijnensodabrood met Pecannoten is een lacto ovo-vege...",
         "description": "Rosemary Rum Rozijnensodabrood met Pecannoten is een lacto ovo-vegetarisch recept met 16 porties. Dit ontbijt bevat 173 calorieën, 5 g eiwit en 4 g vet per portie. Voor 44 cent per portie dekt dit recept 8% van je dagelijkse behoefte aan vitamines en mineralen. Slechts een paar mensen vonden dit Europese gerecht erg lekker. Een mengsel van anijszaad, rum, bloem en een handvol andere ingrediënten is voldoende om dit recept zo smaakvol te maken. 4 mensen waren onder de indruk van dit recept. Het wordt u aangeboden door Foodista. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 53%, wat solide is. Irish Soda Bread Pudding Met Rozijnenjam, Rum Rozijnenbrood en Rum Rozijnen Kaneelbrood lijken erg op dit recept.",
         "instructions": [
           "Meng de rum en de rozijnen in een kleine pan. Breng aan de kook. Laat het 30 seconden sudderen en haal het dan van het vuur. Dek af en laat de rozijnen minimaal 4 uur, maar bij voorkeur een hele nacht, macereren.",
@@ -9363,7 +9363,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pain soda au romarin, rhum et raisins secs avec pacanes",
-        "subtitle": "Le pain soda au romarin, rhum et raisins secs avec pacanes est une recette lacto ovo végétarienne de 16 portions.",
+        "subtitle": "Le pain soda au romarin, rhum et raisins secs avec pacanes est une...",
         "description": "Le pain soda au romarin, rhum et raisins secs avec pacanes est une recette lacto ovo végétarienne de 16 portions. Ce petit-déjeuner contient 173 calories, 5 g de protéines et 4 g de matières grasses par portion. Pour 44 cents par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Seules quelques personnes ont vraiment aimé ce plat européen. Un mélange de graines d'anis, de rhum, de farine et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. 4 personnes ont été impressionnées par cette recette. Il vous est présenté par Foodista. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 53 %, ce qui est solide. Le pouding au pain soda irlandais avec confiture de raisins secs, le pain au rhum et aux raisins secs et le pain au rhum et aux raisins et à la cannelle sont très similaires à cette recette.",
         "instructions": [
           "Mélangez le rhum et les raisins secs dans une petite casserole. Porter à ébullition. Laisser mijoter 30 secondes, puis retirer du feu. Couvrir et laisser macérer les raisins secs pendant au moins 4 heures, mais de préférence toute la nuit.",
@@ -9534,7 +9534,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Delicious Limeade Triple Berry Smoothies",
-        "subtitle": "Delicious Limeade Triple Berry Smoothies takes around 10 minutes from beginning to end.",
+        "subtitle": "Delicious Limeade Triple Berry Smoothies takes around 10 minutes fr...",
         "description": "Delicious Limeade Triple Berry Smoothies takes around 10 minutes from beginning to end. This recipe serves 2 and costs $2.79 per serving. One portion of this dish contains about 8g of protein, 4g of fat, and a total of 258 calories. 2 people found this recipe to be yummy and satisfying. It works well as a rather cheap breakfast. It is brought to you by Pink When. If you have ground flax seed, limeade more, vanilla greek yogurt, and a few other ingredients on hand, you can make it. It is a good option if you're following a gluten free diet. Taking all factors into account, this recipe earns a spoonacular score of 50%, which is solid. If you like this recipe, you might also like recipes such as Delicious Limeade Triple Berry Smoothies, Delicious Limeade Triple Berry Smoothies, and Triple Berry Limeade Smoothies.",
         "instructions": [
           "Add all of the ingredients to the pitcher of your blender. Pulse 3-4 times to break up the ingredients and then turn the blender on full speed. Blend for about a minute or until completely smooth. This amount of time will depend on how powerful your blender is. It may take longer (or shorter!).",
@@ -9544,7 +9544,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Heerlijke Limeade Triple Berry Smoothies",
-        "subtitle": "Heerlijke Limeade Triple Berry Smoothies duren van begin tot eind ongeveer 10 minuten.",
+        "subtitle": "Heerlijke Limeade Triple Berry Smoothies duren van begin tot eind o...",
         "description": "Heerlijke Limeade Triple Berry Smoothies duren van begin tot eind ongeveer 10 minuten. Dit recept serveert 2 personen en kost $ 2,79 per portie. Eén portie van dit gerecht bevat ongeveer 8 gram eiwit, 4 gram vet en in totaal 258 calorieën. 2 mensen vonden dit recept lekker en bevredigend. Het werkt goed als een vrij goedkoop ontbijt. Het wordt u aangeboden door Pink When. Als je gemalen lijnzaad, meer limoen, Griekse vanilleyoghurt en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het is een goede optie als je een glutenvrij dieet volgt. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 50%, wat solide is. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Delicious Limeade Triple Berry Smoothies, Delicious Limeade Triple Berry Smoothies en Triple Berry Limeade Smoothies.",
         "instructions": [
           "Voeg alle ingrediënten toe aan de kan van uw blender. Pulseer 3-4 keer om de ingrediënten te breken en zet de blender vervolgens op volle snelheid. Meng ongeveer een minuut of tot het volledig glad is. Deze hoeveelheid tijd hangt af van hoe krachtig uw blender is. Het kan langer (of korter!) duren.",
@@ -9554,7 +9554,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Délicieux smoothies aux trois baies et à la limeade",
-        "subtitle": "Les délicieux smoothies aux trois baies et à la limeade prennent environ 10 minutes du début à la fin.",
+        "subtitle": "Les délicieux smoothies aux trois baies et à la limeade prennent en...",
         "description": "Les délicieux smoothies aux trois baies et à la limeade prennent environ 10 minutes du début à la fin. Cette recette sert 2 personnes et coûte 2,79 $ par portion. Une portion de ce plat contient environ 8 g de protéines, 4 g de matières grasses et un total de 258 calories. 2 personnes ont trouvé cette recette délicieuse et satisfaisante. Cela fonctionne bien comme petit-déjeuner plutôt bon marché. Il vous est présenté par Pink When. Si vous avez des graines de lin moulues, du citron vert, du yaourt grec à la vanille et quelques autres ingrédients sous la main, vous pouvez le préparer. C'est une bonne option si vous suivez un régime sans gluten. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 50 %, ce qui est solide. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Délicieux smoothies aux trois baies et à la limeade, Délicieux smoothies aux trois baies et à la limeade et Smoothies aux trois baies et à la lime.",
         "instructions": [
           "Ajoutez tous les ingrédients dans le pichet de votre mixeur. Pulsez 3 à 4 fois pour briser les ingrédients, puis allumez le mélangeur à pleine vitesse. Mélanger pendant environ une minute ou jusqu'à ce que le mélange soit complètement lisse. Cette durée dépendra de la puissance de votre mixeur. Cela peut prendre plus de temps (ou moins !).",
@@ -9653,7 +9653,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Green Beans with Pearl Onions and Salmon",
-        "subtitle": "If you have approximately 45 minutes to spend in the kitchen, Green Beans with Pearl Onions and Salmon might be an awesome gluten free and pescatarian recipe to try.",
+        "subtitle": "If you have approximately 45 minutes to spend in the kitchen, Green...",
         "description": "If you have approximately 45 minutes to spend in the kitchen, Green Beans with Pearl Onions and Salmon might be an awesome gluten free and pescatarian recipe to try. This recipe makes 4 servings with 368 calories, 37g of protein, and 18g of fat each. For $4.91 per serving, this recipe covers 33% of your daily requirements of vitamins and minerals. 7 people found this recipe to be yummy and satisfying. This recipe from Foodista requires chicken stock, pearl onions, brown sugar, and butter. Only a few people really liked this main course. All things considered, we decided this recipe deserves a spoonacular score of 31%. This score is not so super. If you like this recipe, you might also like recipes such as Green Beans and Pearl Onions, Hearty Green Beans With Mushrooms and Pearl Onions, and Hearty Green Beans With Mushrooms and Pearl Onions.",
         "instructions": [
           "In a large pot add some water the frozen beans and frozen pearl onions. Cover and cook over medium heat until they are tender.",
@@ -9669,7 +9669,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Sperziebonen met Pareluitjes en Zalm",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, zijn sperziebonen met pareluien en zalm wellicht een geweldig glutenvrij en pescatarisch recept om te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, z...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, zijn sperziebonen met pareluien en zalm wellicht een geweldig glutenvrij en pescatarisch recept om te proberen. Dit recept maakt 4 porties met elk 368 calorieën, 37 g eiwit en 18 g vet. Voor $ 4,91 per portie dekt dit recept 33% van uw dagelijkse behoefte aan vitamines en mineralen. 7 mensen vonden dit recept lekker en bevredigend. Voor dit recept van Foodista heb je kippenbouillon, zilveruitjes, bruine suiker en boter nodig. Slechts een paar mensen vonden dit hoofdgerecht erg lekker. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 31% verdient. Deze score is niet zo super. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Sperziebonen en Pareluitjes, Hartige Sperziebonen met champignons en Pareluitjes, en Hartige Sperziebonen met champignons en Pareluitjes.",
         "instructions": [
           "Voeg in een grote pan wat water, de bevroren bonen en de bevroren zilveruitjes toe. Dek af en kook op middelhoog vuur tot ze gaar zijn.",
@@ -9685,7 +9685,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Haricots verts aux oignons perlés et saumon",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les haricots verts aux oignons perlés et au saumon pourraient être une excellente recette sans gluten et pescatarienne à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les haric...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, les haricots verts aux oignons perlés et au saumon pourraient être une excellente recette sans gluten et pescatarienne à essayer. Cette recette donne 4 portions avec 368 calories, 37 g de protéines et 18 g de matières grasses chacune. Pour 4,91 $ par portion, cette recette couvre 33 % de vos besoins quotidiens en vitamines et minéraux. 7 personnes ont trouvé cette recette délicieuse et satisfaisante. Cette recette de Foodista nécessite du bouillon de poulet, des oignons perlés, de la cassonade et du beurre. Seules quelques personnes ont vraiment aimé ce plat principal. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 31 %. Ce score n'est pas si super. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Haricots verts et oignons perlés, Haricots verts copieux aux champignons et oignons perlés, et Haricots verts copieux aux champignons et oignons perlés.",
         "instructions": [
           "Dans une grande casserole, ajoutez un peu d'eau les haricots surgelés et les oignons perlés surgelés. Couvrir et cuire à feu moyen jusqu'à ce qu'ils soient tendres.",
@@ -9834,7 +9834,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tarte végétalienne au chocolat et aux bananes",
-        "subtitle": "La tarte végétalienne au chocolat et à la banane est un dessert pour 6 personnes.",
+        "subtitle": "La tarte végétalienne au chocolat et à la banane est un dessert pou...",
         "description": "La tarte végétalienne au chocolat et à la banane est un dessert pour 6 personnes. Une portion de ce plat contient environ 3 g de protéines, 17 g de matières grasses et un total de 345 calories. Pour 1,09 $ par portion, cette recette couvre 7 % de vos besoins quotidiens en vitamines et minéraux. 23 personnes ont été impressionnées par cette recette. Si vous avez une croûte à tarte, de la fécule de maïs mélangée, du chocolat fondu au bain marie et quelques autres ingrédients sous la main, vous pouvez le préparer. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Avec un score cuillère de 37%, ce plat est plutôt mauvais. Les utilisateurs qui ont aimé cette recette ont également aimé Vegan Banana Pie Cup, Vegan Banana Pie Cup et White Chocolate Banana Cream Pie { Pie Party}.",
         "instructions": [
           "Dans un mixeur, ajoutez le tofu et mélangez jusqu'à obtenir une consistance crémeuse,",
@@ -9935,7 +9935,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Chicken Pasta With Anchovy Rosemary Sauce",
-        "subtitle": "If you have around 45 minutes to spend in the kitchen, Chicken Pasta With Anchovy Rosemary Sauce might be an awesome dairy free recipe to try.",
+        "subtitle": "If you have around 45 minutes to spend in the kitchen, Chicken Past...",
         "description": "If you have around 45 minutes to spend in the kitchen, Chicken Pasta With Anchovy Rosemary Sauce might be an awesome dairy free recipe to try. This recipe serves 4. One serving contains 394 calories, 23g of protein, and 14g of fat. For $1.59 per serving, this recipe covers 16% of your daily requirements of vitamins and minerals. It works well as a rather inexpensive main course. 2 people were impressed by this recipe. A mixture of olive oil, garlic, juice of lemon, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Foodista. Overall, this recipe earns a solid spoonacular score of 58%. If you like this recipe, take a look at these similar recipes: Chicken Pasta With Anchovy Rosemary Sauce, Pasta with Walnut Anchovy Sauce, and Pasta With Anchovy-walnut Sauce.",
         "instructions": [
           "Place garlic, anchovies (with their oil), rosemary and lemon juice in a food processor.  Blend until fairly smooth.",
@@ -9948,7 +9948,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Kippenpasta Met Ansjovis Rozemarijnsaus",
-        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, is Kippasta met ansjovis-rozemarijnsaus wellicht een geweldig zuivelvrij recept om te proberen.",
+        "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, i...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, is Kippasta met ansjovis-rozemarijnsaus wellicht een geweldig zuivelvrij recept om te proberen. Dit recept is voor 4 personen. Eén portie bevat 394 calorieën, 23 g eiwit en 14 g vet. Voor $ 1,59 per portie dekt dit recept 16% van uw dagelijkse behoefte aan vitamines en mineralen. Het werkt goed als een vrij goedkoop hoofdgerecht. 2 mensen waren onder de indruk van dit recept. Een mengsel van olijfolie, knoflook, citroensap en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Over het geheel genomen verdient dit recept een solide lepelscore van 58%. Als je dit recept lekker vindt, kijk dan eens naar deze vergelijkbare recepten: Kippasta met ansjovis-rozemarijnsaus, Pasta met walnoten-ansjovissaus en Pasta met ansjovis-walnootsaus.",
         "instructions": [
           "Doe de knoflook, ansjovis (met hun olie), rozemarijn en citroensap in een keukenmachine.  Mix tot het redelijk glad is.",
@@ -9961,7 +9961,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pâtes au poulet avec sauce aux anchois et au romarin",
-        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les pâtes au poulet avec sauce aux anchois et au romarin pourraient être une excellente recette sans produits laitiers à essayer.",
+        "subtitle": "Si vous avez environ 45 minutes à consacrer à la cuisine, les pâtes...",
         "description": "Si vous avez environ 45 minutes à consacrer à la cuisine, les pâtes au poulet avec sauce aux anchois et au romarin pourraient être une excellente recette sans produits laitiers à essayer. Cette recette en sert 4. Une portion contient 394 calories, 23 g de protéines et 14 g de matières grasses. Pour 1,59 $ par portion, cette recette couvre 16 % de vos besoins quotidiens en vitamines et minéraux. Cela fonctionne bien comme plat principal plutôt bon marché. 2 personnes ont été impressionnées par cette recette. Un mélange d’huile d’olive, d’ail, de jus de citron et une poignée d’autres ingrédients suffisent pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. Dans l’ensemble, cette recette obtient un solide score cuillère de 58 %. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Pâtes au poulet avec sauce aux anchois et au romarin, Pâtes à la sauce aux anchois et aux noix et Pâtes à la sauce aux anchois et aux noix.",
         "instructions": [
           "Mettre l'ail, les anchois (avec leur huile), le romarin et le jus de citron dans un robot culinaire.  Mélanger jusqu'à ce qu'il soit assez lisse.",
@@ -10103,7 +10103,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Chiquetaille: Cod Fish Salad",
-        "subtitle": "Chiquetaille: Cod Fish Salad could be just the gluten free, dairy free, paleolithic, and primal recipe you've been looking for.",
+        "subtitle": "Chiquetaille: Cod Fish Salad could be just the gluten free, dairy f...",
         "description": "Chiquetaille: Cod Fish Salad could be just the gluten free, dairy free, paleolithic, and primal recipe you've been looking for. This recipe serves 8. This main course has 247 calories, 37g of protein, and 7g of fat per serving. For $1.94 per serving, this recipe covers 27% of your daily requirements of vitamins and minerals. 3 people found this recipe to be yummy and satisfying. This recipe from Foodista requires carrots, vinegar, shallots, and garlic. From preparation to the plate, this recipe takes roughly 45 minutes. With a spoonacular score of 79%, this dish is solid. Similar recipes include Cod Fish Cakes, Cod Fish Fritters, and Cod Fish Tacos.",
         "instructions": [
           "Soak the cod in cold water in the refrigerator for 24 hours, changing the water 3 times.  In a large pot, bring to boil enough water to cover the fish and boil for about 20 minutes.",
@@ -10114,7 +10114,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Chiquetaille: Kabeljauwvissalade",
-        "subtitle": "Chiquetaille: Kabeljauwvissalade zou precies het glutenvrije, zuivelvrije, paleolithische en oorspronkelijke recept kunnen zijn waar u naar op zoek was.",
+        "subtitle": "Chiquetaille: Kabeljauwvissalade zou precies het glutenvrije, zuive...",
         "description": "Chiquetaille: Kabeljauwvissalade zou precies het glutenvrije, zuivelvrije, paleolithische en oorspronkelijke recept kunnen zijn waar u naar op zoek was. Dit recept serveert 8 personen. Dit hoofdgerecht bevat 247 calorieën, 37 g eiwit en 7 g vet per portie. Voor $ 1,94 per portie dekt dit recept 27% van uw dagelijkse behoefte aan vitamines en mineralen. 3 mensen vonden dit recept lekker en bevredigend. Voor dit recept van Foodista zijn wortels, azijn, sjalotten en knoflook nodig. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Met een lepelscore van 79% is dit gerecht stevig. Soortgelijke recepten zijn onder meer kabeljauwviskoekjes, kabeljauwvisbeignets en kabeljauwvistaco's.",
         "instructions": [
           "Week de kabeljauw in koud water in de koelkast gedurende 24 uur, waarbij u het water 3 keer ververst.  Breng in een grote pan voldoende water aan de kook om de vis onder water te zetten en kook ongeveer 20 minuten.",
@@ -10125,7 +10125,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Chiquetaille : Salade de Morue",
-        "subtitle": "Chiquetaille : La salade de morue pourrait être la recette sans gluten, sans produits laitiers, paléolithique et primale que vous recherchiez.",
+        "subtitle": "Chiquetaille : La salade de morue pourrait être la recette sans glu...",
         "description": "Chiquetaille : La salade de morue pourrait être la recette sans gluten, sans produits laitiers, paléolithique et primale que vous recherchiez. Cette recette en sert 8. Ce plat principal contient 247 calories, 37 g de protéines et 7 g de matières grasses par portion. Pour 1,94 $ par portion, cette recette couvre 27 % de vos besoins quotidiens en vitamines et minéraux. 3 personnes ont trouvé cette recette délicieuse et satisfaisante. Cette recette de Foodista nécessite des carottes, du vinaigre, des échalotes et de l'ail. De la préparation à l'assiette, cette recette prend environ 45 minutes. Avec un score cuillère de 79%, ce plat est solide. Des recettes similaires incluent les galettes de morue, les beignets de morue et les tacos à la morue.",
         "instructions": [
           "Faire tremper le cabillaud dans l'eau froide au réfrigérateur pendant 24 heures en changeant l'eau 3 fois.  Dans une grande casserole, porter à ébullition suffisamment d'eau pour couvrir le poisson et laisser bouillir environ 20 minutes.",
@@ -10325,7 +10325,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tortellinis au fromage et aux épinards",
-        "subtitle": "La recette Tortellini aux épinards et au fromage peut être préparée en 45 minutes environ.",
+        "subtitle": "La recette Tortellini aux épinards et au fromage peut être préparée...",
         "description": "La recette Tortellini aux épinards et au fromage peut être préparée en 45 minutes environ. Cette recette donne 8 portions avec 199 calories, 4 g de protéines et 16 g de matières grasses chacune. Pour 65 cents par portion, cette recette couvre 11 % de vos besoins quotidiens en vitamines et minéraux. 2 personnes ont réalisé cette recette et la referaient. Cette recette de Foodista nécessite de l'huile d'olive, de l'oignon, des flocons de piment et des épinards. Cela fonctionne bien comme hors-d'œuvre à un prix très raisonnable. Avec un score cuillère de 39%, ce plat n'est pas si excellent. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Tortellini aux épinards et au fromage, Tortellini aux trois fromages et aux épinards et Tortellini aux épinards et au fromage Primavera.",
         "instructions": [
           "Préparez les tortellinis selon les instructions sur l'emballage. Dans une grande poêle en acier inoxydable, faites chauffer les oignons dans l'huile d'olive et le beurre à feu moyen jusqu'à ce que les oignons soient tendres et translucides (environ 3-4 minutes).",
@@ -10569,7 +10569,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cherry-Berry Pie With Agave Nectar All-Butter Crust",
-        "subtitle": "If you have about 3 hours to spend in the kitchen, Cherry-Berry Pie With Agave Nectar All-Butter Crust might be a tremendous lacto ovo vegetarian recipe to try.",
+        "subtitle": "If you have about 3 hours to spend in the kitchen, Cherry-Berry Pie...",
         "description": "If you have about 3 hours to spend in the kitchen, Cherry-Berry Pie With Agave Nectar All-Butter Crust might be a tremendous lacto ovo vegetarian recipe to try. For $1.2 per serving, this recipe covers 7% of your daily requirements of vitamins and minerals. One portion of this dish contains roughly 5g of protein, 22g of fat, and a total of 371 calories. This recipe serves 10. 7 people found this recipe to be tasty and satisfying. If you have butter, orange extract, cherries, and a few other ingredients on hand, you can make it. It works well as a dessert. It is brought to you by Foodista. With a spoonacular score of 23%, this dish is rather bad. Users who liked this recipe also liked Blended Agave Nectar Margarita, Homemade Agave Nectar Ketchup, and Seeded Agave Nectar Mustard.",
         "instructions": [
           "Make the crust:Pulse the dry ingredients 5-6 times.",
@@ -10586,7 +10586,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Kersen-bessentaart met agave-nectar-boterkorst",
-        "subtitle": "Als je ongeveer 3 uur de tijd hebt om in de keuken door te brengen, is Cherry-Berry Pie met Agave Nectar All-Butter Crust misschien een geweldig lacto ovo vegetarisch recept om te proberen.",
+        "subtitle": "Als je ongeveer 3 uur de tijd hebt om in de keuken door te brengen,...",
         "description": "Als je ongeveer 3 uur de tijd hebt om in de keuken door te brengen, is Cherry-Berry Pie met Agave Nectar All-Butter Crust misschien een geweldig lacto ovo vegetarisch recept om te proberen. Voor $ 1,2 per portie dekt dit recept 7% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie van dit gerecht bevat ongeveer 5 gram eiwit, 22 gram vet en in totaal 371 calorieën. Dit recept is voor 10 personen. 7 mensen vonden dit recept lekker en bevredigend. Als je boter, sinaasappelextract, kersen en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het werkt goed als dessert. Het wordt u aangeboden door Foodista. Met een lepelscore van 23% is dit gerecht behoorlijk slecht. Gebruikers die dit recept lekker vonden, hielden ook van Blended Agave Nectar Margarita, Homemade Agave Nectar Ketchup en Seeded Agave Nectar Mustard.",
         "instructions": [
           "Maak de korst: pulseer de droge ingrediënten 5-6 keer.",
@@ -10603,7 +10603,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tarte aux cerises et aux baies avec croûte tout beurre au nectar d'agave",
-        "subtitle": "Si vous avez environ 3 heures à passer en cuisine, la tarte aux cerises et aux baies avec croûte tout beurre au nectar d'agave pourrait être une formidable recette végétarienne lacto ovo à essayer.",
+        "subtitle": "Si vous avez environ 3 heures à passer en cuisine, la tarte aux cer...",
         "description": "Si vous avez environ 3 heures à passer en cuisine, la tarte aux cerises et aux baies avec croûte tout beurre au nectar d'agave pourrait être une formidable recette végétarienne lacto ovo à essayer. Pour 1,2 $ par portion, cette recette couvre 7 % de vos besoins quotidiens en vitamines et minéraux. Une portion de ce plat contient environ 5 g de protéines, 22 g de matières grasses et un total de 371 calories. Cette recette en sert 10. 7 personnes ont trouvé cette recette savoureuse et satisfaisante. Si vous avez du beurre, de l’extrait d’orange, des cerises et quelques autres ingrédients sous la main, vous pouvez le préparer. Cela fonctionne bien comme dessert. Il vous est présenté par Foodista. Avec un score cuillère de 23%, ce plat est plutôt mauvais. Les utilisateurs qui ont aimé cette recette ont également aimé la margarita au nectar d'agave mélangée, le ketchup au nectar d'agave fait maison et la moutarde au nectar d'agave aux graines.",
         "instructions": [
           "Préparez la croûte : mélangez les ingrédients secs 5 à 6 fois.",
@@ -10769,7 +10769,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cream Cheese Stuffed Chicken Breasts",
-        "subtitle": "Cream Cheese Stuffed Chicken Breasts takes roughly 45 minutes from beginning to end.",
+        "subtitle": "Cream Cheese Stuffed Chicken Breasts takes roughly 45 minutes from...",
         "description": "Cream Cheese Stuffed Chicken Breasts takes roughly 45 minutes from beginning to end. For $2.16 per serving, you get a side dish that serves 4. One portion of this dish contains around 30g of protein, 32g of fat, and a total of 434 calories. If you have cream cheese, pepper, to 3 butter, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. 19 people have made this recipe and would make it again. It is a good option if you're following a gluten free, primal, and ketogenic diet. All things considered, we decided this recipe deserves a spoonacular score of 61%. This score is solid. Similar recipes are Cream Cheese Stuffed Chicken Breasts, Cream Cheese Stuffed Chicken Breasts, and Cream Cheese Stuffed Chicken Breasts.",
         "instructions": [
           "Preheat the oven to 350 F.In a small skillet, sweat the onions over medium-low heat in the butter or olive oil until they are soft and translucent, about 5 minutes.",
@@ -10785,7 +10785,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Met roomkaas gevulde kippenborsten",
-        "subtitle": "Met roomkaas gevulde kippenborsten duurt van begin tot eind ongeveer 45 minuten.",
+        "subtitle": "Met roomkaas gevulde kippenborsten duurt van begin tot eind ongevee...",
         "description": "Met roomkaas gevulde kippenborsten duurt van begin tot eind ongeveer 45 minuten. Voor $ 2,16 per portie krijg je een bijgerecht voor 4 personen. Eén portie van dit gerecht bevat ongeveer 30 g eiwit, 32 g vet en in totaal 434 calorieën. Als je roomkaas, peper, 3 boter en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het wordt u aangeboden door Foodista. 19 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Het is een goede optie als je een glutenvrij, primair en ketogeen dieet volgt. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 61% verdient. Deze score is solide. Soortgelijke recepten zijn met roomkaas gevulde kippenborsten, met roomkaas gevulde kippenborsten en met roomkaas gevulde kippenborsten.",
         "instructions": [
           "Verwarm de oven voor op 350 F. Zweet de uien in een kleine koekenpan op middelhoog vuur in de boter of olijfolie tot ze zacht en doorschijnend zijn, ongeveer 5 minuten.",
@@ -10801,7 +10801,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Poitrines de poulet farcies au fromage à la crème",
-        "subtitle": "Les poitrines de poulet farcies au fromage à la crème prennent environ 45 minutes du début à la fin.",
+        "subtitle": "Les poitrines de poulet farcies au fromage à la crème prennent envi...",
         "description": "Les poitrines de poulet farcies au fromage à la crème prennent environ 45 minutes du début à la fin. Pour 2,16 $ par portion, vous obtenez un plat d'accompagnement pour 4 personnes. Une portion de ce plat contient environ 30 g de protéines, 32 g de matières grasses et un total de 434 calories. Si vous avez du fromage à la crème, du poivre, du beurre 3 et quelques autres ingrédients sous la main, vous pouvez le préparer. Il vous est présenté par Foodista. 19 personnes ont réalisé cette recette et la referaient. C'est une bonne option si vous suivez un régime sans gluten, primal et cétogène. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 61 %. Ce score est solide. Des recettes similaires sont les poitrines de poulet farcies au fromage à la crème, les poitrines de poulet farcies au fromage à la crème et les poitrines de poulet farcies au fromage à la crème.",
         "instructions": [
           "Préchauffer le four à 350 F. Dans une petite poêle, faire revenir les oignons à feu moyen-doux dans le beurre ou l'huile d'olive jusqu'à ce qu'ils soient tendres et translucides, environ 5 minutes.",
@@ -10946,7 +10946,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Colcannon",
-        "subtitle": "The recipe Colcannon is ready in about 45 minutes and is definitely an awesome gluten free option for lovers of European food.",
+        "subtitle": "The recipe Colcannon is ready in about 45 minutes and is definitely...",
         "description": "The recipe Colcannon is ready in about 45 minutes and is definitely an awesome gluten free option for lovers of European food. For 49 cents per serving, you get a side dish that serves 8. One serving contains 163 calories, 5g of protein, and 6g of fat. 3 people have tried and liked this recipe. Head to the store and pick up optional: 2 rashers bacon, potatoes, salt, and a few other things to make it today. It is brought to you by Foodista. Taking all factors into account, this recipe earns a spoonacular score of 56%, which is good. If you like this recipe, take a look at these similar recipes: Colcannon, Colcannon, and Colcannon.",
         "instructions": [
           "Cut into top of cabbage and hollow it out, leaving 3-4 outside leaves intact, reserving the hollowed-out portion. Plunge the hollowed-out head into large amount of boiling water; simmer 5 minutes or until tender-crisp. It must hold its shape. Cool quickly in cold water; invert and drain.Chop reserved cabbage pieces, measure 1 1/2 cups. Stir fry in butter along with green onions until tender. Set aside. Boil and mash potatoes adding milk and seasonings. Stir in the sauteed mixture and parsley."
@@ -10954,7 +10954,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Colcannon",
-        "subtitle": "Het recept Colcannon is in ongeveer 45 minuten klaar en is zeker een geweldige glutenvrije optie voor liefhebbers van Europees eten.",
+        "subtitle": "Het recept Colcannon is in ongeveer 45 minuten klaar en is zeker ee...",
         "description": "Het recept Colcannon is in ongeveer 45 minuten klaar en is zeker een geweldige glutenvrije optie voor liefhebbers van Europees eten. Voor 49 cent per portie krijg je een bijgerecht voor 8 personen. Eén portie bevat 163 calorieën, 5 g eiwit en 6 g vet. 3 mensen hebben dit recept geprobeerd en vonden het leuk. Ga naar de winkel en haal optioneel het volgende op: 2 plakjes spek, aardappelen, zout en nog een paar andere dingen om het vandaag te maken. Het wordt u aangeboden door Foodista. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 56%, wat goed is. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Colcannon, Colcannon en Colcannon.",
         "instructions": [
           "Snijd de bovenkant van de kool in en hol deze uit. Laat 3-4 buitenste bladeren intact en bewaar het uitgeholde deel. Dompel de uitgeholde kop in een grote hoeveelheid kokend water; Laat 5 minuten sudderen of tot ze gaar en knapperig zijn. Het moet zijn vorm behouden. Snel afkoelen in koud water; omkeren en laten uitlekken. Hak de gereserveerde koolstukken fijn, meet 1 1/2 kopjes. Roerbak in boter samen met groene uien tot ze gaar zijn. Zet opzij. Kook en pureer de aardappelen, voeg melk en kruiden toe. Roer het gebakken mengsel en de peterselie erdoor."
@@ -10962,7 +10962,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Canon de col",
-        "subtitle": "La recette Colcannon est prête en 45 minutes environ et constitue sans aucun doute une excellente option sans gluten pour les amateurs de cuisine européenne.",
+        "subtitle": "La recette Colcannon est prête en 45 minutes environ et constitue s...",
         "description": "La recette Colcannon est prête en 45 minutes environ et constitue sans aucun doute une excellente option sans gluten pour les amateurs de cuisine européenne. Pour 49 cents par portion, vous obtenez un plat d'accompagnement pour 8 personnes. Une portion contient 163 calories, 5 g de protéines et 6 g de matières grasses. 3 personnes ont essayé et aimé cette recette. Rendez-vous au magasin et récupérez en option : 2 tranches de bacon, des pommes de terre, du sel et quelques autres choses à préparer aujourd'hui. Il vous est présenté par Foodista. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 56 %, ce qui est bien. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Colcannon, Colcannon et Colcannon.",
         "instructions": [
           "Couper le dessus du chou et l'évider en laissant 3-4 feuilles extérieures intactes, en réservant la partie évidée. Plongez la tête évidée dans une grande quantité d’eau bouillante ; laisser mijoter 5 minutes ou jusqu'à ce qu'ils soient tendres et croustillants. Il doit conserver sa forme. Refroidir rapidement dans l'eau froide ; retourner et égoutter. Hacher les morceaux de chou réservés, mesurer 1 1/2 tasse. Faire sauter dans le beurre avec les oignons verts jusqu'à ce qu'ils soient tendres. Annuler. Faire bouillir et écraser les pommes de terre en ajoutant le lait et les assaisonnements. Incorporer le mélange sauté et le persil."
@@ -11089,7 +11089,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Hot ‘n’ honey potato sticks",
-        "subtitle": "Hot ‘n’ honey potato sticks is a gluten free, dairy free, and lacto ovo vegetarian recipe with 4 servings.",
+        "subtitle": "Hot ‘n’ honey potato sticks is a gluten free, dairy free, and lacto...",
         "description": "Hot ‘n’ honey potato sticks is a gluten free, dairy free, and lacto ovo vegetarian recipe with 4 servings. For 72 cents per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. One portion of this dish contains roughly 4g of protein, 21g of fat, and a total of 375 calories. 3 people were impressed by this recipe. It works well as a very affordable side dish. A mixture of spring onion greens, sesame seeds, chilli sauce, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 29%, which is not so great. Similar recipes are Paleo Hot Chocolate Sticks, Paleo Hot Chocolate Sticks, and Salted Caramel Hot Chocolate Sticks.",
         "instructions": [
           "Find the preparation steps here : http://divinespicebox.com/2014/03/22/hot-n-honey-potato-sticks/"
@@ -11097,7 +11097,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Hot ‘n’ honingaardappelsticks",
-        "subtitle": "Hot ‘n’ Honey Potato Sticks is een glutenvrij, zuivelvrij en lacto ovo vegetarisch recept met 4 porties.",
+        "subtitle": "Hot ‘n’ Honey Potato Sticks is een glutenvrij, zuivelvrij en lacto...",
         "description": "Hot ‘n’ Honey Potato Sticks is een glutenvrij, zuivelvrij en lacto ovo vegetarisch recept met 4 porties. Voor 72 cent per portie dekt dit recept 8% van je dagelijkse behoefte aan vitamines en mineralen. Eén portie van dit gerecht bevat ongeveer 4 gram eiwit, 21 gram vet en in totaal 375 calorieën. 3 mensen waren onder de indruk van dit recept. Het werkt goed als een zeer betaalbaar bijgerecht. Een mengsel van lente-uigroenten, sesamzaadjes, chilisaus en een handvol andere ingrediënten is alles wat nodig is om dit recept zo smaakvol te maken. Het wordt u aangeboden door Foodista. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 29%, wat niet zo geweldig is. Soortgelijke recepten zijn Paleo Hot Chocolate Sticks, Paleo Hot Chocolate Sticks en Salted Caramel Hot Chocolate Sticks.",
         "instructions": [
           "Vind de voorbereidingsstappen hier: http://divinespicebox.com/2014/03/22/hot-n-honey-potato-sticks/"
@@ -11105,7 +11105,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Bâtonnets de pommes de terre chauds et au miel",
-        "subtitle": "Les bâtonnets de pommes de terre chauds et au miel sont une recette végétarienne sans gluten, sans produits laitiers et lacto ovo avec 4 portions.",
+        "subtitle": "Les bâtonnets de pommes de terre chauds et au miel sont une recette...",
         "description": "Les bâtonnets de pommes de terre chauds et au miel sont une recette végétarienne sans gluten, sans produits laitiers et lacto ovo avec 4 portions. Pour 72 cents par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Une portion de ce plat contient environ 4 g de protéines, 21 g de matières grasses et un total de 375 calories. 3 personnes ont été impressionnées par cette recette. Cela fonctionne bien comme plat d’accompagnement très abordable. Un mélange de feuilles d'oignons nouveaux, de graines de sésame, de sauce chili et d'une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 29 %, ce qui n'est pas si génial. Des recettes similaires sont les bâtonnets de chocolat chaud paléo, les bâtonnets de chocolat chaud paléo et les bâtonnets de chocolat chaud au caramel salé.",
         "instructions": [
           "Retrouvez les étapes de préparation ici : http://divinespicebox.com/2014/03/22/hot-n-honey-potato-sticks/"
@@ -11275,7 +11275,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Nacho's Grande",
-        "subtitle": "Nachos Grande is wellicht precies het hor d'oeuvre waar u naar op zoek bent.",
+        "subtitle": "Nachos Grande is wellicht precies het hor d'oeuvre waar u naar op z...",
         "description": "Nachos Grande is wellicht precies het hor d'oeuvre waar u naar op zoek bent. Dit recept maakt 4 porties met elk 642 calorieën, 21 g eiwit en 34 g vet. Voor $ 2,05 per portie dekt dit recept 27% van uw dagelijkse behoefte aan vitamines en mineralen. Het wordt u aangeboden door Foodista. 2 mensen waren blij dat ze dit recept probeerden. Slechts een paar mensen vonden dit Mexicaanse gerecht erg lekker. Een mengsel van chili, paprika als garnering, ui en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het is een goede optie als je een glutenvrij en lacto-ovo-vegetarisch dieet volgt. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 58%, wat solide is. Gebruikers die dit recept lekker vonden, hielden ook van Nachos Grande, El Grande Burritos en Burrito Grande.",
         "instructions": [
           "Verhit de olie in een koekenpan, voeg de ui, groene paprika en knoflook toe en kook zachtjes, af en toe roerend, gedurende 5 minuten of tot ze zacht maar niet bruin zijn.",
@@ -11288,7 +11288,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Nachos Grandes",
-        "subtitle": "Nachos Grande pourrait être exactement l’hor-d’œuvre que vous recherchez.",
+        "subtitle": "Nachos Grande pourrait être exactement l’hor-d’œuvre que vous reche...",
         "description": "Nachos Grande pourrait être exactement l’hor-d’œuvre que vous recherchez. Cette recette donne 4 portions avec 642 calories, 21 g de protéines et 34 g de matières grasses chacune. Pour 2,05 $ par portion, cette recette couvre 27 % de vos besoins quotidiens en vitamines et minéraux. Il vous est présenté par Foodista. 2 personnes étaient contentes d'avoir essayé cette recette. Seules quelques personnes ont vraiment aimé ce plat mexicain. Un mélange de piment, de paprika pour garnir, d'oignon et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. C'est une bonne option si vous suivez un régime végétarien sans gluten et lacto ovo. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 58 %, ce qui est solide. Les utilisateurs qui ont aimé cette recette ont également aimé Nachos Grande, El Grande Burritos et Burrito Grande.",
         "instructions": [
           "Faites chauffer l'huile dans une poêle, ajoutez l'oignon, le poivron vert et l'ail et faites cuire doucement, en remuant de temps en temps, pendant 5 minutes ou jusqu'à ce qu'ils soient tendres mais pas dorés.",
@@ -11470,7 +11470,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Panna Cotta with Raspberry and Orange Sauce",
-        "subtitle": "Panna Cotta with Raspberry and Orange Sauce is a dessert that serves 6.",
+        "subtitle": "Panna Cotta with Raspberry and Orange Sauce is a dessert that serve...",
         "description": "Panna Cotta with Raspberry and Orange Sauce is a dessert that serves 6. One serving contains 396 calories, 8g of protein, and 27g of fat. For $1.43 per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. It is a good option if you're following a gluten free diet. This recipe from Foodista has 18 fans. A few people really liked this Mediterranean dish. If you have half and half, orange juice, vanilla, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes around 45 minutes. Overall, this recipe earns a rather bad spoonacular score of 34%. If you like this recipe, you might also like recipes such as Ghostly Panna Cottas with Ghastly Sauce(Panna Cotta with Cranberry-Orange Sauce), Panna Cotta With Raspberry Sauce, and Daring Bakers’ Challenge: Vanilla Bean & Blood Orange Panna Cotta with Orange Allspice Caramel Sauce and Orange Cardamom Hazelnut Dark Chocolate Florentines (gluten free).",
         "instructions": [
           "Spray 6 ramekins or juice glasses with the nonstick cooking spray.",
@@ -11489,7 +11489,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Panna Cotta met frambozen- en sinaasappelsaus",
-        "subtitle": "Panna Cotta met frambozen- en sinaasappelsaus is een dessert voor 6 personen.",
+        "subtitle": "Panna Cotta met frambozen- en sinaasappelsaus is een dessert voor 6...",
         "description": "Panna Cotta met frambozen- en sinaasappelsaus is een dessert voor 6 personen. Eén portie bevat 396 calorieën, 8 g eiwit en 27 g vet. Voor $ 1,43 per portie dekt dit recept 8% van uw dagelijkse behoefte aan vitamines en mineralen. Het is een goede optie als je een glutenvrij dieet volgt. Dit recept van Foodista heeft 18 fans. Een paar mensen vonden dit mediterrane gerecht erg lekker. Als je de helft en de helft sinaasappelsap, vanille en een paar andere ingrediënten bij de hand hebt, kun je het maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Over het geheel genomen verdient dit recept een nogal slechte lepelscore van 34%. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Spookachtige Panna Cottas met Gruwelijke Saus (Panna Cotta met Cranberry-Sinaasappelsaus), Panna Cotta Met Frambozensaus en Daring Bakers’ Challenge: Vanilleboon & Bloedsinaasappel Panna Cotta met Sinaasappel Piment Karamelsaus en Oranje Kardemom Hazelnoot Donkere Chocolade Florentijnen (glutenvrij).",
         "instructions": [
           "Spuit 6 schaaltjes of sapglaasjes in met de anti-aanbakspray.",
@@ -11508,7 +11508,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Panna Cotta à la Sauce Framboise et Orange",
-        "subtitle": "La panna cotta à la sauce aux framboises et à l'orange est un dessert pour 6 personnes.",
+        "subtitle": "La panna cotta à la sauce aux framboises et à l'orange est un desse...",
         "description": "La panna cotta à la sauce aux framboises et à l'orange est un dessert pour 6 personnes. Une portion contient 396 calories, 8 g de protéines et 27 g de matières grasses. Pour 1,43 $ par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. C'est une bonne option si vous suivez un régime sans gluten. Cette recette de Foodista compte 18 fans. Quelques personnes ont vraiment aimé ce plat méditerranéen. Si vous avez moitié-moitié, du jus d'orange, de la vanille et quelques autres ingrédients sous la main, vous pouvez le préparer. De la préparation à l'assiette, cette recette prend environ 45 minutes. Dans l'ensemble, cette recette obtient un score cuillère plutôt mauvais de 34 %. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Panna Cottas fantomatiques avec sauce horrible (Panna Cotta avec sauce canneberge-orange), Panna Cotta avec sauce framboise et Défi des boulangers audacieux : Panna Cotta à la gousse de vanille et à l'orange sanguine avec sauce caramel au piment de la Jamaïque et orange cardamome noisette chocolat noir florentines (sans gluten).",
         "instructions": [
           "Vaporisez 6 ramequins ou verres à jus avec l'enduit à cuisson antiadhésif.",
@@ -11672,7 +11672,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Salade de crevettes et avocat",
-        "subtitle": "Besoin d'un plat principal sans gluten, sans produits laitiers et pescatarien ?",
+        "subtitle": "Besoin d'un plat principal sans gluten, sans produits laitiers et p...",
         "description": "Besoin d'un plat principal sans gluten, sans produits laitiers et pescatarien ? La salade de crevettes et d'avocat pourrait être une recette géniale à essayer. Cette recette sert 4 personnes et coûte 11,57 $ par portion. Une portion de ce plat contient environ 34 g de protéines, 37 g de matières grasses et un total de 639 calories. De la préparation à l'assiette, cette recette prend environ 45 minutes. Cette recette est appréciée par 8 gourmets et cuisiniers. Cette recette de Foodista nécessite les crevettes, le sel et le poivre, les gousses d'ail et la vinaigrette. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 86 %. Ce score est exceptionnel. Si vous aimez cette recette, jetez un oeil à ces recettes similaires : Salade de pâtes aux crevettes, maïs et avocat californien et un voyage à l'avocat californien, Salade de pâtes aux crevettes, maïs et avocat californien et un voyage à l'avocat californien, et Salade de pâtes aux crevettes, maïs et avocat californien et un voyage à l'avocat californien.",
         "instructions": [
           "Tout d'abord, pour cuire les crevettes, faites chauffer l'huile d'olive dans une poêle et une fois chaude, ajoutez les crevettes, l'ail écrasé et les flocons de piment. Il est important que l'huile soit bien chaude (ne fume pas, juste avant ce point), vos crevettes doivent grésiller lorsqu'elles sont ajoutées à la poêle. Vérifiez le dos des crevettes et lorsque vous voyez la couleur changer à mi-hauteur, retournez-les. Faites la même chose de l'autre côté. Cela ne devrait prendre qu’une minute à deux minutes maximum des deux côtés sinon vous obtiendrez un résultat caoutchouteux si vous le laissez trop longtemps. Pressez le jus de citron vert, celui-ci devrait également bouillonner et réduire.",
@@ -11906,7 +11906,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Krab Wontons",
-        "subtitle": "Krabwontons is misschien wel het Chinese recept waar u naar op zoek bent.",
+        "subtitle": "Krabwontons is misschien wel het Chinese recept waar u naar op zoek...",
         "description": "Krabwontons is misschien wel het Chinese recept waar u naar op zoek bent. Dit recept maakt 12 porties met elk 47 calorieën, 4 g eiwit en 1 g vet. Voor 42 cent per portie dekt dit recept 3% van je dagelijkse behoefte aan vitamines en mineralen. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. 13 mensen waren blij dat ze dit recept probeerden. Het is een goede optie als je een pescatarisch dieet volgt. Als je gemalen peper, roomkaas, knoflook en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het werkt goed als hor d'oeuvre. Het wordt u aangeboden door Foodista. Met een lepelscore van 28% is dit gerecht behoorlijk slecht. Crab Rangoon (met krab en roomkaas gevulde wontons), Crab Rangoon (met krab en roomkaas gevulde wontons) en krabwontons lijken erg op dit recept.",
         "instructions": [
           "Verwarm de oven voor op 350F. Spuit een mini-muffinvormpje in met anti-aanbakspray.",
@@ -11918,7 +11918,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Wontons au crabe",
-        "subtitle": "Les Wontons au crabe pourraient bien être la recette chinoise que vous recherchez.",
+        "subtitle": "Les Wontons au crabe pourraient bien être la recette chinoise que v...",
         "description": "Les Wontons au crabe pourraient bien être la recette chinoise que vous recherchez. Cette recette donne 12 portions avec 47 calories, 4 g de protéines et 1 g de matières grasses chacune. Pour 42 cents par portion, cette recette couvre 3 % de vos besoins quotidiens en vitamines et minéraux. De la préparation à l'assiette, cette recette prend environ 45 minutes. 13 personnes étaient heureuses d'avoir essayé cette recette. C'est une bonne option si vous suivez un régime pescatarien. Si vous avez du poivre moulu, du fromage à la crème, de l’ail et quelques autres ingrédients sous la main, vous pouvez le préparer. Cela fonctionne bien comme un hor d'œuvre. Il vous est présenté par Foodista. Avec un score cuillère de 28%, ce plat est plutôt mauvais. Crab Rangoon (Wontons fourrés au crabe et au fromage à la crème), Crab Rangoon (Wontons fourrés au crabe et au fromage à la crème) et les Wontons au crabe sont très similaires à cette recette.",
         "instructions": [
           "Préchauffer le four à 350F. Vaporiser un moule à mini muffins avec un enduit à cuisson antiadhésif.",
@@ -12039,7 +12039,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Eggless Blueberry and White Chocolate Baked Cheesecake",
-        "subtitle": "The recipe Eggless Blueberry and White Chocolate Baked Cheesecake can be made in about 1 hour and 30 minutes.",
+        "subtitle": "The recipe Eggless Blueberry and White Chocolate Baked Cheesecake c...",
         "description": "The recipe Eggless Blueberry and White Chocolate Baked Cheesecake can be made in about 1 hour and 30 minutes. This recipe makes 12 servings with 587 calories, 11g of protein, and 37g of fat each. For $1.25 per serving, this recipe covers 9% of your daily requirements of vitamins and minerals. A mixture of vanillan extract, ricotta cheese, lemon juice, and a handful of other ingredients are all it takes to make this recipe so delicious. A couple people really liked this dessert. 17 people were glad they tried this recipe. It is brought to you by Foodista. With a spoonacular score of 24%, this dish is not so great. Similar recipes include Eggless Blueberry and White Chocolate Baked Cheesecake, White Chocolate Blueberry Cheesecake, and Blueberry And White Chocolate Cheesecake.",
         "instructions": [
           "Combine the crushed digestive biscuits with the melted butter and mix thoroughly.Firmly press the mixture into a greased 10 inch springform tin.Method for the filling:Beat together all of the ingredients (excluding the blueberries) until it has thickened. Kurma suggests not to overmix this.",
@@ -12051,7 +12051,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Eierloze cheesecake met bosbessen en witte chocolade",
-        "subtitle": "Het recept Eggless Blueberry and White Chocolate Baked Cheesecake kan in ongeveer 1 uur en 30 minuten worden gemaakt.",
+        "subtitle": "Het recept Eggless Blueberry and White Chocolate Baked Cheesecake k...",
         "description": "Het recept Eggless Blueberry and White Chocolate Baked Cheesecake kan in ongeveer 1 uur en 30 minuten worden gemaakt. Dit recept maakt 12 porties met elk 587 calorieën, 11 g eiwit en 37 g vet. Voor $ 1,25 per portie dekt dit recept 9% van uw dagelijkse behoefte aan vitamines en mineralen. Een mengsel van vanille-extract, ricottakaas, citroensap en een handvol andere ingrediënten is voldoende om dit recept zo heerlijk te maken. Een paar mensen vonden dit dessert erg lekker. 17 mensen waren blij dat ze dit recept probeerden. Het wordt u aangeboden door Foodista. Met een lepelscore van 24% is dit gerecht niet zo geweldig. Soortgelijke recepten zijn onder meer gebakken cheesecake met bosbessen en witte chocolade, witte chocolade bosbessen cheesecake en cheesecake met bosbessen en witte chocolade.",
         "instructions": [
           "Combineer de gemalen spijsverteringskoekjes met de gesmolten boter en meng goed. Druk het mengsel stevig aan in een ingevette springvorm van 25 cm. Werkwijze voor de vulling: Klop alle ingrediënten (behalve de bosbessen) door elkaar tot het dik is geworden. Kurma stelt voor om dit niet te overmixen.",
@@ -12063,7 +12063,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Cheesecake cuit au four aux bleuets et au chocolat blanc sans œufs",
-        "subtitle": "La recette Cheesecake sans œufs aux bleuets et au chocolat blanc peut être préparée en 1 heure et 30 minutes environ.",
+        "subtitle": "La recette Cheesecake sans œufs aux bleuets et au chocolat blanc pe...",
         "description": "La recette Cheesecake sans œufs aux bleuets et au chocolat blanc peut être préparée en 1 heure et 30 minutes environ. Cette recette donne 12 portions avec 587 calories, 11 g de protéines et 37 g de matières grasses chacune. Pour 1,25 $ par portion, cette recette couvre 9 % de vos besoins quotidiens en vitamines et minéraux. Un mélange d'extrait de vanille, de fromage ricotta, de jus de citron et une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. Quelques personnes ont vraiment aimé ce dessert. 17 personnes étaient heureuses d'avoir essayé cette recette. Il vous est présenté par Foodista. Avec un score cuillère de 24%, ce plat n'est pas terrible. Des recettes similaires incluent le cheesecake sans œufs aux bleuets et au chocolat blanc, le cheesecake au chocolat blanc et aux bleuets et le cheesecake aux bleuets et au chocolat blanc.",
         "instructions": [
           "Mélanger les biscuits digestifs écrasés avec le beurre fondu et bien mélanger. Presser fermement le mélange dans un moule à charnière graissé de 25 cm. Méthode de remplissage : Battre ensemble tous les ingrédients (sauf les myrtilles) jusqu'à épaississement. Kurma suggère de ne pas trop mélanger cela.",
@@ -12214,7 +12214,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "DAIRY-FREE COCOA CUPCAKES WITH PEANUT BUTTER FILLING, MARSHMALLOW FROSTING",
-        "subtitle": "DAIRY-FREE COCOA CUPCAKES WITH PEANUT BUTTER FILLING, MARSHMALLOW FROSTING might be a good recipe to expand your dessert collection.",
+        "subtitle": "DAIRY-FREE COCOA CUPCAKES WITH PEANUT BUTTER FILLING, MARSHMALLOW F...",
         "description": "DAIRY-FREE COCOA CUPCAKES WITH PEANUT BUTTER FILLING, MARSHMALLOW FROSTING might be a good recipe to expand your dessert collection. This recipe serves 12 and costs 66 cents per serving. One serving contains 323 calories, 7g of protein, and 11g of fat. 8 people have made this recipe and would make it again. It is an inexpensive recipe for fans of American food. Head to the store and pick up baking powder, soy milk, jif natural creamy peanut butter, and a few other things to make it today. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 31%. This score is rather bad. Similar recipes include Peanut Butter Banana Cupcakes with Chocolate Marshmallow Frosting, Peanut Butter & Jelly Cupcakes, and Banana Chocolate Chip Cake With Peanut Butter Frosting - gluten free, dairy free, soy free.",
         "instructions": [
           "Heat oven to 350F.  Line a 12-cup muffin tin with paper liners.  In large bowl, whisk together cocoa powder, flour, baking powder, baking soda and salt.  In medium bowl  whisk egg, oil, sugars, flavorings and coffee.  Stir wet ingredients into dry ingredients using a spoon or spatula.  Batter will be somewhat lumpy -- do not over mix it to make it smooth.  Using an ice cream scoop (1/4 cup), fill paper liners.",
@@ -12223,7 +12223,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "ZUIVELVRIJE CACAOCUPCAKES MET PINDAKAASVULLING, MARSHMALLOW glazuur",
-        "subtitle": "ZUIVELVRIJE CACAOCUPCAKES MET PINDAKAASVULLING, MARSHMALLOW FROSTING zijn misschien een goed recept om je dessertcollectie uit te breiden.",
+        "subtitle": "ZUIVELVRIJE CACAOCUPCAKES MET PINDAKAASVULLING, MARSHMALLOW FROSTIN...",
         "description": "ZUIVELVRIJE CACAOCUPCAKES MET PINDAKAASVULLING, MARSHMALLOW FROSTING zijn misschien een goed recept om je dessertcollectie uit te breiden. Dit recept serveert 12 personen en kost 66 cent per portie. Eén portie bevat 323 calorieën, 7 g eiwit en 11 g vet. 8 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Het is een goedkoop recept voor fans van Amerikaans eten. Ga naar de winkel en koop bakpoeder, sojamelk, jif natuurlijke romige pindakaas en nog een paar andere dingen om het vandaag te maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 31% verdient. Deze score is nogal slecht. Soortgelijke recepten zijn onder meer pindakaas-banaancupcakes met chocolade-marshmallowglazuur, pindakaas- en geleicupcakes en bananenchocoladekoekjes met pindakaasglazuur - glutenvrij, zuivelvrij, sojavrij.",
         "instructions": [
           "Verwarm de oven tot 350F.  Bekleed een muffinvorm met 12 kopjes met papieren vormpjes.  Meng in een grote kom cacaopoeder, bloem, bakpoeder, zuiveringszout en zout.  Klop in een middelgrote kom het ei, de olie, de suikers, de smaakstoffen en de koffie.  Roer natte ingrediënten door droge ingrediënten met een lepel of spatel.  Het beslag zal enigszins klonterig zijn; meng het niet te lang om het glad te maken.  Gebruik een ijsschep (1/4 kopje) om de papieren voeringen te vullen.",
@@ -12232,7 +12232,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "CUPCAKES AU CACAO SANS PRODUITS LAITIERS FOURRÉS AU BEURRE D'ARACHIDES, GLAÇAGE À LA GUIMAUVE",
-        "subtitle": "CUPCAKES AU CACAO SANS PRODUITS LAITIERS FOURRÉS AU BEURRE D'ARACHIDES, GLAÇAGE À LA GUIMAUVE pourraient être une bonne recette pour élargir votre collection de desserts.",
+        "subtitle": "CUPCAKES AU CACAO SANS PRODUITS LAITIERS FOURRÉS AU BEURRE D'ARACHI...",
         "description": "CUPCAKES AU CACAO SANS PRODUITS LAITIERS FOURRÉS AU BEURRE D'ARACHIDES, GLAÇAGE À LA GUIMAUVE pourraient être une bonne recette pour élargir votre collection de desserts. Cette recette sert 12 personnes et coûte 66 cents par portion. Une portion contient 323 calories, 7 g de protéines et 11 g de matières grasses. 8 personnes ont réalisé cette recette et la referaient. C'est une recette peu coûteuse pour les amateurs de cuisine américaine. Rendez-vous au magasin et procurez-vous de la levure chimique, du lait de soja, du beurre de cacahuète crémeux naturel et quelques autres choses pour le préparer aujourd'hui. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 31 %. Ce score est plutôt mauvais. Des recettes similaires incluent les cupcakes à la banane et au beurre de cacahuète avec glaçage au chocolat et à la guimauve, les cupcakes au beurre de cacahuète et à la gelée et le gâteau aux pépites de chocolat et à la banane avec glaçage au beurre de cacahuète – sans gluten, sans produits laitiers, sans soja.",
         "instructions": [
           "Chauffer le four à 350F.  Tapisser un moule à muffins de 12 tasses de caissettes en papier.  Dans un grand bol, fouetter ensemble la poudre de cacao, la farine, la levure chimique, le bicarbonate de soude et le sel.  Dans un bol moyen, fouetter l'œuf, l'huile, les sucres, les arômes et le café.  Incorporer les ingrédients humides aux ingrédients secs à l'aide d'une cuillère ou d'une spatule.  La pâte sera un peu grumeleuse – ne la mélangez pas trop pour la rendre lisse.  À l'aide d'une cuillère à crème glacée (1/4 tasse), remplissez des caissettes en papier.",
@@ -12574,7 +12574,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Samoussas indiens au four",
-        "subtitle": "Les samosas indiens au four sont une recette indienne pour 8 personnes.",
+        "subtitle": "Les samosas indiens au four sont une recette indienne pour 8 person...",
         "description": "Les samosas indiens au four sont une recette indienne pour 8 personnes. Une portion contient 784 calories, 14 g de protéines et 48 g de matières grasses. Pour 2,39 $ par portion, cette recette couvre 17 % de vos besoins quotidiens en vitamines et minéraux. 2 personnes étaient contentes d'avoir essayé cette recette. Cela fonctionne bien comme hors-d'œuvre économique. Il vous est présenté par Foodista. Si vous avez de la pâte feuilletée, des feuilles de coriandre, des feuilles de laurier et quelques autres ingrédients sous la main, vous pouvez la préparer. De la préparation à l'assiette, cette recette prend environ 45 minutes. C'est une bonne option si vous suivez un régime sans produits laitiers. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 51 %, ce qui est solide. Des recettes similaires incluent les samosas indiens traditionnels, les samosas aux épinards avec salade indienne et les samosas aux épinards avec salade indienne.",
         "instructions": [
           "Préchauffer le four à 425 degrés F.",
@@ -12805,7 +12805,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Amaretto Almond Cookies",
-        "subtitle": "Amaretto Almond Cookies might be just the dessert you are searching for.",
+        "subtitle": "Amaretto Almond Cookies might be just the dessert you are searching...",
         "description": "Amaretto Almond Cookies might be just the dessert you are searching for. One serving contains 196 calories, 4g of protein, and 14g of fat. This recipe serves 18. For 41 cents per serving, this recipe covers 5% of your daily requirements of vitamins and minerals. 3 people have tried and liked this recipe. This recipe from Foodista requires butter, molasses, lemon rind, and pastry flour. It is a good option if you're following a lacto ovo vegetarian diet. From preparation to the plate, this recipe takes roughly 45 minutes. Overall, this recipe earns a rather bad spoonacular score of 20%. Similar recipes are Amaretto-Almond Bliss Cookies, Almond Amaretto Cupcakes with Amaretto Whipped Cream, and Almond Joy: Chewy Amaretto Cookies (Amaretti Morbidi).",
         "instructions": [
           "Cream together butter and molasses.",
@@ -12815,7 +12815,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Amaretto-amandelkoekjes",
-        "subtitle": "Amaretto-amandelkoekjes zijn misschien wel het dessert waar je naar op zoek bent.",
+        "subtitle": "Amaretto-amandelkoekjes zijn misschien wel het dessert waar je naar...",
         "description": "Amaretto-amandelkoekjes zijn misschien wel het dessert waar je naar op zoek bent. Eén portie bevat 196 calorieën, 4 g eiwit en 14 g vet. Dit recept is voor 18 personen. Voor 41 cent per portie dekt dit recept 5% van je dagelijkse behoefte aan vitamines en mineralen. 3 mensen hebben dit recept geprobeerd en vonden het leuk. Voor dit recept van Foodista heb je boter, melasse, citroenschil en banketmeel nodig. Het is een goede optie als je een lacto-ovo-vegetarisch dieet volgt. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Over het geheel genomen verdient dit recept een nogal slechte lepelscore van 20%. Soortgelijke recepten zijn Amaretto-Almond Bliss Cookies, Amandel Amaretto Cupcakes met Amaretto Slagroom en Almond Joy: Chewy Amaretto Cookies (Amaretti Morbidi).",
         "instructions": [
           "Meng boter en melasse door elkaar.",
@@ -12825,7 +12825,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Biscuits aux amandes et à l'Amaretto",
-        "subtitle": "Les biscuits aux amandes Amaretto pourraient bien être le dessert que vous recherchez.",
+        "subtitle": "Les biscuits aux amandes Amaretto pourraient bien être le dessert q...",
         "description": "Les biscuits aux amandes Amaretto pourraient bien être le dessert que vous recherchez. Une portion contient 196 calories, 4 g de protéines et 14 g de matières grasses. Cette recette en sert 18 personnes. Pour 41 cents par portion, cette recette couvre 5 % de vos besoins quotidiens en vitamines et minéraux. 3 personnes ont essayé et aimé cette recette. Cette recette de Foodista nécessite du beurre, de la mélasse, du zeste de citron et de la farine pâtissière. C'est une bonne option si vous suivez un régime lacto-ovo-végétarien. De la préparation à l'assiette, cette recette prend environ 45 minutes. Dans l'ensemble, cette recette obtient un score cuillère plutôt mauvais de 20 %. Des recettes similaires sont les biscuits Amaretto-Almond Bliss, les cupcakes aux amandes Amaretto avec crème fouettée à l'Amaretto et Almond Joy : biscuits moelleux à l'Amaretto (Amaretti Morbidi).",
         "instructions": [
           "Crémer ensemble le beurre et la mélasse.",
@@ -12944,7 +12944,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Baked Ratatouille",
-        "subtitle": "Baked Ratatouille takes approximately 45 minutes from beginning to end.",
+        "subtitle": "Baked Ratatouille takes approximately 45 minutes from beginning to...",
         "description": "Baked Ratatouille takes approximately 45 minutes from beginning to end. This recipe makes 1 servings with 1029 calories, 32g of protein, and 70g of fat each. For $8.61 per serving, this recipe covers 63% of your daily requirements of vitamins and minerals. It works well as a main course. This recipe is typical of Mediterranean cuisine. If you have eggplant, bell peppers, olive oil, and a few other ingredients on hand, you can make it. It is a good option if you're following a gluten free, lacto ovo vegetarian, and primal diet. It is brought to you by Foodista. 2 people were glad they tried this recipe. All things considered, we decided this recipe deserves a spoonacular score of 92%. This score is tremendous. If you like this recipe, take a look at these similar recipes: Baked Ratatouille, Baked Ratatouille, and Baked Ratatouille.",
         "instructions": [
           "Heat oil in a heavy, large Dutch oven over medium heat.",
@@ -13118,7 +13118,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Gluten Free Quinoa and Corn Flour Crepes",
-        "subtitle": "If you want to add more gluten free, dairy free, lacto ovo vegetarian, and vegan recipes to your collection, Gluten Free Quinoan and Corn Flour Crepes might be a recipe you should try.",
+        "subtitle": "If you want to add more gluten free, dairy free, lacto ovo vegetari...",
         "description": "If you want to add more gluten free, dairy free, lacto ovo vegetarian, and vegan recipes to your collection, Gluten Free Quinoan and Corn Flour Crepes might be a recipe you should try. For $1.09 per serving, this recipe covers 3% of your daily requirements of vitamins and minerals. One serving contains 423 calories, 4g of protein, and 17g of fat. This recipe serves 4. Only a few people really liked this breakfast. From preparation to the plate, this recipe takes around 1 hour. 2 people have tried and liked this recipe. This recipe from Foodista requires quinoa flour, corn flour, ground flax seeds, and sea salt. This recipe is typical of Mediterranean cuisine. All things considered, we decided this recipe deserves a spoonacular score of 20%. This score is rather bad. Try Gluten Free & Flour-Less Bread with Collard Greens, Gluten Free Flour Tortillas, and Gluten-Free Coconut Flour Pancakes for similar recipes.",
         "instructions": [
           "Whisk the dry ingredients together in a bowl. In a separate bowl, whisk 2 1/2 cups hemp milk, flax seed mixture, maple syrup, and the melted coconut oil together.",
@@ -13131,7 +13131,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Glutenvrije pannenkoeken met quinoa en maïsmeel",
-        "subtitle": "Als je meer glutenvrije, zuivelvrije, lacto ovo-vegetarische en veganistische recepten aan je verzameling wilt toevoegen, is glutenvrije pannenkoeken met quinoan en maïsmeel misschien een recept dat je zou moeten proberen.",
+        "subtitle": "Als je meer glutenvrije, zuivelvrije, lacto ovo-vegetarische en veg...",
         "description": "Als je meer glutenvrije, zuivelvrije, lacto ovo-vegetarische en veganistische recepten aan je verzameling wilt toevoegen, is glutenvrije pannenkoeken met quinoan en maïsmeel misschien een recept dat je zou moeten proberen. Voor $ 1,09 per portie dekt dit recept 3% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie bevat 423 calorieën, 4 g eiwit en 17 g vet. Dit recept is voor 4 personen. Slechts een paar mensen vonden dit ontbijt erg lekker. Van bereiding tot op het bord duurt dit recept ongeveer 1 uur. 2 mensen hebben dit recept geprobeerd en vonden het leuk. Voor dit recept van Foodista heb je quinoameel, maïsmeel, gemalen lijnzaad en zeezout nodig. Dit recept is typisch voor de mediterrane keuken. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 20% verdient. Deze score is nogal slecht. Probeer glutenvrij en bloemloos brood met boerenkool, glutenvrije bloemtortilla's en glutenvrije kokosmeelpannenkoeken voor vergelijkbare recepten.",
         "instructions": [
           "Klop de droge ingrediënten samen in een kom. Klop in een aparte kom 2 1/2 kopjes hennepmelk, lijnzaadmengsel, ahornsiroop en de gesmolten kokosolie samen.",
@@ -13144,7 +13144,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Crêpes sans gluten au quinoa et à la farine de maïs",
-        "subtitle": "Si vous souhaitez ajouter plus de recettes sans gluten, sans produits laitiers, lacto ovo végétariennes et végétaliennes à votre collection, les crêpes au quinoan et à la farine de maïs sans gluten pourraient être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter plus de recettes sans gluten, sans produi...",
         "description": "Si vous souhaitez ajouter plus de recettes sans gluten, sans produits laitiers, lacto ovo végétariennes et végétaliennes à votre collection, les crêpes au quinoan et à la farine de maïs sans gluten pourraient être une recette que vous devriez essayer. Pour 1,09 $ par portion, cette recette couvre 3 % de vos besoins quotidiens en vitamines et minéraux. Une portion contient 423 calories, 4 g de protéines et 17 g de matières grasses. Cette recette en sert 4. Seules quelques personnes ont vraiment aimé ce petit-déjeuner. De la préparation à l'assiette, cette recette prend environ 1 heure. 2 personnes ont essayé et aimé cette recette. Cette recette de Foodista nécessite de la farine de quinoa, de la farine de maïs, des graines de lin moulues et du sel marin. Cette recette est typique de la cuisine méditerranéenne. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 20 %. Ce score est plutôt mauvais. Essayez le pain sans gluten et sans farine avec du chou vert, les tortillas à la farine sans gluten et les crêpes à la farine de noix de coco sans gluten pour des recettes similaires.",
         "instructions": [
           "Fouetter les ingrédients secs ensemble dans un bol. Dans un autre bol, fouetter ensemble 2 1/2 tasses de lait de chanvre, le mélange de graines de lin, le sirop d'érable et l'huile de noix de coco fondue.",
@@ -13276,7 +13276,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Beef Cottage Pie",
-        "subtitle": "If you want to add more gluten free recipes to your recipe box, Beef Cottage Pie might be a recipe you should try.",
+        "subtitle": "If you want to add more gluten free recipes to your recipe box, Bee...",
         "description": "If you want to add more gluten free recipes to your recipe box, Beef Cottage Pie might be a recipe you should try. For $1.16 per serving, this recipe covers 13% of your daily requirements of vitamins and minerals. One portion of this dish contains around 16g of protein, 6g of fat, and a total of 198 calories. This recipe serves 8. It is brought to you by Foodista. A mixture of vegetables, garlic, parmesan cheese, and a handful of other ingredients are all it takes to make this recipe so flavorful. 6 people found this recipe to be scrumptious and satisfying. From preparation to the plate, this recipe takes approximately 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 49%, which is solid. Beef Cottage Pie, Chili Beef Cottage Pie, and Roast Beef Cottage Pie are very similar to this recipe.",
         "instructions": [
           "Preheat oven to 375 degrees.",
@@ -13295,7 +13295,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Rundvlees Cottage Taart",
-        "subtitle": "Als je meer glutenvrije recepten aan je receptendoos wilt toevoegen, is Beef Cottage Pie misschien een recept dat je moet proberen.",
+        "subtitle": "Als je meer glutenvrije recepten aan je receptendoos wilt toevoegen...",
         "description": "Als je meer glutenvrije recepten aan je receptendoos wilt toevoegen, is Beef Cottage Pie misschien een recept dat je moet proberen. Voor $ 1,16 per portie dekt dit recept 13% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie van dit gerecht bevat ongeveer 16 gram eiwit, 6 gram vet en in totaal 198 calorieën. Dit recept is voor 8 personen. Het wordt u aangeboden door Foodista. Een mengsel van groenten, knoflook, Parmezaanse kaas en een handvol andere ingrediënten is voldoende om dit recept zo smaakvol te maken. 6 mensen vonden dit recept heerlijk en bevredigend. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 49%, wat solide is. Beef Cottage Pie, Chili Beef Cottage Pie en Roast Beef Cottage Pie lijken erg op dit recept.",
         "instructions": [
           "Verwarm de oven voor op 375 graden.",
@@ -13314,7 +13314,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tourte au bœuf et au bœuf",
-        "subtitle": "Si vous souhaitez ajouter d’autres recettes sans gluten à votre boîte de recettes, la tarte au bœuf et au cottage pourrait être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter d’autres recettes sans gluten à votre boî...",
         "description": "Si vous souhaitez ajouter d’autres recettes sans gluten à votre boîte de recettes, la tarte au bœuf et au cottage pourrait être une recette que vous devriez essayer. Pour 1,16 $ par portion, cette recette couvre 13 % de vos besoins quotidiens en vitamines et minéraux. Une portion de ce plat contient environ 16 g de protéines, 6 g de matières grasses et un total de 198 calories. Cette recette pour 8 personnes. Elle vous est présentée par Foodista. Un mélange de légumes, d'ail, de parmesan et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. 6 personnes ont trouvé cette recette délicieuse et satisfaisante. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 49 %, ce qui est solide. La tarte cottage au bœuf, la tarte cottage au chili et au bœuf et la tarte cottage au rôti de bœuf sont très similaires à cette recette.",
         "instructions": [
           "Préchauffer le four à 375 degrés.",
@@ -13482,7 +13482,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Classic French Mussels",
-        "subtitle": "You can never have too many hor d'oeuvre recipes, so give Classic French Mussels a try.",
+        "subtitle": "You can never have too many hor d'oeuvre recipes, so give Classic F...",
         "description": "You can never have too many hor d'oeuvre recipes, so give Classic French Mussels a try. This recipe serves 2 and costs $2.93 per serving. Watching your figure? This gluten free, primal, and pescatarian recipe has 501 calories, 32g of protein, and 28g of fat per serving. From preparation to the plate, this recipe takes about 45 minutes. 2 people have made this recipe and would make it again. It is brought to you by Foodista. It is a reasonably priced recipe for fans of Mediterranean food. If you have buttermilk, parsley, butter, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe deserves a spoonacular score of 72%. This score is solid. Similar recipes include Classic French Mussels, French Country Mussels, and French Steamed Mussels.",
         "instructions": [
           "Scrub mussels with a stiff brush, discard any that are open and stay that way even when you close the shell. Discard any with broken shells.Soak them in cool clean water for at least an hour. Mussels are alive and breathing and have taken in sand over time. This allows them to expel the sand.Mussels have a small fibrous \"beard\" that should be removed. Pull it out toward the hinge of the shell to keep from injuring the mussel.",
@@ -13493,7 +13493,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Klassieke Franse Mosselen",
-        "subtitle": "Je kunt nooit genoeg hor d'oeuvre-recepten hebben, dus probeer Klassieke Franse Mosselen eens.",
+        "subtitle": "Je kunt nooit genoeg hor d'oeuvre-recepten hebben, dus probeer Klas...",
         "description": "Je kunt nooit genoeg hor d'oeuvre-recepten hebben, dus probeer Klassieke Franse Mosselen eens. Dit recept serveert 2 personen en kost $ 2,93 per portie. Op je figuur letten? Dit glutenvrije, oer- en pescatarische recept bevat 501 calorieën, 32 g eiwit en 28 g vet per portie. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. 2 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Het wordt u aangeboden door Foodista. Het is een redelijk geprijsd recept voor liefhebbers van mediterrane gerechten. Als je karnemelk, peterselie, boter en een paar andere ingrediënten bij de hand hebt, kun je het maken. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 72% verdient. Deze score is solide. Soortgelijke recepten zijn onder meer klassieke Franse mosselen, Franse plattelandsmosselen en Franse gestoomde mosselen.",
         "instructions": [
           "Boen de mosselen met een harde borstel, gooi de openstaande mosselen weg en blijf zo, zelfs als je de schelp sluit. Gooi ze met gebroken schelpen weg. Week ze minimaal een uur in koud, schoon water. Mosselen leven en ademen en hebben in de loop van de tijd zand opgenomen. Hierdoor kunnen ze het zand verdrijven. Mosselen hebben een kleine vezelige \"baard\" die verwijderd moet worden. Trek hem naar buiten richting het scharnier van de schelp om te voorkomen dat de mossel gewond raakt.",
@@ -13504,7 +13504,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Moules françaises classiques",
-        "subtitle": "Vous n'aurez jamais trop de recettes de hors-d'œuvre, alors essayez les moules françaises classiques.",
+        "subtitle": "Vous n'aurez jamais trop de recettes de hors-d'œuvre, alors essayez...",
         "description": "Vous n'aurez jamais trop de recettes de hors-d'œuvre, alors essayez les moules françaises classiques. Cette recette sert 2 personnes et coûte 2,93 $ par portion. Vous surveillez votre silhouette ? Cette recette sans gluten, primale et pescatarienne contient 501 calories, 32 g de protéines et 28 g de matières grasses par portion. De la préparation à l'assiette, cette recette prend environ 45 minutes. 2 personnes ont réalisé cette recette et la referaient. Il vous est présenté par Foodista. C'est une recette à prix raisonnable pour les amateurs de cuisine méditerranéenne. Si vous avez du babeurre, du persil, du beurre et quelques autres ingrédients sous la main, vous pouvez le préparer. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 72 %. Ce score est solide. Des recettes similaires incluent les moules françaises classiques, les moules de campagne françaises et les moules françaises cuites à la vapeur.",
         "instructions": [
           "Frottez les moules avec une brosse dure, jetez celles qui sont ouvertes et restez ainsi même lorsque vous fermez la coquille. Jetez ceux dont la coquille est cassée. Faites-les tremper dans de l’eau fraîche et propre pendant au moins une heure. Les moules sont vivantes, respirent et ont absorbé du sable au fil du temps. Cela leur permet d'expulser le sable. Les moules ont une petite « barbe » fibreuse qu'il convient d'enlever. Tirez-le vers la charnière de la coquille pour éviter de blesser la moule.",
@@ -13634,7 +13634,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Bahamian Goombay Smash Cocktail",
-        "subtitle": "If you want to add more gluten free, dairy free, lacto ovo vegetarian, and vegan recipes to your collection, Bahamian Goombay Smash Cocktail might be a recipe you should try.",
+        "subtitle": "If you want to add more gluten free, dairy free, lacto ovo vegetari...",
         "description": "If you want to add more gluten free, dairy free, lacto ovo vegetarian, and vegan recipes to your collection, Bahamian Goombay Smash Cocktail might be a recipe you should try. This beverage has 304 calories, 1g of protein, and 0g of fat per serving. This recipe serves 4. For $2.75 per serving, this recipe covers 11% of your daily requirements of vitamins and minerals. This recipe is liked by 5 foodies and cooks. It is brought to you by Foodista. It is a rather cheap recipe for fans of Mexican food. A mixture of coconut rum, orange juice, pineapple, and a handful of other ingredients are all it takes to make this recipe so flavorful. From preparation to the plate, this recipe takes approximately 5 minutes. With a spoonacular score of 44%, this dish is good. Users who liked this recipe also liked Bahamian Goombay Smash Cocktail, Bahamian Goombay Smash Cocktail, and Bahamian Goombay Smash Cocktail.",
         "instructions": [
           "Fill a small pitcher with ice.",
@@ -13646,7 +13646,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Bahamaanse Goombay Smash-cocktail",
-        "subtitle": "Als je meer glutenvrije, zuivelvrije, lacto ovo-vegetarische en veganistische recepten aan je verzameling wilt toevoegen, is Bahamaanse Goombay Smash Cocktail misschien een recept dat je zou moeten proberen.",
+        "subtitle": "Als je meer glutenvrije, zuivelvrije, lacto ovo-vegetarische en veg...",
         "description": "Als je meer glutenvrije, zuivelvrije, lacto ovo-vegetarische en veganistische recepten aan je verzameling wilt toevoegen, is Bahamaanse Goombay Smash Cocktail misschien een recept dat je zou moeten proberen. Deze drank bevat 304 calorieën, 1 g eiwit en 0 g vet per portie. Dit recept is voor 4 personen. Voor $ 2,75 per portie dekt dit recept 11% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept is geliefd bij 5 foodies en koks. Het wordt u aangeboden door Foodista. Het is een vrij goedkoop recept voor fans van Mexicaans eten. Een mengsel van kokos-rum, sinaasappelsap, ananas en een handvol andere ingrediënten is voldoende om dit recept zo smaakvol te maken. Van bereiding tot op het bord duurt dit recept ongeveer 5 minuten. Met een lepelscore van 44% is dit gerecht goed. Gebruikers die dit recept lekker vonden, hielden ook van Bahamian Goombay Smash Cocktail, Bahamian Goombay Smash Cocktail en Bahamian Goombay Smash Cocktail.",
         "instructions": [
           "Vul een kleine kan met ijs.",
@@ -13658,7 +13658,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Cocktail Smash Goombay des Bahamas",
-        "subtitle": "Si vous souhaitez ajouter plus de recettes sans gluten, sans produits laitiers, lacto ovo végétariennes et végétaliennes à votre collection, le Bahamian Goombay Smash Cocktail pourrait être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter plus de recettes sans gluten, sans produi...",
         "description": "Si vous souhaitez ajouter plus de recettes sans gluten, sans produits laitiers, lacto ovo végétariennes et végétaliennes à votre collection, le Bahamian Goombay Smash Cocktail pourrait être une recette que vous devriez essayer. Cette boisson contient 304 calories, 1 g de protéines et 0 g de matières grasses par portion. Cette recette en sert 4. Pour 2,75 $ par portion, cette recette couvre 11 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est appréciée par 5 gourmets et cuisiniers. Il vous est présenté par Foodista. C'est une recette plutôt bon marché pour les amateurs de cuisine mexicaine. Un mélange de rhum à la noix de coco, de jus d'orange, d'ananas et d'une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. De la préparation à l'assiette, cette recette prend environ 5 minutes. Avec un score cuillère de 44%, ce plat est bon. Les utilisateurs qui ont aimé cette recette ont également aimé Bahamian Goombay Smash Cocktail, Bahamian Goombay Smash Cocktail et Bahamian Goombay Smash Cocktail.",
         "instructions": [
           "Remplissez un petit pichet de glace.",
@@ -13769,7 +13769,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Green Bean Poriyal",
-        "subtitle": "Green Bean Poriyal might be a good recipe to expand your side dish collection.",
+        "subtitle": "Green Bean Poriyal might be a good recipe to expand your side dish...",
         "description": "Green Bean Poriyal might be a good recipe to expand your side dish collection. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has 67 calories, 1g of protein, and 5g of fat per serving. For 28 cents per serving, this recipe covers 4% of your daily requirements of vitamins and minerals. This recipe serves 6. This recipe is liked by 24 foodies and cooks. This recipe from foodandspice.blogspot.com requires asafetida, brown mustard seeds, chana dal, and cumin seeds. From preparation to the plate, this recipe takes around 45 minutes. With a spoonacular score of 38%, this dish is rather bad. Users who liked this recipe also liked beetroot carrot poriyal , how to make beetroot carrot poriyal, french beans poriyal , how to make french beans poriyal, and beetroot carrot poriyal , how to make beetroot carrot poriyal.",
         "instructions": [
           "Soak the tamarind pulp in 2/3 cup boiling water for 40 minutes. Strain the tamarind into a small bowl, pressing down on the pulp to squeeze as much liquid as you can. Set the drained tamarind liquid aside.In a large frying pan or wok, heat the oil over medium heat until hot.",
@@ -13780,7 +13780,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Groene Bonen Poriyal",
-        "subtitle": "Green Bean Poriyal is misschien een goed recept om je bijgerechtcollectie uit te breiden.",
+        "subtitle": "Green Bean Poriyal is misschien een goed recept om je bijgerechtcol...",
         "description": "Green Bean Poriyal is misschien een goed recept om je bijgerechtcollectie uit te breiden. Op je figuur letten? Dit glutenvrije, zuivelvrije, lacto ovo-vegetarische en veganistische recept bevat 67 calorieën, 1 g eiwit en 5 g vet per portie. Voor 28 cent per portie dekt dit recept 4% van je dagelijkse behoefte aan vitamines en mineralen. Dit recept is voor 6 personen. Dit recept is geliefd bij 24 foodies en koks. Voor dit recept van foodandspice.blogspot.com heb je asafetida, bruin mosterdzaad, chana dal en komijnzaad nodig. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Met een lepelscore van 38% is dit gerecht behoorlijk slecht. Gebruikers die dit recept leuk vonden, hielden ook van rode biet poriyal, hoe je rode biet poriyal maakt, sperziebonen poriyal, hoe je sperziebonen poriyal maakt, en rode biet poriyal, hoe je rode biet poriyal maakt.",
         "instructions": [
           "Week de tamarindepulp in 2/3 kopje kokend water gedurende 40 minuten. Zeef de tamarinde in een kleine kom en druk op het vruchtvlees om zoveel mogelijk vloeistof uit te persen. Zet het uitgelekte tamarindevocht opzij. Verhit de olie in een grote koekenpan of wok op middelhoog vuur tot deze heet is.",
@@ -13791,7 +13791,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Poriyal aux haricots verts",
-        "subtitle": "Le Poriyal aux haricots verts pourrait être une bonne recette pour élargir votre collection de plats d'accompagnement.",
+        "subtitle": "Le Poriyal aux haricots verts pourrait être une bonne recette pour...",
         "description": "Le Poriyal aux haricots verts pourrait être une bonne recette pour élargir votre collection de plats d'accompagnement. Vous surveillez votre silhouette ? Cette recette sans gluten, sans produits laitiers, lacto ovo végétarienne et végétalienne contient 67 calories, 1 g de protéines et 5 g de matières grasses par portion. Pour 28 cents par portion, cette recette couvre 4 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est pour 6 personnes. Cette recette est appréciée par 24 gourmets et cuisiniers. Cette recette de foodandspice.blogspot.com nécessite de l'asafetida, des graines de moutarde brune, du chana dal et des graines de cumin. De la préparation à l'assiette, cette recette prend environ 45 minutes. Avec un score cuillère de 38%, ce plat est plutôt mauvais. Les utilisateurs qui ont aimé cette recette ont également aimé le poriyal de betterave et de carotte, comment faire du poriyal de betterave et de carotte, le poriyal de haricots verts, comment faire le poriyal de haricots verts, et le poriyal de carotte et de betterave, comment faire le poriyal de carotte et de betterave.",
         "instructions": [
           "Faire tremper la pulpe de tamarin dans 2/3 tasse d'eau bouillante pendant 40 minutes. Filtrez le tamarin dans un petit bol, en appuyant sur la pulpe pour presser autant de liquide que possible. Réserver le liquide de tamarin égoutté. Dans une grande poêle ou un wok, faire chauffer l'huile à feu moyen jusqu'à ce qu'elle soit chaude.",
@@ -13941,7 +13941,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "The Secret to Easy Skillet Filet Mignon Steak Tacos",
-        "subtitle": "The recipe The Secret to Easy Skillet Filet Mignon Steak Tacos could satisfy your Mexican craving in roughly 20 minutes.",
+        "subtitle": "The recipe The Secret to Easy Skillet Filet Mignon Steak Tacos coul...",
         "description": "The recipe The Secret to Easy Skillet Filet Mignon Steak Tacos could satisfy your Mexican craving in roughly 20 minutes. This recipe makes 4 servings with 454 calories, 23g of protein, and 34g of fat each. For $4.39 per serving, this recipe covers 14% of your daily requirements of vitamins and minerals. It works well as a pretty expensive main course for valentin day. 3 people were glad they tried this recipe. Head to the store and pick up sou cream, olive oil extra virgin, filet mignon steaks, and a few other things to make it today. It is a good option if you're following a gluten free and ketogenic diet. It is brought to you by Pink When. All things considered, we decided this recipe deserves a spoonacular score of 51%. This score is solid. Similar recipes include The Secret to Easy Skillet Filet Mignon Steak Tacos, The Secret to Easy Skillet Filet Mignon Steak Tacos, and Filet Mignon Soft Tacos.",
         "instructions": [
           "Heat the skillet on medium to low heat.Rub the steaks with olive oil and season with cracked black pepper. Slowly cook the filets until they have reached your desired specifications. We like to cook ours to be medium done, and that averages about 7 minutes on each side.",
@@ -13950,7 +13950,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Het geheim van Easy Skillet Filet Mignon Steak Tacos",
-        "subtitle": "Het recept Het geheim van Easy Skillet Filet Mignon Steak Tacos kan uw Mexicaanse trek in ongeveer 20 minuten stillen.",
+        "subtitle": "Het recept Het geheim van Easy Skillet Filet Mignon Steak Tacos kan...",
         "description": "Het recept Het geheim van Easy Skillet Filet Mignon Steak Tacos kan uw Mexicaanse trek in ongeveer 20 minuten stillen. Dit recept maakt 4 porties met elk 454 calorieën, 23 g eiwit en 34 g vet. Voor $ 4,39 per portie dekt dit recept 14% van uw dagelijkse behoefte aan vitamines en mineralen. Het werkt goed als een behoorlijk duur hoofdgerecht voor Valentijnsdag. 3 mensen waren blij dat ze dit recept probeerden. Ga naar de winkel en koop souroom, extra vierge olijfolie, filet mignon-steaks en nog een paar andere dingen om het vandaag te maken. Het is een goede optie als je een glutenvrij en ketogeen dieet volgt. Het wordt u aangeboden door Pink When. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 51% verdient. Deze score is solide. Soortgelijke recepten zijn onder meer Het geheim van Easy Skillet Filet Mignon Steak Tacos, Het geheim van Easy Skillet Filet Mignon Steak Tacos en Filet Mignon Soft Tacos.",
         "instructions": [
           "Verhit de koekenpan op middelhoog tot laag vuur. Wrijf de steaks in met olijfolie en breng op smaak met gemalen zwarte peper. Kook de filets langzaam totdat ze de gewenste specificaties hebben bereikt. Wij koken de onze graag medium gaar, en dat duurt gemiddeld ongeveer 7 minuten aan elke kant.",
@@ -13959,7 +13959,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Le secret des tacos faciles au steak et au filet mignon à la poêle",
-        "subtitle": "La recette Le secret des tacos au steak de filet mignon à la poêle pourrait satisfaire votre envie mexicaine en 20 minutes environ.",
+        "subtitle": "La recette Le secret des tacos au steak de filet mignon à la poêle...",
         "description": "La recette Le secret des tacos au steak de filet mignon à la poêle pourrait satisfaire votre envie mexicaine en 20 minutes environ. Cette recette donne 4 portions avec 454 calories, 23 g de protéines et 34 g de matières grasses chacune. Pour 4,39 $ par portion, cette recette couvre 14 % de vos besoins quotidiens en vitamines et minéraux. Cela fonctionne bien comme plat principal assez cher pour la Saint-Valentin. 3 personnes étaient contentes d'avoir essayé cette recette. Rendez-vous au magasin et procurez-vous de la crème sure, de l'huile d'olive extra vierge, des steaks de filet mignon et quelques autres choses à préparer aujourd'hui. C'est une bonne option si vous suivez un régime sans gluten et cétogène. Il vous est présenté par Pink When. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 51 %. Ce score est solide. Des recettes similaires incluent le secret des tacos au steak au filet mignon à la poêle, le secret des tacos au steak au filet mignon à la poêle et les tacos mous au filet mignon.",
         "instructions": [
           "Faites chauffer la poêle à feu moyen-doux. Frottez les steaks avec de l'huile d'olive et assaisonnez avec du poivre noir concassé. Faites cuire lentement les filets jusqu'à ce qu'ils atteignent les spécifications souhaitées. Nous aimons cuire le nôtre à point, et cela dure en moyenne environ 7 minutes de chaque côté.",
@@ -14250,7 +14250,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cabbage and sausages in beer",
-        "subtitle": "Cabbage and sausages in beer could be just the gluten free and dairy free recipe you've been looking for.",
+        "subtitle": "Cabbage and sausages in beer could be just the gluten free and dair...",
         "description": "Cabbage and sausages in beer could be just the gluten free and dairy free recipe you've been looking for. One portion of this dish contains roughly 12g of protein, 41g of fat, and a total of 539 calories. For $1.91 per serving, you get a main course that serves 3. A couple people made this recipe, and 15 would say it hit the spot. It can be enjoyed any time, but it is especially good for Father's Day. A mixture of salt, sugar, cabbage, and a handful of other ingredients are all it takes to make this recipe so tasty. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. With a spoonacular score of 67%, this dish is good. Try Cabbage and sausages in beer, Beer-Cheese Mac and Sausages, and Roasted Sausages with Beer-braised Onions for similar recipes.",
         "instructions": [
           "Melt the butter in a large pan over medium-low heat, add the onion, sugar and salt and cook them, stirring frequently, until the onion is golden, about 5-8 minutes.Stir in the beer, scraping up any bits from the bottom of the pan.",
@@ -14260,7 +14260,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Kool en worstjes in bier",
-        "subtitle": "Kool en worst in bier is wellicht precies het glutenvrije en zuivelvrije recept waar je naar op zoek was.",
+        "subtitle": "Kool en worst in bier is wellicht precies het glutenvrije en zuivel...",
         "description": "Kool en worst in bier is wellicht precies het glutenvrije en zuivelvrije recept waar je naar op zoek was. Eén portie van dit gerecht bevat ongeveer 12 gram eiwit, 41 gram vet en in totaal 539 calorieën. Voor $ 1,91 per portie krijg je een hoofdgerecht voor 3 personen. Een paar mensen hebben dit recept gemaakt, en 15 zouden zeggen dat het een schot in de roos was. Je kunt er op elk moment van genieten, maar het is vooral lekker voor Vaderdag. Een mengsel van zout, suiker, kool en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Met een lepelscore van 67% is dit gerecht goed. Probeer kool en worstjes in bier, bier-kaas-mac en worstjes en geroosterde worstjes met in bier gestoofde uien voor vergelijkbare recepten.",
         "instructions": [
           "Smelt de boter in een grote pan op middelhoog vuur, voeg de ui, suiker en zout toe en kook ze, onder regelmatig roeren, tot de ui goudbruin is, ongeveer 5-8 minuten. Roer het bier erdoor en schraap eventuele stukjes van de bodem van de pan.",
@@ -14270,7 +14270,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Chou et saucisses à la bière",
-        "subtitle": "Le chou et les saucisses à la bière pourraient bien être la recette sans gluten et sans produits laitiers que vous recherchiez.",
+        "subtitle": "Le chou et les saucisses à la bière pourraient bien être la recette...",
         "description": "Le chou et les saucisses à la bière pourraient bien être la recette sans gluten et sans produits laitiers que vous recherchiez. Une portion de ce plat contient environ 12 g de protéines, 41 g de matières grasses et un total de 539 calories. Pour 1,91 $ par portion, vous obtenez un plat principal pour 3 personnes. Quelques personnes ont préparé cette recette, et 15 diraient qu'elle a fait mouche. Il peut être dégusté à tout moment, mais il est particulièrement bon pour la fête des pères. Un mélange de sel, de sucre, de chou et une poignée d’autres ingrédients suffisent pour rendre cette recette si savoureuse. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Avec un score cuillère de 67%, ce plat est bon. Essayez le chou et les saucisses à la bière, les macaronis et saucisses à la bière et au fromage et les saucisses rôties aux oignons braisés à la bière pour des recettes similaires.",
         "instructions": [
           "Faites fondre le beurre dans une grande poêle à feu moyen-doux, ajoutez l'oignon, le sucre et le sel et faites-les revenir, en remuant fréquemment, jusqu'à ce que l'oignon soit doré, environ 5 à 8 minutes. Incorporez la bière en grattant les morceaux du fond de la poêle.",
@@ -14399,7 +14399,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Buffalo Wing Hummus",
-        "subtitle": "Buffalo Wing Hummus could be just the gluten free, dairy free, lacto ovo vegetarian, and vegan recipe you've been looking for.",
+        "subtitle": "Buffalo Wing Hummus could be just the gluten free, dairy free, lact...",
         "description": "Buffalo Wing Hummus could be just the gluten free, dairy free, lacto ovo vegetarian, and vegan recipe you've been looking for. This recipe makes 8 servings with 37 calories, 2g of protein, and 1g of fat each. For 16 cents per serving, this recipe covers 3% of your daily requirements of vitamins and minerals. It works well as a very reasonably priced hor d'oeuvre for The Super Bowl. If you have lemon juice, paprika, celery salt, and a few other ingredients on hand, you can make it. A few people really liked this American dish. 23 people have made this recipe and would make it again. From preparation to the plate, this recipe takes around 45 minutes. It is brought to you by Foodista. With a spoonacular score of 36%, this dish is rather bad. If you like this recipe, take a look at these similar recipes: Buffalo Wing Hummus, Buffalo Wing Hummus, and Buffalo Wing Hummus.",
         "instructions": [
           "Put the chickpeas, chickpea liquid, garlic, lemon juice, paprika, celery salt, barbecue sauce, hot sauce, and vinegar in a food processor. Puree until smooth and creamy."
@@ -14407,7 +14407,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Buffelvleugelhummus",
-        "subtitle": "Buffalo Wing Hummus zou precies het glutenvrije, zuivelvrije, lacto-ovo-vegetarische en veganistische recept kunnen zijn waar u naar op zoek was.",
+        "subtitle": "Buffalo Wing Hummus zou precies het glutenvrije, zuivelvrije, lacto...",
         "description": "Buffalo Wing Hummus zou precies het glutenvrije, zuivelvrije, lacto-ovo-vegetarische en veganistische recept kunnen zijn waar u naar op zoek was. Dit recept maakt 8 porties met elk 37 calorieën, 2 g eiwit en 1 g vet. Voor 16 cent per portie dekt dit recept 3% van je dagelijkse behoefte aan vitamines en mineralen. Het werkt goed als een zeer redelijk geprijsd hor d'oeuvre voor de Super Bowl. Als je citroensap, paprikapoeder, selderijzout en een paar andere ingrediënten bij de hand hebt, kun je het maken. Een paar mensen vonden dit Amerikaanse gerecht erg lekker. 23 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Met een lepelscore van 36% is dit gerecht nogal slecht. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Buffalo Wing Hummus, Buffalo Wing Hummus en Buffalo Wing Hummus.",
         "instructions": [
           "Doe de kikkererwten, kikkererwtenvloeistof, knoflook, citroensap, paprika, selderiezout, barbecuesaus, sambal en azijn in een keukenmachine. Pureer tot een gladde en romige massa."
@@ -14415,7 +14415,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Houmous aux ailes de buffle",
-        "subtitle": "Le houmous Buffalo Wing pourrait être la recette sans gluten, sans produits laitiers, lacto ovo végétarienne et végétalienne que vous recherchiez.",
+        "subtitle": "Le houmous Buffalo Wing pourrait être la recette sans gluten, sans...",
         "description": "Le houmous Buffalo Wing pourrait être la recette sans gluten, sans produits laitiers, lacto ovo végétarienne et végétalienne que vous recherchiez. Cette recette donne 8 portions avec 37 calories, 2 g de protéines et 1 g de matières grasses chacune. Pour 16 cents par portion, cette recette couvre 3 % de vos besoins quotidiens en vitamines et minéraux. Cela fonctionne bien comme hors-d'œuvre à un prix très raisonnable pour le Super Bowl. Si vous avez du jus de citron, du paprika, du sel de céleri et quelques autres ingrédients sous la main, vous pouvez le préparer. Quelques personnes ont vraiment aimé ce plat américain. 23 personnes ont réalisé cette recette et la referaient. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Avec un score cuillère de 36%, ce plat est plutôt mauvais. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Buffalo Wing Hummus, Buffalo Wing Hummus et Buffalo Wing Hummus.",
         "instructions": [
           "Mettez les pois chiches, le liquide de pois chiches, l'ail, le jus de citron, le paprika, le sel de céleri, la sauce barbecue, la sauce piquante et le vinaigre dans un robot culinaire. Réduire en purée lisse et crémeuse."
@@ -14532,7 +14532,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Crab Salad in Avocado Boats",
-        "subtitle": "Crab Salad in Avocado Boats is a gluten free, dairy free, whole 30, and pescatarian main course.",
+        "subtitle": "Crab Salad in Avocado Boats is a gluten free, dairy free, whole 30,...",
         "description": "Crab Salad in Avocado Boats is a gluten free, dairy free, whole 30, and pescatarian main course. One portion of this dish contains around 23g of protein, 31g of fat, and a total of 414 calories. For $5.16 per serving, this recipe covers 27% of your daily requirements of vitamins and minerals. This recipe serves 2. 13 people have tried and liked this recipe. This recipe from Foodista requires lime juice, avocado, ground cumin, and cilantro. From preparation to the plate, this recipe takes about 45 minutes. All things considered, we decided this recipe deserves a spoonacular score of 81%. This score is excellent. Try Crab Salad in Avocado Boats, Crab Salad in Avocado Boats, and Crab Salad in Avocado Boats for similar recipes.",
         "instructions": [
           "Stir red onion, mayonnaise, hot sauce, cilantro, 2 teaspoons lime juice, cumin and lime zest in medium bowl to blend.",
@@ -14544,7 +14544,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Krabsalade in avocadoboten",
-        "subtitle": "Krabsalade in Avocado Boats is een glutenvrij, zuivelvrij, geheel 30 en pescatarian hoofdgerecht.",
+        "subtitle": "Krabsalade in Avocado Boats is een glutenvrij, zuivelvrij, geheel 3...",
         "description": "Krabsalade in Avocado Boats is een glutenvrij, zuivelvrij, geheel 30 en pescatarian hoofdgerecht. Eén portie van dit gerecht bevat ongeveer 23 gram eiwit, 31 gram vet en in totaal 414 calorieën. Voor $ 5,16 per portie dekt dit recept 27% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept is voor 2 personen. 13 mensen hebben dit recept geprobeerd en vonden het leuk. Voor dit recept van Foodista heb je limoensap, avocado, gemalen komijn en koriander nodig. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 81% verdient. Deze score is uitstekend. Probeer Krabsalade in Avocadoboten, Krabsalade in Avocadoboten en Krabsalade in Avocadoboten voor vergelijkbare recepten.",
         "instructions": [
           "Roer de rode ui, mayonaise, hete saus, koriander, 2 theelepels limoensap, komijn en limoenschil in een middelgrote kom tot een mengsel.",
@@ -14556,7 +14556,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Salade de crabe dans des bateaux à l'avocat",
-        "subtitle": "La salade de crabe dans les bateaux d'avocat est un plat principal sans gluten, sans produits laitiers, entier 30 et pescatarien.",
+        "subtitle": "La salade de crabe dans les bateaux d'avocat est un plat principal...",
         "description": "La salade de crabe dans les bateaux d'avocat est un plat principal sans gluten, sans produits laitiers, entier 30 et pescatarien. Une portion de ce plat contient environ 23 g de protéines, 31 g de matières grasses et un total de 414 calories. Pour 5,16 $ par portion, cette recette couvre 27 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est pour 2 personnes. 13 personnes ont essayé et aimé cette recette. Cette recette de Foodista nécessite du jus de citron vert, de l'avocat, du cumin moulu et de la coriandre. De la préparation à l'assiette, cette recette prend environ 45 minutes. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 81 %. Cette note est excellente. Essayez la salade de crabe dans les bateaux-avocats, la salade de crabe dans les bateaux-avocats et la salade de crabe dans les bateaux-avocats pour des recettes similaires.",
         "instructions": [
           "Mélanger l'oignon rouge, la mayonnaise, la sauce piquante, la coriandre, 2 cuillères à café de jus de citron vert, le cumin et le zeste de citron vert dans un bol moyen pour mélanger.",
@@ -14687,7 +14687,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Almond Plum Cake with Creme Fraiche",
-        "subtitle": "Almond Plum Cake with Creme Fraiche requires roughly 45 minutes from start to finish.",
+        "subtitle": "Almond Plum Cake with Creme Fraiche requires roughly 45 minutes fro...",
         "description": "Almond Plum Cake with Creme Fraiche requires roughly 45 minutes from start to finish. For $2.77 per serving, you get a dessert that serves 6. One serving contains 565 calories, 13g of protein, and 21g of fat. This recipe is liked by 8 foodies and cooks. It is brought to you by Foodista. Head to the store and pick up eggs, baking powder, butter, and a few other things to make it today. All things considered, we decided this recipe deserves a spoonacular score of 41%. This score is solid. Users who liked this recipe also liked Almond Cake with Lemon and Crème Fraîche Glaze, Almond Cake with Lemon and Crème Fraîche Glaze, and Blueberry-Almond Shortcakes with Crème Fraîche.",
         "instructions": [
           ". Preheat the oven at 35",
@@ -14704,7 +14704,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Amandelpruimencake met Creme Fraiche",
-        "subtitle": "Amandelpruimentaart met Creme Fraiche heeft van begin tot eind ongeveer 45 minuten nodig.",
+        "subtitle": "Amandelpruimentaart met Creme Fraiche heeft van begin tot eind onge...",
         "description": "Amandelpruimentaart met Creme Fraiche heeft van begin tot eind ongeveer 45 minuten nodig. Voor $ 2,77 per portie krijg je een dessert voor zes personen. Eén portie bevat 565 calorieën, 13 g eiwit en 21 g vet. Dit recept is geliefd bij 8 foodies en koks. Het wordt u aangeboden door Foodista. Ga naar de winkel en koop eieren, bakpoeder, boter en nog een paar andere dingen om het vandaag nog te maken. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 41% verdient. Deze score is solide. Gebruikers die dit recept lekker vonden, hielden ook van Amandelcake met Citroen en Crème Fraîche Glazuur, Amandelcake met Citroen en Crème Fraîche Glazuur en Bosbessen-Amandel Shortcakes met Crème Fraîche.",
         "instructions": [
           ". Verwarm de oven voor op 35",
@@ -14721,7 +14721,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteau aux amandes et aux prunes avec crème fraîche",
-        "subtitle": "Le gâteau aux amandes et aux prunes avec crème fraîche nécessite environ 45 minutes du début à la fin.",
+        "subtitle": "Le gâteau aux amandes et aux prunes avec crème fraîche nécessite en...",
         "description": "Le gâteau aux amandes et aux prunes avec crème fraîche nécessite environ 45 minutes du début à la fin. Pour 2,77 $ par portion, vous obtenez un dessert pour 6 personnes. Une portion contient 565 calories, 13 g de protéines et 21 g de matières grasses. Cette recette est appréciée par 8 gourmets et cuisiniers. Il vous est présenté par Foodista. Rendez-vous au magasin et récupérez des œufs, de la levure chimique, du beurre et quelques autres choses pour le préparer aujourd'hui. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 41 %. Ce score est solide. Les utilisateurs qui ont aimé cette recette ont également aimé Gâteau aux amandes avec glaçage au citron et crème fraîche, Gâteau aux amandes avec glaçage au citron et crème fraîche et Shortcakes myrtilles-amandes avec crème fraîche.",
         "instructions": [
           ". Préchauffer le four à 35",
@@ -14877,7 +14877,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Sun-dried Tomato & Artichoke Tuna Casserole",
-        "subtitle": "Sun-dried Tomato & Artichoke Tuna Casserole is a pescatarian recipe with 4 servings.",
+        "subtitle": "Sun-dried Tomato & Artichoke Tuna Casserole is a pescatarian recipe...",
         "description": "Sun-dried Tomato & Artichoke Tuna Casserole is a pescatarian recipe with 4 servings. One portion of this dish contains roughly 41g of protein, 27g of fat, and a total of 829 calories. For $2.96 per serving, this recipe covers 31% of your daily requirements of vitamins and minerals. Autumn will be even more special with this recipe. 2 people were impressed by this recipe. It works well as an American main course. From preparation to the plate, this recipe takes roughly 45 minutes. It is brought to you by Foodista. Head to the store and pick up sundried tomatoes, tuna, artichoke hearts, and a few other things to make it today. Taking all factors into account, this recipe earns a spoonacular score of 67%, which is good. Similar recipes include Sun-dried Tomato & Artichoke Tuna Casserole, Artichoke and Sun-Dried Tomato Focaccia, and Sun-Dried Tomato and Artichoke Frittata.",
         "instructions": [
           "Preheat oven to 375",
@@ -14902,7 +14902,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Zongedroogde tomaat en artisjok tonijnschotel",
-        "subtitle": "Zongedroogde tomaat en artisjok tonijnschotel is een pescatarisch recept met 4 porties.",
+        "subtitle": "Zongedroogde tomaat en artisjok tonijnschotel is een pescatarisch r...",
         "description": "Zongedroogde tomaat en artisjok tonijnschotel is een pescatarisch recept met 4 porties. Eén portie van dit gerecht bevat ongeveer 41 gram eiwit, 27 gram vet en in totaal 829 calorieën. Voor $ 2,96 per portie dekt dit recept 31% van uw dagelijkse behoefte aan vitamines en mineralen. De herfst wordt nog specialer met dit recept. 2 mensen waren onder de indruk van dit recept. Het doet het goed als Amerikaans hoofdgerecht. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Ga naar de winkel en koop zongedroogde tomaten, tonijn, artisjokharten en nog een paar andere dingen om het vandaag te maken. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 67%, wat goed is. Soortgelijke recepten zijn onder meer zongedroogde tomaten- en artisjoktonijnschotel, artisjok- en zongedroogde tomatenfocaccia en zongedroogde tomaten- en artisjokfrittata.",
         "instructions": [
           "Verwarm de oven voor op 375",
@@ -14927,7 +14927,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Casserole de thon aux tomates séchées et aux artichauts",
-        "subtitle": "La cocotte de thon aux tomates séchées et aux artichauts est une recette pescatarienne de 4 portions.",
+        "subtitle": "La cocotte de thon aux tomates séchées et aux artichauts est une re...",
         "description": "La cocotte de thon aux tomates séchées et aux artichauts est une recette pescatarienne de 4 portions. Une portion de ce plat contient environ 41 g de protéines, 27 g de matières grasses et un total de 829 calories. Pour 2,96 $ par portion, cette recette couvre 31 % de vos besoins quotidiens en vitamines et minéraux. L'automne sera encore plus spécial avec cette recette. 2 personnes ont été impressionnées par cette recette. Cela fonctionne bien comme plat principal américain. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Rendez-vous au magasin et procurez-vous des tomates séchées, du thon, des cœurs d'artichauts et quelques autres choses à préparer aujourd'hui. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 67 %, ce qui est bien. Des recettes similaires incluent la cocotte de thon aux tomates séchées et aux artichauts, la focaccia aux artichauts et aux tomates séchées au soleil et la frittata aux tomates séchées au soleil et aux artichauts.",
         "instructions": [
           "Préchauffer le four à 375",
@@ -15141,7 +15141,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Grilled Garlicky-Herbed Shrimp",
-        "subtitle": "Grilled Garlicky-Herbed Shrimp takes around 45 minutes from beginning to end.",
+        "subtitle": "Grilled Garlicky-Herbed Shrimp takes around 45 minutes from beginni...",
         "description": "Grilled Garlicky-Herbed Shrimp takes around 45 minutes from beginning to end. For 64 cents per serving, you get a hor d'oeuvre that serves 4. Watching your figure? This dairy free recipe has 189 calories, 1g of protein, and 18g of fat per serving. 11 person were glad they tried this recipe. A mixture of chili pepper flakes, garlic, lemon zest, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is perfect for The Fourth Of July. It is brought to you by Foodista. With a spoonacular score of 52%, this dish is solid. Similar recipes are Grilled Garlicky-Herbed Shrimp, Grilled Garlicky-Herbed Shrimp, and Grilled Garlicky-Herbed Shrimp.",
         "instructions": [
           "Combine all ingredients except shrimp in a large bowl.",
@@ -15152,7 +15152,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Gegrilde garnalen met knoflookkruiden",
-        "subtitle": "Gegrilde Garlicky-Herbed Shrimp duurt ongeveer 45 minuten van begin tot eind.",
+        "subtitle": "Gegrilde Garlicky-Herbed Shrimp duurt ongeveer 45 minuten van begin...",
         "description": "Gegrilde Garlicky-Herbed Shrimp duurt ongeveer 45 minuten van begin tot eind. Voor 64 cent per portie krijg je een hor d'oeuvre voor 4 personen. Let je op je figuur? Dit zuivelvrije recept bevat 189 calorieën, 1 g eiwit en 18 g vet per portie. 11 personen waren blij dat ze dit recept probeerden. Een mengsel van chilipepervlokken, knoflook, citroenschil en een handvol andere ingrediënten is voldoende om dit recept zo smaakvol te maken. Het is perfect voor The Fourth Of July. Het wordt u aangeboden door Foodista. Met een lepelscore van 52% is dit gerecht stevig. Soortgelijke recepten zijn gegrilde garnalen met knoflookkruiden, gegrilde garnalen met knoflookkruiden en gegrilde garnalen met knoflookkruiden.",
         "instructions": [
           "Combineer alle ingrediënten behalve garnalen in een grote kom.",
@@ -15163,7 +15163,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Crevettes grillées à l'ail et aux herbes",
-        "subtitle": "Les crevettes grillées à l'ail et aux herbes prennent environ 45 minutes du début à la fin.",
+        "subtitle": "Les crevettes grillées à l'ail et aux herbes prennent environ 45 mi...",
         "description": "Les crevettes grillées à l'ail et aux herbes prennent environ 45 minutes du début à la fin. Pour 64 centimes la portion, vous obtenez un hor-d'œuvre pour 4 personnes. Vous surveillez votre silhouette ? Cette recette sans produits laitiers contient 189 calories, 1 g de protéines et 18 g de matières grasses par portion. 11 personnes étaient heureuses d’avoir essayé cette recette. Un mélange de flocons de piment, d'ail, de zeste de citron et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. C’est parfait pour le 4 juillet. Il vous est présenté par Foodista. Avec un score cuillère de 52%, ce plat est solide. Des recettes similaires sont les crevettes grillées aux herbes et à l'ail, les crevettes grillées aux herbes et à l'ail et les crevettes grillées aux herbes et à l'ail.",
         "instructions": [
           "Mélanger tous les ingrédients sauf les crevettes dans un grand bol.",
@@ -15273,7 +15273,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Easy Garlic Roast Leg Of Lamb With Rosemary and Parsley",
-        "subtitle": "Easy Garlic Roast Leg Of Lamb With Rosemary and Parsley is a gluten free, dairy free, paleolithic, and primal recipe with 8 servings.",
+        "subtitle": "Easy Garlic Roast Leg Of Lamb With Rosemary and Parsley is a gluten...",
         "description": "Easy Garlic Roast Leg Of Lamb With Rosemary and Parsley is a gluten free, dairy free, paleolithic, and primal recipe with 8 servings. This main course has 496 calories, 59g of protein, and 27g of fat per serving. For $5.3 per serving, this recipe covers 36% of your daily requirements of vitamins and minerals. Not a lot of people made this recipe, and 3 would say it hit the spot. From preparation to the plate, this recipe takes approximately 45 minutes. A mixture of pepper, rosemary, extra virgin olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Foodista. With a spoonacular score of 92%, this dish is great. If you like this recipe, take a look at these similar recipes: Roast Leg of Lamb with Rosemary and Garlic, Roast Leg of Lamb with Lemon, Garlic, and Rosemary, and Roast Leg of Lamb with Garlic Rosemary Dijon Crust.",
         "instructions": [
           "With the tip of a small sharp knife, poke holes in the leg of lamb about 1 1/2-inch deep. Into each hole, stuff one slice of garlic.",
@@ -15287,7 +15287,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Gemakkelijke knoflookgebraden lamsbout met rozemarijn en peterselie",
-        "subtitle": "Gemakkelijke knoflookgebraden lamsbout met rozemarijn en peterselie is een glutenvrij, zuivelvrij, paleolithisch en oerrecept met 8 porties.",
+        "subtitle": "Gemakkelijke knoflookgebraden lamsbout met rozemarijn en peterselie...",
         "description": "Gemakkelijke knoflookgebraden lamsbout met rozemarijn en peterselie is een glutenvrij, zuivelvrij, paleolithisch en oerrecept met 8 porties. Dit hoofdgerecht bevat 496 calorieën, 59 g eiwit en 27 g vet per portie. Voor $ 5,3 per portie dekt dit recept 36% van uw dagelijkse behoefte aan vitamines en mineralen. Niet veel mensen hebben dit recept gemaakt, en 3 zouden zeggen dat het een schot in de roos was. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Een mengsel van peper, rozemarijn, extra vierge olijfolie en een handvol andere ingrediënten is alles wat nodig is om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Met een lepelscore van 92% is dit gerecht een topper. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Gebraden lamsbout met rozemarijn en knoflook, Gebraden lamsbout met citroen, knoflook en rozemarijn, en Gebraden lamsbout met knoflook-rozemarijn Dijon-korst.",
         "instructions": [
           "Maak met de punt van een klein scherp mes gaten in de lamsbout van ongeveer 1 1/2 inch diep. In elk gaatje stop je een plakje knoflook.",
@@ -15301,7 +15301,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gigot d'agneau rôti à l'ail facile au romarin et au persil",
-        "subtitle": "Le gigot d'agneau rôti à l'ail facile avec romarin et persil est une recette sans gluten, sans produits laitiers, paléolithique et primale avec 8 portions.",
+        "subtitle": "Le gigot d'agneau rôti à l'ail facile avec romarin et persil est un...",
         "description": "Le gigot d'agneau rôti à l'ail facile avec romarin et persil est une recette sans gluten, sans produits laitiers, paléolithique et primale avec 8 portions. Ce plat principal contient 496 calories, 59 g de protéines et 27 g de matières grasses par portion. Pour 5,3 $ par portion, cette recette couvre 36 % de vos besoins quotidiens en vitamines et minéraux. Peu de gens ont fait cette recette, et 3 diraient qu’elle a fait mouche. De la préparation à l'assiette, cette recette prend environ 45 minutes. Un mélange de poivre, de romarin, d'huile d'olive extra vierge et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. Avec un score cuillère de 92%, ce plat est excellent. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Gigot d'agneau rôti au romarin et à l'ail, Gigot d'agneau rôti au citron, ail et romarin et Gigot d'agneau rôti à l'ail et au romarin en croûte de Dijon.",
         "instructions": [
           "Avec la pointe d'un petit couteau bien aiguisé, percez des trous dans le gigot d'agneau d'environ 1 1/2 pouce de profondeur. Dans chaque trou, farcissez une tranche d'ail.",
@@ -15414,7 +15414,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Fig, Goat Cheese and Walnut Salad",
-        "subtitle": "Fig, Goat Cheese and Walnut Salad requires roughly 15 minutes from start to finish.",
+        "subtitle": "Fig, Goat Cheese and Walnut Salad requires roughly 15 minutes from...",
         "description": "Fig, Goat Cheese and Walnut Salad requires roughly 15 minutes from start to finish. This gluten free, lacto ovo vegetarian, and primal recipe serves 2 and costs $3.74 per serving. One portion of this dish contains about 8g of protein, 29g of fat, and a total of 375 calories. 3 people have made this recipe and would make it again. If you have olive oil, greens, lemon juice, and a few other ingredients on hand, you can make it. It works well as a hor d'oeuvre. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 62%. This score is solid. If you like this recipe, you might also like recipes such as Fig and Goat Cheese Salad with a Balsamic Fig Vinaigrette, Fried Goat Cheese And Fig Salad, and Dried Fig, Goat Cheese and Arugula Salad.",
         "instructions": [
           "Rinse, dry (spin or lay on a towel to air-dry) salad greens. Tear into bite-size pieces if necessary.Slice the figs.Roughly chop the walnuts.Take a small spoon and lightly drop small pieces of the goat cheese over the salad.",
@@ -15423,7 +15423,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Salade met vijgen, geitenkaas en walnoten",
-        "subtitle": "De vijgen-, geitenkaas- en walnootsalade heeft van begin tot eind ongeveer 15 minuten nodig.",
+        "subtitle": "De vijgen-, geitenkaas- en walnootsalade heeft van begin tot eind o...",
         "description": "De vijgen-, geitenkaas- en walnootsalade heeft van begin tot eind ongeveer 15 minuten nodig. Dit glutenvrije, lacto ovo-vegetarische en oerrecept is geschikt voor 2 personen en kost $ 3,74 per portie. Eén portie van dit gerecht bevat ongeveer 8 gram eiwit, 29 gram vet en in totaal 375 calorieën. 3 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Als je olijfolie, groenten, citroensap en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het werkt goed als hor d'oeuvre. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 62% verdient. Deze score is solide. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Vijgen- en Geitenkaassalade met Balsamico Vijgenvinaigrette, Gebakken Geitenkaas En Vijgensalade en Gedroogde Vijgen-, Geitenkaas- en Rucolasalade.",
         "instructions": [
           "Spoel, droog (draai of leg op een handdoek om aan de lucht te drogen) groene salades. Scheur indien nodig in hapklare stukjes. Snijd de vijgen in plakjes. Hak de walnoten grof. Neem een ​​kleine lepel en laat kleine stukjes geitenkaas lichtjes over de salade vallen.",
@@ -15432,7 +15432,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Salade de figues, chèvre et noix",
-        "subtitle": "La salade de figues, de chèvre et de noix nécessite environ 15 minutes du début à la fin.",
+        "subtitle": "La salade de figues, de chèvre et de noix nécessite environ 15 minu...",
         "description": "La salade de figues, de chèvre et de noix nécessite environ 15 minutes du début à la fin. Cette recette sans gluten, lacto ovo végétarienne et primale sert 2 personnes et coûte 3,74 $ par portion. Une portion de ce plat contient environ 8 g de protéines, 29 g de matières grasses et un total de 375 calories. 3 personnes ont réalisé cette recette et la referaient. Si vous avez de l’huile d’olive, des légumes verts, du jus de citron et quelques autres ingrédients sous la main, vous pouvez le préparer. Cela fonctionne bien comme un hor d'œuvre. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 62 %. Ce score est solide. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes comme Salade de figues et chèvre avec vinaigrette balsamique aux figues, Salade de chèvre frit et figues et Salade de figues séchées, chèvre et roquette.",
         "instructions": [
           "Rincer, sécher (essorer ou déposer sur une serviette pour sécher à l'air) les salades vertes. Si nécessaire, coupez en bouchées. Tranchez les figues. Hachez grossièrement les noix. Prenez une petite cuillère et déposez délicatement des petits morceaux de chèvre sur la salade.",
@@ -15540,7 +15540,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Baked Oatmeal with Dried Cranberries",
-        "subtitle": "Baked Oatmeal with Dried Cranberries might be just the breakfast you are searching for.",
+        "subtitle": "Baked Oatmeal with Dried Cranberries might be just the breakfast yo...",
         "description": "Baked Oatmeal with Dried Cranberries might be just the breakfast you are searching for. One portion of this dish contains approximately 5g of protein, 4g of fat, and a total of 194 calories. This recipe serves 9. For 51 cents per serving, this recipe covers 9% of your daily requirements of vitamins and minerals. 11 person found this recipe to be scrumptious and satisfying. It is a good option if you're following a gluten free and dairy free diet. It is perfect for Christmas. It is brought to you by Foodista. If you have flaxseeds, baking powder, oats, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes roughly 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 53%, which is good. If you like this recipe, take a look at these similar recipes: Baked Oatmeal with Dried Cranberries & Apricots, Overnight Oatmeal With Almonds And Dried Cranberries, and Overnight Oatmeal with Almonds and Dried Cranberries.",
         "instructions": [
           "Preheat oven to 350F",
@@ -15554,7 +15554,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Gebakken havermout met gedroogde veenbessen",
-        "subtitle": "Gebakken havermout met gedroogde veenbessen is misschien wel het ontbijt waar je naar op zoek bent.",
+        "subtitle": "Gebakken havermout met gedroogde veenbessen is misschien wel het on...",
         "description": "Gebakken havermout met gedroogde veenbessen is misschien wel het ontbijt waar je naar op zoek bent. Eén portie van dit gerecht bevat ongeveer 5 gram eiwit, 4 gram vet en in totaal 194 calorieën. Dit recept is voor 9 personen. Voor 51 cent per portie dekt dit recept 9% van je dagelijkse behoefte aan vitamines en mineralen. 11 personen vonden dit recept heerlijk en bevredigend. Het is een goede optie als u een glutenvrij en zuivelvrij dieet volgt. Het is perfect voor Kerstmis. Het wordt u aangeboden door Foodista. Als je lijnzaad, bakpoeder, haver en een paar andere ingrediënten bij de hand hebt, kun je het maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 53%, wat goed is. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Gebakken havermout met gedroogde veenbessen en abrikozen, Overnight Oatmeal met amandelen en gedroogde veenbessen, en Overnight Oatmeal met amandelen en gedroogde veenbessen.",
         "instructions": [
           "Verwarm de oven voor op 350F",
@@ -15568,7 +15568,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gruau au four avec canneberges séchées",
-        "subtitle": "Les flocons d'avoine cuits au four et les canneberges séchées pourraient bien être le petit-déjeuner que vous recherchez.",
+        "subtitle": "Les flocons d'avoine cuits au four et les canneberges séchées pourr...",
         "description": "Les flocons d'avoine cuits au four et les canneberges séchées pourraient bien être le petit-déjeuner que vous recherchez. Une portion de ce plat contient environ 5 g de protéines, 4 g de matières grasses et un total de 194 calories. Cette recette en sert 9. Pour 51 cents par portion, cette recette couvre 9 % de vos besoins quotidiens en vitamines et minéraux. 11 personnes ont trouvé cette recette délicieuse et satisfaisante. C'est une bonne option si vous suivez un régime sans gluten et sans produits laitiers. C'est parfait pour Noël. Il vous est présenté par Foodista. Si vous avez des graines de lin, de la levure chimique, de l’avoine et quelques autres ingrédients sous la main, vous pouvez le préparer. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 53 %, ce qui est bien. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Gruau au four avec canneberges et abricots séchés, Gruau de nuit aux amandes et canneberges séchées, et Gruau de nuit aux amandes et canneberges séchées.",
         "instructions": [
           "Préchauffer le four à 350F",
@@ -15711,7 +15711,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Zesty Lime Marinated Chicken with Homemade Watermelon Salsa",
-        "subtitle": "Zesty Lime Marinated Chicken with Homemade Watermelon Salsa takes roughly 45 minutes from beginning to end.",
+        "subtitle": "Zesty Lime Marinated Chicken with Homemade Watermelon Salsa takes r...",
         "description": "Zesty Lime Marinated Chicken with Homemade Watermelon Salsa takes roughly 45 minutes from beginning to end. This gluten free and dairy free recipe serves 4 and costs $1.8 per serving. One serving contains 245 calories, 26g of protein, and 7g of fat. This recipe from Foodista has 3 fans. Only a few people really liked this main course. It is a rather cheap recipe for fans of Mexican food. A mixture of ground pepper, pepper flakes, extra virgin olive oil, and a handful of other ingredients are all it takes to make this recipe so scrumptious. Summer will be even more special with this recipe. All things considered, we decided this recipe deserves a spoonacular score of 56%. This score is solid. If you like this recipe, you might also like recipes such as Marinated Grilled Chicken With Watermelon Salsa, Marinated Grilled Chicken with Cucumber-Watermelon Salsa, and Marinated Grilled Chicken with Cucumber-Watermelon Salsa.",
         "instructions": [
           "To Make Salsa: In a medium bowl, combine watermelon, cucumber, sweet pepper, corn, cilantro and onion. In a small bowl, mix together  cup lime juice, honey, red pepper flakes and salt. Refrigerate for at least 1 hour before serving, to blend flavors.To Make Chicken: In a shallow bowl add the chicken, 3 tablespoons lime juice and sprinkle with a little garlic powder, salt and pepper.  Marinate in the refrigerator for 30 minutes.  Coat a large nonstick pan or a grill pan with olive oil spray, add olive oil and heat.",
@@ -15730,7 +15730,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Pittige, in limoen gemarineerde kip met zelfgemaakte watermeloensalsa",
-        "subtitle": "Pittige, in limoen gemarineerde kip met zelfgemaakte watermeloensalsa duurt van begin tot eind ongeveer 45 minuten.",
+        "subtitle": "Pittige, in limoen gemarineerde kip met zelfgemaakte watermeloensal...",
         "description": "Pittige, in limoen gemarineerde kip met zelfgemaakte watermeloensalsa duurt van begin tot eind ongeveer 45 minuten. Dit glutenvrije en zuivelvrije recept is geschikt voor 4 personen en kost $ 1,8 per portie. Eén portie bevat 245 calorieën, 26 g eiwit en 7 g vet. Dit recept van Foodista heeft 3 fans. Slechts een paar mensen vonden dit hoofdgerecht erg lekker. Het is een vrij goedkoop recept voor fans van Mexicaans eten. Een mengsel van gemalen peper, pepervlokken, extra vierge olijfolie en een handvol andere ingrediënten is alles wat nodig is om dit recept zo heerlijk te maken. De zomer wordt nog specialer met dit recept. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 56% verdient. Deze score is solide. Als je dit recept lekker vindt, vind je misschien ook recepten leuk zoals Gemarineerde gegrilde kip met watermeloensalsa, Gemarineerde gegrilde kip met komkommer-watermeloensalsa en Gemarineerde gegrilde kip met komkommer-watermeloensalsa.",
         "instructions": [
           "Salsa maken: Meng in een middelgrote kom watermeloen, komkommer, paprika, maïs, koriander en ui. Meng in een kleine kom een ​​kopje limoensap, honing, rode pepervlokken en zout. Zet het minstens 1 uur in de koelkast voordat je het serveert, zodat de smaken zich kunnen mengen. Kip maken: Voeg in een ondiepe kom de kip, 3 eetlepels limoensap toe en bestrooi met een beetje knoflookpoeder, zout en peper.  Marineer in de koelkast gedurende 30 minuten.  Smeer een grote pan met anti-aanbaklaag of een grillpan in met olijfoliespray, voeg olijfolie toe en verwarm.",
@@ -15749,7 +15749,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Poulet mariné piquant au citron vert avec salsa de pastèque maison",
-        "subtitle": "Le poulet mariné au citron vert et à la salsa de pastèque maison prend environ 45 minutes du début à la fin.",
+        "subtitle": "Le poulet mariné au citron vert et à la salsa de pastèque maison pr...",
         "description": "Le poulet mariné au citron vert et à la salsa de pastèque maison prend environ 45 minutes du début à la fin. Cette recette sans gluten et sans produits laitiers sert 4 personnes et coûte 1,8 $ par portion. Une portion contient 245 calories, 26 g de protéines et 7 g de matières grasses. Cette recette de Foodista a 3 fans. Seules quelques personnes ont vraiment aimé ce plat principal. C'est une recette plutôt bon marché pour les amateurs de cuisine mexicaine. Un mélange de poivre moulu, de flocons de piment, d'huile d'olive extra vierge et une poignée d'autres ingrédients suffisent pour rendre cette recette si délicieuse. L'été sera encore plus spécial avec cette recette. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 56 %. Ce score est solide. Si vous aimez cette recette, vous aimerez peut-être aussi des recettes telles que Poulet grillé mariné avec salsa de pastèque, Poulet grillé mariné avec salsa de concombre et de pastèque et Poulet grillé mariné avec salsa de concombre et de pastèque.",
         "instructions": [
           "Pour faire de la salsa : Dans un bol moyen, mélanger la pastèque, le concombre, le poivron, le maïs, la coriandre et l'oignon. Dans un petit bol, mélanger une tasse de jus de citron vert, le miel, les flocons de piment rouge et le sel. Réfrigérer au moins 1 heure avant de servir pour mélanger les saveurs. Pour préparer le poulet : Dans un bol peu profond, ajoutez le poulet, 3 cuillères à soupe de jus de citron vert et saupoudrez d'un peu de poudre d'ail, de sel et de poivre.  Faire mariner au réfrigérateur pendant 30 minutes.  Enduisez une grande poêle antiadhésive ou une poêle à griller d'un spray d'huile d'olive, ajoutez l'huile d'olive et faites chauffer.",
@@ -15947,7 +15947,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Eggplant Parmesan Roll-Ups",
-        "subtitle": "Eggplant Parmesan Roll-Ups might be just the hor d'oeuvre you are searching for.",
+        "subtitle": "Eggplant Parmesan Roll-Ups might be just the hor d'oeuvre you are s...",
         "description": "Eggplant Parmesan Roll-Ups might be just the hor d'oeuvre you are searching for. This recipe serves 4. One serving contains 669 calories, 21g of protein, and 45g of fat. For $3.63 per serving, this recipe covers 25% of your daily requirements of vitamins and minerals. If you have olive oil, basil, garlic, and a few other ingredients on hand, you can make it. It is a pretty expensive recipe for fans of Mediterranean food. 2 people found this recipe to be yummy and satisfying. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 78%. This score is pretty good. If you like this recipe, take a look at these similar recipes: Eggplant Roll-Ups, Grilled Eggplant Roll-Ups, and Eggplant and Mozzarella Roll-Ups.",
         "instructions": [
           "Preheat oven to 350F and put water for linguine on to boil.",
@@ -15966,7 +15966,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Aubergine Parmezaanse Roll-Ups",
-        "subtitle": "Aubergine Parmezaanse Roll-Ups zijn wellicht precies het hor d'oeuvre waar u naar op zoek bent.",
+        "subtitle": "Aubergine Parmezaanse Roll-Ups zijn wellicht precies het hor d'oeuv...",
         "description": "Aubergine Parmezaanse Roll-Ups zijn wellicht precies het hor d'oeuvre waar u naar op zoek bent. Dit recept is voor 4 personen. Eén portie bevat 669 calorieën, 21 g eiwit en 45 g vet. Voor $ 3,63 per portie dekt dit recept 25% van uw dagelijkse behoefte aan vitamines en mineralen. Als je olijfolie, basilicum, knoflook en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het is een behoorlijk duur recept voor liefhebbers van Mediterraans eten. 2 mensen vonden dit recept lekker en bevredigend. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 78% verdient. Deze score is behoorlijk goed. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Roll-ups van aubergines, roll-ups van gegrilde aubergines en roll-ups van aubergine en mozzarella.",
         "instructions": [
           "Verwarm de oven voor op 350F en zet water voor de linguine aan de kook.",
@@ -15985,7 +15985,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Roulés d'aubergines au parmesan",
-        "subtitle": "Les roulés d'aubergines au parmesan pourraient être exactement l'hor-d'œuvre que vous recherchez.",
+        "subtitle": "Les roulés d'aubergines au parmesan pourraient être exactement l'ho...",
         "description": "Les roulés d'aubergines au parmesan pourraient être exactement l'hor-d'œuvre que vous recherchez. Cette recette en sert 4. Une portion contient 669 calories, 21 g de protéines et 45 g de matières grasses. Pour 3,63 $ par portion, cette recette couvre 25 % de vos besoins quotidiens en vitamines et minéraux. Si vous avez de l’huile d’olive, du basilic, de l’ail et quelques autres ingrédients sous la main, vous pouvez le préparer. C'est une recette assez chère pour les amateurs de cuisine méditerranéenne. 2 personnes ont trouvé cette recette délicieuse et satisfaisante. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 78 %. Ce score est plutôt bon. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Roulés d'aubergines, Roulés d'aubergines grillées et Roulés d'aubergines et mozzarella.",
         "instructions": [
           "Préchauffer le four à 350F et mettre à ébullition l’eau pour les linguines.",
@@ -16163,7 +16163,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Banana Split Sundae Ice Cream Cake",
-        "subtitle": "You can never have too many dessert recipes, so give Banana Split Sundae Ice Cream Cake a try.",
+        "subtitle": "You can never have too many dessert recipes, so give Banana Split S...",
         "description": "You can never have too many dessert recipes, so give Banana Split Sundae Ice Cream Cake a try. This recipe serves 18. For 86 cents per serving, this recipe covers 8% of your daily requirements of vitamins and minerals. One portion of this dish contains around 6g of protein, 23g of fat, and a total of 449 calories. From preparation to the plate, this recipe takes roughly 45 minutes. Head to the store and pick up whipped topping, butter, bananas, and a few other things to make it today. 18 people have made this recipe and would make it again. It is perfect for Summer. It is brought to you by Foodista. Taking all factors into account, this recipe earns a spoonacular score of 29%, which is rather bad. Try Banana Split Ice Cream Sundae, Banana Split Ice Cream Cake, and Banana Split Ice Cream Cake for similar recipes.",
         "instructions": [
           "In a small bowl, combine the graham cracker crumbs and the melted butter.  Set aside 1/4 cup of the mixture then press the remainder into the bottom of a 9 x 13 pan.",
@@ -16180,7 +16180,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Bananensplit-ijstaart met ijscoupes",
-        "subtitle": "Je kunt nooit genoeg dessertrecepten hebben, dus probeer Banana Split Sundae Ice Cream Cake eens.",
+        "subtitle": "Je kunt nooit genoeg dessertrecepten hebben, dus probeer Banana Spl...",
         "description": "Je kunt nooit genoeg dessertrecepten hebben, dus probeer Banana Split Sundae Ice Cream Cake eens. Dit recept is voor 18 personen. Voor 86 cent per portie dekt dit recept 8% van je dagelijkse behoefte aan vitamines en mineralen. Eén portie van dit gerecht bevat ongeveer 6 gram eiwit, 23 gram vet en in totaal 449 calorieën. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Ga naar de winkel en koop slagroom, boter, bananen en nog een paar andere dingen om het vandaag nog te maken. 18 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Het is perfect voor de zomer. Het wordt u aangeboden door Foodista. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 29%, wat nogal slecht is. Probeer Banana Split Ice Cream Sundae, Banana Split Ice Cream Cake en Banana Split Ice Cream Cake voor soortgelijke recepten.",
         "instructions": [
           "Meng in een kleine kom de crackerkruimels van Graham en de gesmolten boter.  Zet 1/4 kopje van het mengsel opzij en druk de rest op de bodem van een pan van 9 x 13 cm.",
@@ -16197,7 +16197,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteau à la crème glacée à la banane fendue",
-        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de desserts, alors essayez le gâteau à la crème glacée Banana Split Sundae.",
+        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de desserts, alors ess...",
         "description": "Vous ne pouvez jamais avoir trop de recettes de desserts, alors essayez le gâteau à la crème glacée Banana Split Sundae. Cette recette en sert 18 personnes. Pour 86 cents par portion, cette recette couvre 8 % de vos besoins quotidiens en vitamines et minéraux. Une portion de ce plat contient environ 6 g de protéines, 23 g de matières grasses et un total de 449 calories. De la préparation à l'assiette, cette recette prend environ 45 minutes. Rendez-vous au magasin et procurez-vous de la garniture fouettée, du beurre, des bananes et quelques autres choses à préparer aujourd'hui. 18 personnes ont réalisé cette recette et la referaient. C'est parfait pour l'été. Il vous est présenté par Foodista. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 29 %, ce qui est plutôt mauvais. Essayez le sundae à la crème glacée Banana Split, le gâteau à la crème glacée Banana Split et le gâteau à la crème glacée Banana Split pour des recettes similaires.",
         "instructions": [
           "Dans un petit bol, mélanger la chapelure de biscuits Graham et le beurre fondu.  Réserver 1/4 tasse du mélange puis presser le reste au fond d'un moule 9 x 13.",
@@ -16379,7 +16379,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Boulettes De Pommes à La Sauce Fanta",
-        "subtitle": "Les raviolis aux pommes en sauce Fanta sont une sauce lacto-ovo-végétarienne.",
+        "subtitle": "Les raviolis aux pommes en sauce Fanta sont une sauce lacto-ovo-vég...",
         "description": "Les raviolis aux pommes en sauce Fanta sont une sauce lacto-ovo-végétarienne. Cette recette en sert 16 personnes. Une portion de ce plat contient environ 4 g de protéines, 32 g de matières grasses et un total de 456 calories. Pour 88 cents par portion, cette recette couvre 7 % de vos besoins quotidiens en vitamines et minéraux. Peu de gens ont fait cette recette, et 2 diraient qu’elle a fait mouche. Rendez-vous au magasin et procurez-vous du citron fanta, des pommes, du jus de citron et quelques autres choses à préparer aujourd'hui. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Avec un score cuillère de 21%, ce plat n'est pas si formidable. Des recettes similaires incluent des boulettes de pommes avec sauce au caramel, des boulettes de pommes faites maison avec sauce au caramel et des boulettes de pommes au four avec sauce au cidre.",
         "instructions": [
           "Préchauffer le four à 400 F (environ 200 C).",
@@ -16506,7 +16506,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cinnamon Nut Squares",
-        "subtitle": "If you want to add more lacto ovo vegetarian recipes to your repertoire, Cinnamon Nut Squares might be a recipe you should try.",
+        "subtitle": "If you want to add more lacto ovo vegetarian recipes to your repert...",
         "description": "If you want to add more lacto ovo vegetarian recipes to your repertoire, Cinnamon Nut Squares might be a recipe you should try. For 27 cents per serving, this recipe covers 3% of your daily requirements of vitamins and minerals. One serving contains 174 calories, 2g of protein, and 11g of fat. This recipe serves 24. Head to the store and pick up egg, sugar, pecans, and a few other things to make it today. It works well as a hor d'oeuvre. 43 people found this recipe to be yummy and satisfying. From preparation to the plate, this recipe takes roughly 1 hour and 10 minutes. It is brought to you by Pink When. Taking all factors into account, this recipe earns a spoonacular score of 16%, which is not so spectacular. If you like this recipe, you might also like recipes such as Honey Nut Squares, Toffee nut squares, and Salted Nut Squares.",
         "instructions": [
           "Preheat oven to 300 degrees.Spray an oblong baking pan with baking spray. I used a 14x8x2 pan.Cream butter; gradually add sugar and continue beating until mixture is light and fluffy.",
@@ -16520,7 +16520,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Kaneelnootvierkantjes",
-        "subtitle": "Als je meer lacto ovo-vegetarische recepten aan je repertoire wilt toevoegen, is Cinnamon Nut Squares misschien een recept dat je moet proberen.",
+        "subtitle": "Als je meer lacto ovo-vegetarische recepten aan je repertoire wilt...",
         "description": "Als je meer lacto ovo-vegetarische recepten aan je repertoire wilt toevoegen, is Cinnamon Nut Squares misschien een recept dat je moet proberen. Voor 27 cent per portie dekt dit recept 3% van je dagelijkse behoefte aan vitamines en mineralen. Eén portie bevat 174 calorieën, 2 g eiwit en 11 g vet. Dit recept serveert 24 personen. Ga naar de winkel en koop eieren, suiker, pecannoten en nog een paar andere dingen om het vandaag te maken. Het werkt goed als hor d'oeuvre. 43 mensen vonden dit recept lekker en bevredigend. Van bereiding tot op het bord duurt dit recept ongeveer 1 uur en 10 minuten. Het wordt u aangeboden door Pink When. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 16%, wat niet zo spectaculair is. Als je dit recept lekker vindt, hou je misschien ook wel van recepten zoals Honingnootvierkantjes, Toffeenootvierkantjes en Gezouten Notenvierkantjes.",
         "instructions": [
           "Verwarm de oven voor op 300 graden. Spuit een langwerpige bakvorm in met bakspray. Ik gebruikte een pan van 14x8x2. Roomboter; Voeg geleidelijk suiker toe en blijf kloppen tot het mengsel licht en luchtig is.",
@@ -16534,7 +16534,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Carrés à la cannelle et aux noix",
-        "subtitle": "Si vous souhaitez ajouter plus de recettes lacto ovo végétariennes à votre répertoire, les carrés à la cannelle et aux noix pourraient être une recette que vous devriez essayer.",
+        "subtitle": "Si vous souhaitez ajouter plus de recettes lacto ovo végétariennes...",
         "description": "Si vous souhaitez ajouter plus de recettes lacto ovo végétariennes à votre répertoire, les carrés à la cannelle et aux noix pourraient être une recette que vous devriez essayer. Pour 27 cents par portion, cette recette couvre 3 % de vos besoins quotidiens en vitamines et minéraux. Une portion contient 174 calories, 2 g de protéines et 11 g de matières grasses. Cette recette est pour 24 personnes. Rendez-vous au magasin et procurez-vous des œufs, du sucre, des pacanes et quelques autres éléments pour la préparer aujourd'hui. Cela fonctionne bien comme un hor d'œuvre. 43 personnes ont trouvé cette recette délicieuse et satisfaisante. De la préparation à l'assiette, cette recette prend environ 1 heure et 10 minutes. Il vous est présenté par Pink When. Tous facteurs confondus, cette recette obtient un score cuillère de 16 %, ce qui n'est pas si spectaculaire. Si vous aimez cette recette, vous aimerez peut-être également des recettes telles que Carrés aux noix et au miel, Carrés aux noix et au caramel et Carrés aux noix salées.",
         "instructions": [
           "Préchauffer le four à 300 degrés. Vaporiser un moule oblong avec un enduit à pâtisserie. J'ai utilisé un moule 14x8x2. Crème de beurre ; ajoutez progressivement le sucre et continuez à battre jusqu'à ce que le mélange soit léger et mousseux.",
@@ -16691,7 +16691,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Tacos au tofu enrobés de bacon",
-        "subtitle": "Les tacos au tofu enveloppés de bacon sont un plat principal pour 10 personnes.",
+        "subtitle": "Les tacos au tofu enveloppés de bacon sont un plat principal pour 1...",
         "description": "Les tacos au tofu enveloppés de bacon sont un plat principal pour 10 personnes. Une portion de ce plat contient environ 28 g de protéines, 35 g de matières grasses et un total de 497 calories. Pour 1,56 $ par portion, cette recette couvre 16 % de vos besoins quotidiens en vitamines et minéraux. Si vous avez du paprika, de la taille d'une fajita, de l'huile d'olive et quelques autres ingrédients sous la main, vous pouvez le préparer. Cette recette de Foodista a 3 fans. De la préparation à l'assiette, cette recette prend environ 45 minutes. Peu de gens ont vraiment aimé ce plat mexicain. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 45 %. Ce score est bon. Essayez les tacos au tofu enrobés de bacon, le porc grillé enrobé de tacos au bacon et la longe de lapin enrobée de bacon avec vinaigrette aux fraises et au bacon pour des recettes similaires.",
         "instructions": [
           "Dans un petit bol, mélanger le cumin, la poudre de chili, le paprika, 1 gousse d'ail émincée et 2 cuillères à soupe d'huile d'olive.  Tranchez le tofu très finement, environ 1/2 pouce par tranche, puis frottez chaque tranche avec le mélange d'épices.  Annuler.",
@@ -16857,7 +16857,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Double Chocolate Milo Pancakes",
-        "subtitle": "Double Chocolate Milo Pancakes takes approximately 45 minutes from beginning to end.",
+        "subtitle": "Double Chocolate Milo Pancakes takes approximately 45 minutes from...",
         "description": "Double Chocolate Milo Pancakes takes approximately 45 minutes from beginning to end. This recipe serves 2 and costs 55 cents per serving. One serving contains 488 calories, 11g of protein, and 26g of fat. 6 people were glad they tried this recipe. Head to the store and pick up flour, sugar, sugar, and a few other things to make it today. It works well as a very reasonably priced breakfast. It is a good option if you're following a lacto ovo vegetarian diet. It is brought to you by Afrolems. Taking all factors into account, this recipe earns a spoonacular score of 39%, which is rather bad. Galletas de Milo (Milo Cookies), Double-Chocolate PB Pancakes, and Double Chocolate Pancakes are very similar to this recipe.",
         "instructions": [
           "Mix your dry ingredients and wet ingredients except the peanuts till smooth.In a pan, add 1 tablespoon of vegetable oil and with a small spoon, scoop the mixture and form little circles in the pan.Fry on low- medium heat till brown on both sides.When pancakes are fried and ready set aside.In a small pan, mix the milo, sugar and water and bring to boil on medium heat till a thick sauce is formed.",
@@ -16866,7 +16866,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Dubbele chocolade Milo-pannenkoeken",
-        "subtitle": "Double Chocolate Milo Pancakes duurt ongeveer 45 minuten van begin tot eind.",
+        "subtitle": "Double Chocolate Milo Pancakes duurt ongeveer 45 minuten van begin...",
         "description": "Double Chocolate Milo Pancakes duurt ongeveer 45 minuten van begin tot eind. Dit recept is voor 2 personen en kost 55 cent per portie. Eén portie bevat 488 calorieën, 11 g eiwit en 26 g vet. 6 mensen waren blij dat ze dit recept probeerden. Ga naar de winkel en koop meel, suiker, suiker en nog een paar andere dingen om het vandaag nog te maken. Het werkt goed als een zeer redelijk geprijsd ontbijt. Het is een goede optie als je een lacto-ovo-vegetarisch dieet volgt. It is brought to you by Afrolems. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 39%, wat nogal slecht is. Galletas de Milo (Milo-koekjes), PB-pannenkoeken met dubbele chocolade en dubbele chocoladepannenkoeken lijken sterk op dit recept.",
         "instructions": [
           "Meng de droge ingrediënten en de natte ingrediënten behalve de pinda's tot een gladde massa. Voeg 1 eetlepel plantaardige olie toe in een pan en schep het mengsel met een kleine lepel op en vorm kleine cirkels in de pan. Bak op laag tot middelhoog vuur tot ze aan beide kanten bruin zijn. Als de pannenkoeken gebakken en klaar zijn, zet ze dan opzij. Meng de milo, de suiker en het water in een kleine pan en breng op middelhoog vuur aan de kook tot er een dikke saus ontstaat.",
@@ -16875,7 +16875,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Crêpes Milo Double Chocolat",
-        "subtitle": "Les crêpes Milo au double chocolat prennent environ 45 minutes du début à la fin.",
+        "subtitle": "Les crêpes Milo au double chocolat prennent environ 45 minutes du d...",
         "description": "Les crêpes Milo au double chocolat prennent environ 45 minutes du début à la fin. Cette recette sert 2 personnes et coûte 55 cents par portion. Une portion contient 488 calories, 11 g de protéines et 26 g de matières grasses. 6 personnes étaient contentes d'avoir essayé cette recette. Rendez-vous au magasin et récupérez de la farine, du sucre, du sucre et quelques autres éléments pour le préparer aujourd'hui. Cela fonctionne bien comme petit-déjeuner à un prix très raisonnable. C'est une bonne option si vous suivez un régime lacto-ovo-végétarien. Il vous est présenté par Afrolems. En prenant en compte tous les facteurs, cette recette obtient un score cuillère de 39 %, ce qui est plutôt mauvais. Les Galletas de Milo (Biscuits Milo), les crêpes PB double chocolat et les crêpes double chocolat sont très similaires à cette recette.",
         "instructions": [
           "Mélangez vos ingrédients secs et vos ingrédients humides, sauf les cacahuètes, jusqu'à consistance lisse. Dans une poêle, ajoutez 1 cuillère à soupe d'huile végétale et avec une petite cuillère, versez le mélange et formez des petits cercles dans la poêle. Faites frire à feu doux-moyen jusqu'à ce qu'ils soient dorés des deux côtés.",
@@ -17043,7 +17043,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "How to Make the Perfect Sweet Potato Sloppy Joes",
-        "subtitle": "The recipe How to Make the Perfect Sweet Potato Sloppy Joes is ready in roughly 40 minutes and is definitely a super gluten free, dairy free, paleolithic, and primal option for lovers of American food.",
+        "subtitle": "The recipe How to Make the Perfect Sweet Potato Sloppy Joes is read...",
         "description": "The recipe How to Make the Perfect Sweet Potato Sloppy Joes is ready in roughly 40 minutes and is definitely a super gluten free, dairy free, paleolithic, and primal option for lovers of American food. This recipe serves 4. This main course has 679 calories, 49g of protein, and 18g of fat per serving. For $4.82 per serving, this recipe covers 46% of your daily requirements of vitamins and minerals. This recipe from Pink When has 11 fans. Head to the store and pick up salt and pepper, garlic, ground turkey, and a few other things to make it today. All things considered, we decided this recipe deserves a spoonacular score of 93%. This score is awesome. If you like this recipe, take a look at these similar recipes: How to Make the Perfect Sweet Potato Sloppy Joes, Just Perfect Sloppy Joes, and How to Make Classic Sloppy Joes.",
         "instructions": [
           "Preheat the oven to 425 degrees. Pierce the sweet potatoes all over the skin with a fork. Rub the outside of the potatoes with olive oil and cover with foil.",
@@ -17057,7 +17057,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Hoe maak je de perfecte zoete aardappel Sloppy Joes?",
-        "subtitle": "Het recept Hoe maak je de perfecte zoete aardappel Sloppy Joes is klaar in ongeveer 40 minuten en is absoluut een super glutenvrije, zuivelvrije, paleolithische en prima optie voor liefhebbers van Amerikaans eten.",
+        "subtitle": "Het recept Hoe maak je de perfecte zoete aardappel Sloppy Joes is k...",
         "description": "Het recept Hoe maak je de perfecte zoete aardappel Sloppy Joes is klaar in ongeveer 40 minuten en is absoluut een super glutenvrije, zuivelvrije, paleolithische en prima optie voor liefhebbers van Amerikaans eten. Dit recept is voor 4 personen. Dit hoofdgerecht bevat 679 calorieën, 49 g eiwit en 18 g vet per portie. Voor $ 4,82 per portie dekt dit recept 46% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept van Pink When heeft 11 fans. Ga naar de winkel en koop zout en peper, knoflook, gemalen kalkoen en nog een paar andere dingen om het vandaag te maken. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 93% verdient. Deze score is geweldig. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Hoe je de perfecte zoete aardappel Sloppy Joes maakt, Gewoon perfecte Sloppy Joes en Hoe je klassieke Sloppy Joes maakt.",
         "instructions": [
           "Verwarm de oven voor op 425 graden. Prik de zoete aardappelen helemaal in de schil met een vork. Wrijf de buitenkant van de aardappelen in met olijfolie en dek af met folie.",
@@ -17071,7 +17071,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Comment préparer les Sloppy Joes parfaits aux patates douces",
-        "subtitle": "La recette Comment préparer les Sloppy Joes à la patate douce parfaite est prête en 40 minutes environ et constitue sans aucun doute une option super sans gluten, sans produits laitiers, paléolithique et primale pour les amateurs de cuisine américaine.",
+        "subtitle": "La recette Comment préparer les Sloppy Joes à la patate douce parfa...",
         "description": "La recette Comment préparer les Sloppy Joes à la patate douce parfaite est prête en 40 minutes environ et constitue sans aucun doute une option super sans gluten, sans produits laitiers, paléolithique et primale pour les amateurs de cuisine américaine. Cette recette en sert 4. Ce plat principal contient 679 calories, 49 g de protéines et 18 g de matières grasses par portion. Pour 4,82 $ par portion, cette recette couvre 46 % de vos besoins quotidiens en vitamines et minéraux. Cette recette de Pink When a 11 fans. Rendez-vous au magasin et procurez-vous du sel et du poivre, de l'ail, de la dinde hachée et quelques autres éléments pour le préparer aujourd'hui. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 93 %. Cette partition est géniale. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Comment faire des Sloppy Joes parfaits à la patate douce, des Sloppy Joes juste parfaits et Comment faire des Sloppy Joes classiques.",
         "instructions": [
           "Préchauffer le four à 425 degrés. Percez les patates douces sur toute la peau avec une fourchette. Frotter l'extérieur des pommes de terre avec de l'huile d'olive et couvrir de papier d'aluminium.",
@@ -17214,7 +17214,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Easy Tomato Basil Chicken – One Pot Meal",
-        "subtitle": "You can never have too many main course recipes, so give Easy Tomato Basil Chicken – One Pot Meal a try.",
+        "subtitle": "You can never have too many main course recipes, so give Easy Tomat...",
         "description": "You can never have too many main course recipes, so give Easy Tomato Basil Chicken – One Pot Meal a try. This recipe serves 6. For $1.4 per serving, this recipe covers 15% of your daily requirements of vitamins and minerals. Watching your figure? This dairy free recipe has 423 calories, 19g of protein, and 7g of fat per serving. 10 people have tried and liked this recipe. It is brought to you by Pink When. Head to the store and pick up basil, rotini pasta, chicken breast strips/pre-cooked/chopped, and a few other things to make it today. From preparation to the plate, this recipe takes around 30 minutes. All things considered, we decided this recipe deserves a spoonacular score of 66%. This score is solid. Try Easy Tomato Basil Chicken – One Pot Meal, Easy Tomato Basil Chicken – One Pot Meal, and Easy Tomato Basil Chicken – One Pot Meal for similar recipes.",
         "instructions": [
           "Cook the Rotini pasta according to the instructions.",
@@ -17226,7 +17226,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Gemakkelijke kip met tomaten-basilicum – maaltijd voor één pot",
-        "subtitle": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Easy Tomato Basil Chicken – One Pot Meal eens.",
+        "subtitle": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Easy...",
         "description": "Je kunt nooit genoeg hoofdgerechtrecepten hebben, dus probeer Easy Tomato Basil Chicken – One Pot Meal eens. Dit recept is voor 6 personen. Voor $ 1,4 per portie dekt dit recept 15% van uw dagelijkse behoefte aan vitamines en mineralen. Op je figuur letten? Dit zuivelvrije recept bevat 423 calorieën, 19 g eiwit en 7 g vet per portie. 10 mensen hebben dit recept geprobeerd en vonden het leuk. Het wordt u aangeboden door Pink When. Ga naar de winkel en koop basilicum, rotini-pasta, kipfiletreepjes/voorgekookt/gehakt en nog een paar andere dingen om het vandaag te maken. Van bereiding tot op het bord duurt dit recept ongeveer 30 minuten. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 66% verdient. Deze score is solide. Probeer Easy Tomato Basil Chicken – Eénpansmaaltijd, Easy Tomato Basil Chicken – Eénpansmaaltijd en Easy Tomato Basil Chicken – Eénpansmaaltijd voor vergelijkbare recepten.",
         "instructions": [
           "Kook de Rotini-pasta volgens de instructies.",
@@ -17238,7 +17238,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Poulet facile aux tomates et au basilic – un repas en pot",
-        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, alors essayez le Poulet facile aux tomates et au basilic – One Pot Meal.",
+        "subtitle": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, a...",
         "description": "Vous ne pouvez jamais avoir trop de recettes de plats principaux, alors essayez le Poulet facile aux tomates et au basilic – One Pot Meal. Cette recette en sert 6. Pour 1,4 $ par portion, cette recette couvre 15 % de vos besoins quotidiens en vitamines et minéraux. Vous surveillez votre silhouette ? Cette recette sans produits laitiers contient 423 calories, 19 g de protéines et 7 g de matières grasses par portion. 10 personnes ont essayé et aimé cette recette. Il vous est présenté par Pink When. Rendez-vous au magasin et procurez-vous du basilic, des pâtes rotini, des lanières de poitrine de poulet/précuites/hachées et quelques autres choses à préparer aujourd'hui. De la préparation à l'assiette, cette recette prend environ 30 minutes. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 66 %. Ce score est solide. Essayez le poulet facile aux tomates et au basilic – un repas en pot, le poulet facile aux tomates et au basilic – un repas en pot et le poulet facile aux tomates et au basilic – un repas en pot pour des recettes similaires.",
         "instructions": [
           "Faites cuire les pâtes Rotini selon les instructions.",
@@ -17484,7 +17484,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cauliflower, Brown Rice, and Vegetable Fried Rice",
-        "subtitle": "The recipe Cauliflower, Brown Rice, and Vegetable Fried Rice is ready in around 30 minutes and is definitely a great gluten free, dairy free, lacto ovo vegetarian, and vegan option for lovers of Chinese food.",
+        "subtitle": "The recipe Cauliflower, Brown Rice, and Vegetable Fried Rice is rea...",
         "description": "The recipe Cauliflower, Brown Rice, and Vegetable Fried Rice is ready in around 30 minutes and is definitely a great gluten free, dairy free, lacto ovo vegetarian, and vegan option for lovers of Chinese food. This recipe makes 8 servings with 248 calories, 7g of protein, and 13g of fat each. For $1.19 per serving, this recipe covers 19% of your daily requirements of vitamins and minerals. It works well as a hor d'oeuvre. 3689 people have made this recipe and would make it again. It is brought to you by fullbellysisters.blogspot.com. Head to the store and pick up broccoli, t grapeseed oil, sesame seeds, and a few other things to make it today. With a spoonacular score of 100%, this dish is amazing. Cauliflower, Brown Rice, and Vegetable Fried Rice, Cauliflower, Brown Rice, and Vegetable Fried Rice, and Cauliflower, Brown Rice, and Vegetable Fried Rice are very similar to this recipe.",
         "instructions": [
           "Remove the cauliflower's tough stem and reserve for another use. Using a food processor, pulse cauliflower florets until they resemble rice or couscous. You should end up with around four cups of \"cauliflower rice.\"",
@@ -17500,7 +17500,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Bloemkool, bruine rijst en gefrituurde groenterijst",
-        "subtitle": "Het recept Bloemkool, Bruine Rijst en Groente Gebakken Rijst is in ongeveer 30 minuten klaar en is absoluut een geweldige glutenvrije, zuivelvrije, lacto-ovo-vegetarische en veganistische optie voor liefhebbers van Chinees eten.",
+        "subtitle": "Het recept Bloemkool, Bruine Rijst en Groente Gebakken Rijst is in...",
         "description": "Het recept Bloemkool, Bruine Rijst en Groente Gebakken Rijst is in ongeveer 30 minuten klaar en is absoluut een geweldige glutenvrije, zuivelvrije, lacto-ovo-vegetarische en veganistische optie voor liefhebbers van Chinees eten. Dit recept maakt 8 porties met elk 248 calorieën, 7 g eiwit en 13 g vet. Voor $ 1,19 per portie dekt dit recept 19% van uw dagelijkse behoefte aan vitamines en mineralen. Het werkt goed als hor d'oeuvre. 3689 mensen hebben dit recept gemaakt en zouden het opnieuw maken. Het wordt u aangeboden door fullbellysisters.blogspot.com. Ga naar de winkel en koop broccoli, druivenpitolie, sesamzaadjes en nog een paar andere dingen om het vandaag te maken. Met een lepelscore van 100% is dit gerecht geweldig. Bloemkool, bruine rijst en gebakken rijst met groenten, Bloemkool, bruine rijst en gebakken rijst met groenten, en bloemkool, bruine rijst en gebakken rijst met groenten lijken erg op dit recept.",
         "instructions": [
           "Verwijder de harde steel van de bloemkool en bewaar deze voor ander gebruik. Gebruik een keukenmachine en maal de bloemkoolroosjes tot ze op rijst of couscous lijken. Je zou ongeveer vier kopjes 'bloemkoolrijst' moeten krijgen.",
@@ -17516,7 +17516,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Chou-fleur, riz brun et riz frit aux légumes",
-        "subtitle": "La recette Chou-fleur, riz brun et riz frit aux légumes est prête en 30 minutes environ et constitue sans aucun doute une excellente option sans gluten, sans produits laitiers, lacto ovo végétarien et végétalienne pour les amateurs de cuisine chinoise.",
+        "subtitle": "La recette Chou-fleur, riz brun et riz frit aux légumes est prête e...",
         "description": "La recette Chou-fleur, riz brun et riz frit aux légumes est prête en 30 minutes environ et constitue sans aucun doute une excellente option sans gluten, sans produits laitiers, lacto ovo végétarien et végétalienne pour les amateurs de cuisine chinoise. Cette recette donne 8 portions avec 248 calories, 7 g de protéines et 13 g de matières grasses chacune. Pour 1,19 $ par portion, cette recette couvre 19 % de vos besoins quotidiens en vitamines et minéraux. Cela fonctionne bien comme un hor d'œuvre. 3689 personnes ont réalisé cette recette et la referaient. Il vous est présenté par fullbellysisters.blogspot.com. Rendez-vous au magasin et procurez-vous du brocoli, de l'huile de pépins de raisin, des graines de sésame et quelques autres éléments pour le préparer aujourd'hui. Avec une note cuillère de 100%, ce plat est époustouflant. Le chou-fleur, le riz brun et le riz frit aux légumes, le chou-fleur, le riz brun et le riz frit aux légumes, et le chou-fleur, le riz brun et le riz frit aux légumes sont très similaires à cette recette.",
         "instructions": [
           "Retirez la tige dure du chou-fleur et réservez-le pour une autre utilisation. À l'aide d'un robot culinaire, mélanger les fleurons de chou-fleur jusqu'à ce qu'ils ressemblent à du riz ou du couscous. Vous devriez vous retrouver avec environ quatre tasses de « riz au chou-fleur ».",
@@ -17691,7 +17691,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Ground Turkey Stuffed Peppers",
-        "subtitle": "Ground Turkey Stuffed Peppers might be just the main course you are searching for.",
+        "subtitle": "Ground Turkey Stuffed Peppers might be just the main course you are...",
         "description": "Ground Turkey Stuffed Peppers might be just the main course you are searching for. Watching your figure? This gluten free recipe has 463 calories, 34g of protein, and 17g of fat per serving. This recipe serves 4 and costs $3.0 per serving. 112 people were glad they tried this recipe. A mixture of bell peppers, garlic, onion, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 94%, which is spectacular. Try Ground Turkey Stuffed Peppers, Ground Turkey Stuffed Peppers, and Ground Turkey Stuffed Peppers for similar recipes.",
         "instructions": [
           "Cook rice then knead it together with remaining filling ingredients.",
@@ -17702,7 +17702,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Gemalen kalkoen gevulde paprika's",
-        "subtitle": "Gemalen Kalkoen Gevulde Paprika's is misschien wel het hoofdgerecht waar u naar op zoek bent.",
+        "subtitle": "Gemalen Kalkoen Gevulde Paprika's is misschien wel het hoofdgerecht...",
         "description": "Gemalen Kalkoen Gevulde Paprika's is misschien wel het hoofdgerecht waar u naar op zoek bent. Op je figuur letten? Dit glutenvrije recept bevat 463 calorieën, 34 g eiwit en 17 g vet per portie. Dit recept is voor 4 personen en kost $ 3,0 per portie. 112 mensen waren blij dat ze dit recept probeerden. Een mengsel van paprika, knoflook, ui en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 94%, wat spectaculair is. Probeer gemalen kalkoenpaprika's, gemalen kalkoengevulde paprika's en gemalen kalkoengevulde paprika's voor vergelijkbare recepten.",
         "instructions": [
           "Kook de rijst en kneed het samen met de resterende ingrediënten voor de vulling.",
@@ -17713,7 +17713,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Poivrons farcis à la dinde hachée",
-        "subtitle": "Les poivrons farcis à la dinde hachée pourraient bien être le plat principal que vous recherchez.",
+        "subtitle": "Les poivrons farcis à la dinde hachée pourraient bien être le plat...",
         "description": "Les poivrons farcis à la dinde hachée pourraient bien être le plat principal que vous recherchez. Vous surveillez votre silhouette ? Cette recette sans gluten contient 463 calories, 34 g de protéines et 17 g de matières grasses par portion. Cette recette sert 4 personnes et coûte 3,0 $ par portion. 112 personnes étaient heureuses d'avoir essayé cette recette. Un mélange de poivrons, d’ail, d’oignon et une poignée d’autres ingrédients suffisent pour rendre cette recette si délicieuse. Il vous est présenté par Foodista. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 94 %, ce qui est spectaculaire. Essayez les poivrons farcis à la dinde hachée, les poivrons farcis à la dinde hachée et les poivrons farcis à la dinde hachée pour des recettes similaires.",
         "instructions": [
           "Faites cuire le riz puis pétrissez-le avec le reste des ingrédients de la garniture.",
@@ -18088,7 +18088,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Lemon Squares",
-        "subtitle": "Lemon Squares might be a good recipe to expand your side dish recipe box.",
+        "subtitle": "Lemon Squares might be a good recipe to expand your side dish recip...",
         "description": "Lemon Squares might be a good recipe to expand your side dish recipe box. For 27 cents per serving, this recipe covers 2% of your daily requirements of vitamins and minerals. Watching your figure? This gluten free, lacto ovo vegetarian, and fodmap friendly recipe has 145 calories, 2g of protein, and 13g of fat per serving. This recipe serves 8. From preparation to the plate, this recipe takes roughly 45 minutes. This recipe from Foodista requires butter, powdered sugar, sugar, and lemon peel. 2 people have made this recipe and would make it again. With a spoonacular score of 9%, this dish is improvable. Users who liked this recipe also liked Easy Lemon Bars (Lemon Squares), Easy Lemon Bars (Lemon Squares), and Lemon Squares.",
         "instructions": [
           "Sift flour and powdered sugar together.",
@@ -18101,7 +18101,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Citroenvierkanten",
-        "subtitle": "Lemon Squares is misschien een goed recept om je receptendoos voor bijgerechten uit te breiden.",
+        "subtitle": "Lemon Squares is misschien een goed recept om je receptendoos voor...",
         "description": "Lemon Squares is misschien een goed recept om je receptendoos voor bijgerechten uit te breiden. Voor 27 cent per portie dekt dit recept 2% van je dagelijkse behoefte aan vitamines en mineralen. Op je figuur letten? Dit glutenvrije, lacto-ovo-vegetarische en fodmap-vriendelijke recept bevat 145 calorieën, 2 g eiwit en 13 g vet per portie. Dit recept is voor 8 personen. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Voor dit recept van Foodista heb je boter, poedersuiker, suiker en citroenschil nodig. 2 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Met een lepelscore van 9% is dit gerecht voor verbetering vatbaar. Gebruikers die dit recept lekker vonden, hielden ook van Easy Lemon Bars (Lemon Squares), Easy Lemon Bars (Lemon Squares) en Lemon Squares.",
         "instructions": [
           "Zeef de bloem en de poedersuiker samen.",
@@ -18114,7 +18114,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Carrés au Citron",
-        "subtitle": "Les carrés au citron pourraient être une bonne recette pour élargir votre boîte de recettes de plats d’accompagnement.",
+        "subtitle": "Les carrés au citron pourraient être une bonne recette pour élargir...",
         "description": "Les carrés au citron pourraient être une bonne recette pour élargir votre boîte de recettes de plats d’accompagnement. Pour 27 cents par portion, cette recette couvre 2 % de vos besoins quotidiens en vitamines et minéraux. Vous surveillez votre silhouette ? Cette recette sans gluten, lacto ovo végétarienne et adaptée aux fodmaps contient 145 calories, 2 g de protéines et 13 g de matières grasses par portion. Cette recette est pour 8 personnes. De la préparation à l'assiette, cette recette prend environ 45 minutes. Cette recette de Foodista nécessite du beurre, du sucre en poudre, du sucre et du zeste de citron. 2 personnes ont réalisé cette recette et la referaient. Avec un score cuillère de 9%, ce plat est améliorable. Les utilisateurs qui ont aimé cette recette ont également aimé les barres faciles au citron (carrés au citron), les barres faciles au citron (carrés au citron) et les carrés au citron.",
         "instructions": [
           "Tamiser ensemble la farine et le sucre en poudre.",
@@ -18236,7 +18236,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "My Sister's Soup: Creamy Curried Squash and Cauliflower Soup",
-        "subtitle": "My Sister's Soup: Creamy Curried Squash and Cauliflower Soup is a gluten free, lacto ovo vegetarian, and primal hor d'oeuvre.",
+        "subtitle": "My Sister's Soup: Creamy Curried Squash and Cauliflower Soup is a g...",
         "description": "My Sister's Soup: Creamy Curried Squash and Cauliflower Soup is a gluten free, lacto ovo vegetarian, and primal hor d'oeuvre. One serving contains 176 calories, 4g of protein, and 6g of fat. For $1.59 per serving, this recipe covers 20% of your daily requirements of vitamins and minerals. This recipe serves 6. 2 people have made this recipe and would make it again. If you have garlic, delicata squash, butter, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. Autumn will be even more special with this recipe. From preparation to the plate, this recipe takes about 45 minutes. Taking all factors into account, this recipe earns a spoonacular score of 59%, which is pretty good. Similar recipes include My Sister's Soup: Creamy Curried Squash and Cauliflower Soup, Creamy Curried Squash And Cauliflower Soup, and Creamy Curried Squash And Cauliflower Soup.",
         "instructions": [
           "Preheat your oven to 375 degrees F.",
@@ -18252,7 +18252,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "My Sister's Soup: Romige curry-pompoen- en bloemkoolsoep",
-        "subtitle": "My Sister's Soup: Romige Curried Squash en Bloemkoolsoep is een glutenvrije, lacto ovo-vegetarische en oer-hor d'oeuvre.",
+        "subtitle": "My Sister's Soup: Romige Curried Squash en Bloemkoolsoep is een glu...",
         "description": "My Sister's Soup: Romige Curried Squash en Bloemkoolsoep is een glutenvrije, lacto ovo-vegetarische en oer-hor d'oeuvre. Eén portie bevat 176 calorieën, 4 g eiwit en 6 g vet. Voor $ 1,59 per portie dekt dit recept 20% van uw dagelijkse behoefte aan vitamines en mineralen. Dit recept is voor 6 personen. 2 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Als je knoflook, delicatapompoen, boter en een paar andere ingrediënten bij de hand hebt, kun je het maken. Het wordt u aangeboden door Foodista. De herfst wordt nog specialer met dit recept. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 59%, wat behoorlijk goed is. Soortgelijke recepten zijn onder meer My Sister's Soup: romige pompoen- en bloemkoolsoep met curry, romige pompoen- en bloemkoolsoep met curry en romige pompoen- en bloemkoolsoep met curry.",
         "instructions": [
           "Verwarm uw oven voor op 375 graden F.",
@@ -18268,7 +18268,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Soupe de ma sœur : soupe crémeuse à la courge et au chou-fleur au curry",
-        "subtitle": "Soupe de ma sœur : La soupe crémeuse à la courge et au chou-fleur au curry est un hors-d'œuvre sans gluten, lacto ovo végétarien et primal.",
+        "subtitle": "Soupe de ma sœur : La soupe crémeuse à la courge et au chou-fleur a...",
         "description": "Soupe de ma sœur : La soupe crémeuse à la courge et au chou-fleur au curry est un hors-d'œuvre sans gluten, lacto ovo végétarien et primal. Une portion contient 176 calories, 4 g de protéines et 6 g de matières grasses. Pour 1,59 $ par portion, cette recette couvre 20 % de vos besoins quotidiens en vitamines et minéraux. Cette recette est pour 6 personnes. 2 personnes ont réalisé cette recette et la referaient. Si vous avez de l’ail, de la courge delicata, du beurre et quelques autres ingrédients sous la main, vous pouvez le préparer. Il vous est présenté par Foodista. L'automne sera encore plus spécial avec cette recette. De la préparation à l'assiette, cette recette prend environ 45 minutes. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 59 %, ce qui est plutôt bon. Des recettes similaires incluent la soupe de ma sœur : soupe crémeuse à la courge et au chou-fleur au curry, soupe crémeuse à la courge et au chou-fleur au curry et soupe crémeuse à la courge et au chou-fleur au curry.",
         "instructions": [
           "Préchauffez votre four à 375 degrés F.",
@@ -18413,7 +18413,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Chocolate Quark Cake",
-        "subtitle": "Chocolate Quark Cake might be a good recipe to expand your dessert recipe box.",
+        "subtitle": "Chocolate Quark Cake might be a good recipe to expand your dessert...",
         "description": "Chocolate Quark Cake might be a good recipe to expand your dessert recipe box. This recipe serves 12. One portion of this dish contains about 13g of protein, 55g of fat, and a total of 893 calories. For $1.74 per serving, this recipe covers 16% of your daily requirements of vitamins and minerals. A mixture of butter, sugar, flour, and a handful of other ingredients are all it takes to make this recipe so yummy. 2 people found this recipe to be tasty and satisfying. From preparation to the plate, this recipe takes approximately 45 minutes. It is brought to you by Foodista. Overall, this recipe earns a rather bad spoonacular score of 36%. Similar recipes include Gingerbread with Quark Cheesecake, Quark Custard Strudel, and Fresh Herbed Quark Spaetzle.",
         "instructions": [
           "To make the frosting:In a medium-size pan, heat the cream and sugar. Stir until the sugar has dissolved.",
@@ -18433,7 +18433,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Chocolade Kwarktaart",
-        "subtitle": "Chocolade Quark Cake is misschien een goed recept om je dessertreceptendoos uit te breiden.",
+        "subtitle": "Chocolade Quark Cake is misschien een goed recept om je dessertrece...",
         "description": "Chocolade Quark Cake is misschien een goed recept om je dessertreceptendoos uit te breiden. Dit recept serveert 12 personen. Eén portie van dit gerecht bevat ongeveer 13 g eiwit, 55 g vet en in totaal 893 calorieën. Voor $ 1,74 per portie dekt dit recept 16% van uw dagelijkse behoefte aan vitamines en mineralen. Een mengsel van boter, suiker, bloem en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. 2 mensen vonden dit recept lekker en bevredigend. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Over het geheel genomen verdient dit recept een nogal slechte lepelscore van 36%. Soortgelijke recepten zijn onder meer Peperkoek met Quark Cheesecake, Quark Custard Strudel en Fresh Herbed Quark Spaetzle.",
         "instructions": [
           "Om het glazuur te maken: Verwarm de room en de suiker in een middelgrote pan. Roer tot de suiker is opgelost.",
@@ -18453,7 +18453,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteau au fromage blanc et au chocolat",
-        "subtitle": "Le gâteau au fromage blanc et au chocolat pourrait être une bonne recette pour élargir votre boîte de recettes de desserts.",
+        "subtitle": "Le gâteau au fromage blanc et au chocolat pourrait être une bonne r...",
         "description": "Le gâteau au fromage blanc et au chocolat pourrait être une bonne recette pour élargir votre boîte de recettes de desserts. Cette recette en sert 12. Une portion de ce plat contient environ 13 g de protéines, 55 g de matières grasses et un total de 893 calories. Pour 1,74 $ par portion, cette recette couvre 16 % de vos besoins quotidiens en vitamines et minéraux. Un mélange de beurre, de sucre, de farine et d’une poignée d’autres ingrédients suffit pour rendre cette recette si délicieuse. 2 personnes ont trouvé cette recette savoureuse et satisfaisante. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Dans l'ensemble, cette recette obtient un score cuillère plutôt mauvais de 36 %. Des recettes similaires incluent le pain d'épices avec gâteau au fromage au fromage blanc, le strudel à la crème au fromage blanc et le spaetzle au fromage blanc aux herbes fraîches.",
         "instructions": [
           "Pour faire le glaçage : Dans une poêle de taille moyenne, faire chauffer la crème et le sucre. Remuer jusqu'à ce que le sucre soit dissous.",
@@ -18881,7 +18881,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Orange Chocolate Cake",
-        "subtitle": "Orange Chocolate Cake requires approximately 45 minutes from start to finish.",
+        "subtitle": "Orange Chocolate Cake requires approximately 45 minutes from start...",
         "description": "Orange Chocolate Cake requires approximately 45 minutes from start to finish. This recipe makes 12 servings with 247 calories, 4g of protein, and 14g of fat each. For 43 cents per serving, this recipe covers 5% of your daily requirements of vitamins and minerals. 95 people have made this recipe and would make it again. A mixture of semi-sweet chocolate, baking soda, flour, and a handful of other ingredients are all it takes to make this recipe so tasty. A few people really liked this dessert. It is brought to you by Foodista. Overall, this recipe earns a rather bad spoonacular score of 25%. If you like this recipe, take a look at these similar recipes: Orange-Scented Bittersweet Chocolate Cake with Candied Blood Orange Compote, Wacky Chocolate-Orange Cake with Orange Frosting, and Chocolate Orange Protein Cake with Chocolate Icing.",
         "instructions": [
           "Preheat oven at 175C, Grease a 9\" bundt pan, and dust flour or spray non-stick spray in pan.Beat butter for a while and add in sugar, continue to beat butter until creamy.",
@@ -18894,7 +18894,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Oranje chocoladetaart",
-        "subtitle": "De Orange Chocolate Cake heeft van begin tot eind ongeveer 45 minuten nodig.",
+        "subtitle": "De Orange Chocolate Cake heeft van begin tot eind ongeveer 45 minut...",
         "description": "De Orange Chocolate Cake heeft van begin tot eind ongeveer 45 minuten nodig. Dit recept maakt 12 porties met elk 247 calorieën, 4 g eiwit en 14 g vet. Voor 43 cent per portie dekt dit recept 5% van je dagelijkse behoefte aan vitamines en mineralen. 95 mensen hebben dit recept gemaakt en zouden het nog een keer maken. Een mengsel van halfzoete chocolade, zuiveringszout, bloem en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Een paar mensen vonden dit dessert erg lekker. Het wordt u aangeboden door Foodista. Over het geheel genomen verdient dit recept een nogal slechte lepelscore van 25%. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Sinaasappelgeurende bitterzoete chocoladetaart met gekonfijte bloedsinaasappelcompote, gekke chocolade-sinaasappeltaart met sinaasappelglazuur en chocolade-sinaasappelproteïnecake met chocoladeglazuur.",
         "instructions": [
           "Verwarm de oven voor op 175 ° C. Vet een 23 cm grote pan in en bestuif bloem of spuit antiaanbakspray in de pan. Klop de boter een tijdje en voeg de suiker toe, blijf de boter kloppen tot hij romig is.",
@@ -18907,7 +18907,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Gâteau au chocolat et à l'orange",
-        "subtitle": "Le gâteau au chocolat et à l'orange nécessite environ 45 minutes du début à la fin.",
+        "subtitle": "Le gâteau au chocolat et à l'orange nécessite environ 45 minutes du...",
         "description": "Le gâteau au chocolat et à l'orange nécessite environ 45 minutes du début à la fin. Cette recette donne 12 portions avec 247 calories, 4 g de protéines et 14 g de matières grasses chacune. Pour 43 cents par portion, cette recette couvre 5 % de vos besoins quotidiens en vitamines et minéraux. 95 personnes ont réalisé cette recette et la referaient. Un mélange de chocolat mi-sucré, de bicarbonate de soude, de farine et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. Quelques personnes ont vraiment aimé ce dessert. Il vous est présenté par Foodista. Dans l'ensemble, cette recette obtient un score cuillère plutôt mauvais de 25 %. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Gâteau au chocolat aigre-doux parfumé à l'orange avec compote d'orange sanguine confite, Gâteau farfelu chocolat-orange avec glaçage à l'orange et Gâteau protéiné chocolat-orange avec glaçage au chocolat.",
         "instructions": [
           "Préchauffer le four à 175°C, graisser un moule à gâteau de 9\" et saupoudrer de farine ou vaporiser un spray antiadhésif dans le moule. Battre le beurre pendant un moment et ajouter le sucre, continuer à battre le beurre jusqu'à ce qu'il soit crémeux.",
@@ -19069,7 +19069,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Steak And Pepper Rounds With Rose Horseradish Garlic Creme Sauce",
-        "subtitle": "Steak And Pepper Rounds With Rose Horseradish Garlic Creme Sauce is a main course that serves 8.",
+        "subtitle": "Steak And Pepper Rounds With Rose Horseradish Garlic Creme Sauce is...",
         "description": "Steak And Pepper Rounds With Rose Horseradish Garlic Creme Sauce is a main course that serves 8. One portion of this dish contains around 19g of protein, 21g of fat, and a total of 395 calories. For $2.26 per serving, this recipe covers 15% of your daily requirements of vitamins and minerals. valentin day will be even more special with this recipe. This recipe is liked by 3 foodies and cooks. If you have olive oil, of pepper, of salt, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes around 45 minutes. It is brought to you by Foodista. All things considered, we decided this recipe deserves a spoonacular score of 51%. This score is solid. If you like this recipe, take a look at these similar recipes: Pepper-Crusted Steak with Horseradish Cream on Grilled Garlic Crostini, Cumin-Pepper Flank Steak with Horseradish Herb Sauce, and Garlic Steak With Horseradish Sauce by Bobby Flay.",
         "instructions": [
           "Drizzle 1 tbsp. of olive oil over garlic bulb and wrap in aluminum foil.",
@@ -19096,7 +19096,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Biefstuk En Peperrondjes Met Roze Mierikswortel Knoflook Cremesaus",
-        "subtitle": "Biefstuk- en peperrondjes met roze mierikswortel-knoflookcrèmesaus is een hoofdgerecht voor 8 personen.",
+        "subtitle": "Biefstuk- en peperrondjes met roze mierikswortel-knoflookcrèmesaus...",
         "description": "Biefstuk- en peperrondjes met roze mierikswortel-knoflookcrèmesaus is een hoofdgerecht voor 8 personen. Eén portie van dit gerecht bevat ongeveer 19 g eiwit, 21 g vet en in totaal 395 calorieën. Voor $ 2,26 per portie dekt dit recept 15% van uw dagelijkse behoefte aan vitamines en mineralen. Valentijnsdag wordt nog specialer met dit recept. Dit recept is geliefd bij 3 foodies en koks. Als je olijfolie, peper, zout en een paar andere ingrediënten bij de hand hebt, kun je het maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. Het wordt u aangeboden door Foodista. Alles bij elkaar genomen hebben we besloten dat dit recept een lepelscore van 51% verdient. Deze score is solide. Als je dit recept lekker vindt, kijk dan eens naar deze soortgelijke recepten: Biefstuk met peperkorst en mierikswortelroom op gegrilde knoflookcrostini, Flankbiefstuk met komijn-peper met mierikswortelkruidsaus en Knoflooksteak met mierikswortelsaus van Bobby Flay.",
         "instructions": [
           "Besprenkel 1 eetl. olijfolie over de knoflookbol en wikkel in aluminiumfolie.",
@@ -19123,7 +19123,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Rondelles de steak et de poivrons avec sauce crème à l'ail et au raifort à la rose",
-        "subtitle": "Les rondelles de steak et de poivre avec sauce crème à l'ail et au raifort rose sont un plat principal pour 8 personnes.",
+        "subtitle": "Les rondelles de steak et de poivre avec sauce crème à l'ail et au...",
         "description": "Les rondelles de steak et de poivre avec sauce crème à l'ail et au raifort rose sont un plat principal pour 8 personnes. Une portion de ce plat contient environ 19 g de protéines, 21 g de matières grasses et un total de 395 calories. Pour 2,26 $ par portion, cette recette couvre 15 % de vos besoins quotidiens en vitamines et minéraux. La Saint-Valentin sera encore plus spéciale avec cette recette. Cette recette est appréciée par 3 gourmands et cuisiniers. Si vous avez de l’huile d’olive, du poivre, du sel et quelques autres ingrédients sous la main, vous pouvez le préparer. De la préparation à l'assiette, cette recette prend environ 45 minutes. Il vous est présenté par Foodista. Tout bien considéré, nous avons décidé que cette recette méritait un score cuillère de 51 %. Ce score est solide. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Steak en croûte de poivre avec crème de raifort sur crostini à l'ail grillé, Steak de flanc au cumin et au poivre avec sauce aux herbes de raifort et Steak à l'ail avec sauce au raifort de Bobby Flay.",
         "instructions": [
           "Arroser de 1 cuillère à soupe. d'huile d'olive sur le bulbe d'ail et envelopper dans du papier d'aluminium.",
@@ -19379,7 +19379,7 @@ window.initialRecipes = [
     "translations": {
       "en": {
         "title": "Cilantro Hummus",
-        "subtitle": "Need a gluten free, dairy free, lacto ovo vegetarian, and vegan hor d'oeuvre?",
+        "subtitle": "Need a gluten free, dairy free, lacto ovo vegetarian, and vegan hor...",
         "description": "Need a gluten free, dairy free, lacto ovo vegetarian, and vegan hor d'oeuvre? Cilantro Hummus could be an amazing recipe to try. This recipe makes 8 servings with 75 calories, 3g of protein, and 4g of fat each. For 21 cents per serving, this recipe covers 4% of your daily requirements of vitamins and minerals. If you have salt, tahini, olive oil, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes around 45 minutes. 2 people found this recipe to be yummy and satisfying. It is a very affordable recipe for fans of middl eastern food. It is brought to you by Foodista. With a spoonacular score of 49%, this dish is solid. Similar recipes include Cilantro Hummus, Avocado Cilantro Hummus, and Avocado Cilantro Hummus.",
         "instructions": [
           "In your food processor, add the garbanzo beans, tahini, lemon juice, garlic, salt and cayenne. Turn on and pulse until mixture is fairly smooth.",
@@ -19394,7 +19394,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Koriander Hummus",
-        "subtitle": "Heb je een glutenvrij, zuivelvrij, lacto ovo-vegetarisch en veganistisch hor d'oeuvre nodig?",
+        "subtitle": "Heb je een glutenvrij, zuivelvrij, lacto ovo-vegetarisch en veganis...",
         "description": "Heb je een glutenvrij, zuivelvrij, lacto ovo-vegetarisch en veganistisch hor d'oeuvre nodig? Cilantro Hummus zou een geweldig recept kunnen zijn om te proberen. Dit recept maakt 8 porties met elk 75 calorieën, 3 g eiwit en 4 g vet. Voor 21 cent per portie dekt dit recept 4% van je dagelijkse behoefte aan vitamines en mineralen. Als je zout, tahini, olijfolie en een paar andere ingrediënten bij de hand hebt, kun je het maken. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten. 2 mensen vonden dit recept lekker en bevredigend. Het is een zeer betaalbaar recept voor liefhebbers van Midden-Oosterse gerechten. Het wordt u aangeboden door Foodista. Met een lepelscore van 49% is dit gerecht stevig. Soortgelijke recepten zijn onder meer Cilantro Hummus, Avocado Cilantro Hummus en Avocado Cilantro Hummus.",
         "instructions": [
           "Voeg in je keukenmachine de kekerbonen, tahini, citroensap, knoflook, zout en cayennepeper toe. Zet aan en pulseer tot het mengsel redelijk glad is.",
@@ -19409,7 +19409,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Houmous à la coriandre",
-        "subtitle": "Besoin d'un hors-d'œuvre sans gluten, sans produits laitiers, lacto ovo végétarien et végétalien ?",
+        "subtitle": "Besoin d'un hors-d'œuvre sans gluten, sans produits laitiers, lacto...",
         "description": "Besoin d'un hors-d'œuvre sans gluten, sans produits laitiers, lacto ovo végétarien et végétalien ? Le houmous à la coriandre pourrait être une recette étonnante à essayer. Cette recette donne 8 portions de 75 calories, 3 g de protéines et 4 g de matières grasses chacune. Pour 21 cents par portion, cette recette couvre 4 % de vos besoins quotidiens en vitamines et minéraux. Si vous avez du sel, du tahini, de l’huile d’olive et quelques autres ingrédients sous la main, vous pouvez le préparer. De la préparation à l'assiette, cette recette prend environ 45 minutes. 2 personnes ont trouvé cette recette délicieuse et satisfaisante. C'est une recette très abordable pour les amateurs de cuisine du Moyen-Orient. Il vous est présenté par Foodista. Avec un score cuillère de 49%, ce plat est solide. Des recettes similaires incluent le houmous à la coriandre, le houmous à l’avocat et à la coriandre et le houmous à l’avocat et à la coriandre.",
         "instructions": [
           "Dans votre robot culinaire, ajoutez les pois chiches, le tahini, le jus de citron, l'ail, le sel et le poivre de Cayenne. Allumez et pulsez jusqu’à ce que le mélange soit assez lisse.",
@@ -19563,7 +19563,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Lo Mein au Poulet",
-        "subtitle": "Le poulet Lo Mein est une recette sans produits laitiers avec 2 portions.",
+        "subtitle": "Le poulet Lo Mein est une recette sans produits laitiers avec 2 por...",
         "description": "Le poulet Lo Mein est une recette sans produits laitiers avec 2 portions. Une portion de ce plat contient environ 29 g de protéines, 8 g de matières grasses et un total de 401 calories. Pour 1,77 $ par portion, cette recette couvre 30 % de vos besoins quotidiens en vitamines et minéraux. De la préparation à l'assiette, cette recette prend environ 45 minutes. 2 personnes ont réalisé cette recette et la referaient. Il vous est présenté par Foodista. Si vous avez de la poitrine de poulet, du gingembre, du bouillon de poulet et quelques autres ingrédients sous la main, vous pouvez le préparer. Peu de gens ont vraiment aimé ce plat principal. Dans l'ensemble, cette recette obtient un score cuillère spectaculaire de 84 %. Pancit canton (alias lo mein ou chow mein), Pancit canton (alias lo mein ou chow mein) et Chicken Lo Mein sont très similaires à cette recette.",
         "instructions": [
           "Dans une grande poêle antiadhésive, faire chauffer l'huile; ajouter le gingembre et l'ail et cuire à feu moyen pendant 1 minute.",
@@ -19737,7 +19737,7 @@ window.initialRecipes = [
       },
       "nl": {
         "title": "Brioche-broodpudding",
-        "subtitle": "Brioche Broodpudding heeft van begin tot eind ongeveer 45 minuten nodig.",
+        "subtitle": "Brioche Broodpudding heeft van begin tot eind ongeveer 45 minuten n...",
         "description": "Brioche Broodpudding heeft van begin tot eind ongeveer 45 minuten nodig. Voor $ 1,65 per portie dekt dit recept 15% van uw dagelijkse behoefte aan vitamines en mineralen. Eén portie van dit gerecht bevat ongeveer 15 g eiwit, 32 g vet en in totaal 503 calorieën. Dit recept is voor 8 personen. Het werkt goed als dessert. Dit recept is geliefd bij 3 foodies en koks. Een mengsel van melk, vanille-extract, eieren en een handvol andere ingrediënten is voldoende om dit recept zo lekker te maken. Het wordt u aangeboden door Foodista. Als we alle factoren in aanmerking nemen, krijgt dit recept een lepelscore van 40%, wat nogal slecht is. Als je dit recept lekker vindt, kijk dan eens naar deze vergelijkbare recepten: Blueberry Brioche Bread Pudding, Brioche Pumpkin Bread Pudding en Berry Brioche Bread Pudding.",
         "instructions": [
           "Plaats de broodblokjes in een bakvorm van 13 bij 9 bij 2 inch.",
@@ -19752,7 +19752,7 @@ window.initialRecipes = [
       },
       "fr": {
         "title": "Pouding au pain brioché",
-        "subtitle": "Le pudding au pain brioché nécessite environ 45 minutes du début à la fin.",
+        "subtitle": "Le pudding au pain brioché nécessite environ 45 minutes du début à...",
         "description": "Le pudding au pain brioché nécessite environ 45 minutes du début à la fin. Pour 1,65 $ par portion, cette recette couvre 15 % de vos besoins quotidiens en vitamines et minéraux. Une portion de ce plat contient environ 15 g de protéines, 32 g de matières grasses et un total de 503 calories. Cette recette en sert 8 personnes. Elle fonctionne bien comme dessert. Cette recette est appréciée par 3 gourmands et cuisiniers. Un mélange de lait, d'extrait de vanille, d'œufs et une poignée d'autres ingrédients suffisent pour rendre cette recette si savoureuse. Il vous est présenté par Foodista. En tenant compte de tous les facteurs, cette recette obtient un score cuillère de 40 %, ce qui est plutôt mauvais. Si vous aimez cette recette, jetez un œil à ces recettes similaires : Pouding au pain brioché aux bleuets, Pouding au pain brioché à la citrouille et Pouding au pain brioché aux baies.",
         "instructions": [
           "Placer les cubes de pain dans un plat allant au four de 13 x 9 x 2 pouces.",

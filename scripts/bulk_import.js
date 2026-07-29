@@ -137,7 +137,11 @@ function getFirstSentence(text) {
   if (!text) return "";
   const clean = text.replace(/<[^>]*>?/gm, '').trim();
   const match = clean.match(/^[^.!?]+[.!?]/);
-  return match ? match[0].trim() : clean;
+  let sentence = match ? match[0].trim() : clean;
+  if (sentence.length > 70) {
+    sentence = sentence.substring(0, 67).trim() + "...";
+  }
+  return sentence;
 }
 
 // --- Main Engine ---
