@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
+  <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Simulated Mobile Phone Frame -->
+  <div class="phone-frame">
+    
+    <!-- Phone Status Bar Mockup -->
+    <div class="phone-status-bar">
+      <span id="phone-time">12:21</span>
+      <div class="status-icons">
+        <span class="status-dot"></span>
+        <span>Colruyt 5G</span>
+        <span>98% 🔋</span>
+      </div>
+    </div>
+
+    <!-- Toast Notification Banner -->
+    <div id="toast" class="toast-msg">
+      <span class="toast-icon">✅</span>
+      <span class="toast-text">Success</span>
+    </div>
+
+    <!-- Scrollable Main App Content -->
+    <main class="app-content">
+
+      <!-- ================= DISCOVER (HOME) TAB ================= -->
+      <section id="home-panel" class="tab-panel active-panel">
+        <header>
+          <div class="header-top">
+            <div class="app-logo">
+              <div class="app-logo-icon">🍳</div>
+              <div class="app-title-group">
+                <h1 data-translate="appTitle">Mijn Kookpot</h1>
+                <p data-translate="appSubtitle">Belgian Recipe & Grocery Companion</p>
+              </div>
+            </div>
+            <div id="market-badge-container">
+              <!-- Dynamically rendered store location badge -->
+            </div>
+          </div>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="home-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="Search recipes...">
+        </div>
+
+        <!-- Featured Suggestion -->
+        <div class="section-header">
+          <h2 class="section-title" data-translate="suggestedTitle">Suggested Belgian Classic</h2>
+        </div>
+        <div id="featured-recipe-container">
+          <!-- Featured recipe card loaded here dynamically -->
+        </div>
+
+        <!-- Supermarket Tip Box -->
+        <div id="store-tip-container">
+          <!-- Load active supermarket tip -->
+        </div>
+
+        <!-- Explore Recipes Section -->
+        <div class="section-header" style="margin-top: 24px;">
+          <h2 class="section-title" data-translate="exploreTitle">Explore Recipes</h2>
+          <span class="section-link" data-translate="seeAll" onclick="switchTab('recipes')">See all</span>
+        </div>
+        <div class="recipe-grid" id="home-recipe-grid">
+          <!-- Loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- ================= RECIPES TAB ================= -->
+      <section id="recipes-panel" class="tab-panel" style="position: relative; height: 100%;">
+        <header>
+          <h1 style="font-family: var(--font-display); font-size: 24px; font-weight: 800; margin-bottom: 4px;" data-translate="recipeBookTitle">Recipe Book</h1>
+          <p style="font-size: 12px; color: var(--text-secondary);" data-translate="recipeBookDesc">Your collection of premium Belgian dishes</p>
+        </header>
+
+        <!-- Search bar -->
+        <div class="search-container">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="Search by name or ingredients...">
+        </div>
+
+        <!-- Horizontal Categories Scroller -->
+        <div class="category-row" id="recipe-categories-row">
+          <!-- Filled dynamically in app.js -->
+        </div>
+
+        <!-- Recipes Grid -->
+        <div class="recipe-grid" id="recipes-tab-grid" style="margin-top: 10px; padding-bottom: 70px;">
+          <!-- Loaded dynamically -->
+        </div>
+
+        <!-- Floating Batch Action Bar (Docks above tab bar when recipes are checked) -->
+        <div id="recipe-batch-bar" class="batch-action-bar">
+          <span id="batch-bar-text">Selected: 0 recipes</span>
+          <button id="batch-convert-btn" class="btn-small btn-primary" data-translate="createListBtn" style="border: none; padding: 6px 12px; font-weight: 700; color: var(--bg-primary);">Generate List</button>
+        </div>
+
+        <!-- Floating Add Recipe Button (FAB) -->
+        <button class="fab-btn" id="add-recipe-fab" title="Create Custom Recipe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </button>
+      </section>
+
+      <!-- ================= CHECKLIST (GROCERY LIST) TAB ================= -->
+      <section id="grocery-panel" class="tab-panel">
+        <header>
+          <h1 style="font-family: var(--font-display); font-size: 24px; font-weight: 800; margin-bottom: 4px;" data-translate="checklistTitle">Grocery List</h1>
+          <p style="font-size: 12px; color: var(--text-secondary);" data-translate="checklistDesc">Sorted by supermarket aisles for quick navigation</p>
+        </header>
+
+        <div id="grocery-panel-wrapper">
+          <!-- Mode toggler & Clear options -->
+          <div class="list-controls">
+            <div class="shopping-mode-toggle">
+              <button id="mode-list-btn" class="mode-btn active" data-translate="editListBtn">✍️ Edit List</button>
+              <button id="mode-store-btn" class="mode-btn" data-translate="inStoreBtn">🛒 In-Store</button>
+            </div>
+            <button id="clear-grocery-btn" class="clear-btn" title="Remove checked items">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 6h18m-2 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              </svg>
+              <span data-translate="clearCheckedBtn">Clear Checked</span>
+            </button>
+          </div>
+
+          <!-- Progress Bar Box -->
+          <div id="grocery-progress-box" class="progress-container">
+            <div class="progress-header">
+              <span id="grocery-progress-text">0 of 0 items checked</span>
+              <span>🔋 Checklist</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div id="grocery-progress-fill" class="progress-bar-fill"></div>
+            </div>
+          </div>
+
+          <!-- Add custom item form (Hidden in Shopping Mode) -->
+          <form id="add-grocery-item-form" class="add-item-form">
+            <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="E.g., 500g witloof...">
+            <select id="new-grocery-item-cat" class="add-item-cat">
+              <!-- Aisle options loaded dynamically with correct translations -->
+            </select>
+            <button type="submit" class="add-item-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+            </button>
+          </form>
+
+          <!-- Grocery Categories & Checklist Items container -->
+          <div id="grocery-list-container">
+            <!-- Grouped grocery items loaded dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SETTINGS TAB ================= -->
+      <section id="settings-panel" class="tab-panel">
+        <header>
+          <h1 style="font-family: var(--font-display); font-size: 24px; font-weight: 800; margin-bottom: 4px;" data-translate="prefTitle">Preferences</h1>
+          <p style="font-size: 12px; color: var(--text-secondary);" data-translate="prefDesc">Configure language and supermarket defaults</p>
+        </header>
+
+        <!-- Route Preferences -->
+        <div class="settings-group">
+          <div class="settings-group-title" data-translate="storeLayoutTitle">Supermarket Route Layout</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="storeSelectLabel">Preferred Store</div>
+              <div class="settings-desc" data-translate="storeSelectDesc">Organises checklist to match aisles layout</div>
+            </div>
+            <select id="supermarket-select" class="settings-select">
+              <option value="Colruyt">Colruyt (Laagste Prijzen)</option>
+              <option value="Delhaize">Delhaize (SuperPlus)</option>
+              <option value="Carrefour">Carrefour (Hyper/Market)</option>
+              <option value="Albert Heijn">Albert Heijn (Bonus)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Language Preference -->
+        <div class="settings-group">
+          <div class="settings-group-title" data-translate="langGroupTitle">Language Settings</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="langSelectLabel">App Language</div>
+              <div class="settings-desc" data-translate="langSelectDesc">Choose the interface language</div>
+            </div>
+            <select id="language-select" class="settings-select">
+              <option value="en">English</option>
+              <option value="nl">Nederlands</option>
+              <option value="fr">Français</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- System controls -->
+        <div class="settings-group" style="border-color: var(--danger-dim);">
+          <div class="settings-group-title" style="color: var(--danger);" data-translate="dangerZoneTitle">Danger Zone</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="resetDbLabel">Reset Recipe Database</div>
+              <div class="settings-desc" data-translate="resetDbDesc">Restores default classic Belgian recipes</div>
+            </div>
+            <button id="reset-data-btn" class="btn-small" style="color: var(--danger); border-color: var(--danger-dim);" data-translate="resetBtnText">Reset</button>
+          </div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="resetListLabel">Empty Grocery List</div>
+              <div class="settings-desc" data-translate="resetListDesc">Deletes all items in grocery checklist</div>
+            </div>
+            <button id="reset-list-btn" class="btn-small" style="color: var(--danger); border-color: var(--danger-dim);" data-translate="resetListBtnText">Wipe List</button>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; color: var(--text-muted); font-size: 11px;">
+          <p>Mijn Kookpot App v2.0.0 • Made for Belgian Foodies</p>
+          <p style="margin-top: 4px;">Supports Colruyt, Delhaize, Carrefour & Albert Heijn</p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ================= RECIPE DETAILS DRAWER (Bottom Sheet) ================= -->
+    <div id="drawer-backdrop" class="drawer-backdrop"></div>
+    <div id="recipe-drawer" class="drawer-sheet">
+      <div class="drawer-handle"></div>
+      <div class="drawer-header-actions">
+        <button id="recipe-fav-btn" class="drawer-close" style="color: var(--text-secondary); margin-right: auto;" title="Toggle Favorite">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 16px; height: 16px; transition: var(--transition-bounce);">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </button>
+        <button id="recipe-drawer-close" class="drawer-close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="drawer-body">
+        <!-- Hero Cover Image -->
+        <div class="drawer-hero">
+          <img id="drawer-hero-img" class="drawer-hero-img" src="" alt="Recipe image">
+        </div>
+
+        <div class="drawer-title-section">
+          <span id="drawer-subtitle" class="drawer-subtitle">Category</span>
+          <h2 id="drawer-title" class="drawer-title">Recipe Title</h2>
+          <div id="drawer-description" class="drawer-description">Description paragraph</div>
+        </div>
+
+        <!-- Meta Info Grid -->
+        <div class="drawer-meta-badges">
+          <div class="meta-badge-item">
+            <div class="meta-badge-title" data-translate="prepTimeLabel">Prep Time</div>
+            <div id="val-prep-time" class="meta-badge-val">20 mins</div>
+          </div>
+          <div class="meta-badge-item">
+            <div class="meta-badge-title" data-translate="cookTimeLabel">Cook Time</div>
+            <div id="val-cook-time" class="meta-badge-val">30 mins</div>
+          </div>
+          <div class="meta-badge-item">
+            <div class="meta-badge-title" data-translate="diffLabel">Difficulty</div>
+            <div id="val-difficulty" class="meta-badge-val">Medium</div>
+          </div>
+        </div>
+
+        <!-- Servings Adjuster -->
+        <div class="servings-scale-box">
+          <div class="servings-scale-text">
+            <span data-translate="servingsLabel">Servings Size</span>
+            <span data-translate="servingsDesc" style="display:inline; font-weight: normal; color: var(--text-secondary);">Ingredients scale instantly</span>
+          </div>
+          <div class="servings-controls">
+            <button id="servings-minus" class="servings-btn">-</button>
+            <div id="servings-count" class="servings-count">4</div>
+            <button id="servings-plus" class="servings-btn">+</button>
+          </div>
+        </div>
+
+        <!-- Ingredients Checklist section -->
+        <div class="drawer-section-title">
+          <span>Ingredients (Metric)</span>
+        </div>
+        <div id="drawer-ingredients-list" class="drawer-ingredient-list">
+          <!-- Filled dynamically in app.js -->
+        </div>
+
+        <!-- Add all ingredients to list -->
+        <button id="add-ing-to-list-btn" class="add-ingredients-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M5 12h14"></path>
+          </svg>
+          <span data-translate="addIngredientsBtn">Add to Grocery List</span>
+        </button>
+
+        <!-- Instructions Checklist section -->
+        <div class="drawer-section-title">
+          <span data-translate="instructionsTitle">Cooking Instructions</span>
+        </div>
+        <div id="drawer-instructions-list" class="instructions-list">
+          <!-- Steps checkboxes filled dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= ADD CUSTOM RECIPE MODAL WINDOW ================= -->
+    <div id="custom-recipe-modal" class="modal-overlay">
+      <div class="modal-window">
+        <div class="modal-header">
+          <h3 data-translate="createRecipeHeader">Create Custom Recipe</h3>
+          <button id="modal-close-btn" class="drawer-close">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <form id="custom-recipe-form">
+            <div class="form-group">
+              <label for="recipe-title-input">Recipe Title</label>
+              <input type="text" id="recipe-title-input" class="form-control" placeholder="E.g., Luikse Wafels" required>
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-subtitle-input">Short Subtitle</label>
+              <input type="text" id="recipe-subtitle-input" class="form-control" placeholder="E.g., Sweet caramel sugar waffles">
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-desc-input">Short Description</label>
+              <textarea id="recipe-desc-input" class="form-control" placeholder="What makes this dish special?"></textarea>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+              <div class="form-group">
+                <label for="recipe-cat-select">Category</label>
+                <select id="recipe-cat-select" class="form-control">
+                  <option value="Belgian Classics">Belgian Classics</option>
+                  <option value="Comfort Food" selected>Comfort Food</option>
+                  <option value="Seafood">Seafood</option>
+                  <option value="Custom">Custom</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="recipe-diff-select">Difficulty</label>
+                <select id="recipe-diff-select" class="form-control">
+                  <option value="Easy" selected>Easy</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Hard">Hard</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+              <div class="form-group">
+                <label for="recipe-prep-input">Prep Time</label>
+                <input type="text" id="recipe-prep-input" class="form-control" placeholder="E.g., 20 mins" value="20 mins">
+              </div>
+
+              <div class="form-group">
+                <label for="recipe-cook-input">Cook Time</label>
+                <input type="text" id="recipe-cook-input" class="form-control" placeholder="E.g., 40 mins" value="30 mins">
+              </div>
+
+              <div class="form-group">
+                <label for="recipe-servings-input">Servings</label>
+                <input type="number" id="recipe-servings-input" class="form-control" value="4" min="1">
+              </div>
+            </div>
+
+            <!-- Recipe Ingredient Builder -->
+            <div class="form-group" style="margin-top: 10px;">
+              <label>Recipe Ingredients (Metric)</label>
+              <div id="form-ingredients-preview" class="ingredients-list-preview">
+                <!-- Preview tags rendered here -->
+              </div>
+              <div class="ingredients-creator-box">
+                <div class="creator-inputs">
+                  <input type="text" id="form-ing-name" class="form-control" placeholder="Speculoos, chicorée...">
+                  <input type="number" id="form-ing-amount" class="form-control" placeholder="Qty" step="any">
+                  <select id="form-ing-unit" class="form-control">
+                    <option value="g">g</option>
+                    <option value="kg">kg</option>
+                    <option value="ml">ml</option>
+                    <option value="l">l</option>
+                    <option value="st.">st.</option>
+                    <option value="el">el</option>
+                    <option value="kl">kl</option>
+                    <option value="slices">slices</option>
+                    <option value="to taste">to taste</option>
+                  </select>
+                  <select id="form-ing-cat" class="form-control" style="font-size: 10px; display: none;">
+                    <option value="Groenten & Fruit">Groenten & Fruit</option>
+                    <option value="Slagerij & Gevogelte">Slagerij & Gevogelte</option>
+                    <option value="Zuivel & Eieren">Zuivel & Eieren</option>
+                    <option value="Bakkerij">Bakkerij</option>
+                    <option value="Bieren & Dranken">Bieren & Dranken</option>
+                    <option value="Kruidenier" selected>Kruidenier</option>
+                    <option value="Visafdeling">Visafdeling</option>
+                  </select>
+                  <button type="button" id="add-custom-ing-btn" class="btn-small" style="height: 38px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="12" y1="5" x2="12" y2="19"></line>
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                  </button>
+                </div>
+                <div style="margin-top: 6px;">
+                  <label style="font-size: 9px; margin-bottom: 2px;">Aisle Placement</label>
+                  <select id="form-ing-cat-visible" class="form-control" onchange="document.getElementById('form-ing-cat').value = this.value">
+                    <!-- Options populated dynamically based on active language -->
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recipe Instructions (one per line) -->
+            <div class="form-group">
+              <label for="recipe-steps-input">Preparation Instructions (One step per line)</label>
+              <textarea id="recipe-steps-input" class="form-control" style="min-height: 120px;" placeholder="Mix ingredients in bowl...&#10;Bake at 180°C for 25 mins...&#10;Serve warm..." required></textarea>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" id="recipe-cancel-btn" class="btn-block btn-secondary">Cancel</button>
+              <button type="submit" class="btn-block btn-primary">Save Recipe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= BOTTOM TAB NAVIGATION BAR ================= -->
+    <nav class="tab-bar">
+      <a class="tab-item active" data-tab="home">
+        <svg viewBox="0 0 24 24">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        <span data-translate="discover">Discover</span>
+      </a>
+      
+      <a class="tab-item" data-tab="recipes">
+        <svg viewBox="0 0 24 24">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+        </svg>
+        <span data-translate="recipes">Recipes</span>
+      </a>
+      
+      <a class="tab-item" data-tab="grocery">
+        <svg viewBox="0 0 24 24">
+          <path d="M9 11l3 3L22 4"></path>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+        </svg>
+        <span data-translate="checklist">Checklist</span>
+      </a>
+      
+      <a class="tab-item" data-tab="settings">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+        <span data-translate="settings">Settings</span>
+      </a>
+    </nav>
+
+  </div>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Live update of simulated phone time
+    function updateClock() {
+      const now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      const timeStr = hours + ':' + minutes;
+      document.getElementById('phone-time').textContent = timeStr;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
+</body>
+</html>
