@@ -207,34 +207,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   gap: 8px;
-}
-
-.shopping-mode-toggle {
-  display: flex;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  padding: 2px;
-  border-radius: var(--radius-sm);
-}
-
-.mode-btn {
-  background: none;
-  border: none;
-  color: var(--text-secondary);
-  padding: 6px 12px;
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: var(--radius-sm);
-  transition: all var(--transition-fast);
-}
-
-.mode-btn.active {
-  background: var(--accent-gold);
-  color: var(--bg-primary);
 }
 
 .clear-btn {
@@ -257,6 +231,78 @@ header {
 .clear-btn:hover {
   background: var(--danger);
   color: var(--text-primary);
+}
+
+.clear-btn svg {
+  width: 12px;
+  height: 12px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+}
+
+/* Custom Add Item Input Form - Chalkboard Integrated Style */
+.add-item-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  align-items: center;
+}
+
+.add-item-input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 12px;
+  outline: none;
+  padding: 8px 12px;
+  min-width: 0;
+}
+
+.add-item-cat {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--accent-gold);
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  outline: none;
+  padding: 0 10px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.add-item-btn {
+  background: var(--accent-gold);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.add-item-btn:hover {
+  background: var(--accent-gold-hover);
+}
+
+.add-item-btn svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 2.5px;
 }
 
 .clear-btn svg {

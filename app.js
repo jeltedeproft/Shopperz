@@ -296,7 +296,7 @@ let state = {
 // --- Initialization ---
 function initApp() {
   // Version-controlled database migration to push new images/recipes to cached local storage
-  const CURRENT_DB_VERSION = "v9";
+  const CURRENT_DB_VERSION = "v10";
   const storedDbVersion = localStorage.getItem('belgian_db_version');
   if (storedDbVersion !== CURRENT_DB_VERSION) {
     localStorage.removeItem('belgian_recipes');
@@ -512,8 +512,6 @@ function setupEventListeners() {
 
   // Grocery item actions
   document.getElementById('add-grocery-item-form').addEventListener('submit', handleAddCustomGroceryItem);
-  document.getElementById('mode-list-btn').addEventListener('click', () => toggleShoppingMode(false));
-  document.getElementById('mode-store-btn').addEventListener('click', () => toggleShoppingMode(true));
   document.getElementById('clear-grocery-btn').addEventListener('click', clearCompletedGroceryItems);
 
   // (Store selection listener removed)
@@ -1390,22 +1388,6 @@ function handleAddCustomGroceryItem(e) {
   showToast(`Added: ${newItem.name}`, 'success');
 }
 
-function toggleShoppingMode(isStoreMode) {
-  const panel = document.getElementById('grocery-panel-wrapper');
-  const addForm = document.getElementById('add-grocery-item-form');
-  
-  if (isStoreMode) {
-    panel.classList.add('shopping-mode');
-    addForm.style.display = 'none';
-    document.getElementById('mode-store-btn').classList.add('active');
-    document.getElementById('mode-list-btn').classList.remove('active');
-  } else {
-    panel.classList.remove('shopping-mode');
-    addForm.style.display = 'flex';
-    document.getElementById('mode-list-btn').classList.add('active');
-    document.getElementById('mode-store-btn').classList.remove('active');
-  }
-}
 
 function clearCompletedGroceryItems() {
   const completedCount = state.groceryList.filter(i => i.checked).length;

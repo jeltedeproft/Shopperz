@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
   <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
 
@@ -178,11 +178,8 @@
 
         <div id="grocery-panel-wrapper">
           <!-- Mode toggler & Clear options -->
-          <div class="list-controls">
-            <div class="shopping-mode-toggle">
-              <button id="mode-list-btn" class="mode-btn active" data-translate="editListBtn">✍️ Edit List</button>
-              <button id="mode-store-btn" class="mode-btn" data-translate="inStoreBtn">🛒 In-Store</button>
-            </div>
+          <div class="list-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <span style="font-size: 11px; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.5px;">All Items</span>
             <button id="clear-grocery-btn" class="clear-btn" title="Remove checked items">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 6h18m-2 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
