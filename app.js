@@ -14,10 +14,11 @@ const uiTranslations = {
     recipeBookTitle: "Recipe Book",
     recipeBookDesc: "Your collection of premium Belgian dishes",
     recipeCategoryAll: "All",
-    recipeCategoryClassics: "Belgian Classics",
-    recipeCategoryComfort: "Comfort Food",
-    recipeCategorySeafood: "Seafood",
-    recipeCategoryCustom: "Custom",
+    recipeCategoryBreakfast: "Breakfast",
+    recipeCategoryMain: "Hoofdgerecht",
+    recipeCategorySoup: "Soup",
+    recipeCategorySnack: "Snack",
+    recipeCategoryDessert: "Dessert",
     createRecipeHeader: "Create Custom Recipe",
     checklistTitle: "Grocery List",
     checklistDesc: "Sorted by food categories for quick navigation",
@@ -92,10 +93,11 @@ const uiTranslations = {
     recipeBookTitle: "Kookboek",
     recipeBookDesc: "Jouw collectie van Belgische gerechten",
     recipeCategoryAll: "Alle",
-    recipeCategoryClassics: "Belgische Klassiekers",
-    recipeCategoryComfort: "Comfort Food",
-    recipeCategorySeafood: "Vis & Zeevruchten",
-    recipeCategoryCustom: "Eigen recepten",
+    recipeCategoryBreakfast: "Ontbijt",
+    recipeCategoryMain: "Hoofdgerecht",
+    recipeCategorySoup: "Soep",
+    recipeCategorySnack: "Snack",
+    recipeCategoryDessert: "Dessert",
     createRecipeHeader: "Nieuw Recept Toevoegen",
     checklistTitle: "Boodschappenlijst",
     checklistDesc: "Gesorteerd per voedselcategorie voor snel winkelen",
@@ -170,10 +172,11 @@ const uiTranslations = {
     recipeBookTitle: "Livre de Recettes",
     recipeBookDesc: "Votre collection de plats belges",
     recipeCategoryAll: "Tout",
-    recipeCategoryClassics: "Classiques Belges",
-    recipeCategoryComfort: "Plats Réconfortants",
-    recipeCategorySeafood: "Fruits de Mer",
-    recipeCategoryCustom: "Personnalisées",
+    recipeCategoryBreakfast: "Petit-déjeuner",
+    recipeCategoryMain: "Plat principal",
+    recipeCategorySoup: "Soupe",
+    recipeCategorySnack: "Snack",
+    recipeCategoryDessert: "Dessert",
     createRecipeHeader: "Créer une Recette Custom",
     checklistTitle: "Liste de Courses",
     checklistDesc: "Triée par catégories pour une navigation rapide",
@@ -293,7 +296,7 @@ let state = {
 // --- Initialization ---
 function initApp() {
   // Version-controlled database migration to push new images/recipes to cached local storage
-  const CURRENT_DB_VERSION = "v8";
+  const CURRENT_DB_VERSION = "v9";
   const storedDbVersion = localStorage.getItem('belgian_db_version');
   if (storedDbVersion !== CURRENT_DB_VERSION) {
     localStorage.removeItem('belgian_recipes');
@@ -702,12 +705,12 @@ function renderRecipesList(filterQuery = '') {
   const dict = uiTranslations[lang];
 
   // Render category filters NL/FR/EN dynamically
-  const categories = ['All', 'Belgian Classics', 'Comfort Food', 'Seafood', 'Custom'];
-  const catKeys = ['recipeCategoryAll', 'recipeCategoryClassics', 'recipeCategoryComfort', 'recipeCategorySeafood', 'recipeCategoryCustom'];
+  const categories = ['all', 'breakfast', 'main', 'soup', 'snack', 'dessert'];
+  const catKeys = ['recipeCategoryAll', 'recipeCategoryBreakfast', 'recipeCategoryMain', 'recipeCategorySoup', 'recipeCategorySnack', 'recipeCategoryDessert'];
   const catRow = document.getElementById('recipe-categories-row');
   
   if (catRow) {
-    const activeCategory = catRow.querySelector('.cat-pill.active')?.dataset.category || 'All';
+    const activeCategory = catRow.querySelector('.cat-pill.active')?.dataset.category || 'all';
     
     catRow.innerHTML = categories.map((cat, idx) => `
       <div class="cat-pill ${cat === activeCategory ? 'active' : ''}" data-category="${cat}">
@@ -726,7 +729,7 @@ function renderRecipesList(filterQuery = '') {
   }
 
   // Active category filter state
-  const activeCat = catRow ? catRow.querySelector('.cat-pill.active')?.dataset.category || 'All' : 'All';
+  const activeCat = catRow ? catRow.querySelector('.cat-pill.active')?.dataset.category || 'all' : 'all';
   filterRecipes(activeCat, filterQuery);
 }
 
@@ -739,16 +742,20 @@ function filterRecipes(category, query) {
 
   let filtered = state.recipes;
 
-  // Category filter
-  if (category !== 'All') {
-    if (category === 'Custom') {
-      filtered = state.recipes.filter(r => r.id.startsWith('custom-'));
-    } else {
-      filtered = state.recipes.filter(r => {
-        const catEN = r.category['en'];
-        return catEN === category || (category === 'Belgian Classics' && catEN === 'Belgian Classics') || (category === 'Comfort Food' && catEN === 'Comfort Food') || (category === 'Seafood' && catEN === 'Seafood');
-      });
-    }
+  // Category filter (array based)
+  if (category !== 'all') {
+    filtered = state.recipes.filter(r => {
+      if (Array.isArray(r.category)) {
+        return r.category.includes(category);
+      }
+      const legacyCat = String(r.category || '').toLowerCase();
+      if (category === 'main' && (legacyCat.includes('main') || legacyCat.includes('classic') || legacyCat.includes('comfort') || legacyCat.includes('seafood'))) return true;
+      if (category === 'breakfast' && legacyCat.includes('breakfast')) return true;
+      if (category === 'soup' && legacyCat.includes('soup')) return true;
+      if (category === 'snack' && legacyCat.includes('snack')) return true;
+      if (category === 'dessert' && legacyCat.includes('dessert')) return true;
+      return false;
+    });
   }
 
   // Search query filter
@@ -1446,7 +1453,7 @@ function handleCustomRecipeSubmit(e) {
     cookTime: cookTime,
     difficulty: { en: difficulty, nl: difficulty, fr: difficulty },
     servings: servings,
-    category: { en: category, nl: category, fr: category },
+    category: [category],
     image: 'images/witloof_gratin.jpg', // fallback gratin
     isGlutenFree: true,
     isNutFree: true,

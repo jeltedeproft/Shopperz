@@ -243,6 +243,31 @@ function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
   return steps;
 }
 
+// --- Helper: Categorize recipes into Breakfast, Main, Soup, Snack, Dessert arrays ---
+function autoCategorize(title, desc) {
+  const tLower = (title || "").toLowerCase();
+  const dLower = (desc || "").toLowerCase();
+  const categories = [];
+
+  const hasBreakfast = /\bwaffle\b|\bpancake\b|\btoast\b|\boatmeal\b|\begg\b|\bfrittata\b|\bbreakfast\b/i.test(tLower + " " + dLower);
+  const hasSoup = /\bsoup\b|\bbouillon\b|\bpotage\b|\bsoep\b|\bstew\b/i.test(tLower + " " + dLower);
+  const hasDessert = /\bdessert\b|\bcake\b|\bpie\b|\btiramisu\b|\bpudding\b|\bsweet\b|\bcookie\b|\btaart\b|\bwaffle\b|\bice cream\b/i.test(tLower + " " + dLower);
+  const hasSnack = /\bsnack\b|\btaco\b|\bdip\b|\bsamosa\b|\bnacho\b|\bwonton\b|\bbite\b|\bsalad\b|\bhummus\b|\bflatbread\b|\btapenade\b/i.test(tLower + " " + dLower);
+
+  if (hasBreakfast) categories.push("breakfast");
+  if (hasSoup) categories.push("soup");
+  if (hasDessert) categories.push("dessert");
+  if (hasSnack) categories.push("snack");
+
+  const isMain = /\bchicken\b|\bbeef\b|\bmeat\b|\bpork\b|\bsalmon\b|\bfish\b|\btuna\b|\bpasta\b|\blasagna\b|\bcurry\b|\bcasserole\b|\bwaterzooi\b|\bstoemp\b|\bmoules\b|\bcarbonnade\b|\bvol-au-vent\b|\bsteak\b|\blamb\b|\bcod\b|\bshrimp\b/i.test(tLower + " " + dLower);
+
+  if (isMain || categories.length === 0) {
+    categories.push("main");
+  }
+
+  return [...new Set(categories)];
+}
+
 // --- Helper: Scrub Spoonacular/Foodista clinical boilerplate from descriptions ---
 function sanitizeDescription(desc, lang) {
   if (!desc) return "";
@@ -406,8 +431,8 @@ async function main() {
         prepTime: extracted.prep,
         cookTime: extracted.cook,
         difficulty: { en: "Medium", nl: "Gemiddeld", fr: "Moyen" },
-        servings: servings,
-        category: { en: "Custom", nl: "Eigen recepten", fr: "Personnalisées" },
+        servings: extracted.servings,
+        category: autoCategorize(extracted.title, extracted.desc || ""),
         image: "images/witloof_gratin.jpg", // default cover placeholder
         isGlutenFree: false,
         isNutFree: true,

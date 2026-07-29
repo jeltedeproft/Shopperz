@@ -9,11 +9,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Belgian Classics",
-      "nl": "Belgische Klassiekers",
-      "fr": "Classiques Belges"
-    },
+    "category": [
+      "soup",
+      "main"
+    ],
     "image": "images/carbonnade_flamande.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -150,11 +149,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 4,
-    "category": {
-      "en": "Belgian Classics",
-      "nl": "Belgische Klassiekers",
-      "fr": "Classiques Belges"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/witloof_gratin.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -278,11 +275,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Belgian Classics",
-      "nl": "Belgische Klassiekers",
-      "fr": "Classiques Belges"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/vol_au_vent.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -406,11 +401,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 4,
-    "category": {
-      "en": "Comfort Food",
-      "nl": "Dagelijkse Kost",
-      "fr": "Plats Réconfortants"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/stoemp_worst.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -541,11 +534,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 2,
-    "category": {
-      "en": "Seafood",
-      "nl": "Vis & Zeevruchten",
-      "fr": "Fruits de Mer"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/mussels_fries.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -659,11 +650,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 4,
-    "category": {
-      "en": "Belgian Classics",
-      "nl": "Belgische Klassiekers",
-      "fr": "Classiques Belges"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/asperges_flamande.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -767,11 +756,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 2,
-    "category": {
-      "en": "Seafood",
-      "nl": "Vis & Zeevruchten",
-      "fr": "Fruits de Mer"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/tomate_crevettes.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -872,11 +859,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Comfort Food",
-      "nl": "Dagelijkse Kost",
-      "fr": "Plats Réconfortants"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/gentse_waterzooi.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -990,11 +975,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 2,
-    "category": {
-      "en": "Comfort Food",
-      "nl": "Ontdek",
-      "fr": "Plats Réconfortants"
-    },
+    "category": [
+      "snack"
+    ],
     "image": "images/witloof_gratin.jpg",
     "isGlutenFree": true,
     "isNutFree": false,
@@ -1095,11 +1078,11 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Belgian Classics",
-      "nl": "Belgische Klassiekers",
-      "fr": "Classiques Belges"
-    },
+    "category": [
+      "soup",
+      "dessert",
+      "main"
+    ],
     "image": "images/carbonnade_flamande.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -1216,11 +1199,10 @@ window.initialRecipes = [
       "fr": "Difficile"
     },
     "servings": 6,
-    "category": {
-      "en": "Comfort Food",
-      "nl": "Dagelijkse Kost",
-      "fr": "Desserts"
-    },
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
     "image": "images/gaufre_liege.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -1344,11 +1326,9 @@ window.initialRecipes = [
       "fr": "Facile"
     },
     "servings": 4,
-    "category": {
-      "en": "Comfort Food",
-      "nl": "Dagelijkse Kost",
-      "fr": "Plats Réconfortants"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/stoemp_worst.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -1449,11 +1429,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "images/witloof_gratin.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -1607,11 +1585,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/657933-312x231.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -1795,11 +1771,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/654959-312x231.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -1973,11 +1947,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/644167-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -2168,11 +2140,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 16,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/641284-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -2373,11 +2343,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 10,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/664488-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -2568,11 +2536,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 3,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/716431-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -2677,11 +2643,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 1,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/633790-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -2825,11 +2789,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/1062882-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -2990,11 +2952,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 10,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/637016-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -3160,11 +3120,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/641029-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -3301,11 +3259,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/641745-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -3409,11 +3365,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/656752-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -3581,11 +3535,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert",
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/715467-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -3831,11 +3784,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/643559-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -3970,11 +3921,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 10,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/632525-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -4129,11 +4079,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 16,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/632176-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -4389,11 +4337,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/643478-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -4640,11 +4586,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 1,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/764752-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -4782,11 +4726,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/640921-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -4988,11 +4930,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/638231-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -5103,11 +5043,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/639620-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -5265,11 +5203,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/632622-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -5509,11 +5445,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 24,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/631783-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -5659,11 +5593,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/664726-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -5850,11 +5782,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/635040-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -5961,11 +5891,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/665550-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -6097,11 +6025,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 16,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/662515-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -6328,11 +6255,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 24,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/638693-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -6574,11 +6499,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/798400-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -6813,11 +6736,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "soup",
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/653687-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -7020,11 +6942,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/632485-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -7182,11 +7102,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack"
+    ],
     "image": "https://img.spoonacular.com/recipes/1098351-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -7330,11 +7248,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/659679-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -7501,11 +7417,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/634006-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -7637,11 +7551,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/648470-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -7778,11 +7690,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/646524-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -7956,11 +7866,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/649977-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -8049,11 +7958,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/651546-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -8204,11 +8111,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/640077-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -8386,11 +8291,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 10,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/660680-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -8627,11 +8530,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/641047-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -8804,11 +8705,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/655279-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -8973,11 +8872,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 60,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/635741-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -9141,11 +9038,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/634781-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -9302,11 +9197,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 16,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/658803-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -9517,11 +9410,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/704655-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -9636,11 +9527,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/645418-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -9793,11 +9682,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/664408-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -9918,11 +9805,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/638245-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -10086,11 +9971,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack",
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/638772-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -10278,11 +10162,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/661291-556x370.",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -10552,11 +10434,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 10,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/637794-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -10752,11 +10632,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/640509-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -10929,11 +10807,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/639900-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -11072,11 +10948,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/647551-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -11245,11 +11119,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/652919-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -11453,11 +11325,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/654571-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -11629,11 +11499,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack",
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/659927-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -11877,11 +11746,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/640323-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -12022,11 +11889,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/642259-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -12197,11 +12062,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/641202-556x370.",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -12513,11 +12376,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/633650-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -12788,11 +12649,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 18,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/632280-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -12927,11 +12786,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 1,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/633754-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -13101,11 +12958,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/644854-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -13259,11 +13114,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert",
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/634605-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -13465,11 +13319,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/639599-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -13617,11 +13469,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/1098355-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -13752,11 +13602,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/795431-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -13924,11 +13772,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/1063645-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -14050,11 +13896,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/765725-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -14233,11 +14077,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 3,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/636641-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -14382,11 +14224,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack"
+    ],
     "image": "https://img.spoonacular.com/recipes/636422-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -14515,11 +14355,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack"
+    ],
     "image": "https://img.spoonacular.com/recipes/640311-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -14670,11 +14508,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/632169-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -14860,11 +14696,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/662287-556x370.png",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -15124,11 +14958,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/645721-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -15256,11 +15088,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/641973-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -15397,11 +15227,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack"
+    ],
     "image": "https://img.spoonacular.com/recipes/642809-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -15523,11 +15351,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 9,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/633692-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -15694,11 +15520,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/665642-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -15930,11 +15754,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/642297-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -16146,11 +15968,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 18,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/634191-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -16326,11 +16146,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 16,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/632539-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -16489,11 +16307,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 24,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/715389-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -16640,11 +16456,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 10,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/633352-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -16840,11 +16654,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast"
+    ],
     "image": "https://img.spoonacular.com/recipes/716293-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -17026,11 +16838,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/1046982-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -17197,11 +17007,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/1070648-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -17322,11 +17130,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 3,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/646442-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -17467,11 +17274,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/716426-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -17674,11 +17479,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/645978-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -17886,11 +17689,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/654285-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -18071,11 +17872,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/649795-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -18219,11 +18018,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 6,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "soup"
+    ],
     "image": "https://img.spoonacular.com/recipes/652886-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -18396,11 +18193,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/639182-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -18695,11 +18490,10 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 4,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack",
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/651409-556x370.png",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -18864,11 +18658,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 12,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/653836-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -19052,11 +18844,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/661500-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -19362,11 +19152,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "snack"
+    ],
     "image": "https://img.spoonacular.com/recipes/639410-556x370.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
@@ -19526,11 +19314,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 2,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "main"
+    ],
     "image": "https://img.spoonacular.com/recipes/638174-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
@@ -19705,11 +19491,9 @@ window.initialRecipes = [
       "fr": "Moyen"
     },
     "servings": 8,
-    "category": {
-      "en": "Custom",
-      "nl": "Eigen recepten",
-      "fr": "Personnalisées"
-    },
+    "category": [
+      "dessert"
+    ],
     "image": "https://img.spoonacular.com/recipes/636131-556x370.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
