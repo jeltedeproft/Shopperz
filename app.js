@@ -265,7 +265,7 @@ let state = {
 // --- Initialization ---
 function initApp() {
   // Version-controlled database migration to push new images/recipes to cached local storage
-  const CURRENT_DB_VERSION = "v4";
+  const CURRENT_DB_VERSION = "v5";
   const storedDbVersion = localStorage.getItem('belgian_db_version');
   if (storedDbVersion !== CURRENT_DB_VERSION) {
     localStorage.removeItem('belgian_recipes');
