@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
   <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
 
@@ -360,11 +360,33 @@
         </button>
 
         <!-- Instructions Checklist section -->
-        <div class="drawer-section-title">
+        <div class="drawer-section-title" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
           <span data-translate="instructionsTitle">Cooking Instructions</span>
+          <button id="cook-mode-trigger-btn" class="cook-mode-btn" style="display: flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--accent-gold); background: var(--accent-gold-dim); color: var(--accent-gold); font-size: 10px; font-weight: 700; cursor: pointer; transition: all var(--transition-fast);">
+            🍳 Cook Mode
+          </button>
         </div>
         <div id="drawer-instructions-list" class="instructions-list">
           <!-- Steps checkboxes filled dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= COOK MODE SCREEN OVERLAY ================= -->
+    <div id="cook-mode-overlay" class="cook-mode-overlay" style="display: none;">
+      <div class="cook-mode-container">
+        <div class="cook-mode-header">
+          <span id="cook-mode-recipe-title">Recipe Title</span>
+          <button id="cook-mode-exit-btn" class="cook-mode-exit">&times;</button>
+        </div>
+        <div class="cook-mode-step-card">
+          <div class="cook-mode-step-number">Step 1 of 5</div>
+          <p id="cook-mode-step-text">Saute the onions until soft.</p>
+        </div>
+        <div class="cook-mode-controls">
+          <button id="cook-mode-prev-btn" class="cook-mode-ctrl-btn">&larr; Back</button>
+          <div class="cook-mode-progress-dots" id="cook-mode-progress-dots"></div>
+          <button id="cook-mode-next-btn" class="cook-mode-ctrl-btn">Next &rarr;</button>
         </div>
       </div>
     </div>

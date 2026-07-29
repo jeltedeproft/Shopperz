@@ -580,7 +580,97 @@ function setupEventListeners() {
   if (bulkGenBtn) {
     bulkGenBtn.addEventListener('click', generateBulkRecipes);
   }
+
+  // Initialize Cook Mode Event Listeners
+  initCookMode();
 }
+
+// --- Cook Mode Screen Controller ---
+let cookModeState = {
+  active: false,
+  steps: [],
+  currentStepIndex: 0
+};
+
+function initCookMode() {
+  const triggerBtn = document.getElementById('cook-mode-trigger-btn');
+  const overlay = document.getElementById('cook-mode-overlay');
+  const exitBtn = document.getElementById('cook-mode-exit-btn');
+  const prevBtn = document.getElementById('cook-mode-prev-btn');
+  const nextBtn = document.getElementById('cook-mode-next-btn');
+
+  if (triggerBtn) {
+    triggerBtn.addEventListener('click', () => {
+      if (!state.selectedRecipe) return;
+      const lang = state.settings.language;
+      const trans = state.selectedRecipe.translations[lang] || state.selectedRecipe.translations['en'];
+      
+      cookModeState.steps = trans.instructions || [];
+      if (cookModeState.steps.length === 0) return;
+      
+      cookModeState.currentStepIndex = 0;
+      document.getElementById('cook-mode-recipe-title').textContent = trans.title;
+      updateCookModeStep();
+      overlay.style.display = 'flex';
+      cookModeState.active = true;
+    });
+  }
+
+  if (exitBtn) {
+    exitBtn.addEventListener('click', () => {
+      overlay.style.display = 'none';
+      cookModeState.active = false;
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      if (cookModeState.currentStepIndex > 0) {
+        cookModeState.currentStepIndex--;
+        updateCookModeStep();
+      }
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      if (cookModeState.currentStepIndex < cookModeState.steps.length - 1) {
+        cookModeState.currentStepIndex++;
+        updateCookModeStep();
+      } else {
+        overlay.style.display = 'none';
+        cookModeState.active = false;
+        showToast(state.settings.language === 'nl' ? "Heerlijk gekookt! Smakelijk!" : state.settings.language === 'fr' ? "Bon appétit !" : "Happy dining! Enjoy your meal!", "success");
+      }
+    });
+  }
+}
+
+function updateCookModeStep() {
+  const stepText = document.getElementById('cook-mode-step-text');
+  const stepNumber = document.querySelector('.cook-mode-step-number');
+  const nextBtn = document.getElementById('cook-mode-next-btn');
+  const prevBtn = document.getElementById('cook-mode-prev-btn');
+  const progressDots = document.getElementById('cook-mode-progress-dots');
+
+  const stepsCount = cookModeState.steps.length;
+  const currentIdx = cookModeState.currentStepIndex;
+
+  stepText.textContent = cookModeState.steps[currentIdx];
+  stepNumber.textContent = `${state.settings.language === 'nl' ? 'Stap' : state.settings.language === 'fr' ? 'Étape' : 'Step'} ${currentIdx + 1} ${state.settings.language === 'nl' ? 'van' : state.settings.language === 'fr' ? 'sur' : 'of'} ${stepsCount}`;
+
+  // Disabled states
+  prevBtn.disabled = currentIdx === 0;
+  nextBtn.textContent = currentIdx === stepsCount - 1 
+    ? (state.settings.language === 'nl' ? 'Klaar!' : state.settings.language === 'fr' ? 'Terminé !' : 'Finish!') 
+    : (state.settings.language === 'nl' ? 'Volgende \u2192' : state.settings.language === 'fr' ? 'Suivant \u2192' : 'Next \u2192');
+
+  // Render dots
+  progressDots.innerHTML = Array.from({ length: stepsCount }).map((_, i) => `
+    <span class="dot ${i === currentIdx ? 'active' : ''}"></span>
+  `).join('');
+}
+
 
 // --- Render Controllers ---
 function renderApp() {
