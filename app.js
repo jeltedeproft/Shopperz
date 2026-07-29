@@ -294,6 +294,7 @@ let state = {
   recipes: [],
   groceryList: [],
   selectedRecipes: [], // For batch converting
+  favorites: [], // Favorites bookmarking list
   settings: {
     supermarket: 'Colruyt',
     language: 'en'
@@ -338,6 +339,10 @@ function initApp() {
     state.recipes = [...window.initialRecipes];
     localStorage.setItem('belgian_recipes', JSON.stringify(state.recipes));
   }
+
+  // Load favorites list
+  const storedFavs = localStorage.getItem('belgian_favorites');
+  state.favorites = storedFavs ? JSON.parse(storedFavs) : [];
 
   // Load grocery list
   const storedList = localStorage.getItem('belgian_grocery_list');
