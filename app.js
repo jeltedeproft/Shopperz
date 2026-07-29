@@ -296,7 +296,7 @@ let state = {
 // --- Initialization ---
 function initApp() {
   // Version-controlled database migration to push new images/recipes to cached local storage
-  const CURRENT_DB_VERSION = "v10";
+  const CURRENT_DB_VERSION = "v11";
   const storedDbVersion = localStorage.getItem('belgian_db_version');
   if (storedDbVersion !== CURRENT_DB_VERSION) {
     localStorage.removeItem('belgian_recipes');
@@ -1355,20 +1355,32 @@ function deleteGroceryItem(id) {
 function handleAddCustomGroceryItem(e) {
   e.preventDefault();
   const input = document.getElementById('new-grocery-item-input');
+  const qtyInput = document.getElementById('new-grocery-item-qty');
   const catSelect = document.getElementById('new-grocery-item-cat');
   
   if (!input.value.trim()) return;
 
-  const text = input.value.trim();
+  let name = input.value.trim();
+  const qtyText = qtyInput ? qtyInput.value.trim() : '';
   let amount = null;
   let unit = '';
-  let name = text;
 
-  const match = text.match(/^(\d+(?:\.\d+)?)\s*(g|kg|ml|l|cl|st|slices|bottles|cups|tbsp|tsp|el|kl|can|blik)?\s+(.+)$/i);
-  if (match) {
-    amount = parseFloat(match[1]);
-    unit = match[2] || '';
-    name = match[3];
+  if (qtyText) {
+    const match = qtyText.match(/^(\d+(?:\.\d+)?)\s*(.*)$/);
+    if (match) {
+      amount = parseFloat(match[1]);
+      unit = match[2] || '';
+    } else {
+      unit = qtyText;
+    }
+  } else {
+    // Fallback parsing from the main input name itself
+    const match = name.match(/^(\d+(?:\.\d+)?)\s*(g|kg|ml|l|cl|st|slices|bottles|cups|tbsp|tsp|el|kl|can|blik)?\s+(.+)$/i);
+    if (match) {
+      amount = parseFloat(match[1]);
+      unit = match[2] || '';
+      name = match[3];
+    }
   }
 
   const newItem = {
@@ -1385,6 +1397,7 @@ function handleAddCustomGroceryItem(e) {
   renderGroceryList();
 
   input.value = '';
+  if (qtyInput) qtyInput.value = '';
   showToast(`Added: ${newItem.name}`, 'success');
 }
 

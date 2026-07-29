@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
   <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
-  <link rel="stylesheet" href="style.css?v=12">
+  <link rel="stylesheet" href="style.css?v=13">
 </head>
 <body>
 
@@ -201,7 +201,8 @@
 
           <!-- Add custom item form (Hidden in Shopping Mode) -->
           <form id="add-grocery-item-form" class="add-item-form">
-            <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="E.g., 500g witloof...">
+            <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="E.g., witloof...">
+            <input type="text" id="new-grocery-item-qty" class="add-item-qty-input" placeholder="Qty (e.g. 500g, 2)...">
             <select id="new-grocery-item-cat" class="add-item-cat">
               <!-- Aisle options loaded dynamically with correct translations -->
             </select>
