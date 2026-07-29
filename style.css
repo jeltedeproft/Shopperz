@@ -85,10 +85,12 @@ body {
 @media (max-width: 480px) {
   body {
     background-color: var(--bg-primary);
+    min-height: 100dvh;
+    height: 100dvh;
   }
   .phone-frame {
-    height: 100vh;
-    max-height: 100vh;
+    height: 100dvh;
+    max-height: 100dvh;
     border-radius: 0;
     border: none;
     box-shadow: none;
