@@ -434,6 +434,27 @@ const withQty = state.groceryList.find(i => i.unit === 'g');
 check('quantity parsed from the qty field', withQty && withQty.amount === 500,
   withQty ? `${withQty.amount} ${withQty.unit}` : 'missing');
 
+console.log('\nEditing quantities');
+state.groceryList = [];
+sandbox.addItemsToGroceryList([
+  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 2, unit: 'st.', category: 'Groenten & Fruit', staple: false }
+], 'Edit test');
+const editable = state.groceryList[0];
+sandbox.commitQuantityEdit(editable.id, '5');
+check('plain number keeps the unit', editable.amount === 5 && editable.unit === 'st.',
+  `${editable.amount} ${editable.unit}`);
+sandbox.commitQuantityEdit(editable.id, '500 g');
+check('amount and unit both parsed', editable.amount === 500 && editable.unit === 'g',
+  `${editable.amount} ${editable.unit}`);
+sandbox.commitQuantityEdit(editable.id, '1,5 kg');
+check('comma decimals and kg convert to grams',
+  editable.amount === 1500 && editable.unit === 'g', `${editable.amount} ${editable.unit}`);
+sandbox.commitQuantityEdit(editable.id, 'a handful');
+check('free text is kept as-is', editable.amount === null && editable.unit === 'a handful',
+  `${editable.amount} ${editable.unit}`);
+sandbox.commitQuantityEdit(editable.id, '');
+check('empty clears the quantity', editable.amount === null && editable.unit === '');
+
 console.log('\nNavigation & cook mode');
 ['home', 'recipes', 'grocery', 'settings'].forEach(tab => {
   sandbox.switchTab(tab);

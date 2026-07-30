@@ -108,6 +108,8 @@ const uiTranslations = {
     staplesHint: "Tap one to add it anyway",
     fromRecipes: "from",
     qtyPlaceholder: "Qty (e.g. 500g, 2)",
+    editQuantityHint: "Tap to change the amount",
+    addQuantity: "+ amount",
     // Recipe editing
     editRecipeBtn: "Edit",
     deleteRecipeBtn: "Delete",
@@ -248,6 +250,8 @@ const uiTranslations = {
     staplesHint: "Tik erop om ze toch toe te voegen",
     fromRecipes: "van",
     qtyPlaceholder: "Hoeveelheid (bv. 500g, 2)",
+    editQuantityHint: "Tik om de hoeveelheid te wijzigen",
+    addQuantity: "+ hoeveelheid",
     editRecipeBtn: "Bewerken",
     deleteRecipeBtn: "Verwijderen",
     confirmDeleteRecipe: "Dit recept definitief verwijderen?",
@@ -386,6 +390,8 @@ const uiTranslations = {
     staplesHint: "Touchez pour les ajouter quand même",
     fromRecipes: "de",
     qtyPlaceholder: "Qté (ex. 500g, 2)",
+    editQuantityHint: "Touchez pour modifier la quantité",
+    addQuantity: "+ quantité",
     editRecipeBtn: "Modifier",
     deleteRecipeBtn: "Supprimer",
     confirmDeleteRecipe: "Supprimer définitivement cette recette ?",
@@ -1587,6 +1593,21 @@ function renderGroceryList() {
     btn.addEventListener('click', e => deleteGroceryItem(e.currentTarget.dataset.id));
   });
 
+  container.querySelectorAll('.item-qty.editable').forEach(el => {
+    // Sits inside .item-details, which ticks the item — don't do both.
+    el.addEventListener('click', e => {
+      e.stopPropagation();
+      beginQuantityEdit(e.currentTarget.dataset.id);
+    });
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        e.stopPropagation();
+        beginQuantityEdit(e.currentTarget.dataset.id);
+      }
+    });
+  });
+
   updateProgressHeader();
 }
 
@@ -1601,7 +1622,8 @@ function groceryItemHtml(item) {
       </div>
       <div class="item-details ${item.checked ? 'checked' : ''}">
         <span class="item-name">${escapeHtml(item.name)}</span>
-        ${qty ? `<span class="item-qty">${escapeHtml(qty)}</span>` : ''}
+        <span class="item-qty editable" data-id="${escapeHtml(item.id)}" role="button" tabindex="0"
+              title="${escapeHtml(t('editQuantityHint'))}">${escapeHtml(qty || t('addQuantity'))}</span>
         ${sources.length ? `<span class="item-source">${escapeHtml(t('fromRecipes'))} ${escapeHtml(sources.join(', '))}</span>` : ''}
       </div>
       <button class="item-delete-btn" data-id="${escapeHtml(item.id)}" aria-label="delete">
@@ -1666,6 +1688,69 @@ function addSkippedStaple(key) {
   state.skippedStaples = state.skippedStaples.filter(s => s.key !== key);
   saveGroceryList();
   renderGroceryList();
+}
+
+/**
+ * Swap the quantity label for an input. You could delete a line and re-add it,
+ * but "actually make that 3" is the commonest edit there is.
+ */
+function beginQuantityEdit(id) {
+  const item = state.groceryList.find(i => i.id === id);
+  const label = document.querySelector(`.grocery-item[data-id="${id}"] .item-qty`);
+  if (!item || !label || label.dataset.editing) return;
+
+  const input = document.createElement('input');
+  input.type = 'text';
+  input.className = 'item-qty-input';
+  input.value = typeof item.amount === 'number' ? `${item.amount} ${item.unit}`.trim() : (item.unit || '');
+  input.setAttribute('aria-label', t('editQuantityHint'));
+
+  label.dataset.editing = '1';
+  label.replaceWith(input);
+  input.focus();
+  input.select();
+
+  let settled = false;
+  const finish = commit => {
+    if (settled) return;
+    settled = true;
+    if (commit) commitQuantityEdit(id, input.value);
+    renderGroceryList();
+  };
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); finish(true); }
+    else if (e.key === 'Escape') { e.preventDefault(); finish(false); }
+  });
+  input.addEventListener('blur', () => finish(true));
+}
+
+function commitQuantityEdit(id, raw) {
+  const item = state.groceryList.find(i => i.id === id);
+  if (!item) return;
+
+  const text = String(raw || '').trim();
+  if (!text) {
+    item.amount = null;
+    item.unit = '';
+  } else {
+    const match = text.match(/^(\d+(?:[.,]\d+)?)\s*(.*)$/);
+    if (match) {
+      const normalized = window.Ingredients.normalizeUnit(
+        parseFloat(match[1].replace(',', '.')),
+        match[2] || item.unit || 'st.',
+        item.name
+      );
+      item.amount = normalized.amount;
+      item.unit = normalized.unit;
+    } else {
+      // Pure text like "a handful" — keep it as the unit.
+      item.amount = null;
+      item.unit = text;
+    }
+  }
+
+  saveGroceryList();
 }
 
 function toggleGroceryItemCheck(id) {
