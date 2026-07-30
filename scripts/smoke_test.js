@@ -584,6 +584,19 @@ check('no mistranslated ingredient names left', machineTranslated.length === 0,
 check('no recipe hot-links a remote image',
   !recipes.some(r => /^https?:/i.test(r.image)),
   recipes.filter(r => /^https?:/i.test(r.image)).length + ' remote');
+// The service worker caches these for offline use, so keep them lean.
+const imageFiles = fs.readdirSync(path.join(ROOT, 'images'))
+  .filter(f => /\.(jpe?g|png)$/i.test(f));
+const totalImageBytes = imageFiles
+  .reduce((sum, f) => sum + fs.statSync(path.join(ROOT, 'images', f)).size, 0);
+const heavy = imageFiles.filter(f =>
+  fs.statSync(path.join(ROOT, 'images', f)).size > 200 * 1024);
+check('recipe photos stay within the offline budget',
+  totalImageBytes < 5 * 1024 * 1024,
+  `${(totalImageBytes / 1024 / 1024).toFixed(1)} MB`);
+check('no single photo is oversized', heavy.length === 0,
+  heavy.slice(0, 3).join(', '));
+
 check('every image file exists',
   recipes.every(r => fs.existsSync(path.join(ROOT, r.image))),
   recipes.filter(r => !fs.existsSync(path.join(ROOT, r.image))).map(r => r.image).join(', '));

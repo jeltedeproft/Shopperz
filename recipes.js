@@ -16527,7 +16527,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "images/spoonacular-662287.png",
+    "image": "images/spoonacular-662287.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -20768,7 +20768,7 @@ window.initialRecipes = [
       "snack",
       "main"
     ],
-    "image": "images/spoonacular-651409.png",
+    "image": "images/spoonacular-651409.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,

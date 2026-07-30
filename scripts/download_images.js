@@ -70,6 +70,10 @@ async function main() {
 
   fs.writeFileSync(RECIPES_FILE, 'window.initialRecipes = ' + JSON.stringify(recipes, null, 2) + ';\n', 'utf8');
   console.log(`\n✅ ${ok} local, ${failed} still remote. recipes.js updated.`);
+  if (ok > 0) {
+    console.log('\n👉 Now run:  pwsh scripts/resize_images.ps1');
+    console.log('   Fresh downloads are full size; the app shows them at 480px at most.');
+  }
 }
 
 main();
