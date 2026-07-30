@@ -9,7 +9,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 ## What it does
 
 **Recipes**
-- 131 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 28 Belgian classics written by hand: waterzooi, konijn met pruimen, hutsepot, garnaalkroketten, paling in 't groen, croque monsieur, rijsttaart, speculoos, dame blanche and the rest.
+- 147 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category, by diet (vegetarian, vegan, candida, keto), by allergen (gluten, nuts, dairy, eggs) and by **favourites** — the pills stack, so "my favourite desserts" works.
 - Adjust servings in the recipe drawer and every quantity rescales. Countable things stay whole — you get 5 onions, never 4.3 — and "to taste" never scales.
@@ -20,7 +20,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 **Grocery list**
 - Select several recipes and generate one merged list, with a **servings stepper per recipe**.
 - Merging happens on a canonical ingredient key, so "garlic" and "garlic cloves" become one line and the amounts add up. An ingredient that shows up in an incompatible unit gets its own line instead of being dropped.
-- Sorted by supermarket aisle, in an order **you can rearrange in Settings** to match the route you actually walk.
+- Sorted by supermarket aisle: produce → fish → butcher → dairy → bakery → frozen → herbs & spices → grocery → drinks.
 - Each line remembers which recipes it came from ("2 onions — from Stoofvlees, Waterzooi").
 - **Pantry staples are skipped by default.** Salt, pepper, oil, flour and spices don't clutter your list; they appear as one-tap chips at the top in case you actually ran out. Toggle the behaviour off in Settings.
 - Tap any quantity to change it — "1,5 kg" becomes 1500 g, free text like "a handful" is kept as typed.
@@ -83,8 +83,13 @@ node scripts/set_recipe_photo.js <id> "File:X.jpg"      # and pin it to a recipe
 Recipe photos come from Wikimedia Commons and only under a licence that
 permits reuse. The photographer and licence are stored on the recipe and shown
 over the photo in the drawer, which is what CC BY-SA asks for. To add a dish of
-your own, write it into `scripts/belgian_recipes.js` and re-run the add script —
-it refuses duplicates, so re-running is safe.
+your own, write it into `scripts/belgian_recipes.js` or `belgian_recipes_2.js`
+(split only for readability) and re-run the add script — it refuses duplicates,
+so re-running is safe.
+
+The automatic photo lookup takes the lead image of a Wikipedia article, which
+is right about eight times in ten. Check the results and fix the rest with
+`set_recipe_photo.js`.
 
 Importers (need `SPOONACULAR_API_KEY` in the environment for the Spoonacular
 sources — never hardcode a key):

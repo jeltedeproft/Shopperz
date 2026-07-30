@@ -16,7 +16,11 @@ const path = require('path');
 
 const Ingredients = require('../ingredients.js');
 const RecipeDb = require('./recipe_db.js');
-const recipes = require('./belgian_recipes.js');
+// Batches are separate files purely to keep each one readable.
+const recipes = [
+  ...require('./belgian_recipes.js'),
+  ...require('./belgian_recipes_2.js')
+];
 
 const IMAGES_DIR = path.join(__dirname, '..', 'images');
 const FALLBACK_IMAGE = 'images/witloof_gratin.jpg';
