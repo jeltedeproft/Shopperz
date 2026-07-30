@@ -375,6 +375,25 @@ recipes.forEach(r => r.ingredients.forEach(i => {
 check('every ingredient has a canonical key', missingKeys === 0, `${missingKeys} without`);
 check('every ingredient sits in a known aisle', badAisles.size === 0, Array.from(badAisles).join(', '));
 check('every unit is in the canonical set', badUnits.size === 0, Array.from(badUnits).join(', '));
+const nutRe = /walnut|almond|peanut|pecan|hazelnut|cashew|pistachio|noten|amandel|pinda|noix|noisette/i;
+const lyingAboutNuts = recipes.filter(r =>
+  r.isNutFree && r.ingredients.some(i => nutRe.test(i.name.en + ' ' + i.name.nl + ' ' + i.name.fr)));
+check('no recipe claims nut-free while containing nuts', lyingAboutNuts.length === 0,
+  lyingAboutNuts.map(r => r.translations.en.title).slice(0, 3).join(' | '));
+
+const meatRe = /\bbeef\b|chicken|\bpork\b|bacon|sausage|\blamb\b|\bham\b/i;
+const lyingAboutMeat = recipes.filter(r =>
+  r.isVegetarian && r.ingredients.some(i => meatRe.test(i.name.en)));
+check('no recipe claims vegetarian while containing meat', lyingAboutMeat.length === 0,
+  lyingAboutMeat.map(r => r.translations.en.title).slice(0, 3).join(' | '));
+
+const drifted = recipes.filter(r => {
+  const derived = Ing.deriveDietFlags(r.ingredients, r);
+  return Ing.DIET_FLAGS.some(f => r[f] !== derived[f]);
+});
+check('stored diet flags match what the ingredients say', drifted.length === 0,
+  `${drifted.length} recipe(s) need scripts/normalize_recipes.js`);
+
 check('no recipe hot-links a remote image',
   !recipes.some(r => /^https?:/i.test(r.image)),
   recipes.filter(r => /^https?:/i.test(r.image)).length + ' remote');

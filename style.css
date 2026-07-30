@@ -1959,3 +1959,11 @@ header {
   font-weight: 700;
   cursor: pointer;
 }
+
+.filter-disclaimer {
+  margin-top: 8px;
+  font-size: 9px;
+  line-height: 1.4;
+  color: var(--text-muted);
+  font-style: italic;
+}

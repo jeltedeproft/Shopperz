@@ -384,14 +384,9 @@ async function main() {
         servings: extracted.servings,
         category: autoCategorize(extracted.title, extracted.desc || ""),
         image: "images/witloof_gratin.jpg", // default cover placeholder
-        isGlutenFree: false,
-        isNutFree: true,
-        isDairyFree: false,
-        isEggFree: false,
-        isVegetarian: false,
-        isVegan: false,
-        isCandidaFriendly: false,
-        isKeto: false,
+        // Scraped and MealDB sources carry no diet metadata at all, so the
+        // flags are worked out from the ingredient list.
+        ...Ingredients.deriveDietFlags(translatedIngredients, {}),
         translations: {
           en: {
             title: extracted.title,

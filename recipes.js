@@ -312,7 +312,7 @@ window.initialRecipes = [
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Vol-au-Vent / Koninginnenhapje",
@@ -722,7 +722,7 @@ window.initialRecipes = [
     "isEggFree": false,
     "isVegetarian": true,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": true,
     "translations": {
       "en": {
@@ -953,13 +953,13 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/gentse_waterzooi.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -1183,7 +1183,7 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -1222,7 +1222,7 @@ window.initialRecipes = [
     "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": true,
     "translations": {
       "en": {
@@ -1338,7 +1338,7 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       }
     ]
@@ -1497,7 +1497,7 @@ window.initialRecipes = [
     ],
     "image": "images/stoemp_worst.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": true,
     "isEggFree": true,
     "isVegetarian": true,
@@ -1576,7 +1576,7 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -1621,8 +1621,8 @@ window.initialRecipes = [
     "image": "images/witloof_gratin.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
-    "isDairyFree": false,
-    "isEggFree": false,
+    "isDairyFree": true,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -1796,7 +1796,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -2006,7 +2006,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -2066,7 +2066,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "scallion",
+        "key": "spring onion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -2204,7 +2204,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -2261,7 +2261,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "chicken broth",
+        "key": "chicken stock",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -2269,8 +2269,8 @@ window.initialRecipes = [
         },
         "amount": 320,
         "unit": "ml",
-        "category": "Kruidenier",
-        "staple": true
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
         "key": "couscous",
@@ -2421,7 +2421,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-641284.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": false,
@@ -2652,9 +2652,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-664488.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -2871,7 +2871,7 @@ window.initialRecipes = [
     "isVegetarian": true,
     "isVegan": true,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Crockpot Applesauce",
@@ -2984,11 +2984,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Baked Sirloin Steak",
@@ -3146,11 +3146,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Easy Slow Cooker Whole Chicken With Rosemary",
@@ -3211,7 +3211,7 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -3239,7 +3239,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika",
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -3327,7 +3327,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-637016.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": true,
@@ -3515,11 +3515,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Cumin and Paprika Rubbed Chicken Drumsticks",
@@ -3680,11 +3680,11 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Dump Cake",
@@ -3794,11 +3794,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Pork Chops with Garlic Cream",
@@ -3987,7 +3987,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -4095,7 +4095,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken broth",
+        "key": "chicken stock",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -4103,8 +4103,8 @@ window.initialRecipes = [
         },
         "amount": 420,
         "unit": "ml",
-        "category": "Kruidenier",
-        "staple": true
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
         "key": "flour",
@@ -4260,7 +4260,7 @@ window.initialRecipes = [
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -4586,7 +4586,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-632176.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": true,
@@ -4868,7 +4868,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-643478.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": true,
@@ -5305,7 +5305,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -5537,7 +5537,7 @@ window.initialRecipes = [
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Chicken Parmayonnaise",
@@ -5846,9 +5846,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-632622.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -6110,9 +6110,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-631783.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -6271,10 +6271,10 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-664726.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -6499,11 +6499,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Bittersweet Chocolate Ice Cream",
@@ -6614,13 +6614,13 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-665550.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Yogurt Marinated Lamb Skewers",
@@ -6700,7 +6700,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "paprika",
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -7022,7 +7022,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -7214,7 +7214,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "scallion",
+        "key": "spring onion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -7296,7 +7296,7 @@ window.initialRecipes = [
     "isVegetarian": true,
     "isVegan": true,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant",
@@ -7560,8 +7560,8 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
-    "isVegetarian": true,
+    "isEggFree": true,
+    "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
     "isKeto": false,
@@ -7713,7 +7713,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken broth",
+        "key": "chicken stock",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -7721,8 +7721,8 @@ window.initialRecipes = [
         },
         "amount": 1000,
         "unit": "ml",
-        "category": "Kruidenier",
-        "staple": true
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
         "key": "beans",
@@ -7789,7 +7789,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-632485.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": true,
     "isEggFree": false,
     "isVegetarian": true,
@@ -7971,7 +7971,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -8075,7 +8075,7 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -8111,7 +8111,7 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       }
     ]
@@ -8130,14 +8130,14 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-659679.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Seared Scallops With Wilted Greens",
@@ -8635,12 +8635,12 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-646524.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": true,
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -8833,7 +8833,7 @@ window.initialRecipes = [
       "dessert"
     ],
     "image": "images/spoonacular-649977.jpg",
-    "isGlutenFree": false,
+    "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
     "isEggFree": false,
@@ -8932,10 +8932,10 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-651546.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -9106,7 +9106,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -9307,13 +9307,13 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-660680.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -9580,8 +9580,8 @@ window.initialRecipes = [
       "breakfast"
     ],
     "image": "images/spoonacular-641047.jpg",
-    "isGlutenFree": true,
-    "isNutFree": true,
+    "isGlutenFree": false,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": false,
@@ -9776,7 +9776,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-655279.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": false,
@@ -10157,7 +10157,7 @@ window.initialRecipes = [
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Beet Greens and Poached Eggs",
@@ -10328,9 +10328,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-658803.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -10553,9 +10553,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-704655.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -10684,7 +10684,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -10864,10 +10864,10 @@ window.initialRecipes = [
       "dessert"
     ],
     "image": "images/spoonacular-664408.jpg",
-    "isGlutenFree": false,
+    "isGlutenFree": true,
     "isNutFree": true,
-    "isDairyFree": false,
-    "isEggFree": false,
+    "isDairyFree": true,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -11002,7 +11002,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -11189,11 +11189,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
-    "isKeto": false,
+    "isCandidaFriendly": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Chiquetaille: Cod Fish Salad",
@@ -11405,7 +11405,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -11727,9 +11727,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-637794.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -11951,11 +11951,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Cream Cheese Stuffed Chicken Breasts",
@@ -12146,7 +12146,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -12305,10 +12305,10 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -12497,10 +12497,10 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-652919.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -12556,7 +12556,7 @@ window.initialRecipes = [
         },
         "amount": 400,
         "unit": "g",
-        "category": "Kruidenier",
+        "category": "Groenten & Fruit",
         "staple": false
       },
       {
@@ -12656,7 +12656,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika",
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -12734,7 +12734,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -12927,10 +12927,10 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -13107,7 +13107,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "scallion",
+        "key": "spring onion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -13213,7 +13213,7 @@ window.initialRecipes = [
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Crab Wontons",
@@ -13368,7 +13368,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -13561,7 +13561,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-641202.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": false,
@@ -14060,8 +14060,8 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier",
-        "staple": false
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
         "key": "coriander seeds",
@@ -14212,7 +14212,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-632280.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": true,
@@ -14367,11 +14367,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Baked Ratatouille",
@@ -14556,13 +14556,13 @@ window.initialRecipes = [
       "breakfast"
     ],
     "image": "images/spoonacular-644854.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
-    "isDairyFree": true,
+    "isDairyFree": false,
     "isEggFree": true,
     "isVegetarian": true,
-    "isVegan": true,
-    "isCandidaFriendly": true,
+    "isVegan": false,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -14734,7 +14734,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -14974,11 +14974,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Classic French Mussels",
@@ -15145,8 +15145,8 @@ window.initialRecipes = [
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
-    "isCandidaFriendly": true,
-    "isKeto": false,
+    "isCandidaFriendly": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Bahamian Goombay Smash Cocktail",
@@ -15287,13 +15287,13 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-795431.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": true,
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Green Bean Poriyal",
@@ -15478,10 +15478,10 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-1063645.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -15537,7 +15537,7 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -15619,7 +15619,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -15823,13 +15823,13 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-636641.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
-    "isDairyFree": true,
-    "isEggFree": false,
+    "isDairyFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -15994,8 +15994,8 @@ window.initialRecipes = [
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
-    "isCandidaFriendly": true,
-    "isKeto": false,
+    "isCandidaFriendly": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Buffalo Wing Hummus",
@@ -16096,7 +16096,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika",
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -16142,7 +16142,7 @@ window.initialRecipes = [
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Crab Salad in Avocado Boats",
@@ -16307,7 +16307,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-632169.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": false,
@@ -16531,7 +16531,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -16846,14 +16846,14 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-645721.jpg",
-    "isGlutenFree": false,
+    "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": false,
-    "isKeto": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Grilled Garlicky-Herbed Shrimp",
@@ -16911,7 +16911,7 @@ window.initialRecipes = [
         },
         "amount": 80,
         "unit": "ml",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -16993,11 +16993,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Easy Garlic Roast Leg Of Lamb With Rosemary and Parsley",
@@ -17076,7 +17076,7 @@ window.initialRecipes = [
         },
         "amount": null,
         "unit": "to taste",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -17144,13 +17144,13 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-642809.jpg",
     "isGlutenFree": true,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Fig, Goat Cheese and Walnut Salad",
@@ -17293,13 +17293,13 @@ window.initialRecipes = [
       "breakfast"
     ],
     "image": "images/spoonacular-633692.jpg",
-    "isGlutenFree": true,
-    "isNutFree": true,
+    "isGlutenFree": false,
+    "isNutFree": false,
     "isDairyFree": true,
     "isEggFree": false,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -17485,10 +17485,10 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -17583,7 +17583,7 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -17746,14 +17746,14 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-642297.jpg",
-    "isGlutenFree": false,
+    "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Eggplant Parmesan Roll-Ups",
@@ -17883,7 +17883,7 @@ window.initialRecipes = [
         },
         "amount": 14,
         "unit": "kl",
-        "category": "Kruidenier",
+        "category": "Groenten & Fruit",
         "staple": false
       },
       {
@@ -17987,9 +17987,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-634191.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -18187,7 +18187,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -18362,7 +18362,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-715389.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": true,
@@ -18526,14 +18526,14 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-633352.jpg",
-    "isGlutenFree": false,
+    "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Bacon Wrapped Tofu Tacos",
@@ -18661,7 +18661,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken broth",
+        "key": "chicken stock",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -18669,8 +18669,8 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Kruidenier",
-        "staple": true
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
         "key": "olive oil",
@@ -18709,7 +18709,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "paprika",
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -18749,7 +18749,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-716293.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": true,
@@ -18937,7 +18937,7 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": true,
@@ -19138,7 +19138,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -19191,7 +19191,7 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken",
+        "category": "Kruidenier",
         "staple": true
       },
       {
@@ -19271,13 +19271,13 @@ window.initialRecipes = [
       "dessert"
     ],
     "image": "images/spoonacular-646442.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
-    "isDairyFree": true,
-    "isEggFree": false,
+    "isDairyFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -19430,13 +19430,13 @@ window.initialRecipes = [
       "main"
     ],
     "image": "images/spoonacular-716426.jpg",
-    "isGlutenFree": true,
+    "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
     "isEggFree": true,
     "isVegetarian": true,
     "isVegan": true,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": false,
     "translations": {
       "en": {
@@ -19514,7 +19514,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "scallion",
+        "key": "spring onion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -19750,7 +19750,7 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Kruidenier",
+        "category": "Groenten & Fruit",
         "staple": false
       },
       {
@@ -19904,7 +19904,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -20033,7 +20033,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika",
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -20273,11 +20273,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": true,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "My Sister's Soup: Creamy Curried Squash and Cauliflower Soup",
@@ -20772,11 +20772,11 @@ window.initialRecipes = [
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Mediterranean Herb Dip",
@@ -21171,7 +21171,7 @@ window.initialRecipes = [
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -21499,7 +21499,7 @@ window.initialRecipes = [
     "isVegetarian": true,
     "isVegan": true,
     "isCandidaFriendly": true,
-    "isKeto": false,
+    "isKeto": true,
     "translations": {
       "en": {
         "title": "Cilantro Hummus",
@@ -21673,9 +21673,9 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-638174.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": true,
-    "isEggFree": false,
+    "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
     "isCandidaFriendly": false,
@@ -21786,7 +21786,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken broth",
+        "key": "chicken stock",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -21794,8 +21794,8 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Kruidenier",
-        "staple": true
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
         "key": "soy sauce",
@@ -21834,7 +21834,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "scallion",
+        "key": "spring onion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -21874,7 +21874,7 @@ window.initialRecipes = [
     ],
     "image": "images/spoonacular-636131.jpg",
     "isGlutenFree": false,
-    "isNutFree": true,
+    "isNutFree": false,
     "isDairyFree": false,
     "isEggFree": false,
     "isVegetarian": false,

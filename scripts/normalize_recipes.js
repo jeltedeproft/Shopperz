@@ -38,9 +38,11 @@ function main() {
     merged: 0,
     aisleChanged: 0,
     unitChanged: 0,
-    staples: 0
+    staples: 0,
+    flagsChanged: 0
   };
   const aisleCounts = {};
+  const flagChanges = {};
 
   recipes.forEach(recipe => {
     const original = recipe.ingredients || [];
@@ -69,6 +71,17 @@ function main() {
     });
 
     recipe.ingredients = resolved;
+
+    // Diet flags follow from the ingredients, using whatever the source said
+    // only to make a claim stricter.
+    const derived = Ingredients.deriveDietFlags(resolved, recipe);
+    Ingredients.DIET_FLAGS.forEach(flag => {
+      if (recipe[flag] !== derived[flag]) {
+        stats.flagsChanged++;
+        flagChanges[flag] = (flagChanges[flag] || 0) + 1;
+      }
+      recipe[flag] = derived[flag];
+    });
   });
 
   console.log(`\n📊 Normalisation report`);
@@ -86,6 +99,12 @@ function main() {
     const n = aisleCounts[a] || 0;
     const pct = stats.after ? Math.round((n / stats.after) * 100) : 0;
     console.log(`   ${a.padEnd(24)} ${String(n).padStart(4)}  ${pct}%`);
+  });
+
+  console.log(`\n🥗 Diet flags corrected: ${stats.flagsChanged}`);
+  Object.keys(flagChanges).sort().forEach(flag => {
+    const nowTrue = recipes.filter(r => r[flag]).length;
+    console.log(`   ${flag.padEnd(20)} ${String(flagChanges[flag]).padStart(3)} changed, ${nowTrue}/${recipes.length} now true`);
   });
 
   const units = {};

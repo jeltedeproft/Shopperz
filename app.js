@@ -75,6 +75,7 @@ const uiTranslations = {
     intolNuts: "Nut-Free",
     intolDairy: "Dairy-Free",
     intolEggs: "Egg-Free",
+    allergenDisclaimer: "Worked out from the ingredient list — always check the recipe yourself if an allergy is serious.",
     scaleTestTitle: "Performance Scale Testing",
     scaleTestLabel: "Load 2,000 Demo Recipes",
     scaleTestDesc: "Simulate thousands of recipes to test search speed",
@@ -201,6 +202,7 @@ const uiTranslations = {
     intolNuts: "Notenvrij",
     intolDairy: "Lactosevrij",
     intolEggs: "Eivrij",
+    allergenDisclaimer: "Afgeleid uit de ingrediëntenlijst — controleer het recept zelf bij een ernstige allergie.",
     scaleTestTitle: "Prestatie Schaaltest",
     scaleTestLabel: "Laad 2.000 testrecepten",
     scaleTestDesc: "Simuleer duizenden recepten om de zoeksnelheid te testen",
@@ -323,6 +325,7 @@ const uiTranslations = {
     intolNuts: "Sans Noix",
     intolDairy: "Sans Lactose",
     intolEggs: "Sans Œufs",
+    allergenDisclaimer: "Déduit de la liste d'ingrédients — vérifiez toujours la recette en cas d'allergie grave.",
     scaleTestTitle: "Test de Performance",
     scaleTestLabel: "Charger 2 000 recettes",
     scaleTestDesc: "Simuler des milliers de recettes pour tester la vitesse",
@@ -1660,11 +1663,10 @@ function openRecipeModal(recipe) {
       category: ing.category,
       staple: ing.staple
     }));
-  } else {
-    document.querySelectorAll('.recipe-diet-cb').forEach(cb => { cb.checked = false; });
   }
 
   renderFormIngredientsPreview();
+  if (!recipe) syncDerivedDietFlags();
   document.getElementById('custom-recipe-modal').classList.add('active');
 }
 
@@ -1723,6 +1725,7 @@ function addCustomIngredientToBuffer() {
   });
 
   renderFormIngredientsPreview();
+  syncDerivedDietFlags();
 
   nameInput.value = '';
   amtInput.value = '';
@@ -1749,7 +1752,20 @@ function renderFormIngredientsPreview() {
     btn.addEventListener('click', e => {
       state.customRecipeIngredients.splice(parseInt(e.currentTarget.dataset.index, 10), 1);
       renderFormIngredientsPreview();
+      syncDerivedDietFlags();
     });
+  });
+}
+
+/**
+ * Tick the dietary boxes based on what is actually in the ingredient list.
+ * You can still untick one, but you cannot tick "nut-free" over a bag of
+ * almonds — the allergen boxes are re-checked against the ingredients on save.
+ */
+function syncDerivedDietFlags() {
+  const derived = window.Ingredients.deriveDietFlags(state.customRecipeIngredients, {});
+  document.querySelectorAll('.recipe-diet-cb').forEach(cb => {
+    cb.checked = !!derived[cb.dataset.flag];
   });
 }
 
@@ -1781,9 +1797,13 @@ function handleCustomRecipeSubmit(e) {
     ? state.userRecipes.find(r => r.id === state.editingRecipeId)
     : null;
 
+  // What you ticked, but an allergen-free claim never survives an ingredient
+  // that contradicts it.
+  const derived = window.Ingredients.deriveDietFlags(state.customRecipeIngredients, {});
   const dietFlags = {};
   document.querySelectorAll('.recipe-diet-cb').forEach(cb => {
-    dietFlags[cb.dataset.flag] = cb.checked;
+    const flag = cb.dataset.flag;
+    dietFlags[flag] = cb.checked && derived[flag] !== false;
   });
 
   const recipe = Object.assign({

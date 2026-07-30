@@ -275,14 +275,14 @@ async function main() {
           servings: servings,
           category: autoCategorize(recipe.title, recipe.summary || ""),
           image: recipe.image || "images/witloof_gratin.jpg",
-          isGlutenFree: isGF,
-          isNutFree: true,
-          isDairyFree: isDairyFree,
-          isEggFree: isVegan,
-          isVegetarian: isVeg || isVegan,
-          isVegan: isVegan,
-          isCandidaFriendly: isGF && isDairyFree,
-          isKeto: false,
+          // Diet flags come from the ingredients; the source flags only ever
+          // make a claim stricter. Never assert an allergen-free claim blind.
+          ...Ingredients.deriveDietFlags(translatedIngredients, {
+            isVegetarian: isVeg || isVegan,
+            isVegan: isVegan,
+            isGlutenFree: isGF,
+            isDairyFree: isDairyFree
+          }),
           translations: {
             en: {
               title: recipe.title,

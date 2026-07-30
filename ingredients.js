@@ -381,6 +381,101 @@
     'stock cube', 'shortening', 'yeast', 'dry yeast'
   ];
 
+  // ---------------------------------------------------------------------------
+  // Allergen & diet detection
+  //
+  // Diet flags used to be guessed at import time (isNutFree was hardcoded to
+  // true, which made the "Nut-Free" filter show cakes full of walnuts). They
+  // are now read off the ingredient list instead.
+  //
+  // Caveat worth knowing: an ingredient nobody recognises is assumed harmless,
+  // so these flags are a shopping aid, not a medical guarantee.
+  // ---------------------------------------------------------------------------
+
+  // Plant milks and creams must not count as dairy. Global flag matters: an
+  // ingredient carries its English, Dutch and French name in one string, so
+  // every one of them has to be neutralised, not just the first.
+  var NON_DAIRY_RE = /coconut milk|coconut cream|almond milk|almond cream|soy milk|soya milk|soy cream|oat milk|oat cream|rice milk|plant milk|plant cream|kokosmelk|kokosroom|amandelmelk|sojamelk|sojaroom|havermelk|haverroom|plantaardige room|lait de coco|cr[eè]me de coco|lait d'amande|cr[eè]me d'amande|lait de soja|cr[eè]me de soja|lait d'avoine|cr[eè]me d'avoine/gi;
+
+  var ALLERGEN_PATTERNS = {
+    nuts: /walnut|almond|peanut|pecan|hazelnut|cashew|pistachio|macadamia|brazil nut|pine nut|praline|marzipan|nougat|amaretto|frangelico|nutella|noten|noot|amandel|pinda|hazelnoot|cashew|walnoot|pecannoot|noix|noisette|amande|cacahu|pralin/i,
+    gluten: /wheat|\bflour\b|bread|breadcrumb|panko|pasta|spaghetti|macaroni|lasagn|noodle|couscous|barley|\brye\b|semolina|cracker|cookie|biscuit|\bcake\b|pastry|tortilla|\bbeer\b|abbey|\boats?\b|rolled oats|bulgur|farro|spelt|seitan|soy sauce|\bbloem\b|brood|beschuit|deeg|koekje|\bbier\b|havermout|farine|\bpain\b|p[aâ]tes|bi[eè]re|chapelure/i,
+    dairy: /\bmilk\b|butter|cheese|\bcream\b|yog|yaourt|ghee|custard|\bcurd\b|whey|casein|mascarpone|ricotta|parmesan|parmigiano|mozzarella|cheddar|feta|gouda|\bbrie\b|gruy[eè]re|emmental|buttermilk|\bmelk\b|boter|\bkaas\b|\broom\b|karnemelk|slagroom|\blait\b|beurre|fromage|cr[eè]me|babeurre/i,
+    eggs: /\beggs?\b|egg yolk|egg white|mayonnaise|mayo\b|meringue|aioli|custard|eieren|eidooier|eiwit|\boeufs?\b|jaune d'oeuf|blanc d'oeuf/i,
+    meat: /\bbeef\b|\bpork\b|\blamb\b|chicken|turkey|\bduck\b|\bveal\b|bacon|\bham\b|sausage|salami|chorizo|prosciutto|pancetta|\bmince\b|minced|ground (beef|pork|turkey|lamb)|gehakt|oxtail|\bribs\b|brisket|lardon|gelatin|gelatine|\brund\b|varken|\bkip\b|kalkoen|worst|\bspek\b|\bhesp\b|\bvlees\b|stoofvlees|carbonnade|\bboeuf\b|\bporc\b|poulet|jambon|saucisse|viande|agneau|rasher|chuck|\bloin\b|cutlet/i,
+    fish: /\bfish\b|salmon|\btuna\b|\bcod\b|anchov|sardine|herring|mackerel|trout|shrimp|prawn|\bcrab\b|lobster|mussel|\bclam\b|oyster|squid|calamari|scallop|seafood|\bvis\b|\bzalm\b|tonijn|garnaal|garnalen|mossel|\bkrab\b|kabeljauw|haring|poisson|saumon|\bthon\b|crevette|moule|hu[iî]tre/i,
+    honey: /\bhoney\b|honing|\bmiel\b/i,
+    sugar: /sugar|syrup|molasses|maple|suiker|siroop|\bsucre\b|sirop|\bjam\b|jelly|confiture|chocolate|chocolade|chocolat|honey|honing|\bmiel\b/i,
+    highCarb: /\bflour\b|bread|pasta|spaghetti|macaroni|noodle|\brice\b|potato|\bcorn\b|maize|sugar|\boats?\b|couscous|quinoa|tortilla|banana|\bbloem\b|brood|rijst|aardappel|suiker|\bma[iï]s\b|farine|\bpain\b|\briz\b|pomme de terre|\bsucre\b/i,
+    fermented: /\byeast\b|vinegar|\bbeer\b|\bwine\b|mushroom|soy sauce|\bgist\b|azijn|\bbier\b|\bwijn\b|champignon|paddenstoel|levure|vinaigre|\bvin\b|\brum\b|whisk|vodka|liqueur|likeur/i
+  };
+
+  /** Which allergen/diet groups appear in this ingredient list? */
+  function detectGroups(ingredients) {
+    var found = {};
+    Object.keys(ALLERGEN_PATTERNS).forEach(function (group) { found[group] = false; });
+
+    (ingredients || []).forEach(function (ing) {
+      var names = [];
+      if (ing && typeof ing.name === 'object' && ing.name) {
+        ['en', 'nl', 'fr'].forEach(function (l) { if (ing.name[l]) names.push(ing.name[l]); });
+      } else if (ing && ing.name) {
+        names.push(ing.name);
+      }
+      if (ing && ing.key) names.push(ing.key);
+
+      var text = names.join(' ');
+      if (!text) return;
+
+      // "eggplant" is a vegetable, "almond milk" is not dairy.
+      var eggSafe = text.replace(/eggplant|aubergine/gi, '');
+      var dairySafe = text.replace(NON_DAIRY_RE, '');
+
+      Object.keys(ALLERGEN_PATTERNS).forEach(function (group) {
+        if (found[group]) return;
+        var subject = group === 'eggs' ? eggSafe : (group === 'dairy' ? dairySafe : text);
+        if (ALLERGEN_PATTERNS[group].test(subject)) found[group] = true;
+      });
+    });
+
+    return found;
+  }
+
+  /**
+   * Work out the eight diet flags from the ingredients.
+   *
+   * `hints` are flags from the original source (Spoonacular knows whether a
+   * recipe is vegetarian). They can only make a claim stricter, never looser:
+   * if either the source or the ingredients say "not vegan", it is not vegan.
+   */
+  function deriveDietFlags(ingredients, hints) {
+    var g = detectGroups(ingredients);
+    var h = hints || {};
+
+    var nutFree = !g.nuts;
+    var glutenFree = !g.gluten;
+    var dairyFree = !g.dairy;
+    var eggFree = !g.eggs;
+
+    var vegetarian = !g.meat && !g.fish;
+    if (h.isVegetarian === false) vegetarian = false;
+
+    var vegan = vegetarian && dairyFree && eggFree && !g.honey;
+    if (h.isVegan === false) vegan = false;
+
+    return {
+      isNutFree: nutFree,
+      isGlutenFree: glutenFree,
+      isDairyFree: dairyFree,
+      isEggFree: eggFree,
+      isVegetarian: vegetarian,
+      isVegan: vegan,
+      // Heuristics, deliberately conservative.
+      isCandidaFriendly: glutenFree && dairyFree && !g.sugar && !g.fermented,
+      isKeto: !g.highCarb && !g.sugar
+    };
+  }
+
   // Rows that are import noise rather than ingredients.
   var JUNK_NAME_RE = /^(reserved|gereserveerd|réservé|reserve|serves?|servings?|porties?|portions?|for serving|garnish|optional|to taste|naar smaak|au go[uû]t|and|en|et)$/i;
 
@@ -634,7 +729,11 @@
     isStaple: isStaple,
     resolve: resolve,
     dedupe: dedupe,
-    scaleAmount: scaleAmount
+    scaleAmount: scaleAmount,
+    detectGroups: detectGroups,
+    deriveDietFlags: deriveDietFlags,
+    DIET_FLAGS: ['isVegetarian', 'isVegan', 'isCandidaFriendly', 'isKeto',
+      'isGlutenFree', 'isNutFree', 'isDairyFree', 'isEggFree']
   };
 
   if (typeof module === 'object' && module.exports) {
