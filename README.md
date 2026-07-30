@@ -9,7 +9,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 ## What it does
 
 **Recipes**
-- 115 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units.
+- 131 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 28 Belgian classics written by hand: waterzooi, konijn met pruimen, hutsepot, garnaalkroketten, paling in 't groen, croque monsieur, rijsttaart, speculoos, dame blanche and the rest.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category, by diet (vegetarian, vegan, candida, keto), by allergen (gluten, nuts, dairy, eggs) and by **favourites** — the pills stack, so "my favourite desserts" works.
 - Adjust servings in the recipe drawer and every quantity rescales. Countable things stay whole — you get 5 onions, never 4.3 — and "to taste" never scales.
@@ -74,7 +74,17 @@ node scripts/normalize_recipes.js # re-canonicalise every ingredient in recipes.
 node scripts/download_images.js   # pull any remote recipe image into images/
 pwsh scripts/resize_images.ps1    # downscale photos to the size actually shown
 node scripts/make_icons.js        # regenerate the PWA icons
+
+node scripts/add_belgian_recipes.js          # add the hand-written classics
+node scripts/set_recipe_photo.js --search "waterzooi"   # find a Commons photo
+node scripts/set_recipe_photo.js <id> "File:X.jpg"      # and pin it to a recipe
 ```
+
+Recipe photos come from Wikimedia Commons and only under a licence that
+permits reuse. The photographer and licence are stored on the recipe and shown
+over the photo in the drawer, which is what CC BY-SA asks for. To add a dish of
+your own, write it into `scripts/belgian_recipes.js` and re-run the add script —
+it refuses duplicates, so re-running is safe.
 
 Importers (need `SPOONACULAR_API_KEY` in the environment for the Spoonacular
 sources — never hardcode a key):

@@ -2571,3 +2571,28 @@ textarea.form-control {
     scroll-behavior: auto !important;
   }
 }
+
+/* Photo credit over the drawer hero — required by the CC licences */
+.image-credit {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 4px 10px;
+  background: linear-gradient(to top, rgba(8, 9, 10, 0.85), transparent);
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--paper-dim);
+  text-align: right;
+}
+
+.image-credit a {
+  color: var(--paper-dim);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.image-credit a:hover {
+  color: var(--brass);
+}

@@ -129,7 +129,8 @@
     [/(chicken|beef|vegetable|fish|bone|veal) (broth|stock)|stock cube|bouillon|fond de/i, 'Kruidenier'],
     [/breadcrumb|paneermeel|chapelure|bread flour/i, 'Kruidenier'],
     [/lemon juice|lime juice|citroensap|limoensap|jus de citron|juice of/i, 'Groenten & Fruit'],
-    [/green bean|haricot|sperzieboon|snijboon/i, 'Groenten & Fruit'],
+    [/green bean|haricot vert|sperzieboon|snijboon|prinsessenboon/i, 'Groenten & Fruit'],
+    [/split pea|spliterwt|pois cass|lentil|linze|lentille|dried bean|droge boon|chickpea|kikkererwt|pois chiche/i, 'Kruidenier'],
     [/frozen|diepvries|surgel/i, 'Diepvries'],
     [/dried (herb|oregano|thyme|basil|parsley|rosemary|sage|mint|dill)/i, 'Kruiden & Specerijen'],
     [/vanilla extract|almond extract|lemon extract|vanille-extract|extrait/i, 'Kruidenier'],
@@ -148,7 +149,8 @@
       'kreeft', 'squid', 'calamari', 'inktvis', 'anchovy', 'ansjovis',
       'sardine', 'scallop', 'sint-jakobs', 'herring', 'haring', 'trout',
       'forel', 'mackerel', 'makreel', 'seafood', 'zeevruchten', 'oyster',
-      'oester', 'clam', 'mosselen'
+      'oester', 'clam', 'mosselen', 'eel', 'paling', 'anguille', 'pike',
+      'snoek', 'brochet', 'sole', 'tongschar', 'turbot', 'tarbot'
     ]],
     ['Slagerij & Gevogelte', [
       'beef', 'rund', 'boeuf', 'chuck', 'steak', 'stoofvlees', 'carbonnade',
@@ -159,7 +161,9 @@
       'prosciutto', 'mince', 'gehakt', 'hach', 'oxtail', 'ossenstaart',
       'ribs', 'spare rib', 'loin', 'brisket', 'meat', 'vlees', 'viande',
       'poultry', 'gevogelte', 'breast', 'filet', 'thigh', 'drumstick',
-      'cutlet', 'kotelet', 'escalope', 'rasher', 'pancetta'
+      'cutlet', 'kotelet', 'escalope', 'rasher', 'pancetta', 'rabbit',
+      'konijn', 'lapin', 'venison', 'hert', 'goose', 'gans', 'pheasant',
+      'fazant', 'liver', 'lever', 'kidney', 'beef fat', 'ossewit'
     ]],
     ['Zuivel & Eieren', [
       'milk', 'melk', 'lait', 'butter', 'boter', 'beurre', 'cream', 'room',
@@ -215,6 +219,8 @@
       'artichoke', 'artisjok', 'artichaut', 'aubergine', 'chili pepper',
       'sprout', 'spruit', 'fennel', 'venkel', 'watercress', 'rucola',
       'arugula', 'herb', 'kruid vers', 'vegetable', 'groente', 'légume',
+      'sorrel', 'zurkel', 'oseille', 'chervil', 'kervel', 'cerfeuil',
+      'tarragon', 'dragon', 'estragon', 'lovage', 'lavas',
       'legume', 'fruit'
     ]],
     ['Bieren & Dranken', [
@@ -497,8 +503,8 @@
     gluten: /wheat|\bflour\b|bread|breadcrumb|panko|pasta|spaghetti|macaroni|lasagn|noodle|couscous|barley|\brye\b|semolina|cracker|cookie|biscuit|\bcake\b|pastry|tortilla|\bbeer\b|abbey|\boats?\b|rolled oats|bulgur|farro|spelt|seitan|soy sauce|\bbloem\b|brood|beschuit|deeg|koekje|\bbier\b|havermout|farine|\bpain\b|p[aâ]tes|bi[eè]re|chapelure/i,
     dairy: /\bmilk\b|butter|cheese|\bcream\b|yog|yaourt|ghee|custard|\bcurd\b|whey|casein|mascarpone|ricotta|parmesan|parmigiano|mozzarella|cheddar|feta|gouda|\bbrie\b|gruy[eè]re|emmental|buttermilk|\bmelk\b|boter|\bkaas\b|\broom\b|karnemelk|slagroom|\blait\b|beurre|fromage|cr[eè]me|babeurre/i,
     eggs: /\beggs?\b|egg yolk|egg white|mayonnaise|mayo\b|meringue|aioli|custard|eieren|eidooier|eiwit|\boeufs?\b|jaune d'oeuf|blanc d'oeuf/i,
-    meat: /\bbeef\b|\bpork\b|\blamb\b|chicken|turkey|\bduck\b|\bveal\b|bacon|\bham\b|sausage|salami|chorizo|prosciutto|pancetta|\bmince\b|minced|ground (beef|pork|turkey|lamb)|gehakt|oxtail|\bribs\b|brisket|lardon|gelatin|gelatine|\brund\b|varken|\bkip\b|kalkoen|worst|\bspek\b|\bhesp\b|\bvlees\b|stoofvlees|carbonnade|\bboeuf\b|\bporc\b|poulet|jambon|saucisse|viande|agneau|rasher|chuck|\bloin\b|cutlet/i,
-    fish: /\bfish\b|salmon|\btuna\b|\bcod\b|anchov|sardine|herring|mackerel|trout|shrimp|prawn|\bcrab\b|lobster|mussel|\bclam\b|oyster|squid|calamari|scallop|seafood|\bvis\b|\bzalm\b|tonijn|garnaal|garnalen|mossel|\bkrab\b|kabeljauw|haring|poisson|saumon|\bthon\b|crevette|moule|hu[iî]tre/i,
+    meat: /\bbeef\b|\bpork\b|\blamb\b|chicken|turkey|\bduck\b|\bveal\b|bacon|\bham\b|sausage|salami|chorizo|prosciutto|pancetta|\bmince\b|minced|ground (beef|pork|turkey|lamb)|gehakt|oxtail|\bribs\b|brisket|lardon|gelatin|gelatine|\brund\b|varken|\bkip\b|kalkoen|worst|\bspek\b|\bhesp\b|\bvlees\b|stoofvlees|carbonnade|\bboeuf\b|\bporc\b|poulet|jambon|saucisse|viande|agneau|rasher|chuck|\bloin\b|cutlet|rabbit|konijn|lapin|venison|hert|gibier|game bird|goose|gans|\boie\b|pheasant|fazant|liver|lever|foie|kidney|nier|\brognon/i,
+    fish: /\bfish\b|salmon|\btuna\b|\bcod\b|anchov|sardine|herring|mackerel|trout|shrimp|prawn|\bcrab\b|lobster|mussel|\bclam\b|oyster|squid|calamari|scallop|seafood|\bvis\b|\bzalm\b|tonijn|garnaal|garnalen|mossel|\bkrab\b|kabeljauw|haring|poisson|saumon|\bthon\b|crevette|moule|hu[iî]tre|\beel\b|\bpaling\b|anguille|pike|snoek|brochet|perch|baars|sole\b|tongschar|turbot|tarbot|whelk|wulk|shrimps/i,
     honey: /\bhoney\b|honing|\bmiel\b/i,
     sugar: /sugar|syrup|molasses|maple|suiker|siroop|\bsucre\b|sirop|\bjam\b|jelly|confiture|chocolate|chocolade|chocolat|honey|honing|\bmiel\b/i,
     highCarb: /\bflour\b|bread|pasta|spaghetti|macaroni|noodle|\brice\b|potato|\bcorn\b|maize|sugar|\boats?\b|couscous|quinoa|tortilla|banana|\bbloem\b|brood|rijst|aardappel|suiker|\bma[iï]s\b|farine|\bpain\b|\briz\b|pomme de terre|\bsucre\b/i,
@@ -566,7 +572,7 @@
       isVegetarian: vegetarian,
       isVegan: vegan,
       // Heuristics, deliberately conservative.
-      isCandidaFriendly: glutenFree && dairyFree && !g.sugar && !g.fermented,
+      isCandidaFriendly: glutenFree && dairyFree && !g.sugar && !g.fermented && !g.highCarb,
       isKeto: !g.highCarb && !g.sugar
     };
   }

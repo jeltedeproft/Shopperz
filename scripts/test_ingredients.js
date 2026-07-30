@@ -236,7 +236,7 @@ const dupeCases = [
   ['half of a bilingual title', { id: 'fresh', title: 'Gaufres de Liège' }, 'gaufre-liege'],
   ['same but unaccented', { id: 'fresh', title: 'gaufres de liege' }, 'gaufre-liege'],
   ['matched via translations', { id: 'fresh', translations: { en: { title: 'Colcannon' } } }, 'spoonacular-639900'],
-  ['genuinely new dish', { id: 'fresh', title: 'Konijn met pruimen' }, null]
+  ['genuinely new dish', { id: 'fresh', title: 'Mattentaart van Geraardsbergen' }, null]
 ];
 
 dupeCases.forEach(([label, candidate, wantedId]) => {

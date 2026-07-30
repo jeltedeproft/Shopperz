@@ -634,6 +634,22 @@ check('recipe photos stay within the offline budget',
 check('no single photo is oversized', heavy.length === 0,
   heavy.slice(0, 3).join(', '));
 
+// Photos borrowed under a CC licence must name their photographer.
+const credited = recipes.filter(r => r.imageCredit);
+const badCredit = credited.filter(r =>
+  !r.imageCredit.author || !r.imageCredit.licence || !r.imageCredit.source);
+check('borrowed photos carry a full credit', badCredit.length === 0,
+  badCredit.map(r => r.id).slice(0, 3).join(', '));
+check('the credit is shown in the drawer', /id="drawer-image-credit"/.test(html));
+
+const belgian = recipes.filter(r => /waterzooi|konijn|hutsepot|garnaalkroket|balletjes|wafel|rijsttaart|spruitjes|croque|luikse|speculoos|dame-blanche|erwtensoep|paling|frieten/i.test(r.id));
+check('the Belgian classics are in the book', belgian.length >= 16, `${belgian.length} found`);
+check('every Belgian classic is trilingual',
+  belgian.every(r => ['en', 'nl', 'fr'].every(l =>
+    r.translations[l] && r.translations[l].title && r.translations[l].instructions.length >= 5)),
+  belgian.filter(r => !['en', 'nl', 'fr'].every(l => r.translations[l] && r.translations[l].instructions.length >= 5))
+    .map(r => r.id).join(', '));
+
 check('every image file exists',
   recipes.every(r => fs.existsSync(path.join(ROOT, r.image))),
   recipes.filter(r => !fs.existsSync(path.join(ROOT, r.image))).map(r => r.image).join(', '));

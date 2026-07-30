@@ -1540,6 +1540,7 @@ function openRecipeDrawer(recipeId) {
 
   document.getElementById('drawer-hero-img').src = recipe.image;
   document.getElementById('drawer-hero-img').alt = trans.title;
+  renderImageCredit(recipe);
   document.getElementById('drawer-subtitle').textContent =
     own ? `${recipeCategoryLabel(recipe)} · ${t('customBadge')}` : recipeCategoryLabel(recipe);
   document.getElementById('drawer-title').textContent = trans.title;
@@ -1568,6 +1569,25 @@ function openRecipeDrawer(recipeId) {
   const drawer = document.getElementById('recipe-drawer');
   drawer.classList.add('active');
   trapFocus(drawer);
+}
+
+/**
+ * Photos taken from Wikimedia Commons come under CC licences that require the
+ * photographer to be named, so the credit rides along with the recipe.
+ */
+function renderImageCredit(recipe) {
+  const el = document.getElementById('drawer-image-credit');
+  if (!el) return;
+
+  const credit = recipe.imageCredit;
+  if (!credit) {
+    el.textContent = '';
+    el.style.display = 'none';
+    return;
+  }
+
+  el.style.display = 'block';
+  el.innerHTML = `📷 ${escapeHtml(credit.author)} · <a href="${escapeHtml(credit.licenceUrl || credit.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(credit.licence)}</a>`;
 }
 
 function closeRecipeDrawer() {
