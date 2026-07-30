@@ -57,9 +57,11 @@ Wi-Fi, then "Add to home screen".
 ### Scripts
 
 ```bash
-node scripts/smoke_test.js        # run this before committing
+node scripts/smoke_test.js        # app flows — run this before committing
+node scripts/test_ingredients.js  # the ingredient dictionary, table-driven
 node scripts/normalize_recipes.js # re-canonicalise every ingredient in recipes.js
 node scripts/download_images.js   # pull any remote recipe image into images/
+pwsh scripts/resize_images.ps1    # downscale photos to the size actually shown
 node scripts/make_icons.js        # regenerate the PWA icons
 ```
 

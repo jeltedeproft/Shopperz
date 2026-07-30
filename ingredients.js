@@ -818,7 +818,9 @@
    * Countables round up to whole units, vague amounts never scale.
    */
   function scaleAmount(amount, unit, ratio) {
-    if (typeof amount !== 'number' || isVague(unit)) return amount === undefined ? null : amount;
+    // "a pinch" and "to taste" carry no number at any scale.
+    if (isVague(unit)) return null;
+    if (typeof amount !== 'number') return amount === undefined ? null : amount;
     if (ratio === 1) return amount;
     return roundAmount(amount * ratio, unit);
   }
