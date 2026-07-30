@@ -102,6 +102,11 @@ const uiTranslations = {
     shoppingGroupTitle: "Shopping",
     skipStaplesLabel: "Skip pantry staples",
     skipStaplesDesc: "Leave out salt, pepper, oil and spices you already have",
+    aisleOrderLabel: "Aisle order",
+    aisleOrderDesc: "Put these in the order you walk your shop — the checklist follows it",
+    aisleOrderReset: "Reset to default",
+    moveUp: "Move up",
+    moveDown: "Move down",
     // Grocery list
     allItems: "All Items",
     itemsChecked: "items checked",
@@ -248,6 +253,11 @@ const uiTranslations = {
     shoppingGroupTitle: "Winkelen",
     skipStaplesLabel: "Sla voorraadkast-basics over",
     skipStaplesDesc: "Laat zout, peper, olie en kruiden weg die je al hebt",
+    aisleOrderLabel: "Volgorde van de afdelingen",
+    aisleOrderDesc: "Zet ze in de volgorde waarin je door je winkel loopt — de checklist volgt",
+    aisleOrderReset: "Standaard herstellen",
+    moveUp: "Naar boven",
+    moveDown: "Naar onder",
     allItems: "Alle Items",
     itemsChecked: "items afgevinkt",
     exportBtn: "Lijst delen",
@@ -391,6 +401,11 @@ const uiTranslations = {
     shoppingGroupTitle: "Courses",
     skipStaplesLabel: "Ignorer les basiques",
     skipStaplesDesc: "Omet le sel, poivre, huile et épices que vous avez déjà",
+    aisleOrderLabel: "Ordre des rayons",
+    aisleOrderDesc: "Rangez-les dans l'ordre où vous parcourez votre magasin — la liste suit",
+    aisleOrderReset: "Réinitialiser",
+    moveUp: "Monter",
+    moveDown: "Descendre",
     allItems: "Tous les Articles",
     itemsChecked: "articles cochés",
     exportBtn: "Partager la liste",
@@ -634,6 +649,62 @@ function releaseFocus(container) {
     focusReturnTo.focus();
   }
   focusReturnTo = null;
+}
+
+/**
+ * The order aisles appear in on the checklist — i.e. the order you walk the
+ * shop. Falls back to the dictionary's default whenever the stored order is
+ * missing or no longer lists every aisle (after an app update adds one).
+ */
+function aisleOrder() {
+  const stored = state.settings.aisleOrder;
+  const all = window.Ingredients.AISLES;
+  if (!Array.isArray(stored) || stored.length !== all.length) return all;
+  if (!all.every(a => stored.includes(a))) return all;
+  return stored;
+}
+
+function moveAisle(aisle, direction) {
+  const order = aisleOrder().slice();
+  const from = order.indexOf(aisle);
+  const to = from + direction;
+  if (from === -1 || to < 0 || to >= order.length) return;
+  order.splice(to, 0, order.splice(from, 1)[0]);
+  state.settings.aisleOrder = order;
+  saveSettings();
+  renderAisleOrderSetting();
+  renderGroceryList();
+}
+
+function resetAisleOrder() {
+  state.settings.aisleOrder = null;
+  saveSettings();
+  renderAisleOrderSetting();
+  renderGroceryList();
+}
+
+function renderAisleOrderSetting() {
+  const container = document.getElementById('aisle-order-list');
+  if (!container) return;
+
+  const order = aisleOrder();
+  container.innerHTML = order.map((aisle, idx) => `
+    <li class="aisle-order-row">
+      <span class="aisle-order-name">${escapeHtml(aisleLabel(aisle))}</span>
+      <span class="aisle-order-controls">
+        <button type="button" class="aisle-move" data-aisle="${escapeHtml(aisle)}" data-dir="-1"
+                aria-label="${escapeHtml(t('moveUp'))}" ${idx === 0 ? 'disabled' : ''}>↑</button>
+        <button type="button" class="aisle-move" data-aisle="${escapeHtml(aisle)}" data-dir="1"
+                aria-label="${escapeHtml(t('moveDown'))}" ${idx === order.length - 1 ? 'disabled' : ''}>↓</button>
+      </span>
+    </li>
+  `).join('');
+
+  container.querySelectorAll('.aisle-move').forEach(btn => {
+    btn.addEventListener('click', () => {
+      moveAisle(btn.dataset.aisle, parseInt(btn.dataset.dir, 10));
+    });
+  });
 }
 
 function aisleLabel(aisle) {
@@ -983,6 +1054,8 @@ function setupEventListeners() {
     });
   });
 
+  document.getElementById('reset-aisle-order-btn').addEventListener('click', resetAisleOrder);
+
   document.getElementById('backup-btn').addEventListener('click', downloadBackup);
 
   const restoreInput = document.getElementById('restore-file-input');
@@ -1301,6 +1374,8 @@ function renderSettingsTab() {
 
   const skipStaples = document.getElementById('skip-staples-toggle');
   if (skipStaples) skipStaples.checked = state.settings.skipStaples;
+
+  renderAisleOrderSetting();
 }
 
 // --- Batch Selection System ---
@@ -1668,7 +1743,7 @@ function renderGroceryList() {
     groups[cat].push(item);
   });
 
-  const order = window.Ingredients.AISLES;
+  const order = aisleOrder();
   const sortedCategories = Object.keys(groups).sort((a, b) => {
     const idxA = order.indexOf(a) === -1 ? 999 : order.indexOf(a);
     const idxB = order.indexOf(b) === -1 ? 999 : order.indexOf(b);
@@ -1953,7 +2028,7 @@ function clearCompletedGroceryItems() {
 
 /** Plain-text list for the share sheet / clipboard. */
 function groceryListAsText() {
-  const order = window.Ingredients.AISLES;
+  const order = aisleOrder();
   const groups = {};
   state.groceryList.forEach(item => {
     const cat = item.category || window.Ingredients.DEFAULT_AISLE;

@@ -273,6 +273,32 @@ state.settings.skipStaples = false;
 sandbox.addItemsToGroceryList(withStaples, 'Test');
 check('toggle off means staples are included', state.groceryList.some(i => i.key === 'salt'));
 
+console.log('\nAisle walking order');
+const defaultOrder = sandbox.Ingredients.AISLES;
+state.settings.aisleOrder = null;
+check('falls back to the default order',
+  sandbox.aisleOrder()[0] === defaultOrder[0]);
+sandbox.moveAisle(defaultOrder[3], -1);
+check('an aisle can be moved up',
+  sandbox.aisleOrder()[2] === defaultOrder[3],
+  sandbox.aisleOrder().slice(0, 4).join(' > '));
+state.settings.aisleOrder = ['Bakkerij'];
+check('a stale order missing aisles is ignored',
+  sandbox.aisleOrder().length === defaultOrder.length);
+state.settings.aisleOrder = defaultOrder.slice().reverse();
+state.groceryList = [];
+sandbox.addItemsToGroceryList([
+  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 1, unit: 'st.', category: 'Groenten & Fruit', staple: false },
+  { key: 'beer', name: { en: 'beer', nl: 'bier', fr: 'bière' }, amount: 1, unit: 'bottle', category: 'Bieren & Dranken', staple: false }
+], 'Order test');
+const exported = sandbox.groceryListAsText();
+check('the checklist follows the chosen order',
+  exported.indexOf('ranken') < exported.indexOf('roenten') ||
+  exported.indexOf('Drinks') < exported.indexOf('Vegetables'),
+  exported.split('\n').filter(Boolean).slice(1, 3).join(' / '));
+sandbox.resetAisleOrder();
+check('reset restores the default', state.settings.aisleOrder === null);
+
 console.log('\nExport');
 const text = sandbox.groceryListAsText();
 check('export lists items', text.includes('onion') || text.includes('ui'), text.split('\n')[2]);
