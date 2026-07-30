@@ -14,6 +14,8 @@ const uiTranslations = {
     recipeBookTitle: "Recipe Book",
     recipeBookDesc: "Your collection of premium Belgian dishes",
     recipeCategoryAll: "All",
+    favoritesFilter: "Favourites",
+    noFavorites: "No favourites yet — tap the heart on a recipe",
     recipeCategoryBreakfast: "Breakfast",
     recipeCategoryMain: "Hoofdgerecht",
     recipeCategorySoup: "Soup",
@@ -153,6 +155,8 @@ const uiTranslations = {
     recipeBookTitle: "Kookboek",
     recipeBookDesc: "Jouw collectie van Belgische gerechten",
     recipeCategoryAll: "Alle",
+    favoritesFilter: "Favorieten",
+    noFavorites: "Nog geen favorieten — tik op het hartje bij een recept",
     recipeCategoryBreakfast: "Ontbijt",
     recipeCategoryMain: "Hoofdgerecht",
     recipeCategorySoup: "Soep",
@@ -288,6 +292,8 @@ const uiTranslations = {
     recipeBookTitle: "Livre de Recettes",
     recipeBookDesc: "Votre collection de plats belges",
     recipeCategoryAll: "Tout",
+    favoritesFilter: "Favoris",
+    noFavorites: "Pas encore de favoris — touchez le cœur d'une recette",
     recipeCategoryBreakfast: "Petit-déjeuner",
     recipeCategoryMain: "Plat principal",
     recipeCategorySoup: "Soupe",
@@ -498,6 +504,7 @@ let state = {
     homeQuery: '',
     query: '',
     category: 'all',
+    favoritesOnly: false,
     diets: [],
     intolerances: []
   },
@@ -1068,18 +1075,31 @@ function renderHomeTab() {
 function renderRecipesList() {
   const catRow = document.getElementById('recipe-categories-row');
   if (catRow) {
-    catRow.innerHTML = RECIPE_CATEGORIES.map(cat => `
-      <div class="cat-pill ${cat === state.filters.category ? 'active' : ''}" data-category="${cat}">
+    // Favourites is a toggle that stacks with the category pills, so you can
+    // ask for "my favourite desserts".
+    const favPill = `
+      <div class="cat-pill cat-pill-fav ${state.filters.favoritesOnly ? 'active' : ''}" data-favorites="1"
+           role="button" tabindex="0" aria-pressed="${state.filters.favoritesOnly}">
+        ❤️ ${escapeHtml(t('favoritesFilter'))}
+      </div>
+    `;
+
+    catRow.innerHTML = favPill + RECIPE_CATEGORIES.map(cat => `
+      <div class="cat-pill ${cat === state.filters.category ? 'active' : ''}" data-category="${cat}"
+           role="button" tabindex="0" aria-pressed="${cat === state.filters.category}">
         ${escapeHtml(t(RECIPE_CATEGORY_KEYS[cat]))}
       </div>
     `).join('');
 
     catRow.querySelectorAll('.cat-pill').forEach(pill => {
       pill.addEventListener('click', e => {
-        state.filters.category = e.currentTarget.dataset.category;
-        catRow.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
-        e.currentTarget.classList.add('active');
-        renderRecipeGrid();
+        const el = e.currentTarget;
+        if (el.dataset.favorites) {
+          state.filters.favoritesOnly = !state.filters.favoritesOnly;
+        } else {
+          state.filters.category = el.dataset.category;
+        }
+        renderRecipesList();
       });
     });
   }
@@ -1090,6 +1110,7 @@ function renderRecipesList() {
 function filteredRecipes() {
   const f = state.filters;
   return state.recipes.filter(recipe => {
+    if (f.favoritesOnly && !state.favorites.includes(recipe.id)) return false;
     if (f.category !== 'all' && !recipeCategories(recipe).includes(f.category)) return false;
     if (!matchesQuery(recipe, f.query)) return false;
 
@@ -1114,7 +1135,10 @@ function renderRecipeGrid() {
   const matches = filteredRecipes();
 
   if (matches.length === 0) {
-    container.innerHTML = `<div class="grid-empty">${escapeHtml(t('noResults'))}</div>`;
+    const message = state.filters.favoritesOnly && state.favorites.length === 0
+      ? t('noFavorites')
+      : t('noResults');
+    container.innerHTML = `<div class="grid-empty">${escapeHtml(message)}</div>`;
     updateBatchActionBar();
     return;
   }

@@ -1967,3 +1967,9 @@ header {
   color: var(--text-muted);
   font-style: italic;
 }
+
+.cat-pill-fav.active {
+  border-color: var(--danger);
+  color: var(--danger);
+  background: var(--danger-dim);
+}

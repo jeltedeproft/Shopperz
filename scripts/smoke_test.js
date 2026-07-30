@@ -352,6 +352,23 @@ state.filters.query = 'zzzzqqq';
 check('nonsense search returns nothing', sandbox.filteredRecipes().length === 0);
 state.filters.query = '';
 
+console.log('\nFavourites filter');
+state.favorites = ['carbonnade-flamande', 'moules-frites'];
+state.filters.favoritesOnly = true;
+check('favourites filter narrows to favourites', sandbox.filteredRecipes().length === 2,
+  String(sandbox.filteredRecipes().length));
+state.filters.category = 'dessert';
+check('favourites stacks with a category', sandbox.filteredRecipes().length === 0);
+state.filters.category = 'all';
+state.favorites = [];
+sandbox.renderRecipeGrid();
+check('empty favourites explains itself',
+  elementsById['recipes-tab-grid'].innerHTML.includes('favour') ||
+  elementsById['recipes-tab-grid'].innerHTML.includes('favorie') ||
+  elementsById['recipes-tab-grid'].innerHTML.includes('favoris'),
+  elementsById['recipes-tab-grid'].innerHTML.slice(0, 80));
+state.filters.favoritesOnly = false;
+
 console.log('\nLanguage switching');
 ['en', 'fr', 'nl'].forEach(lang => {
   sandbox.applyLanguage(lang);
