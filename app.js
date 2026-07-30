@@ -537,6 +537,23 @@ function escapeHtml(value) {
     .replace(/'/g, '&#39;');
 }
 
+/**
+ * Lower-case and strip diacritics, so typing "gaufres de liege" finds
+ * "Gaufres de Liège". 79 of the 115 recipes have an accent in the title, and
+ * nobody reaches for é on a phone keyboard mid-search.
+ */
+function fold(text) {
+  return String(text === null || text === undefined ? '' : text)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')   // combining accents left behind by NFD
+    .replace(/œ/g, 'oe')          // œufs -> oeufs
+    .replace(/æ/g, 'ae')
+    .replace(/ß/g, 'ss')
+    .replace(/ø/g, 'o')
+    .replace(/[‘’`]/g, "'"); // curly quotes in "crème d’avoine"
+}
+
 function debounce(fn, wait) {
   let timer = null;
   return function () {
@@ -781,7 +798,7 @@ function setupEventListeners() {
   const homeSearch = document.getElementById('home-search');
   if (homeSearch) {
     homeSearch.addEventListener('input', debounce(e => {
-      state.filters.homeQuery = e.target.value.toLowerCase().trim();
+      state.filters.homeQuery = fold(e.target.value).trim();
       renderHomeTab();
     }, 150));
   }
@@ -789,7 +806,7 @@ function setupEventListeners() {
   const recipeSearch = document.getElementById('recipe-search');
   if (recipeSearch) {
     recipeSearch.addEventListener('input', debounce(e => {
-      state.filters.query = e.target.value.toLowerCase().trim();
+      state.filters.query = fold(e.target.value).trim();
       renderRecipeGrid();
     }, 150));
   }
@@ -1019,9 +1036,9 @@ function bindRecipeCards(container) {
 function matchesQuery(recipe, query) {
   if (!query) return true;
   const tr = recipeText(recipe);
-  if (tr.title.toLowerCase().includes(query)) return true;
-  if (tr.subtitle && tr.subtitle.toLowerCase().includes(query)) return true;
-  return recipe.ingredients.some(i => String(ingredientName(i)).toLowerCase().includes(query));
+  if (fold(tr.title).includes(query)) return true;
+  if (tr.subtitle && fold(tr.subtitle).includes(query)) return true;
+  return recipe.ingredients.some(i => fold(ingredientName(i)).includes(query));
 }
 
 function renderHomeTab() {

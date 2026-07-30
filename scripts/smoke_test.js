@@ -352,6 +352,20 @@ state.filters.query = 'zzzzqqq';
 check('nonsense search returns nothing', sandbox.filteredRecipes().length === 0);
 state.filters.query = '';
 
+console.log('\nAccent-folded search');
+sandbox.applyLanguage('fr');
+[['pates', 'Pâtes'], ['creme', 'crème'], ['legumes', 'légumes']].forEach(([query, target]) => {
+  state.filters.query = ctx(`fold(${JSON.stringify(query)})`);
+  check(`"${query}" finds ${target}`, sandbox.filteredRecipes().length > 0,
+    String(sandbox.filteredRecipes().length));
+});
+sandbox.applyLanguage('nl');
+state.filters.query = ctx('fold("gaufres de liege")');
+check('folding is symmetric (query and text both folded)',
+  ctx('fold("Gaufres de Liège")') === 'gaufres de liege',
+  ctx('fold("Gaufres de Liège")'));
+state.filters.query = '';
+
 console.log('\nFavourites filter');
 state.favorites = ['carbonnade-flamande', 'moules-frites'];
 state.filters.favoritesOnly = true;
