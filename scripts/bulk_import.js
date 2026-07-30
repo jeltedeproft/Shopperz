@@ -3,6 +3,7 @@ const path = require('path');
 const vm = require('vm');
 
 const Ingredients = require('../ingredients.js');
+const RecipeDb = require('./recipe_db.js');
 
 // --- Helper: Public translation API with retries and sl=en ---
 async function translateText(text, targetLang) {
@@ -304,34 +305,23 @@ async function main() {
     }
 
     // --- Write back to recipes.js ---
-    const dbPath = path.join(__dirname, '..', 'recipes.js');
-    console.log(`\n💾 Reading local database: ${dbPath}`);
-    const fileContent = fs.readFileSync(dbPath, 'utf8');
+    console.log(`\n💾 Reading local database: ${RecipeDb.DB_PATH}`);
+    const recipesArray = RecipeDb.load();
 
-    // Safe execution sandbox to parse current JS array
-    const sandbox = { window: {} };
-    vm.createContext(sandbox);
-    vm.runInNewContext(fileContent, sandbox);
-
-    const recipesArray = sandbox.initialRecipes || sandbox.window.initialRecipes;
-    if (!recipesArray) {
-      throw new Error("Unable to parse initialRecipes array from recipes.js");
-    }
-
-    // Push new recipes, preventing duplicate IDs
+    // Skip anything already in the book, by id or by title in any language.
     let appendedCount = 0;
     importedList.forEach(newRec => {
-      const exists = recipesArray.some(r => r.id === newRec.id);
-      if (!exists) {
-        recipesArray.push(newRec);
-        appendedCount++;
+      const duplicate = RecipeDb.findDuplicate(recipesArray, newRec);
+      if (duplicate) {
+        console.log(`   ⏭️  Already have "${duplicate.translations.en.title}"`);
+        return;
       }
+      recipesArray.push(newRec);
+      appendedCount++;
     });
 
     console.log(`   - Appended ${appendedCount} new recipes. Total recipes in DB: ${recipesArray.length}`);
-
-    const outputContent = `// Expanded Trilingual Recipe Database (English, Dutch, French)\n// Includes strict allergen and diet indexing flags for fast filtering\nwindow.initialRecipes = ${JSON.stringify(recipesArray, null, 2)};\n`;
-    fs.writeFileSync(dbPath, outputContent, 'utf8');
+    RecipeDb.save(recipesArray);
 
     console.log(`\n🎉 BULK IMPORT COMPLETED! Successfully added ${appendedCount} recipes to the book.`);
   } catch (err) {

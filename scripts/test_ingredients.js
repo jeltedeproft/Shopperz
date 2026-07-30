@@ -224,5 +224,31 @@ expect('a source flag can only tighten a claim',
   Ing.deriveDietFlags([ing('carrot')], { isVegetarian: false }).isVegetarian, false);
 
 // ---------------------------------------------------------------------------
+section('Import duplicate detection');
+// ---------------------------------------------------------------------------
+const RecipeDb = require('./recipe_db.js');
+const book = RecipeDb.load();
+
+const dupeCases = [
+  ['same id', { id: 'carbonnade-flamande', title: 'Totally different name' }, 'carbonnade-flamande'],
+  ['identical title', { id: 'fresh', title: 'Chinese Potstickers' }, 'spoonacular-638693'],
+  ['title in another case', { id: 'fresh', title: 'COLCANNON' }, 'spoonacular-639900'],
+  ['half of a bilingual title', { id: 'fresh', title: 'Gaufres de Liège' }, 'gaufre-liege'],
+  ['same but unaccented', { id: 'fresh', title: 'gaufres de liege' }, 'gaufre-liege'],
+  ['matched via translations', { id: 'fresh', translations: { en: { title: 'Colcannon' } } }, 'spoonacular-639900'],
+  ['genuinely new dish', { id: 'fresh', title: 'Konijn met pruimen' }, null]
+];
+
+dupeCases.forEach(([label, candidate, wantedId]) => {
+  const found = RecipeDb.findDuplicate(book, candidate);
+  expect(label, found ? found.id : null, wantedId);
+});
+
+// Fragments under 4 characters are too generic to match a whole dish on.
+expect('short fragments are not treated as titles', RecipeDb.titleVariants('Pie / X'), ['pie x']);
+expect('long halves are kept', RecipeDb.titleVariants('Stoemp met Worst / Stoemp Saucisse'),
+  ['stoemp met worst stoemp saucisse', 'stoemp met worst', 'stoemp saucisse']);
+
+// ---------------------------------------------------------------------------
 console.log(`\n${failures === 0 ? `✅ ${count} dictionary checks passed` : `❌ ${failures} of ${count} failed`}\n`);
 process.exit(failures === 0 ? 0 : 1);

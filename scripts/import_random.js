@@ -3,6 +3,7 @@ const path = require('path');
 const vm = require('vm');
 
 const Ingredients = require('../ingredients.js');
+const RecipeDb = require('./recipe_db.js');
 
 // --- Helper: Public translation API with retries and sl=en ---
 async function translateText(text, targetLang) {
@@ -197,16 +198,11 @@ async function main() {
       const recipe = rawRecipes[idx];
       const uniqueId = `spoonacular-${recipe.id}`;
 
-      // Check if recipe already exists in database before translating (saves API / time)
-      const fileContent = fs.readFileSync(dbPath, 'utf8');
-      const sandbox = { window: {} };
-      vm.createContext(sandbox);
-      vm.runInNewContext(fileContent, sandbox);
-      const recipesArray = sandbox.initialRecipes || sandbox.window.initialRecipes;
-      
-      const exists = recipesArray.some(r => r.id === uniqueId);
-      if (exists) {
-        console.log(`⏭️  [${idx + 1}/${rawRecipes.length}] Skipped duplicate: "${recipe.title}"`);
+      // Check before translating — a duplicate costs API calls and minutes.
+      const recipesArray = RecipeDb.load();
+      const duplicate = RecipeDb.findDuplicate(recipesArray, { id: uniqueId, title: recipe.title });
+      if (duplicate) {
+        console.log(`⏭️  [${idx + 1}/${rawRecipes.length}] Already have "${duplicate.translations.en.title}", skipping "${recipe.title}"`);
         continue;
       }
 
@@ -307,15 +303,15 @@ async function main() {
         };
 
         // Reload fresh array state, push, and save
-        const reloadContent = fs.readFileSync(dbPath, 'utf8');
-        const reloadSandbox = { window: {} };
-        vm.createContext(reloadSandbox);
-        vm.runInNewContext(reloadContent, reloadSandbox);
-        const activeRecipes = reloadSandbox.initialRecipes || reloadSandbox.window.initialRecipes;
-        
+        const activeRecipes = RecipeDb.load();
+        const lateDuplicate = RecipeDb.findDuplicate(activeRecipes, newRecipe);
+        if (lateDuplicate) {
+          console.log(`   └─ Turned out to be "${lateDuplicate.translations.en.title}" after translating, skipped.`);
+          continue;
+        }
+
         activeRecipes.push(newRecipe);
-        const outputContent = `// Expanded Trilingual Recipe Database (English, Dutch, French)\n// Includes strict allergen and diet indexing flags for fast filtering\nwindow.initialRecipes = ${JSON.stringify(activeRecipes, null, 2)};\n`;
-        fs.writeFileSync(dbPath, outputContent, 'utf8');
+        RecipeDb.save(activeRecipes);
 
         console.log(`   └─ Successfully imported. Total in DB: ${activeRecipes.length}`);
       } catch (err) {

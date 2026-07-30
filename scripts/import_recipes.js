@@ -3,6 +3,7 @@ const path = require('path');
 const vm = require('vm');
 
 const Ingredients = require('../ingredients.js');
+const RecipeDb = require('./recipe_db.js');
 
 // --- Helper: Public translation API ---
 async function translateText(text, targetLang) {
@@ -411,26 +412,18 @@ async function main() {
     };
 
     // --- Write back to recipes.js ---
-    const dbPath = path.join(__dirname, '..', 'recipes.js');
-    console.log(`\n💾 Reading local database: ${dbPath}`);
-    const fileContent = fs.readFileSync(dbPath, 'utf8');
+    console.log(`\n💾 Reading local database: ${RecipeDb.DB_PATH}`);
+    const recipesArray = RecipeDb.load();
 
-    // Safe execution sandbox to parse current JS array
-    const sandbox = { window: {} };
-    vm.createContext(sandbox);
-    vm.runInNewContext(fileContent, sandbox);
-
-    const recipesArray = sandbox.initialRecipes || sandbox.window.initialRecipes;
-    if (!recipesArray) {
-      throw new Error("Unable to parse initialRecipes array from recipes.js");
+    const duplicate = RecipeDb.findDuplicate(recipesArray, newRecipe);
+    if (duplicate) {
+      console.log(`\n⏭️  Already in the book as "${duplicate.translations.en.title}" (${duplicate.id}). Nothing written.`);
+      return;
     }
 
-    // Push & save
     recipesArray.push(newRecipe);
     console.log(`   - Appending recipe to database. Total recipes: ${recipesArray.length}`);
-
-    const outputContent = `// Expanded Trilingual Recipe Database (English, Dutch, French)\n// Includes strict allergen and diet indexing flags for fast filtering\nwindow.initialRecipes = ${JSON.stringify(recipesArray, null, 2)};\n`;
-    fs.writeFileSync(dbPath, outputContent, 'utf8');
+    RecipeDb.save(recipesArray);
 
     console.log("\n🎉 IMPORTER COMPLETED! Your new recipe is loaded and ready.");
   } catch (err) {
