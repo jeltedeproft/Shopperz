@@ -149,9 +149,15 @@
         <!-- Recipes Grid -->
         <div class="recipe-grid recipe-grid-tab" id="recipes-tab-grid"></div>
 
+        <!-- Servings per selected recipe, expanded from the batch bar -->
+        <div id="batch-servings-panel" class="batch-servings-panel"></div>
+
         <!-- Floating Batch Action Bar -->
         <div id="recipe-batch-bar" class="batch-action-bar">
-          <span id="batch-bar-text">Selected: 0 recipes</span>
+          <button type="button" id="batch-bar-toggle" class="batch-bar-toggle">
+            <span id="batch-bar-text">Selected: 0 recipes</span>
+            <span class="batch-bar-caret" aria-hidden="true">▲</span>
+          </button>
           <button id="batch-convert-btn" class="btn-small btn-primary batch-btn" data-translate="batchGenerateBtn">Generate List</button>
         </div>
 

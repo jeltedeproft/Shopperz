@@ -55,6 +55,7 @@ const uiTranslations = {
     toastAddedBatch: "Generated grocery list for planned recipes!",
     batchSelectedText: "Selected: {count} recipes",
     batchGenerateBtn: "Generate List",
+    batchServingsTitle: "Cooking for how many?",
     difficultyEasy: "Easy",
     difficultyMedium: "Medium",
     difficultyHard: "Hard",
@@ -196,6 +197,7 @@ const uiTranslations = {
     toastAddedBatch: "Boodschappenlijst gegenereerd voor geselecteerde recepten!",
     batchSelectedText: "Geselecteerd: {count} recepten",
     batchGenerateBtn: "Lijst Maken",
+    batchServingsTitle: "Voor hoeveel personen?",
     difficultyEasy: "Gemakkelijk",
     difficultyMedium: "Gemiddeld",
     difficultyHard: "Moeilijk",
@@ -333,6 +335,7 @@ const uiTranslations = {
     toastAddedBatch: "Liste de courses générée pour les recettes planifiées !",
     batchSelectedText: "Sélection : {count} recettes",
     batchGenerateBtn: "Générer la Liste",
+    batchServingsTitle: "Pour combien de personnes ?",
     difficultyEasy: "Facile",
     difficultyMedium: "Moyen",
     difficultyHard: "Difficile",
@@ -495,6 +498,8 @@ let state = {
   groceryList: [],
   skippedStaples: [],
   selectedRecipes: [],
+  selectedServings: {},
+  batchPanelOpen: false,
   favorites: [],
   settings: {
     language: 'en',
@@ -626,9 +631,7 @@ function initApp() {
   state.favorites = readJson(STORAGE.favorites, []);
   state.groceryList = readJson(STORAGE.groceryList, []);
   state.skippedStaples = readJson(STORAGE.skippedStaples, []);
-  // Drop ids of recipes that no longer exist before trusting the selection.
-  state.selectedRecipes = readJson(STORAGE.selection, [])
-    .filter(id => state.recipes.some(r => r.id === id));
+  loadSelection();
 
   setupEventListeners();
   applyLanguage(state.settings.language);
@@ -704,7 +707,23 @@ function saveFavorites() {
 
 // Ticking six recipes and then locking your phone used to lose the lot.
 function saveSelection() {
-  localStorage.setItem(STORAGE.selection, JSON.stringify(state.selectedRecipes));
+  localStorage.setItem(STORAGE.selection, JSON.stringify({
+    ids: state.selectedRecipes,
+    servings: state.selectedServings
+  }));
+}
+
+function loadSelection() {
+  const stored = readJson(STORAGE.selection, null);
+  // v1 stored a bare array of ids; v2 adds the per-recipe servings.
+  const ids = Array.isArray(stored) ? stored : (stored && Array.isArray(stored.ids) ? stored.ids : []);
+  const servings = (stored && !Array.isArray(stored) && stored.servings) || {};
+
+  state.selectedRecipes = ids.filter(id => state.recipes.some(r => r.id === id));
+  state.selectedServings = {};
+  state.selectedRecipes.forEach(id => {
+    if (typeof servings[id] === 'number') state.selectedServings[id] = servings[id];
+  });
 }
 
 // --- Language Switching Engine ---
@@ -836,6 +855,10 @@ function setupEventListeners() {
   document.getElementById('recipe-delete-btn').addEventListener('click', deleteSelectedRecipe);
 
   document.getElementById('batch-convert-btn').addEventListener('click', convertSelectedRecipesToGroceryList);
+  document.getElementById('batch-bar-toggle').addEventListener('click', () => {
+    state.batchPanelOpen = !state.batchPanelOpen;
+    renderBatchServingsPanel();
+  });
 
   document.getElementById('add-recipe-fab').addEventListener('click', () => openRecipeModal(null));
   document.getElementById('modal-close-btn').addEventListener('click', closeRecipeModal);
@@ -853,6 +876,7 @@ function setupEventListeners() {
       state.userRecipes = [];
       saveUserRecipes();
       state.selectedRecipes = [];
+      state.selectedServings = {};
       saveSelection();
       showToast(t('toastRecipesReset'), 'info');
       renderApp();
@@ -1185,9 +1209,14 @@ function toggleRecipeSelection(recipeId) {
 
   if (idx > -1) {
     state.selectedRecipes.splice(idx, 1);
+    delete state.selectedServings[recipeId];
     showToast(t('toastDeselected'), 'info');
   } else {
     state.selectedRecipes.push(recipeId);
+    // Selecting from an open drawer keeps the servings you just dialled in.
+    if (state.selectedRecipe && state.selectedRecipe.id === recipeId) {
+      state.selectedServings[recipeId] = state.recipeServings;
+    }
     showToast(t('toastSelected'), 'success');
   }
   saveSelection();
@@ -1196,6 +1225,20 @@ function toggleRecipeSelection(recipeId) {
     .forEach(card => card.classList.toggle('selected-for-list', idx === -1));
 
   updateBatchActionBar();
+}
+
+/** How many servings to cook a selected recipe for. Defaults to its own. */
+function servingsFor(recipeId) {
+  const stored = state.selectedServings[recipeId];
+  if (typeof stored === 'number' && stored > 0) return stored;
+  const recipe = state.recipes.find(r => r.id === recipeId);
+  return recipe ? recipe.servings : 4;
+}
+
+function setServingsFor(recipeId, servings) {
+  state.selectedServings[recipeId] = Math.max(1, servings);
+  saveSelection();
+  renderBatchServingsPanel();
 }
 
 function updateBatchActionBar() {
@@ -1209,7 +1252,58 @@ function updateBatchActionBar() {
   if (count > 0) {
     document.getElementById('batch-bar-text').textContent = t('batchSelectedText', { count: count });
     document.getElementById('batch-convert-btn').textContent = t('batchGenerateBtn');
+  } else {
+    state.batchPanelOpen = false;
   }
+  renderBatchServingsPanel();
+}
+
+/**
+ * The list of selected recipes with a servings stepper each. Without this the
+ * batch flow always cooked every recipe for its default number of people,
+ * quietly ignoring the servings you set in the drawer.
+ */
+function renderBatchServingsPanel() {
+  const panel = document.getElementById('batch-servings-panel');
+  if (!panel) return;
+
+  const open = state.batchPanelOpen && state.selectedRecipes.length > 0;
+  panel.classList.toggle('visible', open);
+
+  const caret = document.querySelector('.batch-bar-caret');
+  if (caret) caret.textContent = open ? '▼' : '▲';
+
+  if (!open) {
+    panel.innerHTML = '';
+    return;
+  }
+
+  panel.innerHTML = `
+    <div class="batch-panel-title">${escapeHtml(t('batchServingsTitle'))}</div>
+    ${state.selectedRecipes.map(id => {
+      const recipe = state.recipes.find(r => r.id === id);
+      if (!recipe) return '';
+      return `
+        <div class="batch-panel-row" data-id="${escapeHtml(id)}">
+          <span class="batch-panel-name">${escapeHtml(recipeText(recipe).title)}</span>
+          <span class="batch-panel-controls">
+            <button type="button" class="servings-btn" data-step="-1" aria-label="-">-</button>
+            <span class="batch-panel-count">${servingsFor(id)}</span>
+            <button type="button" class="servings-btn" data-step="1" aria-label="+">+</button>
+          </span>
+        </div>
+      `;
+    }).join('')}
+  `;
+
+  panel.querySelectorAll('.batch-panel-row').forEach(row => {
+    row.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = row.dataset.id;
+        setServingsFor(id, servingsFor(id) + parseInt(btn.dataset.step, 10));
+      });
+    });
+  });
 }
 
 // --- Grocery list building ---
@@ -1314,10 +1408,12 @@ function convertSelectedRecipesToGroceryList() {
   state.selectedRecipes.forEach(recipeId => {
     const recipe = state.recipes.find(r => r.id === recipeId);
     if (!recipe) return;
-    addItemsToGroceryList(scaledIngredients(recipe, recipe.servings), recipeText(recipe).title);
+    addItemsToGroceryList(scaledIngredients(recipe, servingsFor(recipeId)), recipeText(recipe).title);
   });
 
   state.selectedRecipes = [];
+  state.selectedServings = {};
+  state.batchPanelOpen = false;
   saveSelection();
   document.querySelectorAll('.recipe-card, .featured-card')
     .forEach(card => card.classList.remove('selected-for-list'));
@@ -1745,7 +1841,8 @@ function buildBackup() {
     groceryList: state.groceryList,
     skippedStaples: state.skippedStaples,
     favorites: state.favorites,
-    selectedRecipes: state.selectedRecipes
+    selectedRecipes: state.selectedRecipes,
+    selectedServings: state.selectedServings
   };
 }
 
@@ -1782,6 +1879,7 @@ function applyBackup(data) {
   state.skippedStaples = Array.isArray(data.skippedStaples) ? data.skippedStaples : [];
   state.favorites = Array.isArray(data.favorites) ? data.favorites : [];
   state.selectedRecipes = Array.isArray(data.selectedRecipes) ? data.selectedRecipes : [];
+  state.selectedServings = (data.selectedServings && typeof data.selectedServings === 'object') ? data.selectedServings : {};
   if (data.settings && typeof data.settings === 'object') {
     state.settings = Object.assign({}, state.settings, data.settings);
   }
@@ -1887,6 +1985,7 @@ function deleteSelectedRecipe() {
   state.userRecipes = state.userRecipes.filter(r => r.id !== id);
   state.favorites = state.favorites.filter(f => f !== id);
   state.selectedRecipes = state.selectedRecipes.filter(s => s !== id);
+  delete state.selectedServings[id];
   saveUserRecipes();
   saveFavorites();
   saveSelection();

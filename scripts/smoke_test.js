@@ -327,6 +327,35 @@ check('restore rejects a truncated backup',
 check('restore puts everything back', sandbox.applyBackup(backup) === true &&
   state.groceryList.length === 1 && state.favorites.length === 1);
 
+console.log('\nBatch servings');
+state.groceryList = [];
+state.selectedRecipes = [];
+state.selectedServings = {};
+const batchRecipe = state.recipes.find(r => r.id === 'carbonnade-flamande');
+sandbox.toggleRecipeSelection(batchRecipe.id);
+check('defaults to the recipe\'s own servings',
+  sandbox.servingsFor(batchRecipe.id) === batchRecipe.servings,
+  String(sandbox.servingsFor(batchRecipe.id)));
+sandbox.setServingsFor(batchRecipe.id, batchRecipe.servings * 2);
+state.settings.skipStaples = false;
+sandbox.convertSelectedRecipesToGroceryList();
+const doubledOnion = state.groceryList.find(i => i.key === 'onion');
+const baseOnion = batchRecipe.ingredients.find(i => i.key === 'onion');
+check('batch respects the adjusted servings',
+  doubledOnion && doubledOnion.amount === baseOnion.amount * 2,
+  doubledOnion ? `${baseOnion.amount} -> ${doubledOnion.amount}` : 'missing');
+check('selection cleared after generating', state.selectedRecipes.length === 0);
+
+state.selectedRecipes = [];
+state.selectedServings = {};
+state.groceryList = [];
+state.selectedRecipe = batchRecipe;
+state.recipeServings = 12;
+sandbox.toggleRecipeSelection(batchRecipe.id);
+check('selecting from the open drawer keeps its servings',
+  sandbox.servingsFor(batchRecipe.id) === 12, String(sandbox.servingsFor(batchRecipe.id)));
+state.selectedRecipe = null;
+
 console.log('\nSelection survives a restart');
 state.selectedRecipes = [];
 sandbox.toggleRecipeSelection('moules-frites');
