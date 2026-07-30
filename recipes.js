@@ -68,74 +68,88 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "beef chuck",
         "name": {
-          "en": "Beef chuck (Stoofvlees / Carbonnades)",
-          "nl": "Rundstoofvlees (Stoofvlees / Carbonnades)",
-          "fr": "Carbonnades de boeuf (Stoofvlees / Carbonnades)"
+          "en": "Beef chuck",
+          "nl": "Rundstoofvlees",
+          "fr": "Carbonnades de boeuf"
         },
         "amount": 1000,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "dark abbey beer",
         "name": {
-          "en": "Dark Abbey Beer (e.g., Rochefort, Chimay)",
-          "nl": "Donker abdijbier (bv. Rochefort, Chimay)",
-          "fr": "Bière brune d'abbaye (ex. Rochefort, Chimay)"
+          "en": "Dark Abbey Beer",
+          "nl": "Donker abdijbier",
+          "fr": "Bière brune d'abbaye"
         },
         "amount": 660,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
-          "en": "Onions (Uien / Oignons)",
-          "nl": "Uien (Uien / Oignons)",
-          "fr": "Oignons (Uien / Oignons)"
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "belgian mustard",
         "name": {
-          "en": "Belgian Mustard (Mosterd / Moutarde)",
-          "nl": "Belgische mosterd (Mosterd / Moutarde)",
-          "fr": "Moutarde belge (Mosterd / Moutarde)"
+          "en": "Belgian Mustard",
+          "nl": "Belgische mosterd",
+          "fr": "Moutarde belge"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "slices of bread",
         "name": {
-          "en": "Slices of bread (Boterham / Pain)",
-          "nl": "Boterhammen (Boterham / Pain)",
-          "fr": "Tranches de pain (Boterham / Pain)"
+          "en": "Slices of bread",
+          "nl": "Boterhammen",
+          "fr": "Tranches de pain"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Bakkerij"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "liège syrup",
         "name": {
-          "en": "Liège Syrup (Luikse Siroop / Sirop de Liège)",
-          "nl": "Luikse siroop (Luikse Siroop / Sirop de Liège)",
-          "fr": "Sirop de Liège (Luikse Siroop / Sirop de Liège)"
+          "en": "Liège Syrup",
+          "nl": "Luikse siroop",
+          "fr": "Sirop de Liège"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
-          "en": "Butter (Boter / Beurre)",
-          "nl": "Roomboter (Boter / Beurre)",
-          "fr": "Beurre (Boter / Beurre)"
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
         },
         "amount": 50,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -204,64 +218,76 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "belgian endives",
         "name": {
-          "en": "Belgian Endives (Witloof / Chicons)",
-          "nl": "Witloof (Witloof / Chicons)",
-          "fr": "Chicons belges (Witloof / Chicons)"
+          "en": "Belgian Endives",
+          "nl": "Witloof",
+          "fr": "Chicons belges"
         },
         "amount": 8,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cooked ham",
         "name": {
-          "en": "Cooked Ham (Gekookte Hesp / Jambon)",
-          "nl": "Gekookte achterham (Gekookte Hesp / Jambon)",
-          "fr": "Jambon cuit (Gekookte Hesp / Jambon)"
+          "en": "Cooked Ham",
+          "nl": "Gekookte achterham",
+          "fr": "Jambon cuit"
         },
         "amount": 8,
         "unit": "slices",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "grated cheese",
         "name": {
-          "en": "Grated Cheese (Gruyère / Emmental)",
-          "nl": "Geraspte kaas (Gruyère / Emmental)",
-          "fr": "Fromage râpé (Gruyère / Emmental)"
+          "en": "Grated Cheese",
+          "nl": "Geraspte kaas",
+          "fr": "Fromage râpé"
         },
         "amount": 200,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
-          "en": "Whole Milk (Volle Melk / Lait)",
-          "nl": "Volle melk (Volle Melk / Lait)",
-          "fr": "Lait entier (Volle Melk / Lait)"
+          "en": "milk",
+          "nl": "melk",
+          "fr": "lait"
         },
         "amount": 750,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
-          "en": "Butter (Boter / Beurre)",
-          "nl": "Boter (Boter / Beurre)",
-          "fr": "Beurre (Boter / Beurre)"
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
         },
         "amount": 50,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
-          "en": "Flour (Bloem / Farine)",
-          "nl": "Bloem (Bloem / Farine)",
-          "fr": "Farine de blé (Bloem / Farine)"
+          "en": "flour",
+          "nl": "bloem",
+          "fr": "farine"
         },
         "amount": 50,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -330,64 +356,76 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "whole chicken",
         "name": {
-          "en": "Whole Chicken (Poulet / Kip)",
-          "nl": "Hele kip (Poulet / Kip)",
-          "fr": "Poulet entier (Poulet / Kip)"
+          "en": "Whole Chicken",
+          "nl": "Hele kip",
+          "fr": "Poulet entier"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "minced meat",
         "name": {
-          "en": "Minced Meat (Gehakt / Haché)",
-          "nl": "Gemengd gehakt (Gehakt / Haché)",
-          "fr": "Hachis (Gehakt / Haché)"
+          "en": "Minced Meat",
+          "nl": "Gemengd gehakt",
+          "fr": "Hachis"
         },
         "amount": 250,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "puff pastry shells",
         "name": {
-          "en": "Puff Pastry Shells (Videekoppen)",
-          "nl": "Videekoppen (Videekoppen)",
-          "fr": "Croûtes feuilletées (Videekoppen)"
+          "en": "Puff Pastry Shells",
+          "nl": "Videekoppen",
+          "fr": "Croûtes feuilletées"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Bakkerij"
+        "category": "Diepvries",
+        "staple": false
       },
       {
+        "key": "mushroom",
         "name": {
-          "en": "Mushrooms (Champignons)",
-          "nl": "Witte champignons (Champignons)",
-          "fr": "Champignons de Paris (Champignons)"
+          "en": "mushroom",
+          "nl": "champignon",
+          "fr": "champignon"
         },
         "amount": 250,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cream",
         "name": {
-          "en": "Heavy Cream (Room / Crème)",
-          "nl": "Volle room (Room / Crème)",
-          "fr": "Crème liquide (Room / Crème)"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 150,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "egg yolk",
         "name": {
-          "en": "Egg yolk (Eidooier / Jaune d'oeuf)",
-          "nl": "Eidooier (Eidooier / Jaune d'oeuf)",
-          "fr": "Jaune d'œuf (Eidooier / Jaune d'oeuf)"
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -453,74 +491,88 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "potato",
         "name": {
-          "en": "Potatoes (Aardappelen / Pommes de terre)",
-          "nl": "Bintje aardappelen (Aardappelen / Pommes de terre)",
-          "fr": "Pommes de terre Bintje (Aardappelen / Pommes de terre)"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 1000,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "carrot",
         "name": {
-          "en": "Carrots (Wortelen / Carottes)",
-          "nl": "Wortelen (Wortelen / Carottes)",
-          "fr": "Carottes (Wortelen / Carottes)"
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "leek",
         "name": {
-          "en": "Leeks (Prei / Poireaux)",
-          "nl": "Prei (Prei / Poireaux)",
-          "fr": "Poireaux (Prei / Poireaux)"
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pork sausages",
         "name": {
-          "en": "Pork Sausages (Worsten / Saucisses)",
-          "nl": "Varkensworsten (Worsten / Saucisses)",
-          "fr": "Saucisses de porc (Worsten / Saucisses)"
+          "en": "Pork Sausages",
+          "nl": "Varkensworsten",
+          "fr": "Saucisses de porc"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "bacon bits",
         "name": {
-          "en": "Bacon bits (Spekjes / Lardons)",
-          "nl": "Spekblokjes (Spekjes / Lardons)",
-          "fr": "Lardons fumés (Spekjes / Lardons)"
+          "en": "Bacon bits",
+          "nl": "Spekblokjes",
+          "fr": "Lardons fumés"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
-          "en": "Butter (Boter / Beurre)",
-          "nl": "Boter (Boter / Beurre)",
-          "fr": "Beurre (Boter / Beurre)"
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
         },
         "amount": 30,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
-          "en": "Milk (Melk / Lait)",
-          "nl": "Volle melk (Melk / Lait)",
-          "fr": "Lait (Melk / Lait)"
+          "en": "milk",
+          "nl": "melk",
+          "fr": "lait"
         },
         "amount": 100,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -589,54 +641,64 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "mussels",
         "name": {
-          "en": "Mussels (Mosselen / Moules)",
-          "nl": "Mosselen (Mosselen / Moules)",
-          "fr": "Moules fraîches (Mosselen / Moules)"
+          "en": "Mussels",
+          "nl": "Mosselen",
+          "fr": "Moules fraîches"
         },
         "amount": 2000,
         "unit": "g",
-        "category": "Visafdeling"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "celery stalks",
         "name": {
-          "en": "Celery stalks (Bladselder / Céleri)",
-          "nl": "Bladselder (Bladselder / Céleri)",
-          "fr": "Céleri branche (Bladselder / Céleri)"
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
-          "en": "Onions (Uien / Oignons)",
-          "nl": "Uien (Uien / Oignons)",
-          "fr": "Oignons (Uien / Oignons)"
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "potato",
         "name": {
-          "en": "Potatoes (Aardappelen / Pommes de terre)",
-          "nl": "Bintje aardappelen (voor frieten)",
-          "fr": "Pommes de terre (pour frites)"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 1000,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
-          "en": "Butter (Boter / Beurre)",
-          "nl": "Roomboter (Boter / Beurre)",
-          "fr": "Beurre (Boter / Beurre)"
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
         },
         "amount": 30,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -705,44 +767,52 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "white asparagus",
         "name": {
-          "en": "White Asparagus (Witte Asperges)",
-          "nl": "Witte asperges (Witte Asperges)",
-          "fr": "Asperges blanches (Witte Asperges)"
+          "en": "White Asparagus",
+          "nl": "Witte asperges",
+          "fr": "Asperges blanches"
         },
         "amount": 1000,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "Eggs (Eieren / Oeufs)",
-          "nl": "Eieren (Eieren / Oeufs)",
-          "fr": "Œufs (Eieren / Oeufs)"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
-          "en": "Butter (Boter / Beurre)",
-          "nl": "Roomboter (Boter / Beurre)",
-          "fr": "Beurre de ferme (Boter / Beurre)"
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
         },
         "amount": 150,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
-          "en": "Fresh Parsley (Peterselie / Persil)",
-          "nl": "Verse peterselie (Peterselie / Persil)",
-          "fr": "Persil frais (Peterselie / Persil)"
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
         },
         "amount": 1,
         "unit": "bunch",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -808,44 +878,64 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "beefsteak tomatoes",
         "name": {
-          "en": "Beefsteak Tomatoes (Vleestomaten)",
-          "nl": "Vleestomaten (Vleestomaten)",
-          "fr": "Tomates charnues (Vleestomaten)"
+          "en": "Beefsteak Tomatoes",
+          "nl": "Vleestomaten",
+          "fr": "Tomates charnues"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "grey north sea shrimps",
         "name": {
-          "en": "Grey North Sea Shrimps (Grijze Garnalen)",
-          "nl": "Grijze Noordzeegarnalen (Grijze Garnalen)",
-          "fr": "Crevettes grises (Grijze Garnalen)"
+          "en": "Grey North Sea Shrimps",
+          "nl": "Grijze Noordzeegarnalen",
+          "fr": "Crevettes grises"
         },
         "amount": 300,
         "unit": "g",
-        "category": "Visafdeling"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "mayonnaise",
         "name": {
-          "en": "Mayonnaise (Belgian style)",
-          "nl": "Belgische mayonaise (Mayonaise)",
-          "fr": "Mayonnaise belge (Mayonaise)"
+          "en": "Mayonnaise",
+          "nl": "Belgische mayonaise",
+          "fr": "Mayonnaise belge"
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "Lemon juice & Parsley",
-          "nl": "Citroensap en peterselie",
-          "fr": "Jus de citron et persil"
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "to taste",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -914,54 +1004,88 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "firm tofu",
         "name": {
-          "en": "Firm Tofu (Natuurtofu)",
-          "nl": "Stevige natuurtofu (Tofu)",
-          "fr": "Tofu ferme (Tofu)"
+          "en": "Firm Tofu",
+          "nl": "Stevige natuurtofu",
+          "fr": "Tofu ferme"
         },
         "amount": 400,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "carrot",
         "name": {
-          "en": "Carrots & Leeks & Celery",
-          "nl": "Wortelen, prei en bladselder",
-          "fr": "Carottes, poireaux et céleri"
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
         },
-        "amount": 1,
-        "unit": "bundle",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "leek",
         "name": {
-          "en": "Potatoes (Aardappelen / Pommes de terre)",
-          "nl": "Vastkokende aardappelen",
-          "fr": "Pommes de terre"
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery",
+        "name": {
+          "en": "celery",
+          "nl": "selder",
+          "fr": "céleri"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "potato",
+        "name": {
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 400,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "vegetable broth",
         "name": {
-          "en": "Vegetable Broth (Groentenbouillon)",
+          "en": "Vegetable Broth",
           "nl": "Groentenbouillon",
           "fr": "Bouillon de légumes"
         },
         "amount": 750,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "oat cream",
         "name": {
-          "en": "Oat Cream (Haverroom / Crème d'avoine)",
-          "nl": "Haverroom (Haverroom / Crème d'avoine)",
-          "fr": "Crème d'avoine (Haverroom / Crème d'avoine)"
+          "en": "Oat Cream",
+          "nl": "Haverroom",
+          "fr": "Crème d'avoine"
         },
         "amount": 200,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -1027,44 +1151,52 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "belgian endives",
         "name": {
-          "en": "Belgian Endives (Witloof / Chicons)",
-          "nl": "Witloof (Witloof / Chicons)",
-          "fr": "Chicons (Witloof / Chicons)"
+          "en": "Belgian Endives",
+          "nl": "Witloof",
+          "fr": "Chicons"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "walnuts",
         "name": {
-          "en": "Walnuts (Walnoten / Noix)",
-          "nl": "Walnoten (Walnoten / Noix)",
-          "fr": "Noix (Walnoten / Noix)"
+          "en": "walnuts",
+          "nl": "walnoten",
+          "fr": "noix"
         },
         "amount": 75,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "Extra Virgin Olive Oil (Olijfolie)",
-          "nl": "Extra vierge olijfolie (Olijfolie)",
-          "fr": "Huile d'olive extra vierge (Olijfolie)"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "Lemon juice (Citroensap / Jus de citron)",
-          "nl": "Citroensap (Citroensap / Jus de citron)",
-          "fr": "Jus de citron frais (Citroensap / Jus de citron)"
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -1138,54 +1270,76 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "beef chuck",
         "name": {
-          "en": "Beef chuck (Stoofvlees / Carbonnades)",
-          "nl": "Rundstoofvlees (Stoofvlees / Carbonnades)",
-          "fr": "Carbonnades de boeuf (Stoofvlees / Carbonnades)"
+          "en": "Beef chuck",
+          "nl": "Rundstoofvlees",
+          "fr": "Carbonnades de boeuf"
         },
         "amount": 1000,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "beef bone broth",
         "name": {
-          "en": "Beef Bone Broth (Bottenbouillon)",
-          "nl": "Runderbottenbouillon (Bouillon)",
-          "fr": "Bouillon d'os de boeuf (Bouillon)"
+          "en": "Beef Bone Broth",
+          "nl": "Runderbottenbouillon",
+          "fr": "Bouillon d'os de boeuf"
         },
         "amount": 500,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
-          "en": "Onions & Garlic (Uien / Oignons)",
-          "nl": "Uien en knoflook",
-          "fr": "Oignons et ail"
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
         },
-        "amount": 2,
-        "unit": "st.",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "Apple Cider Vinegar (Appelazijn)",
-          "nl": "Appelciderazijn (Azijn)",
-          "fr": "Vinaigre de cidre (Vinaigre)"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "Apple Cider Vinegar",
+          "nl": "Appelciderazijn",
+          "fr": "Vinaigre de cidre"
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "Extra Virgin Olive Oil (Olijfolie)",
-          "nl": "Olijfolie (Olijfolie)",
-          "fr": "Huile d'olive (Olijfolie)"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -1255,64 +1409,76 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "flour",
         "name": {
-          "en": "Flour (Bloem / Farine)",
-          "nl": "Tarwebloem (Bloem / Farine)",
-          "fr": "Farine de blé (Bloem / Farine)"
+          "en": "flour",
+          "nl": "bloem",
+          "fr": "farine"
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "belgian pearl sugar",
         "name": {
-          "en": "Belgian Pearl Sugar (Parelsuiker / Sucre perlé)",
-          "nl": "Parelsuiker (Parelsuiker / Sucre perlé)",
-          "fr": "Sucre perlé belge (Parelsuiker / Sucre perlé)"
+          "en": "Belgian Pearl Sugar",
+          "nl": "Parelsuiker",
+          "fr": "Sucre perlé belge"
         },
         "amount": 150,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
-          "en": "Butter (Boter / Beurre)",
-          "nl": "Boter (Boter / Beurre)",
-          "fr": "Beurre (Boter / Beurre)"
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
         },
         "amount": 140,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
-          "en": "Whole Milk (Melk / Lait)",
-          "nl": "Lauwe melk (Melk / Lait)",
-          "fr": "Lait tiède (Melk / Lait)"
+          "en": "milk",
+          "nl": "melk",
+          "fr": "lait"
         },
         "amount": 100,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "dry yeast",
         "name": {
-          "en": "Dry Yeast (Gist / Levure)",
-          "nl": "Droge gist (Gist / Levure)",
-          "fr": "Levure de boulanger (Gist / Levure)"
+          "en": "Dry Yeast",
+          "nl": "Droge gist",
+          "fr": "Levure de boulanger"
         },
         "amount": 7,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "Eggs (Eieren / Oeufs)",
-          "nl": "Eieren (Eieren / Oeufs)",
-          "fr": "Œufs (Eieren / Oeufs)"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -1378,44 +1544,64 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "potato",
         "name": {
-          "en": "Potatoes (Bintje / Aardappelen)",
-          "nl": "Aardappelen (Bintje / Aardappelen)",
-          "fr": "Pommes de terre Bintje"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 1000,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "leek",
         "name": {
-          "en": "Leeks (Prei / Poireaux)",
-          "nl": "Prei (Prei / Poireaux)",
-          "fr": "Poireaux (Prei / Poireaux)"
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "Extra Virgin Olive Oil (Olijfolie)",
-          "nl": "Extra vierge olijfolie (Olijfolie)",
-          "fr": "Huile d'olive extra vierge"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "nutmeg",
         "name": {
-          "en": "Nutmeg & Sea Salt",
-          "nl": "Nootmuskaat en zeezout",
-          "fr": "Noix de muscade et sel marin"
+          "en": "nutmeg",
+          "nl": "nootmuskaat",
+          "fr": "noix de muscade"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "to taste",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -1484,56 +1670,67 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
-        "amount": 3,
-        "unit": "/4 cup",
-        "category": "Kruidenier"
+        "amount": 180,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
           "fr": "eau"
         },
-        "amount": 1,
-        "unit": "/2 cup",
-        "category": "Bieren & Dranken"
+        "amount": 120,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
           "fr": "cassonade"
         },
-        "amount": 1,
-        "unit": "/4 cup",
-        "category": "Bakkerij"
+        "amount": 31,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "ginger",
         "name": {
-          "en": "ground ginger",
-          "nl": "gemalen gember",
-          "fr": "gingembre moulu"
+          "en": "ginger",
+          "nl": "gember",
+          "fr": "gingembre"
         },
-        "amount": 1,
-        "unit": "/2 teaspoon",
-        "category": "Groenten & Fruit"
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "minced garlic",
-          "nl": "gehakte knoflook",
-          "fr": "ail émincé"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
-        "amount": 1,
-        "unit": "/2 teaspoon",
-        "category": "Groenten & Fruit"
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cornstarch",
         "name": {
           "en": "cornstarch",
           "nl": "maïszetmeel",
@@ -1541,29 +1738,35 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": true
       },
       {
+        "key": "chicken breasts",
         "name": {
           "en": "chicken breasts",
-          "nl": "kippenborsten",
-          "fr": "poitrines de poulet"
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "stir-fry vegetables",
         "name": {
           "en": "stir-fry vegetables",
           "nl": "roerbak groenten",
           "fr": "légumes sautés"
         },
-        "amount": 1,
-        "unit": "(12 oz.)",
-        "category": "Groenten & Fruit"
+        "amount": 340,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "brown rice",
         "name": {
           "en": "brown rice",
           "nl": "bruine rijst",
@@ -1571,7 +1774,8 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -1588,7 +1792,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/657933-312x231.jpg",
+    "image": "images/spoonacular-657933.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -1640,36 +1844,55 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
           "fr": "huile d'olive"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "sea salt and pepper",
-          "nl": "zeezout en peper",
-          "fr": "sel de mer et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -1677,19 +1900,23 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "zucchini",
         "name": {
           "en": "zucchini",
           "nl": "courgette",
-          "fr": "courgettes"
+          "fr": "courgette"
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "eggplant",
         "name": {
           "en": "eggplant",
           "nl": "aubergine",
@@ -1697,19 +1924,23 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "seasoning",
-          "nl": "kruiden",
-          "fr": "assaisonnement"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "artichokes",
         "name": {
           "en": "artichokes",
           "nl": "artisjokken",
@@ -1717,19 +1948,23 @@ window.initialRecipes = [
         },
         "amount": 397,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "tomato",
         "name": {
-          "en": "tomatoes",
-          "nl": "tomaten",
-          "fr": "tomates"
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
         },
         "amount": 397,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "spaghetti",
         "name": {
           "en": "spaghetti",
           "nl": "spaghetti",
@@ -1737,27 +1972,20 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
-        "name": {
-          "en": "extra virgin olive oil",
-          "nl": "extra vergine olijfolie",
-          "fr": "Huile d'olive vierge extra"
-        },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
-      },
-      {
+        "key": "parmesan",
         "name": {
           "en": "parmesan",
-          "nl": "Parmezaanse kaas",
-          "fr": "Parmesan"
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -1774,7 +2002,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/654959-312x231.jpg",
+    "image": "images/spoonacular-654959.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -1826,36 +2054,43 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "scallion",
         "name": {
-          "en": "green onions",
-          "nl": "groene uien",
-          "fr": "oignons verts"
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
-          "en": "non-fat milk",
-          "nl": "magere melk",
-          "fr": "lait écrémé"
+          "en": "milk",
+          "nl": "melk",
+          "fr": "lait"
         },
         "amount": 300,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -1863,9 +2098,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -1873,19 +2110,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
-          "en": "parmesan cheese",
-          "nl": "Parmezaanse kaas",
-          "fr": "fromage parmesan"
+          "en": "parmesan",
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 31,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
           "en": "parsley",
           "nl": "peterselie",
@@ -1893,9 +2134,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "tubular pasta",
         "name": {
           "en": "tubular pasta",
           "nl": "buisvormige pasta",
@@ -1903,9 +2146,11 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "peas",
         "name": {
           "en": "peas",
           "nl": "erwten",
@@ -1913,9 +2158,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "dsh pepper sauce",
         "name": {
           "en": "dsh pepper sauce",
           "nl": "dsh pepersaus",
@@ -1923,9 +2170,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "water-packed tuna",
         "name": {
           "en": "water-packed tuna",
           "nl": "waterrijke tonijn",
@@ -1933,7 +2182,8 @@ window.initialRecipes = [
         },
         "amount": 184,
         "unit": "g",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       }
     ]
   },
@@ -1950,7 +2200,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/644167-556x370.jpg",
+    "image": "images/spoonacular-644167.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -1999,6 +2249,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "cayenne pepper",
         "name": {
           "en": "cayenne pepper",
           "nl": "cayennepeper",
@@ -2006,19 +2257,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chicken broth",
         "name": {
-          "en": "chicken broth",
+          "en": "chicken stock",
           "nl": "kippenbouillon",
-          "fr": "bouillon de poulet"
+          "fr": "bouillon de poule"
         },
         "amount": 320,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "couscous",
         "name": {
           "en": "couscous",
           "nl": "couscous",
@@ -2026,9 +2281,11 @@ window.initialRecipes = [
         },
         "amount": 83,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "mint leaves",
         "name": {
           "en": "mint leaves",
           "nl": "muntblaadjes",
@@ -2036,9 +2293,11 @@ window.initialRecipes = [
         },
         "amount": 10,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garam masala spices",
         "name": {
           "en": "garam masala spices",
           "nl": "garam masala-kruiden",
@@ -2046,19 +2305,23 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cumin",
         "name": {
-          "en": "ground cumin",
-          "nl": "gemalen komijn",
-          "fr": "cumin moulu"
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pork loin chops",
         "name": {
           "en": "pork loin chops",
           "nl": "varkenshaasjes",
@@ -2066,9 +2329,11 @@ window.initialRecipes = [
         },
         "amount": 680,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "lemon",
         "name": {
           "en": "lemon",
           "nl": "citroen",
@@ -2076,9 +2341,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -2086,9 +2353,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "raisins",
         "name": {
           "en": "raisins",
           "nl": "rozijnen",
@@ -2096,19 +2365,23 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sesame seeds",
         "name": {
           "en": "sesame seeds",
           "nl": "sesamzaadjes",
@@ -2116,9 +2389,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "yogurt",
         "name": {
           "en": "yogurt",
           "nl": "yoghurt",
@@ -2126,7 +2401,8 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -2143,7 +2419,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/641284-556x370.jpg",
+    "image": "images/spoonacular-641284.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -2192,6 +2468,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -2199,9 +2476,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bittersweet chocolate",
         "name": {
           "en": "bittersweet chocolate",
           "nl": "bitterzoete chocolade",
@@ -2209,9 +2488,11 @@ window.initialRecipes = [
         },
         "amount": 142,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -2219,9 +2500,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
@@ -2229,49 +2512,59 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "egg yolk",
         "name": {
           "en": "egg yolk",
-          "nl": "eigeel",
+          "nl": "eidooier",
           "fr": "jaune d'oeuf"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
-        "unit": "medium",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 156,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baileys irish cream",
         "name": {
           "en": "baileys irish cream",
           "nl": "Baileys Ierse crème",
@@ -2279,29 +2572,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
           "fr": "sucre"
         },
-        "amount": 16,
-        "unit": "servings",
-        "category": "Bakkerij"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
           "nl": "cacao poeder",
@@ -2309,9 +2608,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -2319,17 +2620,20 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "walnuts",
         "name": {
           "en": "walnuts",
           "nl": "walnoten",
           "fr": "noix"
         },
         "amount": 200,
-        "unit": "gr",
-        "category": "Kruidenier"
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -2346,7 +2650,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/664488-556x370.jpg",
+    "image": "images/spoonacular-664488.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -2425,16 +2729,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "almond meal",
         "name": {
           "en": "almond meal",
           "nl": "amandel maaltijd",
@@ -2442,9 +2749,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "turbinado sugar",
         "name": {
           "en": "turbinado sugar",
           "nl": "turbinado-suiker",
@@ -2452,19 +2761,23 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -2472,9 +2785,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "almond milk",
         "name": {
           "en": "almond milk",
           "nl": "amandelmelk",
@@ -2482,9 +2797,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "apple cider vinegar",
         "name": {
           "en": "apple cider vinegar",
           "nl": "appelazijn",
@@ -2492,9 +2809,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vegetable oil",
         "name": {
           "en": "vegetable oil",
           "nl": "plantaardige olie",
@@ -2502,9 +2821,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "tiny drop of almond extract",
         "name": {
           "en": "tiny drop of almond extract",
           "nl": "klein druppeltje amandelextract",
@@ -2512,9 +2833,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "strawberries",
         "name": {
           "en": "strawberries",
           "nl": "aardbeien",
@@ -2522,7 +2845,8 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -2539,7 +2863,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/716431-556x370.jpg",
+    "image": "images/spoonacular-716431.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -2582,54 +2906,64 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "apple",
         "name": {
-          "en": "apples",
-          "nl": "appels",
-          "fr": "pommes"
+          "en": "apple",
+          "nl": "appel",
+          "fr": "pomme"
         },
         "amount": 15,
-        "unit": "small",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cinnamon",
         "name": {
           "en": "cinnamon",
           "nl": "kaneel",
           "fr": "cannelle"
         },
         "amount": 0.5,
-        "unit": "t",
-        "category": "Kruidenier"
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "juice of lemon",
-          "nl": "sap van citroen",
+          "en": "lemon juice",
+          "nl": "citroensap",
           "fr": "jus de citron"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "orange juice",
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
           "fr": "du jus d'orange"
         },
-        "amount": 0.3,
-        "unit": "c",
-        "category": "Groenten & Fruit"
+        "amount": 72,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
-          "en": "vanilla",
-          "nl": "vanille",
-          "fr": "vanille"
+          "en": "vanilla extract",
+          "nl": "vanille-extract",
+          "fr": "extrait de vanille"
         },
         "amount": 1,
-        "unit": "t",
-        "category": "Kruidenier"
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -2646,7 +2980,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/633790-556x370.jpg",
+    "image": "images/spoonacular-633790.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -2698,6 +3032,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -2705,9 +3040,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "ketchup",
         "name": {
           "en": "ketchup",
           "nl": "ketchup",
@@ -2715,9 +3052,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lemon",
         "name": {
           "en": "lemon",
           "nl": "citroen",
@@ -2725,9 +3064,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
@@ -2735,9 +3076,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -2745,9 +3088,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -2755,19 +3100,23 @@ window.initialRecipes = [
         },
         "amount": 60,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
-          "en": "onions",
-          "nl": "uien",
-          "fr": "oignons"
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
@@ -2775,7 +3124,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -2792,7 +3142,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/1062882-556x370.jpg",
+    "image": "images/spoonacular-1062882.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -2841,6 +3191,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "chicken",
         "name": {
           "en": "chicken",
           "nl": "kip",
@@ -2848,49 +3199,59 @@ window.initialRecipes = [
         },
         "amount": 2041,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "olive oil extra virgin",
-          "nl": "olijfolie extra vergine",
-          "fr": "huile d'olive extra vierge"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "lemon",
         "name": {
-          "en": "lemons",
-          "nl": "citroenen",
-          "fr": "citrons"
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
         },
         "amount": 2,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "paprika",
         "name": {
-          "en": "paprika",
-          "nl": "paprika",
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
           "fr": "paprika"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
@@ -2898,9 +3259,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "rosemary",
         "name": {
           "en": "rosemary",
           "nl": "rozemarijn",
@@ -2908,9 +3271,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "bunch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -2918,9 +3283,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -2928,9 +3295,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -2938,7 +3307,8 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -2955,7 +3325,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/637016-556x370.jpg",
+    "image": "images/spoonacular-637016.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -3019,6 +3389,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "almonds",
         "name": {
           "en": "almonds",
           "nl": "amandelen",
@@ -3026,9 +3397,11 @@ window.initialRecipes = [
         },
         "amount": 100,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cocoa",
         "name": {
           "en": "cocoa",
           "nl": "cacao",
@@ -3036,9 +3409,11 @@ window.initialRecipes = [
         },
         "amount": 25,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "chocolate of at least cocoa parts",
         "name": {
           "en": "chocolate of at least cocoa parts",
           "nl": "chocolade van minimaal cacaodelen",
@@ -3046,9 +3421,11 @@ window.initialRecipes = [
         },
         "amount": 300,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "cream",
         "name": {
           "en": "cream",
           "nl": "room",
@@ -3056,39 +3433,47 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 6,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "peanuts",
         "name": {
           "en": "peanuts",
-          "nl": "pinda's",
+          "nl": "pinda’s",
           "fr": "cacahuètes"
         },
         "amount": 150,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "rum",
         "name": {
           "en": "rum",
           "nl": "rum",
           "fr": "rhum"
         },
         "amount": 1,
-        "unit": "tbs",
-        "category": "Kruidenier"
+        "unit": "el",
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -3096,17 +3481,20 @@ window.initialRecipes = [
         },
         "amount": 150,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
           "fr": "eau"
         },
         "amount": 2,
-        "unit": "tbs",
-        "category": "Bieren & Dranken"
+        "unit": "el",
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -3123,7 +3511,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/641029-556x370.jpg",
+    "image": "images/spoonacular-641029.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -3178,6 +3566,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "chicken drumsticks",
         "name": {
           "en": "chicken drumsticks",
           "nl": "kippendrumsticks",
@@ -3185,9 +3574,11 @@ window.initialRecipes = [
         },
         "amount": 5,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "cumin powder",
         "name": {
           "en": "cumin powder",
           "nl": "komijn poeder",
@@ -3195,9 +3586,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "paprika powder",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -3205,47 +3598,68 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lime juice",
         "name": {
-          "en": "juice of lime",
-          "nl": "juice of lime",
+          "en": "lime juice",
+          "nl": "limoensap",
           "fr": "jus de citron vert"
         },
-        "amount": 0.3,
+        "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
           "fr": "huile d'olive"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -3262,7 +3676,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/641745-556x370.jpg",
+    "image": "images/spoonacular-641745.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -3314,6 +3728,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "pineapple",
         "name": {
           "en": "pineapple",
           "nl": "ananas",
@@ -3321,9 +3736,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "can",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pie filling",
         "name": {
           "en": "pie filling",
           "nl": "taart vulling",
@@ -3331,27 +3748,32 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "can",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cake mix",
         "name": {
           "en": "cake mix",
           "nl": "cakemix",
           "fr": "mélange à gâteau"
         },
         "amount": 1,
-        "unit": "pkg",
-        "category": "Kruidenier"
+        "unit": "package",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
-        "amount": 1,
-        "unit": "stick",
-        "category": "Zuivel & Eieren"
+        "amount": 113,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -3368,7 +3790,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/656752-556x370.jpg",
+    "image": "images/spoonacular-656752.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -3414,6 +3836,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -3421,9 +3844,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "buttermilk",
         "name": {
           "en": "buttermilk",
           "nl": "karnemelk",
@@ -3431,9 +3856,11 @@ window.initialRecipes = [
         },
         "amount": 80,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "wine",
         "name": {
           "en": "wine",
           "nl": "wijn",
@@ -3441,69 +3868,83 @@ window.initialRecipes = [
         },
         "amount": 80,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "thyme",
         "name": {
           "en": "thyme",
           "nl": "tijm",
           "fr": "thym"
         },
         "amount": 3,
-        "unit": "sprigs",
-        "category": "Kruidenier"
+        "unit": "sprig",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cream",
         "name": {
-          "en": "heavy cream",
-          "nl": "heavy cream",
-          "fr": "crème épaisse"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pork chops",
         "name": {
           "en": "pork chops",
           "nl": "varkenskarbonades",
           "fr": "côtelettes de porc"
         },
         "amount": 900,
-        "unit": "grams",
-        "category": "Slagerij & Gevogelte"
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "shallot",
         "name": {
           "en": "shallot",
           "nl": "sjalot",
           "fr": "échalote"
         },
         "amount": 1,
-        "unit": "medium",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "vegetable oil",
         "name": {
           "en": "vegetable oil",
           "nl": "plantaardige olie",
@@ -3511,17 +3952,20 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 12,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -3539,7 +3983,7 @@ window.initialRecipes = [
       "dessert",
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/715467-556x370.jpg",
+    "image": "images/spoonacular-715467.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -3603,16 +4047,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
           "fr": "poivre"
         },
-        "amount": 1,
+        "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -3620,19 +4067,23 @@ window.initialRecipes = [
         },
         "amount": 83,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "celery",
         "name": {
           "en": "celery",
-          "nl": "selderij",
+          "nl": "selder",
           "fr": "céleri"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "celery seed",
         "name": {
           "en": "celery seed",
           "nl": "selderij zaad",
@@ -3640,29 +4091,35 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chicken broth",
         "name": {
-          "en": "chicken broth",
+          "en": "chicken stock",
           "nl": "kippenbouillon",
-          "fr": "bouillon de poulet"
+          "fr": "bouillon de poule"
         },
         "amount": 420,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 83,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic powder",
         "name": {
           "en": "garlic powder",
           "nl": "knoflook poeder",
@@ -3670,9 +4127,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "green beans",
         "name": {
           "en": "green beans",
           "nl": "groene bonen",
@@ -3680,19 +4139,23 @@ window.initialRecipes = [
         },
         "amount": 567,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "seasoning",
-          "nl": "kruiden",
-          "fr": "assaisonnement"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 0.5,
+        "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -3700,9 +4163,11 @@ window.initialRecipes = [
         },
         "amount": 320,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -3710,9 +4175,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion powder",
         "name": {
           "en": "onion powder",
           "nl": "uienpoeder",
@@ -3720,19 +4187,35 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "peas",
         "name": {
-          "en": "peas and carrots",
-          "nl": "erwten en wortelen",
-          "fr": "petits pois et carottes"
+          "en": "peas",
+          "nl": "peas",
+          "fr": "peas"
         },
-        "amount": 567,
-        "unit": "g",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "carrot",
+        "name": {
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "\" pie crusts",
         "name": {
           "en": "\" pie crusts",
           "nl": "\"taartbodems",
@@ -3740,19 +4223,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
-        "name": {
-          "en": "salt",
-          "nl": "zout",
-          "fr": "sel"
-        },
-        "amount": 1,
-        "unit": "kl",
-        "category": "Kruidenier"
-      },
-      {
+        "key": "turkey",
         "name": {
           "en": "turkey",
           "nl": "kalkoen",
@@ -3760,17 +4235,8 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
-      },
-      {
-        "name": {
-          "en": "pepper",
-          "nl": "peper",
-          "fr": "poivre"
-        },
-        "amount": 0.5,
-        "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       }
     ]
   },
@@ -3787,7 +4253,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/643559-556x370.jpg",
+    "image": "images/spoonacular-643559.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -3830,6 +4296,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "ice",
         "name": {
           "en": "ice",
           "nl": "ijs",
@@ -3837,29 +4304,35 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "lime juice",
         "name": {
-          "en": "juice of lime",
-          "nl": "sap van limoen",
+          "en": "lime juice",
+          "nl": "limoensap",
           "fr": "jus de citron vert"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lime sugar",
         "name": {
           "en": "lime sugar",
           "nl": "limoen suiker",
           "fr": "sucre de citron vert"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "orange liquor",
         "name": {
           "en": "orange liquor",
           "nl": "oranje likeur",
@@ -3867,19 +4340,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "peach",
         "name": {
           "en": "peach",
           "nl": "perzik",
           "fr": "pêche"
         },
         "amount": 1,
-        "unit": "medium size",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "peach schnapps",
         "name": {
           "en": "peach schnapps",
           "nl": "perzikschnaps",
@@ -3887,9 +4364,11 @@ window.initialRecipes = [
         },
         "amount": 57,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -3897,9 +4376,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "silver tequila",
         "name": {
           "en": "silver tequila",
           "nl": "zilveren tequila",
@@ -3907,7 +4388,8 @@ window.initialRecipes = [
         },
         "amount": 113,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -3925,7 +4407,7 @@ window.initialRecipes = [
       "breakfast",
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/632525-556x370.jpg",
+    "image": "images/spoonacular-632525.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -3968,6 +4450,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "apples - &",
         "name": {
           "en": "apples - &",
           "nl": "appels - &",
@@ -3975,9 +4458,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -3985,9 +4470,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -3995,9 +4482,11 @@ window.initialRecipes = [
         },
         "amount": 200,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cinnamon",
         "name": {
           "en": "cinnamon",
           "nl": "kaneel",
@@ -4005,29 +4494,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 375,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -4035,19 +4530,23 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "oats",
         "name": {
           "en": "oats",
-          "nl": "haver",
-          "fr": "avoine"
+          "nl": "havermout",
+          "fr": "flocons d’avoine"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -4055,9 +4554,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -4065,7 +4566,8 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -4082,7 +4584,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/632176-556x370.jpg",
+    "image": "images/spoonacular-632176.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -4146,16 +4648,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "flour",
         "name": {
-          "en": "all purpose flour",
-          "nl": "meel voor alle doeleinden",
-          "fr": "farine tout usage"
+          "en": "flour",
+          "nl": "bloem",
+          "fr": "farine"
         },
         "amount": 156,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "almond extract",
         "name": {
           "en": "almond extract",
           "nl": "amandel-extract",
@@ -4163,9 +4668,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "almonds",
         "name": {
           "en": "almonds",
           "nl": "amandelen",
@@ -4173,9 +4680,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "apricot jam",
         "name": {
           "en": "apricot jam",
           "nl": "Abrikozenjam",
@@ -4183,9 +4692,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -4193,39 +4704,35 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vegetable oil",
         "name": {
-          "en": "canola oil",
-          "nl": "canola-olie",
-          "fr": "huile de canola"
-        },
-        "amount": 0.7,
-        "unit": "st.",
-        "category": "Kruidenier"
-      },
-      {
-        "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "vegetable oil",
+          "nl": "plantaardige olie",
+          "fr": "huile végétale"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
-        "amount": 4,
+        "amount": 5,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -4233,19 +4740,23 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon zest",
         "name": {
           "en": "lemon zest",
-          "nl": "citroenschil",
+          "nl": "citroenrasp",
           "fr": "zeste de citron"
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -4253,9 +4764,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "orange liqueur",
         "name": {
           "en": "orange liqueur",
           "nl": "sinaasappel likeur",
@@ -4263,9 +4776,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "2%% ricotta cheese",
         "name": {
           "en": "2%% ricotta cheese",
           "nl": "2%% ricottakaas",
@@ -4273,9 +4788,11 @@ window.initialRecipes = [
         },
         "amount": 94,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "rum",
         "name": {
           "en": "rum",
           "nl": "rum",
@@ -4283,9 +4800,11 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -4293,9 +4812,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tablespoon sugar",
         "name": {
           "en": "tablespoon sugar",
           "nl": "eetlepel suiker",
@@ -4303,9 +4824,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -4313,17 +4836,20 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
-          "en": "vanilla",
-          "nl": "vanille",
-          "fr": "vanille"
+          "en": "vanilla extract",
+          "nl": "vanille-extract",
+          "fr": "extrait de vanille"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -4340,7 +4866,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/643478-556x370.jpg",
+    "image": "images/spoonacular-643478.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -4425,26 +4951,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
-        "amount": 0.3,
-        "unit": "c",
-        "category": "Zuivel & Eieren"
+        "amount": 38,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
           "fr": "cassonade"
         },
-        "amount": 0.5,
-        "unit": "c",
-        "category": "Bakkerij"
+        "amount": 63,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "figs",
         "name": {
           "en": "figs",
           "nl": "vijgen",
@@ -4452,9 +4983,11 @@ window.initialRecipes = [
         },
         "amount": 10,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "rosemary",
         "name": {
           "en": "rosemary",
           "nl": "rozemarijn",
@@ -4462,9 +4995,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "walnut pieces",
         "name": {
           "en": "walnut pieces",
           "nl": "stukjes walnoot",
@@ -4472,19 +5007,23 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
-        "amount": 1,
-        "unit": "c",
-        "category": "Bakkerij"
+        "amount": 125,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -4492,9 +5031,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -4502,29 +5043,35 @@ window.initialRecipes = [
         },
         "amount": 0.1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 3,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
-        "amount": 1,
-        "unit": "c",
-        "category": "Bakkerij"
+        "amount": 125,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -4532,9 +5079,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon extract",
         "name": {
           "en": "lemon extract",
           "nl": "citroen-extract",
@@ -4542,9 +5091,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "citron vodka",
         "name": {
           "en": "citron vodka",
           "nl": "citroen wodka",
@@ -4552,19 +5103,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon zest",
         "name": {
           "en": "lemon zest",
-          "nl": "citroenschil",
+          "nl": "citroenrasp",
           "fr": "zeste de citron"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -4572,7 +5127,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -4589,7 +5145,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/764752-556x370.jpg",
+    "image": "images/spoonacular-764752.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -4635,6 +5191,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bread",
         "name": {
           "en": "bread",
           "nl": "brood",
@@ -4642,9 +5199,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "slices",
-        "category": "Bakkerij"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -4652,9 +5211,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cinnamon powder",
         "name": {
           "en": "cinnamon powder",
           "nl": "kaneel poeder",
@@ -4662,49 +5223,59 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "fruit",
         "name": {
           "en": "fruit",
           "nl": "fruit",
           "fr": "fruit"
         },
-        "amount": 1,
-        "unit": "serving",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "honey",
         "name": {
           "en": "honey",
-          "nl": "Honing",
-          "fr": "Miel"
+          "nl": "honing",
+          "fr": "miel"
         },
         "amount": 1.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "powdered sugar",
         "name": {
-          "en": "icing sugar",
-          "nl": "poedersuiker",
-          "fr": "sucre glace"
+          "en": "powdered sugar",
+          "nl": "bloemsuiker",
+          "fr": "sucre impalpable"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -4712,7 +5283,8 @@ window.initialRecipes = [
         },
         "amount": 60,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -4729,7 +5301,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/640921-556x370.jpg",
+    "image": "images/spoonacular-640921.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -4799,6 +5371,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "artichoke",
         "name": {
           "en": "artichoke",
           "nl": "artisjok",
@@ -4806,19 +5379,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chicken breasts",
         "name": {
           "en": "chicken breasts",
-          "nl": "kippenborsten",
-          "fr": "poitrines de poulet"
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -4826,9 +5403,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon",
         "name": {
           "en": "lemon",
           "nl": "citroen",
@@ -4836,9 +5415,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "maple syrup",
         "name": {
           "en": "maple syrup",
           "nl": "ahornsiroop",
@@ -4846,9 +5427,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "olive olive oil",
         "name": {
           "en": "olive olive oil",
           "nl": "olijfolie olijfolie",
@@ -4856,39 +5439,47 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
           "en": "parmesan",
-          "nl": "Parmezaanse kaas",
-          "fr": "Parmesan"
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "potato",
         "name": {
           "en": "potato",
           "nl": "aardappel",
           "fr": "pomme de terre"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "rosemary",
         "name": {
           "en": "rosemary",
           "nl": "rozemarijn",
@@ -4896,27 +5487,32 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "sprig",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "mozzarella",
         "name": {
-          "en": "mozzarella cheese",
-          "nl": "mozzarella kaas",
-          "fr": "fromage mozzarella"
+          "en": "mozzarella",
+          "nl": "mozzarella",
+          "fr": "mozzarella"
         },
         "amount": 1,
         "unit": "handful",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -4933,7 +5529,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/638231-556x370.jpg",
+    "image": "images/spoonacular-638231.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -4982,16 +5578,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "salt",
         "name": {
-          "en": "kosher salt and coarse pepper",
-          "nl": "koosjer zout en grove peper",
-          "fr": "sel casher et gros poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 6,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "coarse pepper",
+        "name": {
+          "en": "coarse pepper",
+          "nl": "coarse pepper",
+          "fr": "coarse pepper"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "herbs",
         "name": {
           "en": "herbs",
           "nl": "kruiden",
@@ -4999,9 +5610,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "mayonnaise",
         "name": {
           "en": "mayonnaise",
           "nl": "mayonaise",
@@ -5009,27 +5622,32 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "parmesan",
         "name": {
           "en": "parmesan",
-          "nl": "Parmezaanse kaas",
-          "fr": "Parmesan"
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "chicken breasts",
         "name": {
           "en": "chicken breasts",
-          "nl": "kippenborsten",
-          "fr": "poitrines de poulet"
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
         },
         "amount": 6,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       }
     ]
   },
@@ -5046,7 +5664,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/639620-556x370.jpg",
+    "image": "images/spoonacular-639620.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -5092,6 +5710,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -5099,19 +5718,23 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "celery",
         "name": {
           "en": "celery",
-          "nl": "selderij",
+          "nl": "selder",
           "fr": "céleri"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -5119,9 +5742,11 @@ window.initialRecipes = [
         },
         "amount": 6,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "lump crab meat",
         "name": {
           "en": "lump crab meat",
           "nl": "forfaitair krabvlees",
@@ -5129,9 +5754,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "bread crumbs",
         "name": {
           "en": "bread crumbs",
           "nl": "broodkruimels",
@@ -5139,9 +5766,11 @@ window.initialRecipes = [
         },
         "amount": 42,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "mayonnaise",
         "name": {
           "en": "mayonnaise",
           "nl": "mayonaise",
@@ -5149,9 +5778,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "seafood seasoning",
         "name": {
           "en": "seafood seasoning",
           "nl": "zeevruchten kruiden",
@@ -5159,9 +5790,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
@@ -5169,19 +5802,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "hot sauce",
         "name": {
           "en": "hot sauce",
           "nl": "hete saus",
           "fr": "sauce piquante"
         },
-        "amount": 3,
-        "unit": "drops",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "drop",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
           "en": "parsley",
           "nl": "peterselie",
@@ -5189,7 +5826,8 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -5206,7 +5844,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/632622-556x370.jpg",
+    "image": "images/spoonacular-632622.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -5264,36 +5902,43 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baked apples",
         "name": {
           "en": "baked apples",
           "nl": "gebakken appels",
           "fr": "pommes au four"
         },
-        "amount": 12,
-        "unit": "servings",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pink lady apples",
         "name": {
           "en": "pink lady apples",
           "nl": "Pink Lady-appels",
           "fr": "pommes roses"
         },
         "amount": 5,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pom wonderful pomegranate juice",
         "name": {
           "en": "pom wonderful pomegranate juice",
           "nl": "pom heerlijk granaatappelsap",
           "fr": "pom merveilleux jus de grenade"
         },
-        "amount": 120,
+        "amount": 180,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -5301,19 +5946,23 @@ window.initialRecipes = [
         },
         "amount": 94,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cinnamon",
         "name": {
-          "en": "ground cinnamon",
-          "nl": "gemalen kaneel",
-          "fr": "cannelle moulue"
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "ground allspice",
         "name": {
           "en": "ground allspice",
           "nl": "gemalen piment",
@@ -5321,9 +5970,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -5331,9 +5982,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "corn starch",
         "name": {
           "en": "corn starch",
           "nl": "maïszetmeel",
@@ -5341,9 +5994,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "old-fashioned rolled oats",
         "name": {
           "en": "old-fashioned rolled oats",
           "nl": "ouderwetse gerolde haver",
@@ -5351,19 +6006,23 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
-          "en": "unbleached flour",
-          "nl": "ongebleekt meel",
-          "fr": "farine non blanchie"
+          "en": "flour",
+          "nl": "bloem",
+          "fr": "farine"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "apple juice",
         "name": {
           "en": "apple juice",
           "nl": "appelsap",
@@ -5371,39 +6030,35 @@ window.initialRecipes = [
         },
         "amount": 60,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "vegetable oil",
         "name": {
-          "en": "pom wonderful pomegranate juice",
-          "nl": "pom heerlijk granaatappelsap",
-          "fr": "pom merveilleux jus de grenade"
-        },
-        "amount": 60,
-        "unit": "ml",
-        "category": "Bieren & Dranken"
-      },
-      {
-        "name": {
-          "en": "canola oil",
-          "nl": "canola-olie",
-          "fr": "huile de canola"
+          "en": "vegetable oil",
+          "nl": "plantaardige olie",
+          "fr": "huile végétale"
         },
         "amount": 30,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
           "fr": "cassonade"
         },
-        "amount": 0.3,
+        "amount": 1,
         "unit": "st.",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -5411,9 +6066,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "walnuts",
         "name": {
           "en": "walnuts",
           "nl": "walnoten",
@@ -5421,9 +6078,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -5431,7 +6090,8 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -5448,7 +6108,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/631783-556x370.jpg",
+    "image": "images/spoonacular-631783.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -5512,6 +6172,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "walnuts",
         "name": {
           "en": "walnuts",
           "nl": "walnoten",
@@ -5519,9 +6180,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -5529,19 +6192,23 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cinnamon",
         "name": {
-          "en": "ground cinnamon",
-          "nl": "gemalen kaneel",
-          "fr": "cannelle moulue"
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "phyllo",
         "name": {
           "en": "phyllo",
           "nl": "filodeeg",
@@ -5549,9 +6216,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -5559,19 +6228,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "honey",
         "name": {
           "en": "honey",
-          "nl": "Honing",
-          "fr": "Miel"
+          "nl": "honing",
+          "fr": "miel"
         },
         "amount": 340,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bacon",
         "name": {
           "en": "bacon",
           "nl": "spek",
@@ -5579,7 +6252,8 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       }
     ]
   },
@@ -5596,7 +6270,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/664726-556x370.jpg",
+    "image": "images/spoonacular-664726.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -5651,6 +6325,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "corn tortillas",
         "name": {
           "en": "corn tortillas",
           "nl": "maïstortilla's",
@@ -5658,9 +6333,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "black beans",
         "name": {
           "en": "black beans",
           "nl": "zwarte bonen",
@@ -5668,19 +6345,23 @@ window.initialRecipes = [
         },
         "amount": 425,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
-          "en": "onions",
-          "nl": "uien",
-          "fr": "oignons"
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
         },
         "amount": 31,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -5688,9 +6369,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -5698,9 +6381,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chiles in adobo sauce",
         "name": {
           "en": "chiles in adobo sauce",
           "nl": "chilipepers in adobosaus",
@@ -5708,29 +6393,47 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "spinach",
         "name": {
           "en": "spinach",
           "nl": "spinazie",
-          "fr": "épinard"
+          "fr": "épinards"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "spinkle of basil",
         "name": {
-          "en": "spinkle of basil and garlic sea salt",
-          "nl": "snufje basilicum en knoflook-zeezout",
-          "fr": "un peu de basilic et de sel marin à l'ail"
+          "en": "spinkle of basil",
+          "nl": "spinkle of basil",
+          "fr": "spinkle of basil"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic sea salt",
+        "name": {
+          "en": "garlic sea salt",
+          "nl": "garlic sea salt",
+          "fr": "garlic sea salt"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cherry tomatoes",
         "name": {
           "en": "cherry tomatoes",
           "nl": "kerstomaatjes",
@@ -5738,37 +6441,44 @@ window.initialRecipes = [
         },
         "amount": 8,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "feta",
         "name": {
-          "en": "feta cheese",
-          "nl": "feta-kaas",
-          "fr": "fromage feta"
+          "en": "feta",
+          "nl": "feta",
+          "fr": "feta"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Zuivel & Eieren"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cream",
         "name": {
           "en": "cream",
           "nl": "room",
           "fr": "crème"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Zuivel & Eieren"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "salsa",
         "name": {
           "en": "salsa",
           "nl": "salsa",
           "fr": "salsa"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -5785,7 +6495,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/635040-556x370.jpg",
+    "image": "images/spoonacular-635040.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -5840,16 +6550,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "half",
         "name": {
-          "en": "half& half",
-          "nl": "half&helft",
-          "fr": "moitié et moitié"
+          "en": "half",
+          "nl": "half",
+          "fr": "half"
         },
-        "amount": 250,
-        "unit": "g",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "heavy whipping cream",
         "name": {
           "en": "heavy whipping cream",
           "nl": "zware slagroom",
@@ -5857,9 +6570,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "coffee- try starbuck's via",
         "name": {
           "en": "coffee- try starbuck's via",
           "nl": "koffie - probeer Starbucks via",
@@ -5867,9 +6582,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -5877,7 +6594,8 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -5894,7 +6612,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/665550-556x370.jpg",
+    "image": "images/spoonacular-665550.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -5934,6 +6652,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "veg oil",
         "name": {
           "en": "veg oil",
           "nl": "plantaardige olie",
@@ -5941,9 +6660,11 @@ window.initialRecipes = [
         },
         "amount": 5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
           "en": "cumin",
           "nl": "komijn",
@@ -5951,9 +6672,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "leg of lamb",
         "name": {
           "en": "leg of lamb",
           "nl": "lamsbout",
@@ -5961,9 +6684,11 @@ window.initialRecipes = [
         },
         "amount": 4536,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "nutmeg",
         "name": {
           "en": "nutmeg",
           "nl": "nootmuskaat",
@@ -5971,19 +6696,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "paprika",
         "name": {
-          "en": "paprika",
-          "nl": "paprika",
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
           "fr": "paprika"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "yogurt",
         "name": {
           "en": "yogurt",
           "nl": "yoghurt",
@@ -5991,9 +6720,11 @@ window.initialRecipes = [
         },
         "amount": 80,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -6001,9 +6732,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tumeric",
         "name": {
           "en": "tumeric",
           "nl": "kurkuma",
@@ -6011,7 +6744,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -6029,7 +6763,7 @@ window.initialRecipes = [
       "breakfast",
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/662515-556x370.jpg",
+    "image": "images/spoonacular-662515.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -6114,16 +6848,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 375,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -6131,19 +6868,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -6151,9 +6892,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "buttermilk",
         "name": {
           "en": "buttermilk",
           "nl": "karnemelk",
@@ -6161,9 +6904,11 @@ window.initialRecipes = [
         },
         "amount": 180,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "orange juice",
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
@@ -6171,9 +6916,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -6181,9 +6928,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -6191,9 +6940,11 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -6201,19 +6952,23 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "orange zest",
         "name": {
           "en": "orange zest",
           "nl": "sinaasappelschil",
@@ -6221,9 +6976,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -6231,9 +6988,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "note: i used oranges",
         "name": {
           "en": "note: i used oranges",
           "nl": "Let op: ik heb sinaasappels gebruikt",
@@ -6241,7 +7000,8 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -6258,7 +7018,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/638693-556x370.jpg",
+    "image": "images/spoonacular-638693.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -6358,6 +7118,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "ground pork",
         "name": {
           "en": "ground pork",
           "nl": "gemalen varkensvlees",
@@ -6365,9 +7126,11 @@ window.initialRecipes = [
         },
         "amount": 200,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "water chestnuts",
         "name": {
           "en": "water chestnuts",
           "nl": "waterkastanjes",
@@ -6375,19 +7138,23 @@ window.initialRecipes = [
         },
         "amount": 100,
         "unit": "g",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "sea salt",
-          "nl": "zeezout",
-          "fr": "sel de mer"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -6395,29 +7162,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "pepper",
         "name": {
-          "en": "ground pepper",
-          "nl": "gemalen peper",
-          "fr": "poivre moulu"
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "sesame oil",
         "name": {
           "en": "sesame oil",
           "nl": "sesamolie",
@@ -6425,9 +7198,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "shaoxing huatiao wine",
         "name": {
           "en": "shaoxing huatiao wine",
           "nl": "Shaoxing Huatiao-wijn",
@@ -6435,19 +7210,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "scallion",
         "name": {
-          "en": "scallions",
-          "nl": "lente-uitjes",
-          "fr": "oignons verts"
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "dumpling wrappers",
         "name": {
           "en": "dumpling wrappers",
           "nl": "knoedelverpakkingen",
@@ -6455,19 +7234,23 @@ window.initialRecipes = [
         },
         "amount": 25,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "flour to dust",
         "name": {
           "en": "flour to dust",
           "nl": "meel tot stof",
           "fr": "farine en poussière"
         },
-        "amount": 24,
-        "unit": "servings",
-        "category": "Bakkerij"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vegetable oil",
         "name": {
           "en": "vegetable oil",
           "nl": "plantaardige olie",
@@ -6475,9 +7258,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -6485,7 +7270,8 @@ window.initialRecipes = [
         },
         "amount": 160,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -6502,7 +7288,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/798400-556x370.jpg",
+    "image": "images/spoonacular-798400.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -6575,6 +7361,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "black-eyed peas",
         "name": {
           "en": "black-eyed peas",
           "nl": "erwten met zwarte ogen",
@@ -6582,9 +7369,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "curry powder",
         "name": {
           "en": "curry powder",
           "nl": "kerrie poeder",
@@ -6592,9 +7381,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "garam masala",
         "name": {
           "en": "garam masala",
           "nl": "garam masala",
@@ -6602,19 +7393,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "globe",
         "name": {
           "en": "globe",
           "nl": "bol",
           "fr": "globe"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "coriander",
         "name": {
           "en": "ground coriander",
           "nl": "gemalen koriander",
@@ -6622,19 +7417,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
-          "en": "ground cumin",
-          "nl": "gemalen komijn",
-          "fr": "cumin moulu"
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "ground mustard powder",
         "name": {
           "en": "ground mustard powder",
           "nl": "gemalen mosterdpoeder",
@@ -6642,19 +7441,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "juice of lemon",
-          "nl": "sap van citroen",
+          "en": "lemon juice",
+          "nl": "citroensap",
           "fr": "jus de citron"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -6662,9 +7465,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chilies",
         "name": {
           "en": "chilies",
           "nl": "pepers",
@@ -6672,29 +7477,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "sea salt",
-          "nl": "zeezout",
-          "fr": "sel de mer"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "shallot",
         "name": {
-          "en": "shallots",
-          "nl": "sjalotten",
-          "fr": "échalotes"
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "swiss chard",
         "name": {
           "en": "swiss chard",
           "nl": "Zwitserse snijbiet",
@@ -6702,19 +7513,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "bunch",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tomato",
         "name": {
           "en": "tomato",
           "nl": "tomaat",
           "fr": "tomate"
         },
         "amount": 1,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -6722,7 +7537,8 @@ window.initialRecipes = [
         },
         "amount": 5,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -6740,7 +7556,7 @@ window.initialRecipes = [
       "soup",
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/653687-556x370.jpg",
+    "image": "images/spoonacular-653687.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -6801,6 +7617,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -6808,9 +7625,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -6818,49 +7637,59 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "small",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "carrot",
         "name": {
-          "en": "carrots",
-          "nl": "wortelen",
-          "fr": "carottes"
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
         },
         "amount": 2,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "celery",
         "name": {
           "en": "celery",
-          "nl": "selderij",
+          "nl": "selder",
           "fr": "céleri"
         },
         "amount": 2,
-        "unit": "stalks",
-        "category": "Groenten & Fruit"
+        "unit": "stalk",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tomato puree",
         "name": {
           "en": "tomato puree",
           "nl": "tomatenpuree",
@@ -6868,9 +7697,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "corn",
         "name": {
           "en": "corn",
           "nl": "maïs",
@@ -6878,19 +7709,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "can",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chicken broth",
         "name": {
-          "en": "chicken broth",
+          "en": "chicken stock",
           "nl": "kippenbouillon",
-          "fr": "bouillon de poulet"
+          "fr": "bouillon de poule"
         },
-        "amount": 1,
-        "unit": "liter",
-        "category": "Slagerij & Gevogelte"
+        "amount": 1000,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "beans",
         "name": {
           "en": "beans",
           "nl": "bonen",
@@ -6898,19 +7733,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "can",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "herbs like: thym",
         "name": {
           "en": "herbs like: thym",
           "nl": "kruiden zoals: tijm",
           "fr": "des herbes comme : le thym"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cooking cream",
         "name": {
           "en": "cooking cream",
           "nl": "kookroom",
@@ -6918,17 +7757,20 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "turmeric",
         "name": {
           "en": "turmeric",
           "nl": "kurkuma",
           "fr": "curcuma"
         },
-        "amount": 3,
-        "unit": "pinches",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -6945,7 +7787,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/632485-556x370.jpg",
+    "image": "images/spoonacular-632485.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -6991,6 +7833,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "apples preferably jonathan",
         "name": {
           "en": "apples preferably jonathan",
           "nl": "appels bij voorkeur Jonathan",
@@ -6998,19 +7841,23 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cinnamon",
         "name": {
           "en": "cinnamon",
           "nl": "kaneel",
@@ -7018,29 +7865,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 313,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "oil",
         "name": {
           "en": "oil",
           "nl": "olie",
@@ -7048,9 +7901,11 @@ window.initialRecipes = [
         },
         "amount": 360,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -7058,9 +7913,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -7068,19 +7925,23 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
-          "en": "vanilla",
-          "nl": "vanille",
-          "fr": "vanille"
+          "en": "vanilla extract",
+          "nl": "vanille-extract",
+          "fr": "extrait de vanille"
         },
         "amount": 3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "walnuts",
         "name": {
           "en": "walnuts",
           "nl": "walnoten",
@@ -7088,7 +7949,8 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -7105,7 +7967,7 @@ window.initialRecipes = [
     "category": [
       "snack"
     ],
-    "image": "https://img.spoonacular.com/recipes/1098351-556x370.jpg",
+    "image": "images/spoonacular-1098351.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -7157,6 +8019,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "kalamata olives",
         "name": {
           "en": "kalamata olives",
           "nl": "kalamata-olijven",
@@ -7164,9 +8027,11 @@ window.initialRecipes = [
         },
         "amount": 20,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "manzanilla olives",
         "name": {
           "en": "manzanilla olives",
           "nl": "manzanilla-olijven",
@@ -7174,9 +8039,11 @@ window.initialRecipes = [
         },
         "amount": 20,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "naan breads",
         "name": {
           "en": "naan breads",
           "nl": "naanbroodjes",
@@ -7184,29 +8051,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Bakkerij"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "mozzarella",
         "name": {
-          "en": "mozzarella cheese",
-          "nl": "mozzarella kaas",
-          "fr": "fromage mozzarella"
+          "en": "mozzarella",
+          "nl": "mozzarella",
+          "fr": "mozzarella"
         },
         "amount": 142,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "extra virgin olive oil",
-          "nl": "extra vergine olijfolie",
-          "fr": "Huile d'olive vierge extra"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 1,
-        "unit": "tbs",
-        "category": "Kruidenier"
+        "unit": "el",
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "arugula",
         "name": {
           "en": "arugula",
           "nl": "rucola",
@@ -7214,9 +8087,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "balsamic vinegar",
         "name": {
           "en": "balsamic vinegar",
           "nl": "balsamico azijn",
@@ -7224,17 +8099,20 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "extra virgin olive oil",
-          "nl": "extra vergine olijfolie",
-          "fr": "Huile d'olive vierge extra"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -7251,7 +8129,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/659679-556x370.jpg",
+    "image": "images/spoonacular-659679.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -7306,6 +8184,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -7313,9 +8192,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -7323,9 +8204,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "bunchs of kale",
         "name": {
           "en": "bunchs of kale",
           "nl": "bosjes boerenkool",
@@ -7333,9 +8216,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -7343,9 +8228,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "red wine vinegar",
         "name": {
           "en": "red wine vinegar",
           "nl": "rode wijnazijn",
@@ -7353,49 +8240,71 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "sea scallops",
         "name": {
           "en": "sea scallops",
           "nl": "zeeschelpen",
           "fr": "pétoncles géants"
         },
         "amount": 16,
-        "unit": "large",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "shallot",
         "name": {
-          "en": "shallots",
-          "nl": "sjalotten",
-          "fr": "échalotes"
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bacon",
         "name": {
           "en": "bacon",
           "nl": "spek",
@@ -7403,7 +8312,8 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "slices",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       }
     ]
   },
@@ -7420,7 +8330,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/634006-556x370.jpg",
+    "image": "images/spoonacular-634006.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -7460,16 +8370,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "banana",
         "name": {
-          "en": "bananas",
-          "nl": "bananen",
-          "fr": "bananes"
+          "en": "banana",
+          "nl": "banaan",
+          "fr": "banane"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -7477,9 +8390,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -7487,39 +8402,47 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
-          "en": "vanilla",
-          "nl": "vanille",
-          "fr": "vanille"
+          "en": "vanilla extract",
+          "nl": "vanille-extract",
+          "fr": "extrait de vanille"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -7527,17 +8450,20 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -7554,7 +8480,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/648470-556x370.jpg",
+    "image": "images/spoonacular-648470.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -7609,46 +8535,55 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "carrot",
         "name": {
-          "en": "carrots",
-          "nl": "wortelen",
-          "fr": "carottes"
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
         },
         "amount": 3,
-        "unit": "small",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "potato",
         "name": {
-          "en": "potatoes",
-          "nl": "aardappelen",
-          "fr": "pommes de terre"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "medium size",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "japanese curry",
         "name": {
           "en": "japanese curry",
           "nl": "Japanse curry",
           "fr": "curry japonais"
         },
-        "amount": 0.5,
+        "amount": 1,
         "unit": "package",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -7656,9 +8591,11 @@ window.initialRecipes = [
         },
         "amount": 720,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "oil",
         "name": {
           "en": "oil",
           "nl": "olie",
@@ -7666,9 +8603,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "puff pastry dough sheets",
         "name": {
           "en": "puff pastry dough sheets",
           "nl": "bladerdeegdeegvellen",
@@ -7676,7 +8615,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "package",
-        "category": "Bakkerij"
+        "category": "Diepvries",
+        "staple": false
       }
     ]
   },
@@ -7693,7 +8633,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/646524-556x370.jpg",
+    "image": "images/spoonacular-646524.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -7745,6 +8685,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "almond extract",
         "name": {
           "en": "almond extract",
           "nl": "amandel-extract",
@@ -7752,9 +8693,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "apple sauce",
         "name": {
           "en": "apple sauce",
           "nl": "appelmoes",
@@ -7762,9 +8705,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -7772,19 +8717,23 @@ window.initialRecipes = [
         },
         "amount": 0.8,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 0.1,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "beets",
         "name": {
           "en": "beets",
           "nl": "bieten",
@@ -7792,9 +8741,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -7802,9 +8753,11 @@ window.initialRecipes = [
         },
         "amount": 94,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
           "nl": "cacao poeder",
@@ -7812,9 +8765,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "ground flaxseed",
         "name": {
           "en": "ground flaxseed",
           "nl": "gemalen lijnzaad",
@@ -7822,9 +8777,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "kidney beans",
         "name": {
           "en": "kidney beans",
           "nl": "bruine bonen",
@@ -7832,9 +8789,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -7842,9 +8801,11 @@ window.initialRecipes = [
         },
         "amount": 0.1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -7852,7 +8813,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -7870,7 +8832,7 @@ window.initialRecipes = [
       "breakfast",
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/649977-556x370.jpg",
+    "image": "images/spoonacular-649977.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -7907,6 +8869,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "chocolate",
         "name": {
           "en": "chocolate",
           "nl": "chocolade",
@@ -7914,37 +8877,44 @@ window.initialRecipes = [
         },
         "amount": 198,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "egg whites",
         "name": {
           "en": "egg whites",
           "nl": "eiwitten",
-          "fr": "blancs d'œufs"
+          "fr": "blancs d'oeuf"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "egg yolk",
         "name": {
-          "en": "egg yolks",
-          "nl": "eierdooiers",
-          "fr": "jaunes d'œufs"
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "pavisini ladyfingers",
         "name": {
           "en": "pavisini ladyfingers",
           "nl": "pavisini lange vingers",
           "fr": "doigts de dame pavisini"
         },
         "amount": 1,
-        "unit": "box",
-        "category": "Kruidenier"
+        "unit": "package",
+        "category": "Visafdeling",
+        "staple": false
       }
     ]
   },
@@ -7961,7 +8931,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/651546-556x370.jpg",
+    "image": "images/spoonacular-651546.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -8010,6 +8980,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
@@ -8017,9 +8988,11 @@ window.initialRecipes = [
         },
         "amount": 113,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "salsa verde",
         "name": {
           "en": "salsa verde",
           "nl": "salsa verde",
@@ -8027,9 +9000,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "bunch cilantro",
         "name": {
           "en": "bunch cilantro",
           "nl": "bosje koriander",
@@ -8037,9 +9012,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
           "en": "cumin",
           "nl": "komijn",
@@ -8047,9 +9024,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "garlic powder",
         "name": {
           "en": "garlic powder",
           "nl": "knoflook poeder",
@@ -8057,29 +9036,35 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chicken breasts",
         "name": {
           "en": "chicken breasts",
-          "nl": "kippenborsten",
-          "fr": "poitrines de poulet"
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
         },
         "amount": 6,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "spinach",
         "name": {
           "en": "spinach",
           "nl": "spinazie",
-          "fr": "épinard"
+          "fr": "épinards"
         },
         "amount": 85,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pepper jack cheese",
         "name": {
           "en": "pepper jack cheese",
           "nl": "peper jack kaas",
@@ -8087,9 +9072,11 @@ window.initialRecipes = [
         },
         "amount": 85,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "tortilla chips",
         "name": {
           "en": "tortilla chips",
           "nl": "tortillachips",
@@ -8097,7 +9084,8 @@ window.initialRecipes = [
         },
         "amount": 170,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       }
     ]
   },
@@ -8114,7 +9102,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/640077-556x370.jpg",
+    "image": "images/spoonacular-640077.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -8160,6 +9148,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bay leaf",
         "name": {
           "en": "bay leaf",
           "nl": "laurierblad",
@@ -8167,19 +9156,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chives",
         "name": {
           "en": "chives",
           "nl": "bieslook",
           "fr": "ciboulette"
         },
-        "amount": 6,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "corn",
         "name": {
           "en": "corn",
           "nl": "maïs",
@@ -8187,19 +9180,23 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "thyme",
         "name": {
           "en": "thyme",
           "nl": "tijm",
           "fr": "thym"
         },
         "amount": 4,
-        "unit": "sprigs",
-        "category": "Kruidenier"
+        "unit": "sprig",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "gouda cheese",
         "name": {
           "en": "gouda cheese",
           "nl": "Goudse kaas",
@@ -8207,29 +9204,35 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "half",
         "name": {
-          "en": "half-and-half",
-          "nl": "half en half",
-          "fr": "moitié-moitié"
+          "en": "half",
+          "nl": "half",
+          "fr": "half"
         },
-        "amount": 125,
-        "unit": "g",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "poblano chiles",
         "name": {
           "en": "poblano chiles",
           "nl": "poblano chilipepers",
@@ -8237,19 +9240,23 @@ window.initialRecipes = [
         },
         "amount": 113,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "potato",
         "name": {
-          "en": "potatoes",
-          "nl": "aardappelen",
-          "fr": "pommes de terre"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 454,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -8257,9 +9264,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -8267,9 +9276,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -8277,7 +9288,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -8294,7 +9306,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/660680-556x370.jpg",
+    "image": "images/spoonacular-660680.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -8349,6 +9361,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "apple cider vinegar",
         "name": {
           "en": "apple cider vinegar",
           "nl": "appelazijn",
@@ -8356,9 +9369,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "barbecue sauce",
         "name": {
           "en": "barbecue sauce",
           "nl": "barbecuesaus",
@@ -8366,9 +9381,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "chili powder",
         "name": {
           "en": "chili powder",
           "nl": "chili poeder",
@@ -8376,9 +9393,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "dijon mustard",
         "name": {
           "en": "dijon mustard",
           "nl": "Dijon-mosterd",
@@ -8386,9 +9405,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -8396,19 +9417,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
-          "en": "ground cumin",
-          "nl": "gemalen komijn",
-          "fr": "cumin moulu"
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "hoisin sauce",
         "name": {
           "en": "hoisin sauce",
           "nl": "hoisinsaus",
@@ -8416,19 +9441,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "honey",
         "name": {
           "en": "honey",
-          "nl": "Honing",
-          "fr": "Miel"
+          "nl": "honing",
+          "fr": "miel"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "maple syrup",
         "name": {
           "en": "maple syrup",
           "nl": "ahornsiroop",
@@ -8436,9 +9465,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "boston butt pork shoulder",
         "name": {
           "en": "boston butt pork shoulder",
           "nl": "Boston Butt varkensschouder",
@@ -8446,49 +9477,59 @@ window.initialRecipes = [
         },
         "amount": 3629,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "chili flakes",
         "name": {
-          "en": "pepper flakes",
-          "nl": "pepervlokken",
+          "en": "chili flakes",
+          "nl": "chilivlokken",
           "fr": "flocons de piment"
         },
         "amount": 0.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "table salt",
-          "nl": "keukenzout",
-          "fr": "sel de table"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tomato paste",
         "name": {
           "en": "tomato paste",
           "nl": "tomatenpuree",
-          "fr": "concentré de tomate"
+          "fr": "concentré de tomates"
         },
         "amount": 284,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vegetable oil",
         "name": {
           "en": "vegetable oil",
           "nl": "plantaardige olie",
@@ -8496,9 +9537,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
@@ -8506,9 +9549,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -8516,7 +9561,8 @@ window.initialRecipes = [
         },
         "amount": 188,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -8533,7 +9579,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/641047-556x370.jpg",
+    "image": "images/spoonacular-641047.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -8594,6 +9640,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "shortening",
         "name": {
           "en": "shortening",
           "nl": "verkorting",
@@ -8601,9 +9648,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -8611,9 +9660,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -8621,9 +9672,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "very browned bananas",
         "name": {
           "en": "very browned bananas",
           "nl": "zeer gebruinde bananen",
@@ -8631,9 +9684,11 @@ window.initialRecipes = [
         },
         "amount": 188,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -8641,29 +9696,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -8671,9 +9732,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -8681,9 +9744,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "ground walnuts",
         "name": {
           "en": "ground walnuts",
           "nl": "gemalen walnoten",
@@ -8691,7 +9756,8 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -8708,7 +9774,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/655279-556x370.jpg",
+    "image": "images/spoonacular-655279.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -8751,16 +9817,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bran",
         "name": {
           "en": "bran",
           "nl": "zemelen",
@@ -8768,9 +9837,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -8778,9 +9849,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -8788,29 +9861,35 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
         "amount": 83,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chunky peanut butter",
         "name": {
           "en": "chunky peanut butter",
           "nl": "dikke pindakaas",
@@ -8818,39 +9897,47 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "peanut butter candy pieces",
         "name": {
           "en": "peanut butter candy pieces",
           "nl": "stukjes pindakaas snoep",
           "fr": "morceaux de bonbons au beurre de cacahuète"
         },
-        "amount": 6,
-        "unit": "servings",
-        "category": "Zuivel & Eieren"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "oats",
         "name": {
-          "en": "rolled oats",
-          "nl": "gerolde haver",
-          "fr": "flocons d'avoine"
+          "en": "oats",
+          "nl": "havermout",
+          "fr": "flocons d’avoine"
         },
         "amount": 94,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
-          "en": "vanilla",
-          "nl": "vanille",
-          "fr": "vanille"
+          "en": "vanilla extract",
+          "nl": "vanille-extract",
+          "fr": "extrait de vanille"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "plus",
         "name": {
           "en": "plus",
           "nl": "plus",
@@ -8858,7 +9945,8 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -8875,7 +9963,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/635741-556x370.jpg",
+    "image": "images/spoonacular-635741.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -8927,56 +10015,67 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "eggs",
         "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 563,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cream",
         "name": {
-          "en": "heavy cream",
-          "nl": "heavy cream",
-          "fr": "crème épaisse"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "oil",
         "name": {
           "en": "oil",
           "nl": "olie",
           "fr": "huile"
         },
-        "amount": 60,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "powdered sugar",
         "name": {
           "en": "powdered sugar",
-          "nl": "poedersuiker",
-          "fr": "sucre en poudre"
+          "nl": "bloemsuiker",
+          "fr": "sucre impalpable"
         },
-        "amount": 60,
-        "unit": "servings",
-        "category": "Bakkerij"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -8984,9 +10083,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "shortening",
         "name": {
           "en": "shortening",
           "nl": "verkorting",
@@ -8994,9 +10095,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -9004,9 +10107,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -9014,17 +10119,20 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "yeast",
         "name": {
           "en": "yeast",
           "nl": "gist",
           "fr": "levure"
         },
         "amount": 1,
-        "unit": "pkg",
-        "category": "Bakkerij"
+        "unit": "package",
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -9041,7 +10149,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/634781-556x370.jpg",
+    "image": "images/spoonacular-634781.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -9096,16 +10204,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "vinegar",
         "name": {
           "en": "vinegar",
           "nl": "azijn",
@@ -9113,19 +10224,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
           "fr": "eau"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Bieren & Dranken"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "coconut oil",
         "name": {
           "en": "coconut oil",
           "nl": "kokosolie",
@@ -9133,9 +10248,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "leek",
         "name": {
           "en": "leek",
           "nl": "prei",
@@ -9143,9 +10260,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "baby beet greens",
         "name": {
           "en": "baby beet greens",
           "nl": "babybietengroen",
@@ -9153,9 +10272,11 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -9163,27 +10284,32 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "juice of lemon",
-          "nl": "sap van citroen",
+          "en": "lemon juice",
+          "nl": "citroensap",
           "fr": "jus de citron"
         },
-        "amount": 0.3,
+        "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
-          "en": "parmesan cheese",
-          "nl": "Parmezaanse kaas",
-          "fr": "fromage parmesan"
+          "en": "parmesan",
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -9200,7 +10326,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/658803-556x370.jpg",
+    "image": "images/spoonacular-658803.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -9279,6 +10405,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "raisins",
         "name": {
           "en": "raisins",
           "nl": "rozijnen",
@@ -9286,9 +10413,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "rum",
         "name": {
           "en": "rum",
           "nl": "rum",
@@ -9296,39 +10425,35 @@ window.initialRecipes = [
         },
         "amount": 42,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
-        "amount": 250,
+        "amount": 500,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
-        "name": {
-          "en": "flour",
-          "nl": "meel",
-          "fr": "farine"
-        },
-        "amount": 250,
-        "unit": "g",
-        "category": "Bakkerij"
-      },
-      {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -9336,9 +10461,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "rosemary",
         "name": {
           "en": "rosemary",
           "nl": "rozemarijn",
@@ -9346,9 +10473,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pecans",
         "name": {
           "en": "pecans",
           "nl": "pecannoten",
@@ -9356,9 +10485,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "yogurt",
         "name": {
           "en": "yogurt",
           "nl": "yoghurt",
@@ -9366,19 +10497,23 @@ window.initialRecipes = [
         },
         "amount": 188,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "honey",
         "name": {
           "en": "honey",
-          "nl": "Honing",
-          "fr": "Miel"
+          "nl": "honing",
+          "fr": "miel"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -9386,9 +10521,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "anise seeds",
         "name": {
           "en": "anise seeds",
           "nl": "anijs zaden",
@@ -9396,7 +10533,8 @@ window.initialRecipes = [
         },
         "amount": 0.8,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -9413,7 +10551,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/704655-556x370.jpg",
+    "image": "images/spoonacular-704655.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -9456,6 +10594,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "berries i used a blackberry",
         "name": {
           "en": "berries i used a blackberry",
           "nl": "bessen Ik gebruikte een braambes",
@@ -9463,9 +10602,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "banana",
         "name": {
           "en": "banana",
           "nl": "banaan",
@@ -9473,9 +10614,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "vanilla greek yogurt",
         "name": {
           "en": "vanilla greek yogurt",
           "nl": "vanille Griekse yoghurt",
@@ -9483,9 +10626,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "almond milk",
         "name": {
           "en": "almond milk",
           "nl": "amandelmelk",
@@ -9493,9 +10638,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "limeade more",
         "name": {
           "en": "limeade more",
           "nl": "meer kalken",
@@ -9503,9 +10650,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ground flax seed",
         "name": {
           "en": "ground flax seed",
           "nl": "gemalen lijnzaad",
@@ -9513,7 +10662,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -9530,7 +10680,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/645418-556x370.jpg",
+    "image": "images/spoonacular-645418.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -9591,6 +10741,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "green beans",
         "name": {
           "en": "green beans",
           "nl": "groene bonen",
@@ -9598,9 +10749,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pearl onions",
         "name": {
           "en": "pearl onions",
           "nl": "parel uien",
@@ -9608,9 +10761,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -9618,9 +10773,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -9628,9 +10785,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "chicken stock",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -9638,9 +10797,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -9648,27 +10809,44 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salmon steaks",
         "name": {
           "en": "salmon steaks",
           "nl": "zalmsteaks",
           "fr": "steaks de saumon"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Visafdeling"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Visafdeling",
+        "staple": false
       }
     ]
   },
@@ -9685,7 +10863,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/664408-556x370.jpg",
+    "image": "images/spoonacular-664408.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -9734,26 +10912,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "silken tofu",
         "name": {
           "en": "silken tofu",
           "nl": "zijden tofu",
           "fr": "tofu soyeux"
         },
         "amount": 1,
-        "unit": "box",
-        "category": "Kruidenier"
+        "unit": "package",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "banana",
         "name": {
-          "en": "bananas",
-          "nl": "bananen",
-          "fr": "bananes"
+          "en": "banana",
+          "nl": "banaan",
+          "fr": "banane"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chocolate-melted in a bain marie",
         "name": {
           "en": "chocolate-melted in a bain marie",
           "nl": "chocolade au bain-marie gesmolten",
@@ -9761,9 +10944,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "cornstarch-mixed",
         "name": {
           "en": "cornstarch-mixed",
           "nl": "maizena-gemengd",
@@ -9771,9 +10956,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "maple syrup",
         "name": {
           "en": "maple syrup",
           "nl": "ahornsiroop",
@@ -9781,9 +10968,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "pie crust",
         "name": {
           "en": "pie crust",
           "nl": "taart korst",
@@ -9791,7 +10980,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       }
     ]
   },
@@ -9808,7 +10998,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/638245-556x370.jpg",
+    "image": "images/spoonacular-638245.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -9860,6 +11050,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "anchovies",
         "name": {
           "en": "anchovies",
           "nl": "ansjovis",
@@ -9867,19 +11058,23 @@ window.initialRecipes = [
         },
         "amount": 57,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "chicken breasts",
         "name": {
-          "en": "chicken breast",
+          "en": "chicken breasts",
           "nl": "kipfilet",
-          "fr": "blanc de poulet"
+          "fr": "filet de poulet"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "rosemary",
         "name": {
           "en": "rosemary",
           "nl": "rozemarijn",
@@ -9887,39 +11082,47 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
           "fr": "ail"
         },
         "amount": 1,
-        "unit": "large clove",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "juice of lemon",
-          "nl": "sap van citroen",
+          "en": "lemon juice",
+          "nl": "citroensap",
           "fr": "jus de citron"
         },
-        "amount": 0.5,
+        "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "kosher salt",
-          "nl": "koosjer zout",
-          "fr": "sel casher"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -9927,9 +11130,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "poultry seasoning",
         "name": {
           "en": "poultry seasoning",
           "nl": "gevogelte kruiden",
@@ -9937,19 +11142,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chili flakes",
         "name": {
-          "en": "pepper flakes",
-          "nl": "pepervlokken",
+          "en": "chili flakes",
+          "nl": "chilivlokken",
           "fr": "flocons de piment"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "spaghetti",
         "name": {
           "en": "spaghetti",
           "nl": "spaghetti",
@@ -9957,7 +11166,8 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -9975,7 +11185,7 @@ window.initialRecipes = [
       "snack",
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/638772-556x370.jpg",
+    "image": "images/spoonacular-638772.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -10021,6 +11231,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "cod",
         "name": {
           "en": "cod",
           "nl": "kabeljauw",
@@ -10028,49 +11239,59 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Visafdeling"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "shallot",
         "name": {
-          "en": "shallots",
-          "nl": "sjalotten",
-          "fr": "échalotes"
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
         },
         "amount": 2,
-        "unit": "large",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
           "fr": "ail"
         },
         "amount": 5,
-        "unit": "large cloves",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "carrot",
         "name": {
-          "en": "carrots",
-          "nl": "wortelen",
-          "fr": "carottes"
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "young green beans",
         "name": {
           "en": "young green beans",
           "nl": "jonge sperziebonen",
@@ -10078,29 +11299,23 @@ window.initialRecipes = [
         },
         "amount": 188,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
-        "amount": 0.5,
+        "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
-        "name": {
-          "en": "bell pepper",
-          "nl": "paprika",
-          "fr": "poivron"
-        },
-        "amount": 0.5,
-        "unit": "st.",
-        "category": "Kruidenier"
-      },
-      {
+        "key": "jalapeno",
         "name": {
           "en": "jalapeno",
           "nl": "jalapeno",
@@ -10108,9 +11323,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vinegar",
         "name": {
           "en": "vinegar",
           "nl": "azijn",
@@ -10118,9 +11335,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -10128,9 +11347,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cloves",
         "name": {
           "en": "cloves",
           "nl": "kruidnagel",
@@ -10138,17 +11359,32 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -10165,7 +11401,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/661291-556x370.",
+    "image": "images/spoonacular-661291.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -10223,26 +11459,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
         "amount": 2,
-        "unit": "tbs",
-        "category": "Zuivel & Eieren"
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "tomato",
         "name": {
           "en": "tomato",
           "nl": "tomaat",
           "fr": "tomate"
         },
         "amount": 1,
-        "unit": "large can",
-        "category": "Groenten & Fruit"
+        "unit": "can",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cheese tortellini - prepare",
         "name": {
           "en": "cheese tortellini - prepare",
           "nl": "kaastortellini - bereiden",
@@ -10250,9 +11491,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "package",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
           "en": "cumin",
           "nl": "komijn",
@@ -10260,9 +11503,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "basil",
         "name": {
           "en": "basil",
           "nl": "basilicum",
@@ -10270,19 +11515,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 2,
-        "unit": "tbs",
-        "category": "Bakkerij"
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -10290,9 +11539,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic powder",
         "name": {
           "en": "garlic powder",
           "nl": "knoflook poeder",
@@ -10300,49 +11551,59 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cream",
         "name": {
-          "en": "heavy cream",
-          "nl": "heavy cream",
-          "fr": "crème épaisse"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 180,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
           "fr": "lait"
         },
-        "amount": 0.8,
-        "unit": "c",
-        "category": "Zuivel & Eieren"
+        "amount": 192,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
           "fr": "huile d'olive"
         },
         "amount": 2,
-        "unit": "tbs",
-        "category": "Kruidenier"
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "small",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion powder",
         "name": {
           "en": "onion powder",
           "nl": "uienpoeder",
@@ -10350,9 +11611,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "oregano",
         "name": {
           "en": "oregano",
           "nl": "oregano",
@@ -10360,19 +11623,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "parmesan",
         "name": {
-          "en": "parmesan cheese",
-          "nl": "Parmezaanse kaas",
-          "fr": "fromage parmesan"
+          "en": "parmesan",
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
-        "amount": 0.3,
-        "unit": "c",
-        "category": "Zuivel & Eieren"
+        "amount": 38,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -10380,39 +11647,59 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chili flakes",
         "name": {
-          "en": "pepper flakes",
-          "nl": "pepervlokken",
+          "en": "chili flakes",
+          "nl": "chilivlokken",
           "fr": "flocons de piment"
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
         "name": {
-          "en": "pepper and salt",
-          "nl": "peper en zout",
-          "fr": "poivre et sel"
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "spinach",
         "name": {
           "en": "spinach",
           "nl": "spinazie",
-          "fr": "épinard"
+          "fr": "épinards"
         },
         "amount": 500,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "thyme",
         "name": {
           "en": "thyme",
           "nl": "tijm",
@@ -10420,7 +11707,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -10437,7 +11725,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/637794-556x370.jpg",
+    "image": "images/spoonacular-637794.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -10501,6 +11789,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "agave",
         "name": {
           "en": "agave",
           "nl": "agave",
@@ -10508,9 +11797,11 @@ window.initialRecipes = [
         },
         "amount": 3.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "agave nectar",
         "name": {
           "en": "agave nectar",
           "nl": "agave-nectar",
@@ -10518,9 +11809,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "almond flour",
         "name": {
           "en": "almond flour",
           "nl": "amandelmeel",
@@ -10528,9 +11821,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "berries",
         "name": {
           "en": "berries",
           "nl": "bessen",
@@ -10538,19 +11833,23 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
-        "amount": 2,
-        "unit": "sticks",
-        "category": "Zuivel & Eieren"
+        "amount": 226,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cherries",
         "name": {
           "en": "cherries",
           "nl": "kersen",
@@ -10558,9 +11857,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "coconut flour",
         "name": {
           "en": "coconut flour",
           "nl": "kokosmeel",
@@ -10568,19 +11869,23 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -10588,9 +11893,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "orange extract",
         "name": {
           "en": "orange extract",
           "nl": "sinaasappel-extract",
@@ -10598,9 +11905,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "tapioca flour",
         "name": {
           "en": "tapioca flour",
           "nl": "tapiocameel",
@@ -10608,9 +11917,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "pastry flour",
         "name": {
           "en": "pastry flour",
           "nl": "banketmeel",
@@ -10618,7 +11929,8 @@ window.initialRecipes = [
         },
         "amount": 94,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -10635,7 +11947,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/640509-556x370.jpg",
+    "image": "images/spoonacular-640509.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -10696,6 +12008,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bacon",
         "name": {
           "en": "bacon",
           "nl": "spek",
@@ -10703,9 +12016,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "slices",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
@@ -10713,9 +12028,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "to 3 butter",
         "name": {
           "en": "to 3 butter",
           "nl": "tot 3 boter",
@@ -10723,9 +12040,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
@@ -10733,9 +12052,11 @@ window.initialRecipes = [
         },
         "amount": 85,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "tarragon",
         "name": {
           "en": "tarragon",
           "nl": "dragon",
@@ -10743,9 +12064,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -10753,9 +12076,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -10763,9 +12088,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -10773,9 +12100,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -10783,17 +12112,20 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chicken breasts",
         "name": {
           "en": "chicken breasts",
-          "nl": "kippenborsten",
-          "fr": "poitrines de poulet"
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       }
     ]
   },
@@ -10810,7 +12142,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/639900-556x370.jpg",
+    "image": "images/spoonacular-639900.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -10847,26 +12179,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bacon",
         "name": {
-          "en": "optional: 2 rashers bacon",
-          "nl": "optioneel: 2 plakjes spek",
-          "fr": "facultatif : 2 tranches de bacon"
+          "en": "bacon",
+          "nl": "spek",
+          "fr": "lard"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Zuivel & Eieren"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cabbage",
         "name": {
           "en": "cabbage",
           "nl": "kool",
@@ -10874,9 +12211,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "stems green onions",
         "name": {
           "en": "stems green onions",
           "nl": "stengels groene uien",
@@ -10884,9 +12223,11 @@ window.initialRecipes = [
         },
         "amount": 6,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -10894,9 +12235,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
           "en": "parsley",
           "nl": "peterselie",
@@ -10904,9 +12247,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
@@ -10914,19 +12259,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "potato",
         "name": {
-          "en": "potatoes",
-          "nl": "aardappelen",
-          "fr": "pommes de terre"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 680,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -10934,7 +12283,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -10951,7 +12301,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/647551-556x370.jpg",
+    "image": "images/spoonacular-647551.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -10988,6 +12338,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "chilli flakes",
         "name": {
           "en": "chilli flakes",
           "nl": "chilivlokken",
@@ -10995,9 +12346,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "fries",
         "name": {
           "en": "fries",
           "nl": "frietjes",
@@ -11005,29 +12358,35 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Diepvries",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "honey",
         "name": {
           "en": "honey",
-          "nl": "Honing",
-          "fr": "Miel"
+          "nl": "honing",
+          "fr": "miel"
         },
         "amount": 1.5,
-        "unit": "tbsps",
-        "category": "Kruidenier"
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "oil",
         "name": {
           "en": "oil",
           "nl": "olie",
@@ -11035,19 +12394,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sesame seeds",
         "name": {
           "en": "sesame seeds",
           "nl": "sesamzaadjes",
@@ -11055,9 +12418,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "spring onion greens",
         "name": {
           "en": "spring onion greens",
           "nl": "lente-ui groen",
@@ -11065,9 +12430,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chilli sauce",
         "name": {
           "en": "chilli sauce",
           "nl": "chilisaus",
@@ -11075,9 +12442,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tomato sauce",
         "name": {
           "en": "tomato sauce",
           "nl": "tomatensaus",
@@ -11085,27 +12454,32 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tomato sauce/ tomato paste",
         "name": {
           "en": "tomato sauce/ tomato paste",
           "nl": "tomatensaus/tomatenpuree",
           "fr": "sauce tomate/concentré de tomates"
         },
         "amount": 2,
-        "unit": "tsps",
-        "category": "Groenten & Fruit"
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vinegar",
         "name": {
           "en": "vinegar",
           "nl": "azijn",
           "fr": "vinaigre"
         },
         "amount": 2,
-        "unit": "tsps",
-        "category": "Kruidenier"
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -11122,7 +12496,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/652919-556x370.jpg",
+    "image": "images/spoonacular-652919.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -11174,26 +12548,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "tomato passata",
         "name": {
-          "en": "canned tomatoes",
-          "nl": "ingeblikte tomaten",
-          "fr": "tomates en conserve"
+          "en": "chopped tomatoes",
+          "nl": "tomatenblokjes",
+          "fr": "tomates concassées"
         },
         "amount": 400,
-        "unit": "grams",
-        "category": "Groenten & Fruit"
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cheddar",
         "name": {
-          "en": "cheddar cheese",
-          "nl": "Cheddar-kaas",
-          "fr": "fromage cheddar"
+          "en": "cheddar",
+          "nl": "cheddar",
+          "fr": "cheddar"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "chili powder",
         "name": {
           "en": "chili powder",
           "nl": "chili poeder",
@@ -11201,9 +12580,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "corn oil",
         "name": {
           "en": "corn oil",
           "nl": "maïs olie",
@@ -11211,29 +12592,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
-        "amount": 0.5,
+        "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chili",
         "name": {
           "en": "chili",
           "nl": "chili",
@@ -11241,19 +12628,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
-          "en": "ground cumin",
-          "nl": "gemalen komijn",
-          "fr": "cumin moulu"
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -11261,29 +12652,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "paprika",
         "name": {
-          "en": "paprika",
-          "nl": "paprika",
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
           "fr": "paprika"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "paprika to garnish",
         "name": {
           "en": "paprika to garnish",
           "nl": "paprikapoeder om te garneren",
           "fr": "paprika pour garnir"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "refried beans",
         "name": {
           "en": "refried beans",
           "nl": "opnieuw gebakken bonen",
@@ -11291,9 +12688,11 @@ window.initialRecipes = [
         },
         "amount": 369,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tortilla chips",
         "name": {
           "en": "tortilla chips",
           "nl": "tortillachips",
@@ -11301,9 +12700,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -11311,7 +12712,8 @@ window.initialRecipes = [
         },
         "amount": 5,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -11328,7 +12730,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/654571-556x370.jpg",
+    "image": "images/spoonacular-654571.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -11398,16 +12800,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "half",
         "name": {
-          "en": "half and half",
-          "nl": "half en half",
-          "fr": "moitié-moitié"
+          "en": "half",
+          "nl": "half",
+          "fr": "half"
         },
-        "amount": 500,
-        "unit": "g",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "mascarpone",
         "name": {
           "en": "mascarpone",
           "nl": "mascarpone",
@@ -11415,9 +12820,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -11425,19 +12832,23 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
-          "en": "vanilla",
-          "nl": "vanille",
-          "fr": "vanille"
+          "en": "vanilla extract",
+          "nl": "vanille-extract",
+          "fr": "extrait de vanille"
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "powdered gelatin",
         "name": {
           "en": "powdered gelatin",
           "nl": "poedervormige gelatine",
@@ -11445,9 +12856,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "orange zest",
         "name": {
           "en": "orange zest",
           "nl": "sinaasappelschil",
@@ -11455,9 +12868,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "raspberries",
         "name": {
           "en": "raspberries",
           "nl": "frambozen",
@@ -11465,9 +12880,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "orange juice",
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
@@ -11475,9 +12892,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "confectioners sugar",
         "name": {
           "en": "confectioners sugar",
           "nl": "banketbakkers suiker",
@@ -11485,7 +12904,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -11503,7 +12923,7 @@ window.initialRecipes = [
       "snack",
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/659927-556x370.jpg",
+    "image": "images/spoonacular-659927.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -11555,36 +12975,43 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "the shrimp",
         "name": {
           "en": "the shrimp",
           "nl": "de garnalen",
           "fr": "les crevettes"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Visafdeling"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "shrimp",
         "name": {
           "en": "shrimp",
           "nl": "garnaal",
           "fr": "crevette"
         },
         "amount": 600,
-        "unit": "gr",
-        "category": "Visafdeling"
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -11592,89 +13019,119 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lime juice",
         "name": {
-          "en": "juice of lime",
-          "nl": "sap van limoen",
+          "en": "lime juice",
+          "nl": "limoensap",
           "fr": "jus de citron vert"
         },
-        "amount": 1,
-        "unit": "st.",
-        "category": "Groenten & Fruit"
-      },
-      {
-        "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
-        },
         "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "the salad",
         "name": {
           "en": "the salad",
           "nl": "de salade",
           "fr": "la salade"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "the of 1 cos lettuce",
         "name": {
           "en": "the of 1 cos lettuce",
           "nl": "de van 1 cos sla",
           "fr": "le de 1 cos laitue"
         },
         "amount": 1,
-        "unit": "leaves",
-        "category": "Groenten & Fruit"
+        "unit": "leaf",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "basil leaves",
         "name": {
           "en": "basil leaves",
           "nl": "basilicum blaadjes",
           "fr": "feuilles de basilic"
         },
-        "amount": 0.8,
+        "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "corn",
         "name": {
           "en": "corn",
           "nl": "maïs",
           "fr": "maïs"
         },
         "amount": 200,
-        "unit": "gr",
-        "category": "Kruidenier"
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "scallion",
         "name": {
-          "en": "spring onions",
-          "nl": "lente-uitjes",
-          "fr": "oignons nouveaux"
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pineapple",
         "name": {
           "en": "pineapple",
           "nl": "ananas",
           "fr": "ananas"
         },
         "amount": 600,
-        "unit": "gr",
-        "category": "Groenten & Fruit"
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "avocados into cubes",
         "name": {
           "en": "avocados into cubes",
           "nl": "avocado's in blokjes",
@@ -11682,29 +13139,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "avocado",
         "name": {
           "en": "avocado",
           "nl": "avocado",
           "fr": "avocat"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "the dressing",
         "name": {
           "en": "the dressing",
           "nl": "de aankleding",
           "fr": "le pansement"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "tbsp olive oil",
         "name": {
           "en": "tbsp olive oil",
           "nl": "eetlepel olijfolie",
@@ -11712,9 +13175,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tbsp honey",
         "name": {
           "en": "tbsp honey",
           "nl": "eetlepel honing",
@@ -11722,17 +13187,8 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Kruidenier"
-      },
-      {
-        "name": {
-          "en": "juice of lime",
-          "nl": "sap van limoen",
-          "fr": "jus de citron vert"
-        },
-        "amount": 3,
-        "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -11749,7 +13205,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/640323-556x370.jpg",
+    "image": "images/spoonacular-640323.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -11798,6 +13254,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "crabmeat",
         "name": {
           "en": "crabmeat",
           "nl": "krabvlees",
@@ -11805,9 +13262,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "can",
-        "category": "Slagerij & Gevogelte"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
@@ -11815,9 +13274,11 @@ window.initialRecipes = [
         },
         "amount": 113,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "reduced fat mayonnaise",
         "name": {
           "en": "reduced fat mayonnaise",
           "nl": "Mayonaise met verlaagd vetgehalte",
@@ -11825,19 +13286,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -11845,9 +13310,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion powder",
         "name": {
           "en": "onion powder",
           "nl": "uienpoeder",
@@ -11855,19 +13322,23 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
         "name": {
-          "en": "ground pepper",
-          "nl": "gemalen peper",
-          "fr": "poivre moulu"
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
         },
-        "amount": 12,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "won ton wrappers",
         "name": {
           "en": "won ton wrappers",
           "nl": "gewonnen tonwikkelaars",
@@ -11875,7 +13346,8 @@ window.initialRecipes = [
         },
         "amount": 12,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -11892,7 +13364,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/642259-556x370.jpg",
+    "image": "images/spoonacular-642259.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -11941,6 +13413,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "blueberries",
         "name": {
           "en": "blueberries",
           "nl": "bosbessen",
@@ -11948,9 +13421,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -11958,9 +13433,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cornflour",
         "name": {
           "en": "cornflour",
           "nl": "maïzena",
@@ -11968,9 +13445,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
@@ -11978,9 +13457,11 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "digestive biscuits",
         "name": {
           "en": "digestive biscuits",
           "nl": "spijsverteringskoekjes",
@@ -11988,29 +13469,35 @@ window.initialRecipes = [
         },
         "amount": 313,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cream",
         "name": {
-          "en": "double cream",
-          "nl": "dubbele crème",
-          "fr": "crème double"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 320,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -12018,9 +13505,11 @@ window.initialRecipes = [
         },
         "amount": 80,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ricotta cheese",
         "name": {
           "en": "ricotta cheese",
           "nl": "ricotta kaas",
@@ -12028,19 +13517,23 @@ window.initialRecipes = [
         },
         "amount": 500,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
           "fr": "extrait de vanille"
         },
         "amount": 1.5,
-        "unit": "tsps",
-        "category": "Kruidenier"
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chocolate",
         "name": {
           "en": "chocolate",
           "nl": "chocolade",
@@ -12048,7 +13541,8 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       }
     ]
   },
@@ -12065,7 +13559,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/641202-556x370.",
+    "image": "images/spoonacular-641202.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -12105,6 +13599,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -12112,19 +13607,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bittersweet chocolate",
         "name": {
           "en": "bittersweet chocolate",
           "nl": "bitterzoete chocolade",
@@ -12132,19 +13631,23 @@ window.initialRecipes = [
         },
         "amount": 28,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "vegetable oil",
         "name": {
-          "en": "canola oil",
-          "nl": "canola-olie",
-          "fr": "huile de canola"
+          "en": "vegetable oil",
+          "nl": "plantaardige olie",
+          "fr": "huile végétale"
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chocolate flavor",
         "name": {
           "en": "chocolate flavor",
           "nl": "chocolade smaak",
@@ -12152,9 +13655,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "freshly coffee",
         "name": {
           "en": "freshly coffee",
           "nl": "verse koffie",
@@ -12162,9 +13667,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "corn syrup",
         "name": {
           "en": "corn syrup",
           "nl": "glucosestroop",
@@ -12172,19 +13679,23 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cream of tartar",
         "name": {
           "en": "cream of tartar",
           "nl": "crème van wijnsteen",
           "fr": "crème de tartre"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Zuivel & Eieren"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "jif natural creamy peanut butter",
         "name": {
           "en": "jif natural creamy peanut butter",
           "nl": "jif natuurlijke romige pindakaas",
@@ -12192,9 +13703,11 @@ window.initialRecipes = [
         },
         "amount": 7,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "dutch cocoa powder",
         "name": {
           "en": "dutch cocoa powder",
           "nl": "Nederlands cacaopoeder",
@@ -12202,49 +13715,47 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "egg whites",
         "name": {
           "en": "egg whites",
           "nl": "eiwitten",
-          "fr": "blancs d'œufs"
+          "fr": "blancs d'oeuf"
         },
         "amount": 2,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
-        "amount": 42,
+        "amount": 105,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
-        "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
-        },
-        "amount": 63,
-        "unit": "g",
-        "category": "Bakkerij"
-      },
-      {
+        "key": "brown sugar",
         "name": {
           "en": "brown sugar",
           "nl": "bruine suiker",
@@ -12252,9 +13763,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "maple syrup",
         "name": {
           "en": "maple syrup",
           "nl": "ahornsiroop",
@@ -12262,9 +13775,11 @@ window.initialRecipes = [
         },
         "amount": 60,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "honey-roasted peanuts",
         "name": {
           "en": "honey-roasted peanuts",
           "nl": "honinggeroosterde pinda's",
@@ -12272,9 +13787,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -12282,19 +13799,23 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "soy milk",
         "name": {
           "en": "soy milk",
           "nl": "soja melk",
@@ -12302,9 +13823,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "soy milk",
         "name": {
           "en": "soy milk",
           "nl": "soja melk",
@@ -12312,49 +13835,47 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "powdered sugar",
         "name": {
-          "en": "confectioner's sugar",
-          "nl": "banketbakkerssuiker",
-          "fr": "sucre glace"
+          "en": "powdered sugar",
+          "nl": "bloemsuiker",
+          "fr": "sucre impalpable"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "flour",
         "name": {
-          "en": "unbleached flour",
-          "nl": "ongebleekt meel",
-          "fr": "farine non blanchie"
+          "en": "flour",
+          "nl": "bloem",
+          "fr": "farine"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
           "fr": "extrait de vanille"
         },
-        "amount": 0.5,
+        "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
-        "name": {
-          "en": "vanilla extract",
-          "nl": "vanille-extract",
-          "fr": "extrait de vanille"
-        },
-        "amount": 1,
-        "unit": "kl",
-        "category": "Kruidenier"
-      },
-      {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -12362,7 +13883,8 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -12379,7 +13901,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/633650-556x370.jpg",
+    "image": "images/spoonacular-633650.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -12458,26 +13980,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "puff pastry",
         "name": {
           "en": "puff pastry",
           "nl": "bladerdeeg",
           "fr": "pâte feuilletée"
         },
         "amount": 2,
-        "unit": "packages",
-        "category": "Bakkerij"
+        "unit": "package",
+        "category": "Diepvries",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -12485,49 +14012,59 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "russet potato",
         "name": {
           "en": "russet potato",
           "nl": "roodbruine aardappel",
           "fr": "pomme de terre rousse"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
           "fr": "eau"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Bieren & Dranken"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "bay leaf",
         "name": {
-          "en": "bay leaves",
-          "nl": "laurierblaadjes",
-          "fr": "feuilles de laurier"
+          "en": "bay leaf",
+          "nl": "laurierblad",
+          "fr": "feuille de laurier"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "coriander seeds",
         "name": {
           "en": "coriander seeds",
           "nl": "koriander zaden",
@@ -12535,9 +14072,11 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "peppercorns",
         "name": {
           "en": "peppercorns",
           "nl": "peperkorrels",
@@ -12545,9 +14084,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chili flakes",
         "name": {
           "en": "chili flakes",
           "nl": "chilivlokken",
@@ -12555,19 +14096,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chicken breasts",
         "name": {
-          "en": "chicken breast",
+          "en": "chicken breasts",
           "nl": "kipfilet",
-          "fr": "blanc de poulet"
+          "fr": "filet de poulet"
         },
         "amount": 85,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "mango",
         "name": {
           "en": "mango",
           "nl": "mango",
@@ -12575,9 +14120,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "peas",
         "name": {
           "en": "peas",
           "nl": "erwten",
@@ -12585,19 +14132,23 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lime juice",
         "name": {
-          "en": "juice of lime",
-          "nl": "sap van limoen",
+          "en": "lime juice",
+          "nl": "limoensap",
           "fr": "jus de citron vert"
         },
-        "amount": 0.5,
+        "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chipotle sauce",
         "name": {
           "en": "chipotle sauce",
           "nl": "chipotle-saus",
@@ -12605,9 +14156,11 @@ window.initialRecipes = [
         },
         "amount": 5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cumin seeds",
         "name": {
           "en": "cumin seeds",
           "nl": "komijnzaad",
@@ -12615,9 +14168,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cilantro leaves",
         "name": {
           "en": "cilantro leaves",
           "nl": "korianderblaadjes",
@@ -12625,17 +14180,20 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pepper",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -12652,7 +14210,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/632280-556x370.jpg",
+    "image": "images/spoonacular-632280.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -12695,6 +14253,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "almond extract",
         "name": {
           "en": "almond extract",
           "nl": "amandel-extract",
@@ -12702,9 +14261,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "amaretto",
         "name": {
           "en": "amaretto",
           "nl": "amaretto",
@@ -12712,19 +14273,23 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "ground almonds",
         "name": {
           "en": "ground almonds",
           "nl": "gemalen amandelen",
@@ -12732,9 +14297,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "lemon rind",
         "name": {
           "en": "lemon rind",
           "nl": "citroenschil",
@@ -12742,9 +14309,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "molasses",
         "name": {
           "en": "molasses",
           "nl": "stroop",
@@ -12752,9 +14321,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -12762,9 +14333,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "pastry flour",
         "name": {
           "en": "pastry flour",
           "nl": "banketmeel",
@@ -12772,7 +14345,8 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -12789,7 +14363,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/633754-556x370.jpg",
+    "image": "images/spoonacular-633754.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -12847,26 +14421,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "eggplant",
         "name": {
           "en": "eggplant",
           "nl": "aubergine",
           "fr": "aubergine"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "feta",
         "name": {
-          "en": "feta cheese",
-          "nl": "feta-kaas",
-          "fr": "fromage feta"
+          "en": "feta",
+          "nl": "feta",
+          "fr": "feta"
         },
         "amount": 113,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "basil",
         "name": {
           "en": "basil",
           "nl": "basilicum",
@@ -12874,29 +14453,35 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 5,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "bell pepper",
         "name": {
-          "en": "bell peppers",
+          "en": "bell pepper",
           "nl": "paprika",
-          "fr": "poivrons"
+          "fr": "poivron"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -12904,9 +14489,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "onion cut \" pieces",
         "name": {
           "en": "onion cut \" pieces",
           "nl": "ui gesneden \"stukjes",
@@ -12914,9 +14501,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "red wine vinegar",
         "name": {
           "en": "red wine vinegar",
           "nl": "rode wijnazijn",
@@ -12924,27 +14513,32 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "tomato",
         "name": {
-          "en": "tomatoes",
-          "nl": "tomaten",
-          "fr": "tomates"
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
         },
         "amount": 2,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "zucchini cut",
         "name": {
           "en": "zucchini cut",
           "nl": "courgette gesneden",
           "fr": "courgettes coupées"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -12961,7 +14555,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/644854-556x370.jpg",
+    "image": "images/spoonacular-644854.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -13013,16 +14607,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "virgin coconut oil",
         "name": {
           "en": "virgin coconut oil",
           "nl": "maagdelijke kokosolie",
           "fr": "huile de coco vierge"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "corn flour",
         "name": {
           "en": "corn flour",
           "nl": "maïsmeel",
@@ -13030,9 +14627,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ground flax seeds",
         "name": {
           "en": "ground flax seeds",
           "nl": "gemalen lijnzaad",
@@ -13040,9 +14639,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "maple syrup",
         "name": {
           "en": "maple syrup",
           "nl": "ahornsiroop",
@@ -13050,9 +14651,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "quinoa flour",
         "name": {
           "en": "quinoa flour",
           "nl": "quinoameel",
@@ -13060,9 +14663,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "rice milk",
         "name": {
           "en": "rice milk",
           "nl": "rijst melk",
@@ -13070,19 +14675,23 @@ window.initialRecipes = [
         },
         "amount": 600,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "sea salt",
-          "nl": "zeezout",
-          "fr": "sel de mer"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tapioca flour",
         "name": {
           "en": "tapioca flour",
           "nl": "tapiocameel",
@@ -13090,9 +14699,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "xanthan gum",
         "name": {
           "en": "xanthan gum",
           "nl": "xanthaangom",
@@ -13100,7 +14711,8 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -13118,7 +14730,7 @@ window.initialRecipes = [
       "dessert",
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/634605-556x370.jpg",
+    "image": "images/spoonacular-634605.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -13188,36 +14800,43 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "ground beef",
         "name": {
           "en": "ground beef",
-          "nl": "rundergehakt",
-          "fr": "Le bœuf haché"
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
         },
         "amount": 454,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
-          "en": "onions",
-          "nl": "uien",
-          "fr": "oignons"
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "celery",
         "name": {
           "en": "celery",
-          "nl": "selderij",
+          "nl": "selder",
           "fr": "céleri"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -13225,9 +14844,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "thyme",
         "name": {
           "en": "thyme",
           "nl": "tijm",
@@ -13235,9 +14856,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
@@ -13245,9 +14868,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vegetable oil",
         "name": {
           "en": "vegetable oil",
           "nl": "plantaardige olie",
@@ -13255,9 +14880,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vegetables",
         "name": {
           "en": "vegetables",
           "nl": "groenten",
@@ -13265,9 +14892,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "beef gravy",
         "name": {
           "en": "beef gravy",
           "nl": "rundvlees jus",
@@ -13275,37 +14904,56 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "potato",
         "name": {
-          "en": "potatoes",
-          "nl": "aardappelen",
-          "fr": "pommes de terre"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 375,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
-          "en": "parmesan cheese",
-          "nl": "Parmezaanse kaas",
-          "fr": "fromage parmesan"
+          "en": "parmesan",
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 3,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -13322,7 +14970,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/639599-556x370.jpg",
+    "image": "images/spoonacular-639599.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -13368,6 +15016,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "wine",
         "name": {
           "en": "wine",
           "nl": "wijn",
@@ -13375,39 +15024,47 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
           "en": "parsley",
           "nl": "peterselie",
           "fr": "persil"
         },
         "amount": 3,
-        "unit": "sprigs",
-        "category": "Groenten & Fruit"
+        "unit": "sprig",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "kosher salt",
-          "nl": "koosjer zout",
-          "fr": "sel casher"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "buttermilk",
         "name": {
           "en": "buttermilk",
           "nl": "karnemelk",
@@ -13415,9 +15072,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "mussels",
         "name": {
           "en": "mussels",
           "nl": "mosselen",
@@ -13425,29 +15084,35 @@ window.initialRecipes = [
         },
         "amount": 907,
         "unit": "g",
-        "category": "Visafdeling"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
           "fr": "huile d'olive"
         },
         "amount": 1,
-        "unit": "tbs",
-        "category": "Kruidenier"
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "shallot",
         "name": {
-          "en": "shallots",
-          "nl": "sjalotten",
-          "fr": "échalotes"
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -13455,7 +15120,8 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -13472,7 +15138,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/1098355-556x370.jpg",
+    "image": "images/spoonacular-1098355.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -13521,6 +15187,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "coconut rum",
         "name": {
           "en": "coconut rum",
           "nl": "kokos-rum",
@@ -13528,9 +15195,11 @@ window.initialRecipes = [
         },
         "amount": 85,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "apricot brandy",
         "name": {
           "en": "apricot brandy",
           "nl": "Abrikozenbrandewijn",
@@ -13538,9 +15207,11 @@ window.initialRecipes = [
         },
         "amount": 85,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "rum",
         "name": {
           "en": "rum",
           "nl": "rum",
@@ -13548,9 +15219,11 @@ window.initialRecipes = [
         },
         "amount": 128,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "pineapple juice",
         "name": {
           "en": "pineapple juice",
           "nl": "ananassap",
@@ -13558,9 +15231,11 @@ window.initialRecipes = [
         },
         "amount": 360,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "orange juice",
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
@@ -13568,9 +15243,11 @@ window.initialRecipes = [
         },
         "amount": 360,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "orange",
         "name": {
           "en": "orange",
           "nl": "oranje",
@@ -13578,17 +15255,20 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "slices",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pineapple",
         "name": {
           "en": "pineapple",
           "nl": "ananas",
           "fr": "ananas"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -13605,7 +15285,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/795431-556x370.jpg",
+    "image": "images/spoonacular-795431.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -13651,6 +15331,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "asafetida",
         "name": {
           "en": "asafetida",
           "nl": "asafetida",
@@ -13658,9 +15339,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "brown mustard seeds",
         "name": {
           "en": "brown mustard seeds",
           "nl": "bruine mosterdzaadjes",
@@ -13668,9 +15351,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chana dal",
         "name": {
           "en": "chana dal",
           "nl": "chana dal",
@@ -13678,9 +15363,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "coconut oil",
         "name": {
           "en": "coconut oil",
           "nl": "kokosolie",
@@ -13688,9 +15375,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cumin seeds",
         "name": {
           "en": "cumin seeds",
           "nl": "komijnzaad",
@@ -13698,19 +15387,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "curry leaves",
         "name": {
           "en": "curry leaves",
           "nl": "kerrie bladeren",
           "fr": "feuilles de curry"
         },
         "amount": 1,
-        "unit": "small handful",
-        "category": "Kruidenier"
+        "unit": "handful",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chili",
         "name": {
           "en": "chili",
           "nl": "chili",
@@ -13718,19 +15411,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "sea salt",
-          "nl": "zeezout",
-          "fr": "sel de mer"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tamarind pulp",
         "name": {
           "en": "tamarind pulp",
           "nl": "tamarindepulp",
@@ -13738,9 +15435,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "coconut",
         "name": {
           "en": "coconut",
           "nl": "kokosnoot",
@@ -13748,9 +15447,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "skinned urad dal",
         "name": {
           "en": "skinned urad dal",
           "nl": "gevilde urad dal",
@@ -13758,7 +15459,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -13775,7 +15477,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/1063645-556x370.jpg",
+    "image": "images/spoonacular-1063645.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -13815,6 +15517,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "sou cream",
         "name": {
           "en": "sou cream",
           "nl": "zure room",
@@ -13822,19 +15525,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "olive oil extra virgin",
-          "nl": "olijfolie extra vergine",
-          "fr": "huile d'olive extra vierge"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "filet mignon steaks",
         "name": {
           "en": "filet mignon steaks",
           "nl": "filet mignon-steaks",
@@ -13842,9 +15549,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "guacamole",
         "name": {
           "en": "guacamole",
           "nl": "guacemole",
@@ -13852,29 +15561,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cracked pepper",
         "name": {
           "en": "cracked pepper",
           "nl": "gebarsten peper",
           "fr": "poivre concassé"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cheddar",
         "name": {
-          "en": "cheddar cheese",
-          "nl": "Cheddar-kaas",
-          "fr": "fromage cheddar"
+          "en": "cheddar",
+          "nl": "cheddar",
+          "fr": "cheddar"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "corn tortillas",
         "name": {
           "en": "corn tortillas",
           "nl": "maïstortilla's",
@@ -13882,7 +15597,8 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Bakkerij",
+        "staple": false
       }
     ]
   },
@@ -13899,7 +15615,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/765725-556x370.jpg",
+    "image": "images/spoonacular-765725.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -13936,6 +15652,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bay leaf",
         "name": {
           "en": "bay leaf",
           "nl": "laurierblad",
@@ -13943,19 +15660,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chili slit",
         "name": {
           "en": "chili slit",
           "nl": "chili spleet",
           "fr": "fente de chili"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
           "en": "cumin",
           "nl": "komijn",
@@ -13963,9 +15684,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "ghee",
         "name": {
           "en": "ghee",
           "nl": "ghee",
@@ -13973,9 +15696,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "ginger",
         "name": {
           "en": "ginger",
           "nl": "gember",
@@ -13983,19 +15708,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lentils",
         "name": {
           "en": "lentils",
           "nl": "linzen",
           "fr": "lentilles"
         },
-        "amount": 0.8,
+        "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "very few onion",
         "name": {
           "en": "very few onion",
           "nl": "heel weinig ui",
@@ -14003,9 +15732,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "slices",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chili powder",
         "name": {
           "en": "chili powder",
           "nl": "chili poeder",
@@ -14013,9 +15744,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "rice",
         "name": {
           "en": "rice",
           "nl": "rijst",
@@ -14023,19 +15756,23 @@ window.initialRecipes = [
         },
         "amount": 94,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tomato",
         "name": {
           "en": "tomato",
           "nl": "tomaat",
@@ -14043,19 +15780,23 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "turmeric little",
         "name": {
           "en": "turmeric little",
           "nl": "kurkuma weinig",
           "fr": "peu de curcuma"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -14063,7 +15804,8 @@ window.initialRecipes = [
         },
         "amount": 600,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -14080,7 +15822,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/636641-556x370.jpg",
+    "image": "images/spoonacular-636641.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -14123,6 +15865,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "beer",
         "name": {
           "en": "beer",
           "nl": "bier",
@@ -14130,9 +15873,11 @@ window.initialRecipes = [
         },
         "amount": 200,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -14140,9 +15885,11 @@ window.initialRecipes = [
         },
         "amount": 6,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cabbage",
         "name": {
           "en": "cabbage",
           "nl": "kool",
@@ -14150,39 +15897,47 @@ window.initialRecipes = [
         },
         "amount": 400,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "small",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
-        "amount": 3,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "potato",
         "name": {
-          "en": "potatoes",
-          "nl": "aardappelen",
-          "fr": "pommes de terre"
+          "en": "potato",
+          "nl": "aardappel",
+          "fr": "pomme de terre"
         },
         "amount": 150,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -14190,9 +15945,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sausages",
         "name": {
           "en": "sausages",
           "nl": "worsten",
@@ -14200,17 +15957,20 @@ window.initialRecipes = [
         },
         "amount": 200,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
           "fr": "sucre"
         },
         "amount": 0.5,
-        "unit": "tbs",
-        "category": "Bakkerij"
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -14227,7 +15987,7 @@ window.initialRecipes = [
     "category": [
       "snack"
     ],
-    "image": "https://img.spoonacular.com/recipes/636422-556x370.jpg",
+    "image": "images/spoonacular-636422.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -14264,6 +16024,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "barbecue sauce",
         "name": {
           "en": "barbecue sauce",
           "nl": "barbecuesaus",
@@ -14271,9 +16032,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "chickpeas",
         "name": {
           "en": "chickpeas",
           "nl": "kikkererwten",
@@ -14281,9 +16044,11 @@ window.initialRecipes = [
         },
         "amount": 188,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "celery salt",
         "name": {
           "en": "celery salt",
           "nl": "selderij zout",
@@ -14291,9 +16056,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -14301,9 +16068,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "franks hot sauce",
         "name": {
           "en": "franks hot sauce",
           "nl": "frank hete saus",
@@ -14311,9 +16080,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -14321,19 +16092,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "paprika",
         "name": {
-          "en": "paprika",
-          "nl": "paprika",
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
           "fr": "paprika"
         },
         "amount": 0.8,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "distilled vinegar",
         "name": {
           "en": "distilled vinegar",
           "nl": "gedistilleerde azijn",
@@ -14341,7 +16116,8 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -14358,7 +16134,7 @@ window.initialRecipes = [
     "category": [
       "snack"
     ],
-    "image": "https://img.spoonacular.com/recipes/640311-556x370.jpg",
+    "image": "images/spoonacular-640311.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -14407,6 +16183,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -14414,9 +16191,11 @@ window.initialRecipes = [
         },
         "amount": 42,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "mayonnaise",
         "name": {
           "en": "mayonnaise",
           "nl": "mayonaise",
@@ -14424,9 +16203,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "hot sauce such as sriracha",
         "name": {
           "en": "hot sauce such as sriracha",
           "nl": "hete saus zoals sriracha",
@@ -14434,9 +16215,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cilantro",
         "name": {
           "en": "cilantro",
           "nl": "koriander",
@@ -14444,9 +16227,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lime juice",
         "name": {
           "en": "lime juice",
           "nl": "limoensap",
@@ -14454,19 +16239,23 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cumin",
         "name": {
-          "en": "ground cumin",
-          "nl": "gemalen komijn",
-          "fr": "cumin moulu"
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "lime zest",
         "name": {
           "en": "lime zest",
           "nl": "limoenschil",
@@ -14474,9 +16263,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lump crab meat",
         "name": {
           "en": "lump crab meat",
           "nl": "forfaitair krabvlees",
@@ -14484,17 +16275,20 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "avocado",
         "name": {
           "en": "avocado",
           "nl": "avocado",
           "fr": "avocat"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -14511,7 +16305,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/632169-556x370.jpg",
+    "image": "images/spoonacular-632169.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -14575,6 +16369,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "almond paste",
         "name": {
           "en": "almond paste",
           "nl": "amandelspijs",
@@ -14582,9 +16377,11 @@ window.initialRecipes = [
         },
         "amount": 255,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -14592,19 +16389,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
         "amount": 15,
-        "unit": "grams",
-        "category": "Zuivel & Eieren"
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cake flour",
         "name": {
           "en": "cake flour",
           "nl": "cakemeel",
@@ -14612,39 +16413,59 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "crème fraiche",
         "name": {
-          "en": "crème fraiche and slivered almond",
-          "nl": "crème fraiche en geschaafde amandel",
-          "fr": "crème fraîche et amandes effilées"
+          "en": "crème fraiche",
+          "nl": "crème fraiche",
+          "fr": "crème fraiche"
         },
-        "amount": 6,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "slivered almond",
+        "name": {
+          "en": "slivered almond",
+          "nl": "slivered almond",
+          "fr": "slivered almond"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 6,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "granulated sugar",
-          "nl": "kristalsuiker",
-          "fr": "Sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
         "amount": 156,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "plums",
         "name": {
           "en": "plums",
           "nl": "pruimen",
@@ -14652,9 +16473,11 @@ window.initialRecipes = [
         },
         "amount": 340,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -14662,9 +16485,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "vanilla-bean - lengthwise seeds scraped",
         "name": {
           "en": "vanilla-bean - lengthwise seeds scraped",
           "nl": "vanilleboon - zaden in de lengte geschraapt",
@@ -14672,9 +16497,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -14682,7 +16509,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -14699,7 +16527,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/662287-556x370.png",
+    "image": "images/spoonacular-662287.png",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -14787,16 +16615,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "sundried tomato",
         "name": {
-          "en": "sundried tomato & artichoke tuna casserole: serves",
-          "nl": "Zongedroogde tomaat & artisjok tonijnschotel: serveert",
-          "fr": "Casserole de tomates séchées et artichauts au thon : pour une portion"
+          "en": "sundried tomato",
+          "nl": "sundried tomato",
+          "fr": "sundried tomato"
         },
-        "amount": 4,
-        "unit": "st.",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "artichoke tuna casserole",
+        "name": {
+          "en": "artichoke tuna casserole",
+          "nl": "artichoke tuna casserole",
+          "fr": "artichoke tuna casserole"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "macaroni",
         "name": {
           "en": "macaroni",
           "nl": "macaroni",
@@ -14804,9 +16647,11 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "artichoke hearts",
         "name": {
           "en": "artichoke hearts",
           "nl": "artisjokharten",
@@ -14814,9 +16659,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "sundried tomatoes",
         "name": {
           "en": "sundried tomatoes",
           "nl": "zongedroogde tomaten",
@@ -14824,9 +16671,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -14834,19 +16683,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -14854,9 +16707,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -14864,19 +16719,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "marsala",
         "name": {
           "en": "marsala",
           "nl": "Marsala",
@@ -14884,19 +16743,23 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
           "en": "parmesan",
-          "nl": "Parmezaanse kaas",
-          "fr": "Parmesan"
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "tuna",
         "name": {
           "en": "tuna",
           "nl": "tonijn",
@@ -14904,9 +16767,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "can",
-        "category": "Visafdeling"
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "grain mustard",
         "name": {
           "en": "grain mustard",
           "nl": "graan mosterd",
@@ -14914,9 +16779,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "panko breadcrumbs",
         "name": {
           "en": "panko breadcrumbs",
           "nl": "panko-broodkruimels",
@@ -14924,9 +16791,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -14934,17 +16803,32 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -14961,7 +16845,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/645721-556x370.jpg",
+    "image": "images/spoonacular-645721.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -15007,6 +16891,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "chili pepper flakes",
         "name": {
           "en": "chili pepper flakes",
           "nl": "chilipepervlokken",
@@ -15014,19 +16899,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "extra virgin olive oil",
-          "nl": "extra vergine olijfolie",
-          "fr": "Huile d'olive vierge extra"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 80,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "coriander leaves",
         "name": {
           "en": "coriander leaves",
           "nl": "korianderblaadjes",
@@ -15034,39 +16923,47 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
           "fr": "ail"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Groenten & Fruit"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "shrimp",
         "name": {
           "en": "shrimp",
           "nl": "garnaal",
           "fr": "crevette"
         },
         "amount": 20,
-        "unit": "jumbo",
-        "category": "Visafdeling"
+        "unit": "st.",
+        "category": "Visafdeling",
+        "staple": false
       },
       {
+        "key": "lemon zest",
         "name": {
           "en": "lemon zest",
-          "nl": "citroenschil",
+          "nl": "citroenrasp",
           "fr": "zeste de citron"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
           "en": "parsley",
           "nl": "peterselie",
@@ -15074,7 +16971,8 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -15091,7 +16989,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/641973-556x370.jpg",
+    "image": "images/spoonacular-641973.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -15146,46 +17044,55 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "leg of lamb",
         "name": {
           "en": "leg of lamb",
           "nl": "lamsbout",
           "fr": "gigot d'agneau"
         },
-        "amount": 8,
-        "unit": "lbs",
-        "category": "Slagerij & Gevogelte"
+        "amount": 3629,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 5,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "extra virgin olive oil",
-          "nl": "extra vergine olijfolie",
-          "fr": "Huile d'olive vierge extra"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "parsley",
         "name": {
-          "en": "flat leaf parsley",
-          "nl": "platte peterselie",
-          "fr": "persil plat"
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "rosemary",
         "name": {
           "en": "rosemary",
           "nl": "rozemarijn",
@@ -15193,27 +17100,32 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "kosher salt",
-          "nl": "koosjer zout",
-          "fr": "sel casher"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
           "fr": "poivre"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -15230,7 +17142,7 @@ window.initialRecipes = [
     "category": [
       "snack"
     ],
-    "image": "https://img.spoonacular.com/recipes/642809-556x370.jpg",
+    "image": "images/spoonacular-642809.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -15270,6 +17182,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "figs",
         "name": {
           "en": "figs",
           "nl": "vijgen",
@@ -15277,9 +17190,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "goat cheese",
         "name": {
           "en": "goat cheese",
           "nl": "geitenkaas",
@@ -15287,9 +17202,11 @@ window.initialRecipes = [
         },
         "amount": 10,
         "unit": "kl",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -15297,9 +17214,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "greens",
         "name": {
           "en": "greens",
           "nl": "Groenen",
@@ -15307,9 +17226,11 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -15317,19 +17238,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 2,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "walnuts",
         "name": {
           "en": "walnuts",
           "nl": "walnoten",
@@ -15337,7 +17274,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "handful",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -15354,7 +17292,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/633692-556x370.jpg",
+    "image": "images/spoonacular-633692.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -15409,6 +17347,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "almond milk",
         "name": {
           "en": "almond milk",
           "nl": "amandelmelk",
@@ -15416,9 +17355,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -15426,19 +17367,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "banana",
         "name": {
-          "en": "bananas",
-          "nl": "bananen",
-          "fr": "bananes"
+          "en": "banana",
+          "nl": "banaan",
+          "fr": "banane"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cinnamon",
         "name": {
           "en": "cinnamon",
           "nl": "kaneel",
@@ -15446,9 +17391,11 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cranberries",
         "name": {
           "en": "cranberries",
           "nl": "veenbessen",
@@ -15456,19 +17403,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flaxseeds",
         "name": {
           "en": "flaxseeds",
           "nl": "lijnzaad",
@@ -15476,19 +17427,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "oats",
         "name": {
           "en": "oats",
-          "nl": "haver",
-          "fr": "avoine"
+          "nl": "havermout",
+          "fr": "flocons d’avoine"
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -15496,9 +17451,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -15506,7 +17463,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -15523,7 +17481,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/665642-556x370.jpg",
+    "image": "images/spoonacular-665642.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -15593,6 +17551,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "cucumber",
         "name": {
           "en": "cucumber",
           "nl": "komkommer",
@@ -15600,29 +17559,35 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ear corn",
         "name": {
           "en": "ear corn",
           "nl": "oor maïs",
           "fr": "épi de maïs"
         },
         "amount": 1,
-        "unit": "small",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
-          "en": "extra virgin olive oil",
-          "nl": "extra vergine olijfolie",
-          "fr": "Huile d'olive vierge extra"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "cilantro",
         "name": {
           "en": "cilantro",
           "nl": "koriander",
@@ -15630,9 +17595,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic powder",
         "name": {
           "en": "garlic powder",
           "nl": "knoflook poeder",
@@ -15640,29 +17607,35 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
         "name": {
-          "en": "ground pepper",
-          "nl": "gemalen peper",
-          "fr": "poivre moulu"
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "honey",
         "name": {
           "en": "honey",
-          "nl": "Honing",
-          "fr": "Miel"
+          "nl": "honing",
+          "fr": "miel"
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "lime juice",
         "name": {
           "en": "lime juice",
           "nl": "limoensap",
@@ -15670,9 +17643,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "orange pepper",
         "name": {
           "en": "orange pepper",
           "nl": "oranje peper",
@@ -15680,9 +17655,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -15690,19 +17667,23 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chili flakes",
         "name": {
-          "en": "pepper flakes",
-          "nl": "pepervlokken",
+          "en": "chili flakes",
+          "nl": "chilivlokken",
           "fr": "flocons de piment"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -15710,19 +17691,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chicken breasts",
         "name": {
           "en": "chicken breasts",
-          "nl": "kippenborsten",
-          "fr": "poitrines de poulet"
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
         },
         "amount": 454,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "tabasco sauce",
         "name": {
           "en": "tabasco sauce",
           "nl": "tabasco-saus",
@@ -15730,9 +17715,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "watermelon",
         "name": {
           "en": "watermelon",
           "nl": "watermeloen",
@@ -15740,7 +17727,8 @@ window.initialRecipes = [
         },
         "amount": 480,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -15757,7 +17745,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/642297-556x370.jpg",
+    "image": "images/spoonacular-642297.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -15827,6 +17815,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -15834,19 +17823,23 @@ window.initialRecipes = [
         },
         "amount": 720,
         "unit": "ml",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "brown mushrooms",
         "name": {
           "en": "brown mushrooms",
           "nl": "bruine champignons",
@@ -15854,9 +17847,11 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -15864,29 +17859,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chili flakes",
         "name": {
-          "en": "pepper flakes",
-          "nl": "pepervlokken",
+          "en": "chili flakes",
+          "nl": "chilivlokken",
           "fr": "flocons de piment"
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tomato passata",
         "name": {
-          "en": "canned tomatoes",
-          "nl": "ingeblikte tomaten",
-          "fr": "tomates en conserve"
+          "en": "chopped tomatoes",
+          "nl": "tomatenblokjes",
+          "fr": "tomates concassées"
         },
         "amount": 14,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "eggplant",
         "name": {
           "en": "eggplant",
           "nl": "aubergine",
@@ -15894,9 +17895,11 @@ window.initialRecipes = [
         },
         "amount": 567,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ricotta",
         "name": {
           "en": "ricotta",
           "nl": "ricotta",
@@ -15904,19 +17907,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
           "en": "parmesan",
-          "nl": "Parmezaanse kaas",
-          "fr": "Parmesan"
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "basil",
         "name": {
           "en": "basil",
           "nl": "basilicum",
@@ -15924,9 +17931,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
@@ -15934,9 +17943,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "linguine",
         "name": {
           "en": "linguine",
           "nl": "taal",
@@ -15944,9 +17955,11 @@ window.initialRecipes = [
         },
         "amount": 170,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -15954,7 +17967,8 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -15971,7 +17985,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/634191-556x370.jpg",
+    "image": "images/spoonacular-634191.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -16035,6 +18049,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "graham cracker crumbs",
         "name": {
           "en": "graham cracker crumbs",
           "nl": "graham crackerkruimels",
@@ -16042,9 +18057,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -16052,29 +18069,35 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "banana",
         "name": {
-          "en": "bananas",
-          "nl": "bananen",
-          "fr": "bananes"
+          "en": "banana",
+          "nl": "banaan",
+          "fr": "banane"
         },
         "amount": 5,
-        "unit": "medium",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "strawberry ice cream",
         "name": {
           "en": "strawberry ice cream",
           "nl": "aardbeienijs",
           "fr": "glace à la fraise"
         },
-        "amount": 1.5,
-        "unit": "quarts",
-        "category": "Groenten & Fruit"
+        "amount": 1419,
+        "unit": "ml",
+        "category": "Diepvries",
+        "staple": false
       },
       {
+        "key": "walnuts",
         "name": {
           "en": "walnuts",
           "nl": "walnoten",
@@ -16082,9 +18105,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "chocolate chips",
         "name": {
           "en": "chocolate chips",
           "nl": "chocoladestukjes",
@@ -16092,19 +18117,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "powdered sugar",
         "name": {
-          "en": "confectioner's sugar",
-          "nl": "banketbakkerssuiker",
-          "fr": "sucre glace"
+          "en": "powdered sugar",
+          "nl": "bloemsuiker",
+          "fr": "sucre impalpable"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "evaporated milk",
         "name": {
           "en": "evaporated milk",
           "nl": "verdampte melk",
@@ -16112,9 +18141,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -16122,9 +18153,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "whipped topping",
         "name": {
           "en": "whipped topping",
           "nl": "opgeklopte topping",
@@ -16132,7 +18165,8 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -16149,7 +18183,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/632539-556x370.jpg",
+    "image": "images/spoonacular-632539.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -16216,6 +18250,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "package puff pastry- 2 crusts",
         "name": {
           "en": "package puff pastry- 2 crusts",
           "nl": "pakket bladerdeeg - 2 korstjes",
@@ -16223,29 +18258,35 @@ window.initialRecipes = [
         },
         "amount": 800,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Diepvries",
+        "staple": false
       },
       {
+        "key": "apple",
         "name": {
-          "en": "apples",
-          "nl": "appels",
-          "fr": "pommes"
+          "en": "apple",
+          "nl": "appel",
+          "fr": "pomme"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
-          "en": "juice of lemon",
-          "nl": "sap van citroen",
+          "en": "lemon juice",
+          "nl": "citroensap",
           "fr": "jus de citron"
         },
-        "amount": 0.5,
+        "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "fanta lemon",
         "name": {
           "en": "fanta lemon",
           "nl": "fanta citroen",
@@ -16253,9 +18294,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -16263,19 +18306,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
         "amount": 250,
-        "unit": "grams",
-        "category": "Zuivel & Eieren"
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "lemon extract",
         "name": {
           "en": "lemon extract",
           "nl": "citroen-extract",
@@ -16283,9 +18330,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "grounded cinnamon",
         "name": {
           "en": "grounded cinnamon",
           "nl": "gemalen kaneel",
@@ -16293,7 +18342,8 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -16310,7 +18360,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/715389-556x370.jpg",
+    "image": "images/spoonacular-715389.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -16365,6 +18415,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -16372,9 +18423,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "butter vanilla bakery emulsion",
         "name": {
           "en": "butter vanilla bakery emulsion",
           "nl": "boter-vanille bakkerij-emulsie",
@@ -16382,9 +18435,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cinnamon",
         "name": {
           "en": "cinnamon",
           "nl": "kaneel",
@@ -16392,29 +18447,35 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 250,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "pecans",
         "name": {
           "en": "pecans",
           "nl": "pecannoten",
@@ -16422,9 +18483,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -16432,9 +18495,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -16442,7 +18507,8 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -16459,7 +18525,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/633352-556x370.jpg",
+    "image": "images/spoonacular-633352.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -16523,6 +18589,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "tofu",
         "name": {
           "en": "tofu",
           "nl": "tofu",
@@ -16530,9 +18597,11 @@ window.initialRecipes = [
         },
         "amount": 340,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "fajita size",
         "name": {
           "en": "fajita size",
           "nl": "fajita-formaat",
@@ -16540,9 +18609,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "package",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
@@ -16550,19 +18621,23 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "jalapeno peppers",
         "name": {
           "en": "jalapeno peppers",
           "nl": "jalapenopeper",
           "fr": "piments jalapeno"
         },
         "amount": 3,
-        "unit": "small",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "monterey jack cheese",
         "name": {
           "en": "monterey jack cheese",
           "nl": "Monterey Jack-kaas",
@@ -16570,9 +18645,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "bacon",
         "name": {
           "en": "bacon",
           "nl": "spek",
@@ -16580,19 +18657,23 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "chicken broth",
         "name": {
-          "en": "chicken broth",
+          "en": "chicken stock",
           "nl": "kippenbouillon",
-          "fr": "bouillon de poulet"
+          "fr": "bouillon de poule"
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -16600,9 +18681,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "bottle",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cumin",
         "name": {
           "en": "cumin",
           "nl": "komijn",
@@ -16610,9 +18693,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "chili powder",
         "name": {
           "en": "chili powder",
           "nl": "chili poeder",
@@ -16620,27 +18705,32 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "paprika",
         "name": {
-          "en": "paprika",
-          "nl": "paprika",
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
           "fr": "paprika"
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -16657,7 +18747,7 @@ window.initialRecipes = [
     "category": [
       "breakfast"
     ],
-    "image": "https://img.spoonacular.com/recipes/716293-556x370.jpg",
+    "image": "images/spoonacular-716293.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -16697,6 +18787,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -16704,9 +18795,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -16714,49 +18807,47 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "milo chocolate malt powder",
         "name": {
           "en": "milo chocolate malt powder",
           "nl": "Milo chocolademoutpoeder",
           "fr": "poudre de malt au chocolat Milo"
         },
-        "amount": 1.5,
+        "amount": 3.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
-          "en": "milo chocolate malt powder",
-          "nl": "Milo chocolademoutpoeder",
-          "fr": "poudre de malt au chocolat Milo"
-        },
-        "amount": 2,
-        "unit": "el",
-        "category": "Kruidenier"
-      },
-      {
-        "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "liquid milk",
         "name": {
           "en": "liquid milk",
           "nl": "vloeibare melk",
@@ -16764,49 +18855,47 @@ window.initialRecipes = [
         },
         "amount": 60,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "peanuts",
         "name": {
           "en": "peanuts",
-          "nl": "pinda's",
+          "nl": "pinda’s",
           "fr": "cacahuètes"
         },
         "amount": 1,
         "unit": "handful",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
           "fr": "sucre"
         },
-        "amount": 1,
+        "amount": 3,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
-        "name": {
-          "en": "sugar",
-          "nl": "suiker",
-          "fr": "sucre"
-        },
-        "amount": 2,
-        "unit": "el",
-        "category": "Bakkerij"
-      },
-      {
+        "key": "vegetable oil",
         "name": {
           "en": "vegetable oil",
           "nl": "plantaardige olie",
@@ -16814,9 +18903,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -16824,7 +18915,8 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -16841,7 +18933,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/1046982-556x370.jpg",
+    "image": "images/spoonacular-1046982.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -16896,6 +18988,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
@@ -16903,9 +18996,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -16913,9 +19008,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ground turkey",
         "name": {
           "en": "ground turkey",
           "nl": "gemalen kalkoen",
@@ -16923,19 +19020,23 @@ window.initialRecipes = [
         },
         "amount": 680,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
           "fr": "huile d'olive"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -16943,39 +19044,59 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "sweet potatoes",
         "name": {
           "en": "sweet potatoes",
           "nl": "zoete aardappelen",
           "fr": "patates douces"
         },
         "amount": 4,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "tomato paste",
         "name": {
           "en": "tomato paste",
           "nl": "tomatenpuree",
-          "fr": "concentré de tomate"
+          "fr": "concentré de tomates"
         },
         "amount": 170,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tomato sauce",
         "name": {
           "en": "tomato sauce",
           "nl": "tomatensaus",
@@ -16983,9 +19104,11 @@ window.initialRecipes = [
         },
         "amount": 397,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -16993,7 +19116,8 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -17010,7 +19134,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/1070648-556x370.jpg",
+    "image": "images/spoonacular-1070648.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -17059,16 +19183,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "olive oil",
         "name": {
-          "en": "olive oil extra virgin",
-          "nl": "olijfolie extra vergine",
-          "fr": "huile d'olive extra vierge"
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
@@ -17076,9 +19203,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chicken breast strips/pre-cooked/chopped",
         "name": {
           "en": "chicken breast strips/pre-cooked/chopped",
           "nl": "kipfiletreepjes/voorgekookt/gehakt",
@@ -17086,9 +19215,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "basil",
         "name": {
           "en": "basil",
           "nl": "basilicum",
@@ -17096,9 +19227,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "tomato basil sauce",
         "name": {
           "en": "tomato basil sauce",
           "nl": "tomaten-basilicumsaus",
@@ -17106,9 +19239,11 @@ window.initialRecipes = [
         },
         "amount": 680,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "rotini pasta",
         "name": {
           "en": "rotini pasta",
           "nl": "rotini-pasta",
@@ -17116,7 +19251,8 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -17134,7 +19270,7 @@ window.initialRecipes = [
       "breakfast",
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/646442-556x370.jpg",
+    "image": "images/spoonacular-646442.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -17183,16 +19319,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "oats",
         "name": {
-          "en": "rolled oats",
-          "nl": "gerolde haver",
-          "fr": "flocons d'avoine"
+          "en": "oats",
+          "nl": "havermout",
+          "fr": "flocons d’avoine"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "applesauce",
         "name": {
           "en": "applesauce",
           "nl": "appelmoes",
@@ -17200,9 +19339,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -17210,9 +19351,11 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "cherries",
         "name": {
           "en": "cherries",
           "nl": "kersen",
@@ -17220,9 +19363,11 @@ window.initialRecipes = [
         },
         "amount": 94,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -17230,9 +19375,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "chocolate chips",
         "name": {
           "en": "chocolate chips",
           "nl": "chocoladestukjes",
@@ -17240,9 +19387,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "chia seeds",
         "name": {
           "en": "chia seeds",
           "nl": "chia zaden",
@@ -17250,9 +19399,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
           "nl": "cacao poeder",
@@ -17260,7 +19411,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -17277,7 +19429,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/716426-556x370.jpg",
+    "image": "images/spoonacular-716426.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -17338,6 +19490,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "grapeseed oil",
         "name": {
           "en": "grapeseed oil",
           "nl": "druivenpitolie",
@@ -17345,9 +19498,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "coconut oil",
         "name": {
           "en": "coconut oil",
           "nl": "kokosolie",
@@ -17355,19 +19510,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "scallion",
         "name": {
-          "en": "scallions",
-          "nl": "lente-uitjes",
-          "fr": "oignons verts"
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
         },
         "amount": 7,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -17375,9 +19534,11 @@ window.initialRecipes = [
         },
         "amount": 5,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "cauliflower",
         "name": {
           "en": "cauliflower",
           "nl": "bloemkool",
@@ -17385,9 +19546,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "head",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "brown rice",
         "name": {
           "en": "brown rice",
           "nl": "bruine rijst",
@@ -17395,9 +19558,11 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "broccoli",
         "name": {
           "en": "broccoli",
           "nl": "broccoli",
@@ -17405,9 +19570,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "peas",
         "name": {
           "en": "peas",
           "nl": "erwten",
@@ -17415,19 +19582,23 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
         "amount": 3,
-        "unit": "t",
-        "category": "Kruidenier"
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "sesame oil",
         "name": {
           "en": "sesame oil",
           "nl": "sesamolie",
@@ -17435,37 +19606,44 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "sesame seeds",
         "name": {
           "en": "sesame seeds",
           "nl": "sesamzaadjes",
           "fr": "graines de sésame"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "additional scallion tops",
         "name": {
           "en": "additional scallion tops",
           "nl": "extra lente-uitjes",
           "fr": "dessus d'oignons verts supplémentaires"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -17482,7 +19660,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/645978-556x370.jpg",
+    "image": "images/spoonacular-645978.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -17528,16 +19706,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bell pepper",
         "name": {
-          "en": "bell peppers",
+          "en": "bell pepper",
           "nl": "paprika",
-          "fr": "poivrons"
+          "fr": "poivron"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
@@ -17545,9 +19726,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tomato sauce",
         "name": {
           "en": "tomato sauce",
           "nl": "tomatensaus",
@@ -17555,19 +19738,23 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tomato passata",
         "name": {
-          "en": "canned tomatoes",
-          "nl": "ingeblikte tomaten",
-          "fr": "tomates en conserve"
+          "en": "chopped tomatoes",
+          "nl": "tomatenblokjes",
+          "fr": "tomates concassées"
         },
         "amount": 227,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
           "en": "parsley",
           "nl": "peterselie",
@@ -17575,19 +19762,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -17595,19 +19786,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ground beef",
         "name": {
           "en": "ground beef",
-          "nl": "rundergehakt",
-          "fr": "Le bœuf haché"
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
         },
         "amount": 227,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "ground turkey",
         "name": {
           "en": "ground turkey",
           "nl": "gemalen kalkoen",
@@ -17615,9 +19810,11 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -17625,19 +19822,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "parmesan",
         "name": {
-          "en": "parmesan cheese",
-          "nl": "Parmezaanse kaas",
-          "fr": "fromage parmesan"
+          "en": "parmesan",
+          "nl": "parmezaan",
+          "fr": "parmesan"
         },
         "amount": 31,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "rice",
         "name": {
           "en": "rice",
           "nl": "rijst",
@@ -17645,9 +19846,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -17655,9 +19858,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "tomato soup",
         "name": {
           "en": "tomato soup",
           "nl": "tomatensoep",
@@ -17665,9 +19870,11 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
@@ -17675,7 +19882,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -17692,7 +19900,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/654285-556x370.jpg",
+    "image": "images/spoonacular-654285.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -17741,6 +19949,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "whl allspice",
         "name": {
           "en": "whl allspice",
           "nl": "whl piment",
@@ -17748,9 +19957,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "whl bay leaf",
         "name": {
           "en": "whl bay leaf",
           "nl": "whl laurierblad",
@@ -17758,19 +19969,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Bakkerij"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -17778,9 +19993,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -17788,9 +20005,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
@@ -17798,49 +20017,59 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "oxtails",
         "name": {
           "en": "oxtails",
           "nl": "ossenstaarten",
           "fr": "queues de bœuf"
         },
-        "amount": 2,
-        "unit": "lbs",
-        "category": "Kruidenier"
+        "amount": 907,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "paprika",
         "name": {
-          "en": "paprika",
-          "nl": "paprika",
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
           "fr": "paprika"
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "bell pepper",
         "name": {
           "en": "bell pepper",
           "nl": "paprika",
           "fr": "poivron"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "tomato juice",
         "name": {
           "en": "tomato juice",
           "nl": "tomatensap",
@@ -17848,9 +20077,11 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -17858,7 +20089,8 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -17875,7 +20107,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/649795-556x370.jpg",
+    "image": "images/spoonacular-649795.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -17927,6 +20159,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -17934,19 +20167,23 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -17954,9 +20191,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "lemon peel",
         "name": {
           "en": "lemon peel",
           "nl": "citroenschil",
@@ -17964,19 +20203,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "powdered sugar",
         "name": {
           "en": "powdered sugar",
-          "nl": "poedersuiker",
-          "fr": "sucre en poudre"
+          "nl": "bloemsuiker",
+          "fr": "sucre impalpable"
         },
         "amount": 31,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -17984,9 +20227,11 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -17994,9 +20239,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -18004,7 +20251,8 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       }
     ]
   },
@@ -18021,7 +20269,7 @@ window.initialRecipes = [
     "category": [
       "soup"
     ],
-    "image": "https://img.spoonacular.com/recipes/652886-556x370.jpg",
+    "image": "images/spoonacular-652886.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -18082,26 +20330,31 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "butternut squash",
         "name": {
           "en": "butternut squash",
           "nl": "pompoen",
           "fr": "courge musquée"
         },
         "amount": 1,
-        "unit": "medium",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "delicata squash",
         "name": {
           "en": "delicata squash",
           "nl": "delicate pompoen",
           "fr": "courge délicate"
         },
         "amount": 1,
-        "unit": "small",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cauliflower",
         "name": {
           "en": "cauliflower",
           "nl": "bloemkool",
@@ -18109,9 +20362,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "head",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "vegetable stock",
         "name": {
           "en": "vegetable stock",
           "nl": "groentebouillon",
@@ -18119,19 +20374,23 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "onion",
         "name": {
           "en": "onion",
           "nl": "ui",
           "fr": "oignon"
         },
         "amount": 1,
-        "unit": "large",
-        "category": "Groenten & Fruit"
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -18139,9 +20398,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "curry powder",
         "name": {
           "en": "curry powder",
           "nl": "kerrie poeder",
@@ -18149,9 +20410,11 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -18159,9 +20422,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "dashes of cayenne pepper",
         "name": {
           "en": "dashes of cayenne pepper",
           "nl": "streepjes cayennepeper",
@@ -18169,17 +20434,32 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
-          "en": "salt and pepper",
-          "nl": "zout en peper",
-          "fr": "sel et poivre"
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
         },
-        "amount": 6,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       }
     ]
   },
@@ -18196,7 +20476,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/639182-556x370.jpg",
+    "image": "images/spoonacular-639182.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -18269,6 +20549,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -18276,9 +20557,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "bittersweet chocolate",
         "name": {
           "en": "bittersweet chocolate",
           "nl": "bitterzoete chocolade",
@@ -18286,29 +20569,23 @@ window.initialRecipes = [
         },
         "amount": 57,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
           "fr": "beurre"
         },
-        "amount": 94,
+        "amount": 250,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
-        "name": {
-          "en": "butter",
-          "nl": "boter",
-          "fr": "beurre"
-        },
-        "amount": 156,
-        "unit": "g",
-        "category": "Zuivel & Eieren"
-      },
-      {
+        "key": "cake flour",
         "name": {
           "en": "cake flour",
           "nl": "cakemeel",
@@ -18316,9 +20593,11 @@ window.initialRecipes = [
         },
         "amount": 219,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
           "nl": "cacao poeder",
@@ -18326,39 +20605,47 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
-        "amount": 5,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "amount": 6,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 6,
         "unit": "el",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cream",
         "name": {
-          "en": "heavy cream",
-          "nl": "heavy cream",
-          "fr": "crème épaisse"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 300,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "espresso",
         "name": {
           "en": "espresso",
           "nl": "espresso",
@@ -18366,9 +20653,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "espresso powder",
         "name": {
           "en": "espresso powder",
           "nl": "espressopoeder",
@@ -18376,9 +20665,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "quark",
         "name": {
           "en": "quark",
           "nl": "kwark",
@@ -18386,9 +20677,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -18396,49 +20689,35 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
           "fr": "sucre"
         },
-        "amount": 208,
+        "amount": 521,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
-        "name": {
-          "en": "sugar",
-          "nl": "suiker",
-          "fr": "sucre"
-        },
-        "amount": 313,
-        "unit": "g",
-        "category": "Bakkerij"
-      },
-      {
+        "key": "chocolate",
         "name": {
           "en": "chocolate",
           "nl": "chocolade",
           "fr": "chocolat"
         },
-        "amount": 57,
+        "amount": 241,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
-        "name": {
-          "en": "chocolate",
-          "nl": "chocolade",
-          "fr": "chocolat"
-        },
-        "amount": 184,
-        "unit": "g",
-        "category": "Kruidenier"
-      },
-      {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -18446,9 +20725,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -18456,9 +20737,11 @@ window.initialRecipes = [
         },
         "amount": 1.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
@@ -18466,17 +20749,8 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Bieren & Dranken"
-      },
-      {
-        "name": {
-          "en": "egg",
-          "nl": "ei",
-          "fr": "œuf"
-        },
-        "amount": 1,
-        "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Bieren & Dranken",
+        "staple": true
       }
     ]
   },
@@ -18494,7 +20768,7 @@ window.initialRecipes = [
       "snack",
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/651409-556x370.png",
+    "image": "images/spoonacular-651409.png",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": false,
@@ -18537,16 +20811,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "pepper",
         "name": {
           "en": "pepper",
           "nl": "peper",
           "fr": "poivre"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "bar of cream cheese",
         "name": {
           "en": "bar of cream cheese",
           "nl": "reep roomkaas",
@@ -18554,19 +20831,23 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "feta",
         "name": {
-          "en": "feta cheese",
-          "nl": "feta-kaas",
-          "fr": "fromage feta"
+          "en": "feta",
+          "nl": "feta",
+          "fr": "feta"
         },
         "amount": 113,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "basil",
         "name": {
           "en": "basil",
           "nl": "basilicum",
@@ -18574,39 +20855,47 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "parsley",
         "name": {
-          "en": "flat leaf parsley",
-          "nl": "platte peterselie",
-          "fr": "persil plat"
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 8,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "tabasco hot sauce",
         "name": {
           "en": "tabasco hot sauce",
           "nl": "tabasco hete saus",
           "fr": "sauce piquante tabasco"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "dash",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "roasted peppers",
         "name": {
           "en": "roasted peppers",
           "nl": "geroosterde paprika's",
@@ -18614,19 +20903,23 @@ window.initialRecipes = [
         },
         "amount": 284,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
           "fr": "sel"
         },
-        "amount": 4,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "sun tomatoes",
         "name": {
           "en": "sun tomatoes",
           "nl": "zon tomaten",
@@ -18634,17 +20927,20 @@ window.initialRecipes = [
         },
         "amount": 227,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 0.3,
-        "unit": "t",
-        "category": "Kruidenier"
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -18661,7 +20957,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/653836-556x370.jpg",
+    "image": "images/spoonacular-653836.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -18713,6 +21009,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "baking powder",
         "name": {
           "en": "baking powder",
           "nl": "bakpoeder",
@@ -18720,19 +21017,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "baking soda",
         "name": {
           "en": "baking soda",
-          "nl": "natriumcarbonaat",
+          "nl": "zuiveringszout",
           "fr": "bicarbonate de soude"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Bieren & Dranken"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "butter",
         "name": {
           "en": "butter",
           "nl": "boter",
@@ -18740,29 +21041,35 @@ window.initialRecipes = [
         },
         "amount": 12,
         "unit": "el",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "flour",
         "name": {
           "en": "flour",
-          "nl": "meel",
+          "nl": "bloem",
           "fr": "farine"
         },
         "amount": 188,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "natural yoghurt",
         "name": {
           "en": "natural yoghurt",
           "nl": "natuurlijke yoghurt",
@@ -18770,9 +21077,11 @@ window.initialRecipes = [
         },
         "amount": 200,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "orange juice",
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
@@ -18780,9 +21089,11 @@ window.initialRecipes = [
         },
         "amount": 60,
         "unit": "ml",
-        "category": "Groenten & Fruit"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "orange rind",
         "name": {
           "en": "orange rind",
           "nl": "sinaasappelschil",
@@ -18790,9 +21101,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -18800,9 +21113,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "semi-sweet chocolate",
         "name": {
           "en": "semi-sweet chocolate",
           "nl": "halfzoete chocolade",
@@ -18810,19 +21125,23 @@ window.initialRecipes = [
         },
         "amount": 30,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
-          "en": "caster sugar",
-          "nl": "basterdsuiker",
-          "fr": "sucre en poudre"
+          "en": "sugar",
+          "nl": "suiker",
+          "fr": "sucre"
         },
         "amount": 125,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -18830,7 +21149,8 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       }
     ]
   },
@@ -18847,7 +21167,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/661500-556x370.jpg",
+    "image": "images/spoonacular-661500.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -18941,16 +21261,19 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
           "fr": "huile d'olive"
         },
-        "amount": 1,
+        "amount": 3,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "garlic bulb",
         "name": {
           "en": "garlic bulb",
           "nl": "knoflook bol",
@@ -18958,9 +21281,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "beef rib steak",
         "name": {
           "en": "beef rib steak",
           "nl": "runderribstuk",
@@ -18968,9 +21293,11 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       },
       {
+        "key": "worcestershire sauce",
         "name": {
           "en": "worcestershire sauce",
           "nl": "worcestershiresaus",
@@ -18978,9 +21305,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "jack daniels mustard",
         "name": {
           "en": "jack daniels mustard",
           "nl": "Jack Daniel's mosterd",
@@ -18988,39 +21317,35 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "chili flakes",
         "name": {
-          "en": "pepper flakes",
-          "nl": "pepervlokken",
+          "en": "chili flakes",
+          "nl": "chilivlokken",
           "fr": "flocons de piment"
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "rose syrah wine",
         "name": {
           "en": "rose syrah wine",
           "nl": "rose syrah-wijn",
           "fr": "vin de syrah rosé"
         },
-        "amount": 60,
+        "amount": 90,
         "unit": "ml",
-        "category": "Bieren & Dranken"
+        "category": "Bieren & Dranken",
+        "staple": false
       },
       {
-        "name": {
-          "en": "olive oil",
-          "nl": "olijfolie",
-          "fr": "huile d'olive"
-        },
-        "amount": 2,
-        "unit": "el",
-        "category": "Kruidenier"
-      },
-      {
+        "key": "roasted pepper sections",
         "name": {
           "en": "roasted pepper sections",
           "nl": "geroosterde paprika secties",
@@ -19028,9 +21353,11 @@ window.initialRecipes = [
         },
         "amount": 3,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "marscapone cheese",
         "name": {
           "en": "marscapone cheese",
           "nl": "marscapone kaas",
@@ -19038,9 +21365,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "horseradish",
         "name": {
           "en": "horseradish",
           "nl": "mierikswortel",
@@ -19048,9 +21377,11 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "roasted garlic",
         "name": {
           "en": "roasted garlic",
           "nl": "geroosterde knoflook",
@@ -19058,9 +21389,11 @@ window.initialRecipes = [
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "basil",
         "name": {
           "en": "basil",
           "nl": "basilicum",
@@ -19068,9 +21401,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "oregano",
         "name": {
           "en": "oregano",
           "nl": "oregano",
@@ -19078,9 +21413,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -19088,39 +21425,35 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "of salt",
         "name": {
           "en": "of salt",
           "nl": "van zout",
           "fr": "de sel"
         },
-        "amount": 2,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "of pepper",
         "name": {
           "en": "of pepper",
           "nl": "van peper",
           "fr": "de poivre"
         },
-        "amount": 2,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
-        "name": {
-          "en": "rose syrah wine",
-          "nl": "rose syrah-wijn",
-          "fr": "vin de syrah rosé"
-        },
-        "amount": 30,
-        "unit": "ml",
-        "category": "Bieren & Dranken"
-      },
-      {
+        "key": "bread",
         "name": {
           "en": "bread",
           "nl": "brood",
@@ -19128,17 +21461,20 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "loaf",
-        "category": "Bakkerij"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "or)",
         "name": {
           "en": "or)",
           "nl": "of)",
           "fr": "ou)"
         },
         "amount": 1,
-        "unit": "small",
-        "category": "Kruidenier"
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
       }
     ]
   },
@@ -19155,7 +21491,7 @@ window.initialRecipes = [
     "category": [
       "snack"
     ],
-    "image": "https://img.spoonacular.com/recipes/639410-556x370.jpg",
+    "image": "images/spoonacular-639410.jpg",
     "isGlutenFree": true,
     "isNutFree": true,
     "isDairyFree": true,
@@ -19213,6 +21549,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "garbanzo beans",
         "name": {
           "en": "garbanzo beans",
           "nl": "garbanzo bonen",
@@ -19220,9 +21557,11 @@ window.initialRecipes = [
         },
         "amount": 425,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "tahini",
         "name": {
           "en": "tahini",
           "nl": "tahin",
@@ -19230,9 +21569,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "lemon juice",
         "name": {
           "en": "lemon juice",
           "nl": "citroensap",
@@ -19240,19 +21581,23 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "el",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
-          "en": "garlic cloves",
-          "nl": "knoflookteentjes",
-          "fr": "gousses d'ail"
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
         },
         "amount": 2,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "salt",
         "name": {
           "en": "salt",
           "nl": "zout",
@@ -19260,29 +21605,35 @@ window.initialRecipes = [
         },
         "amount": 0.3,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "cayenne pepper",
         "name": {
           "en": "cayenne pepper",
           "nl": "cayennepeper",
           "fr": "poivre de Cayenne"
         },
-        "amount": 1,
+        "amount": null,
         "unit": "pinch",
-        "category": "Kruidenier"
+        "category": "Kruiden & Specerijen",
+        "staple": true
       },
       {
+        "key": "water",
         "name": {
           "en": "water",
           "nl": "water",
           "fr": "eau"
         },
-        "amount": 0.3,
-        "unit": "c",
-        "category": "Bieren & Dranken"
+        "amount": 72,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
       },
       {
+        "key": "olive oil",
         "name": {
           "en": "olive oil",
           "nl": "olijfolie",
@@ -19290,17 +21641,20 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cilantro",
         "name": {
           "en": "cilantro",
           "nl": "koriander",
           "fr": "coriandre"
         },
-        "amount": 0.3,
-        "unit": "c",
-        "category": "Kruidenier"
+        "amount": 38,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
       }
     ]
   },
@@ -19317,7 +21671,7 @@ window.initialRecipes = [
     "category": [
       "main"
     ],
-    "image": "https://img.spoonacular.com/recipes/638174-556x370.jpg",
+    "image": "images/spoonacular-638174.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": true,
@@ -19360,6 +21714,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "bean sprouts",
         "name": {
           "en": "bean sprouts",
           "nl": "taugé",
@@ -19367,9 +21722,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "bok choy",
         "name": {
           "en": "bok choy",
           "nl": "paksoi",
@@ -19377,9 +21734,11 @@ window.initialRecipes = [
         },
         "amount": 125,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "carrot",
         "name": {
           "en": "carrot",
           "nl": "wortel",
@@ -19387,9 +21746,11 @@ window.initialRecipes = [
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "spaghetti",
         "name": {
           "en": "spaghetti",
           "nl": "spaghetti",
@@ -19397,9 +21758,11 @@ window.initialRecipes = [
         },
         "amount": 250,
         "unit": "g",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "garlic",
         "name": {
           "en": "garlic",
           "nl": "knoflook",
@@ -19407,9 +21770,11 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "st.",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "ginger",
         "name": {
           "en": "ginger",
           "nl": "gember",
@@ -19417,39 +21782,47 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chicken broth",
         "name": {
-          "en": "chicken broth",
+          "en": "chicken stock",
           "nl": "kippenbouillon",
-          "fr": "bouillon de poulet"
+          "fr": "bouillon de poule"
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "soy sauce",
         "name": {
           "en": "soy sauce",
           "nl": "sojasaus",
-          "fr": "sauce de soja"
+          "fr": "sauce soja"
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "mushroom",
         "name": {
-          "en": "mushrooms",
-          "nl": "paddestoelen",
-          "fr": "champignons"
+          "en": "mushroom",
+          "nl": "champignon",
+          "fr": "champignon"
         },
         "amount": 63,
         "unit": "g",
-        "category": "Groenten & Fruit"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "peanut oil",
         "name": {
           "en": "peanut oil",
           "nl": "arachide olie",
@@ -19457,27 +21830,32 @@ window.initialRecipes = [
         },
         "amount": 2,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "scallion",
         "name": {
-          "en": "scallions",
-          "nl": "lente-uitjes",
-          "fr": "oignons verts"
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
         },
         "amount": 4,
         "unit": "st.",
-        "category": "Kruidenier"
+        "category": "Groenten & Fruit",
+        "staple": false
       },
       {
+        "key": "chicken breasts",
         "name": {
-          "en": "chicken breast",
+          "en": "chicken breasts",
           "nl": "kipfilet",
-          "fr": "blanc de poulet"
+          "fr": "filet de poulet"
         },
         "amount": 142,
         "unit": "g",
-        "category": "Slagerij & Gevogelte"
+        "category": "Slagerij & Gevogelte",
+        "staple": false
       }
     ]
   },
@@ -19494,7 +21872,7 @@ window.initialRecipes = [
     "category": [
       "dessert"
     ],
-    "image": "https://img.spoonacular.com/recipes/636131-556x370.jpg",
+    "image": "images/spoonacular-636131.jpg",
     "isGlutenFree": false,
     "isNutFree": true,
     "isDairyFree": false,
@@ -19552,6 +21930,7 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
+        "key": "almond extract",
         "name": {
           "en": "almond extract",
           "nl": "amandel-extract",
@@ -19559,9 +21938,11 @@ window.initialRecipes = [
         },
         "amount": 0.5,
         "unit": "kl",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": false
       },
       {
+        "key": "egg bread loaf - crusts",
         "name": {
           "en": "egg bread loaf - crusts",
           "nl": "eierbroodbrood - korstjes",
@@ -19569,19 +21950,23 @@ window.initialRecipes = [
         },
         "amount": 454,
         "unit": "g",
-        "category": "Zuivel & Eieren"
+        "category": "Bakkerij",
+        "staple": false
       },
       {
+        "key": "eggs",
         "name": {
           "en": "eggs",
           "nl": "eieren",
-          "fr": "œufs"
+          "fr": "oeufs"
         },
         "amount": 8,
-        "unit": "large",
-        "category": "Zuivel & Eieren"
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "sugar",
         "name": {
           "en": "sugar",
           "nl": "suiker",
@@ -19589,9 +21974,11 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Bakkerij"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "vanilla extract",
         "name": {
           "en": "vanilla extract",
           "nl": "vanille-extract",
@@ -19599,19 +21986,23 @@ window.initialRecipes = [
         },
         "amount": 1,
         "unit": "el",
-        "category": "Kruidenier"
+        "category": "Kruidenier",
+        "staple": true
       },
       {
+        "key": "cream",
         "name": {
-          "en": "whipping cream",
-          "nl": "slagroom",
-          "fr": "crème fouettée"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": 480,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "milk",
         "name": {
           "en": "milk",
           "nl": "melk",
@@ -19619,9 +22010,11 @@ window.initialRecipes = [
         },
         "amount": 480,
         "unit": "ml",
-        "category": "Zuivel & Eieren"
+        "category": "Zuivel & Eieren",
+        "staple": false
       },
       {
+        "key": "frangelico",
         "name": {
           "en": "frangelico",
           "nl": "Frangelico",
@@ -19629,27 +22022,8 @@ window.initialRecipes = [
         },
         "amount": 31,
         "unit": "g",
-        "category": "Kruidenier"
-      },
-      {
-        "name": {
-          "en": "reserved",
-          "nl": "gereserveerd",
-          "fr": "réservé"
-        },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
-      },
-      {
-        "name": {
-          "en": "reserved",
-          "nl": "gereserveerd",
-          "fr": "réservé"
-        },
-        "amount": 8,
-        "unit": "servings",
-        "category": "Kruidenier"
+        "category": "Bieren & Dranken",
+        "staple": false
       }
     ]
   }

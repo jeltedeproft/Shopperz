@@ -1,0 +1,33 @@
+{
+  "name": "Mijn Kookpot - Belgian Recipe & Grocery Companion",
+  "short_name": "Mijn Kookpot",
+  "description": "Collect Belgian dishes, scale them to your servings and turn them into an aisle-sorted grocery list that works offline in the shop.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0B0B",
+  "theme_color": "#0F1512",
+  "lang": "nl-BE",
+  "categories": ["food", "lifestyle", "shopping"],
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

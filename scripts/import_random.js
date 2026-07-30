@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
+const Ingredients = require('../ingredients.js');
+
 // --- Helper: Public translation API with retries and sl=en ---
 async function translateText(text, targetLang) {
   if (!text || !text.trim()) return "";
@@ -27,69 +29,13 @@ async function translateInstructions(steps, targetLang) {
   return results;
 }
 
-// --- Helper: Convert non-metric units to Belgian metrics & assign aisles ---
+// --- Helper: Convert to canonical ingredients (metric units + aisles + staples) ---
+// Delegates to the shared dictionary so imports match hand-written recipes.
+// Returns an array: junk rows resolve to [], compound rows ("salt and pepper") to several.
 function parseAndConvertIngredient(rawName, amount, unit) {
-  let finalAmount = amount ? parseFloat(amount) : null;
-  let finalUnit = unit ? unit.toLowerCase().trim() : "";
-  let name = rawName;
-
-  // Metric Conversions
-  if (finalUnit === "cup" || finalUnit === "cups") {
-    const isLiquid = /water|milk|cream|oil|juice|vinegar|broth|beer|wine|syrup/i.test(name);
-    if (isLiquid) {
-      finalAmount = Math.round(finalAmount * 240);
-      finalUnit = "ml";
-    } else {
-      finalAmount = Math.round(finalAmount * 125);
-      finalUnit = "g";
-    }
-  } else if (finalUnit === "oz" || finalUnit === "ounce" || finalUnit === "ounces") {
-    finalAmount = Math.round(finalAmount * 28.35);
-    finalUnit = "g";
-  } else if (finalUnit === "fl oz" || finalUnit === "fluid ounce" || finalUnit === "fluid ounces") {
-    finalAmount = Math.round(finalAmount * 29.57);
-    finalUnit = "ml";
-  } else if (finalUnit === "lb" || finalUnit === "pound" || finalUnit === "pounds") {
-    finalAmount = Math.round(finalAmount * 453.59);
-    finalUnit = "g";
-  } else if (finalUnit === "inch" || finalUnit === "inches") {
-    finalAmount = Math.round(finalAmount * 2.54);
-    finalUnit = "cm";
-  } else if (finalUnit === "tbsp" || finalUnit === "tablespoon" || finalUnit === "tablespoons") {
-    finalUnit = "el"; // Eetlepel
-  } else if (finalUnit === "tsp" || finalUnit === "teaspoon" || finalUnit === "teaspoons") {
-    finalUnit = "kl"; // Koffielepel
-  } else if (finalUnit === "piece" || finalUnit === "pieces" || finalUnit === "clove" || finalUnit === "cloves") {
-    finalUnit = "st."; // Stuks
-  } else if (!finalUnit) {
-    finalUnit = "st.";
-  }
-
-  // Assign supermarket categories
-  let category = "Kruidenier"; // pantry fallback
-  const nameLower = name.toLowerCase();
-  
-  const produceKeywords = /apple|banana|pear|orange|lemon|lime|witloof|chicon|onion|garlic|leek|carrot|celery|parsley|dill|herb|vegetable|tomato|potato|mushroom|salad|lettuce|cabbage|spinach|berry|ginger/i;
-  const meatKeywords = /beef|chicken|pork|sausage|bacon|ham|turkey|veal|lamb|minced|meat|saucisse/i;
-  const dairyKeywords = /milk|cream|butter|cheese|egg|yogurt|margarine|mornay/i;
-  const bakeryKeywords = /bread|waffle|pastry|flour|yeast|croûte|dough|sugar/i;
-  const drinkKeywords = /beer|wine|cider|juice|water|beverage|soda/i;
-  const seafoodKeywords = /mussel|shrimp|fish|salmon|cod|tuna|shellfish|crab|lobster/i;
-
-  if (produceKeywords.test(nameLower)) category = "Groenten & Fruit";
-  else if (meatKeywords.test(nameLower)) category = "Slagerij & Gevogelte";
-  else if (dairyKeywords.test(nameLower)) category = "Zuivel & Eieren";
-  else if (bakeryKeywords.test(nameLower)) category = "Bakkerij";
-  else if (drinkKeywords.test(nameLower)) category = "Bieren & Dranken";
-  else if (seafoodKeywords.test(nameLower)) category = "Visafdeling";
-
-  return {
-    name: name,
-    amount: finalAmount ? parseFloat(finalAmount.toFixed(1)) : null,
-    unit: finalUnit,
-    category: category
-  };
+  return Ingredients.resolve({ name: rawName, amount: amount, unit: unit });
 }
+
 
 // --- Helper: Robust parser to extract clean list of steps from raw HTML instructions ---
 function extractStepsFromInstructions(instructionsHtml, analyzedInstructions) {
@@ -215,12 +161,17 @@ function autoCategorize(title, desc) {
 // --- Main Engine ---
 async function main() {
   const args = process.argv.slice(2);
-  let apiKey = "2a31c6d141eb4a4b989a80017cc4c380"; // User's key
+  let apiKey = process.env.SPOONACULAR_API_KEY || null;
   let number = 100; // default to 100
-  
+
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--apiKey') apiKey = args[i + 1];
     else if (args[i] === '--count') number = parseInt(args[i + 1]) || 100;
+  }
+
+  if (!apiKey) {
+    console.error("❌ No Spoonacular API key. Set SPOONACULAR_API_KEY or pass --apiKey <key>.");
+    process.exit(1);
   }
 
   console.log(`📡 Fetching ${number} Random Recipes from Spoonacular API...`);
@@ -270,9 +221,11 @@ async function main() {
 
         // Convert ingredients
         const ingredientsList = recipe.extendedIngredients || [];
-        const convertedIngredients = ingredientsList.map(ing => {
-          return parseAndConvertIngredient(ing.name, ing.amount, ing.unit);
-        });
+        const convertedIngredients = Ingredients.dedupe(
+          ingredientsList.reduce((acc, ing) => {
+            return acc.concat(parseAndConvertIngredient(ing.name, ing.amount, ing.unit));
+          }, [])
+        );
 
         // Translate metadata to Dutch
         const titleNL = await translateText(recipe.title, 'nl');
@@ -287,15 +240,19 @@ async function main() {
         // Translate ingredients list
         const translatedIngredients = [];
         for (const ing of convertedIngredients) {
-          const nameEN = ing.name;
-          const nameNL = await translateText(nameEN, 'nl');
-          const nameFR = await translateText(nameEN, 'fr');
-          
+          const nameEN = ing.name.en;
+          // The dictionary already knows the common ones — only translate the rest.
+          const known = ing.name.nl !== nameEN;
+          const nameNL = known ? ing.name.nl : await translateText(nameEN, 'nl');
+          const nameFR = known ? ing.name.fr : await translateText(nameEN, 'fr');
+
           translatedIngredients.push({
+            key: ing.key,
             name: { en: nameEN, nl: nameNL, fr: nameFR },
             amount: ing.amount,
             unit: ing.unit,
-            category: ing.category
+            category: ing.category,
+            staple: ing.staple
           });
         }
 

@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
   <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
-  <link rel="stylesheet" href="style.css?v=13">
+  <meta name="theme-color" content="#0F1512">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+  <link rel="stylesheet" href="style.css?v=14">
 </head>
 <body>
 
   <!-- Simulated Mobile Phone Frame -->
   <div class="phone-frame">
-    
+
     <!-- Phone Status Bar Mockup -->
     <div class="phone-status-bar">
       <span id="phone-time">12:21</span>
@@ -42,7 +47,6 @@
                 <p data-translate="appSubtitle">Belgian Recipe & Grocery Companion</p>
               </div>
             </div>
-
           </div>
         </header>
 
@@ -59,50 +63,44 @@
         <div class="section-header">
           <h2 class="section-title" data-translate="suggestedTitle">Suggested Belgian Classic</h2>
         </div>
-        <div id="featured-recipe-container">
-          <!-- Featured recipe card loaded here dynamically -->
-        </div>
-
-
+        <div id="featured-recipe-container"></div>
 
         <!-- Explore Recipes Section -->
-        <div class="section-header" style="margin-top: 24px;">
+        <div class="section-header section-header-spaced">
           <h2 class="section-title" data-translate="exploreTitle">Explore Recipes</h2>
           <span class="section-link" data-translate="seeAll" onclick="switchTab('recipes')">See all</span>
         </div>
-        <div class="recipe-grid" id="home-recipe-grid">
-          <!-- Loaded dynamically -->
-        </div>
+        <div class="recipe-grid" id="home-recipe-grid"></div>
       </section>
 
       <!-- ================= RECIPES TAB ================= -->
-      <section id="recipes-panel" class="tab-panel" style="position: relative; height: 100%;">
+      <section id="recipes-panel" class="tab-panel recipes-panel">
         <header>
-          <h1 style="font-family: var(--font-display); font-size: 24px; font-weight: 800; margin-bottom: 4px;" data-translate="recipeBookTitle">Recipe Book</h1>
-          <p style="font-size: 12px; color: var(--text-secondary);" data-translate="recipeBookDesc">Your collection of premium Belgian dishes</p>
+          <h1 class="panel-title" data-translate="recipeBookTitle">Recipe Book</h1>
+          <p class="panel-subtitle" data-translate="recipeBookDesc">Your collection of premium Belgian dishes</p>
         </header>
 
         <!-- Search bar & Filter Trigger -->
-        <div class="search-container" style="display: flex; gap: 8px; margin-bottom: 12px;">
-          <div style="position: relative; flex: 1;">
+        <div class="search-container search-with-filter">
+          <div class="search-grow">
             <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
             <input type="text" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="Search by name or ingredients...">
           </div>
-          <button type="button" id="recipe-filter-toggle-btn" class="btn-small" style="height: 44px; width: 44px; border-radius: var(--radius-md); display: flex; justify-content: center; align-items: center; background: var(--bg-secondary); border: 1px solid var(--border-color); flex-shrink: 0;" title="Filters">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px; color: var(--text-primary);">
+          <button type="button" id="recipe-filter-toggle-btn" class="filter-toggle-btn" title="Filters">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
             </svg>
           </button>
         </div>
 
         <!-- Sliding Expandable Filter Tray -->
-        <div id="recipe-filter-tray" style="display: none; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 12px; margin-bottom: 16px;">
-          <div style="margin-bottom: 12px;">
-            <span style="font-size: 10px; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.5px;" data-translate="dietFilterLabel">Diets</span>
-            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+        <div id="recipe-filter-tray" class="filter-tray" style="display: none;">
+          <div class="filter-group">
+            <span class="filter-group-title" data-translate="dietFilterLabel">Diets</span>
+            <div class="filter-pill-row">
               <label class="filter-pill-label">
                 <input type="checkbox" class="diet-filter-cb" value="vegetarian">
                 <span data-translate="dietVegetarian">Vegetarian</span>
@@ -121,9 +119,9 @@
               </label>
             </div>
           </div>
-          <div>
-            <span style="font-size: 10px; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.5px;" data-translate="intoleranceFilterLabel">Allergens & Intolerances</span>
-            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+          <div class="filter-group">
+            <span class="filter-group-title" data-translate="intoleranceFilterLabel">Allergens & Intolerances</span>
+            <div class="filter-pill-row">
               <label class="filter-pill-label">
                 <input type="checkbox" class="intol-filter-cb" value="gluten">
                 <span data-translate="intolGluten">Gluten-Free</span>
@@ -145,19 +143,15 @@
         </div>
 
         <!-- Horizontal Categories Scroller -->
-        <div class="category-row" id="recipe-categories-row">
-          <!-- Filled dynamically in app.js -->
-        </div>
+        <div class="category-row" id="recipe-categories-row"></div>
 
         <!-- Recipes Grid -->
-        <div class="recipe-grid" id="recipes-tab-grid" style="margin-top: 10px; padding-bottom: 70px;">
-          <!-- Loaded dynamically -->
-        </div>
+        <div class="recipe-grid recipe-grid-tab" id="recipes-tab-grid"></div>
 
-        <!-- Floating Batch Action Bar (Docks above tab bar when recipes are checked) -->
+        <!-- Floating Batch Action Bar -->
         <div id="recipe-batch-bar" class="batch-action-bar">
           <span id="batch-bar-text">Selected: 0 recipes</span>
-          <button id="batch-convert-btn" class="btn-small btn-primary" data-translate="createListBtn" style="border: none; padding: 6px 12px; font-weight: 700; color: var(--bg-primary);">Generate List</button>
+          <button id="batch-convert-btn" class="btn-small btn-primary batch-btn" data-translate="batchGenerateBtn">Generate List</button>
         </div>
 
         <!-- Floating Add Recipe Button (FAB) -->
@@ -172,20 +166,29 @@
       <!-- ================= CHECKLIST (GROCERY LIST) TAB ================= -->
       <section id="grocery-panel" class="tab-panel">
         <header>
-          <h1 style="font-family: var(--font-display); font-size: 24px; font-weight: 800; margin-bottom: 4px;" data-translate="checklistTitle">Grocery List</h1>
-          <p style="font-size: 12px; color: var(--text-secondary);" data-translate="checklistDesc">Sorted by supermarket aisles for quick navigation</p>
+          <h1 class="panel-title" data-translate="checklistTitle">Grocery List</h1>
+          <p class="panel-subtitle" data-translate="checklistDesc">Sorted by supermarket aisles for quick navigation</p>
         </header>
 
         <div id="grocery-panel-wrapper">
-          <!-- Mode toggler & Clear options -->
-          <div class="list-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-            <span style="font-size: 11px; font-weight: 700; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.5px;">All Items</span>
-            <button id="clear-grocery-btn" class="clear-btn" title="Remove checked items">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 6h18m-2 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-              </svg>
-              <span data-translate="clearCheckedBtn">Clear Checked</span>
-            </button>
+          <div class="list-controls">
+            <span class="list-controls-label" data-translate="allItems">All Items</span>
+            <div class="list-controls-actions">
+              <button id="export-grocery-btn" class="clear-btn" title="Share list">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                  <polyline points="16 6 12 2 8 6"></polyline>
+                  <line x1="12" y1="2" x2="12" y2="15"></line>
+                </svg>
+                <span data-translate="exportBtn">Share list</span>
+              </button>
+              <button id="clear-grocery-btn" class="clear-btn" title="Remove checked items">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 6h18m-2 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+                <span data-translate="clearCheckedBtn">Clear Checked</span>
+              </button>
+            </div>
           </div>
 
           <!-- Progress Bar Box -->
@@ -199,13 +202,14 @@
             </div>
           </div>
 
-          <!-- Add custom item form (Hidden in Shopping Mode) -->
+          <!-- Pantry staples that were left out of the list -->
+          <div id="skipped-staples-box" class="staples-box" style="display: none;"></div>
+
+          <!-- Add custom item form -->
           <form id="add-grocery-item-form" class="add-item-form">
             <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="E.g., witloof...">
-            <input type="text" id="new-grocery-item-qty" class="add-item-qty-input" placeholder="Qty (e.g. 500g, 2)...">
-            <select id="new-grocery-item-cat" class="add-item-cat">
-              <!-- Aisle options loaded dynamically with correct translations -->
-            </select>
+            <input type="text" id="new-grocery-item-qty" class="add-item-qty-input" data-translate-placeholder="qtyPlaceholder" placeholder="Qty (e.g. 500g, 2)">
+            <select id="new-grocery-item-cat" class="add-item-cat"></select>
             <button type="submit" class="add-item-btn">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -215,17 +219,15 @@
           </form>
 
           <!-- Grocery Categories & Checklist Items container -->
-          <div id="grocery-list-container">
-            <!-- Grouped grocery items loaded dynamically -->
-          </div>
+          <div id="grocery-list-container"></div>
         </div>
       </section>
 
       <!-- ================= SETTINGS TAB ================= -->
       <section id="settings-panel" class="tab-panel">
         <header>
-          <h1 style="font-family: var(--font-display); font-size: 24px; font-weight: 800; margin-bottom: 4px;" data-translate="prefTitle">Preferences</h1>
-          <p style="font-size: 12px; color: var(--text-secondary);" data-translate="prefDesc">Configure language preferences</p>
+          <h1 class="panel-title" data-translate="prefTitle">Preferences</h1>
+          <p class="panel-subtitle" data-translate="prefDesc">Configure language and shopping preferences</p>
         </header>
 
         <!-- Language Preference -->
@@ -244,6 +246,21 @@
           </div>
         </div>
 
+        <!-- Shopping preferences -->
+        <div class="settings-group">
+          <div class="settings-group-title" data-translate="shoppingGroupTitle">Shopping</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="skipStaplesLabel">Skip pantry staples</div>
+              <div class="settings-desc" data-translate="skipStaplesDesc">Leave out salt, pepper, oil and spices you already have</div>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="skip-staples-toggle" checked>
+              <span class="switch-slider"></span>
+            </label>
+          </div>
+        </div>
+
         <!-- Database Scale Testing -->
         <div class="settings-group">
           <div class="settings-group-title" data-translate="scaleTestTitle">Performance Scale Testing</div>
@@ -252,31 +269,31 @@
               <div class="settings-label" data-translate="scaleTestLabel">Load 2,000 Demo Recipes</div>
               <div class="settings-desc" data-translate="scaleTestDesc">Simulate thousands of recipes to test search speed</div>
             </div>
-            <button id="generate-bulk-btn" class="btn-small" style="color: var(--accent-gold); border-color: var(--border-color);" data-translate="generateBtnText">Generate</button>
+            <button id="generate-bulk-btn" class="btn-small btn-gold" data-translate="generateBtnText">Generate</button>
           </div>
         </div>
 
         <!-- System controls -->
-        <div class="settings-group" style="border-color: var(--danger-dim);">
-          <div class="settings-group-title" style="color: var(--danger);" data-translate="dangerZoneTitle">Danger Zone</div>
+        <div class="settings-group settings-group-danger">
+          <div class="settings-group-title settings-group-title-danger" data-translate="dangerZoneTitle">Danger Zone</div>
           <div class="settings-row">
             <div>
-              <div class="settings-label" data-translate="resetDbLabel">Reset Recipe Database</div>
-              <div class="settings-desc" data-translate="resetDbDesc">Restores default classic Belgian recipes</div>
+              <div class="settings-label" data-translate="resetDbLabel">Delete My Recipes</div>
+              <div class="settings-desc" data-translate="resetDbDesc">Removes recipes you created yourself</div>
             </div>
-            <button id="reset-data-btn" class="btn-small" style="color: var(--danger); border-color: var(--danger-dim);" data-translate="resetBtnText">Reset</button>
+            <button id="reset-data-btn" class="btn-small btn-danger" data-translate="resetBtnText">Delete</button>
           </div>
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="resetListLabel">Empty Grocery List</div>
               <div class="settings-desc" data-translate="resetListDesc">Deletes all items in grocery checklist</div>
             </div>
-            <button id="reset-list-btn" class="btn-small" style="color: var(--danger); border-color: var(--danger-dim);" data-translate="resetListBtnText">Wipe List</button>
+            <button id="reset-list-btn" class="btn-small btn-danger" data-translate="resetListBtnText">Wipe List</button>
           </div>
         </div>
 
-        <div style="text-align: center; margin-top: 40px; color: var(--text-muted); font-size: 11px;">
-          <p>Mijn Kookpot App v2.0.0 • Made for Belgian Foodies</p>
+        <div class="app-footer">
+          <p>Mijn Kookpot App v2.1.0 • Made for Belgian Foodies</p>
         </div>
       </section>
 
@@ -287,9 +304,21 @@
     <div id="recipe-drawer" class="drawer-sheet">
       <div class="drawer-handle"></div>
       <div class="drawer-header-actions">
-        <button id="recipe-fav-btn" class="drawer-close" style="color: var(--text-secondary); margin-right: auto;" title="Toggle Favorite">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 16px; height: 16px; transition: var(--transition-bounce);">
+        <button id="recipe-fav-btn" class="drawer-close drawer-action-left" title="Toggle Favorite">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+        </button>
+        <button id="recipe-edit-btn" class="drawer-close" title="Edit recipe" style="display: none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+            <path d="M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4z"></path>
+          </svg>
+        </button>
+        <button id="recipe-delete-btn" class="drawer-close drawer-close-danger" title="Delete recipe" style="display: none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="3 6 5 6 21 6"></polyline>
+            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
           </svg>
         </button>
         <button id="recipe-drawer-close" class="drawer-close">
@@ -301,7 +330,6 @@
       </div>
 
       <div class="drawer-body">
-        <!-- Hero Cover Image -->
         <div class="drawer-hero">
           <img id="drawer-hero-img" class="drawer-hero-img" src="" alt="Recipe image">
         </div>
@@ -312,7 +340,6 @@
           <div id="drawer-description" class="drawer-description">Description paragraph</div>
         </div>
 
-        <!-- Meta Info Grid -->
         <div class="drawer-meta-badges">
           <div class="meta-badge-item">
             <div class="meta-badge-title" data-translate="prepTimeLabel">Prep Time</div>
@@ -328,11 +355,10 @@
           </div>
         </div>
 
-        <!-- Servings Adjuster -->
         <div class="servings-scale-box">
           <div class="servings-scale-text">
             <span data-translate="servingsLabel">Servings Size</span>
-            <span data-translate="servingsDesc" style="display:inline; font-weight: normal; color: var(--text-secondary);">Ingredients scale instantly</span>
+            <span data-translate="servingsDesc" class="servings-desc">Ingredients scale instantly</span>
           </div>
           <div class="servings-controls">
             <button id="servings-minus" class="servings-btn">-</button>
@@ -341,15 +367,11 @@
           </div>
         </div>
 
-        <!-- Ingredients Checklist section -->
         <div class="drawer-section-title">
-          <span>Ingredients (Metric)</span>
+          <span data-translate="ingredientsTitle">Ingredients (Metric)</span>
         </div>
-        <div id="drawer-ingredients-list" class="drawer-ingredient-list">
-          <!-- Filled dynamically in app.js -->
-        </div>
+        <div id="drawer-ingredients-list" class="drawer-ingredient-list"></div>
 
-        <!-- Add all ingredients to list -->
         <button id="add-ing-to-list-btn" class="add-ingredients-btn">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 5v14M5 12h14"></path>
@@ -357,16 +379,11 @@
           <span data-translate="addIngredientsBtn">Add to Grocery List</span>
         </button>
 
-        <!-- Instructions Checklist section -->
-        <div class="drawer-section-title" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+        <div class="drawer-section-title drawer-section-title-row">
           <span data-translate="instructionsTitle">Cooking Instructions</span>
-          <button id="cook-mode-trigger-btn" class="cook-mode-btn" style="display: flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--accent-gold); background: var(--accent-gold-dim); color: var(--accent-gold); font-size: 10px; font-weight: 700; cursor: pointer; transition: all var(--transition-fast);">
-            🍳 Cook Mode
-          </button>
+          <button id="cook-mode-trigger-btn" class="cook-mode-btn">🍳 Cook Mode</button>
         </div>
-        <div id="drawer-instructions-list" class="instructions-list">
-          <!-- Steps checkboxes filled dynamically -->
-        </div>
+        <div id="drawer-instructions-list" class="instructions-list"></div>
       </div>
     </div>
 
@@ -389,11 +406,11 @@
       </div>
     </div>
 
-    <!-- ================= ADD CUSTOM RECIPE MODAL WINDOW ================= -->
+    <!-- ================= ADD / EDIT RECIPE MODAL WINDOW ================= -->
     <div id="custom-recipe-modal" class="modal-overlay">
       <div class="modal-window">
         <div class="modal-header">
-          <h3 data-translate="createRecipeHeader">Create Custom Recipe</h3>
+          <h3 id="custom-recipe-modal-title" data-translate="createRecipeHeader">Create Custom Recipe</h3>
           <button id="modal-close-btn" class="drawer-close">&times;</button>
         </div>
 
@@ -414,16 +431,10 @@
               <textarea id="recipe-desc-input" class="form-control" placeholder="What makes this dish special?"></textarea>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <div class="form-grid-2">
               <div class="form-group">
                 <label for="recipe-cat-select">Category</label>
-                <select id="recipe-cat-select" class="form-control">
-                  <option value="breakfast">Breakfast</option>
-                  <option value="main" selected>Hoofdgerecht / Main Course</option>
-                  <option value="soup">Soup</option>
-                  <option value="snack">Snack</option>
-                  <option value="dessert">Dessert</option>
-                </select>
+                <select id="recipe-cat-select" class="form-control"></select>
               </div>
 
               <div class="form-group">
@@ -436,7 +447,7 @@
               </div>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+            <div class="form-grid-3">
               <div class="form-group">
                 <label for="recipe-prep-input">Prep Time</label>
                 <input type="text" id="recipe-prep-input" class="form-control" placeholder="E.g., 20 mins" value="20 mins">
@@ -453,12 +464,49 @@
               </div>
             </div>
 
-            <!-- Recipe Ingredient Builder -->
-            <div class="form-group" style="margin-top: 10px;">
-              <label>Recipe Ingredients (Metric)</label>
-              <div id="form-ingredients-preview" class="ingredients-list-preview">
-                <!-- Preview tags rendered here -->
+            <!-- Dietary tags: unchecked by default, so filters stay honest -->
+            <div class="form-group">
+              <label data-translate="dietFlagsLabel">Dietary tags</label>
+              <div class="filter-pill-row">
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isVegetarian">
+                  <span data-translate="dietVegetarian">Vegetarian</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isVegan">
+                  <span data-translate="dietVegan">Vegan</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isCandidaFriendly">
+                  <span data-translate="dietCandida">Candida</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isKeto">
+                  <span data-translate="dietKeto">Keto</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isGlutenFree">
+                  <span data-translate="intolGluten">Gluten-Free</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isNutFree">
+                  <span data-translate="intolNuts">Nut-Free</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isDairyFree">
+                  <span data-translate="intolDairy">Dairy-Free</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isEggFree">
+                  <span data-translate="intolEggs">Egg-Free</span>
+                </label>
               </div>
+            </div>
+
+            <!-- Recipe Ingredient Builder -->
+            <div class="form-group">
+              <label data-translate="ingredientsTitle">Recipe Ingredients (Metric)</label>
+              <div id="form-ingredients-preview" class="ingredients-list-preview"></div>
               <div class="ingredients-creator-box">
                 <div class="creator-inputs">
                   <input type="text" id="form-ing-name" class="form-control" placeholder="Speculoos, chicorée...">
@@ -474,40 +522,28 @@
                     <option value="slices">slices</option>
                     <option value="to taste">to taste</option>
                   </select>
-                  <select id="form-ing-cat" class="form-control" style="font-size: 10px; display: none;">
-                    <option value="Groenten & Fruit">Groenten & Fruit</option>
-                    <option value="Slagerij & Gevogelte">Slagerij & Gevogelte</option>
-                    <option value="Zuivel & Eieren">Zuivel & Eieren</option>
-                    <option value="Bakkerij">Bakkerij</option>
-                    <option value="Bieren & Dranken">Bieren & Dranken</option>
-                    <option value="Kruidenier" selected>Kruidenier</option>
-                    <option value="Visafdeling">Visafdeling</option>
-                  </select>
-                  <button type="button" id="add-custom-ing-btn" class="btn-small" style="height: 38px;">
+                  <button type="button" id="add-custom-ing-btn" class="btn-small btn-add-ing">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                       <line x1="12" y1="5" x2="12" y2="19"></line>
                       <line x1="5" y1="12" x2="19" y2="12"></line>
                     </svg>
                   </button>
                 </div>
-                <div style="margin-top: 6px;">
-                  <label style="font-size: 9px; margin-bottom: 2px;">Aisle Placement</label>
-                  <select id="form-ing-cat-visible" class="form-control" onchange="document.getElementById('form-ing-cat').value = this.value">
-                    <!-- Options populated dynamically based on active language -->
-                  </select>
+                <div class="creator-aisle">
+                  <label for="form-ing-cat-visible">Aisle Placement</label>
+                  <select id="form-ing-cat-visible" class="form-control"></select>
                 </div>
               </div>
             </div>
 
-            <!-- Recipe Instructions (one per line) -->
             <div class="form-group">
               <label for="recipe-steps-input">Preparation Instructions (One step per line)</label>
-              <textarea id="recipe-steps-input" class="form-control" style="min-height: 120px;" placeholder="Mix ingredients in bowl...&#10;Bake at 180°C for 25 mins...&#10;Serve warm..." required></textarea>
+              <textarea id="recipe-steps-input" class="form-control form-control-tall" placeholder="Mix ingredients in bowl...&#10;Bake at 180°C for 25 mins...&#10;Serve warm..." required></textarea>
             </div>
 
             <div class="modal-footer">
-              <button type="button" id="recipe-cancel-btn" class="btn-block btn-secondary">Cancel</button>
-              <button type="submit" class="btn-block btn-primary">Save Recipe</button>
+              <button type="button" id="recipe-cancel-btn" class="btn-block btn-secondary" data-translate="cancelBtn">Cancel</button>
+              <button type="submit" class="btn-block btn-primary" data-translate="saveRecipeBtn">Save Recipe</button>
             </div>
           </form>
         </div>
@@ -523,7 +559,7 @@
         </svg>
         <span data-translate="discover">Discover</span>
       </a>
-      
+
       <a class="tab-item" data-tab="recipes">
         <svg viewBox="0 0 24 24">
           <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
@@ -531,7 +567,7 @@
         </svg>
         <span data-translate="recipes">Recipes</span>
       </a>
-      
+
       <a class="tab-item" data-tab="grocery">
         <svg viewBox="0 0 24 24">
           <path d="M9 11l3 3L22 4"></path>
@@ -539,7 +575,7 @@
         </svg>
         <span data-translate="checklist">Checklist</span>
       </a>
-      
+
       <a class="tab-item" data-tab="settings">
         <svg viewBox="0 0 24 24">
           <circle cx="12" cy="12" r="3"></circle>
@@ -551,20 +587,27 @@
 
   </div>
 
-  <script src="recipes.js"></script>
-  <script src="app.js"></script>
+  <script src="ingredients.js?v=14"></script>
+  <script src="recipes.js?v=14"></script>
+  <script src="app.js?v=14"></script>
   <script>
-    // Live update of simulated phone time
+    // Live update of the simulated phone status bar clock
     function updateClock() {
       const now = new Date();
-      let hours = now.getHours();
-      let minutes = now.getMinutes();
-      minutes = minutes < 10 ? '0' + minutes : minutes;
-      const timeStr = hours + ':' + minutes;
-      document.getElementById('phone-time').textContent = timeStr;
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      document.getElementById('phone-time').textContent = now.getHours() + ':' + minutes;
     }
-    setInterval(updateClock, 1000);
+    setInterval(updateClock, 30000);
     updateClock();
+
+    // Offline support: the whole app is cached so it works inside the shop.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(err => {
+          console.warn('Service worker registration failed:', err);
+        });
+      });
+    }
   </script>
 </body>
 </html>
