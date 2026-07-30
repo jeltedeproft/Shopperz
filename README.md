@@ -68,6 +68,8 @@ Wi-Fi, then "Add to home screen".
 ```bash
 node scripts/smoke_test.js        # app flows — run this before committing
 node scripts/test_ingredients.js  # the ingredient dictionary, table-driven
+node scripts/check_styles.js      # every rendered class is styled, tags balance
+node scripts/check_contrast.js    # WCAG contrast of the theme's colour pairs
 node scripts/normalize_recipes.js # re-canonicalise every ingredient in recipes.js
 node scripts/download_images.js   # pull any remote recipe image into images/
 pwsh scripts/resize_images.ps1    # downscale photos to the size actually shown
