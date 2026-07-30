@@ -80,6 +80,18 @@ const uiTranslations = {
     scaleTestLabel: "Load 2,000 Demo Recipes",
     scaleTestDesc: "Simulate thousands of recipes to test search speed",
     generateBtnText: "Generate",
+    dataGroupTitle: "Your Data",
+    backupLabel: "Download a backup",
+    backupDesc: "Your recipes, list, favourites and settings as one file",
+    backupBtn: "Download",
+    restoreLabel: "Restore a backup",
+    restoreDesc: "Replaces everything currently in the app",
+    restoreBtn: "Restore",
+    toastBackupSaved: "Backup saved as {name}",
+    toastBackupFailed: "Could not create the backup",
+    confirmRestore: "Restore this backup? It contains {recipes} of your own recipes and {items} list items, and replaces everything currently in the app.",
+    toastRestored: "Backup restored",
+    toastRestoreFailed: "That file is not a Mijn Kookpot backup",
     // Shopping preferences
     shoppingGroupTitle: "Shopping",
     skipStaplesLabel: "Skip pantry staples",
@@ -207,6 +219,18 @@ const uiTranslations = {
     scaleTestLabel: "Laad 2.000 testrecepten",
     scaleTestDesc: "Simuleer duizenden recepten om de zoeksnelheid te testen",
     generateBtnText: "Genereren",
+    dataGroupTitle: "Jouw Gegevens",
+    backupLabel: "Download een back-up",
+    backupDesc: "Je recepten, lijst, favorieten en instellingen in één bestand",
+    backupBtn: "Downloaden",
+    restoreLabel: "Back-up terugzetten",
+    restoreDesc: "Vervangt alles wat nu in de app staat",
+    restoreBtn: "Terugzetten",
+    toastBackupSaved: "Back-up opgeslagen als {name}",
+    toastBackupFailed: "Back-up maken is mislukt",
+    confirmRestore: "Deze back-up terugzetten? Ze bevat {recipes} eigen recepten en {items} boodschappen, en vervangt alles wat nu in de app staat.",
+    toastRestored: "Back-up teruggezet",
+    toastRestoreFailed: "Dit bestand is geen Mijn Kookpot back-up",
     shoppingGroupTitle: "Winkelen",
     skipStaplesLabel: "Sla voorraadkast-basics over",
     skipStaplesDesc: "Laat zout, peper, olie en kruiden weg die je al hebt",
@@ -330,6 +354,18 @@ const uiTranslations = {
     scaleTestLabel: "Charger 2 000 recettes",
     scaleTestDesc: "Simuler des milliers de recettes pour tester la vitesse",
     generateBtnText: "Générer",
+    dataGroupTitle: "Vos Données",
+    backupLabel: "Télécharger une sauvegarde",
+    backupDesc: "Vos recettes, liste, favoris et paramètres dans un fichier",
+    backupBtn: "Télécharger",
+    restoreLabel: "Restaurer une sauvegarde",
+    restoreDesc: "Remplace tout ce qui est actuellement dans l'app",
+    restoreBtn: "Restaurer",
+    toastBackupSaved: "Sauvegarde enregistrée : {name}",
+    toastBackupFailed: "Impossible de créer la sauvegarde",
+    confirmRestore: "Restaurer cette sauvegarde ? Elle contient {recipes} recettes personnelles et {items} articles, et remplace tout le contenu actuel.",
+    toastRestored: "Sauvegarde restaurée",
+    toastRestoreFailed: "Ce fichier n'est pas une sauvegarde Mijn Kookpot",
     shoppingGroupTitle: "Courses",
     skipStaplesLabel: "Ignorer les basiques",
     skipStaplesDesc: "Omet le sel, poivre, huile et épices que vous avez déjà",
@@ -384,6 +420,7 @@ const STORAGE = {
   favorites: 'belgian_favorites',
   groceryList: 'belgian_grocery_list',
   skippedStaples: 'belgian_skipped_staples',
+  selection: 'belgian_selected_recipes',
   legacyRecipes: 'belgian_recipes',
   legacyDbVersion: 'belgian_db_version'
 };
@@ -565,6 +602,9 @@ function initApp() {
   state.favorites = readJson(STORAGE.favorites, []);
   state.groceryList = readJson(STORAGE.groceryList, []);
   state.skippedStaples = readJson(STORAGE.skippedStaples, []);
+  // Drop ids of recipes that no longer exist before trusting the selection.
+  state.selectedRecipes = readJson(STORAGE.selection, [])
+    .filter(id => state.recipes.some(r => r.id === id));
 
   setupEventListeners();
   applyLanguage(state.settings.language);
@@ -636,6 +676,11 @@ function saveGroceryList() {
 
 function saveFavorites() {
   localStorage.setItem(STORAGE.favorites, JSON.stringify(state.favorites));
+}
+
+// Ticking six recipes and then locking your phone used to lose the lot.
+function saveSelection() {
+  localStorage.setItem(STORAGE.selection, JSON.stringify(state.selectedRecipes));
 }
 
 // --- Language Switching Engine ---
@@ -784,6 +829,7 @@ function setupEventListeners() {
       state.userRecipes = [];
       saveUserRecipes();
       state.selectedRecipes = [];
+      saveSelection();
       showToast(t('toastRecipesReset'), 'info');
       renderApp();
     }
@@ -815,6 +861,15 @@ function setupEventListeners() {
       state.filters.intolerances = Array.from(document.querySelectorAll('.intol-filter-cb:checked')).map(c => c.value);
       renderRecipeGrid();
     });
+  });
+
+  document.getElementById('backup-btn').addEventListener('click', downloadBackup);
+
+  const restoreInput = document.getElementById('restore-file-input');
+  document.getElementById('restore-btn').addEventListener('click', () => restoreInput.click());
+  restoreInput.addEventListener('change', e => {
+    handleRestoreFile(e.target.files && e.target.files[0]);
+    e.target.value = ''; // let the same file be picked twice
   });
 
   const bulkGenBtn = document.getElementById('generate-bulk-btn');
@@ -1094,6 +1149,7 @@ function toggleRecipeSelection(recipeId) {
     state.selectedRecipes.push(recipeId);
     showToast(t('toastSelected'), 'success');
   }
+  saveSelection();
 
   document.querySelectorAll(`.recipe-card[data-id="${recipeId}"], .featured-card[data-id="${recipeId}"]`)
     .forEach(card => card.classList.toggle('selected-for-list', idx === -1));
@@ -1221,6 +1277,7 @@ function convertSelectedRecipesToGroceryList() {
   });
 
   state.selectedRecipes = [];
+  saveSelection();
   document.querySelectorAll('.recipe-card, .featured-card')
     .forEach(card => card.classList.remove('selected-for-list'));
   updateBatchActionBar();
@@ -1629,6 +1686,103 @@ function updateProgressHeader() {
   if (barEl) barEl.style.width = `${percentage}%`;
 }
 
+// --- Backup & restore ---
+//
+// Everything you own lives in this browser's localStorage. Clearing site data,
+// switching phones or an OS storage eviction would take it all with no copy
+// anywhere, so it has to be exportable.
+
+const BACKUP_FORMAT = 1;
+
+function buildBackup() {
+  return {
+    format: BACKUP_FORMAT,
+    app: 'mijn-kookpot',
+    exportedAt: new Date().toISOString(),
+    settings: state.settings,
+    userRecipes: state.userRecipes,
+    groceryList: state.groceryList,
+    skippedStaples: state.skippedStaples,
+    favorites: state.favorites,
+    selectedRecipes: state.selectedRecipes
+  };
+}
+
+function downloadBackup() {
+  const json = JSON.stringify(buildBackup(), null, 2);
+  const stamp = new Date().toISOString().slice(0, 10);
+  const fileName = `mijn-kookpot-backup-${stamp}.json`;
+
+  try {
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    showToast(t('toastBackupSaved', { name: fileName }), 'success');
+  } catch (err) {
+    console.error('Backup failed', err);
+    showToast(t('toastBackupFailed'), 'info');
+  }
+}
+
+/** Accepts a parsed backup object, returns true when it was applied. */
+function applyBackup(data) {
+  if (!data || typeof data !== 'object' || data.app !== 'mijn-kookpot' || !Array.isArray(data.userRecipes)) {
+    return false;
+  }
+
+  state.userRecipes = data.userRecipes;
+  state.groceryList = Array.isArray(data.groceryList) ? data.groceryList : [];
+  state.skippedStaples = Array.isArray(data.skippedStaples) ? data.skippedStaples : [];
+  state.favorites = Array.isArray(data.favorites) ? data.favorites : [];
+  state.selectedRecipes = Array.isArray(data.selectedRecipes) ? data.selectedRecipes : [];
+  if (data.settings && typeof data.settings === 'object') {
+    state.settings = Object.assign({}, state.settings, data.settings);
+  }
+
+  saveUserRecipes();
+  saveGroceryList();
+  saveFavorites();
+  saveSelection();
+  saveSettings();
+  return true;
+}
+
+function handleRestoreFile(file) {
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = () => {
+    let data = null;
+    try {
+      data = JSON.parse(reader.result);
+    } catch (err) {
+      showToast(t('toastRestoreFailed'), 'info');
+      return;
+    }
+
+    const summary = t('confirmRestore', {
+      recipes: Array.isArray(data.userRecipes) ? data.userRecipes.length : 0,
+      items: Array.isArray(data.groceryList) ? data.groceryList.length : 0
+    });
+    if (!confirm(summary)) return;
+
+    if (applyBackup(data)) {
+      applyLanguage(state.settings.language);
+      showToast(t('toastRestored'), 'success');
+    } else {
+      showToast(t('toastRestoreFailed'), 'info');
+    }
+  };
+  reader.onerror = () => showToast(t('toastRestoreFailed'), 'info');
+  reader.readAsText(file);
+}
+
 // --- Custom Recipe Form ---
 function openRecipeModal(recipe) {
   const form = document.getElementById('custom-recipe-form');
@@ -1694,6 +1848,7 @@ function deleteSelectedRecipe() {
   state.selectedRecipes = state.selectedRecipes.filter(s => s !== id);
   saveUserRecipes();
   saveFavorites();
+  saveSelection();
 
   closeRecipeDrawer();
   showToast(t('toastRecipeDeleted'), 'info');

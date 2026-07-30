@@ -262,6 +262,26 @@
           </div>
         </div>
 
+        <!-- Backup & restore -->
+        <div class="settings-group">
+          <div class="settings-group-title" data-translate="dataGroupTitle">Your Data</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="backupLabel">Download a backup</div>
+              <div class="settings-desc" data-translate="backupDesc">Your recipes, list, favourites and settings as one file</div>
+            </div>
+            <button id="backup-btn" class="btn-small btn-gold" data-translate="backupBtn">Download</button>
+          </div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="restoreLabel">Restore a backup</div>
+              <div class="settings-desc" data-translate="restoreDesc">Replaces everything currently in the app</div>
+            </div>
+            <button id="restore-btn" class="btn-small btn-gold" data-translate="restoreBtn">Restore</button>
+            <input type="file" id="restore-file-input" accept="application/json,.json" hidden>
+          </div>
+        </div>
+
         <!-- Database Scale Testing -->
         <div class="settings-group">
           <div class="settings-group-title" data-translate="scaleTestTitle">Performance Scale Testing</div>

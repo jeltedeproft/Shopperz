@@ -305,6 +305,40 @@ sandbox.initApp();
 check('own recipe still there after reload',
   state.recipes.some(r => r.translations.en.title === 'Persistent Dish'));
 
+console.log('\nBackup & restore');
+state.groceryList = [];
+state.favorites = ['carbonnade-flamande'];
+state.selectedRecipes = ['moules-frites'];
+sandbox.addItemsToGroceryList([
+  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 2, unit: 'st.', category: 'Groenten & Fruit', staple: false }
+], 'Backup test');
+const backup = JSON.parse(JSON.stringify(sandbox.buildBackup()));
+check('backup captures own recipes', Array.isArray(backup.userRecipes));
+check('backup captures the list', backup.groceryList.length === 1);
+check('backup captures favourites and selection',
+  backup.favorites.length === 1 && backup.selectedRecipes.length === 1);
+
+state.groceryList = [];
+state.favorites = [];
+state.selectedRecipes = [];
+check('restore rejects a foreign file', sandbox.applyBackup({ foo: 'bar' }) === false);
+check('restore rejects a truncated backup',
+  sandbox.applyBackup({ app: 'mijn-kookpot', format: 1 }) === false);
+check('restore puts everything back', sandbox.applyBackup(backup) === true &&
+  state.groceryList.length === 1 && state.favorites.length === 1);
+
+console.log('\nSelection survives a restart');
+state.selectedRecipes = [];
+sandbox.toggleRecipeSelection('moules-frites');
+sandbox.toggleRecipeSelection('vol-au-vent');
+ctx('initApp()');
+check('selection restored after reload', state.selectedRecipes.length === 2,
+  state.selectedRecipes.join(', '));
+state.selectedRecipes.push('recipe-that-no-longer-exists');
+sandbox.saveSelection();
+ctx('initApp()');
+check('stale ids dropped from the selection', state.selectedRecipes.length === 2);
+
 console.log('\nFiltering & search');
 state.filters.category = 'dessert';
 state.filters.query = '';
