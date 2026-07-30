@@ -459,6 +459,23 @@ const drifted = recipes.filter(r => {
 check('stored diet flags match what the ingredients say', drifted.length === 0,
   `${drifted.length} recipe(s) need scripts/normalize_recipes.js`);
 
+// Re-running scripts/normalize_recipes.js must not keep changing the data.
+let unstable = 0;
+recipes.forEach(r => r.ingredients.forEach(i => {
+  const again = Ing.resolve(i)[0];
+  if (!again || again.key !== i.key || again.category !== i.category ||
+      again.unit !== i.unit || again.staple !== i.staple) unstable++;
+}));
+check('normalising an already-normalised database is a no-op', unstable === 0,
+  `${unstable} row(s) would change again`);
+
+const machineTranslated = recipes
+  .flatMap(r => r.ingredients)
+  .filter(i => /verkorting|raccourcissement|amandel maaltijd|forfaitair|waterrijke|\bdsh\b/i.test(
+    i.name.en + ' ' + i.name.nl + ' ' + i.name.fr));
+check('no mistranslated ingredient names left', machineTranslated.length === 0,
+  machineTranslated.map(i => i.name.nl).slice(0, 3).join(', '));
+
 check('no recipe hot-links a remote image',
   !recipes.some(r => /^https?:/i.test(r.image)),
   recipes.filter(r => /^https?:/i.test(r.image)).length + ' remote');

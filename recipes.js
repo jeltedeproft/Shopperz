@@ -70,9 +70,9 @@ window.initialRecipes = [
       {
         "key": "beef chuck",
         "name": {
-          "en": "Beef chuck",
-          "nl": "Rundstoofvlees",
-          "fr": "Carbonnades de boeuf"
+          "en": "stewing beef",
+          "nl": "rundstoofvlees",
+          "fr": "carbonnades de boeuf"
         },
         "amount": 1000,
         "unit": "g",
@@ -130,9 +130,9 @@ window.initialRecipes = [
       {
         "key": "liège syrup",
         "name": {
-          "en": "Liège Syrup",
+          "en": "Liège syrup",
           "nl": "Luikse siroop",
-          "fr": "Sirop de Liège"
+          "fr": "sirop de Liège"
         },
         "amount": 2,
         "unit": "el",
@@ -220,9 +220,9 @@ window.initialRecipes = [
       {
         "key": "belgian endives",
         "name": {
-          "en": "Belgian Endives",
-          "nl": "Witloof",
-          "fr": "Chicons belges"
+          "en": "Belgian endives",
+          "nl": "witloof",
+          "fr": "chicons"
         },
         "amount": 8,
         "unit": "st.",
@@ -244,9 +244,9 @@ window.initialRecipes = [
       {
         "key": "grated cheese",
         "name": {
-          "en": "Grated Cheese",
-          "nl": "Geraspte kaas",
-          "fr": "Fromage râpé"
+          "en": "grated cheese",
+          "nl": "geraspte kaas",
+          "fr": "fromage râpé"
         },
         "amount": 200,
         "unit": "g",
@@ -643,9 +643,9 @@ window.initialRecipes = [
       {
         "key": "mussels",
         "name": {
-          "en": "Mussels",
-          "nl": "Mosselen",
-          "fr": "Moules fraîches"
+          "en": "mussels",
+          "nl": "mosselen",
+          "fr": "moules"
         },
         "amount": 2000,
         "unit": "g",
@@ -904,9 +904,9 @@ window.initialRecipes = [
       {
         "key": "mayonnaise",
         "name": {
-          "en": "Mayonnaise",
-          "nl": "Belgische mayonaise",
-          "fr": "Mayonnaise belge"
+          "en": "mayonnaise",
+          "nl": "mayonaise",
+          "fr": "mayonnaise"
         },
         "amount": 3,
         "unit": "el",
@@ -1066,9 +1066,9 @@ window.initialRecipes = [
       {
         "key": "vegetable broth",
         "name": {
-          "en": "Vegetable Broth",
-          "nl": "Groentenbouillon",
-          "fr": "Bouillon de légumes"
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
         },
         "amount": 750,
         "unit": "ml",
@@ -1078,9 +1078,9 @@ window.initialRecipes = [
       {
         "key": "oat cream",
         "name": {
-          "en": "Oat Cream",
-          "nl": "Haverroom",
-          "fr": "Crème d'avoine"
+          "en": "oat cream",
+          "nl": "haverroom",
+          "fr": "crème d'avoine"
         },
         "amount": 200,
         "unit": "ml",
@@ -1153,9 +1153,9 @@ window.initialRecipes = [
       {
         "key": "belgian endives",
         "name": {
-          "en": "Belgian Endives",
-          "nl": "Witloof",
-          "fr": "Chicons"
+          "en": "Belgian endives",
+          "nl": "witloof",
+          "fr": "chicons"
         },
         "amount": 4,
         "unit": "st.",
@@ -1272,9 +1272,9 @@ window.initialRecipes = [
       {
         "key": "beef chuck",
         "name": {
-          "en": "Beef chuck",
-          "nl": "Rundstoofvlees",
-          "fr": "Carbonnades de boeuf"
+          "en": "stewing beef",
+          "nl": "rundstoofvlees",
+          "fr": "carbonnades de boeuf"
         },
         "amount": 1000,
         "unit": "g",
@@ -1320,9 +1320,9 @@ window.initialRecipes = [
       {
         "key": "apple cider vinegar",
         "name": {
-          "en": "Apple Cider Vinegar",
-          "nl": "Appelciderazijn",
-          "fr": "Vinaigre de cidre"
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
         },
         "amount": 3,
         "unit": "el",
@@ -1423,9 +1423,9 @@ window.initialRecipes = [
       {
         "key": "belgian pearl sugar",
         "name": {
-          "en": "Belgian Pearl Sugar",
-          "nl": "Parelsuiker",
-          "fr": "Sucre perlé belge"
+          "en": "pearl sugar",
+          "nl": "parelsuiker",
+          "fr": "sucre perlé"
         },
         "amount": 150,
         "unit": "g",
@@ -1459,9 +1459,9 @@ window.initialRecipes = [
       {
         "key": "dry yeast",
         "name": {
-          "en": "Dry Yeast",
-          "nl": "Droge gist",
-          "fr": "Levure de boulanger"
+          "en": "dry yeast",
+          "nl": "droge gist",
+          "fr": "levure sèche"
         },
         "amount": 7,
         "unit": "g",
@@ -1732,8 +1732,8 @@ window.initialRecipes = [
       {
         "key": "cornstarch",
         "name": {
-          "en": "cornstarch",
-          "nl": "maïszetmeel",
+          "en": "cornflour",
+          "nl": "maïzena",
           "fr": "maïzena"
         },
         "amount": 4,
@@ -1757,8 +1757,8 @@ window.initialRecipes = [
         "key": "stir-fry vegetables",
         "name": {
           "en": "stir-fry vegetables",
-          "nl": "roerbak groenten",
-          "fr": "légumes sautés"
+          "nl": "roerbakgroenten",
+          "fr": "légumes à sauter"
         },
         "amount": 340,
         "unit": "g",
@@ -1769,8 +1769,8 @@ window.initialRecipes = [
         "key": "brown rice",
         "name": {
           "en": "brown rice",
-          "nl": "bruine rijst",
-          "fr": "riz brun"
+          "nl": "zilvervliesrijst",
+          "fr": "riz complet"
         },
         "amount": 375,
         "unit": "g",
@@ -2066,7 +2066,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "spring onion",
+        "key": "scallion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -2138,11 +2138,11 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "tubular pasta",
+        "key": "pasta",
         "name": {
-          "en": "tubular pasta",
-          "nl": "buisvormige pasta",
-          "fr": "pâtes tubulaires"
+          "en": "pasta",
+          "nl": "pasta",
+          "fr": "pâtes"
         },
         "amount": 227,
         "unit": "g",
@@ -2162,11 +2162,11 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "dsh pepper sauce",
+        "key": "pepper sauce",
         "name": {
-          "en": "dsh pepper sauce",
-          "nl": "dsh pepersaus",
-          "fr": "un peu de sauce au poivre"
+          "en": "pepper sauce",
+          "nl": "pepersaus",
+          "fr": "sauce au poivre"
         },
         "amount": 1,
         "unit": "st.",
@@ -2174,15 +2174,15 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "water-packed tuna",
+        "key": "canned tuna",
         "name": {
-          "en": "water-packed tuna",
-          "nl": "waterrijke tonijn",
-          "fr": "thon emballé dans l'eau"
+          "en": "canned tuna",
+          "nl": "tonijn uit blik",
+          "fr": "thon en boîte"
         },
         "amount": 184,
         "unit": "g",
-        "category": "Bieren & Dranken",
+        "category": "Visafdeling",
         "staple": false
       }
     ]
@@ -2261,7 +2261,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "chicken stock",
+        "key": "chicken broth",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -2269,8 +2269,8 @@ window.initialRecipes = [
         },
         "amount": 320,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "couscous",
@@ -2323,9 +2323,9 @@ window.initialRecipes = [
       {
         "key": "pork loin chops",
         "name": {
-          "en": "pork loin chops",
-          "nl": "varkenshaasjes",
-          "fr": "côtelettes de longe de porc"
+          "en": "pork chops",
+          "nl": "varkenskoteletten",
+          "fr": "côtes de porc"
         },
         "amount": 680,
         "unit": "g",
@@ -2384,7 +2384,7 @@ window.initialRecipes = [
         "key": "sesame seeds",
         "name": {
           "en": "sesame seeds",
-          "nl": "sesamzaadjes",
+          "nl": "sesamzaad",
           "fr": "graines de sésame"
         },
         "amount": 2,
@@ -2480,11 +2480,11 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "bittersweet chocolate",
+        "key": "dark chocolate",
         "name": {
-          "en": "bittersweet chocolate",
-          "nl": "bitterzoete chocolade",
-          "fr": "chocolat aigre-doux"
+          "en": "dark chocolate",
+          "nl": "pure chocolade",
+          "fr": "chocolat noir"
         },
         "amount": 142,
         "unit": "g",
@@ -2508,7 +2508,7 @@ window.initialRecipes = [
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
-          "fr": "fromage à la crème"
+          "fr": "fromage frais"
         },
         "amount": 227,
         "unit": "g",
@@ -2603,7 +2603,7 @@ window.initialRecipes = [
         "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
-          "nl": "cacao poeder",
+          "nl": "cacaopoeder",
           "fr": "poudre de cacao"
         },
         "amount": 63,
@@ -2741,11 +2741,11 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "almond meal",
+        "key": "almond flour",
         "name": {
-          "en": "almond meal",
-          "nl": "amandel maaltijd",
-          "fr": "farine d'amandes"
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
         },
         "amount": 63,
         "unit": "g",
@@ -2755,9 +2755,9 @@ window.initialRecipes = [
       {
         "key": "turbinado sugar",
         "name": {
-          "en": "turbinado sugar",
-          "nl": "turbinado-suiker",
-          "fr": "sucre turbiné"
+          "en": "raw cane sugar",
+          "nl": "ruwe rietsuiker",
+          "fr": "sucre de canne roux"
         },
         "amount": 3,
         "unit": "el",
@@ -2803,9 +2803,9 @@ window.initialRecipes = [
       {
         "key": "apple cider vinegar",
         "name": {
-          "en": "apple cider vinegar",
+          "en": "cider vinegar",
           "nl": "appelazijn",
-          "fr": "vinaigre de cidre de pomme"
+          "fr": "vinaigre de cidre"
         },
         "amount": 1,
         "unit": "el",
@@ -2825,11 +2825,11 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "tiny drop of almond extract",
+        "key": "almond extract",
         "name": {
-          "en": "tiny drop of almond extract",
-          "nl": "klein druppeltje amandelextract",
-          "fr": "petite goutte d'extrait d'amande"
+          "en": "almond extract",
+          "nl": "amandelextract",
+          "fr": "extrait d'amande"
         },
         "amount": 1,
         "unit": "st.",
@@ -2946,7 +2946,7 @@ window.initialRecipes = [
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
-          "fr": "du jus d'orange"
+          "fr": "jus d'orange"
         },
         "amount": 72,
         "unit": "ml",
@@ -3118,8 +3118,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 1,
@@ -3239,7 +3239,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -3413,11 +3413,11 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chocolate of at least cocoa parts",
+        "key": "dark chocolate",
         "name": {
-          "en": "chocolate of at least cocoa parts",
-          "nl": "chocolade van minimaal cacaodelen",
-          "fr": "chocolat avec au moins des parties de cacao"
+          "en": "dark chocolate",
+          "nl": "pure chocolade",
+          "fr": "chocolat noir"
         },
         "amount": 300,
         "unit": "g",
@@ -3569,7 +3569,7 @@ window.initialRecipes = [
         "key": "chicken drumsticks",
         "name": {
           "en": "chicken drumsticks",
-          "nl": "kippendrumsticks",
+          "nl": "kippenbouten",
           "fr": "pilons de poulet"
         },
         "amount": 5,
@@ -3590,11 +3590,11 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
-          "fr": "paprika en poudre"
+          "fr": "paprika"
         },
         "amount": 1,
         "unit": "kl",
@@ -3908,11 +3908,11 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "pork chops",
+        "key": "pork loin chops",
         "name": {
           "en": "pork chops",
-          "nl": "varkenskarbonades",
-          "fr": "côtelettes de porc"
+          "nl": "varkenskoteletten",
+          "fr": "côtes de porc"
         },
         "amount": 900,
         "unit": "g",
@@ -4095,7 +4095,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken stock",
+        "key": "chicken broth",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -4103,8 +4103,8 @@ window.initialRecipes = [
         },
         "amount": 420,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "flour",
@@ -4122,7 +4122,7 @@ window.initialRecipes = [
         "key": "garlic powder",
         "name": {
           "en": "garlic powder",
-          "nl": "knoflook poeder",
+          "nl": "knoflookpoeder",
           "fr": "poudre d'ail"
         },
         "amount": 0.5,
@@ -4134,7 +4134,7 @@ window.initialRecipes = [
         "key": "green beans",
         "name": {
           "en": "green beans",
-          "nl": "groene bonen",
+          "nl": "prinsessenbonen",
           "fr": "haricots verts"
         },
         "amount": 567,
@@ -4194,8 +4194,8 @@ window.initialRecipes = [
         "key": "peas",
         "name": {
           "en": "peas",
-          "nl": "peas",
-          "fr": "peas"
+          "nl": "erwten",
+          "fr": "petits pois"
         },
         "amount": null,
         "unit": "to taste",
@@ -4663,7 +4663,7 @@ window.initialRecipes = [
         "key": "almond extract",
         "name": {
           "en": "almond extract",
-          "nl": "amandel-extract",
+          "nl": "amandelextract",
           "fr": "extrait d'amande"
         },
         "amount": 1,
@@ -5086,7 +5086,7 @@ window.initialRecipes = [
         "key": "lemon extract",
         "name": {
           "en": "lemon extract",
-          "nl": "citroen-extract",
+          "nl": "citroenextract",
           "fr": "extrait de citron"
         },
         "amount": 1,
@@ -5746,11 +5746,11 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "lump crab meat",
+        "key": "crab meat",
         "name": {
-          "en": "lump crab meat",
-          "nl": "forfaitair krabvlees",
-          "fr": "chair de crabe en morceaux"
+          "en": "crab meat",
+          "nl": "krabvlees",
+          "fr": "chair de crabe"
         },
         "amount": 454,
         "unit": "g",
@@ -5796,8 +5796,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 0.5,
@@ -6328,7 +6328,7 @@ window.initialRecipes = [
         "key": "corn tortillas",
         "name": {
           "en": "corn tortillas",
-          "nl": "maïstortilla's",
+          "nl": "maïstortillas",
           "fr": "tortillas de maïs"
         },
         "amount": 4,
@@ -6550,15 +6550,15 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
-        "key": "half",
+        "key": "cream",
         "name": {
-          "en": "half",
-          "nl": "half",
-          "fr": "half"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": null,
         "unit": "to taste",
-        "category": "Kruidenier",
+        "category": "Zuivel & Eieren",
         "staple": false
       },
       {
@@ -6700,7 +6700,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -6912,7 +6912,7 @@ window.initialRecipes = [
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
-          "fr": "du jus d'orange"
+          "fr": "jus d'orange"
         },
         "amount": 120,
         "unit": "ml",
@@ -6971,7 +6971,7 @@ window.initialRecipes = [
         "key": "orange zest",
         "name": {
           "en": "orange zest",
-          "nl": "sinaasappelschil",
+          "nl": "sinaasappelrasp",
           "fr": "zeste d'orange"
         },
         "amount": 31,
@@ -7058,7 +7058,7 @@ window.initialRecipes = [
         ]
       },
       "nl": {
-        "title": "Chinese Potstickers",
+        "title": "Chinese dumplings (potstickers)",
         "subtitle": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, z...",
         "description": "Als je ongeveer 45 minuten de tijd hebt om in de keuken te staan, zijn Chinese Potstickers misschien een uitstekend zuivelvrij recept om te proberen. Een paar mensen vonden dit hor d'oeuvre erg lekker. Dit recept is typisch voor de Chinese keuken. 37 mensen hebben dit recept geprobeerd en vonden het leuk.",
         "instructions": [
@@ -7214,7 +7214,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "spring onion",
+        "key": "scallion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -7376,7 +7376,7 @@ window.initialRecipes = [
         "key": "curry powder",
         "name": {
           "en": "curry powder",
-          "nl": "kerrie poeder",
+          "nl": "kerriepoeder",
           "fr": "poudre de curry"
         },
         "amount": 2,
@@ -7713,7 +7713,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken stock",
+        "key": "chicken broth",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -7721,8 +7721,8 @@ window.initialRecipes = [
         },
         "amount": 1000,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "beans",
@@ -8688,7 +8688,7 @@ window.initialRecipes = [
         "key": "almond extract",
         "name": {
           "en": "almond extract",
-          "nl": "amandel-extract",
+          "nl": "amandelextract",
           "fr": "extrait d'amande"
         },
         "amount": 0.5,
@@ -8760,7 +8760,7 @@ window.initialRecipes = [
         "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
-          "nl": "cacao poeder",
+          "nl": "cacaopoeder",
           "fr": "poudre de cacao"
         },
         "amount": 63,
@@ -8984,7 +8984,7 @@ window.initialRecipes = [
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
-          "fr": "fromage à la crème"
+          "fr": "fromage frais"
         },
         "amount": 113,
         "unit": "g",
@@ -9031,7 +9031,7 @@ window.initialRecipes = [
         "key": "garlic powder",
         "name": {
           "en": "garlic powder",
-          "nl": "knoflook poeder",
+          "nl": "knoflookpoeder",
           "fr": "poudre d'ail"
         },
         "amount": 0.5,
@@ -9080,7 +9080,7 @@ window.initialRecipes = [
         "name": {
           "en": "tortilla chips",
           "nl": "tortillachips",
-          "fr": "chips tortillas"
+          "fr": "chips tortilla"
         },
         "amount": 170,
         "unit": "g",
@@ -9208,15 +9208,15 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "half",
+        "key": "cream",
         "name": {
-          "en": "half",
-          "nl": "half",
-          "fr": "half"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": null,
         "unit": "to taste",
-        "category": "Kruidenier",
+        "category": "Zuivel & Eieren",
         "staple": false
       },
       {
@@ -9363,9 +9363,9 @@ window.initialRecipes = [
       {
         "key": "apple cider vinegar",
         "name": {
-          "en": "apple cider vinegar",
+          "en": "cider vinegar",
           "nl": "appelazijn",
-          "fr": "vinaigre de cidre de pomme"
+          "fr": "vinaigre de cidre"
         },
         "amount": 240,
         "unit": "ml",
@@ -9388,7 +9388,7 @@ window.initialRecipes = [
         "key": "chili powder",
         "name": {
           "en": "chili powder",
-          "nl": "chili poeder",
+          "nl": "chilipoeder",
           "fr": "poudre de chili"
         },
         "amount": 2,
@@ -9543,8 +9543,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 63,
@@ -9643,8 +9643,8 @@ window.initialRecipes = [
         "key": "shortening",
         "name": {
           "en": "shortening",
-          "nl": "verkorting",
-          "fr": "raccourcissement"
+          "nl": "bakvet",
+          "fr": "graisse végétale"
         },
         "amount": 63,
         "unit": "g",
@@ -9987,7 +9987,7 @@ window.initialRecipes = [
         ]
       },
       "nl": {
-        "title": "Bourbon Street Beignets",
+        "title": "Bourbon Street beignets",
         "subtitle": "Je kunt nooit teveel hor d'oeuvre-recepten hebben, dus probeer Bour...",
         "description": "Je kunt nooit teveel hor d'oeuvre-recepten hebben, dus probeer Bourbon Street Beignets eens. 20 mensen waren onder de indruk van dit recept. Van bereiding tot op het bord duurt dit recept ongeveer 45 minuten.",
         "instructions": [
@@ -10090,8 +10090,8 @@ window.initialRecipes = [
         "key": "shortening",
         "name": {
           "en": "shortening",
-          "nl": "verkorting",
-          "fr": "raccourcissement"
+          "nl": "bakvet",
+          "fr": "graisse végétale"
         },
         "amount": 2,
         "unit": "el",
@@ -10744,7 +10744,7 @@ window.initialRecipes = [
         "key": "green beans",
         "name": {
           "en": "green beans",
-          "nl": "groene bonen",
+          "nl": "prinsessenbonen",
           "fr": "haricots verts"
         },
         "amount": 454,
@@ -10789,16 +10789,16 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken stock",
+        "key": "chicken broth",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
-          "fr": "bouillon de poulet"
+          "fr": "bouillon de poule"
         },
         "amount": 31,
         "unit": "g",
-        "category": "Slagerij & Gevogelte",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "brown sugar",
@@ -11546,7 +11546,7 @@ window.initialRecipes = [
         "key": "garlic powder",
         "name": {
           "en": "garlic powder",
-          "nl": "knoflook poeder",
+          "nl": "knoflookpoeder",
           "fr": "poudre d'ail"
         },
         "amount": 1,
@@ -11817,7 +11817,7 @@ window.initialRecipes = [
         "name": {
           "en": "almond flour",
           "nl": "amandelmeel",
-          "fr": "farine d'amande"
+          "fr": "poudre d'amandes"
         },
         "amount": 63,
         "unit": "g",
@@ -11912,7 +11912,7 @@ window.initialRecipes = [
         "key": "tapioca flour",
         "name": {
           "en": "tapioca flour",
-          "nl": "tapiocameel",
+          "nl": "tapiocazetmeel",
           "fr": "farine de tapioca"
         },
         "amount": 3,
@@ -11924,7 +11924,7 @@ window.initialRecipes = [
         "key": "pastry flour",
         "name": {
           "en": "pastry flour",
-          "nl": "banketmeel",
+          "nl": "patisseriebloem",
           "fr": "farine à pâtisserie"
         },
         "amount": 94,
@@ -12048,7 +12048,7 @@ window.initialRecipes = [
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
-          "fr": "fromage à la crème"
+          "fr": "fromage frais"
         },
         "amount": 85,
         "unit": "g",
@@ -12413,7 +12413,7 @@ window.initialRecipes = [
         "key": "sesame seeds",
         "name": {
           "en": "sesame seeds",
-          "nl": "sesamzaadjes",
+          "nl": "sesamzaad",
           "fr": "graines de sésame"
         },
         "amount": 1,
@@ -12575,7 +12575,7 @@ window.initialRecipes = [
         "key": "chili powder",
         "name": {
           "en": "chili powder",
-          "nl": "chili poeder",
+          "nl": "chilipoeder",
           "fr": "poudre de chili"
         },
         "amount": 0.5,
@@ -12656,7 +12656,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -12696,7 +12696,7 @@ window.initialRecipes = [
         "name": {
           "en": "tortilla chips",
           "nl": "tortillachips",
-          "fr": "chips tortillas"
+          "fr": "chips tortilla"
         },
         "amount": 250,
         "unit": "g",
@@ -12800,15 +12800,15 @@ window.initialRecipes = [
     },
     "ingredients": [
       {
-        "key": "half",
+        "key": "cream",
         "name": {
-          "en": "half",
-          "nl": "half",
-          "fr": "half"
+          "en": "cream",
+          "nl": "room",
+          "fr": "crème"
         },
         "amount": null,
         "unit": "to taste",
-        "category": "Kruidenier",
+        "category": "Zuivel & Eieren",
         "staple": false
       },
       {
@@ -12863,7 +12863,7 @@ window.initialRecipes = [
         "key": "orange zest",
         "name": {
           "en": "orange zest",
-          "nl": "sinaasappelschil",
+          "nl": "sinaasappelrasp",
           "fr": "zeste d'orange"
         },
         "amount": 1,
@@ -12888,7 +12888,7 @@ window.initialRecipes = [
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
-          "fr": "du jus d'orange"
+          "fr": "jus d'orange"
         },
         "amount": 2,
         "unit": "kl",
@@ -12990,8 +12990,8 @@ window.initialRecipes = [
         "key": "shrimp",
         "name": {
           "en": "shrimp",
-          "nl": "garnaal",
-          "fr": "crevette"
+          "nl": "garnalen",
+          "fr": "crevettes"
         },
         "amount": 600,
         "unit": "g",
@@ -13107,7 +13107,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "spring onion",
+        "key": "scallion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -13270,7 +13270,7 @@ window.initialRecipes = [
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
-          "fr": "fromage à la crème"
+          "fr": "fromage frais"
         },
         "amount": 113,
         "unit": "g",
@@ -13437,7 +13437,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "cornflour",
+        "key": "cornstarch",
         "name": {
           "en": "cornflour",
           "nl": "maïzena",
@@ -13446,14 +13446,14 @@ window.initialRecipes = [
         "amount": 1,
         "unit": "el",
         "category": "Groenten & Fruit",
-        "staple": false
+        "staple": true
       },
       {
         "key": "cream cheese",
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
-          "fr": "fromage à la crème"
+          "fr": "fromage frais"
         },
         "amount": 500,
         "unit": "g",
@@ -13623,11 +13623,11 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "bittersweet chocolate",
+        "key": "dark chocolate",
         "name": {
-          "en": "bittersweet chocolate",
-          "nl": "bitterzoete chocolade",
-          "fr": "chocolat aigre-doux"
+          "en": "dark chocolate",
+          "nl": "pure chocolade",
+          "fr": "chocolat noir"
         },
         "amount": 28,
         "unit": "g",
@@ -13818,7 +13818,7 @@ window.initialRecipes = [
         "key": "soy milk",
         "name": {
           "en": "soy milk",
-          "nl": "soja melk",
+          "nl": "sojamelk",
           "fr": "lait de soja"
         },
         "amount": 120,
@@ -13830,7 +13830,7 @@ window.initialRecipes = [
         "key": "soy milk",
         "name": {
           "en": "soy milk",
-          "nl": "soja melk",
+          "nl": "sojamelk",
           "fr": "lait de soja"
         },
         "amount": 1,
@@ -14256,7 +14256,7 @@ window.initialRecipes = [
         "key": "almond extract",
         "name": {
           "en": "almond extract",
-          "nl": "amandel-extract",
+          "nl": "amandelextract",
           "fr": "extrait d'amande"
         },
         "amount": 0.5,
@@ -14340,7 +14340,7 @@ window.initialRecipes = [
         "key": "pastry flour",
         "name": {
           "en": "pastry flour",
-          "nl": "banketmeel",
+          "nl": "patisseriebloem",
           "fr": "farine à pâtisserie"
         },
         "amount": 250,
@@ -14694,7 +14694,7 @@ window.initialRecipes = [
         "key": "tapioca flour",
         "name": {
           "en": "tapioca flour",
-          "nl": "tapiocameel",
+          "nl": "tapiocazetmeel",
           "fr": "farine de tapioca"
         },
         "amount": 125,
@@ -14862,8 +14862,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 2,
@@ -15239,7 +15239,7 @@ window.initialRecipes = [
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
-          "fr": "du jus d'orange"
+          "fr": "jus d'orange"
         },
         "amount": 360,
         "unit": "ml",
@@ -15592,7 +15592,7 @@ window.initialRecipes = [
         "key": "corn tortillas",
         "name": {
           "en": "corn tortillas",
-          "nl": "maïstortilla's",
+          "nl": "maïstortillas",
           "fr": "tortillas de maïs"
         },
         "amount": 4,
@@ -15739,7 +15739,7 @@ window.initialRecipes = [
         "key": "chili powder",
         "name": {
           "en": "chili powder",
-          "nl": "chili poeder",
+          "nl": "chilipoeder",
           "fr": "poudre de chili"
         },
         "amount": 0.5,
@@ -16096,7 +16096,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -16267,11 +16267,11 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "lump crab meat",
+        "key": "crab meat",
         "name": {
-          "en": "lump crab meat",
-          "nl": "forfaitair krabvlees",
-          "fr": "chair de crabe en morceaux"
+          "en": "crab meat",
+          "nl": "krabvlees",
+          "fr": "chair de crabe"
         },
         "amount": 227,
         "unit": "g",
@@ -16408,7 +16408,7 @@ window.initialRecipes = [
         "key": "cake flour",
         "name": {
           "en": "cake flour",
-          "nl": "cakemeel",
+          "nl": "patisseriebloem",
           "fr": "farine à gâteau"
         },
         "amount": 125,
@@ -16942,8 +16942,8 @@ window.initialRecipes = [
         "key": "shrimp",
         "name": {
           "en": "shrimp",
-          "nl": "garnaal",
-          "fr": "crevette"
+          "nl": "garnalen",
+          "fr": "crevettes"
         },
         "amount": 20,
         "unit": "st.",
@@ -17602,7 +17602,7 @@ window.initialRecipes = [
         "key": "garlic powder",
         "name": {
           "en": "garlic powder",
-          "nl": "knoflook poeder",
+          "nl": "knoflookpoeder",
           "fr": "poudre d'ail"
         },
         "amount": 0.5,
@@ -18325,7 +18325,7 @@ window.initialRecipes = [
         "key": "lemon extract",
         "name": {
           "en": "lemon extract",
-          "nl": "citroen-extract",
+          "nl": "citroenextract",
           "fr": "extrait de citron"
         },
         "amount": 0.5,
@@ -18617,7 +18617,7 @@ window.initialRecipes = [
         "name": {
           "en": "cream cheese",
           "nl": "roomkaas",
-          "fr": "fromage à la crème"
+          "fr": "fromage frais"
         },
         "amount": 227,
         "unit": "g",
@@ -18661,7 +18661,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken stock",
+        "key": "chicken broth",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -18669,8 +18669,8 @@ window.initialRecipes = [
         },
         "amount": 240,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "olive oil",
@@ -18700,7 +18700,7 @@ window.initialRecipes = [
         "key": "chili powder",
         "name": {
           "en": "chili powder",
-          "nl": "chili poeder",
+          "nl": "chilipoeder",
           "fr": "poudre de chili"
         },
         "amount": 1,
@@ -18709,7 +18709,7 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -19015,7 +19015,7 @@ window.initialRecipes = [
         "key": "ground turkey",
         "name": {
           "en": "ground turkey",
-          "nl": "gemalen kalkoen",
+          "nl": "kalkoengehakt",
           "fr": "dinde hachée"
         },
         "amount": 680,
@@ -19406,7 +19406,7 @@ window.initialRecipes = [
         "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
-          "nl": "cacao poeder",
+          "nl": "cacaopoeder",
           "fr": "poudre de cacao"
         },
         "amount": 1,
@@ -19514,7 +19514,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "spring onion",
+        "key": "scallion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -19553,8 +19553,8 @@ window.initialRecipes = [
         "key": "brown rice",
         "name": {
           "en": "brown rice",
-          "nl": "bruine rijst",
-          "fr": "riz brun"
+          "nl": "zilvervliesrijst",
+          "fr": "riz complet"
         },
         "amount": 375,
         "unit": "g",
@@ -19613,7 +19613,7 @@ window.initialRecipes = [
         "key": "sesame seeds",
         "name": {
           "en": "sesame seeds",
-          "nl": "sesamzaadjes",
+          "nl": "sesamzaad",
           "fr": "graines de sésame"
         },
         "amount": null,
@@ -19805,7 +19805,7 @@ window.initialRecipes = [
         "key": "ground turkey",
         "name": {
           "en": "ground turkey",
-          "nl": "gemalen kalkoen",
+          "nl": "kalkoengehakt",
           "fr": "dinde hachée"
         },
         "amount": 227,
@@ -19876,8 +19876,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 1,
@@ -20033,7 +20033,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "paprika powder",
+        "key": "paprika",
         "name": {
           "en": "paprika powder",
           "nl": "paprikapoeder",
@@ -20366,7 +20366,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "vegetable stock",
+        "key": "vegetable broth",
         "name": {
           "en": "vegetable stock",
           "nl": "groentebouillon",
@@ -20374,8 +20374,8 @@ window.initialRecipes = [
         },
         "amount": 375,
         "unit": "g",
-        "category": "Groenten & Fruit",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "onion",
@@ -20405,7 +20405,7 @@ window.initialRecipes = [
         "key": "curry powder",
         "name": {
           "en": "curry powder",
-          "nl": "kerrie poeder",
+          "nl": "kerriepoeder",
           "fr": "poudre de curry"
         },
         "amount": 1.5,
@@ -20561,11 +20561,11 @@ window.initialRecipes = [
         "staple": true
       },
       {
-        "key": "bittersweet chocolate",
+        "key": "dark chocolate",
         "name": {
-          "en": "bittersweet chocolate",
-          "nl": "bitterzoete chocolade",
-          "fr": "chocolat aigre-doux"
+          "en": "dark chocolate",
+          "nl": "pure chocolade",
+          "fr": "chocolat noir"
         },
         "amount": 57,
         "unit": "g",
@@ -20588,7 +20588,7 @@ window.initialRecipes = [
         "key": "cake flour",
         "name": {
           "en": "cake flour",
-          "nl": "cakemeel",
+          "nl": "patisseriebloem",
           "fr": "farine à gâteau"
         },
         "amount": 219,
@@ -20600,7 +20600,7 @@ window.initialRecipes = [
         "key": "cocoa powder",
         "name": {
           "en": "cocoa powder",
-          "nl": "cacao poeder",
+          "nl": "cacaopoeder",
           "fr": "poudre de cacao"
         },
         "amount": 63,
@@ -20933,8 +20933,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 0.3,
@@ -21085,7 +21085,7 @@ window.initialRecipes = [
         "name": {
           "en": "orange juice",
           "nl": "sinaasappelsap",
-          "fr": "du jus d'orange"
+          "fr": "jus d'orange"
         },
         "amount": 60,
         "unit": "ml",
@@ -21299,8 +21299,8 @@ window.initialRecipes = [
       {
         "key": "worcestershire sauce",
         "name": {
-          "en": "worcestershire sauce",
-          "nl": "worcestershiresaus",
+          "en": "Worcestershire sauce",
+          "nl": "worcestersaus",
           "fr": "sauce Worcestershire"
         },
         "amount": 1,
@@ -21786,7 +21786,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "chicken stock",
+        "key": "chicken broth",
         "name": {
           "en": "chicken stock",
           "nl": "kippenbouillon",
@@ -21794,8 +21794,8 @@ window.initialRecipes = [
         },
         "amount": 120,
         "unit": "ml",
-        "category": "Slagerij & Gevogelte",
-        "staple": false
+        "category": "Kruidenier",
+        "staple": true
       },
       {
         "key": "soy sauce",
@@ -21834,7 +21834,7 @@ window.initialRecipes = [
         "staple": false
       },
       {
-        "key": "spring onion",
+        "key": "scallion",
         "name": {
           "en": "spring onion",
           "nl": "lente-ui",
@@ -21933,7 +21933,7 @@ window.initialRecipes = [
         "key": "almond extract",
         "name": {
           "en": "almond extract",
-          "nl": "amandel-extract",
+          "nl": "amandelextract",
           "fr": "extrait d'amande"
         },
         "amount": 0.5,

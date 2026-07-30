@@ -126,7 +126,7 @@
     [/milk chocolate|chocolate milk powder|malt powder/i, 'Kruidenier'],
     [/vinegar|azijn|vinaigre/i, 'Kruidenier'],
     [/wine gum|cooking wine/i, 'Kruidenier'],
-    [/chicken broth|beef broth|vegetable broth|bone broth|stock cube|bouillon/i, 'Kruidenier'],
+    [/(chicken|beef|vegetable|fish|bone|veal) (broth|stock)|stock cube|bouillon|fond de/i, 'Kruidenier'],
     [/breadcrumb|paneermeel|chapelure|bread flour/i, 'Kruidenier'],
     [/lemon juice|lime juice|citroensap|limoensap|jus de citron|juice of/i, 'Groenten & Fruit'],
     [/green bean|haricot|sperzieboon|snijboon/i, 'Groenten & Fruit'],
@@ -283,7 +283,21 @@
     'crushed red pepper': 'chili flakes',
     'canned tomatoes': 'tomato passata', 'chopped tomatoes': 'tomato passata',
     'salt and pepper': 'salt', // split first; alias is the fallback
-    'seasoning': 'salt'
+    'seasoning': 'salt',
+    // Fragments the importer left behind, mapped to what they actually mean.
+    'half': 'cream',                                  // "half and half"
+    'dsh pepper sauce': 'pepper sauce',               // "dsh" was "dash"
+    'tiny drop of almond extract': 'almond extract',
+    'chocolate of at least cocoa parts': 'dark chocolate',
+    'bittersweet chocolate': 'dark chocolate',
+    'semisweet chocolate': 'dark chocolate',
+    'almond meal': 'almond flour',
+    'lump crab meat': 'crab meat',
+    'water-packed tuna': 'canned tuna',
+    'tubular pasta': 'pasta',
+    'unbleached flour': 'flour',
+    'granulated white sugar': 'sugar',
+    'olive oil extra virgin': 'olive oil'
   };
 
   // Canonical translations for the ingredients that show up most often.
@@ -364,7 +378,88 @@
     'peanuts': { en: 'peanuts', nl: 'pinda’s', fr: 'cacahuètes' },
     'pecans': { en: 'pecans', nl: 'pecannoten', fr: 'noix de pécan' },
     'chocolate': { en: 'chocolate', nl: 'chocolade', fr: 'chocolat' },
-    'soy sauce': { en: 'soy sauce', nl: 'sojasaus', fr: 'sauce soja' }
+    'soy sauce': { en: 'soy sauce', nl: 'sojasaus', fr: 'sauce soja' },
+    // Second pass: the ingredients that turn up most often across the database,
+    // plus the ones the machine translator got wrong. "Shortening" had become
+    // "verkorting"/"raccourcissement" (the abstract noun), "almond meal" was
+    // "amandel maaltijd" (a meal you sit down to) and "lump crab meat" was
+    // "forfaitair krabvlees" (a lump-sum payment).
+    'shortening': { en: 'shortening', nl: 'bakvet', fr: 'graisse végétale' },
+    'almond flour': { en: 'almond flour', nl: 'amandelmeel', fr: "poudre d'amandes" },
+    'crab meat': { en: 'crab meat', nl: 'krabvlees', fr: 'chair de crabe' },
+    'canned tuna': { en: 'canned tuna', nl: 'tonijn uit blik', fr: 'thon en boîte' },
+    'pepper sauce': { en: 'pepper sauce', nl: 'pepersaus', fr: 'sauce au poivre' },
+    'dark chocolate': { en: 'dark chocolate', nl: 'pure chocolade', fr: 'chocolat noir' },
+    'worcestershire sauce': { en: 'Worcestershire sauce', nl: 'worcestersaus', fr: 'sauce Worcestershire' },
+    'cream cheese': { en: 'cream cheese', nl: 'roomkaas', fr: 'fromage frais' },
+    'sour cream': { en: 'sour cream', nl: 'zure room', fr: 'crème aigre' },
+    'yogurt': { en: 'yogurt', nl: 'yoghurt', fr: 'yaourt' },
+    'grated cheese': { en: 'grated cheese', nl: 'geraspte kaas', fr: 'fromage râpé' },
+    'orange juice': { en: 'orange juice', nl: 'sinaasappelsap', fr: "jus d'orange" },
+    'maple syrup': { en: 'maple syrup', nl: 'ahornsiroop', fr: "sirop d'érable" },
+    'mayonnaise': { en: 'mayonnaise', nl: 'mayonaise', fr: 'mayonnaise' },
+    'ketchup': { en: 'ketchup', nl: 'ketchup', fr: 'ketchup' },
+    'peas': { en: 'peas', nl: 'erwten', fr: 'petits pois' },
+    'green beans': { en: 'green beans', nl: 'prinsessenbonen', fr: 'haricots verts' },
+    'corn': { en: 'corn', nl: 'maïs', fr: 'maïs' },
+    'strawberries': { en: 'strawberries', nl: 'aardbeien', fr: 'fraises' },
+    'cherries': { en: 'cherries', nl: 'kersen', fr: 'cerises' },
+    'raisins': { en: 'raisins', nl: 'rozijnen', fr: 'raisins secs' },
+    'figs': { en: 'figs', nl: 'vijgen', fr: 'figues' },
+    'pineapple': { en: 'pineapple', nl: 'ananas', fr: 'ananas' },
+    'avocado': { en: 'avocado', nl: 'avocado', fr: 'avocat' },
+    'artichokes': { en: 'artichokes', nl: 'artisjokken', fr: 'artichauts' },
+    'cocoa powder': { en: 'cocoa powder', nl: 'cacaopoeder', fr: 'poudre de cacao' },
+    'chocolate chips': { en: 'chocolate chips', nl: 'chocoladestukjes', fr: 'pépites de chocolat' },
+    'garlic powder': { en: 'garlic powder', nl: 'knoflookpoeder', fr: "poudre d'ail" },
+    'onion powder': { en: 'onion powder', nl: 'uienpoeder', fr: "poudre d'oignon" },
+    'chili powder': { en: 'chili powder', nl: 'chilipoeder', fr: 'poudre de chili' },
+    'curry powder': { en: 'curry powder', nl: 'kerriepoeder', fr: 'poudre de curry' },
+    'cayenne pepper': { en: 'cayenne pepper', nl: 'cayennepeper', fr: 'poivre de Cayenne' },
+    'oregano': { en: 'oregano', nl: 'oregano', fr: 'origan' },
+    'sesame seeds': { en: 'sesame seeds', nl: 'sesamzaad', fr: 'graines de sésame' },
+    'cumin seeds': { en: 'cumin seeds', nl: 'komijnzaad', fr: 'graines de cumin' },
+    'almond extract': { en: 'almond extract', nl: 'amandelextract', fr: "extrait d'amande" },
+    'lemon extract': { en: 'lemon extract', nl: 'citroenextract', fr: 'extrait de citron' },
+    'cornstarch': { en: 'cornflour', nl: 'maïzena', fr: 'maïzena' },
+    'dry yeast': { en: 'dry yeast', nl: 'droge gist', fr: 'levure sèche' },
+    'oil': { en: 'oil', nl: 'olie', fr: 'huile' },
+    'sesame oil': { en: 'sesame oil', nl: 'sesamolie', fr: 'huile de sésame' },
+    'coconut oil': { en: 'coconut oil', nl: 'kokosolie', fr: 'huile de coco' },
+    'apple cider vinegar': { en: 'cider vinegar', nl: 'appelazijn', fr: 'vinaigre de cidre' },
+    'red wine vinegar': { en: 'red wine vinegar', nl: 'rode wijnazijn', fr: 'vinaigre de vin rouge' },
+    'spaghetti': { en: 'spaghetti', nl: 'spaghetti', fr: 'spaghetti' },
+    'pasta': { en: 'pasta', nl: 'pasta', fr: 'pâtes' },
+    'couscous': { en: 'couscous', nl: 'couscous', fr: 'couscous' },
+    'brown rice': { en: 'brown rice', nl: 'zilvervliesrijst', fr: 'riz complet' },
+    'cake flour': { en: 'cake flour', nl: 'patisseriebloem', fr: 'farine à gâteau' },
+    'pastry flour': { en: 'pastry flour', nl: 'patisseriebloem', fr: 'farine à pâtisserie' },
+    'tapioca flour': { en: 'tapioca flour', nl: 'tapiocazetmeel', fr: 'farine de tapioca' },
+    'turbinado sugar': { en: 'raw cane sugar', nl: 'ruwe rietsuiker', fr: 'sucre de canne roux' },
+    'wine': { en: 'wine', nl: 'wijn', fr: 'vin' },
+    'rum': { en: 'rum', nl: 'rum', fr: 'rhum' },
+    'chicken': { en: 'chicken', nl: 'kip', fr: 'poulet' },
+    'chicken drumsticks': { en: 'chicken drumsticks', nl: 'kippenbouten', fr: 'pilons de poulet' },
+    'ground turkey': { en: 'ground turkey', nl: 'kalkoengehakt', fr: 'dinde hachée' },
+    'leg of lamb': { en: 'leg of lamb', nl: 'lamsbout', fr: "gigot d'agneau" },
+    'pork loin chops': { en: 'pork chops', nl: 'varkenskoteletten', fr: 'côtes de porc' },
+    'shrimp': { en: 'shrimp', nl: 'garnalen', fr: 'crevettes' },
+    'mussels': { en: 'mussels', nl: 'mosselen', fr: 'moules' },
+    'almond milk': { en: 'almond milk', nl: 'amandelmelk', fr: "lait d'amande" },
+    'soy milk': { en: 'soy milk', nl: 'sojamelk', fr: 'lait de soja' },
+    'oat cream': { en: 'oat cream', nl: 'haverroom', fr: "crème d'avoine" },
+    'vegetable broth': { en: 'vegetable stock', nl: 'groentebouillon', fr: 'bouillon de légumes' },
+    'tomato sauce': { en: 'tomato sauce', nl: 'tomatensaus', fr: 'sauce tomate' },
+    'barbecue sauce': { en: 'barbecue sauce', nl: 'barbecuesaus', fr: 'sauce barbecue' },
+    'stir-fry vegetables': { en: 'stir-fry vegetables', nl: 'roerbakgroenten', fr: 'légumes à sauter' },
+    'mint leaves': { en: 'mint leaves', nl: 'muntblaadjes', fr: 'feuilles de menthe' },
+    'orange zest': { en: 'orange zest', nl: 'sinaasappelrasp', fr: "zeste d'orange" },
+    'tortilla chips': { en: 'tortilla chips', nl: 'tortillachips', fr: 'chips tortilla' },
+    'corn tortillas': { en: 'corn tortillas', nl: 'maïstortillas', fr: 'tortillas de maïs' },
+    'belgian endives': { en: 'Belgian endives', nl: 'witloof', fr: 'chicons' },
+    'beef chuck': { en: 'stewing beef', nl: 'rundstoofvlees', fr: 'carbonnades de boeuf' },
+    'liège syrup': { en: 'Liège syrup', nl: 'Luikse siroop', fr: 'sirop de Liège' },
+    'belgian pearl sugar': { en: 'pearl sugar', nl: 'parelsuiker', fr: 'sucre perlé' }
   };
 
   // ---------------------------------------------------------------------------
@@ -503,10 +598,27 @@
     return out;
   }
 
+  // Some canonical keys display under a different English name ("paprika" is
+  // shown as "paprika powder"). Without this reverse index, normalising an
+  // already-normalised database would turn the display name into a new key and
+  // the merge would stop recognising it.
+  var KEY_BY_DISPLAY = null;
+  function keyByDisplay() {
+    if (!KEY_BY_DISPLAY) {
+      KEY_BY_DISPLAY = {};
+      Object.keys(NAME_TRANSLATIONS).forEach(function (key) {
+        var display = String(NAME_TRANSLATIONS[key].en || '').toLowerCase();
+        if (display && display !== key) KEY_BY_DISPLAY[display] = key;
+      });
+    }
+    return KEY_BY_DISPLAY;
+  }
+
   function keyOf(name) {
     var base = cleanName(name).toLowerCase();
     if (NAME_ALIASES[base]) base = NAME_ALIASES[base];
-    return base;
+    var canonical = keyByDisplay()[base];
+    return canonical || base;
   }
 
   function isJunkName(name) {
