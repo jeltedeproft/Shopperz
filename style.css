@@ -2083,3 +2083,46 @@ header {
   padding: 2px 6px;
   outline: none;
 }
+
+/* ============================================================
+   Accessibility
+   ============================================================ */
+
+/* Visible keyboard focus everywhere. Mouse users never see it. */
+:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.recipe-card:focus-visible,
+.featured-card:focus-visible {
+  outline-offset: -2px;
+}
+
+/* Buttons in the tab bar must look exactly like the anchors they replaced. */
+.tab-item {
+  background: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.section-link {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted var(--border-color);
+  font-family: var(--font-body);
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

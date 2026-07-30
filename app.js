@@ -55,6 +55,7 @@ const uiTranslations = {
     toastAddedBatch: "Generated grocery list for planned recipes!",
     batchSelectedText: "Selected: {count} recipes",
     batchGenerateBtn: "Generate List",
+    selectForList: "Select for the grocery list",
     batchServingsTitle: "Cooking for how many?",
     difficultyEasy: "Easy",
     difficultyMedium: "Medium",
@@ -199,6 +200,7 @@ const uiTranslations = {
     toastAddedBatch: "Boodschappenlijst gegenereerd voor geselecteerde recepten!",
     batchSelectedText: "Geselecteerd: {count} recepten",
     batchGenerateBtn: "Lijst Maken",
+    selectForList: "Selecteer voor de boodschappenlijst",
     batchServingsTitle: "Voor hoeveel personen?",
     difficultyEasy: "Gemakkelijk",
     difficultyMedium: "Gemiddeld",
@@ -339,6 +341,7 @@ const uiTranslations = {
     toastAddedBatch: "Liste de courses générée pour les recettes planifiées !",
     batchSelectedText: "Sélection : {count} recettes",
     batchGenerateBtn: "Générer la Liste",
+    selectForList: "Sélectionner pour la liste de courses",
     batchServingsTitle: "Pour combien de personnes ?",
     difficultyEasy: "Facile",
     difficultyMedium: "Moyen",
@@ -574,6 +577,59 @@ function debounce(fn, wait) {
   };
 }
 
+// --- Keyboard & focus helpers ---
+
+/** Make a non-button element behave like one for keyboard users. */
+function onActivate(el, handler) {
+  el.addEventListener('click', handler);
+  el.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+      e.preventDefault();
+      handler(e);
+    }
+  });
+}
+
+const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+let focusReturnTo = null;
+
+/** Keep Tab inside an open dialog and remember where focus came from. */
+function trapFocus(container) {
+  focusReturnTo = document.activeElement;
+
+  const focusable = Array.from(container.querySelectorAll(FOCUSABLE))
+    .filter(el => el.offsetParent !== null || el === container);
+  (focusable[0] || container).focus();
+
+  container._trapHandler = e => {
+    if (e.key !== 'Tab') return;
+    const items = Array.from(container.querySelectorAll(FOCUSABLE)).filter(el => el.offsetParent !== null);
+    if (items.length === 0) return;
+    const first = items[0];
+    const last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  };
+  container.addEventListener('keydown', container._trapHandler);
+}
+
+function releaseFocus(container) {
+  if (container && container._trapHandler) {
+    container.removeEventListener('keydown', container._trapHandler);
+    container._trapHandler = null;
+  }
+  if (focusReturnTo && typeof focusReturnTo.focus === 'function') {
+    focusReturnTo.focus();
+  }
+  focusReturnTo = null;
+}
+
 function aisleLabel(aisle) {
   const key = AISLE_LABEL_KEYS[aisle];
   return key ? t(key) : aisle;
@@ -787,7 +843,10 @@ function switchTab(tabId) {
   state.activeTab = tabId;
 
   document.querySelectorAll('.tab-item').forEach(item => {
-    item.classList.toggle('active', item.dataset.tab === tabId);
+    const current = item.dataset.tab === tabId;
+    item.classList.toggle('active', current);
+    if (current) item.setAttribute('aria-current', 'page');
+    else item.removeAttribute('aria-current');
   });
 
   document.querySelectorAll('.tab-panel').forEach(panel => {
@@ -906,6 +965,7 @@ function setupEventListeners() {
       const isHidden = tray.style.display === 'none' || !tray.style.display;
       tray.style.display = isHidden ? 'block' : 'none';
       filterToggle.classList.toggle('active', isHidden);
+      filterToggle.setAttribute('aria-expanded', String(isHidden));
     });
   }
 
@@ -928,6 +988,20 @@ function setupEventListeners() {
 
   const bulkGenBtn = document.getElementById('generate-bulk-btn');
   if (bulkGenBtn) bulkGenBtn.addEventListener('click', generateBulkRecipes);
+
+  // Escape closes whatever is on top; arrow keys page through cook mode.
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      if (cookModeState.active) exitCookMode();
+      else if (document.getElementById('custom-recipe-modal').classList.contains('active')) closeRecipeModal();
+      else if (document.getElementById('recipe-drawer').classList.contains('active')) closeRecipeDrawer();
+      return;
+    }
+    if (cookModeState.active) {
+      if (e.key === 'ArrowRight') document.getElementById('cook-mode-next-btn').click();
+      else if (e.key === 'ArrowLeft') document.getElementById('cook-mode-prev-btn').click();
+    }
+  });
 
   initCookMode();
 }
@@ -954,15 +1028,11 @@ function initCookMode() {
       updateCookModeStep();
       overlay.style.display = 'flex';
       cookModeState.active = true;
+      trapFocus(overlay);
     });
   }
 
-  if (exitBtn) {
-    exitBtn.addEventListener('click', () => {
-      overlay.style.display = 'none';
-      cookModeState.active = false;
-    });
-  }
+  if (exitBtn) exitBtn.addEventListener('click', exitCookMode);
 
   if (prevBtn) {
     prevBtn.addEventListener('click', () => {
@@ -979,12 +1049,19 @@ function initCookMode() {
         cookModeState.currentStepIndex++;
         updateCookModeStep();
       } else {
-        overlay.style.display = 'none';
-        cookModeState.active = false;
+        exitCookMode();
         showToast(t('cookModeDone'), 'success');
       }
     });
   }
+}
+
+function exitCookMode() {
+  const overlay = document.getElementById('cook-mode-overlay');
+  if (!cookModeState.active) return;
+  overlay.style.display = 'none';
+  cookModeState.active = false;
+  releaseFocus(overlay);
 }
 
 function updateCookModeStep() {
@@ -1027,9 +1104,12 @@ function recipeCardHtml(recipe, options) {
   const diffText = recipe.difficulty[state.settings.language] || recipe.difficulty.en;
 
   return `
-    <div class="recipe-card ${isSelected ? 'selected-for-list' : ''}" data-id="${escapeHtml(recipe.id)}">
-      <div class="recipe-card-select-btn" data-id="${escapeHtml(recipe.id)}">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <div class="recipe-card ${isSelected ? 'selected-for-list' : ''}" data-id="${escapeHtml(recipe.id)}"
+         role="button" tabindex="0" aria-label="${escapeHtml(name)}">
+      <div class="recipe-card-select-btn" data-id="${escapeHtml(recipe.id)}"
+           role="checkbox" tabindex="0" aria-checked="${isSelected}"
+           aria-label="${escapeHtml(t('selectForList'))}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <polyline points="20 6 9 17 4 12"></polyline>
         </svg>
       </div>
@@ -1054,12 +1134,16 @@ function bindRecipeCards(container) {
   container.querySelectorAll('.recipe-card').forEach(card => {
     const selectBtn = card.querySelector('.recipe-card-select-btn');
     if (selectBtn) {
-      selectBtn.addEventListener('click', e => {
+      onActivate(selectBtn, e => {
         e.stopPropagation();
         toggleRecipeSelection(card.dataset.id);
       });
     }
-    card.addEventListener('click', () => openRecipeDrawer(card.dataset.id));
+    onActivate(card, e => {
+      // Enter on the select checkbox must not also open the drawer.
+      if (e.target && e.target.closest && e.target.closest('.recipe-card-select-btn')) return;
+      openRecipeDrawer(card.dataset.id);
+    });
   });
 }
 
@@ -1080,9 +1164,12 @@ function renderHomeTab() {
     const trans = recipeText(featuredRecipe);
 
     featuredContainer.innerHTML = `
-      <div class="featured-card ${isSelected ? 'selected-for-list' : ''}" data-id="${escapeHtml(featuredRecipe.id)}">
-        <div class="recipe-card-select-btn" data-id="${escapeHtml(featuredRecipe.id)}">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <div class="featured-card ${isSelected ? 'selected-for-list' : ''}" data-id="${escapeHtml(featuredRecipe.id)}"
+           role="button" tabindex="0" aria-label="${escapeHtml(trans.title)}">
+        <div class="recipe-card-select-btn" data-id="${escapeHtml(featuredRecipe.id)}"
+             role="checkbox" tabindex="0" aria-checked="${isSelected}"
+             aria-label="${escapeHtml(t('selectForList'))}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
         </div>
@@ -1095,11 +1182,12 @@ function renderHomeTab() {
       </div>
     `;
 
-    featuredContainer.querySelector('.recipe-card-select-btn').addEventListener('click', e => {
+    onActivate(featuredContainer.querySelector('.recipe-card-select-btn'), e => {
       e.stopPropagation();
       toggleRecipeSelection(featuredRecipe.id);
     });
-    featuredContainer.querySelector('.featured-card').addEventListener('click', () => {
+    onActivate(featuredContainer.querySelector('.featured-card'), e => {
+      if (e.target && e.target.closest && e.target.closest('.recipe-card-select-btn')) return;
       openRecipeDrawer(featuredRecipe.id);
     });
   }
@@ -1228,7 +1316,11 @@ function toggleRecipeSelection(recipeId) {
   saveSelection();
 
   document.querySelectorAll(`.recipe-card[data-id="${recipeId}"], .featured-card[data-id="${recipeId}"]`)
-    .forEach(card => card.classList.toggle('selected-for-list', idx === -1));
+    .forEach(card => {
+      card.classList.toggle('selected-for-list', idx === -1);
+      const box = card.querySelector('.recipe-card-select-btn');
+      if (box) box.setAttribute('aria-checked', String(idx === -1));
+    });
 
   updateBatchActionBar();
 }
@@ -1454,7 +1546,10 @@ function openRecipeDrawer(recipeId) {
 
   document.getElementById('servings-count').textContent = state.recipeServings;
 
-  document.getElementById('recipe-fav-btn').classList.toggle('favorited', state.favorites.includes(recipeId));
+  const favBtn = document.getElementById('recipe-fav-btn');
+  const isFavourite = state.favorites.includes(recipeId);
+  favBtn.classList.toggle('favorited', isFavourite);
+  favBtn.setAttribute('aria-pressed', String(isFavourite));
 
   // Editing and deleting only make sense for recipes you created.
   document.getElementById('recipe-edit-btn').style.display = own ? 'flex' : 'none';
@@ -1464,13 +1559,18 @@ function openRecipeDrawer(recipeId) {
   renderRecipeInstructions(trans.instructions);
 
   document.getElementById('drawer-backdrop').classList.add('active');
-  document.getElementById('recipe-drawer').classList.add('active');
+  const drawer = document.getElementById('recipe-drawer');
+  drawer.classList.add('active');
+  trapFocus(drawer);
 }
 
 function closeRecipeDrawer() {
+  const drawer = document.getElementById('recipe-drawer');
+  if (!drawer.classList.contains('active')) return;
   document.getElementById('drawer-backdrop').classList.remove('active');
-  document.getElementById('recipe-drawer').classList.remove('active');
+  drawer.classList.remove('active');
   state.selectedRecipe = null;
+  releaseFocus(drawer);
 }
 
 function updateScaledIngredients() {
@@ -1498,14 +1598,17 @@ function renderRecipeInstructions(steps) {
   }
 
   container.innerHTML = steps.map((step, idx) => `
-    <div class="step-card" data-step="${idx}">
-      <div class="step-num">${idx + 1}</div>
+    <div class="step-card" data-step="${idx}" role="checkbox" tabindex="0" aria-checked="false">
+      <div class="step-num" aria-hidden="true">${idx + 1}</div>
       <div class="step-text">${escapeHtml(step)}</div>
     </div>
   `).join('');
 
   container.querySelectorAll('.step-card').forEach(card => {
-    card.addEventListener('click', e => e.currentTarget.classList.toggle('completed'));
+    onActivate(card, e => {
+      const done = e.currentTarget.classList.toggle('completed');
+      e.currentTarget.setAttribute('aria-checked', String(done));
+    });
   });
 }
 
@@ -1519,10 +1622,12 @@ function toggleRecipeFavorite() {
   if (idx > -1) {
     state.favorites.splice(idx, 1);
     favBtn.classList.remove('favorited');
+    favBtn.setAttribute('aria-pressed', 'false');
     showToast(t('toastFavRemoved'), 'info');
   } else {
     state.favorites.push(recipeId);
     favBtn.classList.add('favorited');
+    favBtn.setAttribute('aria-pressed', 'true');
     showToast(t('toastFavAdded'), 'success');
   }
 
@@ -1617,7 +1722,8 @@ function groceryItemHtml(item) {
   return `
     <div class="grocery-item" data-id="${escapeHtml(item.id)}">
       <div class="checkbox-wrapper ${item.checked ? 'checked' : ''}">
-        <input type="checkbox" ${item.checked ? 'checked' : ''} data-id="${escapeHtml(item.id)}">
+        <input type="checkbox" ${item.checked ? 'checked' : ''} data-id="${escapeHtml(item.id)}"
+               aria-label="${escapeHtml(item.name)}">
         <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </div>
       <div class="item-details ${item.checked ? 'checked' : ''}">
@@ -1906,6 +2012,12 @@ function updateProgressHeader() {
   const percentage = Math.round((checked / total) * 100);
   if (textEl) textEl.textContent = `${checked} / ${total} ${t('itemsChecked')} (${percentage}%)`;
   if (barEl) barEl.style.width = `${percentage}%`;
+
+  const bar = document.getElementById('grocery-progress-bar');
+  if (bar) {
+    bar.setAttribute('aria-valuenow', String(percentage));
+    bar.setAttribute('aria-valuetext', `${checked} / ${total}`);
+  }
 }
 
 // --- Backup & restore ---
@@ -2045,14 +2157,19 @@ function openRecipeModal(recipe) {
 
   renderFormIngredientsPreview();
   if (!recipe) syncDerivedDietFlags();
-  document.getElementById('custom-recipe-modal').classList.add('active');
+  const modal = document.getElementById('custom-recipe-modal');
+  modal.classList.add('active');
+  trapFocus(modal);
 }
 
 function closeRecipeModal() {
-  document.getElementById('custom-recipe-modal').classList.remove('active');
+  const modal = document.getElementById('custom-recipe-modal');
+  if (!modal.classList.contains('active')) return;
+  modal.classList.remove('active');
   document.getElementById('custom-recipe-form').reset();
   state.editingRecipeId = null;
   state.customRecipeIngredients = [];
+  releaseFocus(modal);
 }
 
 function startEditingSelectedRecipe() {
