@@ -85,6 +85,8 @@ const uiTranslations = {
     scaleTestDesc: "Simulate thousands of recipes to test search speed",
     generateBtnText: "Generate",
     dataGroupTitle: "Your Data",
+    updateAvailable: "A new version is ready",
+    updateReloadBtn: "Reload",
     backupLabel: "Download a backup",
     backupDesc: "Your recipes, list, favourites and settings as one file",
     backupBtn: "Download",
@@ -230,6 +232,8 @@ const uiTranslations = {
     scaleTestDesc: "Simuleer duizenden recepten om de zoeksnelheid te testen",
     generateBtnText: "Genereren",
     dataGroupTitle: "Jouw Gegevens",
+    updateAvailable: "Er staat een nieuwe versie klaar",
+    updateReloadBtn: "Herladen",
     backupLabel: "Download een back-up",
     backupDesc: "Je recepten, lijst, favorieten en instellingen in één bestand",
     backupBtn: "Downloaden",
@@ -371,6 +375,8 @@ const uiTranslations = {
     scaleTestDesc: "Simuler des milliers de recettes pour tester la vitesse",
     generateBtnText: "Générer",
     dataGroupTitle: "Vos Données",
+    updateAvailable: "Une nouvelle version est prête",
+    updateReloadBtn: "Recharger",
     backupLabel: "Télécharger une sauvegarde",
     backupDesc: "Vos recettes, liste, favoris et paramètres dans un fichier",
     backupBtn: "Télécharger",
@@ -2448,6 +2454,22 @@ function showToast(message, type = 'success') {
   toast.classList.add('visible');
   toastTimer = setTimeout(() => toast.classList.remove('visible'), 2500);
 }
+
+/**
+ * Called by the service worker registration when a newer version has finished
+ * installing and is waiting to take over.
+ */
+window.showUpdateBanner = function (onAccept) {
+  const banner = document.getElementById('update-banner');
+  const button = document.getElementById('update-reload-btn');
+  if (!banner || !button) return;
+
+  button.onclick = () => {
+    button.disabled = true;
+    onAccept();
+  };
+  banner.classList.add('visible');
+};
 
 // Fire up
 window.addEventListener('DOMContentLoaded', initApp);

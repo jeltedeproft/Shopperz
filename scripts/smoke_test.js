@@ -530,6 +530,31 @@ const css = fs.readFileSync(path.join(ROOT, 'style.css'), 'utf8');
 check('focus is visible for keyboard users', css.includes(':focus-visible'));
 check('reduced motion is respected', css.includes('prefers-reduced-motion'));
 
+console.log('\nOffline & updates');
+const sw = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
+const swVersion = (sw.match(/ASSET_VERSION = '([^']+)'/) || [])[1];
+const htmlVersions = [...new Set([...html.matchAll(/\?v=([a-z0-9.]+)/g)].map(m => m[1]))];
+check('sw version matches the ?v= in index.html',
+  htmlVersions.length === 1 && htmlVersions[0] === swVersion,
+  `sw=${swVersion} html=${htmlVersions.join(',')}`);
+const swCode = sw.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/[^\n]*/g, '');
+const installStart = swCode.indexOf("addEventListener('install'");
+const installBlock = installStart === -1
+  ? ''
+  : swCode.slice(installStart, swCode.indexOf('\n});', installStart));
+check('service worker waits instead of taking over mid-session',
+  installStart !== -1 && !installBlock.includes('skipWaiting'));
+check('service worker can be told to activate',
+  /SKIP_WAITING/.test(sw) && /SKIP_WAITING/.test(html));
+check('page reloads once the new worker takes control',
+  /controllerchange/.test(html));
+
+let bannerShown = false;
+ctx('window.showUpdateBanner')(() => { bannerShown = true; });
+check('update banner is offered', elementsById['update-banner'].classList.contains('visible'));
+elementsById['update-reload-btn'].onclick();
+check('accepting the update messages the worker', bannerShown);
+
 console.log('\nData integrity');
 const Ing = sandbox.Ingredients;
 const recipes = state.builtInRecipes;

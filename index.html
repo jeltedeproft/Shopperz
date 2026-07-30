@@ -27,6 +27,12 @@
       </div>
     </div>
 
+    <!-- New version ready banner -->
+    <div id="update-banner" class="update-banner" role="status" aria-live="polite">
+      <span data-translate="updateAvailable">A new version is ready</span>
+      <button type="button" id="update-reload-btn" class="update-banner-btn" data-translate="updateReloadBtn">Reload</button>
+    </div>
+
     <!-- Toast Notification Banner -->
     <div id="toast" class="toast-msg" role="status" aria-live="polite">
       <span class="toast-icon">✅</span>
@@ -628,9 +634,47 @@
     updateClock();
 
     // Offline support: the whole app is cached so it works inside the shop.
+    //
+    // A new version installs in the background and then waits. The page offers
+    // a reload rather than swapping files under a running session, which would
+    // mix old markup with new code.
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js').catch(err => {
+        let reloading = false;
+
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (reloading) return;
+          reloading = true;
+          window.location.reload();
+        });
+
+        navigator.serviceWorker.register('sw.js').then(registration => {
+          const offer = worker => {
+            if (typeof window.showUpdateBanner === 'function') {
+              window.showUpdateBanner(() => worker.postMessage({ type: 'SKIP_WAITING' }));
+            }
+          };
+
+          // An update may already be sitting there from a previous visit.
+          if (registration.waiting && navigator.serviceWorker.controller) {
+            offer(registration.waiting);
+          }
+
+          registration.addEventListener('updatefound', () => {
+            const installing = registration.installing;
+            if (!installing) return;
+            installing.addEventListener('statechange', () => {
+              if (installing.state === 'installed' && navigator.serviceWorker.controller) {
+                offer(installing);
+              }
+            });
+          });
+
+          // Check again whenever the app comes back to the foreground.
+          document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') registration.update();
+          });
+        }).catch(err => {
           console.warn('Service worker registration failed:', err);
         });
       });

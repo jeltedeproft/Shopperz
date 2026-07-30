@@ -5,7 +5,9 @@
  * Bump ASSET_VERSION whenever you change index.html / app.js / style.css /
  * recipes.js — it must match the ?v= query strings in index.html.
  */
-const ASSET_VERSION = 'v14';
+// Must match the ?v= query strings in index.html exactly, or the precached
+// URLs never match what the page actually requests.
+const ASSET_VERSION = '14';
 const SHELL_CACHE = `kookpot-shell-${ASSET_VERSION}`;
 const IMAGE_CACHE = 'kookpot-images';
 const FONT_CACHE = 'kookpot-fonts';
@@ -24,11 +26,16 @@ const SHELL_ASSETS = [
 ];
 
 self.addEventListener('install', event => {
+  // Deliberately no skipWaiting() here: swapping the shell out from under a
+  // running page can mix old and new assets. The page asks us to take over
+  // once the user has accepted the update.
   event.waitUntil(
-    caches.open(SHELL_CACHE)
-      .then(cache => cache.addAll(SHELL_ASSETS))
-      .then(() => self.skipWaiting())
+    caches.open(SHELL_CACHE).then(cache => cache.addAll(SHELL_ASSETS))
   );
+});
+
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {

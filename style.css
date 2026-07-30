@@ -2126,3 +2126,44 @@ header {
     scroll-behavior: auto !important;
   }
 }
+
+/* New version ready */
+.update-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 14px;
+  font-size: 11px;
+  font-weight: 700;
+  z-index: 1100;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+.update-banner.visible {
+  transform: translateY(0);
+}
+
+.update-banner-btn {
+  background: var(--bg-primary);
+  color: var(--accent-gold);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.update-banner-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
