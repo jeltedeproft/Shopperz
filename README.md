@@ -10,19 +10,27 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 
 **Recipes**
 - 115 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units.
-- Search by title, subtitle or ingredient; filter by category (breakfast, main, soup, snack, dessert), by diet (vegetarian, vegan, candida, keto) and by allergen (gluten, nuts, dairy, eggs).
+- Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
+- Filter by category, by diet (vegetarian, vegan, candida, keto), by allergen (gluten, nuts, dairy, eggs) and by **favourites** — the pills stack, so "my favourite desserts" works.
 - Adjust servings in the recipe drawer and every quantity rescales. Countable things stay whole — you get 5 onions, never 4.3 — and "to taste" never scales.
-- **Cook Mode**: full-screen, one step at a time, for when your hands are covered in flour.
+- **Cook Mode**: full-screen, one step at a time, for when your hands are covered in flour. Arrow keys page through it.
 - Create, **edit** and **delete** your own recipes. They are stored separately from the shipped ones, so updating the app can never wipe them.
+- Diet and allergen flags are **derived from the ingredient list**, not asserted. They are a shopping aid, not a medical guarantee — an ingredient the dictionary does not recognise is assumed harmless.
 
 **Grocery list**
-- Select several recipes and generate one merged list.
+- Select several recipes and generate one merged list, with a **servings stepper per recipe**.
 - Merging happens on a canonical ingredient key, so "garlic" and "garlic cloves" become one line and the amounts add up. An ingredient that shows up in an incompatible unit gets its own line instead of being dropped.
-- Sorted by supermarket aisle: produce → fish → butcher → dairy → bakery → frozen → herbs & spices → grocery → drinks.
+- Sorted by supermarket aisle, in an order **you can rearrange in Settings** to match the route you actually walk.
 - Each line remembers which recipes it came from ("2 onions — from Stoofvlees, Waterzooi").
 - **Pantry staples are skipped by default.** Salt, pepper, oil, flour and spices don't clutter your list; they appear as one-tap chips at the top in case you actually ran out. Toggle the behaviour off in Settings.
+- Tap any quantity to change it — "1,5 kg" becomes 1500 g, free text like "a handful" is kept as typed.
 - Share the list as plain text (share sheet on mobile, clipboard on desktop).
 - Progress bar and "clear checked" for shopping in the store.
+
+**Your data**
+- Everything lives in this browser's `localStorage`, so Settings has **Download a backup** and **Restore a backup** — one JSON file with your recipes, list, favourites and settings.
+- The app works fully offline and installs to the home screen. When a new version is cached, a banner offers a reload rather than swapping files under a running session.
+- Keyboard and screen-reader usable throughout: real buttons, focus trapping in dialogs, Escape to close, visible focus rings, and `prefers-reduced-motion` honoured.
 
 ---
 
@@ -48,7 +56,8 @@ Wi-Fi, then "Add to home screen".
 | --- | --- |
 | `index.html` | The whole UI — four tabs, recipe drawer, cook mode, recipe editor |
 | `app.js` | State, rendering, grocery logic, translations |
-| `ingredients.js` | Canonical ingredient dictionary: names, aisles, units, staples. Shared by the browser and the node scripts |
+| `ingredients.js` | Canonical ingredient dictionary: names, aisles, units, staples, diet flags. Shared by the browser and the node scripts |
+| `scripts/recipe_db.js` | Shared load/save for `recipes.js` plus duplicate detection, used by all three importers |
 | `recipes.js` | The recipe database (`window.initialRecipes`) |
 | `style.css` | Vintage Belgian bistro theme |
 | `sw.js` / `manifest.json` | Offline caching + home screen installation |
@@ -87,10 +96,15 @@ Belgian ones.
 1. **Bump the version in three places at once**: the `?v=` query strings in
    `index.html` and `ASSET_VERSION` in `sw.js`. If they disagree, the service
    worker serves a stale mix of old and new files.
-2. **Run the smoke test.** `node scripts/smoke_test.js` boots the real `app.js`
-   against a minimal DOM and checks the flows that are easy to break: merging,
-   scaling, staples, custom-recipe persistence, translation coverage and recipe
-   data integrity.
+2. **Run both test suites.** `node scripts/smoke_test.js` boots the real
+   `app.js` against a DOM built from `index.html` and checks the flows that are
+   easy to break: merging, scaling, staples, backup/restore, custom-recipe
+   persistence, accessibility markup, translation coverage and data integrity.
+   `node scripts/test_ingredients.js` pins down the dictionary itself.
+
+3. **Diet flags are generated.** Don't hand-edit them in `recipes.js` — change
+   the patterns in `ingredients.js` and re-run `scripts/normalize_recipes.js`,
+   which is idempotent.
 
 ---
 
