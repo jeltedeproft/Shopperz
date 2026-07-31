@@ -10,6 +10,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 
 **Recipes**
 - 147 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
+- Every recipe is **written the way a person would tell you it**, in all three languages — not "Peel potatoes and cut carrots and leeks" but why the pieces should match, what the pan should sound like, and which step you must not hurry. See "The voice" below.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category, by diet (vegetarian, vegan, candida, keto), by allergen (gluten, nuts, dairy, eggs) and by **favourites** — the pills stack, so "my favourite desserts" works.
 - Adjust servings in the recipe drawer and every quantity rescales. Countable things stay whole — you get 5 onions, never 4.3 — and "to taste" never scales.
@@ -31,6 +32,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 - Everything lives in this browser's `localStorage`, so Settings has **Download a backup** and **Restore a backup** — one JSON file with your recipes, list, favourites and settings.
 - The app works fully offline and installs to the home screen. When a new version is cached, a banner offers a reload rather than swapping files under a running session.
 - Keyboard and screen-reader usable throughout: real buttons, focus trapping in dialogs, Escape to close, visible focus rings, and `prefers-reduced-motion` honoured.
+- **Light by default, dark when you want it.** Settings → *How it looks* offers "my phone decides", "always light" and "always dark". The choice is stamped on `<html>` by a tiny inline script in `index.html` before the stylesheet paints, so there is no flash of the wrong theme on load.
 
 ---
 
@@ -59,7 +61,8 @@ Wi-Fi, then "Add to home screen".
 | `ingredients.js` | Canonical ingredient dictionary: names, aisles, units, staples, diet flags. Shared by the browser and the node scripts |
 | `scripts/recipe_db.js` | Shared load/save for `recipes.js` plus duplicate detection, used by all three importers |
 | `recipes.js` | The recipe database (`window.initialRecipes`) |
-| `style.css` | Vintage Belgian bistro theme |
+| `style.css` | The design system: two warm palettes (light and dark) behind one set of semantic tokens |
+| `scripts/voice/` | The rewritten recipe prose, one batch file per six recipes, applied by `apply_voice.js` |
 | `sw.js` / `manifest.json` | Offline caching + home screen installation |
 | `images/` | Recipe photos and app icons, all local |
 
@@ -69,7 +72,9 @@ Wi-Fi, then "Add to home screen".
 node scripts/smoke_test.js        # app flows — run this before committing
 node scripts/test_ingredients.js  # the ingredient dictionary, table-driven
 node scripts/check_styles.js      # every rendered class is styled, tags balance
-node scripts/check_contrast.js    # WCAG contrast of the theme's colour pairs
+node scripts/check_contrast.js    # WCAG contrast of both palettes, and that they define the same tokens
+node scripts/apply_voice.js --check   # verify the recipe rewrites without writing
+node scripts/apply_voice.js       # apply scripts/voice/*.js to recipes.js
 node scripts/normalize_recipes.js # re-canonicalise every ingredient in recipes.js
 node scripts/download_images.js   # pull any remote recipe image into images/
 pwsh scripts/resize_images.ps1    # downscale photos to the size actually shown
@@ -122,6 +127,37 @@ Belgian ones.
 3. **Diet flags are generated.** Don't hand-edit them in `recipes.js` — change
    the patterns in `ingredients.js` and re-run `scripts/normalize_recipes.js`,
    which is idempotent.
+
+4. **Colours live in tokens, and both themes define all of them.** Nothing in
+   sections 2–12 of `style.css` should contain a literal colour. The two
+   exceptions are deliberate and commented: type that sits over a recipe
+   photograph uses `--on-photo*`, which does *not* flip between themes, because
+   a photo is dark in its corners whichever palette is on.
+   `check_contrast.js` fails if the two palettes stop defining the same tokens.
+
+---
+
+## The voice
+
+Every description and instruction in the book is written as though someone who
+has cooked the dish is stood next to you — what to look for, what not to hurry,
+and which mistake is the one that cannot be undone. The interface talks the same
+way: no "configure", no "generate", no "invalid input".
+
+Rewriting 147 recipes across three languages by hand is exactly the kind of job
+where a temperature quietly moves by ten degrees, so the prose lives in
+`scripts/voice/batch-*.js` and is applied by `apply_voice.js`, which refuses the
+change unless every instruction step still carries the same numbers, the same
+oven settings and the same step count as the original. Two escape hatches exist
+and both must be spelled out per recipe:
+
+- `dropSteps: [4, 5, …]` removes steps the importer scraped off the page rather
+  than out of the recipe — a newsletter signup form, a request for comments.
+- `fixes: [1, 3]` marks the steps where a number is *meant* to change, because
+  the import had it wrong: a Dutch step reading "45-50 graden" where the English
+  said minutes, or an oven "preheated to 35".
+
+Anything not on those lists is a hard failure, and nothing is written.
 
 ---
 

@@ -161,6 +161,7 @@ document.body.removeChild = () => {};
 // Run the app
 // ---------------------------------------------------------------------------
 const store = {};
+let prefersDark = false;
 const sandbox = {
   console,
   document,
@@ -171,6 +172,13 @@ const sandbox = {
     removeItem: k => { delete store[k]; }
   },
   setTimeout, clearTimeout, setInterval, clearInterval,
+  // The OS dark-mode preference, switchable from the tests below.
+  matchMedia: query => ({
+    media: query,
+    get matches() { return prefersDark && /dark/.test(query); },
+    addEventListener: () => {},
+    removeEventListener: () => {}
+  }),
   addEventListener: () => {},
   confirm: () => true,
   alert: () => {},
@@ -211,6 +219,31 @@ console.log('Boot');
 check('recipes loaded', state.recipes.length > 100, `got ${state.recipes.length}`);
 check('language detected from navigator', state.settings.language === 'nl', state.settings.language);
 check('no leftover legacy storage key', !('belgian_recipes' in store));
+
+console.log('\nAppearance');
+const root = document.documentElement;
+const themeNow = () => root.getAttribute('data-theme');
+check('the stylesheet only ever sees light or dark', ['light', 'dark'].includes(themeNow()), themeNow());
+check('the setting starts on "follow my phone"', state.settings.theme === 'system');
+check('system with no dark preference resolves to light', themeNow() === 'light');
+
+prefersDark = true;
+sandbox.applyTheme();
+check('system follows the phone into dark', themeNow() === 'dark');
+prefersDark = false;
+sandbox.applyTheme();
+check('system follows it back to light', themeNow() === 'light');
+
+sandbox.setTheme('dark');
+check('an explicit choice overrides the phone', themeNow() === 'dark');
+check('the choice is written to storage',
+  JSON.parse(store.belgian_app_settings).theme === 'dark');
+ctx('initApp()');
+check('the choice survives a reload', themeNow() === 'dark');
+
+sandbox.setTheme('mauve');
+check('an unknown theme is refused', state.settings.theme === 'dark');
+sandbox.setTheme('system');
 
 console.log('\nRecipe drawer');
 sandbox.openRecipeDrawer('carbonnade-flamande');
@@ -401,8 +434,14 @@ const desserts = sandbox.filteredRecipes();
 check('category filter works', desserts.length > 0 && desserts.every(r => sandbox.recipeCategories(r).includes('dessert')),
   `${desserts.length} desserts`);
 state.filters.category = 'all';
-state.filters.query = 'chocolate';
-check('ingredient search finds recipes', sandbox.filteredRecipes().length > 0);
+// The app is running in Dutch here (see the navigator check above), so the
+// term has to be a Dutch one. This used to search "chocolate" and passed only
+// because the imported Dutch subtitles were still untranslated English blurb.
+state.filters.query = 'chocolade';
+const chocolate = sandbox.filteredRecipes();
+check('ingredient search finds recipes', chocolate.length > 0, `${chocolate.length} hits`);
+check('the search reaches ingredient names, not just titles',
+  chocolate.some(r => !sandbox.recipeText(r).title.toLowerCase().includes('chocolade')));
 state.filters.query = 'zzzzqqq';
 check('nonsense search returns nothing', sandbox.filteredRecipes().length === 0);
 state.filters.query = '';

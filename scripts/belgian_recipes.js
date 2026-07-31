@@ -28,47 +28,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Gentse Waterzooi',
-        subtitle: 'Ghent chicken stew in a cream and egg broth',
-        description: 'Ghent\'s gentlest classic: chicken poached with root vegetables, the broth finished off the heat with cream and egg yolk so it thickens without ever boiling.',
+        subtitle: 'Ghent\'s gentlest supper',
+        description: 'Chicken poached with root vegetables until it slips off the bone, and a broth finished off the heat with cream and egg yolk. The whole dish turns on one rule: after the yolks go in, it must never boil again.',
         instructions: [
-          'Simmer the chicken in water with a bay leaf, thyme, a halved onion, salt and pepper for about 35 minutes, until it comes off the bone easily.',
-          'Lift the chicken out and keep the broth. Pull the meat off the bones in generous pieces and discard the skin.',
-          'Cut the leek, carrots, celery and potatoes into fine matchsticks.',
-          'Melt the butter in a wide pot and sweat the vegetables gently for 10 minutes without letting them colour.',
-          'Pour over enough of the strained broth to cover and simmer until the potatoes are just tender.',
-          'Whisk the cream with the egg yolks in a bowl. Take the pot off the heat.',
-          'Stir a ladle of hot broth into the cream mixture, then pour it all back into the pot. Never let it boil again or it will split.',
-          'Return the chicken, warm through, and finish with parsley and a squeeze of lemon.'
+          'Put the chicken on to simmer in water with a bay leaf, thyme, a halved onion, salt and pepper, about 35 minutes, until the meat comes away from the bone without argument.',
+          'Lift the chicken out and keep that broth — it\'s the whole soup. Pull the meat off in generous pieces and throw the skin away.',
+          'Cut the leek, carrots, celery and potatoes into fine matchsticks. Fine matters here; this is meant to be a delicate thing.',
+          'Melt the butter in a wide pot and sweat the vegetables gently for 10 minutes, without letting them take any colour at all.',
+          'Pour over enough of the strained broth to cover, and simmer until the potatoes are just tender.',
+          'Whisk the cream with the egg yolks in a bowl and take the pot off the heat.',
+          'Stir a ladle of the hot broth into the cream first, to warm it through, then pour it all back into the pot. From here on it must never boil again, or the yolks scramble and the whole thing splits.',
+          'Return the chicken, warm it through, and finish with parsley and a squeeze of lemon.'
         ]
       },
       nl: {
         title: 'Gentse Waterzooi',
-        subtitle: 'Gentse kippenstoofpot met room en eierdooier',
-        description: 'De zachtste klassieker van Gent: kip gepocheerd met wortelgroenten, waarna de bouillon buiten het vuur gebonden wordt met room en eierdooier zodat ze nooit mag koken.',
+        subtitle: 'Het zachtste avondmaal van Gent',
+        description: 'Kip gepocheerd met wortelgroenten tot ze van het bot glijdt, en een bouillon die buiten het vuur gebonden wordt met room en eierdooier. Het hele gerecht draait om één regel: eens de dooiers erin zitten, mag het nooit meer koken.',
         instructions: [
-          'Laat de kip met laurier, tijm, een gehalveerde ui, peper en zout ongeveer 35 minuten zachtjes trekken tot het vlees loskomt.',
-          'Haal de kip eruit en houd de bouillon bij. Pluk het vlees in grove stukken van het karkas en verwijder het vel.',
-          'Snijd de prei, wortelen, selder en aardappelen in fijne julienne.',
-          'Smelt de boter in een brede pot en stoof de groenten 10 minuten glazig zonder ze te laten kleuren.',
-          'Giet er voldoende gezeefde bouillon bij tot alles onder staat en laat sudderen tot de aardappel net gaar is.',
-          'Klop de room los met de eierdooiers. Zet de pot van het vuur.',
-          'Roer een pollepel hete bouillon door het roommengsel en giet dat dan bij de pot. Laat het daarna niet meer koken, anders schift het.',
-          'Doe de kip erbij, warm alles door en werk af met peterselie en een scheutje citroensap.'
+          'Zet de kip op met laurier, tijm, een gehalveerde ui, peper en zout en laat ze zo\'n 35 minuten zachtjes trekken, tot het vlees zonder tegenspraak van het bot komt.',
+          'Haal de kip eruit en hou die bouillon bij — dat is de hele soep. Pluk het vlees er in grove stukken af en gooi het vel weg.',
+          'Snijd de prei, de wortelen, de selder en de aardappelen in fijne julienne. Fijn is hier belangrijk; dit hoort een tenger gerecht te zijn.',
+          'Smelt de boter in een brede pot en stoof de groenten 10 minuten zachtjes glazig, zonder ze ook maar een beetje te laten kleuren.',
+          'Giet er genoeg gezeefde bouillon bij tot alles onderstaat en laat sudderen tot de aardappel net gaar is.',
+          'Klop de room los met de eierdooiers in een kom en zet de pot van het vuur.',
+          'Roer eerst een pollepel hete bouillon door de room om die op te warmen, en giet dan alles terug in de pot. Vanaf hier mag het nooit meer koken, anders schiften de dooiers en valt het hele gerecht uiteen.',
+          'Doe de kip erbij, warm alles rustig door en werk af met peterselie en een scheutje citroensap.'
         ]
       },
       fr: {
         title: 'Waterzooi Gantois',
-        subtitle: 'Poulet gantois à la crème et au jaune d\'oeuf',
-        description: 'Le plus doux des classiques gantois : un poulet poché avec des légumes racines, le bouillon lié hors du feu à la crème et au jaune d\'oeuf, sans jamais rebouillir.',
+        subtitle: 'Le plus doux des soupers gantois',
+        description: 'Du poulet poché avec des légumes racines jusqu\'à quitter l\'os, et un bouillon lié hors du feu à la crème et au jaune d\'œuf. Tout le plat tient à une règle : une fois les jaunes dedans, il ne doit plus jamais bouillir.',
         instructions: [
-          'Faites frémir le poulet dans l\'eau avec laurier, thym, un oignon coupé en deux, sel et poivre pendant 35 minutes environ.',
-          'Retirez le poulet et gardez le bouillon. Effilochez la chair en gros morceaux et jetez la peau.',
-          'Taillez le poireau, les carottes, le céleri et les pommes de terre en fine julienne.',
-          'Faites fondre le beurre dans une large cocotte et faites suer les légumes 10 minutes sans coloration.',
-          'Mouillez avec le bouillon filtré à hauteur et laissez cuire jusqu\'à ce que la pomme de terre soit juste tendre.',
-          'Fouettez la crème avec les jaunes d\'oeuf. Retirez la cocotte du feu.',
-          'Détendez le mélange avec une louche de bouillon chaud, puis reversez le tout dans la cocotte. Ne faites plus jamais bouillir.',
-          'Remettez le poulet, réchauffez doucement et terminez au persil et au jus de citron.'
+          'Mets le poulet à frémir dans l\'eau avec du laurier, du thym, un oignon coupé en deux, du sel et du poivre, environ 35 minutes, jusqu\'à ce que la chair quitte l\'os sans discuter.',
+          'Retire le poulet et garde ce bouillon — c\'est toute la soupe. Effiloche la chair en gros morceaux et jette la peau.',
+          'Taille le poireau, les carottes, le céleri et les pommes de terre en fine julienne. La finesse compte ici ; ce plat doit rester délicat.',
+          'Fais fondre le beurre dans une large cocotte et fais suer les légumes doucement 10 minutes, sans les laisser prendre la moindre couleur.',
+          'Mouille à hauteur avec le bouillon filtré et laisse cuire jusqu\'à ce que la pomme de terre soit juste tendre.',
+          'Fouette la crème avec les jaunes d\'œuf dans un bol et retire la cocotte du feu.',
+          'Détends d\'abord la crème avec une louche de bouillon chaud, puis reverse le tout dans la cocotte. À partir de là, plus jamais d\'ébullition, sinon les jaunes coagulent et tout se dissocie.',
+          'Remets le poulet, réchauffe doucement, et termine au persil et à un filet de citron.'
         ]
       }
     },
@@ -98,47 +98,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Konijn met Pruimen / Lapin aux Pruneaux',
-        subtitle: 'Rabbit braised in brown beer with prunes',
-        description: 'A Flemish Sunday dish. Prunes melt into the beer over a long braise and give the sauce its dark, sweet-sour depth.',
+        subtitle: 'The Sunday dish that smells of the whole house',
+        description: 'Rabbit braised in brown beer with prunes that melt away into the sauce over a long, slow hour. What you end up with is dark, sweet and sour all at once, and it wants nothing more than potatoes.',
         instructions: [
-          'Soak the prunes in a little warm beer while you get everything else going.',
-          'Season the rabbit pieces with salt and pepper and brown them in butter until golden on all sides. Set aside.',
-          'Cook the chopped onions in the same pot until soft and translucent.',
-          'Return the rabbit, pour in the brown beer and add the bay leaves, thyme and mustard-spread bread slice.',
-          'Cover and simmer very gently for an hour, turning the pieces once.',
+          'Soak the prunes in a little warm beer while you get everything else going. They\'ll be plump by the time you need them.',
+          'Season the rabbit pieces with salt and pepper and brown them in butter until golden on every side. Set them aside.',
+          'Cook the chopped onions in the same pot until soft and see-through, scraping up whatever the rabbit left behind.',
+          'Return the rabbit, pour in the brown beer, and add the bay leaves, thyme and the slice of bread spread with mustard.',
+          'Cover and simmer very gently for an hour, turning the pieces once halfway.',
           'Add the prunes with their soaking beer and cook another 20 to 30 minutes, until the rabbit is nearly falling off the bone.',
-          'Lift out the herbs, stir the bread through to bind the sauce and finish with the Liège syrup.',
-          'Season again and serve with croquettes or plain boiled potatoes.'
+          'Lift out the herbs, stir the bread through to bind the sauce, and finish with the Liège syrup.',
+          'Season again — it will want it — and serve with croquettes or plain boiled potatoes.'
         ]
       },
       nl: {
         title: 'Konijn met Pruimen',
-        subtitle: 'Konijn gestoofd in bruin bier met gedroogde pruimen',
-        description: 'Een Vlaamse zondagse klassieker. De pruimen smelten tijdens het lange stoven weg in het bier en geven de saus haar donkere, zoetzure diepte.',
+        subtitle: 'Het zondagse gerecht waar het hele huis naar ruikt',
+        description: 'Konijn gestoofd in bruin bier met pruimen die in een traag uur helemaal in de saus wegsmelten. Wat je overhoudt is donker, zoet en zuur tegelijk, en het vraagt niets meer dan aardappelen.',
         instructions: [
-          'Week de pruimen in een beetje lauw bier terwijl je de rest klaarmaakt.',
-          'Kruid de konijnstukken met peper en zout en bak ze rondom goudbruin in boter. Zet opzij.',
-          'Stoof de gesnipperde uien in dezelfde pot glazig.',
+          'Week de pruimen in een beetje lauw bier terwijl je de rest klaarmaakt. Tegen dat je ze nodig hebt zijn ze mooi gezwollen.',
+          'Kruid de konijnstukken met peper en zout en bak ze rondom goudbruin in boter. Zet ze opzij.',
+          'Stoof de gesnipperde uien glazig in dezelfde pot en schraap alles los wat het konijn heeft achtergelaten.',
           'Doe het konijn terug, giet het bruin bier erbij en voeg laurier, tijm en de boterham met mosterd toe.',
-          'Doe het deksel op de pot en laat een uur heel zachtjes sudderen, keer de stukken één keer.',
+          'Deksel erop en laat een uur heel zachtjes sudderen, en keer de stukken halverwege één keer.',
           'Voeg de pruimen met hun weekbier toe en laat nog 20 à 30 minuten stoven tot het konijn bijna van het bot valt.',
           'Haal de kruiden eruit, roer de boterham door de saus om te binden en werk af met de Luikse siroop.',
-          'Kruid nog eens bij en serveer met kroketten of gewoon gekookte aardappelen.'
+          'Kruid nog eens bij — dat zal nodig zijn — en serveer met kroketten of gewoon gekookte aardappelen.'
         ]
       },
       fr: {
         title: 'Lapin aux Pruneaux',
-        subtitle: 'Lapin mijoté à la bière brune et aux pruneaux',
-        description: 'Un plat du dimanche flamand. Les pruneaux fondent dans la bière au long du mijotage et donnent à la sauce sa profondeur sombre et aigre-douce.',
+        subtitle: 'Le plat du dimanche qui embaume toute la maison',
+        description: 'Du lapin mijoté à la bière brune avec des pruneaux qui fondent entièrement dans la sauce au fil d\'une heure lente. Ce qu\'il reste est sombre, sucré et acide à la fois, et ça ne demande rien de plus que des pommes de terre.',
         instructions: [
-          'Faites tremper les pruneaux dans un peu de bière tiède pendant la préparation.',
-          'Assaisonnez les morceaux de lapin et faites-les dorer au beurre sur toutes les faces. Réservez.',
-          'Faites revenir les oignons émincés dans la même cocotte jusqu\'à ce qu\'ils soient translucides.',
-          'Remettez le lapin, versez la bière brune et ajoutez le laurier, le thym et la tartine de moutarde.',
-          'Couvrez et laissez mijoter très doucement une heure en retournant les morceaux une fois.',
-          'Ajoutez les pruneaux avec leur bière de trempage et poursuivez 20 à 30 minutes.',
-          'Retirez les herbes, délayez la tartine dans la sauce pour la lier et terminez au sirop de Liège.',
-          'Rectifiez l\'assaisonnement et servez avec des croquettes ou des pommes nature.'
+          'Fais tremper les pruneaux dans un peu de bière tiède pendant que tu prépares le reste. Ils seront bien gonflés au moment voulu.',
+          'Assaisonne les morceaux de lapin de sel et de poivre et fais-les dorer au beurre sur toutes les faces. Réserve-les.',
+          'Fais revenir les oignons émincés dans la même cocotte jusqu\'à ce qu\'ils soient tendres et translucides, en grattant ce que le lapin a laissé.',
+          'Remets le lapin, verse la bière brune, et ajoute le laurier, le thym et la tartine de moutarde.',
+          'Couvre et laisse mijoter très doucement une heure, en retournant les morceaux une fois à mi-parcours.',
+          'Ajoute les pruneaux avec leur bière de trempage et poursuis 20 à 30 minutes, jusqu\'à ce que le lapin quitte presque l\'os.',
+          'Retire les herbes, délaie la tartine dans la sauce pour la lier, et termine au sirop de Liège.',
+          'Rectifie l\'assaisonnement — il en aura besoin — et sers avec des croquettes ou de simples pommes vapeur.'
         ]
       }
     },
@@ -167,44 +167,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Vlaamse Hutsepot',
-        subtitle: 'Winter hotchpotch of root vegetables and pork',
-        description: 'The dish that empties the winter vegetable drawer. Everything goes in one pot and cooks until the vegetables give way and thicken the broth by themselves.',
+        subtitle: 'The pot that empties the vegetable drawer',
+        description: 'Pork and sausage simmered with every root vegetable in the house until the whole thing thickens itself. There is no technique to learn here — only the order things go in, and the patience to leave them.',
         instructions: [
-          'Put the pork belly and sausages in a large pot, cover with cold water and bring slowly to a simmer. Skim the foam off the top.',
+          'Put the pork belly and sausages in a large pot, cover them with cold water and bring it slowly up to a simmer. Skim the grey foam off the top as it rises; that\'s what keeps the broth clear.',
           'Add the bay leaves, thyme, cloves and peppercorns and let it tick over for 45 minutes.',
-          'Meanwhile cut the carrots, turnips, leeks, celeriac and cabbage into rough chunks. Nothing needs to be neat.',
+          'Meanwhile cut the carrots, turnips, leeks, celeriac and cabbage into rough chunks. Nothing here needs to be neat — it all falls apart anyway.',
           'Add the harder vegetables first: carrots, turnip and celeriac. Cook 20 minutes.',
-          'Add the potatoes, leeks and cabbage and cook another 30 minutes.',
-          'Crush some of the potato against the side of the pot to thicken the broth.',
-          'Taste for salt and pepper — it will need more than you think — and serve in deep bowls with mustard alongside.'
+          'Then the potatoes, leeks and cabbage, and cook another 30 minutes.',
+          'Crush some of the potato against the side of the pot. That\'s your thickening, and no flour required.',
+          'Taste for salt and pepper — it will want more than you think, because there\'s a lot of water in that pot — and serve in deep bowls with mustard alongside.'
         ]
       },
       nl: {
         title: 'Vlaamse Hutsepot',
-        subtitle: 'Winterse stoofpot van wortelgroenten en varkensvlees',
-        description: 'Het gerecht dat de wintergroentelade leegmaakt. Alles gaat in één pot en kookt tot de groenten uit elkaar vallen en de bouillon vanzelf binden.',
+        subtitle: 'De pot die de groentelade leegmaakt',
+        description: 'Varkensvlees en worst gesudderd met elke wortelgroente in huis, tot het geheel zichzelf bindt. Er valt hier geen techniek te leren — alleen de volgorde waarin de dingen erin gaan, en het geduld om ze te laten staan.',
         instructions: [
-          'Doe het buikspek en de worsten in een grote pot, zet onder koud water en breng traag aan de kook. Schep het schuim eraf.',
+          'Doe het buikspek en de worsten in een grote pot, zet ze onder koud water en breng het traag tegen de kook aan. Schep het grijze schuim eraf naarmate het bovenkomt; dat is wat de bouillon helder houdt.',
           'Voeg laurier, tijm, kruidnagel en peperbolletjes toe en laat 45 minuten zachtjes trekken.',
-          'Snijd ondertussen de wortelen, rapen, prei, knolselder en kool in grove stukken. Het hoeft niet netjes.',
+          'Snijd ondertussen de wortelen, rapen, prei, knolselder en kool in grove stukken. Niets hoeft hier netjes — het valt toch allemaal uit elkaar.',
           'Doe eerst de harde groenten erbij: wortel, raap en knolselder. Laat 20 minuten koken.',
-          'Voeg dan de aardappelen, prei en kool toe en laat nog 30 minuten koken.',
-          'Plet wat aardappel tegen de rand van de pot om het geheel te binden.',
-          'Proef en kruid stevig bij met peper en zout, en serveer in diepe borden met mosterd apart.'
+          'Dan de aardappelen, de prei en de kool, en nog eens 30 minuten koken.',
+          'Plet wat aardappel tegen de rand van de pot. Dat is je binding, en er komt geen bloem aan te pas.',
+          'Proef en kruid met peper en zout — het wil meer dan je denkt, want er zit veel water in die pot — en dien op in diepe borden met mosterd apart.'
         ]
       },
       fr: {
         title: 'Hochepot Flamand',
-        subtitle: 'Potée d\'hiver aux légumes racines et au porc',
-        description: 'Le plat qui vide le bac à légumes d\'hiver. Tout va dans une seule marmite et cuit jusqu\'à ce que les légumes se défassent et lient le bouillon d\'eux-mêmes.',
+        subtitle: 'La marmite qui vide le bac à légumes',
+        description: 'Du porc et des saucisses mijotés avec tous les légumes racines de la maison, jusqu\'à ce que le tout se lie de lui-même. Il n\'y a aucune technique à apprendre ici — seulement l\'ordre des choses, et la patience de les laisser faire.',
         instructions: [
-          'Mettez la poitrine de porc et les saucisses dans une grande marmite, couvrez d\'eau froide et portez doucement à frémissement. Écumez.',
-          'Ajoutez laurier, thym, clous de girofle et grains de poivre, et laissez cuire 45 minutes.',
-          'Pendant ce temps, coupez grossièrement carottes, navets, poireaux, céleri-rave et chou.',
-          'Ajoutez d\'abord les légumes durs : carottes, navet et céleri-rave. Comptez 20 minutes.',
-          'Ajoutez ensuite les pommes de terre, les poireaux et le chou, et poursuivez 30 minutes.',
-          'Écrasez un peu de pomme de terre contre la paroi pour lier le bouillon.',
-          'Assaisonnez généreusement et servez en assiettes creuses avec de la moutarde à part.'
+          'Mets la poitrine de porc et les saucisses dans une grande marmite, couvre d\'eau froide et monte doucement à frémissement. Écume la mousse grise à mesure qu\'elle monte ; c\'est ce qui garde le bouillon clair.',
+          'Ajoute le laurier, le thym, les clous de girofle et les grains de poivre, et laisse aller 45 minutes.',
+          'Pendant ce temps, coupe grossièrement les carottes, navets, poireaux, céleri-rave et chou. Rien n\'a besoin d\'être régulier — tout se défait de toute façon.',
+          'Ajoute d\'abord les légumes durs : carottes, navet et céleri-rave. Compte 20 minutes.',
+          'Puis les pommes de terre, les poireaux et le chou, et poursuis 30 minutes.',
+          'Écrase un peu de pomme de terre contre la paroi de la marmite. Voilà ta liaison, et sans une once de farine.',
+          'Goûte et assaisonne de sel et de poivre — il en faudra plus que tu ne crois, car il y a beaucoup d\'eau là-dedans — et sers en assiettes creuses avec de la moutarde à part.'
         ]
       }
     },
@@ -233,47 +233,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Garnaalkroketten',
-        subtitle: 'Grey shrimp croquettes with fried parsley',
-        description: 'The test of a Belgian brasserie. A thick shrimp béchamel, chilled until firm, breaded and fried so the crust shatters and the inside runs.',
+        subtitle: 'The croquette every brasserie is judged on',
+        description: 'A shrimp béchamel made so thick it sets solid overnight, cut into blocks, breaded twice and fried until the crust shatters and the inside runs out. It takes two days and it is the test of a Belgian kitchen.',
         instructions: [
-          'Make a stock: simmer the shrimp shells in the milk for 15 minutes, then strain and discard the shells.',
-          'Melt the butter, stir in the flour and cook the roux for two minutes without colouring it.',
-          'Add the warm shrimp milk a little at a time, whisking, until you have a very thick, smooth sauce.',
-          'Take off the heat, beat in the egg yolk, nutmeg, lemon juice, salt and pepper, then fold in the shrimps.',
-          'Spread into an oiled dish about 3 cm deep, cover and refrigerate at least four hours or overnight — it must be completely firm.',
-          'Cut into blocks and roll each one in flour, then beaten egg, then breadcrumbs. Do the egg and crumb twice for a stronger crust.',
-          'Fry at 180°C for about 3 minutes, until deep gold. Do not crowd the pan.',
-          'Fry the parsley sprigs for a few seconds until crisp and serve on top with a lemon wedge.'
+          'Make a stock first: simmer the shrimp shells in the milk for 15 minutes, then strain them out and throw the shells away. Never buy peeled shrimp for this — the shells are where the flavour lives.',
+          'Melt the butter, stir in the flour and cook the roux for two minutes without letting it take colour.',
+          'Add the warm shrimp milk a little at a time, whisking hard, until you have a very thick, glossy sauce. Thicker than seems sensible; it has to hold its shape cold.',
+          'Off the heat, beat in the egg yolk, nutmeg, lemon juice, salt and pepper, then fold in the shrimps.',
+          'Spread it into an oiled dish about 3 cm deep, cover it and refrigerate at least four hours, or overnight. It must be completely firm before you go near it with a knife.',
+          'Cut into blocks and roll each one in flour, then beaten egg, then breadcrumbs. Do the egg and crumb twice — that second coat is what stops them bursting in the fryer.',
+          'Fry at 180°C for about 3 minutes, until deep gold. Two or three at a time; a crowded pan drops the oil temperature and then they leak.',
+          'Fry the parsley sprigs for a few seconds until crisp, and serve them on top with a wedge of lemon.'
         ]
       },
       nl: {
         title: 'Garnaalkroketten',
-        subtitle: 'Kroketten van grijze garnalen met gefrituurde peterselie',
-        description: 'De lakmoesproef van elke Belgische brasserie. Een dikke garnalenbéchamel, koud gedraaid tot ze stevig is, gepaneerd en gefrituurd zodat het korstje breekt en de vulling loopt.',
+        subtitle: 'De kroket waarop elke brasserie beoordeeld wordt',
+        description: 'Een garnalenbéchamel zo dik gedraaid dat ze een nacht lang opstijft tot een blok, in stukken gesneden, twee keer gepaneerd en gefrituurd tot het korstje breekt en de vulling naar buiten loopt. Het kost twee dagen en het is de proef op de som van een Belgische keuken.',
         instructions: [
-          'Maak een fond: laat de garnaalpelletjes 15 minuten trekken in de melk, zeef en gooi de pelletjes weg.',
-          'Smelt de boter, roer de bloem erdoor en gaar de roux twee minuten zonder te kleuren.',
-          'Voeg de warme garnaalmelk beetje bij beetje toe terwijl je klopt, tot je een zeer dikke, gladde saus hebt.',
-          'Haal van het vuur, klop de eierdooier, nootmuskaat, citroensap, peper en zout erdoor en spatel de garnalen erdoor.',
-          'Strijk uit in een ingevette schaal van zo\'n 3 cm dik, dek af en zet minstens vier uur of een nacht in de koelkast. Ze moet volledig opgestijfd zijn.',
-          'Snijd in blokken en haal elk blok door bloem, dan losgeklopt ei, dan paneermeel. Doe ei en paneermeel twee keer voor een steviger korst.',
-          'Frituur op 180°C ongeveer 3 minuten tot diep goudbruin. Bak niet te veel tegelijk.',
+          'Maak eerst een fond: laat de garnaalpelletjes 15 minuten trekken in de melk, zeef ze eruit en gooi de pelletjes weg. Koop hiervoor nooit gepelde garnalen — in die pelletjes zit net de smaak.',
+          'Smelt de boter, roer de bloem erdoor en gaar de roux twee minuten zonder hem te laten kleuren.',
+          'Voeg de warme garnaalmelk beetje bij beetje toe terwijl je stevig klopt, tot je een heel dikke, glanzende saus hebt. Dikker dan verstandig lijkt; ze moet koud haar vorm houden.',
+          'Van het vuur af klop je de eierdooier, de nootmuskaat, het citroensap, peper en zout erdoor, en spatel je de garnalen erdoor.',
+          'Strijk het uit in een ingevette schaal van zo\'n 3 cm dik, dek af en zet minstens vier uur, of een nacht, in de koelkast. Ze moet volledig opgestijfd zijn voor je er met een mes bij komt.',
+          'Snijd in blokken en haal elk blok door bloem, dan door losgeklopt ei, dan door paneermeel. Doe ei en paneermeel twee keer — die tweede laag is wat ze in de friteuse heel houdt.',
+          'Frituur op 180°C ongeveer 3 minuten tot ze diep goudbruin zijn. Twee of drie tegelijk; een volle pan laat de olie afkoelen en dan lopen ze leeg.',
           'Frituur de peterselietakjes enkele seconden krokant en serveer ze erbovenop met een partje citroen.'
         ]
       },
       fr: {
         title: 'Croquettes aux Crevettes Grises',
-        subtitle: 'Croquettes de crevettes grises et persil frit',
-        description: 'L\'épreuve de vérité de toute brasserie belge. Une béchamel de crevettes très épaisse, refroidie jusqu\'à fermeté, panée et frite : la croûte craque, l\'intérieur coule.',
+        subtitle: 'La croquette sur laquelle on juge une brasserie',
+        description: 'Une béchamel de crevettes si épaisse qu\'elle prend en bloc toute une nuit, coupée en morceaux, panée deux fois et frite jusqu\'à ce que la croûte éclate et que l\'intérieur coule. Ça prend deux jours et c\'est l\'épreuve de vérité d\'une cuisine belge.',
         instructions: [
-          'Faites un fumet : laissez infuser les carapaces dans le lait 15 minutes, filtrez et jetez les carapaces.',
-          'Faites fondre le beurre, incorporez la farine et cuisez le roux deux minutes sans coloration.',
-          'Ajoutez le lait de crevettes chaud petit à petit en fouettant, jusqu\'à obtenir une sauce très épaisse et lisse.',
-          'Hors du feu, incorporez le jaune d\'oeuf, la muscade, le jus de citron, sel et poivre, puis les crevettes.',
-          'Étalez dans un plat huilé sur 3 cm, couvrez et réfrigérez au moins quatre heures, idéalement une nuit.',
-          'Détaillez en blocs et passez chacun dans la farine, l\'oeuf battu, puis la chapelure. Doublez oeuf et chapelure.',
-          'Frisez à 180°C environ 3 minutes, jusqu\'à belle couleur dorée. Ne surchargez pas le bain.',
-          'Faites frire le persil quelques secondes et servez-le dessus avec un quartier de citron.'
+          'Fais d\'abord un fumet : laisse infuser les carapaces dans le lait 15 minutes, filtre et jette les carapaces. N\'achète jamais de crevettes décortiquées pour ça — c\'est dans les carapaces qu\'est le goût.',
+          'Fais fondre le beurre, incorpore la farine et cuis le roux deux minutes sans le laisser colorer.',
+          'Ajoute le lait de crevettes chaud petit à petit en fouettant fermement, jusqu\'à obtenir une sauce très épaisse et brillante. Plus épaisse qu\'il ne paraît raisonnable ; elle doit tenir sa forme à froid.',
+          'Hors du feu, incorpore le jaune d\'œuf, la muscade, le jus de citron, sel et poivre, puis les crevettes.',
+          'Étale dans un plat huilé sur 3 cm, couvre et réfrigère au moins quatre heures, idéalement une nuit. Ce doit être parfaitement ferme avant que tu t\'en approches avec un couteau.',
+          'Détaille en blocs et passe chacun dans la farine, l\'œuf battu, puis la chapelure. Double l\'œuf et la chapelure — c\'est cette seconde couche qui les empêche d\'éclater dans la friture.',
+          'Fais frire à 180°C environ 3 minutes, jusqu\'à une belle couleur dorée. Deux ou trois à la fois ; un bain surchargé refroidit et alors elles se vident.',
+          'Fais frire les brins de persil quelques secondes jusqu\'à ce qu\'ils soient croustillants et sers-les dessus avec un quartier de citron.'
         ]
       }
     },
@@ -302,47 +302,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Balletjes in Tomatensaus',
-        subtitle: 'Meatballs in tomato sauce, the school-canteen classic',
-        description: 'Every Belgian grew up on this. Soft milk-soaked meatballs simmered in a tomato sauce that is sweetened, not spiced — served with fries or mash.',
+        subtitle: 'What every Belgian child was raised on',
+        description: 'Soft meatballs, made tender by bread soaked in milk, simmered in a tomato sauce that is sweetened rather than spiced. Serve it with fries or mash and watch grown adults go quiet.',
         instructions: [
-          'Tear the bread into a bowl, pour over the milk and let it soak until soft, then squeeze out the excess.',
-          'Mix the minced meat with the soaked bread, egg, finely chopped onion, parsley, salt, pepper and nutmeg. Do not overwork it.',
-          'Roll into balls the size of a walnut with wet hands.',
-          'Brown them in butter in batches, turning so they colour all over. They do not need to be cooked through yet.',
+          'Tear the bread into a bowl, pour the milk over and let it soak until soft, then squeeze the excess out. That soaked bread is the whole secret of a tender meatball.',
+          'Mix the minced meat with the soaked bread, egg, finely chopped onion, parsley, salt, pepper and nutmeg. Don\'t overwork it — the more you knead, the tougher they get.',
+          'Roll them into balls the size of a walnut, with wet hands so nothing sticks.',
+          'Brown them in butter in batches, turning so they colour all over. They don\'t need to be cooked through yet; they\'ll finish in the sauce.',
           'In the same pot, soften the second chopped onion, then add the chopped tomatoes, tomato paste, bay leaf, a pinch of sugar and the stock.',
           'Simmer the sauce for 15 minutes, then slide the meatballs back in.',
           'Cover and simmer gently for 25 minutes, spooning sauce over them now and then.',
-          'Taste and adjust the balance — a little more sugar if the tomatoes are sharp.'
+          'Taste and adjust the balance — a little more sugar if the tomatoes are sharp. That sweetness is not a mistake; it\'s how it\'s meant to taste.'
         ]
       },
       nl: {
         title: 'Balletjes in Tomatensaus',
-        subtitle: 'Gehaktballetjes in tomatensaus zoals in de refter',
-        description: 'Elke Belg is hiermee opgegroeid. Zachte, in melk geweekte balletjes in een tomatensaus die gezoet wordt in plaats van gekruid — met frieten of puree.',
+        subtitle: 'Waar elk Belgisch kind mee grootgebracht is',
+        description: 'Zachte balletjes, mals gemaakt door brood dat in melk geweekt is, gesudderd in een tomatensaus die gezoet wordt in plaats van gekruid. Serveer het met frieten of puree en kijk hoe volwassen mensen stil vallen.',
         instructions: [
-          'Scheur het brood in een kom, giet de melk erover en laat weken tot het zacht is. Knijp het overtollige vocht eruit.',
-          'Meng het gehakt met het geweekte brood, het ei, de fijngesnipperde ui, peterselie, peper, zout en nootmuskaat. Niet te lang kneden.',
-          'Rol met natte handen balletjes ter grootte van een okkernoot.',
-          'Bak ze in porties bruin in boter en keer ze zodat ze rondom kleuren. Ze hoeven nog niet gaar te zijn.',
-          'Stoof in dezelfde pot de tweede ui glazig, voeg dan de tomatenblokjes, tomatenpuree, laurier, een snuf suiker en de bouillon toe.',
+          'Scheur het brood in een kom, giet de melk erover en laat het weken tot het zacht is, en knijp dan het overtollige vocht eruit. Dat geweekte brood is het hele geheim van een mals balletje.',
+          'Meng het gehakt met het geweekte brood, het ei, de fijngesnipperde ui, peterselie, peper, zout en nootmuskaat. Kneed niet te lang — hoe meer je kneedt, hoe taaier ze worden.',
+          'Rol er balletjes van ter grootte van een okkernoot, met natte handen zodat er niets plakt.',
+          'Bak ze in porties bruin in boter en keer ze zodat ze rondom kleuren. Ze hoeven nog niet gaar te zijn; dat gebeurt in de saus.',
+          'Stoof in dezelfde pot de tweede gesnipperde ui glazig, en voeg dan de tomatenblokjes, de tomatenpuree, de laurier, een snuf suiker en de bouillon toe.',
           'Laat de saus 15 minuten pruttelen en leg er dan de balletjes in.',
-          'Doe het deksel erop en laat 25 minuten zachtjes sudderen, schep af en toe saus over de balletjes.',
-          'Proef en stel bij — een beetje meer suiker als de tomaten scherp zijn.'
+          'Deksel erop en laat 25 minuten zachtjes sudderen, en schep af en toe saus over de balletjes.',
+          'Proef en stel bij — een beetje meer suiker als de tomaten scherp zijn. Die zoetheid is geen vergissing; zo hoort het te smaken.'
         ]
       },
       fr: {
         title: 'Boulettes Sauce Tomate',
-        subtitle: 'Boulettes à la sauce tomate, le classique de la cantine',
-        description: 'Tous les Belges ont grandi avec. Des boulettes moelleuses trempées au lait, mijotées dans une sauce tomate sucrée plutôt qu\'épicée — avec frites ou purée.',
+        subtitle: 'Ce dont chaque enfant belge a été nourri',
+        description: 'Des boulettes moelleuses, attendries par du pain trempé au lait, mijotées dans une sauce tomate sucrée plutôt qu\'épicée. Sers-les avec des frites ou de la purée et regarde des adultes se taire.',
         instructions: [
-          'Émiettez le pain dans un bol, versez le lait et laissez ramollir, puis pressez pour retirer l\'excédent.',
-          'Mélangez le haché avec le pain, l\'oeuf, l\'oignon finement émincé, le persil, sel, poivre et muscade. Ne travaillez pas trop la masse.',
-          'Roulez des boulettes de la taille d\'une noix avec les mains humides.',
-          'Faites-les dorer au beurre par petites quantités, sur toutes les faces. Elles n\'ont pas besoin d\'être cuites à coeur.',
-          'Dans la même cocotte, faites revenir le second oignon, puis ajoutez les tomates concassées, le concentré, le laurier, une pincée de sucre et le bouillon.',
-          'Laissez mijoter la sauce 15 minutes, puis replongez-y les boulettes.',
-          'Couvrez et laissez mijoter doucement 25 minutes en les arrosant de temps en temps.',
-          'Goûtez et rectifiez — un peu plus de sucre si les tomates sont acides.'
+          'Émiette le pain dans un bol, verse le lait dessus et laisse ramollir, puis presse pour retirer l\'excédent. Ce pain trempé est tout le secret d\'une boulette moelleuse.',
+          'Mélange le haché avec le pain trempé, l\'œuf, l\'oignon finement émincé, le persil, le sel, le poivre et la muscade. Ne travaille pas trop la masse — plus tu la pétris, plus elles deviennent fermes.',
+          'Roule des boulettes de la taille d\'une noix, les mains humides pour que rien ne colle.',
+          'Fais-les dorer au beurre par petites quantités, en les retournant pour qu\'elles colorent partout. Elles n\'ont pas besoin d\'être cuites à cœur ; elles finiront dans la sauce.',
+          'Dans la même cocotte, fais fondre le second oignon émincé, puis ajoute les tomates concassées, le concentré, le laurier, une pincée de sucre et le bouillon.',
+          'Laisse mijoter la sauce 15 minutes, puis replonge les boulettes dedans.',
+          'Couvre et laisse mijoter doucement 25 minutes, en les arrosant de sauce de temps en temps.',
+          'Goûte et rectifie l\'équilibre — un peu plus de sucre si les tomates sont acides. Ce sucré n\'est pas une erreur ; c\'est ainsi que ça doit avoir le goût.'
         ]
       }
     },
@@ -373,47 +373,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Brusselse Wafels',
-        subtitle: 'Light, crisp yeast waffles with deep pockets',
-        description: 'Not the dense Liège waffle — this is the tall, rectangular, airy one, crisp outside and almost hollow inside. The beaten egg whites do all the work.',
+        subtitle: 'The tall, hollow one — not the Liège waffle',
+        description: 'The airy rectangular waffle, crisp outside and almost empty inside. The beaten egg whites do all the work, so fold them in gently and get it into a hot iron before they settle.',
         instructions: [
-          'Warm the milk to body temperature and stir in the yeast with a pinch of the sugar. Leave 10 minutes until it foams.',
-          'Whisk the flour, remaining sugar and salt in a large bowl.',
-          'Beat in the yeast milk, the egg yolks, the melted butter and the vanilla until smooth.',
-          'Cover and leave to rise somewhere warm for an hour, until visibly bubbly.',
-          'Whip the egg whites to soft peaks and fold them into the batter in two goes, keeping as much air as you can.',
-          'Heat the waffle iron well and butter it. Pour in just enough batter to cover the plate.',
-          'Bake 4 to 5 minutes until deep golden and crisp; resist opening it early.',
-          'Serve straight away with icing sugar. They lose their crunch within minutes.'
+          'Warm the milk to body temperature — dip a finger in, and if you can\'t feel it, it\'s right — and stir in the yeast with a pinch of the sugar. Leave it 10 minutes until it foams.',
+          'Whisk the flour, the rest of the sugar and the salt together in a large bowl.',
+          'Beat in the yeast milk, the egg yolks, the melted butter and the vanilla until the batter is smooth.',
+          'Cover it and leave it to rise somewhere warm for an hour, until you can see the bubbles working.',
+          'Whip the egg whites to soft peaks and fold them into the batter in two goes, keeping as much air in as you can. This is the whole recipe, really — everything else is just batter.',
+          'Heat the waffle iron properly and butter it. Pour in just enough batter to cover the plate; it will spread on its own.',
+          'Bake 4 to 5 minutes until deep golden and crisp. Resist opening it early — you\'ll tear the waffle in half and learn nothing.',
+          'Serve them straight away with icing sugar. They lose their crunch within minutes, so this is not a dish to keep anybody waiting for.'
         ]
       },
       nl: {
         title: 'Brusselse Wafels',
-        subtitle: 'Luchtige, krokante gistwafels met diepe vakjes',
-        description: 'Niet de compacte Luikse wafel maar de hoge, rechthoekige, luchtige: krokant vanbuiten en bijna hol vanbinnen. Het opgeklopte eiwit doet al het werk.',
+        subtitle: 'De hoge, holle — niet de Luikse wafel',
+        description: 'De luchtige rechthoekige wafel, krokant vanbuiten en bijna leeg vanbinnen. Het opgeklopte eiwit doet al het werk, dus spatel het voorzichtig door en zorg dat het in een heet ijzer belandt voor het inzakt.',
         instructions: [
-          'Verwarm de melk tot lauw en roer er de gist met een snufje van de suiker door. Laat 10 minuten schuimen.',
+          'Verwarm de melk tot lichaamstemperatuur — steek er een vinger in, en voel je niets, dan klopt het — en roer er de gist met een snufje van de suiker door. Laat 10 minuten schuimen.',
           'Klop de bloem, de rest van de suiker en het zout samen in een grote kom.',
-          'Klop de gistmelk, de eierdooiers, de gesmolten boter en de vanille erdoor tot een glad beslag.',
-          'Dek af en laat een uur rijzen op een warme plek, tot je duidelijk belletjes ziet.',
-          'Klop de eiwitten tot zachte pieken en spatel ze in twee keer door het beslag, zo luchtig mogelijk.',
-          'Verwarm het wafelijzer goed en vet het in. Giet er net genoeg beslag in om de plaat te bedekken.',
-          'Bak 4 à 5 minuten tot diep goudbruin en krokant; open het ijzer niet te vroeg.',
-          'Dien meteen op met bloemsuiker. Ze verliezen hun krokantheid binnen enkele minuten.'
+          'Klop de gistmelk, de eierdooiers, de gesmolten boter en de vanille erdoor tot het beslag glad is.',
+          'Dek af en laat een uur rijzen op een warme plek, tot je de belletjes ziet werken.',
+          'Klop de eiwitten tot zachte pieken en spatel ze in twee keer door het beslag, met zoveel lucht als je erin kan houden. Dat is eigenlijk het hele recept — de rest is gewoon beslag.',
+          'Verwarm het wafelijzer goed en vet het in. Giet er net genoeg beslag in om de plaat te bedekken; het loopt vanzelf uit.',
+          'Bak 4 à 5 minuten tot ze diep goudbruin en krokant zijn. Open het ijzer niet te vroeg — je trekt de wafel doormidden en je leert er niets uit.',
+          'Meteen opdienen met bloemsuiker. Ze verliezen hun krokantheid binnen enkele minuten, dus laat hier niemand op wachten.'
         ]
       },
       fr: {
         title: 'Gaufres de Bruxelles',
-        subtitle: 'Gaufres légères et croustillantes à la levure',
-        description: 'Pas la gaufre de Liège compacte, mais la grande rectangulaire et aérienne : croustillante dehors, presque creuse dedans. Les blancs montés font tout.',
+        subtitle: 'La grande, la creuse — pas la gaufre de Liège',
+        description: 'La gaufre rectangulaire aérienne, croustillante dehors et presque vide dedans. Les blancs montés font tout le travail, alors incorpore-les délicatement et mets-la dans un gaufrier brûlant avant qu\'ils ne retombent.',
         instructions: [
-          'Tiédissez le lait et délayez-y la levure avec une pincée de sucre. Laissez mousser 10 minutes.',
-          'Mélangez la farine, le reste du sucre et le sel dans un grand bol.',
-          'Incorporez le lait de levure, les jaunes d\'oeuf, le beurre fondu et la vanille jusqu\'à obtenir une pâte lisse.',
-          'Couvrez et laissez lever une heure au chaud, jusqu\'à ce que la pâte bulle.',
-          'Montez les blancs en neige souple et incorporez-les en deux fois, délicatement.',
-          'Chauffez bien le gaufrier et beurrez-le. Versez juste de quoi couvrir la plaque.',
-          'Cuisez 4 à 5 minutes jusqu\'à belle couleur dorée ; n\'ouvrez pas trop tôt.',
-          'Servez immédiatement avec du sucre impalpable. Elles ramollissent en quelques minutes.'
+          'Tiédis le lait à température du corps — plonges-y un doigt, et si tu ne sens rien, c\'est bon — et délaie-y la levure avec une pincée de sucre. Laisse mousser 10 minutes.',
+          'Mélange au fouet la farine, le reste du sucre et le sel dans un grand bol.',
+          'Incorpore le lait à la levure, les jaunes d\'œuf, le beurre fondu et la vanille jusqu\'à obtenir une pâte lisse.',
+          'Couvre et laisse lever une heure au chaud, jusqu\'à voir les bulles travailler.',
+          'Monte les blancs en neige souple et incorpore-les en deux fois, en gardant le plus d\'air possible. C\'est là toute la recette — le reste n\'est que de la pâte.',
+          'Chauffe bien le gaufrier et beurre-le. Verse juste de quoi couvrir la plaque ; ça s\'étale tout seul.',
+          'Cuis 4 à 5 minutes jusqu\'à ce que ce soit bien doré et croustillant. Ne l\'ouvre pas trop tôt — tu déchireras la gaufre en deux sans rien apprendre.',
+          'Sers-les tout de suite avec du sucre impalpable. Elles ramollissent en quelques minutes, alors ne fais attendre personne.'
         ]
       }
     },
@@ -440,47 +440,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Rijsttaart / Tarte au Riz',
-        subtitle: 'Verviers rice tart with a vanilla milk filling',
-        description: 'A Walloon bakery staple from Verviers. Rice cooked slowly in vanilla milk until it collapses, then baked in a yeasted crust until the top just blisters.',
+        subtitle: 'The tart Verviers built its reputation on',
+        description: 'Rice cooked so slowly in vanilla milk that the grains give up and collapse, then baked in a yeasted crust until the top blisters dark. It\'s a bakery tart, and it takes a bakery\'s patience.',
         instructions: [
-          'Warm a little of the milk, stir in the yeast and a spoon of sugar, and leave to foam.',
-          'Rub the butter into the flour and salt, then work in the yeast milk and one egg to a soft dough. Knead briefly and leave to rise for an hour.',
+          'Warm a little of the milk, stir in the yeast and a spoon of sugar, and leave it to foam.',
+          'Rub the butter into the flour and salt, then work in the yeast milk and one egg to make a soft dough. Knead it briefly and leave it to rise for an hour.',
           'Meanwhile bring the rest of the milk to a simmer with the vanilla and a pinch of salt.',
-          'Add the rice and cook very gently for 35 to 40 minutes, stirring often, until the grains have broken down and the mixture is thick.',
-          'Stir in the sugar and let it cool to lukewarm, then beat in the remaining eggs one at a time.',
-          'Roll the dough out and line a buttered 28 cm tin, pressing it up the sides. Prick the base.',
-          'Pour in the rice filling and level it. Bake at 190°C for 40 to 45 minutes until set with dark golden spots on top.',
-          'Cool completely in the tin — it firms as it cools and is best at room temperature.'
+          'Add the rice and cook it very gently for 35 to 40 minutes, stirring often, until the grains have broken down and the mixture is thick. Stir often and keep the heat low — rice sticks and scorches the moment you turn your back.',
+          'Stir in the sugar and let it cool to lukewarm, then beat in the remaining eggs one at a time. Add them to hot rice and you\'ll have sweet scrambled egg.',
+          'Roll the dough out and line a buttered 28 cm tin, pressing it up the sides. Prick the base all over.',
+          'Pour in the rice filling and level it. Bake at 190°C for 40 to 45 minutes, until set with dark golden spots on top. Those spots are wanted, not a mistake.',
+          'Cool it completely in the tin. It firms as it cools, and it\'s at its best at room temperature — never straight from the oven.'
         ]
       },
       nl: {
         title: 'Rijsttaart',
-        subtitle: 'Verviers rijsttaart met vanillemelkvulling',
-        description: 'Een Waalse bakkersklassieker uit Verviers. Rijst traag gegaard in vanillemelk tot ze uit elkaar valt, gebakken in een gistdeegbodem tot de bovenkant net blaast.',
+        subtitle: 'De taart waar Verviers zijn naam aan dankt',
+        description: 'Rijst zo traag gegaard in vanillemelk dat de korrels het opgeven en uit elkaar vallen, en dan gebakken in een gistdeegbodem tot de bovenkant donker blaast. Het is een bakkerstaart, en ze vraagt het geduld van een bakker.',
         instructions: [
           'Verwarm een deel van de melk lauw, roer er de gist en een lepel suiker door en laat schuimen.',
-          'Wrijf de boter door de bloem en het zout, werk er dan de gistmelk en één ei door tot een zacht deeg. Kneed kort en laat een uur rijzen.',
+          'Wrijf de boter door de bloem en het zout, en werk er dan de gistmelk en één ei door tot een zacht deeg. Kneed kort en laat een uur rijzen.',
           'Breng ondertussen de rest van de melk met de vanille en een snuf zout tegen de kook aan.',
-          'Voeg de rijst toe en laat 35 à 40 minuten heel zachtjes gaar worden, regelmatig roeren, tot de korrels uit elkaar vallen.',
-          'Roer de suiker erdoor, laat lauw worden en klop dan de overige eieren er één voor één door.',
-          'Rol het deeg uit en bekleed een beboterde vorm van 28 cm, druk het tegen de rand. Prik de bodem in.',
-          'Giet de rijstvulling erin en strijk glad. Bak 40 à 45 minuten op 190°C tot ze gestold is met donkere vlekjes bovenop.',
-          'Laat volledig afkoelen in de vorm — ze stijft op bij het afkoelen en is het lekkerst op kamertemperatuur.'
+          'Voeg de rijst toe en laat 35 à 40 minuten heel zachtjes garen, regelmatig roerend, tot de korrels uit elkaar vallen en het mengsel dik is. Roer vaak en hou het vuur laag — rijst hecht en brandt aan op het moment dat je je omdraait.',
+          'Roer de suiker erdoor, laat het lauw worden en klop dan de overige eieren er één voor één door. Doe je ze bij hete rijst, dan heb je zoet roerei.',
+          'Rol het deeg uit en bekleed een beboterde vorm van 28 cm, en druk het tegen de rand op. Prik de bodem overal in.',
+          'Giet de rijstvulling erin en strijk ze glad. Bak 40 à 45 minuten op 190°C, tot ze gestold is met donkergouden vlekjes bovenop. Die vlekjes horen erbij, het is geen fout.',
+          'Laat haar volledig afkoelen in de vorm. Ze stijft op tijdens het afkoelen en is op haar best op kamertemperatuur — nooit recht uit de oven.'
         ]
       },
       fr: {
         title: 'Tarte au Riz',
-        subtitle: 'Tarte au riz verviétoise à la crème de lait vanillé',
-        description: 'Un incontournable des boulangeries wallonnes, née à Verviers. Du riz cuit lentement dans un lait vanillé jusqu\'à se défaire, cuit dans une pâte levée.',
+        subtitle: 'La tarte qui a fait la réputation de Verviers',
+        description: 'Du riz cuit si lentement dans un lait vanillé que les grains abandonnent et se défont, puis cuit dans une pâte levée jusqu\'à ce que le dessus se tache de brun. C\'est une tarte de boulangerie, et elle demande la patience d\'un boulanger.',
         instructions: [
-          'Tiédissez une partie du lait, délayez-y la levure et une cuillère de sucre, laissez mousser.',
-          'Sablez le beurre avec la farine et le sel, puis incorporez le lait de levure et un oeuf pour obtenir une pâte souple. Pétrissez brièvement et laissez lever une heure.',
-          'Pendant ce temps, portez le reste du lait à frémissement avec la vanille et une pincée de sel.',
-          'Ajoutez le riz et laissez cuire très doucement 35 à 40 minutes en remuant souvent, jusqu\'à ce que les grains se défassent.',
-          'Incorporez le sucre, laissez tiédir puis ajoutez les oeufs restants un à un.',
-          'Abaissez la pâte et garnissez un moule beurré de 28 cm en remontant sur les bords. Piquez le fond.',
-          'Versez la garniture et lissez. Enfournez à 190°C pendant 40 à 45 minutes, jusqu\'à ce que le dessus soit tacheté de brun.',
-          'Laissez refroidir complètement dans le moule ; elle se raffermit en refroidissant.'
+          'Tiédis une partie du lait, délaie-y la levure et une cuillère de sucre, et laisse mousser.',
+          'Sable le beurre avec la farine et le sel, puis incorpore le lait à la levure et un œuf pour obtenir une pâte souple. Pétris brièvement et laisse lever une heure.',
+          'Pendant ce temps, porte le reste du lait à frémissement avec la vanille et une pincée de sel.',
+          'Ajoute le riz et laisse cuire très doucement 35 à 40 minutes en remuant souvent, jusqu\'à ce que les grains se défassent et que le mélange épaississe. Remue souvent et garde le feu bas — le riz accroche et brûle dès qu\'on a le dos tourné.',
+          'Incorpore le sucre, laisse tiédir, puis ajoute les œufs restants un à un. Sur du riz brûlant, tu obtiendrais des œufs brouillés sucrés.',
+          'Abaisse la pâte et garnis un moule beurré de 28 cm en remontant sur les bords. Pique le fond partout.',
+          'Verse la garniture au riz et lisse. Enfourne à 190°C pendant 40 à 45 minutes, jusqu\'à ce que ce soit pris et tacheté de brun doré. Ces taches sont voulues, pas une erreur.',
+          'Laisse refroidir complètement dans le moule. Elle se raffermit en refroidissant et se mange au mieux à température ambiante — jamais à la sortie du four.'
         ]
       }
     },
@@ -507,44 +507,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Spruitjes met Spek',
-        subtitle: 'Brussels sprouts pan-fried with bacon',
-        description: 'Sprouts get a bad name from being boiled to death. Halved, browned in bacon fat and finished with a splash of cream, they are a different vegetable entirely.',
+        subtitle: 'Sprouts, finally treated properly',
+        description: 'Sprouts get their bad name from being boiled to death. Halved, browned cut-side down in bacon fat and finished with cream, they become something people ask for again.',
         instructions: [
-          'Trim the sprouts, pull off any tired outer leaves and halve them through the root.',
-          'Blanch them in well-salted boiling water for 4 minutes, then drain and refresh under cold water so they keep their colour.',
-          'Fry the bacon bits in a dry pan until the fat has rendered and they are crisp. Lift them out and leave the fat behind.',
-          'Add the butter, then the sprouts cut side down. Leave them alone for 4 minutes to brown properly.',
-          'Toss, add the sliced shallot and cook another 4 minutes.',
-          'Return the bacon, pour in the cream and let it bubble for a minute until it clings.',
-          'Grate over nutmeg, season with pepper — the bacon usually brings enough salt — and serve.'
+          'Trim the sprouts, pull off any tired outer leaves and halve them through the root, so they hold together.',
+          'Blanch them in well-salted boiling water for 4 minutes, then drain and refresh under cold water. That cold water stops them cooking and keeps them green.',
+          'Fry the bacon bits in a dry pan until the fat has rendered out and they\'re crisp. Lift them out and leave every drop of that fat behind.',
+          'Add the butter, then lay the sprouts in cut side down. Leave them completely alone for 4 minutes — that untouched face is where all the browning happens.',
+          'Toss them, add the sliced shallot and cook another 4 minutes.',
+          'Return the bacon, pour in the cream and let it bubble for a minute until it clings to everything.',
+          'Grate nutmeg over, season with pepper — the bacon usually brings enough salt — and serve.'
         ]
       },
       nl: {
         title: 'Spruitjes met Spek',
-        subtitle: 'Gebakken spruitjes met spekblokjes',
-        description: 'Spruitjes hebben een slechte naam omdat ze doodgekookt worden. Gehalveerd, gebakken in spekvet en afgewerkt met een scheutje room zijn het plots heel andere groenten.',
+        subtitle: 'Spruitjes, eindelijk fatsoenlijk behandeld',
+        description: 'Spruitjes hebben hun slechte naam te danken aan doodkoken. Gehalveerd, met de snijkant in spekvet gebruind en met room afgewerkt, worden ze iets waar mensen opnieuw naar vragen.',
         instructions: [
-          'Kuis de spruitjes, verwijder de slappe buitenste blaadjes en halveer ze door de wortel.',
-          'Blancheer ze 4 minuten in goed gezouten kokend water, giet af en spoel koud zodat ze hun kleur houden.',
-          'Bak de spekblokjes uit in een droge pan tot het vet gesmolten is en ze krokant zijn. Schep ze eruit en laat het vet in de pan.',
-          'Voeg de boter toe en leg de spruitjes met de snijkant naar beneden. Laat ze 4 minuten met rust zodat ze mooi kleuren.',
-          'Schud om, voeg de gesnipperde sjalot toe en bak nog 4 minuten.',
-          'Doe het spek terug, giet de room erbij en laat een minuut inkoken tot ze aanhangt.',
-          'Rasp er nootmuskaat over, kruid met peper — het spek brengt meestal genoeg zout — en dien op.'
+          'Kuis de spruitjes, haal de slappe buitenste blaadjes eraf en halveer ze door de wortel, zodat ze samenhouden.',
+          'Blancheer ze 4 minuten in goed gezouten kokend water, giet ze af en spoel ze koud. Dat koude water stopt het garen en houdt ze groen.',
+          'Bak de spekblokjes uit in een droge pan tot het vet gesmolten is en ze krokant zijn. Schep ze eruit en laat elke druppel van dat vet in de pan.',
+          'Voeg de boter toe en leg de spruitjes met de snijkant naar beneden. Laat ze 4 minuten volledig met rust — op dat onaangeroerde vlak gebeurt al het bruinen.',
+          'Schud ze om, voeg de gesnipperde sjalot toe en bak nog 4 minuten.',
+          'Doe het spek terug, giet de room erbij en laat een minuut borrelen tot ze overal aan hangt.',
+          'Rasp er nootmuskaat over, kruid met peper — het spek brengt meestal genoeg zout mee — en dien op.'
         ]
       },
       fr: {
         title: 'Choux de Bruxelles au Lard',
-        subtitle: 'Choux de Bruxelles poêlés aux lardons',
-        description: 'Les choux de Bruxelles ont mauvaise réputation parce qu\'on les fait bouillir à mort. Coupés en deux, saisis dans la graisse de lard et crémés, c\'est un tout autre légume.',
+        subtitle: 'Des choux de Bruxelles enfin bien traités',
+        description: 'Les choux de Bruxelles doivent leur mauvaise réputation à la surcuisson. Coupés en deux, colorés face coupée dans la graisse de lard et crémés, ils deviennent quelque chose qu\'on redemande.',
         instructions: [
-          'Parez les choux, retirez les feuilles fatiguées et coupez-les en deux dans le sens de la racine.',
-          'Blanchissez-les 4 minutes à l\'eau bouillante bien salée, égouttez et rafraîchissez pour garder la couleur.',
-          'Faites rendre les lardons à sec jusqu\'à ce qu\'ils soient croustillants. Retirez-les en laissant la graisse.',
-          'Ajoutez le beurre puis les choux, face coupée vers le fond. Ne touchez à rien pendant 4 minutes.',
-          'Remuez, ajoutez l\'échalote émincée et poursuivez 4 minutes.',
-          'Remettez les lardons, versez la crème et laissez réduire une minute.',
-          'Râpez un peu de muscade, poivrez — les lardons salent déjà — et servez.'
+          'Pare les choux, retire les feuilles fatiguées et coupe-les en deux dans le sens de la racine, pour qu\'ils tiennent.',
+          'Blanchis-les 4 minutes à l\'eau bouillante bien salée, égoutte et rafraîchis à l\'eau froide. Cette eau froide arrête la cuisson et garde la couleur.',
+          'Fais rendre les lardons à sec jusqu\'à ce que la graisse ait fondu et qu\'ils soient croustillants. Retire-les en laissant chaque goutte de graisse.',
+          'Ajoute le beurre, puis pose les choux face coupée vers le fond. Ne les touche absolument pas pendant 4 minutes — c\'est sur cette face immobile que tout se colore.',
+          'Remue-les, ajoute l\'échalote émincée et poursuis 4 minutes.',
+          'Remets les lardons, verse la crème et laisse bouillonner une minute jusqu\'à ce qu\'elle enrobe tout.',
+          'Râpe de la muscade dessus, poivre — les lardons apportent en général assez de sel — et sers.'
         ]
       }
     },
@@ -569,44 +569,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Croque Monsieur',
-        subtitle: 'Grilled ham and cheese under a béchamel blanket',
-        description: 'The brasserie standard done properly: béchamel on the outside as well as the inside, so the top browns into a blistered crust instead of drying out.',
+        subtitle: 'Béchamel on the outside as well as in',
+        description: 'The brasserie standard done properly. Putting béchamel on top as well as inside is what gives you a blistered brown crust instead of dry toasted bread.',
         instructions: [
-          'Make a béchamel: melt the butter, stir in the flour, cook two minutes, then whisk in the milk a little at a time.',
-          'Simmer until thick enough to coat a spoon, then season with salt, pepper and plenty of nutmeg. Stir in a third of the cheese.',
+          'Make a béchamel: melt the butter, stir in the flour, cook it two minutes, then whisk in the milk a little at a time.',
+          'Simmer until it\'s thick enough to coat a spoon, then season with salt, pepper and plenty of nutmeg — more than you think. Stir in a third of the cheese.',
           'Butter four slices of bread on one side. Spread the unbuttered side of two of them with mustard.',
           'Layer on the ham, a spoon of béchamel and half the remaining cheese, then close the sandwiches.',
-          'Spread the rest of the béchamel over the tops and scatter over the last of the cheese.',
-          'Bake at 200°C for 10 minutes, then grill for 2 to 3 minutes until the top is bubbling and dark in patches.',
-          'Rest for a minute before cutting, or the filling runs straight out.'
+          'Spread the rest of the béchamel over the tops, right to the crusts, and scatter the last of the cheese over.',
+          'Bake at 200°C for 10 minutes, then grill for 2 to 3 minutes until the top is bubbling and dark in patches. Stay and watch it under the grill.',
+          'Rest it a minute before cutting, or the filling runs straight out onto the board.'
         ]
       },
       nl: {
         title: 'Croque Monsieur',
-        subtitle: 'Gegratineerde hesp-en-kaas met bechamel',
-        description: 'De brasserieklassieker zoals het hoort: bechamel zowel binnenin als bovenop, zodat de bovenkant gratineert in plaats van uit te drogen.',
+        subtitle: 'Bechamel vanbuiten net zo goed als vanbinnen',
+        description: 'De brasserieklassieker zoals het hoort. Bechamel ook bovenop leggen is wat je een gebobbelde bruine korst geeft in plaats van droog geroosterd brood.',
         instructions: [
           'Maak een bechamel: smelt de boter, roer de bloem erdoor, gaar twee minuten en klop er dan beetje bij beetje de melk door.',
-          'Laat indikken tot ze aan de lepel blijft hangen en kruid met peper, zout en flink wat nootmuskaat. Roer een derde van de kaas erdoor.',
-          'Besmeer vier sneden brood aan één kant met boter. Smeer op de onbeboterde kant van twee sneden mosterd.',
-          'Beleg met de hesp, een lepel bechamel en de helft van de resterende kaas en sluit de boterhammen.',
-          'Strijk de rest van de bechamel over de bovenkant en strooi de laatste kaas erover.',
-          'Bak 10 minuten op 200°C en gratineer daarna 2 à 3 minuten tot de bovenkant borrelt en donkere plekken krijgt.',
-          'Laat een minuutje rusten voor je snijdt, anders loopt de vulling er meteen uit.'
+          'Laat indikken tot ze aan de lepel blijft hangen en kruid met peper, zout en flink wat nootmuskaat — meer dan je denkt. Roer een derde van de kaas erdoor.',
+          'Besmeer vier sneden brood aan één kant met boter. Smeer mosterd op de onbeboterde kant van twee ervan.',
+          'Beleg met de hesp, een lepel bechamel en de helft van de resterende kaas, en sluit de boterhammen.',
+          'Strijk de rest van de bechamel over de bovenkanten, tot aan de korstjes, en strooi de laatste kaas erover.',
+          'Bak 10 minuten op 200°C en gratineer dan 2 à 3 minuten tot de bovenkant borrelt en donkere plekken krijgt. Blijf erbij onder de grill.',
+          'Laat het een minuutje rusten voor je snijdt, anders loopt de vulling er meteen uit op je plank.'
         ]
       },
       fr: {
         title: 'Croque Monsieur',
-        subtitle: 'Jambon-fromage gratiné sous une couche de béchamel',
-        description: 'Le classique de brasserie bien fait : de la béchamel dessus comme dedans, pour que le dessus gratine au lieu de sécher.',
+        subtitle: 'De la béchamel dessus autant que dedans',
+        description: 'Le classique de brasserie bien fait. Mettre de la béchamel sur le dessus aussi, c\'est ce qui donne une croûte brune et boursouflée au lieu d\'un pain grillé sec.',
         instructions: [
-          'Préparez une béchamel : faites fondre le beurre, incorporez la farine, cuisez deux minutes puis versez le lait progressivement en fouettant.',
-          'Laissez épaissir jusqu\'à napper la cuillère, assaisonnez de sel, poivre et beaucoup de muscade. Incorporez un tiers du fromage.',
-          'Beurrez quatre tranches de pain d\'un côté. Tartinez de moutarde la face non beurrée de deux d\'entre elles.',
-          'Garnissez de jambon, d\'une cuillère de béchamel et de la moitié du fromage restant, puis refermez.',
-          'Étalez le reste de béchamel sur le dessus et parsemez du dernier fromage.',
-          'Enfournez 10 minutes à 200°C, puis passez 2 à 3 minutes sous le gril jusqu\'à ce que le dessus bouillonne.',
-          'Laissez reposer une minute avant de couper, sinon la garniture s\'échappe.'
+          'Prépare une béchamel : fais fondre le beurre, incorpore la farine, cuis deux minutes, puis verse le lait progressivement en fouettant.',
+          'Laisse épaissir jusqu\'à ce que ça nappe la cuillère, assaisonne de sel, de poivre et de beaucoup de muscade — plus que tu ne crois. Incorpore un tiers du fromage.',
+          'Beurre quatre tranches de pain d\'un côté. Tartine de moutarde la face non beurrée de deux d\'entre elles.',
+          'Garnis de jambon, d\'une cuillère de béchamel et de la moitié du fromage restant, puis referme.',
+          'Étale le reste de la béchamel sur le dessus, jusqu\'aux croûtes, et parsème du dernier fromage.',
+          'Enfourne 10 minutes à 200°C, puis passe 2 à 3 minutes sous le gril jusqu\'à ce que le dessus bouillonne et se tache de brun. Reste devant pendant le gril.',
+          'Laisse reposer une minute avant de couper, sinon la garniture file droit sur la planche.'
         ]
       }
     },
@@ -633,44 +633,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Tomatensoep met Balletjes',
-        subtitle: 'Tomato soup with tiny meatballs',
-        description: 'The soup that turns up at every Belgian family gathering. Smooth, slightly sweet, with meatballs no bigger than a marble dropped in at the end.',
+        subtitle: 'The soup at every family gathering',
+        description: 'Smooth, slightly sweet tomato soup with meatballs no bigger than a marble dropped in at the end. Every Belgian family has an opinion about the right size of the balls.',
         instructions: [
-          'Soften the chopped onion and carrot in butter for 10 minutes without letting them colour.',
+          'Soften the chopped onion and carrot in butter for 10 minutes, without letting them take colour.',
           'Add the tomatoes, tomato paste, stock, bay leaf and a pinch of sugar. Simmer for 25 minutes.',
-          'Meanwhile mix the minced meat with the egg, breadcrumbs, salt, pepper and nutmeg, and roll marble-sized balls.',
-          'Fish out the bay leaf and blend the soup completely smooth. Pass it through a sieve if you want it silky.',
-          'Bring the soup back to a gentle simmer and drop in the meatballs. They are done when they float, about 6 minutes.',
-          'Taste and balance with salt, pepper and a little more sugar if the tomatoes are sharp.',
+          'Meanwhile mix the minced meat with the egg, breadcrumbs, salt, pepper and nutmeg, and roll marble-sized balls. Small — they should fit on a spoon with the soup.',
+          'Fish out the bay leaf and blend the soup completely smooth. Pass it through a sieve as well if you want it properly silky.',
+          'Bring the soup back to a gentle simmer and drop the meatballs in. They\'re done when they float, about 6 minutes.',
+          'Taste and balance it with salt, pepper and a little more sugar if the tomatoes are sharp.',
           'Serve with a spoon of cream stirred through and parsley on top.'
         ]
       },
       nl: {
         title: 'Tomatensoep met Balletjes',
-        subtitle: 'Gladde tomatensoep met kleine gehaktballetjes',
-        description: 'De soep die op elk Belgisch familiefeest opduikt. Glad, licht zoet, met balletjes niet groter dan een knikker die er op het einde in gaan.',
+        subtitle: 'De soep van elk familiefeest',
+        description: 'Gladde, licht zoete tomatensoep met balletjes niet groter dan een knikker die er op het eind in gaan. Elke Belgische familie heeft een mening over de juiste grootte van die balletjes.',
         instructions: [
-          'Stoof de gesnipperde ui en wortel 10 minuten in boter zonder ze te laten kleuren.',
-          'Voeg de tomaten, tomatenpuree, bouillon, laurier en een snuf suiker toe. Laat 25 minuten sudderen.',
-          'Meng ondertussen het gehakt met het ei, paneermeel, peper, zout en nootmuskaat en rol balletjes ter grootte van een knikker.',
-          'Haal de laurier eruit en mix de soep helemaal glad. Zeef ze als je ze fluweelzacht wil.',
-          'Breng de soep terug tegen de kook en laat de balletjes erin glijden. Ze zijn gaar als ze bovendrijven, na een minuut of 6.',
-          'Proef en breng op smaak met peper, zout en eventueel wat meer suiker als de tomaten scherp zijn.',
-          'Serveer met een lepel room erdoor en peterselie erop.'
+          'Stoof de gesnipperde ui en wortel 10 minuten in boter, zonder ze te laten kleuren.',
+          'Voeg de tomaten, de tomatenpuree, de bouillon, de laurier en een snuf suiker toe. Laat 25 minuten sudderen.',
+          'Meng ondertussen het gehakt met het ei, het paneermeel, peper, zout en nootmuskaat en rol balletjes ter grootte van een knikker. Klein — ze moeten samen met de soep op een lepel passen.',
+          'Haal de laurier eruit en mix de soep helemaal glad. Zeef ze er nog eens door als je ze echt fluweelzacht wil.',
+          'Breng de soep terug tegen de kook aan en laat de balletjes erin glijden. Ze zijn gaar als ze bovendrijven, na een minuut of 6.',
+          'Proef en breng in evenwicht met peper, zout en eventueel wat meer suiker als de tomaten scherp zijn.',
+          'Serveer met een lepel room erdoor geroerd en peterselie erbovenop.'
         ]
       },
       fr: {
         title: 'Soupe Tomate aux Boulettes',
-        subtitle: 'Velouté de tomates aux petites boulettes',
-        description: 'La soupe de toutes les fêtes de famille belges. Lisse, légèrement sucrée, avec des boulettes pas plus grosses qu\'une bille ajoutées à la fin.',
+        subtitle: 'La soupe de toutes les fêtes de famille',
+        description: 'Un velouté de tomates lisse et légèrement sucré avec des boulettes pas plus grosses qu\'une bille ajoutées à la fin. Chaque famille belge a un avis sur la bonne taille des boulettes.',
         instructions: [
-          'Faites suer l\'oignon et la carotte émincés au beurre pendant 10 minutes sans coloration.',
-          'Ajoutez les tomates, le concentré, le bouillon, le laurier et une pincée de sucre. Laissez mijoter 25 minutes.',
-          'Pendant ce temps, mélangez le haché avec l\'oeuf, la chapelure, sel, poivre et muscade, et roulez des boulettes minuscules.',
-          'Retirez le laurier et mixez la soupe bien lisse. Passez-la au chinois pour un résultat velouté.',
-          'Remettez à frémir et laissez glisser les boulettes. Elles sont cuites lorsqu\'elles remontent, après 6 minutes.',
-          'Goûtez et rectifiez en sel, poivre et un peu de sucre si les tomates sont acides.',
-          'Servez avec une cuillère de crème et du persil.'
+          'Fais suer l\'oignon et la carotte émincés au beurre pendant 10 minutes, sans les laisser colorer.',
+          'Ajoute les tomates, le concentré, le bouillon, le laurier et une pincée de sucre. Laisse mijoter 25 minutes.',
+          'Pendant ce temps, mélange le haché avec l\'œuf, la chapelure, le sel, le poivre et la muscade, et roule des boulettes de la taille d\'une bille. Petites — elles doivent tenir sur une cuillère avec la soupe.',
+          'Retire le laurier et mixe la soupe bien lisse. Passe-la aussi au chinois si tu la veux vraiment veloutée.',
+          'Ramène la soupe à frémissement et laisse glisser les boulettes dedans. Elles sont cuites quand elles remontent, après 6 minutes environ.',
+          'Goûte et équilibre avec du sel, du poivre et un peu plus de sucre si les tomates sont acides.',
+          'Sers avec une cuillère de crème mélangée dedans et du persil dessus.'
         ]
       }
     },
@@ -700,44 +700,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Luikse Salade / Salade Liégeoise',
-        subtitle: 'Warm salad of green beans, potatoes and bacon',
-        description: 'Warm, not cold. Green beans and potatoes tossed with bacon and a splash of vinegar straight from the hot pan, so everything soaks up the dressing.',
+        subtitle: 'A salad served warm, on purpose',
+        description: 'Green beans and potatoes tossed with bacon and vinegar straight from the hot pan, so everything drinks up the dressing. Serve it cold and you\'ve made a different, worse dish.',
         instructions: [
-          'Boil the potatoes in their skins until tender, then drain and cut into thick slices while still warm.',
-          'Cook the green beans in salted water for 6 to 8 minutes so they keep a little bite. Drain well.',
+          'Boil the potatoes in their skins until tender, then drain and cut them into thick slices while they\'re still warm. Warm potato takes on dressing; cold potato refuses it.',
+          'Cook the green beans in salted water for 6 to 8 minutes, so they keep a little bite. Drain them well.',
           'Fry the bacon bits in a large pan until crisp, then add the sliced shallot and cook another two minutes.',
-          'Take the pan off the heat and pour in the vinegar — it will steam and lift everything off the bottom of the pan.',
-          'Tip in the warm potatoes and beans and toss so they take up the bacon fat and vinegar.',
-          'Season with pepper, add salt only if it needs it, and scatter with parsley.',
-          'Serve warm, on its own or with a fried egg on top.'
+          'Take the pan off the heat and pour in the vinegar. It will steam up at once and lift everything off the bottom of the pan — that\'s the dressing making itself.',
+          'Tip in the warm potatoes and beans and toss them so they take up the bacon fat and vinegar.',
+          'Season with pepper, add salt only if it actually needs it, and scatter parsley over.',
+          'Serve it warm, on its own or with a fried egg on top.'
         ]
       },
       nl: {
         title: 'Luikse Salade',
-        subtitle: 'Warme salade van prinsessenbonen, aardappel en spek',
-        description: 'Warm, niet koud. Prinsessenbonen en aardappelen door spek en een scheut azijn zo uit de hete pan, zodat alles de dressing opneemt.',
+        subtitle: 'Een salade die met opzet warm wordt opgediend',
+        description: 'Prinsessenbonen en aardappelen door spek en azijn zo uit de hete pan, zodat alles de dressing opdrinkt. Dien je ze koud op, dan heb je een ander en minder goed gerecht gemaakt.',
         instructions: [
-          'Kook de aardappelen in de schil gaar, giet af en snijd ze nog warm in dikke schijven.',
-          'Kook de bonen 6 à 8 minuten in gezouten water zodat ze nog wat beet houden. Goed laten uitlekken.',
+          'Kook de aardappelen in hun schil gaar, giet ze af en snijd ze nog warm in dikke schijven. Warme aardappel neemt dressing op; koude aardappel weigert.',
+          'Kook de bonen 6 à 8 minuten in gezouten water, zodat ze nog wat beet houden. Laat ze goed uitlekken.',
           'Bak de spekblokjes krokant in een grote pan, voeg dan de gesnipperde sjalot toe en bak nog twee minuten.',
-          'Haal de pan van het vuur en giet de azijn erbij — die stoomt meteen en maakt de aanbaksels los.',
-          'Doe de warme aardappelen en bonen erbij en schud om zodat ze het spekvet en de azijn opnemen.',
-          'Kruid met peper, voeg enkel zout toe als het nodig is, en strooi er peterselie over.',
-          'Warm opdienen, zo of met een gebakken ei erop.'
+          'Haal de pan van het vuur en giet de azijn erbij. Die stoomt meteen op en maakt alles van de bodem los — dat is je dressing die zichzelf maakt.',
+          'Doe de warme aardappelen en de bonen erbij en schud om zodat ze het spekvet en de azijn opnemen.',
+          'Kruid met peper, voeg alleen zout toe als het echt nodig is, en strooi er peterselie over.',
+          'Warm opdienen, zo of met een gebakken ei erbovenop.'
         ]
       },
       fr: {
         title: 'Salade Liégeoise',
-        subtitle: 'Salade tiède de haricots verts, pommes de terre et lard',
-        description: 'Tiède, pas froide. Haricots et pommes de terre mêlés au lard et à un trait de vinaigre sorti de la poêle chaude, pour que tout s\'imprègne.',
+        subtitle: 'Une salade servie tiède, exprès',
+        description: 'Des haricots verts et des pommes de terre mêlés au lard et au vinaigre sortis de la poêle brûlante, pour que tout boive la vinaigrette. Sers-la froide et tu auras fait un autre plat, moins bon.',
         instructions: [
-          'Cuisez les pommes de terre en robe des champs, égouttez et coupez-les en grosses rondelles encore chaudes.',
-          'Cuisez les haricots 6 à 8 minutes à l\'eau salée pour qu\'ils gardent du croquant. Égouttez bien.',
-          'Faites rissoler les lardons dans une grande poêle, ajoutez l\'échalote émincée et poursuivez deux minutes.',
-          'Hors du feu, versez le vinaigre : il déglace immédiatement le fond de la poêle.',
-          'Ajoutez les pommes de terre et les haricots tièdes et mélangez pour qu\'ils absorbent la graisse et le vinaigre.',
-          'Poivrez, salez seulement si nécessaire, et parsemez de persil.',
-          'Servez tiède, tel quel ou surmonté d\'un oeuf au plat.'
+          'Cuis les pommes de terre en robe des champs jusqu\'à tendreté, égoutte-les et coupe-les en grosses rondelles encore chaudes. Une pomme de terre tiède prend la vinaigrette ; froide, elle la refuse.',
+          'Cuis les haricots 6 à 8 minutes à l\'eau salée, pour qu\'ils gardent du croquant. Égoutte-les bien.',
+          'Fais rissoler les lardons dans une grande poêle jusqu\'à ce qu\'ils croustillent, puis ajoute l\'échalote émincée et poursuis deux minutes.',
+          'Retire la poêle du feu et verse le vinaigre. Il va fumer aussitôt et décoller tout ce qui est au fond — c\'est ta vinaigrette qui se fait toute seule.',
+          'Ajoute les pommes de terre et les haricots tièdes et remue pour qu\'ils absorbent la graisse de lard et le vinaigre.',
+          'Poivre, ne sale que si c\'est vraiment nécessaire, et parsème de persil.',
+          'Sers tiède, tel quel ou surmonté d\'un œuf au plat.'
         ]
       }
     },
@@ -762,44 +762,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Speculoos',
-        subtitle: 'Spiced brown sugar biscuits',
-        description: 'The biscuit that comes with every Belgian coffee. Brown sugar and the spice mix do the work; the dough wants a night in the fridge before it will behave.',
+        subtitle: 'The biscuit in every Belgian saucer',
+        description: 'Brown sugar and spice do all the work here, but the dough wants a night in the fridge before it will behave. Try to roll it the same day and it sticks to everything you own.',
         instructions: [
           'Beat the soft butter with the brown sugar until light and creamy.',
           'Mix the flour, spices, baking soda and salt in a separate bowl.',
-          'Work the dry mix into the butter with the milk until it just comes together as a dough. Do not knead it much.',
-          'Wrap and refrigerate overnight — this is what gives speculoos their snap and their flavour.',
-          'Roll out thin, about 4 mm, on a floured surface and cut out your shapes.',
-          'Bake at 170°C for 12 to 15 minutes until evenly brown at the edges.',
-          'They are still soft coming out of the oven; leave them on a rack to crisp up completely.'
+          'Work the dry mix into the butter with the milk until it just comes together as a dough. Don\'t knead it much — the less you handle it, the shorter the biscuit.',
+          'Wrap it and refrigerate overnight. This is what gives speculoos their snap and lets the spices spread through the dough.',
+          'Roll it out thin, about 4 mm, on a floured surface and cut out your shapes.',
+          'Bake at 170°C for 12 to 15 minutes, until evenly brown at the edges.',
+          'They\'re still soft coming out of the oven — that\'s normal. Leave them on a rack to crisp up completely before you judge them.'
         ]
       },
       nl: {
         title: 'Speculoos',
-        subtitle: 'Kruidige koekjes van bruine suiker',
-        description: 'Het koekje bij elke Belgische koffie. De bruine suiker en de speculaaskruiden doen het werk; het deeg wil een nacht in de koelkast voor het meewerkt.',
+        subtitle: 'Het koekje bij elk Belgisch koffieschoteltje',
+        description: 'De bruine suiker en de speculaaskruiden doen hier al het werk, maar het deeg wil een nacht in de koelkast voor het meewerkt. Probeer het dezelfde dag uit te rollen en het plakt aan alles wat je bezit.',
         instructions: [
           'Klop de zachte boter met de bruine suiker luchtig en romig.',
-          'Meng de bloem, speculaaskruiden, zuiveringszout en zout in een aparte kom.',
-          'Werk het droge mengsel met de melk door de boter tot het net samenkomt tot een deeg. Niet te lang kneden.',
-          'Wikkel in folie en laat een nacht in de koelkast rusten — dat geeft speculoos zijn knapperigheid en smaak.',
-          'Rol dun uit, zo\'n 4 mm, op een met bloem bestoven werkblad en steek je vormen uit.',
-          'Bak 12 à 15 minuten op 170°C tot ze gelijkmatig bruin zijn aan de randen.',
-          'Ze zijn nog zacht als ze uit de oven komen; laat ze op een rooster volledig hard worden.'
+          'Meng de bloem, de speculaaskruiden, het zuiveringszout en het zout in een aparte kom.',
+          'Werk het droge mengsel met de melk door de boter tot het net tot een deeg samenkomt. Kneed niet te lang — hoe minder je eraan zit, hoe brozer het koekje.',
+          'Wikkel het in en laat het een nacht in de koelkast rusten. Dat geeft speculoos zijn knapperigheid en laat de kruiden zich door het deeg verspreiden.',
+          'Rol het dun uit, zo\'n 4 mm, op een met bloem bestoven werkblad en steek je vormen uit.',
+          'Bak 12 à 15 minuten op 170°C, tot ze aan de randen gelijkmatig bruin zijn.',
+          'Ze zijn nog zacht als ze uit de oven komen — dat hoort. Laat ze op een rooster volledig hard worden voor je erover oordeelt.'
         ]
       },
       fr: {
         title: 'Spéculoos',
-        subtitle: 'Biscuits épicés à la cassonade',
-        description: 'Le biscuit de tous les cafés belges. La cassonade et le mélange d\'épices font tout ; la pâte réclame une nuit au frais avant de se laisser travailler.',
+        subtitle: 'Le biscuit de chaque soucoupe belge',
+        description: 'La cassonade et les épices font tout le travail ici, mais la pâte réclame une nuit au frais avant de se laisser faire. Essaie de l\'étaler le jour même et elle colle à tout ce que tu possèdes.',
         instructions: [
-          'Battez le beurre mou avec la cassonade jusqu\'à obtenir un mélange clair et crémeux.',
-          'Mélangez la farine, les épices, le bicarbonate et le sel dans un autre bol.',
-          'Incorporez le mélange sec et le lait au beurre jusqu\'à formation d\'une pâte. Ne pétrissez pas trop.',
-          'Filmez et réservez une nuit au réfrigérateur — c\'est ce qui donne le croquant et le goût.',
-          'Abaissez finement, environ 4 mm, sur un plan fariné et découpez vos formes.',
-          'Enfournez 12 à 15 minutes à 170°C, jusqu\'à ce que les bords soient uniformément bruns.',
-          'Ils sont encore mous à la sortie du four ; laissez-les durcir complètement sur une grille.'
+          'Bats le beurre mou avec la cassonade jusqu\'à obtenir un mélange clair et crémeux.',
+          'Mélange la farine, les épices, le bicarbonate et le sel dans un autre bol.',
+          'Incorpore le mélange sec et le lait au beurre jusqu\'à ce que ça forme tout juste une pâte. Ne pétris pas trop — moins tu la travailles, plus le biscuit sera sablé.',
+          'Filme-la et réserve une nuit au réfrigérateur. C\'est ce qui donne le croquant et laisse les épices se diffuser dans la pâte.',
+          'Abaisse-la finement, environ 4 mm, sur un plan fariné et découpe tes formes.',
+          'Enfourne 12 à 15 minutes à 170°C, jusqu\'à ce que les bords soient uniformément bruns.',
+          'Ils sont encore mous à la sortie du four — c\'est normal. Laisse-les durcir complètement sur une grille avant de les juger.'
         ]
       }
     },
@@ -826,44 +826,44 @@ module.exports = [
     translations: {
       en: {
         title: 'Dame Blanche',
-        subtitle: 'Vanilla ice cream under hot Belgian chocolate',
-        description: 'The dessert every Belgian brasserie has on the menu. It stands or falls on the sauce, so use chocolate you would happily eat on its own.',
+        subtitle: 'Cold ice cream, hot chocolate, nothing else',
+        description: 'It stands or falls entirely on the sauce, so use chocolate you would happily eat on its own. Everything else about it is just assembly.',
         instructions: [
-          'Chop the chocolate finely so it melts evenly.',
-          'Bring the cream just to the point of simmering — small bubbles at the edge, no more.',
-          'Take it off the heat, add the chocolate and leave it for a minute without stirring.',
-          'Stir from the middle outwards until the sauce is glossy and completely smooth.',
-          'Loosen with a spoon of milk if it is thicker than you want it to pour.',
-          'Put three scoops of vanilla ice cream in each chilled bowl.',
-          'Pour the warm sauce over at the table and finish with whipped cream. Serve immediately.'
+          'Chop the chocolate finely so it melts evenly. Big chunks melt at different speeds and leave you with lumps.',
+          'Bring the cream just to the point of simmering — small bubbles at the edge, no more than that.',
+          'Take it off the heat, add the chocolate and leave it a full minute without stirring. Let the heat do the work.',
+          'Then stir from the middle outwards, until the sauce is glossy and completely smooth.',
+          'Loosen it with a spoon of milk if it\'s thicker than you want it to pour.',
+          'Put three scoops of vanilla ice cream in each chilled bowl. Chilled bowls — the ice cream has enough to contend with already.',
+          'Pour the warm sauce over at the table, so everybody sees it happen, and finish with whipped cream. Serve immediately.'
         ]
       },
       nl: {
         title: 'Dame Blanche',
-        subtitle: 'Vanille-ijs onder warme Belgische chocolade',
-        description: 'Het dessert dat op elke Belgische brasseriekaart staat. Het valt of staat met de saus, dus gebruik chocolade die je ook zo zou opeten.',
+        subtitle: 'Koud ijs, warme chocolade, verder niets',
+        description: 'Het valt of staat volledig met de saus, dus gebruik chocolade die je ook zo zou opeten. Al de rest is enkel opbouwen.',
         instructions: [
-          'Hak de chocolade fijn zodat ze gelijkmatig smelt.',
-          'Breng de room net tegen de kook aan — kleine belletjes aan de rand, meer niet.',
-          'Haal van het vuur, voeg de chocolade toe en laat een minuut staan zonder te roeren.',
-          'Roer van het midden naar buiten tot de saus glanzend en volledig glad is.',
-          'Maak losser met een lepel melk als ze te dik is om te schenken.',
-          'Schep drie bollen vanille-ijs in elke voorgekoelde coupe.',
-          'Giet de warme saus er aan tafel over en werk af met slagroom. Meteen serveren.'
+          'Hak de chocolade fijn zodat ze gelijkmatig smelt. Grote brokken smelten aan verschillende snelheden en laten je met klontjes achter.',
+          'Breng de room net tegen de kook aan — kleine belletjes aan de rand, niet meer dan dat.',
+          'Haal ze van het vuur, voeg de chocolade toe en laat het een volle minuut staan zonder te roeren. Laat de warmte het werk doen.',
+          'Roer dan van het midden naar buiten, tot de saus glanzend en volledig glad is.',
+          'Maak ze losser met een lepel melk als ze te dik is om te schenken.',
+          'Schep drie bollen vanille-ijs in elke voorgekoelde coupe. Voorgekoeld — het ijs heeft het al zwaar genoeg.',
+          'Giet de warme saus er aan tafel over, zodat iedereen het ziet gebeuren, en werk af met slagroom. Meteen opdienen.'
         ]
       },
       fr: {
         title: 'Dame Blanche',
-        subtitle: 'Glace vanille sous chocolat belge chaud',
-        description: 'Le dessert de toutes les brasseries belges. Tout repose sur la sauce : prenez un chocolat que vous mangeriez tel quel.',
+        subtitle: 'Glace froide, chocolat chaud, rien d\'autre',
+        description: 'Tout repose entièrement sur la sauce, alors prends un chocolat que tu mangerais tel quel. Le reste n\'est que du montage.',
         instructions: [
-          'Hachez finement le chocolat pour qu\'il fonde régulièrement.',
-          'Portez la crème juste au point de frémissement — de petites bulles sur le bord, pas plus.',
-          'Hors du feu, ajoutez le chocolat et laissez reposer une minute sans remuer.',
-          'Mélangez du centre vers l\'extérieur jusqu\'à obtenir une sauce brillante et parfaitement lisse.',
-          'Détendez d\'une cuillère de lait si elle est trop épaisse pour napper.',
-          'Disposez trois boules de glace vanille dans chaque coupe bien froide.',
-          'Versez la sauce chaude à table et terminez à la crème fouettée. Servez aussitôt.'
+          'Hache finement le chocolat pour qu\'il fonde régulièrement. De gros morceaux fondent à des vitesses différentes et te laissent des grumeaux.',
+          'Porte la crème juste au point de frémissement — de petites bulles sur le bord, pas plus.',
+          'Retire du feu, ajoute le chocolat et laisse reposer une minute entière sans remuer. Laisse la chaleur travailler.',
+          'Mélange ensuite du centre vers l\'extérieur, jusqu\'à obtenir une sauce brillante et parfaitement lisse.',
+          'Détends-la d\'une cuillère de lait si elle est trop épaisse pour napper.',
+          'Dispose trois boules de glace vanille dans chaque coupe bien froide. Bien froide — la glace a déjà assez à faire.',
+          'Verse la sauce chaude à table, pour que tout le monde le voie, et termine à la crème fouettée. Sers aussitôt.'
         ]
       }
     },
@@ -887,47 +887,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Erwtensoep',
-        subtitle: 'Thick split pea soup with smoked sausage',
-        description: 'Less a soup than a meal. Properly made, a spoon should stand up in it — and it is better on the second day, once it has had a night to thicken.',
+        subtitle: 'A soup you could stand a spoon in',
+        description: 'Less a soup than a meal in a bowl. Properly made, a spoon stands up in it, and it is better on the second day once it has had a night to thicken.',
         instructions: [
           'Rinse the split peas under cold water until it runs clear.',
-          'Put them in a large pot with the pork belly, cover generously with water and bring to the boil. Skim off the grey foam.',
-          'Turn the heat right down and simmer for an hour, stirring now and then so nothing catches on the bottom.',
+          'Put them in a large pot with the pork belly, cover generously with water and bring to the boil. Skim the grey foam off as it rises.',
+          'Turn the heat right down and simmer for an hour, stirring now and then so nothing catches on the bottom. Peas sink and stick, and burnt peas ruin the whole pot.',
           'Add the diced celeriac, carrots, leek, onion and potato and cook another 45 minutes.',
           'Lift out the pork, cut it into pieces and put it back in.',
-          'Add the sliced smoked sausage and simmer 15 minutes more, until the peas have completely fallen apart.',
-          'Season with salt and pepper. Loosen with water if it has gone past thick into solid.',
+          'Add the sliced smoked sausage and simmer 15 minutes more, until the peas have completely fallen apart. They should not be recognisable as peas any more.',
+          'Season with salt and pepper. Loosen it with water if it has gone past thick and into solid.',
           'Serve with dark rye bread and mustard.'
         ]
       },
       nl: {
         title: 'Erwtensoep',
-        subtitle: 'Dikke spliterwtensoep met rookworst',
-        description: 'Eerder een maaltijd dan een soep. Goed gemaakt blijft de lepel rechtop staan — en ze is beter op dag twee, als ze een nacht heeft kunnen indikken.',
+        subtitle: 'Een soep waar de lepel in blijft staan',
+        description: 'Eerder een maaltijd in een kom dan een soep. Goed gemaakt blijft de lepel rechtop staan, en ze is beter op dag twee, als ze een nacht heeft kunnen indikken.',
         instructions: [
           'Spoel de spliterwten onder koud water tot het water helder blijft.',
-          'Doe ze in een grote pot met het buikspek, zet ruim onder water en breng aan de kook. Schep het grijze schuim eraf.',
-          'Zet het vuur laag en laat een uur sudderen, af en toe roeren zodat er niets aanbakt.',
+          'Doe ze in een grote pot met het buikspek, zet ze ruim onder water en breng aan de kook. Schep het grijze schuim eraf naarmate het bovenkomt.',
+          'Zet het vuur helemaal laag en laat een uur sudderen, af en toe roerend zodat er niets aanbakt. Erwten zakken en hechten, en aangebrande erwten verpesten de hele pot.',
           'Voeg de knolselder, wortelen, prei, ui en aardappel in blokjes toe en laat nog 45 minuten koken.',
           'Haal het spek eruit, snijd het in stukken en doe het terug in de pot.',
-          'Voeg de gesneden rookworst toe en laat nog 15 minuten trekken tot de erwten volledig uit elkaar gevallen zijn.',
-          'Kruid met peper en zout. Verdun met wat water als ze eerder vast dan dik geworden is.',
+          'Voeg de gesneden rookworst toe en laat nog 15 minuten trekken, tot de erwten volledig uit elkaar gevallen zijn. Je hoort ze niet meer als erwten te herkennen.',
+          'Kruid met peper en zout. Verdun met wat water als ze van dik naar vast is doorgeschoten.',
           'Serveer met donker roggebrood en mosterd.'
         ]
       },
       fr: {
         title: 'Soupe aux Pois',
-        subtitle: 'Soupe épaisse de pois cassés à la saucisse fumée',
-        description: 'Plus un repas qu\'une soupe. Bien faite, la cuillère y tient debout — et elle est meilleure le lendemain, après une nuit à épaissir.',
+        subtitle: 'Une soupe où la cuillère tient debout',
+        description: 'Plus un repas dans un bol qu\'une soupe. Bien faite, la cuillère y tient debout, et elle est meilleure le lendemain, après une nuit à épaissir.',
         instructions: [
-          'Rincez les pois cassés à l\'eau froide jusqu\'à ce qu\'elle reste claire.',
-          'Mettez-les dans une grande marmite avec la poitrine de porc, couvrez largement d\'eau et portez à ébullition. Écumez.',
-          'Baissez le feu et laissez mijoter une heure en remuant de temps en temps.',
-          'Ajoutez le céleri-rave, les carottes, le poireau, l\'oignon et la pomme de terre en dés, et poursuivez 45 minutes.',
-          'Retirez la poitrine, coupez-la en morceaux et remettez-la dans la marmite.',
-          'Ajoutez la saucisse fumée en rondelles et laissez encore 15 minutes, jusqu\'à ce que les pois soient défaits.',
-          'Salez et poivrez. Détendez à l\'eau si elle est devenue compacte.',
-          'Servez avec du pain de seigle et de la moutarde.'
+          'Rince les pois cassés à l\'eau froide jusqu\'à ce qu\'elle reste claire.',
+          'Mets-les dans une grande marmite avec la poitrine de porc, couvre largement d\'eau et porte à ébullition. Écume la mousse grise à mesure qu\'elle monte.',
+          'Baisse le feu au minimum et laisse mijoter une heure en remuant de temps en temps pour que rien n\'attache. Les pois tombent au fond et collent, et des pois brûlés gâchent toute la marmite.',
+          'Ajoute le céleri-rave, les carottes, le poireau, l\'oignon et la pomme de terre en dés, et poursuis 45 minutes.',
+          'Retire la poitrine, coupe-la en morceaux et remets-la dedans.',
+          'Ajoute la saucisse fumée en rondelles et laisse encore 15 minutes, jusqu\'à ce que les pois soient complètement défaits. On ne doit plus les reconnaître.',
+          'Sale et poivre. Détends à l\'eau si elle est passée d\'épaisse à compacte.',
+          'Sers avec du pain de seigle noir et de la moutarde.'
         ]
       }
     },
@@ -954,47 +954,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Paling in \'t Groen',
-        subtitle: 'Eel in a green herb sauce',
-        description: 'A dish from the Scheldt: eel poached in white wine with a mountain of green herbs, thickened only with egg yolk. Eaten warm in summer, cold the next day.',
+        subtitle: 'Eel buried under a mountain of green herbs',
+        description: 'Eel poached in white wine with more herbs than seems reasonable, thickened with nothing but egg yolk. Warm in summer, and cold from the fridge the next day, which is how many people prefer it.',
         instructions: [
-          'Ask the fishmonger to skin the eel and cut it into 5 cm pieces.',
-          'Melt the butter in a wide pan and soften the chopped shallots without colouring them.',
-          'Lay the eel on top, pour over the white wine and just enough water to barely cover.',
-          'Poach very gently for 10 minutes — the liquid should never boil or the eel toughens.',
-          'Add the sorrel, spinach, parsley, chervil, mint and tarragon, all roughly chopped. They will collapse in a couple of minutes.',
-          'Take the pan off the heat. Whisk the egg yolks with the lemon juice, stir in a ladle of the hot cooking liquid, then pour it back into the pan.',
-          'Swirl the pan over the lowest heat until the sauce thickens slightly. It must not boil.',
+          'Ask the fishmonger to skin the eel and cut it into 5 cm pieces. There is no shame in this; skinning an eel is a job for someone with the right knife.',
+          'Melt the butter in a wide pan and soften the chopped shallots without letting them colour.',
+          'Lay the eel on top, pour over the white wine and just enough water to barely cover it.',
+          'Poach very gently for 10 minutes. The liquid should tremble and never boil — boiled eel goes tough and there\'s no fixing it.',
+          'Add the sorrel, spinach, parsley, chervil, mint and tarragon, all roughly chopped. They collapse into almost nothing in a couple of minutes, which is why there has to be so much.',
+          'Take the pan off the heat. Whisk the egg yolks with the lemon juice, stir a ladle of the hot cooking liquid into them, then pour it all back into the pan.',
+          'Swirl the pan over the lowest heat until the sauce thickens slightly. It must not boil, or you\'ll have scrambled egg in your herbs.',
           'Season and serve warm with bread, or chill it completely and eat it cold the next day.'
         ]
       },
       nl: {
         title: 'Paling in \'t Groen',
-        subtitle: 'Paling in een groene kruidensaus',
-        description: 'Een Scheldegerecht: paling gepocheerd in witte wijn met een berg groene kruiden, enkel gebonden met eierdooier. Warm in de zomer, koud de dag erna.',
+        subtitle: 'Paling bedolven onder een berg groene kruiden',
+        description: 'Paling gepocheerd in witte wijn met meer kruiden dan redelijk lijkt, gebonden met niets dan eierdooier. Warm in de zomer, en koud uit de koelkast de dag erna, zoals velen ze het liefst hebben.',
         instructions: [
-          'Vraag de visboer om de paling te villen en in stukken van 5 cm te snijden.',
-          'Smelt de boter in een brede pan en stoof de gesnipperde sjalotten glazig zonder ze te laten kleuren.',
+          'Vraag de visboer om de paling te villen en in stukken van 5 cm te snijden. Daar is niets beschamends aan; een paling villen is werk voor iemand met het juiste mes.',
+          'Smelt de boter in een brede pan en stoof de gesnipperde sjalotten zacht zonder ze te laten kleuren.',
           'Leg de paling erop, giet de witte wijn erbij en net genoeg water om alles amper onder te zetten.',
-          'Pocheer 10 minuten heel zachtjes — het vocht mag nooit koken, anders wordt de paling taai.',
-          'Voeg de zurkel, spinazie, peterselie, kervel, munt en dragon toe, grof gehakt. Ze slinken in een paar minuten.',
-          'Haal de pan van het vuur. Klop de eierdooiers met het citroensap los, roer er een pollepel warm kookvocht door en giet dat terug in de pan.',
-          'Zwenk de pan op het laagste vuur tot de saus licht bindt. Ze mag niet koken.',
+          'Pocheer 10 minuten heel zachtjes. Het vocht moet trillen en nooit koken — gekookte paling wordt taai en daar valt niets meer aan te doen.',
+          'Voeg de zurkel, spinazie, peterselie, kervel, munt en dragon toe, grof gehakt. Ze slinken in een paar minuten tot bijna niets, en daarom moet het er zoveel zijn.',
+          'Haal de pan van het vuur. Klop de eierdooiers met het citroensap los, roer er een pollepel warm kookvocht door en giet dat dan terug in de pan.',
+          'Zwenk de pan op het laagste vuur tot de saus lichtjes bindt. Ze mag niet koken, anders zit er roerei tussen je kruiden.',
           'Kruid en serveer warm met brood, of laat volledig afkoelen en eet ze de volgende dag koud.'
         ]
       },
       fr: {
         title: 'Anguilles au Vert',
-        subtitle: 'Anguilles en sauce verte aux herbes',
-        description: 'Un plat de l\'Escaut : anguilles pochées au vin blanc avec une montagne d\'herbes vertes, liées au seul jaune d\'oeuf. Tièdes en été, froides le lendemain.',
+        subtitle: 'De l\'anguille ensevelie sous une montagne d\'herbes',
+        description: 'De l\'anguille pochée au vin blanc avec plus d\'herbes qu\'il ne paraît raisonnable, liée par le seul jaune d\'œuf. Tiède en été, et froide au sortir du frigo le lendemain, comme beaucoup la préfèrent.',
         instructions: [
-          'Demandez au poissonnier de dépouiller les anguilles et de les couper en tronçons de 5 cm.',
-          'Faites fondre le beurre dans une large sauteuse et faites suer les échalotes sans coloration.',
-          'Déposez les anguilles, versez le vin blanc et juste assez d\'eau pour les couvrir à peine.',
-          'Pochez très doucement 10 minutes — le liquide ne doit jamais bouillir.',
-          'Ajoutez l\'oseille, les épinards, le persil, le cerfeuil, la menthe et l\'estragon grossièrement hachés. Ils tombent en deux minutes.',
-          'Hors du feu, fouettez les jaunes d\'oeuf avec le jus de citron, détendez avec une louche de cuisson chaude, puis reversez dans la sauteuse.',
-          'Faites tourner la sauteuse sur feu très doux jusqu\'à légère liaison. Sans ébullition.',
-          'Assaisonnez et servez tiède avec du pain, ou bien froid le lendemain.'
+          'Demande au poissonnier de dépouiller les anguilles et de les couper en tronçons de 5 cm. Il n\'y a là aucune honte ; dépouiller une anguille est un travail pour qui a le bon couteau.',
+          'Fais fondre le beurre dans une large sauteuse et fais suer les échalotes émincées sans les laisser colorer.',
+          'Dépose les anguilles dessus, verse le vin blanc et juste assez d\'eau pour les couvrir à peine.',
+          'Poche très doucement 10 minutes. Le liquide doit frémir et jamais bouillir — une anguille bouillie devient coriace et rien ne la rattrape.',
+          'Ajoute l\'oseille, les épinards, le persil, le cerfeuil, la menthe et l\'estragon, grossièrement hachés. Ils tombent à presque rien en deux minutes, et c\'est pour ça qu\'il en faut autant.',
+          'Retire la sauteuse du feu. Fouette les jaunes d\'œuf avec le jus de citron, détends-les d\'une louche de cuisson chaude, puis reverse le tout dans la sauteuse.',
+          'Fais tourner la sauteuse sur le feu le plus doux jusqu\'à ce que la sauce lie légèrement. Pas d\'ébullition, sinon tu auras des œufs brouillés dans tes herbes.',
+          'Assaisonne et sers tiède avec du pain, ou laisse refroidir complètement et mange-les froides le lendemain.'
         ]
       }
     },
@@ -1025,47 +1025,47 @@ module.exports = [
     translations: {
       en: {
         title: 'Belgische Frieten',
-        subtitle: 'Proper twice-fried Belgian fries',
-        description: 'Bintje potatoes, beef fat, and two separate fryings with a rest in between. That rest is not optional — it is the entire difference between fries and chips.',
+        subtitle: 'Two fryings, and a rest in between',
+        description: 'Bintje potatoes, beef fat, and two separate fryings with a proper rest between them. That rest is not optional — it is the entire difference between a Belgian fry and a chip.',
         instructions: [
-          'Peel the potatoes and cut them into sticks a good centimetre thick. Belgian fries are not thin.',
-          'Rinse them in cold water until it runs clear, to wash off the surface starch.',
-          'Dry them completely in a tea towel. Any water left will spit in the fat.',
-          'Heat the beef fat to 150°C and cook the fries in batches for 6 to 8 minutes. They should be soft and pale, not coloured.',
-          'Lift them out and spread them on a rack. Let them rest at least 30 minutes — an hour is better.',
-          'Heat the fat to 180°C and fry them again, in batches, for 2 to 3 minutes until deep golden and crisp.',
-          'Drain briefly, tip into a bowl, salt from a height and toss.',
-          'Serve at once with mayonnaise. Fries do not wait for anyone.'
+          'Peel the potatoes and cut them into sticks a good centimetre thick. Belgian fries are not thin, and thin ones will not survive being fried twice.',
+          'Rinse them in cold water until it runs clear, to wash the surface starch away.',
+          'Dry them completely in a tea towel. Any water left on them will spit in the fat, and hot fat spits a long way.',
+          'Heat the beef fat to 150°C and cook the fries in batches for 6 to 8 minutes. They should come out soft and pale, with no colour at all — that\'s cooking the inside, not browning the outside.',
+          'Lift them out and spread them on a rack. Let them rest at least 30 minutes; an hour is better. This is where the outside dries and gets ready to crisp.',
+          'Heat the fat to 180°C and fry them again, in batches, for 2 to 3 minutes, until deep golden and crisp.',
+          'Drain them briefly, tip them into a bowl, salt from a height so it spreads, and toss.',
+          'Serve at once with mayonnaise. Fries do not wait for anyone, and they will not forgive you for making them.'
         ]
       },
       nl: {
         title: 'Belgische Frieten',
-        subtitle: 'Echte frieten, twee keer gebakken',
-        description: 'Bintjes, ossewit en twee keer bakken met rust ertussen. Die rust is niet optioneel — het is precies het verschil tussen frieten en chips.',
+        subtitle: 'Twee keer bakken, met rust ertussen',
+        description: 'Bintjes, ossewit en twee keer bakken met een echte rust ertussen. Die rust is niet optioneel — het is precies het verschil tussen een Belgische friet en een chip.',
         instructions: [
-          'Schil de aardappelen en snijd ze in staafjes van een goede centimeter dik. Belgische frieten zijn niet dun.',
+          'Schil de aardappelen en snijd ze in staafjes van een goede centimeter dik. Belgische frieten zijn niet dun, en dunne overleven het dubbel bakken niet.',
           'Spoel ze in koud water tot het helder blijft, om het zetmeel eraf te wassen.',
-          'Droog ze volledig in een keukenhanddoek. Achtergebleven water spat in het vet.',
-          'Verwarm het ossewit tot 150°C en bak de frieten in porties 6 à 8 minuten. Ze moeten zacht en bleek blijven.',
-          'Haal ze eruit en spreid ze op een rooster. Laat minstens 30 minuten rusten, een uur is beter.',
-          'Verwarm het vet tot 180°C en bak ze opnieuw, in porties, 2 à 3 minuten tot diep goudbruin en krokant.',
-          'Kort laten uitlekken, in een kom kappen, van hoog zouten en omschudden.',
-          'Meteen opdienen met mayonaise. Frieten wachten op niemand.'
+          'Droog ze volledig in een keukenhanddoek. Water dat erop blijft, spat in het vet, en heet vet spat ver.',
+          'Verwarm het ossewit tot 150°C en bak de frieten in porties 6 à 8 minuten. Ze moeten er zacht en bleek uitkomen, zonder enige kleur — dit gaart de binnenkant, het bruint niets.',
+          'Haal ze eruit en spreid ze op een rooster. Laat ze minstens 30 minuten rusten; een uur is beter. Hier droogt de buitenkant en maakt hij zich klaar om krokant te worden.',
+          'Verwarm het vet tot 180°C en bak ze opnieuw, in porties, 2 à 3 minuten, tot ze diep goudbruin en krokant zijn.',
+          'Laat ze kort uitlekken, kap ze in een kom, zout van hoog zodat het zich verdeelt, en schud om.',
+          'Meteen opdienen met mayonaise. Frieten wachten op niemand, en ze vergeven het je niet als je ze laat wachten.'
         ]
       },
       fr: {
         title: 'Frites Belges',
-        subtitle: 'Les vraies frites, cuites deux fois',
-        description: 'Des bintjes, de la graisse de boeuf et deux cuissons avec un repos entre les deux. Ce repos n\'est pas facultatif : c\'est toute la différence.',
+        subtitle: 'Deux cuissons, et un repos entre les deux',
+        description: 'Des bintjes, de la graisse de bœuf et deux cuissons séparées par un vrai repos. Ce repos n\'est pas facultatif — c\'est toute la différence entre une frite belge et une chips.',
         instructions: [
-          'Épluchez les pommes de terre et taillez-les en bâtonnets d\'un bon centimètre. La frite belge n\'est pas fine.',
-          'Rincez-les à l\'eau froide jusqu\'à ce qu\'elle reste claire, pour éliminer l\'amidon.',
-          'Séchez-les complètement dans un torchon. L\'eau restante ferait crépiter la graisse.',
-          'Chauffez la graisse à 150°C et cuisez les frites par petites quantités 6 à 8 minutes : molles et pâles, sans coloration.',
-          'Retirez-les et étalez-les sur une grille. Laissez reposer au moins 30 minutes, une heure de préférence.',
-          'Chauffez la graisse à 180°C et refaites-les frire 2 à 3 minutes jusqu\'à belle couleur dorée.',
-          'Égouttez brièvement, versez dans un saladier, salez de haut et mélangez.',
-          'Servez immédiatement avec de la mayonnaise. Les frites n\'attendent personne.'
+          'Épluche les pommes de terre et taille-les en bâtonnets d\'un bon centimètre d\'épaisseur. La frite belge n\'est pas fine, et une frite fine ne survit pas à deux cuissons.',
+          'Rince-les à l\'eau froide jusqu\'à ce qu\'elle reste claire, pour éliminer l\'amidon de surface.',
+          'Sèche-les complètement dans un torchon. L\'eau qui reste dessus fera crépiter la graisse, et la graisse chaude projette loin.',
+          'Chauffe la graisse de bœuf à 150°C et cuis les frites par petites quantités 6 à 8 minutes. Elles doivent ressortir molles et pâles, sans la moindre coloration — on cuit l\'intérieur, on ne dore rien.',
+          'Retire-les et étale-les sur une grille. Laisse-les reposer au moins 30 minutes ; une heure vaut mieux. C\'est là que l\'extérieur sèche et se prépare à croustiller.',
+          'Chauffe la graisse à 180°C et refais-les frire, par petites quantités, 2 à 3 minutes, jusqu\'à ce qu\'elles soient bien dorées et croustillantes.',
+          'Égoutte brièvement, verse dans un saladier, sale de haut pour que ça se répartisse, et mélange.',
+          'Sers immédiatement avec de la mayonnaise. Les frites n\'attendent personne, et elles ne te pardonneront pas de les avoir fait attendre.'
         ]
       }
     },

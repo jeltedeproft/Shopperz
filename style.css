@@ -1,7 +1,26 @@
 /* ==========================================================================
-   Mijn Kookpot — Vintage Belgian Bistro
+   Mijn Kookpot — Belgian Kitchen Table
    ==========================================================================
-   A warm, dark, brass-on-charcoal theme: a chalkboard menu you can tap.
+   Warm and light by default: cream paper, brown ink, terracotta. A cookbook
+   left open on the table, not a chalkboard in a dark bistro.
+
+   Colour is semantic, and there are six accents rather than one, so a page
+   can be warm without being loud:
+     terracotta  the app's own voice — primary actions, headings, the FAB
+     paprika     careful now — delete, remove, the favourite heart
+     olive       good news — checked off, added, vegetarian
+     honey       highlights — the suggested dish, staples, ratings
+     plum        sweet things — desserts and baking
+
+   Every colour lives in a token, and both themes define the same set, so
+   nothing in sections 2-12 ever needs to know which theme is on. Tokens
+   that are not colours (type, spacing, shape, motion) are declared once.
+
+   The dark set is warm too — cocoa and amber, not charcoal. It is applied
+   only via [data-theme="dark"], which app.js stamps on <html> (and the
+   inline script in index.html stamps before first paint, so there is no
+   flash). "Follow my phone" is resolved in JS rather than with a second
+   @media copy of the palette, which would have to be kept in step by hand.
 
    Fonts are loaded from index.html rather than @import, which blocks.
 
@@ -23,43 +42,139 @@
 /* ==========================================================================
    1. Tokens
    ========================================================================== */
-:root {
-  /* Surfaces — warm charcoal, each step slightly lighter */
-  --ink-900: #08090A;   /* behind the phone frame */
-  --ink-800: #101312;   /* app background */
-  --ink-750: #141817;   /* panel wash */
-  --ink-700: #191E1C;   /* cards, groups */
-  --ink-600: #212724;   /* inputs, chips */
-  --ink-500: #2C3330;   /* pressed, dividers */
+/* --------------------------------------------------------------------------
+   1a. Light — the default theme
+   --------------------------------------------------------------------------
+   Surfaces run the other way round from a dark theme: raised things are
+   *lighter*, recessed things (inputs, wells) are slightly darker than the
+   page. Nothing here is pure white or pure grey — every step carries a
+   little yellow, which is what makes it read as paper rather than as UI.
+   -------------------------------------------------------------------------- */
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
 
-  /* Brass — the one accent, in three weights so it can carry hierarchy */
-  --brass: #C79F5E;
-  --brass-bright: #E3C287;
-  --brass-deep: #8E7040;
-  --brass-wash: rgba(199, 159, 94, 0.10);
-  --brass-line: rgba(199, 159, 94, 0.28);
-  --on-brass: #16120A;
+  /* Surfaces */
+  --bg-deep: #E4D7C0;   /* behind the phone frame — table linen */
+  --bg: #FBF6EC;        /* app background — the page */
+  --surface-1: #F6EFE1; /* panel wash */
+  --surface-2: #FFFDF8; /* cards, groups — raised, so lighter */
+  --surface-3: #F2E9D8; /* inputs, chips — recessed */
+  --surface-4: #E7DAC2; /* pressed, dividers, tracks */
 
-  /* Support */
-  --sage: #7FA98C;
-  --sage-wash: rgba(127, 169, 140, 0.12);
-  --rust: #C4707A;
-  --rust-wash: rgba(196, 112, 122, 0.12);
+  /* Terracotta — the app's own colour, in three weights for hierarchy */
+  --accent: #A64C1B;
+  --accent-hi: #8A3C15;   /* higher emphasis = darker on a light page */
+  --accent-lo: #E3A278;   /* decorative only, never text */
+  --accent-wash: rgba(166, 76, 27, 0.10);
+  --accent-line: rgba(166, 76, 27, 0.26);
+  --on-accent: #FFF8F0;   /* type sitting on a filled accent */
+
+  /* The rest of the family */
+  --herb: #5A7439;
+  --herb-wash: rgba(90, 116, 57, 0.13);
+  --herb-line: rgba(90, 116, 57, 0.32);
+  --berry: #B23A28;
+  --berry-wash: rgba(178, 58, 40, 0.11);
+  --berry-line: rgba(178, 58, 40, 0.30);
+  --honey: #8D6415;
+  --honey-wash: rgba(141, 100, 21, 0.13);
+  --plum: #7D4A63;
+  --plum-wash: rgba(125, 74, 99, 0.12);
 
   /* Type */
-  --paper: #F3F0E9;
-  --paper-dim: #A9B1AC;
-  --paper-faint: #7C847F;
+  --ink: #3A2E23;
+  --ink-dim: #6B5A48;
+  --ink-faint: #8C7B67;
 
   /* Lines */
-  --line: rgba(243, 240, 233, 0.08);
-  --line-strong: rgba(243, 240, 233, 0.16);
+  --line: rgba(58, 46, 35, 0.12);
+  --line-strong: rgba(58, 46, 35, 0.22);
 
-  /* Elevation */
-  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-2: 0 8px 24px -8px rgba(0, 0, 0, 0.65);
-  --shadow-3: 0 22px 56px -16px rgba(0, 0, 0, 0.8);
-  --shadow-brass: 0 8px 28px -10px rgba(199, 159, 94, 0.45);
+  /* Washes & furniture */
+  --hover-wash: rgba(58, 46, 35, 0.04);
+  --backdrop: rgba(74, 52, 30, 0.42);   /* behind drawers and modals */
+  --frame: #D9C7A8;                     /* the phone bezel on desktop */
+  --bg-glow: #F5E7CE;                   /* warmth pooled at the top of the page */
+  --cook-glow: #FDF3E0;
+  --sheen: rgba(255, 255, 255, 0.75);   /* inset top highlight on raised things */
+  --shadow-berry: 0 8px 28px -10px rgba(178, 58, 40, 0.40);
+
+  /* Elevation — brown-tinted and soft; black shadows look like dirt on cream */
+  --shadow-1: 0 1px 2px rgba(90, 62, 32, 0.10);
+  --shadow-2: 0 8px 24px -8px rgba(90, 62, 32, 0.20);
+  --shadow-3: 0 22px 56px -16px rgba(90, 62, 32, 0.30);
+  --shadow-accent: 0 8px 28px -10px rgba(166, 76, 27, 0.40);
+}
+
+/* --------------------------------------------------------------------------
+   1b. Dark — cocoa and amber, for cooking at night
+   -------------------------------------------------------------------------- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Surfaces — warm brown-black, each step slightly lighter */
+  --bg-deep: #0E0A07;
+  --bg: #17110C;
+  --surface-1: #1D1610;
+  --surface-2: #241C14;
+  --surface-3: #2E241A;
+  --surface-4: #3B2E21;
+
+  /* Terracotta, lifted so it carries on a dark ground */
+  --accent: #E08A57;
+  --accent-hi: #F2B183;
+  --accent-lo: #8A4E28;
+  --accent-wash: rgba(224, 138, 87, 0.12);
+  --accent-line: rgba(224, 138, 87, 0.30);
+  --on-accent: #2A1408;
+
+  --herb: #9DB36A;
+  --herb-wash: rgba(157, 179, 106, 0.14);
+  --herb-line: rgba(157, 179, 106, 0.32);
+  --berry: #E8756A;
+  --berry-wash: rgba(232, 117, 106, 0.13);
+  --berry-line: rgba(232, 117, 106, 0.32);
+  --honey: #EBBB6B;
+  --honey-wash: rgba(235, 187, 107, 0.13);
+  --plum: #C795AE;
+  --plum-wash: rgba(199, 149, 174, 0.13);
+
+  --ink: #F5EDE0;
+  --ink-dim: #C0AE99;
+  --ink-faint: #94836F;
+
+  --line: rgba(245, 237, 224, 0.09);
+  --line-strong: rgba(245, 237, 224, 0.18);
+
+  --hover-wash: rgba(245, 237, 224, 0.03);
+  --backdrop: rgba(6, 4, 2, 0.72);
+  --frame: #0D0B08;
+  --bg-glow: #241A0E;
+  --cook-glow: #2A2010;
+  --sheen: rgba(255, 255, 255, 0.05);
+  --shadow-berry: 0 8px 28px -10px rgba(232, 117, 106, 0.45);
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.45);
+  --shadow-2: 0 8px 24px -8px rgba(0, 0, 0, 0.7);
+  --shadow-3: 0 22px 56px -16px rgba(0, 0, 0, 0.82);
+  --shadow-accent: 0 8px 28px -10px rgba(224, 138, 87, 0.45);
+}
+
+/* --------------------------------------------------------------------------
+   1c. Shared by both themes
+   -------------------------------------------------------------------------- */
+:root {
+  /* Type sitting on a photograph is a special case: a recipe photo is dark
+     in the corners whichever theme is on, so this pair does NOT flip. Using
+     --ink here would put brown text on a dark scrim in the light theme. */
+  --scrim-soft: rgba(20, 12, 6, 0.55);
+  --scrim: rgba(20, 12, 6, 0.74);
+  --scrim-strong: rgba(20, 12, 6, 0.94);
+  --on-photo: #FFF6EA;
+  --on-photo-dim: #E4D6C3;
+  --on-photo-accent: #F2B183;
+  --photo-line: rgba(255, 246, 234, 0.26);
 
   /* Type scale */
   --font-display: 'Fraunces', Georgia, serif;
@@ -118,9 +233,9 @@ html {
 
 body {
   background:
-    radial-gradient(1200px 600px at 50% -10%, #14100B 0%, transparent 60%),
-    var(--ink-900);
-  color: var(--paper);
+    radial-gradient(1200px 600px at 50% -10%, var(--bg-glow) 0%, transparent 60%),
+    var(--bg-deep);
+  color: var(--ink);
   font-family: var(--font-body);
   font-size: var(--t-body);
   line-height: 1.5;
@@ -158,7 +273,7 @@ img {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--ink-500);
+  background: var(--surface-4);
   border-radius: var(--r-pill);
 }
 
@@ -174,18 +289,18 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: var(--ink-800);
+  background: var(--bg);
   border-radius: 34px;
-  border: 10px solid #0D0F0E;
+  border: 10px solid var(--frame);
   box-shadow:
     var(--shadow-3),
-    0 0 0 1px var(--brass-line),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    0 0 0 1px var(--accent-line),
+    inset 0 1px 0 var(--sheen);
 }
 
 @media (max-width: 480px) {
   body {
-    background: var(--ink-800);
+    background: var(--bg);
     min-height: 100dvh;
     height: 100dvh;
   }
@@ -244,7 +359,7 @@ header::after {
   width: 56px;
   height: 2px;
   border-radius: var(--r-pill);
-  background: linear-gradient(90deg, transparent, var(--brass), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
 }
 
 .header-top {
@@ -268,23 +383,23 @@ header::after {
   place-items: center;
   font-size: 22px;
   border-radius: var(--r-pill);
-  background: var(--brass-wash);
-  border: 1px solid var(--brass-line);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  background: var(--accent-wash);
+  border: 1px solid var(--accent-line);
+  box-shadow: inset 0 1px 0 var(--sheen);
 }
 
 .app-title-group h1 {
   font-size: var(--t-display);
   font-style: italic;
   font-weight: 500;
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .app-title-group p {
   margin-top: var(--sp-1);
   font-size: var(--t-2xs);
   font-weight: 500;
-  color: var(--brass);
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.18em;
 }
@@ -296,7 +411,7 @@ header::after {
 
 .panel-subtitle {
   font-size: var(--t-xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 /* --- Section headings --- */
@@ -317,7 +432,7 @@ header::after {
   font-size: var(--t-h2);
   font-style: italic;
   font-weight: 500;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .section-link {
@@ -326,14 +441,14 @@ header::after {
   padding: 0;
   font-family: var(--font-body);
   font-size: var(--t-xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   cursor: pointer;
   border-bottom: 1px dotted var(--line-strong);
   transition: color var(--fast) var(--ease);
 }
 
 .section-link:hover {
-  color: var(--brass);
+  color: var(--accent);
 }
 
 /* ==========================================================================
@@ -363,7 +478,7 @@ header::after {
   left: 14px;
   width: 15px;
   height: 15px;
-  color: var(--brass);
+  color: var(--accent);
   pointer-events: none;
   z-index: 2;
 }
@@ -372,22 +487,22 @@ header::after {
   width: 100%;
   height: 46px;
   padding: 0 var(--sp-4) 0 38px;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
-  color: var(--paper);
+  color: var(--ink);
   font-size: var(--t-sm);
   outline: none;
   transition: border-color var(--fast) var(--ease), background var(--fast) var(--ease);
 }
 
 .search-input::placeholder {
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .search-input:focus {
-  border-color: var(--brass-line);
-  background: var(--ink-600);
+  border-color: var(--accent-line);
+  background: var(--surface-3);
 }
 
 .filter-toggle-btn {
@@ -396,10 +511,10 @@ header::after {
   height: 46px;
   display: grid;
   place-items: center;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   cursor: pointer;
   transition: all var(--fast) var(--ease);
 }
@@ -410,13 +525,13 @@ header::after {
 }
 
 .filter-toggle-btn.active {
-  color: var(--brass);
-  border-color: var(--brass-line);
-  background: var(--brass-wash);
+  color: var(--accent);
+  border-color: var(--accent-line);
+  background: var(--accent-wash);
 }
 
 .filter-tray {
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
   padding: var(--sp-4);
@@ -439,7 +554,7 @@ header::after {
   display: block;
   font-size: var(--t-2xs);
   font-weight: 700;
-  color: var(--brass);
+  color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -455,11 +570,11 @@ header::after {
   display: inline-flex;
   align-items: center;
   padding: 7px 14px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
   font-size: var(--t-xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   cursor: pointer;
   user-select: none;
   transition: all var(--fast) var(--ease);
@@ -473,13 +588,13 @@ header::after {
 }
 
 .filter-pill-label:has(input:checked) {
-  background: var(--brass-wash);
-  border-color: var(--brass);
-  color: var(--brass-bright);
+  background: var(--accent-wash);
+  border-color: var(--accent);
+  color: var(--accent-hi);
 }
 
 .filter-pill-label:has(input:focus-visible) {
-  outline: 2px solid var(--brass);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -487,7 +602,7 @@ header::after {
   margin-top: var(--sp-3);
   font-size: var(--t-2xs);
   line-height: 1.5;
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   font-style: italic;
 }
 
@@ -509,12 +624,12 @@ header::after {
 .cat-pill {
   flex-shrink: 0;
   padding: 8px 16px;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
   font-size: var(--t-xs);
   font-weight: 500;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   cursor: pointer;
   white-space: nowrap;
   scroll-snap-align: start;
@@ -522,23 +637,23 @@ header::after {
 }
 
 .cat-pill:hover {
-  color: var(--paper);
+  color: var(--ink);
   border-color: var(--line-strong);
 }
 
 .cat-pill.active {
-  background: var(--brass);
-  border-color: var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
   font-weight: 700;
-  box-shadow: var(--shadow-brass);
+  box-shadow: var(--shadow-accent);
 }
 
 .cat-pill-fav.active {
-  background: var(--rust);
-  border-color: var(--rust);
-  color: #1A0F11;
-  box-shadow: 0 8px 28px -10px rgba(196, 112, 122, 0.5);
+  background: var(--berry);
+  border-color: var(--berry);
+  color: var(--on-accent);
+  box-shadow: var(--shadow-berry);
 }
 
 /* ==========================================================================
@@ -551,7 +666,7 @@ header::after {
   border-radius: var(--r-lg);
   overflow: hidden;
   cursor: pointer;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   box-shadow: var(--shadow-2);
   transition: transform var(--base) var(--ease), box-shadow var(--base) var(--ease);
@@ -573,8 +688,8 @@ header::after {
   padding: var(--sp-6) var(--sp-5) var(--sp-5);
   background: linear-gradient(
     to top,
-    rgba(8, 9, 10, 0.96) 0%,
-    rgba(8, 9, 10, 0.82) 45%,
+    var(--scrim-strong) 0%,
+    var(--scrim) 45%,
     transparent 100%
   );
 }
@@ -584,26 +699,26 @@ header::after {
   margin-bottom: var(--sp-2);
   padding: 3px 10px;
   border-radius: var(--r-pill);
-  background: var(--brass-wash);
-  border: 1px solid var(--brass-line);
+  background: var(--scrim-soft);
+  border: 1px solid var(--photo-line);
   backdrop-filter: blur(4px);
   font-family: var(--font-display);
   font-style: italic;
   font-size: var(--t-2xs);
-  color: var(--brass-bright);
+  color: var(--on-photo-accent);
 }
 
 .featured-title {
   font-size: var(--t-h1);
-  color: var(--paper);
+  color: var(--on-photo);
   margin-bottom: var(--sp-1);
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 12px rgba(20, 12, 6, 0.7);
 }
 
 .featured-desc {
   font-size: var(--t-xs);
   line-height: 1.5;
-  color: var(--paper-dim);
+  color: var(--on-photo-dim);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
@@ -627,7 +742,7 @@ header::after {
   position: relative;
   display: flex;
   flex-direction: column;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
   overflow: hidden;
@@ -648,8 +763,8 @@ header::after {
 }
 
 .recipe-card.selected-for-list {
-  border-color: var(--brass);
-  box-shadow: var(--shadow-brass);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-accent);
 }
 
 .recipe-card-img-wrapper {
@@ -657,7 +772,7 @@ header::after {
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: var(--ink-600);
+  background: var(--surface-3);
 }
 
 .recipe-card-img {
@@ -677,13 +792,13 @@ header::after {
   bottom: var(--sp-2);
   padding: 3px 9px;
   border-radius: var(--r-pill);
-  background: rgba(8, 9, 10, 0.72);
+  background: var(--scrim);
   backdrop-filter: blur(6px);
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--photo-line);
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  color: var(--paper);
+  color: var(--on-photo);
 }
 
 .recipe-fav-badge {
@@ -691,7 +806,7 @@ header::after {
   top: var(--sp-2);
   left: var(--sp-2);
   font-size: 13px;
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(0 2px 6px rgba(20, 12, 6, 0.75));
 }
 
 .recipe-card-content {
@@ -705,7 +820,7 @@ header::after {
 .recipe-card-title {
   font-size: var(--t-sm);
   font-weight: 600;
-  color: var(--paper);
+  color: var(--ink);
   line-height: 1.3;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -716,7 +831,7 @@ header::after {
 
 .recipe-card-sub {
   font-size: var(--t-2xs);
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -731,7 +846,7 @@ header::after {
   margin-top: auto;
   padding-top: var(--sp-2);
   font-size: var(--t-2xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 /* --- Select-for-list toggle --- */
@@ -745,9 +860,9 @@ header::after {
   display: grid;
   place-items: center;
   border-radius: var(--r-pill);
-  background: rgba(8, 9, 10, 0.7);
+  background: var(--scrim);
   backdrop-filter: blur(6px);
-  border: 1.5px solid var(--line-strong);
+  border: 1.5px solid var(--photo-line);
   cursor: pointer;
   transition: all var(--fast) var(--ease);
 }
@@ -756,7 +871,7 @@ header::after {
   width: 14px;
   height: 14px;
   fill: none;
-  stroke: var(--paper-dim);
+  stroke: var(--on-photo-dim);
   opacity: 0;
   transform: scale(0.6);
   transition: all var(--fast) var(--ease);
@@ -764,13 +879,13 @@ header::after {
 
 .recipe-card.selected-for-list .recipe-card-select-btn,
 .featured-card.selected-for-list .recipe-card-select-btn {
-  background: var(--brass);
-  border-color: var(--brass);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .recipe-card.selected-for-list .recipe-card-select-btn svg,
 .featured-card.selected-for-list .recipe-card-select-btn svg {
-  stroke: var(--on-brass);
+  stroke: var(--on-accent);
   opacity: 1;
   transform: scale(1);
 }
@@ -787,7 +902,7 @@ header::after {
   padding: var(--sp-7) var(--sp-4);
   text-align: center;
   font-size: var(--t-xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 /* ==========================================================================
@@ -796,7 +911,7 @@ header::after {
 .drawer-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(4, 5, 5, 0.7);
+  background: var(--backdrop);
   backdrop-filter: blur(3px);
   opacity: 0;
   pointer-events: none;
@@ -816,8 +931,8 @@ header::after {
   max-height: 92%;
   display: flex;
   flex-direction: column;
-  background: var(--ink-750);
-  border-top: 1px solid var(--brass-line);
+  background: var(--surface-1);
+  border-top: 1px solid var(--accent-line);
   border-radius: var(--r-lg) var(--r-lg) 0 0;
   box-shadow: var(--shadow-3);
   transform: translateY(101%);
@@ -833,7 +948,7 @@ header::after {
   height: 4px;
   margin: var(--sp-3) auto var(--sp-1);
   border-radius: var(--r-pill);
-  background: var(--ink-500);
+  background: var(--surface-4);
   flex-shrink: 0;
 }
 
@@ -851,9 +966,9 @@ header::after {
   display: grid;
   place-items: center;
   border-radius: var(--r-pill);
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   font-size: 18px;
   line-height: 1;
   cursor: pointer;
@@ -861,7 +976,7 @@ header::after {
 }
 
 .drawer-close:hover {
-  color: var(--paper);
+  color: var(--ink);
   border-color: var(--line-strong);
 }
 
@@ -876,24 +991,24 @@ header::after {
 }
 
 .drawer-close-danger {
-  color: var(--rust);
+  color: var(--berry);
 }
 
 .drawer-close-danger:hover {
-  background: var(--rust-wash);
-  border-color: var(--rust);
-  color: var(--rust);
+  background: var(--berry-wash);
+  border-color: var(--berry);
+  color: var(--berry);
 }
 
 #recipe-fav-btn.favorited {
-  background: var(--rust-wash);
-  border-color: var(--rust);
-  color: var(--rust);
+  background: var(--berry-wash);
+  border-color: var(--berry);
+  color: var(--berry);
 }
 
 #recipe-fav-btn.favorited svg {
-  fill: var(--rust);
-  stroke: var(--rust);
+  fill: var(--berry);
+  stroke: var(--berry);
   animation: heart-pop var(--slow) var(--ease-out);
 }
 
@@ -923,7 +1038,7 @@ header::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(8, 9, 10, 0.55), transparent 55%);
+  background: linear-gradient(to top, var(--scrim-soft), transparent 55%);
 }
 
 .drawer-hero-img {
@@ -940,20 +1055,20 @@ header::after {
   font-family: var(--font-display);
   font-style: italic;
   font-size: var(--t-xs);
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .drawer-title {
   font-family: var(--font-display);
   font-size: var(--t-display);
-  color: var(--paper);
+  color: var(--ink);
   margin: var(--sp-1) 0 var(--sp-2);
 }
 
 .drawer-description {
   font-size: var(--t-sm);
   line-height: 1.6;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .drawer-meta-badges {
@@ -966,7 +1081,7 @@ header::after {
 .meta-badge-item {
   padding: var(--sp-3) var(--sp-2);
   text-align: center;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
 }
@@ -975,14 +1090,14 @@ header::after {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   margin-bottom: var(--sp-1);
 }
 
 .meta-badge-val {
   font-family: var(--font-display);
   font-size: var(--t-sm);
-  color: var(--paper);
+  color: var(--ink);
 }
 
 /* --- Servings stepper --- */
@@ -993,8 +1108,8 @@ header::after {
   gap: var(--sp-3);
   padding: var(--sp-3) var(--sp-4);
   margin-bottom: var(--sp-5);
-  background: var(--brass-wash);
-  border: 1px solid var(--brass-line);
+  background: var(--accent-wash);
+  border: 1px solid var(--accent-line);
   border-radius: var(--r-md);
 }
 
@@ -1009,7 +1124,7 @@ header::after {
 .servings-desc {
   font-size: var(--t-2xs);
   font-weight: 400;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .servings-controls {
@@ -1024,10 +1139,10 @@ header::after {
   height: 30px;
   display: grid;
   place-items: center;
-  background: var(--ink-700);
-  border: 1px solid var(--brass-line);
+  background: var(--surface-2);
+  border: 1px solid var(--accent-line);
   border-radius: var(--r-pill);
-  color: var(--brass);
+  color: var(--accent);
   font-size: var(--t-body);
   line-height: 1;
   cursor: pointer;
@@ -1035,8 +1150,8 @@ header::after {
 }
 
 .servings-btn:hover {
-  background: var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  color: var(--on-accent);
 }
 
 .servings-btn:active {
@@ -1048,7 +1163,7 @@ header::after {
   text-align: center;
   font-family: var(--font-display);
   font-size: var(--t-h2);
-  color: var(--paper);
+  color: var(--ink);
 }
 
 /* --- Ingredients & steps --- */
@@ -1060,14 +1175,14 @@ header::after {
   font-family: var(--font-display);
   font-size: var(--t-h2);
   font-style: italic;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .drawer-section-title::after {
   content: '';
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, var(--brass-line), transparent);
+  background: linear-gradient(90deg, var(--accent-line), transparent);
 }
 
 .drawer-section-title-row {
@@ -1091,7 +1206,7 @@ header::after {
   justify-content: space-between;
   gap: var(--sp-3);
   padding: var(--sp-3) var(--sp-4);
-  background: var(--ink-700);
+  background: var(--surface-2);
   border-bottom: 1px solid var(--line);
 }
 
@@ -1101,21 +1216,21 @@ header::after {
 
 .ingredient-name {
   font-size: var(--t-sm);
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .ingredient-qty {
   flex-shrink: 0;
   font-family: var(--font-display);
   font-size: var(--t-xs);
-  color: var(--brass);
+  color: var(--accent);
 }
 
 /* A dot marks what the checklist will leave out as a staple */
 .ingredient-row.is-staple .ingredient-name::after {
   content: '•';
   margin-left: 6px;
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .add-ingredients-btn {
@@ -1126,19 +1241,19 @@ header::after {
   gap: var(--sp-2);
   padding: 14px;
   margin-bottom: var(--sp-6);
-  background: var(--brass);
+  background: var(--accent);
   border: none;
   border-radius: var(--r-md);
-  color: var(--on-brass);
+  color: var(--on-accent);
   font-size: var(--t-sm);
   font-weight: 700;
   cursor: pointer;
-  box-shadow: var(--shadow-brass);
+  box-shadow: var(--shadow-accent);
   transition: all var(--fast) var(--ease);
 }
 
 .add-ingredients-btn:hover {
-  background: var(--brass-bright);
+  background: var(--accent-hi);
 }
 
 .add-ingredients-btn:active {
@@ -1161,7 +1276,7 @@ header::after {
   display: flex;
   gap: var(--sp-3);
   padding: var(--sp-3) var(--sp-4);
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
   cursor: pointer;
@@ -1179,41 +1294,41 @@ header::after {
   display: grid;
   place-items: center;
   border-radius: var(--r-pill);
-  background: var(--brass-wash);
-  border: 1px solid var(--brass-line);
+  background: var(--accent-wash);
+  border: 1px solid var(--accent-line);
   font-family: var(--font-display);
   font-size: var(--t-2xs);
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .step-text {
   font-size: var(--t-sm);
   line-height: 1.55;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .step-card.completed {
-  background: var(--sage-wash);
-  border-color: rgba(127, 169, 140, 0.3);
+  background: var(--herb-wash);
+  border-color: var(--herb-line);
 }
 
 .step-card.completed .step-num {
-  background: var(--sage);
-  border-color: var(--sage);
-  color: #0C1410;
+  background: var(--herb);
+  border-color: var(--herb);
+  color: var(--on-accent);
 }
 
 .step-card.completed .step-text {
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   text-decoration: line-through;
-  text-decoration-color: var(--paper-faint);
+  text-decoration-color: var(--ink-faint);
 }
 
 .drawer-empty {
   padding: var(--sp-6);
   text-align: center;
   font-size: var(--t-xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .cook-mode-btn {
@@ -1221,21 +1336,21 @@ header::after {
   align-items: center;
   gap: var(--sp-1);
   padding: 6px 14px;
-  background: var(--brass-wash);
-  border: 1px solid var(--brass);
+  background: var(--accent-wash);
+  border: 1px solid var(--accent);
   border-radius: var(--r-pill);
   font-family: var(--font-body);
   font-size: var(--t-2xs);
   font-weight: 700;
-  color: var(--brass);
+  color: var(--accent);
   cursor: pointer;
   white-space: nowrap;
   transition: all var(--fast) var(--ease);
 }
 
 .cook-mode-btn:hover {
-  background: var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  color: var(--on-accent);
 }
 
 /* ==========================================================================
@@ -1250,8 +1365,8 @@ header::after {
   justify-content: center;
   padding: var(--sp-5);
   background:
-    radial-gradient(600px 400px at 50% 0%, #1A150D 0%, transparent 70%),
-    var(--ink-900);
+    radial-gradient(600px 400px at 50% 0%, var(--cook-glow) 0%, transparent 70%),
+    var(--bg-deep);
 }
 
 .cook-mode-container {
@@ -1274,7 +1389,7 @@ header::after {
   font-family: var(--font-display);
   font-size: var(--t-h2);
   font-style: italic;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .cook-mode-exit {
@@ -1283,10 +1398,10 @@ header::after {
   flex-shrink: 0;
   display: grid;
   place-items: center;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   font-size: 20px;
   line-height: 1;
   cursor: pointer;
@@ -1299,8 +1414,8 @@ header::after {
   justify-content: center;
   gap: var(--sp-4);
   padding: var(--sp-6);
-  background: var(--ink-700);
-  border: 1px solid var(--brass-line);
+  background: var(--surface-2);
+  border: 1px solid var(--accent-line);
   border-radius: var(--r-lg);
   box-shadow: var(--shadow-2);
 }
@@ -1310,14 +1425,14 @@ header::after {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 #cook-mode-step-text {
   font-family: var(--font-display);
   font-size: 20px;
   line-height: 1.45;
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .cook-mode-controls {
@@ -1329,10 +1444,10 @@ header::after {
 
 .cook-mode-ctrl-btn {
   padding: 12px 20px;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line-strong);
   border-radius: var(--r-pill);
-  color: var(--paper);
+  color: var(--ink);
   font-family: var(--font-body);
   font-size: var(--t-sm);
   font-weight: 600;
@@ -1341,8 +1456,8 @@ header::after {
 }
 
 .cook-mode-ctrl-btn:hover:not(:disabled) {
-  border-color: var(--brass);
-  color: var(--brass);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .cook-mode-ctrl-btn:disabled {
@@ -1361,13 +1476,13 @@ header::after {
   width: 6px;
   height: 6px;
   border-radius: var(--r-pill);
-  background: var(--ink-500);
+  background: var(--surface-4);
   transition: all var(--base) var(--ease);
 }
 
 .cook-mode-progress-dots .dot.active {
   width: 20px;
-  background: var(--brass);
+  background: var(--accent);
 }
 
 /* ==========================================================================
@@ -1386,7 +1501,7 @@ header::after {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .list-controls-actions {
@@ -1400,10 +1515,10 @@ header::after {
   gap: 6px;
   height: 34px;
   padding: 0 12px;
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   font-family: var(--font-body);
   font-size: var(--t-2xs);
   font-weight: 600;
@@ -1420,32 +1535,32 @@ header::after {
 }
 
 .clear-btn:hover {
-  color: var(--paper);
+  color: var(--ink);
   border-color: var(--line-strong);
 }
 
 /* The share button leads, so give it the brass */
 .list-controls-actions .clear-btn:first-child {
-  color: var(--brass);
-  border-color: var(--brass-line);
-  background: var(--brass-wash);
+  color: var(--accent);
+  border-color: var(--accent-line);
+  background: var(--accent-wash);
 }
 
 .list-controls-actions .clear-btn:first-child:hover {
-  background: var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  color: var(--on-accent);
 }
 
 #clear-grocery-btn:hover {
-  color: var(--rust);
-  border-color: var(--rust);
-  background: var(--rust-wash);
+  color: var(--berry);
+  border-color: var(--berry);
+  background: var(--berry-wash);
 }
 
 .progress-container {
   padding: var(--sp-4);
   margin-bottom: var(--sp-4);
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
 }
@@ -1457,13 +1572,13 @@ header::after {
   gap: var(--sp-3);
   margin-bottom: var(--sp-3);
   font-size: var(--t-xs);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .progress-bar-bg {
   height: 6px;
   border-radius: var(--r-pill);
-  background: var(--ink-500);
+  background: var(--surface-4);
   overflow: hidden;
 }
 
@@ -1471,7 +1586,7 @@ header::after {
   height: 100%;
   width: 0;
   border-radius: var(--r-pill);
-  background: linear-gradient(90deg, var(--brass), var(--brass-bright));
+  background: linear-gradient(90deg, var(--accent), var(--accent-hi));
   transition: width var(--slow) var(--ease-out);
 }
 
@@ -1479,7 +1594,7 @@ header::after {
 .staples-box {
   padding: var(--sp-3) var(--sp-4);
   margin-bottom: var(--sp-4);
-  background: var(--ink-750);
+  background: var(--surface-1);
   border: 1px dashed var(--line-strong);
   border-radius: var(--r-md);
 }
@@ -1497,12 +1612,12 @@ header::after {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .staples-hint {
   font-size: var(--t-2xs);
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .staples-chips {
@@ -1513,10 +1628,10 @@ header::after {
 
 .staple-chip {
   padding: 6px 12px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
   font-family: var(--font-body);
   font-size: var(--t-2xs);
   cursor: pointer;
@@ -1524,9 +1639,9 @@ header::after {
 }
 
 .staple-chip:hover {
-  color: var(--brass);
-  border-color: var(--brass);
-  background: var(--brass-wash);
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-wash);
 }
 
 /* --- Add an item --- */
@@ -1536,7 +1651,7 @@ header::after {
   gap: var(--sp-2);
   padding: var(--sp-2);
   margin-bottom: var(--sp-5);
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
 }
@@ -1552,14 +1667,14 @@ header::after {
 }
 
 .add-item-input::placeholder {
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .add-item-qty-input {
   width: 86px;
   flex-shrink: 0;
   padding: 7px 10px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
   outline: none;
@@ -1567,7 +1682,7 @@ header::after {
 }
 
 .add-item-qty-input:focus {
-  border-color: var(--brass-line);
+  border-color: var(--accent-line);
 }
 
 .add-item-cat {
@@ -1575,10 +1690,10 @@ header::after {
   max-width: 116px;
   height: 34px;
   padding: 0 8px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
-  color: var(--brass);
+  color: var(--accent);
   font-size: var(--t-2xs);
   font-weight: 600;
   cursor: pointer;
@@ -1591,16 +1706,16 @@ header::after {
   height: 34px;
   display: grid;
   place-items: center;
-  background: var(--brass);
+  background: var(--accent);
   border: none;
   border-radius: var(--r-sm);
-  color: var(--on-brass);
+  color: var(--on-accent);
   cursor: pointer;
   transition: all var(--fast) var(--ease);
 }
 
 .add-item-btn:hover {
-  background: var(--brass-bright);
+  background: var(--accent-hi);
 }
 
 .add-item-btn svg {
@@ -1619,7 +1734,7 @@ header::after {
 }
 
 .grocery-category-block {
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
   overflow: hidden;
@@ -1630,18 +1745,18 @@ header::after {
   align-items: center;
   gap: var(--sp-2);
   padding: var(--sp-3) var(--sp-4);
-  background: var(--ink-750);
+  background: var(--surface-1);
   border-bottom: 1px solid var(--line);
   font-family: var(--font-display);
   font-size: var(--t-sm);
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .category-dot {
   width: 5px;
   height: 5px;
   border-radius: var(--r-pill);
-  background: var(--brass);
+  background: var(--accent);
   flex-shrink: 0;
 }
 
@@ -1664,7 +1779,7 @@ header::after {
 }
 
 .grocery-item:hover {
-  background: rgba(243, 240, 233, 0.02);
+  background: var(--hover-wash);
 }
 
 .checkbox-wrapper {
@@ -1691,7 +1806,7 @@ header::after {
   width: 14px;
   height: 14px;
   fill: none;
-  stroke: var(--on-brass);
+  stroke: var(--on-accent);
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -1701,8 +1816,8 @@ header::after {
 }
 
 .checkbox-wrapper.checked {
-  background: var(--sage);
-  border-color: var(--sage);
+  background: var(--herb);
+  border-color: var(--herb);
 }
 
 .checkbox-wrapper.checked svg {
@@ -1721,40 +1836,40 @@ header::after {
 
 .item-name {
   font-size: var(--t-sm);
-  color: var(--paper);
+  color: var(--ink);
   transition: all var(--base) var(--ease);
 }
 
 .item-details.checked .item-name {
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   text-decoration: line-through;
-  text-decoration-color: var(--paper-faint);
+  text-decoration-color: var(--ink-faint);
 }
 
 .item-qty {
   font-family: var(--font-display);
   font-size: var(--t-2xs);
-  color: var(--brass);
+  color: var(--accent);
   align-self: flex-start;
 }
 
 .item-qty.editable {
   cursor: pointer;
-  border-bottom: 1px dotted var(--brass-line);
+  border-bottom: 1px dotted var(--accent-line);
 }
 
 .item-qty.editable:hover {
-  color: var(--brass-bright);
-  border-bottom-color: var(--brass);
+  color: var(--accent-hi);
+  border-bottom-color: var(--accent);
 }
 
 .item-qty-input {
   width: 96px;
   padding: 3px 8px;
-  background: var(--ink-600);
-  border: 1px solid var(--brass);
+  background: var(--surface-3);
+  border: 1px solid var(--accent);
   border-radius: var(--r-sm);
-  color: var(--paper);
+  color: var(--ink);
   font-size: var(--t-2xs);
   outline: none;
 }
@@ -1762,7 +1877,7 @@ header::after {
 .item-source {
   font-size: 10px;
   font-style: italic;
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .item-delete-btn {
@@ -1774,7 +1889,7 @@ header::after {
   background: none;
   border: none;
   border-radius: var(--r-pill);
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   cursor: pointer;
   transition: all var(--fast) var(--ease);
 }
@@ -1786,14 +1901,14 @@ header::after {
 }
 
 .item-delete-btn:hover {
-  color: var(--rust);
-  background: var(--rust-wash);
+  color: var(--berry);
+  background: var(--berry-wash);
 }
 
 .list-empty {
   padding: var(--sp-8) var(--sp-5);
   text-align: center;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .list-empty-icon {
@@ -1805,7 +1920,7 @@ header::after {
 
 .list-empty h4 {
   font-size: var(--t-h2);
-  color: var(--paper);
+  color: var(--ink);
   margin-bottom: var(--sp-2);
 }
 
@@ -1822,7 +1937,7 @@ header::after {
 .settings-group {
   padding: var(--sp-2) var(--sp-4);
   margin-bottom: var(--sp-4);
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-md);
 }
@@ -1832,17 +1947,17 @@ header::after {
   font-family: var(--font-display);
   font-size: var(--t-sm);
   font-style: italic;
-  color: var(--brass);
+  color: var(--accent);
   border-bottom: 1px solid var(--line);
 }
 
 .settings-group-danger {
-  border-color: rgba(196, 112, 122, 0.25);
+  border-color: var(--berry-line);
 }
 
 .settings-group-title-danger {
-  color: var(--rust);
-  border-bottom-color: rgba(196, 112, 122, 0.25);
+  color: var(--berry);
+  border-bottom-color: var(--berry-line);
 }
 
 .settings-row {
@@ -1861,31 +1976,96 @@ header::after {
 .settings-label {
   font-size: var(--t-sm);
   font-weight: 600;
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .settings-desc {
   margin-top: 2px;
   font-size: var(--t-2xs);
   line-height: 1.45;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
+}
+
+/* The theme picker needs the full width, so it drops below its label. */
+.settings-row-stacked {
+  display: block;
+}
+
+.theme-choice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+
+.theme-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-3) var(--sp-2);
+  background: var(--surface-3);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-sm);
+  color: var(--ink-dim);
+  font-family: inherit;
+  font-size: var(--t-2xs);
+  line-height: 1.3;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--fast) var(--ease);
+}
+
+.theme-option:hover {
+  border-color: var(--accent-line);
+  color: var(--ink);
+}
+
+.theme-option.active {
+  background: var(--accent-wash);
+  border-color: var(--accent);
+  color: var(--accent-hi);
+  font-weight: 600;
+}
+
+/* A miniature of what you are choosing, rather than a word for it. */
+.theme-swatch {
+  width: 32px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid var(--line-strong);
+  box-shadow: inset 0 1px 0 var(--sheen);
+}
+
+.theme-swatch-light {
+  background: linear-gradient(135deg, #FBF6EC 0 55%, #A64C1B 55% 100%);
+}
+
+.theme-swatch-dark {
+  background: linear-gradient(135deg, #17110C 0 55%, #E08A57 55% 100%);
+}
+
+/* Split down the middle: the phone's own choice, whichever it turns out to be. */
+.theme-swatch-system {
+  background:
+    linear-gradient(135deg, #FBF6EC 0 27%, #A64C1B 27% 50%, #17110C 50% 77%, #E08A57 77% 100%);
 }
 
 .settings-select {
   flex-shrink: 0;
   height: 34px;
   padding: 0 10px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
-  color: var(--paper);
+  color: var(--ink);
   font-size: var(--t-xs);
   cursor: pointer;
   outline: none;
 }
 
 .settings-select:focus {
-  border-color: var(--brass-line);
+  border-color: var(--accent-line);
 }
 
 /* Toggle */
@@ -1906,7 +2086,7 @@ header::after {
 .switch-slider {
   position: absolute;
   inset: 0;
-  background: var(--ink-500);
+  background: var(--surface-4);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
   cursor: pointer;
@@ -1921,22 +2101,22 @@ header::after {
   width: 18px;
   height: 18px;
   border-radius: var(--r-pill);
-  background: var(--paper-dim);
+  background: var(--ink-dim);
   transition: all var(--base) var(--ease-out);
 }
 
 .switch input:checked + .switch-slider {
-  background: var(--brass-wash);
-  border-color: var(--brass);
+  background: var(--accent-wash);
+  border-color: var(--accent);
 }
 
 .switch input:checked + .switch-slider::before {
   transform: translateX(20px);
-  background: var(--brass);
+  background: var(--accent);
 }
 
 .switch input:focus-visible + .switch-slider {
-  outline: 2px solid var(--brass);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -1944,7 +2124,7 @@ header::after {
   margin-top: var(--sp-7);
   text-align: center;
   font-size: var(--t-2xs);
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 /* ==========================================================================
@@ -1957,7 +2137,7 @@ header::after {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background: rgba(4, 5, 5, 0.75);
+  background: var(--backdrop);
   backdrop-filter: blur(3px);
   opacity: 0;
   pointer-events: none;
@@ -1974,8 +2154,8 @@ header::after {
   max-height: 94%;
   display: flex;
   flex-direction: column;
-  background: var(--ink-750);
-  border-top: 1px solid var(--brass-line);
+  background: var(--surface-1);
+  border-top: 1px solid var(--accent-line);
   border-radius: var(--r-lg) var(--r-lg) 0 0;
   box-shadow: var(--shadow-3);
   transform: translateY(24px);
@@ -1998,7 +2178,7 @@ header::after {
 .modal-header h3 {
   font-size: var(--t-h2);
   font-style: italic;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .modal-body {
@@ -2025,27 +2205,27 @@ header::after {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .form-control {
   width: 100%;
   padding: 11px 13px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
-  color: var(--paper);
+  color: var(--ink);
   font-size: var(--t-sm);
   outline: none;
   transition: border-color var(--fast) var(--ease);
 }
 
 .form-control::placeholder {
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .form-control:focus {
-  border-color: var(--brass);
+  border-color: var(--accent);
 }
 
 textarea.form-control {
@@ -2080,7 +2260,7 @@ textarea.form-control {
 
 .preview-empty {
   font-size: var(--t-2xs);
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .preview-ing-tag {
@@ -2088,14 +2268,14 @@ textarea.form-control {
   align-items: center;
   gap: 6px;
   padding: 5px 6px 5px 12px;
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line);
   border-radius: var(--r-pill);
   font-size: var(--t-2xs);
 }
 
 .preview-ing-tag .qty {
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .preview-ing-tag button {
@@ -2106,20 +2286,20 @@ textarea.form-control {
   background: none;
   border: none;
   border-radius: var(--r-pill);
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   font-size: 14px;
   line-height: 1;
   cursor: pointer;
 }
 
 .preview-ing-tag button:hover {
-  color: var(--rust);
-  background: var(--rust-wash);
+  color: var(--berry);
+  background: var(--berry-wash);
 }
 
 .ingredients-creator-box {
   padding: var(--sp-3);
-  background: var(--ink-700);
+  background: var(--surface-2);
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
 }
@@ -2146,7 +2326,7 @@ textarea.form-control {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--paper-faint);
+  color: var(--ink-faint);
 }
 
 .btn-add-ing {
@@ -2154,10 +2334,10 @@ textarea.form-control {
   height: 38px;
   display: grid;
   place-items: center;
-  background: var(--brass);
+  background: var(--accent);
   border: none;
   border-radius: var(--r-sm);
-  color: var(--on-brass);
+  color: var(--on-accent);
   cursor: pointer;
 }
 
@@ -2193,45 +2373,45 @@ textarea.form-control {
 }
 
 .btn-primary {
-  background: var(--brass);
-  border: 1px solid var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: var(--on-accent);
 }
 
 .btn-primary:hover {
-  background: var(--brass-bright);
+  background: var(--accent-hi);
 }
 
 .btn-secondary {
-  background: var(--ink-600);
+  background: var(--surface-3);
   border: 1px solid var(--line-strong);
-  color: var(--paper-dim);
+  color: var(--ink-dim);
 }
 
 .btn-secondary:hover {
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .btn-gold {
-  background: var(--brass-wash);
-  border: 1px solid var(--brass-line);
-  color: var(--brass);
+  background: var(--accent-wash);
+  border: 1px solid var(--accent-line);
+  color: var(--accent);
 }
 
 .btn-gold:hover {
-  background: var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  color: var(--on-accent);
 }
 
 .btn-danger {
-  background: var(--rust-wash);
-  border: 1px solid rgba(196, 112, 122, 0.4);
-  color: var(--rust);
+  background: var(--berry-wash);
+  border: 1px solid var(--berry-line);
+  color: var(--berry);
 }
 
 .btn-danger:hover {
-  background: var(--rust);
-  color: #1A0F11;
+  background: var(--berry);
+  color: var(--on-accent);
 }
 
 /* ==========================================================================
@@ -2246,7 +2426,7 @@ textarea.form-control {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   padding-bottom: env(safe-area-inset-bottom, 0px);
-  background: rgba(16, 19, 18, 0.92);
+  background: var(--surface-1);
   backdrop-filter: blur(16px);
   border-top: 1px solid var(--line);
 }
@@ -2264,7 +2444,7 @@ textarea.form-control {
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: var(--paper-faint);
+  color: var(--ink-faint);
   cursor: pointer;
   transition: color var(--fast) var(--ease);
 }
@@ -2281,7 +2461,7 @@ textarea.form-control {
 }
 
 .tab-item.active {
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .tab-item.active svg {
@@ -2298,8 +2478,8 @@ textarea.form-control {
   width: 24px;
   height: 2px;
   border-radius: var(--r-pill);
-  background: var(--brass);
-  box-shadow: 0 0 12px var(--brass);
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent);
 }
 
 .fab-btn {
@@ -2311,17 +2491,17 @@ textarea.form-control {
   height: 54px;
   display: grid;
   place-items: center;
-  background: var(--brass);
+  background: var(--accent);
   border: none;
   border-radius: var(--r-pill);
-  color: var(--on-brass);
+  color: var(--on-accent);
   cursor: pointer;
-  box-shadow: var(--shadow-brass), var(--shadow-2);
+  box-shadow: var(--shadow-accent), var(--shadow-2);
   transition: transform var(--base) var(--ease), background var(--fast) var(--ease);
 }
 
 .fab-btn:hover {
-  background: var(--brass-bright);
+  background: var(--accent-hi);
 }
 
 .fab-btn:active {
@@ -2348,10 +2528,10 @@ textarea.form-control {
   justify-content: space-between;
   gap: var(--sp-3);
   padding: 10px 10px 10px var(--sp-4);
-  background: var(--ink-600);
-  border: 1px solid var(--brass);
+  background: var(--surface-3);
+  border: 1px solid var(--accent);
   border-radius: var(--r-pill);
-  box-shadow: var(--shadow-2), var(--shadow-brass);
+  box-shadow: var(--shadow-2), var(--shadow-accent);
   transform: translateY(140%);
   opacity: 0;
   transition: all var(--slow) var(--ease-out);
@@ -2372,22 +2552,22 @@ textarea.form-control {
   font-family: var(--font-body);
   font-size: var(--t-xs);
   font-weight: 600;
-  color: var(--paper);
+  color: var(--ink);
   cursor: pointer;
 }
 
 .batch-bar-caret {
   font-size: 10px;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .batch-btn {
   flex-shrink: 0;
   padding: 8px 16px;
-  background: var(--brass);
+  background: var(--accent);
   border: none;
   border-radius: var(--r-pill);
-  color: var(--on-brass);
+  color: var(--on-accent);
   font-family: var(--font-body);
   font-size: var(--t-2xs);
   font-weight: 700;
@@ -2403,8 +2583,8 @@ textarea.form-control {
   max-height: 42vh;
   overflow-y: auto;
   padding: var(--sp-3) var(--sp-4);
-  background: var(--ink-700);
-  border: 1px solid var(--brass-line);
+  background: var(--surface-2);
+  border: 1px solid var(--accent-line);
   border-radius: var(--r-md);
   box-shadow: var(--shadow-2);
   transform: translateY(12px);
@@ -2425,7 +2605,7 @@ textarea.form-control {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--brass);
+  color: var(--accent);
 }
 
 .batch-panel-row {
@@ -2443,7 +2623,7 @@ textarea.form-control {
 
 .batch-panel-name {
   font-size: var(--t-xs);
-  color: var(--paper);
+  color: var(--ink);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2474,8 +2654,8 @@ textarea.form-control {
   gap: var(--sp-2);
   max-width: calc(100% - var(--sp-8));
   padding: 10px 18px;
-  background: var(--ink-600);
-  border: 1px solid var(--sage);
+  background: var(--surface-3);
+  border: 1px solid var(--herb);
   border-radius: var(--r-pill);
   box-shadow: var(--shadow-2);
   font-size: var(--t-xs);
@@ -2495,7 +2675,7 @@ textarea.form-control {
 }
 
 .toast-msg.info {
-  border-color: var(--brass-line);
+  border-color: var(--accent-line);
 }
 
 .toast-icon {
@@ -2518,8 +2698,8 @@ textarea.form-control {
   justify-content: center;
   gap: var(--sp-3);
   padding: 10px var(--sp-4);
-  background: var(--brass);
-  color: var(--on-brass);
+  background: var(--accent);
+  color: var(--on-accent);
   font-size: var(--t-xs);
   font-weight: 700;
   transform: translateY(-100%);
@@ -2532,10 +2712,10 @@ textarea.form-control {
 
 .update-banner-btn {
   padding: 5px 14px;
-  background: var(--on-brass);
+  background: var(--on-accent);
   border: none;
   border-radius: var(--r-pill);
-  color: var(--brass);
+  color: var(--accent);
   font-family: var(--font-body);
   font-size: var(--t-2xs);
   font-weight: 700;
@@ -2551,7 +2731,7 @@ textarea.form-control {
    12. Motion & accessibility
    ========================================================================== */
 :focus-visible {
-  outline: 2px solid var(--brass);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: var(--r-sm);
 }
@@ -2580,19 +2760,19 @@ textarea.form-control {
   bottom: 0;
   z-index: 2;
   padding: 4px 10px;
-  background: linear-gradient(to top, rgba(8, 9, 10, 0.85), transparent);
+  background: linear-gradient(to top, var(--scrim), transparent);
   font-size: 10px;
   line-height: 1.4;
-  color: var(--paper-dim);
+  color: var(--on-photo-dim);
   text-align: right;
 }
 
 .image-credit a {
-  color: var(--paper-dim);
+  color: var(--on-photo-dim);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 .image-credit a:hover {
-  color: var(--brass);
+  color: var(--on-photo-accent);
 }
