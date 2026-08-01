@@ -33,6 +33,10 @@ const used = new Set();
   m[1].split(/\s+/).filter(Boolean).forEach(c => used.add(c));
 });
 [...js.matchAll(/\?\s*'([a-z][a-z0-9-]+)'\s*:\s*''/gi)].forEach(m => used.add(m[1]));
+// photoMarkup(recipe, alt, 'recipe-card-img', lazy) — the one helper that
+// takes the class to emit as an argument, so the literal never appears inside
+// a class="..." attribute at the call site.
+[...js.matchAll(/photoMarkup\([^)]*?'([a-z][a-z0-9-]+)'/g)].forEach(m => used.add(m[1]));
 
 // Classes the stylesheet defines. Strip comments, url()s and hex colours
 // first, or "fonts.googleapis.com" reads as a class and #C79F5E as an id.

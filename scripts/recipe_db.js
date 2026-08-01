@@ -32,14 +32,25 @@ function save(recipes) {
   return recipes.length;
 }
 
-/** Titles differing only by case, accents or punctuation are the same dish. */
+/**
+ * Titles differing only by case, accents or punctuation are the same dish.
+ *
+ * Trailing filler is stripped too: "Breadfruit in Butter Sauce Recipe" and
+ * "Breadfruit in Butter Sauce" arrived as two entries with the same method,
+ * one of them padded out with eleven steps of history.
+ */
+const TITLE_FILLER = /\s+(recipe|traditional|authentic|homemade|easy|classic|the best)$/;
+
 function normaliseTitle(title) {
-  return String(title || '')
+  let text = String(title || '')
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
+  let previous;
+  do { previous = text; text = text.replace(TITLE_FILLER, ''); } while (text !== previous);
+  return text;
 }
 
 /**

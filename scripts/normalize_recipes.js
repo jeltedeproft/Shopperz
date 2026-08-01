@@ -111,6 +111,25 @@ function main() {
   recipes.forEach(r => r.ingredients.forEach(i => { units[i.unit] = (units[i.unit] || 0) + 1; }));
   console.log(`\n📏 Units in use: ${Object.keys(units).sort().join(', ')}`);
 
+  // resize_images.ps1 re-encodes PNGs as JPEG, which leaves the recipe pointing
+  // at a file that no longer exists. Repoint rather than leave a broken image:
+  // the alternative is remembering to run these two scripts in the right order
+  // forever.
+  let repointed = 0;
+  const missing = [];
+  recipes.forEach(recipe => {
+    if (!recipe.image || fs.existsSync(path.join(ROOT, recipe.image))) return;
+    const alternative = ['.jpg', '.jpeg', '.png', '.webp']
+      .map(ext => recipe.image.replace(/\.[a-z]+$/i, ext))
+      .find(candidate => fs.existsSync(path.join(ROOT, candidate)));
+    if (alternative) { recipe.image = alternative; repointed++; }
+    else { missing.push(recipe.id); recipe.image = ''; }
+  });
+  if (repointed) console.log(`🖼️  ${repointed} image path(s) repointed after re-encoding`);
+  if (missing.length) {
+    console.log(`🖼️  ${missing.length} image(s) gone, moved to the placeholder: ${missing.slice(0, 5).join(', ')}`);
+  }
+
   if (dryRun) {
     console.log('\n(dry run — recipes.js not written)');
     return;

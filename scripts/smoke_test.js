@@ -667,9 +667,14 @@ const totalImageBytes = imageFiles
   .reduce((sum, f) => sum + fs.statSync(path.join(ROOT, 'images', f)).size, 0);
 const heavy = imageFiles.filter(f =>
   fs.statSync(path.join(ROOT, 'images', f)).size > 200 * 1024);
+// Raised from 5 MB when the book grew from 147 recipes to 297. The service
+// worker caches all of this for use in a shop with no signal, so the number is
+// a deliberate ceiling rather than a formality: at ~28 KB a photo it allows
+// roughly 430 of them, and the answer to hitting it is fewer or smaller
+// photos, not a bigger number.
 check('recipe photos stay within the offline budget',
-  totalImageBytes < 5 * 1024 * 1024,
-  `${(totalImageBytes / 1024 / 1024).toFixed(1)} MB`);
+  totalImageBytes < 12 * 1024 * 1024,
+  `${(totalImageBytes / 1024 / 1024).toFixed(1)} MB of 12 MB`);
 check('no single photo is oversized', heavy.length === 0,
   heavy.slice(0, 3).join(', '));
 
@@ -689,9 +694,46 @@ check('every Belgian classic is trilingual',
   belgian.filter(r => !['en', 'nl', 'fr'].every(l => r.translations[l] && r.translations[l].instructions.length >= 5))
     .map(r => r.id).join(', '));
 
+// An empty image is the placeholder path, not a broken one: the recipe has no
+// photograph we are allowed to reuse, and app.js draws a tile instead.
+const photographed = recipes.filter(r => r.image);
 check('every image file exists',
-  recipes.every(r => fs.existsSync(path.join(ROOT, r.image))),
-  recipes.filter(r => !fs.existsSync(path.join(ROOT, r.image))).map(r => r.image).join(', '));
+  photographed.every(r => fs.existsSync(path.join(ROOT, r.image))),
+  photographed.filter(r => !fs.existsSync(path.join(ROOT, r.image))).map(r => r.image).join(', '));
+check('recipes without a photo fall back to the drawn placeholder',
+  recipes.every(r => typeof r.image === 'string'),
+  `${recipes.length - photographed.length} on the placeholder`);
+
+const withPhotoMarkup = sandbox.photoMarkup({ image: 'images/x.jpg' }, 'Stoemp', 'recipe-card-img', true);
+const noPhotoMarkup = sandbox.photoMarkup({ image: '' }, 'Stoemp', 'recipe-card-img', true);
+check('a photographed recipe renders an <img>', /^<img /.test(withPhotoMarkup) && withPhotoMarkup.includes('images/x.jpg'));
+check('an unphotographed one renders the placeholder instead',
+  noPhotoMarkup.includes('photo-placeholder') && !noPhotoMarkup.includes('<img'));
+check('the placeholder still announces the dish to a screen reader',
+  noPhotoMarkup.includes('role="img"') && noPhotoMarkup.includes('aria-label="Stoemp"'));
+
+// findDuplicate matches on titles, which does not catch "English Breakfast"
+// against "Full English Breakfast" — two entries whose methods were identical
+// word for word. Two recipes with the same method are one recipe.
+const byMethod = new Map();
+const clones = [];
+recipes.forEach(r => {
+  const key = JSON.stringify(r.translations.en.instructions);
+  if (byMethod.has(key)) clones.push(`${r.id} = ${byMethod.get(key)}`);
+  else byMethod.set(key, r.id);
+});
+check('no two recipes share the same method', clones.length === 0, clones.slice(0, 3).join(', '));
+
+// The MealDB importer seeds nl and fr with the English text so the shape is
+// right, and a scripts/voice batch is meant to replace all three. Byte-identical
+// instructions across two languages means one of them was never written.
+['nl', 'fr'].forEach(lang => {
+  const same = recipes.filter(r =>
+    JSON.stringify(r.translations[lang].instructions) ===
+    JSON.stringify(r.translations.en.instructions));
+  check(`no recipe still carries English in its ${lang}`, same.length === 0,
+    `${same.length} of ${recipes.length}: ${same.slice(0, 3).map(r => r.id).join(', ')}`);
+});
 
 console.log('\nTranslation coverage');
 const dicts = ctx('uiTranslations');

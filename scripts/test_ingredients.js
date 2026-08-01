@@ -8,6 +8,7 @@
  *   node scripts/test_ingredients.js
  */
 const Ing = require('../ingredients.js');
+const Measure = require('./measure.js');
 
 let failures = 0;
 let count = 0;
@@ -248,6 +249,67 @@ dupeCases.forEach(([label, candidate, wantedId]) => {
 expect('short fragments are not treated as titles', RecipeDb.titleVariants('Pie / X'), ['pie x']);
 expect('long halves are kept', RecipeDb.titleVariants('Stoemp met Worst / Stoemp Saucisse'),
   ['stoemp met worst stoemp saucisse', 'stoemp met worst', 'stoemp saucisse']);
+
+// ---------------------------------------------------------------------------
+section('Measure parsing  "free text" -> [amount, unit]');
+// ---------------------------------------------------------------------------
+// Every shape below appeared in TheMealDB and used to land on the shopping
+// list as "1 piece", because the importer read the leading digit and threw the
+// rest away. A piece is a valid unit, so nothing ever complained.
+const measureCases = [
+  // plain
+  ['200ml', [200, 'ml']],
+  ['4 Tablespoons', [4, 'tablespoons']],
+  ['2 Litres', [2, 'litres']],
+  ['Dash', [null, 'dash']],
+  ['', [null, '']],
+  // fractions
+  ['3/4 cup', [0.75, 'cup']],
+  ['½ tsp', [0.5, 'tsp']],
+  ['¼ teaspoon', [0.25, 'teaspoon']],
+  // mixed numbers, in all the ways they get written
+  ['1 1/2 cups', [1.5, 'cups']],
+  ['1 ½ tbsp', [1.5, 'tbsp']],
+  ['1½ tablespoon', [1.5, 'tablespoon']],
+  ['2-1/2 cups', [2.5, 'cups']],
+  ['1 and 1/8 cup', [1.125, 'cup']],
+  // ranges resolve to the upper bound — better over than short at the shop
+  ['2-3 tbsp', [3, 'tbsp']],
+  ['1-2tbsp', [2, 'tbsp']],
+  // both measuring systems at once, either order
+  ['75g/3oz', [75, 'g']],
+  ['6oz/180g', [180, 'g']],
+  // counts of sized containers: the contents are what you buy
+  ['1 (12 oz.)', [12, 'oz']],
+  ['2 (14 oz) tins', [28, 'oz']],
+  ['1 x 300ml', [300, 'ml']],
+  ['3 x 100g', [300, 'g']],
+  // a unit followed by words about the ingredient, not the measure
+  ['2 tbs chopped', [2, 'tbs']],
+  ['1 tablespoon chopped', [1, 'tablespoon']],
+  ['2 tsp ground', [2, 'tsp']],
+  ['14 oz jar', [14, 'oz']]
+];
+
+measureCases.forEach(([input, wanted]) => {
+  const got = Measure.parseMeasure(input);
+  expect(`parse ${JSON.stringify(input)}`, [got.amount, got.unit], wanted);
+});
+
+// End to end: the measure string all the way to a canonical shopping row.
+const measuredCases = [
+  ['1 1/2 cups', 'Flour', [188, 'g']],
+  ['3/4 cup', 'soy sauce', [180, 'ml']],
+  ['½ tsp', 'almond extract', [0.5, 'kl']],
+  ['1 x 300ml', 'salsa', [300, 'ml']],
+  ['2 Litres', 'beef stock', [2000, 'ml']]
+];
+
+measuredCases.forEach(([measure, name, wanted]) => {
+  const rows = Measure.resolveMeasured(name, measure);
+  expect(`${JSON.stringify(measure)} ${name}`,
+    rows.length ? [rows[0].amount, rows[0].unit] : null, wanted);
+});
 
 // ---------------------------------------------------------------------------
 console.log(`\n${failures === 0 ? `✅ ${count} dictionary checks passed` : `❌ ${failures} of ${count} failed`}\n`);

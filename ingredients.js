@@ -96,6 +96,7 @@
     'liter': { unit: 'ml', factor: 1000 },
     'liters': { unit: 'ml', factor: 1000 },
     'litre': { unit: 'ml', factor: 1000 },
+    'litres': { unit: 'ml', factor: 1000 },
     'l': { unit: 'ml', factor: 1000 },
     'dl': { unit: 'ml', factor: 100 },
     'cl': { unit: 'ml', factor: 10 },
@@ -836,6 +837,10 @@
     DEFAULT_AISLE: DEFAULT_AISLE,
     COUNTABLE_UNITS: COUNTABLE_UNITS,
     VAGUE_UNITS: VAGUE_UNITS,
+    // Exported so scripts/measure.js can recognise a unit without keeping its
+    // own copy of the vocabulary and letting the two drift apart.
+    UNIT_ALIASES: UNIT_ALIASES,
+    UNIT_CONVERSIONS: UNIT_CONVERSIONS,
     NAME_TRANSLATIONS: NAME_TRANSLATIONS,
     STAPLE_KEYS: STAPLE_KEYS,
     cleanName: cleanName,

@@ -581,6 +581,24 @@ function t(key, vars) {
   return text;
 }
 
+/**
+ * Not every recipe has a photograph we are allowed to reuse, and standing in a
+ * picture of a different dish is worse than showing none. Those recipes get a
+ * drawn placeholder instead: it is CSS rather than an image file, so it follows
+ * the theme and costs the offline cache nothing however many recipes use it.
+ */
+function hasPhoto(recipe) {
+  return Boolean(recipe && recipe.image);
+}
+
+function photoMarkup(recipe, alt, className, lazy) {
+  if (hasPhoto(recipe)) {
+    return `<img class="${className}" src="${escapeHtml(recipe.image)}" alt="${escapeHtml(alt)}"${lazy ? ' loading="lazy"' : ''}>`;
+  }
+  return `<div class="${className} photo-placeholder" role="img" aria-label="${escapeHtml(alt)}">` +
+    '<span aria-hidden="true">🍲</span></div>';
+}
+
 /** Recipe titles and ingredient names are user-editable, so never trust them in HTML. */
 function escapeHtml(value) {
   return String(value === null || value === undefined ? '' : value)
@@ -1225,7 +1243,7 @@ function recipeCardHtml(recipe, options) {
         </svg>
       </div>
       <div class="recipe-card-img-wrapper">
-        <img class="recipe-card-img" src="${escapeHtml(recipe.image)}" alt="${escapeHtml(name)}" loading="lazy">
+        ${photoMarkup(recipe, name, 'recipe-card-img', true)}
         <span class="recipe-badge">${escapeHtml(diffText)}</span>
         ${isFav ? '<span class="recipe-fav-badge">❤️</span>' : ''}
       </div>
@@ -1284,7 +1302,7 @@ function renderHomeTab() {
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
         </div>
-        <img class="featured-img" src="${escapeHtml(featuredRecipe.image)}" alt="${escapeHtml(trans.title)}">
+        ${photoMarkup(featuredRecipe, trans.title, 'featured-img', false)}
         <div class="featured-overlay">
           <span class="featured-tag">${escapeHtml(t('suggestedTitle'))}</span>
           <h3 class="featured-title">${escapeHtml(trans.title)}</h3>
@@ -1645,8 +1663,16 @@ function openRecipeDrawer(recipeId) {
   const trans = recipeText(recipe);
   const own = isUserRecipe(recipe);
 
-  document.getElementById('drawer-hero-img').src = recipe.image;
-  document.getElementById('drawer-hero-img').alt = trans.title;
+  // The hero is a real <img> in the markup, so swap the whole element's mode
+  // rather than pointing src at a file that does not exist.
+  const hero = document.getElementById('drawer-hero-img');
+  const heroWrap = hero && hero.parentElement;
+  if (hero) {
+    hero.alt = trans.title;
+    if (hasPhoto(recipe)) hero.src = recipe.image;
+    else hero.removeAttribute('src');
+  }
+  if (heroWrap) heroWrap.classList.toggle('drawer-hero-empty', !hasPhoto(recipe));
   renderImageCredit(recipe);
   document.getElementById('drawer-subtitle').textContent =
     own ? `${recipeCategoryLabel(recipe)} · ${t('customBadge')}` : recipeCategoryLabel(recipe);

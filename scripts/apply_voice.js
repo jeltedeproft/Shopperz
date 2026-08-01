@@ -51,14 +51,22 @@ function numbersIn(text) {
     .sort();
 }
 
-/** Oven settings must survive verbatim — these are the easiest thing to fumble. */
+/**
+ * Oven settings must survive — these are the easiest thing to fumble.
+ *
+ * Compared as number plus scale, never as the word: the MealDB imports seed
+ * nl and fr with the English text, so translating "350 degrees" into "350
+ * graden" is the expected change and must not read as a moved oven setting.
+ * Changing 350 to 175, or °C to °F, still does.
+ */
 function temperaturesIn(text) {
   const out = [];
-  const re = /(\d+)\s*(?:°\s*[CF]|(?:degrees?|graden|degrés)\b|\bgas mark\b)/gi;
+  const re = /(\d+)\s*(?:°\s*([CF])|(?:degrees?|graden|degrés)\s*([CF])?\b)/gi;
   let m;
-  while ((m = re.exec(text)) !== null) out.push(m[0].replace(/\s+/g, '').toLowerCase());
-  // "gas mark 4" puts the number after the words
-  const gas = String(text).match(/gas mark\s*\d+/gi) || [];
+  while ((m = re.exec(text)) !== null) {
+    out.push(m[1] + (m[2] || m[3] || '').toLowerCase());
+  }
+  const gas = String(text).match(/gas\s*mark\s*(\d+)/gi) || [];
   return out.concat(gas.map(g => g.replace(/\s+/g, '').toLowerCase())).sort();
 }
 
@@ -81,8 +89,15 @@ function fault(id, lang, msg) {
  * It is spelled out per recipe on purpose: dropping a step is a change to
  * the recipe, not to its wording, and it should be impossible to do by
  * accident or in passing.
+ *
+ * Dropping has to be idempotent, because the whole pass is re-run over a
+ * recipes.js that already carries earlier batches. Once the steps are gone
+ * the list is already the right length, and dropping again would eat real
+ * steps — so a list that no longer has the indices to spare is left alone.
  */
-function dropFrom(list, drop) {
+function dropFrom(list, drop, expected) {
+  if (drop.length === 0) return list;
+  if (typeof expected === 'number' && list.length === expected) return list;
   return list.filter((_, i) => drop.indexOf(i + 1) === -1);
 }
 
@@ -100,7 +115,7 @@ function verify(id, lang, original, rewrite, drop, fixes) {
 
   if (!Array.isArray(rewrite.instructions)) return;
 
-  const before = dropFrom(original.instructions || [], drop);
+  const before = dropFrom(original.instructions || [], drop, rewrite.instructions.length);
   if (rewrite.instructions.length !== before.length) {
     fault(id, lang, `has ${rewrite.instructions.length} steps, original has ${before.length}` +
       (drop.length ? ` after dropping ${drop.length}` : ''));

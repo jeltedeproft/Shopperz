@@ -3,6 +3,7 @@ const path = require('path');
 const vm = require('vm');
 
 const Ingredients = require('../ingredients.js');
+const Measure = require('./measure.js');
 const RecipeDb = require('./recipe_db.js');
 
 // --- Helper: Public translation API ---
@@ -130,14 +131,11 @@ async function fetchMealDb(mealId) {
     const ingName = meal[`strIngredient${i}`];
     const ingMeasure = meal[`strMeasure${i}`];
     if (ingName && ingName.trim()) {
-      // Split measure into amount and unit
-      const cleanMeasure = ingMeasure ? ingMeasure.trim() : "";
-      const match = cleanMeasure.match(/^(\d+(?:\.\d+)?)\s*(.*)$/);
-      if (match) {
-        parseAndConvertIngredient(ingName, parseFloat(match[1]), match[2]).forEach(i => ingredients.push(i));
-      } else {
-        parseAndConvertIngredient(ingName, null, cleanMeasure).forEach(i => ingredients.push(i));
-      }
+      // measure.js reads mixed numbers, unicode fractions, ranges and sized
+      // containers; the regex that used to live here read "1 1/2 cups" as one
+      // piece of flour.
+      const m = Measure.parseMeasure(ingMeasure);
+      parseAndConvertIngredient(ingName, m.amount, m.unit).forEach(i => ingredients.push(i));
     }
   }
 

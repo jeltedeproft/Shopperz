@@ -782,6 +782,58 @@ header::after {
   transition: transform var(--slow) var(--ease);
 }
 
+/* --- Recipes with no photograph we may reuse --- */
+
+/* Drawn rather than photographed: a stand-in picture of a different dish is
+   worse than an honest blank. Being CSS, it follows the theme and adds nothing
+   to what the service worker has to cache. */
+.photo-placeholder {
+  display: grid;
+  place-items: center;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      var(--accent-wash) 0 10px,
+      transparent 10px 20px
+    ),
+    var(--surface-3);
+}
+
+.photo-placeholder span {
+  font-size: 34px;
+  opacity: 0.55;
+  filter: grayscale(0.35);
+}
+
+/* The drawer hero is a real <img> in the markup, so the wrapper takes over. */
+.drawer-hero-empty {
+  display: grid;
+  place-items: center;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      var(--accent-wash) 0 10px,
+      transparent 10px 20px
+    ),
+    var(--surface-3);
+}
+
+.drawer-hero-empty .drawer-hero-img {
+  display: none;
+}
+
+.drawer-hero-empty::before {
+  content: '🍲';
+  font-size: 44px;
+  opacity: 0.55;
+  filter: grayscale(0.35);
+}
+
+/* Nothing to darken, so drop the scrim that sits over a photo. */
+.drawer-hero-empty::after {
+  content: none;
+}
+
 .recipe-card:hover .recipe-card-img {
   transform: scale(1.05);
 }
