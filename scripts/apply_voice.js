@@ -27,17 +27,23 @@
  *
  *   node scripts/apply_voice.js            # apply every batch
  *   node scripts/apply_voice.js --check    # verify only, write nothing
+ *   node scripts/apply_voice.js --rebuild  # regenerate the database from the batches
  *   node scripts/apply_voice.js --batch 03 # one batch
  */
 const fs = require('fs');
 const path = require('path');
 const db = require('./recipe_db');
+const Measures = require('./convert_measures.js');
 
 const VOICE_DIR = path.join(__dirname, 'voice');
 const LANGS = ['en', 'nl', 'fr'];
 
 const args = process.argv.slice(2);
 const checkOnly = args.includes('--check');
+// Regenerating recipes.js from the batches. The guard compares a rewrite
+// against what is already in the database, so when the *conversion* changes
+// the database is the stale side and every number 'differs'. This says so.
+const rebuild = args.includes('--rebuild');
 const only = args.includes('--batch') ? args[args.indexOf('--batch') + 1] : null;
 
 /**
@@ -190,9 +196,22 @@ function main() {
       const drop = Array.isArray(batch[id].dropSteps) ? batch[id].dropSteps : [];
       if (drop.length) dropped.push(`${id}: steps ${drop.join(', ')}`);
 
+      // The batches are the faithful transcription of each source recipe, so a
+      // source that said 350 degrees still says so on disk. The imperial is
+      // converted here, on the way into the database, which keeps the batches
+      // honest and means the database comes out metric however often this runs.
+      const measures = Measures.converter();
+
       LANGS.forEach(lang => {
-        const rewrite = batch[id][lang];
-        if (!rewrite) return;
+        const raw = batch[id][lang];
+        if (!raw) return;
+        measures.start(lang);
+        const rewrite = {
+          fixes: raw.fixes,
+          subtitle: typeof raw.subtitle === 'string' ? measures.convert(raw.subtitle) : raw.subtitle,
+          description: typeof raw.description === 'string' ? measures.convert(raw.description) : raw.description,
+          instructions: Array.isArray(raw.instructions) ? raw.instructions.map(measures.convert) : raw.instructions
+        };
         const fixes = Array.isArray(rewrite.fixes) ? rewrite.fixes : [];
         const original = recipe.translations && recipe.translations[lang];
         verify(id, lang, original, rewrite, drop, fixes);
@@ -222,11 +241,20 @@ function main() {
     unknown.forEach(u => console.log(`   ${u}`));
   }
 
-  if (problems.length) {
+  if (problems.length && !rebuild) {
     console.log(`\n❌ ${problems.length} rewrite(s) changed more than the wording:\n`);
     problems.forEach(p => console.log(`   ${p}`));
     console.log('\nNothing was written.\n');
+    if (/numbers|oven setting/.test(problems.join(' '))) {
+      console.log('If the measure conversion itself has changed, the database is the stale');
+      console.log('side of this comparison, not the batches. Rebuild it with --rebuild.\n');
+    }
     process.exit(1);
+  }
+
+  if (problems.length) {
+    console.log(`\n⚠️  --rebuild: ${problems.length} difference(s) against the database were`);
+    console.log('   ignored, because the database is being regenerated from the batches.');
   }
 
   if (notes.length) {

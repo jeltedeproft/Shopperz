@@ -61,6 +61,8 @@ Wi-Fi, then "Add to home screen".
 | `ingredients.js` | Canonical ingredient dictionary: names, aisles, units, staples, diet flags. Shared by the browser and the node scripts |
 | `scripts/recipe_db.js` | Shared load/save for `recipes.js` plus duplicate detection, used by every importer |
 | `scripts/measure.js` | Parses free-text measures — mixed numbers, unicode fractions, ranges, sized tins — into an amount and a unit |
+| `scripts/units.js` | Imperial-to-metric for prose: the oven table, lengths, and volumes via `ingredients.js` |
+| `scripts/convert_measures.js` | Rewrites the imperial left in instructions; run by `apply_voice.js` |
 | `scripts/wikimedia.js` | Commons API access: search, licence checking, throttled download |
 | `recipes.js` | The recipe database (`window.initialRecipes`) |
 | `style.css` | The design system: two warm palettes (light and dark) behind one set of semantic tokens |
@@ -73,10 +75,12 @@ Wi-Fi, then "Add to home screen".
 ```bash
 node scripts/smoke_test.js        # app flows — run this before committing
 node scripts/test_ingredients.js  # the ingredient dictionary, table-driven
+node scripts/test_units.js        # the imperial-to-metric conversions, table-driven
 node scripts/check_styles.js      # every rendered class is styled, tags balance
 node scripts/check_contrast.js    # WCAG contrast of both palettes, and that they define the same tokens
 node scripts/apply_voice.js --check   # verify the recipe rewrites without writing
 node scripts/apply_voice.js       # apply scripts/voice/*.js to recipes.js
+node scripts/convert_measures.js --check   # report every imperial measure it would convert
 node scripts/normalize_recipes.js # re-canonicalise every ingredient in recipes.js
 node scripts/download_images.js   # pull any remote recipe image into images/
 pwsh scripts/resize_images.ps1    # downscale photos to the size actually shown
@@ -186,6 +190,48 @@ and both must be spelled out per recipe:
   said minutes, or an oven "preheated to 35".
 
 Anything not on those lists is a hard failure, and nothing is written.
+
+---
+
+## Metric
+
+The ingredient lists were converted to metric when they were imported. The
+instructions were not, so for a while a recipe could tell you to heat the oven
+to 350 degrees while its own ingredient list was in grams.
+`scripts/convert_measures.js` closes that gap, and `apply_voice.js` runs it on
+the way into the database — the batches in `scripts/voice/` keep each source
+recipe word for word, and `recipes.js` comes out metric however often the voice
+pass is re-run. Rebuild it from the batches with `apply_voice.js --rebuild`.
+
+Every change it makes is printed, grouped by rule, so the whole diff can be read
+before it is committed — `node scripts/convert_measures.js --check`. Two kinds of
+edit happen and they carry very different risk: **stripping** the imperial half
+of a measure the recipe already gives twice ("180C/350F/Gas 4", "325ml/11fl oz",
+"1/4 cup (60 ml)") does no arithmetic and cannot be got wrong, while
+**converting** a bare imperial measure computes a number.
+
+Two things in there are worth knowing about.
+
+**The oven table is conventional, not arithmetic.** 350 °F is 176.7 °C, but no
+European oven has a 175 mark on it and no European cookbook prints one: the
+answer is 180. That is not sloppiness — it is what this book already said about
+itself, because the British recipes that arrived carrying both scales spell out
+180C/350F twelve times and 200C/400F twenty-one. Converting by calculator would
+have made a British recipe and an American one disagree about the same oven.
+Temperatures between the marks — an oil bath, a meat probe — are arithmetic to
+the nearest 5 °C.
+
+**A cup is 240 ml or 125 g depending on what is in it**, and that factor of two
+is the one number in the job worth being slow about. The decision is taken from
+the English, and the Dutch and French then take the same answer for the same
+step. Deciding per language would mean three vocabularies and three chances to
+be wrong, and Dutch defeats the technique anyway: it glues its nouns together,
+so no list of words can find the oil inside "olijfolie" or the stock inside
+"kippenbouillon", and "room" is cream in Dutch and somewhere to stand in
+English. Whatever the lists cannot place is left alone and reported, and the
+dozen real cases are settled by hand in `BY_HAND` with a note on each saying
+why — a cup of butter and a cup of ricotta are both measured by volume, and the
+dry rule would have put nearly half the butter back on the shelf.
 
 ---
 

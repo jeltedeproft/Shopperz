@@ -65,7 +65,7 @@ window.initialRecipes = [
           "Les oignons émincés maintenant, dans le même beurre à feu moyen. Laisse-les fondre et devenir translucides en grattant les sucs que la viande a laissés.",
           "Le bœuf retourne dans la cocotte, la bière par-dessus, et le cube de bouillon émietté.",
           "Tartine le pain généreusement de moutarde et pose les tranches face moutarde sur la viande. Oui, vraiment — c'est ça qui lie la sauce.",
-          "Le laurier, le thym et le sirop de Liège. Couvercle, feu tout doux, et laisse-le tranquille 2h à 2h30. Ne remue pas ; laisse-le faire.",
+          "Le laurier, le thym et le sirop de Liège. Couvercle, feu tout doux, et laisse-le tranquille 2h à 2h30. Ne remue pas; laisse-le faire.",
           "Retire les herbes. Le pain se sera défait tout seul — mélange-le à la sauce et regarde-la devenir brillante et épaisse."
         ]
       }
@@ -488,7 +488,7 @@ window.initialRecipes = [
           "Épluche les pommes de terre et coupe les carottes et les poireaux. Garde des morceaux de taille comparable, ils cuiront ensemble.",
           "Fais bouillir le tout dans l'eau salée pendant 20 minutes, jusqu'à ce qu'un couteau entre dans une pomme de terre sans discuter.",
           "Pendant ce temps, grille les lardons bien croustillants, puis cuis les saucisses dans la même poêle — toute cette graisse de lard n'est pas là pour être jetée.",
-          "Égoutte bien les légumes et écrase-les grossièrement avec le beurre et le lait. Grossièrement, c'est le principe ; un stoemp lisse n'est qu'une purée, et personne n'a demandé ça.",
+          "Égoutte bien les légumes et écrase-les grossièrement avec le beurre et le lait. Grossièrement, c'est le principe; un stoemp lisse n'est qu'une purée, et personne n'a demandé ça.",
           "Incorpore les lardons au dernier moment pour qu'ils restent croquants, et sers avec les saucisses et le jus."
         ]
       }
@@ -635,7 +635,7 @@ window.initialRecipes = [
         "description": "Des moules de la mer du Nord ouvertes à la vapeur sur du céleri, de l'oignon et du poireau avec beaucoup de beurre, et un tas de frites à côté. Mange-les avec une coquille vide en guise de pince, comme il se doit.",
         "instructions": [
           "Lave les moules à l'eau froide. Tapote celles qui restent ouvertes — si elle ne se referme pas, à la poubelle, il n'y a pas à négocier.",
-          "Hache le céleri en branches, les oignons et le blanc de poireau. Rien n'a besoin d'être régulier ; tout disparaît sous les moules.",
+          "Hache le céleri en branches, les oignons et le blanc de poireau. Rien n'a besoin d'être régulier; tout disparaît sous les moules.",
           "Fais fondre le beurre dans ta plus grande casserole et laisse les légumes s'attendrir 3 minutes, juste jusqu'à ce qu'ils sentent bon le sucré.",
           "Verse les moules et le persil, couvre vite et monte le feu à fond. Il te faut de la vapeur, et beaucoup.",
           "Au bout de 3 minutes, secoue bien toute la casserole — c'est ce qui remplace le fait de remuer, qui ne ferait que casser les coquilles. Puis encore 3 minutes, jusqu'à ce que tout soit ouvert.",
@@ -760,7 +760,7 @@ window.initialRecipes = [
         "subtitle": "Des asperges blanches, et pas grand-chose d'autre",
         "description": "Des asperges blanches avec de l'œuf dur écrasé et du beurre chaud versé dessus. Il n'y a rien derrière quoi se cacher ici, alors achète tes asperges chez quelqu'un qui sait ce qu'il vend.",
         "instructions": [
-          "Pèle les asperges blanches depuis juste sous la pointe jusqu'en bas, et repasse deux fois — la peau est plus coriace qu'elle n'en a l'air. Casse les extrémités ligneuses ; elles se rompent d'elles-mêmes au bon endroit.",
+          "Pèle les asperges blanches depuis juste sous la pointe jusqu'en bas, et repasse deux fois — la peau est plus coriace qu'elle n'en a l'air. Casse les extrémités ligneuses; elles se rompent d'elles-mêmes au bon endroit.",
           "Cuis-les 8 à 10 minutes à l'eau salée, jusqu'à ce qu'un couteau entre dans la partie la plus épaisse avec une toute petite résistance. Égoutte-les.",
           "Cuis les œufs durs 9 minutes, refroidis-les sous l'eau froide pour qu'ils s'écalent proprement, puis hache-les finement.",
           "Fais fondre le beurre à feu doux sans le laisser colorer — tu le veux chaud et jaune, pas noisette. Sale et poivre.",
@@ -875,7 +875,7 @@ window.initialRecipes = [
           "Coupe le chapeau des tomates et garde-le — il revient à la fin. Évide-les, puis retourne-les sur un linge pour qu'elles s'égouttent pendant que tu fais le reste.",
           "Mélange les crevettes grises à la mayonnaise avec le citron, le persil haché, sel et poivre. Mélange, ne bats pas — les crevettes sont fragiles et tu les veux entières.",
           "Sale très légèrement l'intérieur des tomates évidées. Ça tire le dernier jus et les assaisonne de l'intérieur.",
-          "Remplis chaque tomate généreusement. Sois gourmand ; une tomate chichement farcie, c'est triste.",
+          "Remplis chaque tomate généreusement. Sois gourmand; une tomate chichement farcie, c'est triste.",
           "Repose les chapeaux de travers et sers frais, avec quelques feuilles de laitue à côté."
         ]
       }
@@ -1001,7 +1001,7 @@ window.initialRecipes = [
           "Coupe le tofu ferme en cubes et éponge-les vraiment bien — un tofu mouillé ne dorera jamais — puis fais-les dorer à l'huile d'olive sur plusieurs faces.",
           "Dans une grande cocotte, fais fondre les légumes dans l'huile pendant 5 minutes sans les laisser accrocher.",
           "Verse le bouillon de légumes et laisse frémir 15-20 minutes, jusqu'à ce que les légumes cèdent à la fourchette tout en gardant leur forme.",
-          "La crème d'avoine et le tofu doré maintenant. Réchauffe doucement ; une grosse ébullition ferait trancher la crème.",
+          "La crème d'avoine et le tofu doré maintenant. Réchauffe doucement; une grosse ébullition ferait trancher la crème.",
           "Hors du feu, le jus de citron et le persil, puis la muscade, le sel et le poivre. Goûte — celui-ci en réclame presque toujours plus qu'on ne croit."
         ]
       }
@@ -1146,7 +1146,7 @@ window.initialRecipes = [
         "description": "Du chicon cru en rondelles avec des noix, de la bonne huile d'olive et du citron. Rien de sucré à proximité — l'amertume est le but, pas un défaut à masquer.",
         "instructions": [
           "Lave les chicons, coupe le pied et détaille-les en fines rondelles. Fais-le en dernier, car le chicon coupé brunit dès qu'on a le dos tourné.",
-          "Hache grossièrement les noix. Frotte-les d'abord dans un linge si les peaux se détachent ; ce sont elles qui ont ce goût poussiéreux.",
+          "Hache grossièrement les noix. Frotte-les d'abord dans un linge si les peaux se détachent; ce sont elles qui ont ce goût poussiéreux.",
           "Fouette l'huile d'olive, le jus de citron, le sel et beaucoup de poivre noir concassé directement dans le saladier. Ça t'épargne une vaisselle.",
           "Verse les rondelles de chicon et les noix par-dessus la vinaigrette.",
           "Retourne délicatement à la main jusqu'à ce que chaque rondelle brille, et sers aussitôt — c'est dans les dix premières minutes que c'est le plus croquant."
@@ -1403,7 +1403,7 @@ window.initialRecipes = [
         "description": "Une pâte levée lourde et moelleuse, criblée de sucre perlé qui fond contre le fer en petites flaques de caramel. Manges-en une chaude, debout dans la cuisine. C'est la bonne façon.",
         "instructions": [
           "Délaie la levure dans le lait tiède avec une pincée de sucre et laisse reposer 5 minutes. Tiède, attention — un lait chaud tue la levure et alors il ne se passe rien du tout.",
-          "Mélange la farine et le sel, verse le lait à la levure et les œufs, et travaille jusqu'à obtenir une pâte collante. Elle doit coller ; résiste à l'envie d'ajouter de la farine.",
+          "Mélange la farine et le sel, verse le lait à la levure et les œufs, et travaille jusqu'à obtenir une pâte collante. Elle doit coller; résiste à l'envie d'ajouter de la farine.",
           "Le beurre mou maintenant, morceau par morceau, en pétrissant jusqu'à ce que chacun disparaisse avant le suivant. Couvre et laisse lever 30 minutes, jusqu'à ce qu'elle gonfle.",
           "Incorpore le sucre perlé à la main, délicatement. Si tu pétris fort, le sucre se dissout, et un sucre dissous ne caramélisera plus.",
           "Divise la pâte en petites boules égales et laisse-les reposer 10 minutes sous un linge.",
@@ -1637,8 +1637,8 @@ window.initialRecipes = [
         "subtitle": "Chicken, rice and greens, all in one dish",
         "description": "Chicken baked in its own sweet-salty teriyaki, then pulled apart and tossed back through with rice and vegetables. It goes in the oven twice and comes out as the sort of thing you eat straight from the dish.",
         "instructions": [
-          "Get the oven going at 350° F and give a 9x13-inch dish a good spray, right into the corners — teriyaki catches there and sticks like glue.",
-          "Into a small pan go the soy sauce, ½ cup water, brown sugar, ginger and garlic. Lid on, bring it to the boil over medium heat, then take the lid off and let it cook one minute more.",
+          "Get the oven going at 180 °C and give a 23x33 cm dish a good spray, right into the corners — teriyaki catches there and sticks like glue.",
+          "Into a small pan go the soy sauce, 120 ml water, brown sugar, ginger and garlic. Lid on, bring it to the boil over medium heat, then take the lid off and let it cook one minute more.",
           "While that happens, stir the corn starch into 2 tablespoons of water in a separate dish until there isn't a lump left — lumps now mean lumps for ever. Tip it into the boiling sauce, stir, and cook only until it thickens. Then off the heat.",
           "Lay the chicken breasts in the dish and pour one cup of the sauce over them. Bake for 35 minutes, until they're cooked right through, then pull the chicken apart in the dish with two forks. Do it in the dish; the juices are half the point.",
           "Meanwhile steam or cook the vegetables however the packet tells you.",
@@ -1650,8 +1650,8 @@ window.initialRecipes = [
         "subtitle": "Kip, rijst en groenten, alles in één schotel",
         "description": "Kip gebakken in zijn eigen zoetzoute teriyaki, daarna uit elkaar getrokken en er weer doorgeschept met rijst en groenten. Hij gaat twee keer de oven in en komt eruit als het soort schotel waar je zo uit eet.",
         "instructions": [
-          "Zet de oven aan op 350 ° F en spuit een bakvorm van 9x13-inch goed in, tot in de hoeken — daar kruipt de teriyaki en daar plakt ze als lijm.",
-          "In een klein pannetje gaan de sojasaus, ½ kopje water, bruine suiker, gember en knoflook. Deksel erop, aan de kook brengen op middelhoog vuur, dan het deksel eraf en nog één minuut laten koken.",
+          "Zet de oven aan op 180 °C en spuit een bakvorm van 23x33 cm goed in, tot in de hoeken — daar kruipt de teriyaki en daar plakt ze als lijm.",
+          "In een klein pannetje gaan de sojasaus, 120 ml water, bruine suiker, gember en knoflook. Deksel erop, aan de kook brengen op middelhoog vuur, dan het deksel eraf en nog één minuut laten koken.",
           "Roer ondertussen het maïszetmeel met 2 eetlepels water glad in een apart schaaltje tot er geen klontje meer in zit — klontjes nu zijn klontjes voor altijd. Giet het bij de kokende saus, roer, en kook net tot ze indikt. Dan van het vuur af.",
           "Leg de kipfilets in de schaal en giet er een kopje saus over. Bak 35 minuten, tot ze helemaal gaar zijn, en trek de kip dan met twee vorken uit elkaar in de schaal zelf. In de schaal, ja; dat vocht is het halve verhaal.",
           "Stoom of kook ondertussen de groenten zoals het op de verpakking staat.",
@@ -1663,10 +1663,10 @@ window.initialRecipes = [
         "subtitle": "Poulet, riz et légumes, tout dans un plat",
         "description": "Du poulet cuit dans son propre teriyaki sucré-salé, puis effiloché et remélangé avec du riz et des légumes. Il passe deux fois au four et en ressort comme le genre de plat qu'on mange directement dedans.",
         "instructions": [
-          "Mets le four à 350° F et vaporise bien un plat de 9 x 13 pouces, jusque dans les coins — c'est là que le teriyaki se glisse et colle comme de la glu.",
-          "Dans une petite casserole : la sauce soja, ½ tasse d'eau, la cassonade, le gingembre et l'ail. Couvre, porte à ébullition à feu moyen, puis retire le couvercle et laisse cuire une minute de plus.",
+          "Mets le four à 180 °C et vaporise bien un plat de 23x33 cm, jusque dans les coins — c'est là que le teriyaki se glisse et colle comme de la glu.",
+          "Dans une petite casserole : la sauce soja, 120 ml d'eau, la cassonade, le gingembre et l'ail. Couvre, porte à ébullition à feu moyen, puis retire le couvercle et laisse cuire une minute de plus.",
           "Pendant ce temps, délaie la fécule de maïs dans 2 cuillères à soupe d'eau à part jusqu'à ce qu'il ne reste plus un grumeau — un grumeau maintenant est un grumeau pour toujours. Verse dans la sauce bouillante, mélange, et cuis juste jusqu'à épaississement. Puis hors du feu.",
-          "Dépose les blancs de poulet dans le plat et verse une tasse de sauce dessus. Enfourne 35 minutes, jusqu'à cuisson complète, puis effiloche le poulet à deux fourchettes dans le plat même. Dans le plat, oui ; ce jus fait la moitié du travail.",
+          "Dépose les blancs de poulet dans le plat et verse une tasse de sauce dessus. Enfourne 35 minutes, jusqu'à cuisson complète, puis effiloche le poulet à deux fourchettes dans le plat même. Dans le plat, oui; ce jus fait la moitié du travail.",
           "Pendant ce temps, cuis les légumes à la vapeur ou à l'eau selon les indications du paquet.",
           "Ajoute les légumes et le riz au poulet, puis la plus grande partie du reste de sauce — garde-en un peu pour la table. Mélange délicatement, remets au four 15 minutes, puis laisse reposer 5 minutes avant de servir. Arrose chaque assiette du reste de sauce."
         ]
@@ -1840,7 +1840,7 @@ window.initialRecipes = [
           "Fais fondre l'oignon jaune dans une grande poêle avec assez d'huile d'olive pour couvrir le fond, à feu moyen-doux, jusqu'à ce qu'il soit tendre et translucide. Prends ton temps ici — un oignon pressé reste piquant. Sale et poivre.",
           "L'ail ensuite, et juste jusqu'à ce que tu le sentes. L'ail passe du sucré à l'amer en une vingtaine de secondes.",
           "Encore une cuillère à soupe d'huile d'olive, puis la courgette, l'aubergine et les herbes italiennes. Continue à remuer jusqu'à ce que les deux s'affaissent et deviennent molles — cet affaissement, c'est exactement ce que tu cherches, alors ne t'arrête pas trop tôt.",
-          "Les artichauts et les tomates maintenant, avec encore du sel et du poivre. Laisse mijoter dix à quinze minutes. Goûte alors, et rectifie si besoin ; c'est presque toujours le cas.",
+          "Les artichauts et les tomates maintenant, avec encore du sel et du poivre. Laisse mijoter dix à quinze minutes. Goûte alors, et rectifie si besoin; c'est presque toujours le cas.",
           "Pendant ce temps, cuis les spaghettis al dente selon le paquet.",
           "Mélange les pâtes aux légumes et termine à table par un filet de bonne huile d'olive et du parmesan."
         ]
@@ -2220,7 +2220,7 @@ window.initialRecipes = [
         "description": "Pork chops rubbed with garam masala and left overnight, grilled hard, then cooled down with minted yoghurt and served on couscous. The waiting is not optional — that is where all the flavour comes from.",
         "instructions": [
           "Trim the fat off the pork chops, leaving a thin rim, and rub the garam masala hard into both sides. Use your fingers, not a spoon; it needs pressing in.",
-          "Put them on a plate, cover them, and into the fridge for 6-8 hours so the spice can get right through. Chop the mint into the yoghurt and refrigerate that for just as long. When you're ready: heat the broiler, spray the rack, and cook the chops about 5 minutes each side. On a grill instead, mark them over direct heat, move them to the cooler side, cover loosely with foil and cook until the inside reaches 145F.",
+          "Put them on a plate, cover them, and into the fridge for 6-8 hours so the spice can get right through. Chop the mint into the yoghurt and refrigerate that for just as long. When you're ready: heat the broiler, spray the rack, and cook the chops about 5 minutes each side. On a grill instead, mark them over direct heat, move them to the cooler side, cover loosely with foil and cook until the inside reaches 65 °C.",
           "Off the heat and let them rest 3 minutes. Cut into them too soon and all that juice ends up on the board.",
           "Serve with the minted yoghurt. Garam masala is sold in specialty shops and most larger supermarkets. For the couscous: bring the broth, raisins, olive oil, cumin, cayenne and salt to the boil in a medium pan. Stir in the couscous, let it come back to the boil, cover and take it straight off the heat. Leave it 5 minutes without lifting the lid. Squeeze in the lemon and fork it through with the sesame seeds.",
           "Bring it to the table."
@@ -2232,7 +2232,7 @@ window.initialRecipes = [
         "description": "Varkenskarbonades ingewreven met garam masala en een nacht laten staan, hard gegrild, en dan gekalmeerd met muntyoghurt op couscous. Dat wachten is niet vrijblijvend — daar komt alle smaak vandaan.",
         "instructions": [
           "Snijd het overtollige vet van de karbonades, laat een dun randje staan, en wrijf de garam masala stevig in beide kanten. Met je vingers, niet met een lepel; het moet erin geduwd worden.",
-          "Leg ze op een bord, dek af en 6-8 uur de koelkast in zodat de specerijen erdoor trekken. Hak de munt door de yoghurt en zet die er even lang bij. Als het zover is: verwarm de grill voor, spuit het rek in en rooster de karbonades ongeveer 5 minuten per kant. Op de barbecue mag je ze op directe hitte mooi markeren, dan naar de koelere kant schuiven, losjes met folie afdekken en garen tot ze vanbinnen 145F halen.",
+          "Leg ze op een bord, dek af en 6-8 uur de koelkast in zodat de specerijen erdoor trekken. Hak de munt door de yoghurt en zet die er even lang bij. Als het zover is: verwarm de grill voor, spuit het rek in en rooster de karbonades ongeveer 5 minuten per kant. Op de barbecue mag je ze op directe hitte mooi markeren, dan naar de koelere kant schuiven, losjes met folie afdekken en garen tot ze vanbinnen 65 °C halen.",
           "Van het vuur af en 3 minuten laten rusten. Snijd je er te vroeg in, dan ligt al dat vocht op je plank.",
           "Serveer met de muntyoghurt. Garam masala vind je in speciaalzaken en in de meeste grotere supermarkten. Voor de couscous: breng de bouillon, rozijnen, olijfolie, komijn, cayennepeper en zout aan de kook in een middelgrote pan. Roer de couscous erdoor, laat het opnieuw opkoken, dek af en haal meteen van het vuur. Laat 5 minuten staan zonder het deksel op te tillen. Pers de citroen erover en roer los met een vork, samen met de sesamzaadjes.",
           "En op tafel ermee."
@@ -2243,8 +2243,8 @@ window.initialRecipes = [
         "subtitle": "Des côtelettes qui se préviennent la veille",
         "description": "Des côtelettes de porc frottées au garam masala et laissées une nuit, grillées vivement, puis apaisées par un yaourt à la menthe et servies sur du couscous. L'attente n'est pas facultative — c'est de là que vient tout le goût.",
         "instructions": [
-          "Débarrasse les côtelettes de l'excès de gras en laissant un fin liseré, et frotte fermement le garam masala des deux côtés. Avec les doigts, pas avec une cuillère ; il faut l'y enfoncer.",
-          "Pose-les sur une assiette, couvre et au frigo pour 6 à 8 heures, le temps que les épices traversent. Hache la menthe dans le yaourt et réfrigère-le aussi longtemps. Le moment venu : préchauffe le gril, vaporise la grille et cuis les côtelettes environ 5 minutes de chaque côté. Au barbecue, marque-les à feu direct, déplace-les vers la zone douce, couvre lâchement de papier d'aluminium et cuis jusqu'à ce que le cœur atteigne 145F.",
+          "Débarrasse les côtelettes de l'excès de gras en laissant un fin liseré, et frotte fermement le garam masala des deux côtés. Avec les doigts, pas avec une cuillère; il faut l'y enfoncer.",
+          "Pose-les sur une assiette, couvre et au frigo pour 6 à 8 heures, le temps que les épices traversent. Hache la menthe dans le yaourt et réfrigère-le aussi longtemps. Le moment venu : préchauffe le gril, vaporise la grille et cuis les côtelettes environ 5 minutes de chaque côté. Au barbecue, marque-les à feu direct, déplace-les vers la zone douce, couvre lâchement de papier d'aluminium et cuis jusqu'à ce que le cœur atteigne 65 °C.",
           "Hors du feu, et laisse reposer 3 minutes. Si tu les coupes trop tôt, tout ce jus finit sur la planche.",
           "Sers avec le yaourt à la menthe. Le garam masala se trouve en épicerie spécialisée et dans la plupart des grandes surfaces. Pour le couscous : porte à ébullition le bouillon, les raisins secs, l'huile d'olive, le cumin, le poivre de Cayenne et le sel dans une casserole moyenne. Incorpore le couscous, laisse revenir à ébullition, couvre et retire aussitôt du feu. Laisse 5 minutes sans soulever le couvercle. Presse le citron dessus et égrène à la fourchette avec les graines de sésame.",
           "Et à table."
@@ -2438,7 +2438,7 @@ window.initialRecipes = [
         "subtitle": "Brownies with cheesecake marbled through",
         "description": "A dense chocolate brownie with a ribbon of Baileys cheesecake swirled into the top before baking. It cuts into sixteen small squares, and small is right — this is very rich.",
         "instructions": [
-          "Blitz the cream cheese, sugar, egg yolk and Baileys in a food processor until perfectly smooth, and set it aside. For the brownie: heat the oven to 350 degrees and grease an 8-by-8-inch tin. Line it both ways with two 7-by-12-inch sheets of parchment or foil, shiny side up, letting the ends hang over — those are your handles for lifting the whole slab out later.",
+          "Blitz the cream cheese, sugar, egg yolk and Baileys in a food processor until perfectly smooth, and set it aside. For the brownie: heat the oven to 180 °C and grease a 20x20 cm tin. Line it both ways with two 18x30 cm sheets of parchment or foil, shiny side up, letting the ends hang over — those are your handles for lifting the whole slab out later.",
           "Melt the chocolate in a small heatproof bowl set in a pan of hot water, about 5 minutes, stirring 4 to 5 times until it's smooth. In another bowl whisk the flour, cocoa, baking powder and salt together. Beat the butter and sugar on low until well blended, then the eggs one at a time, scraping the bowl down as you go. Beat in the vanilla. Now add the dry mix and the melted chocolate in alternating additions, and fold in the walnuts by hand. Stop the moment it comes together — beating a brownie batter makes it cakey. Scrape it into the tin and level it off.",
           "Drop big spoonfuls of the cheesecake mixture over the chocolate and drag a butter knife through to marble it, without stirring the two into one.",
           "Go back over it with a second round of spoonfuls and another few passes of the knife, so the marbling reaches the corners as well as the middle.",
@@ -2450,7 +2450,7 @@ window.initialRecipes = [
         "subtitle": "Brownies met cheesecake erdoor gemarmerd",
         "description": "Een stevige chocoladebrownie met een lint Baileys-cheesecake erdoor gedraaid vlak voor het bakken. Ze gaat in zestien kleine blokjes, en klein is juist — dit is bijzonder rijk.",
         "instructions": [
-          "Draai de roomkaas, suiker, eigeel en Baileys in de keukenmachine tot een volkomen gladde massa en zet apart. Voor de brownie: verwarm de oven op 350 graden en vet een vorm van 8 bij 8 inch in. Bekleed hem in beide richtingen met twee vellen bakpapier of folie van 7 bij 12 inch, glanzende kant boven, en laat de uiteinden overhangen — dat zijn straks je handvatten om het hele blok eruit te tillen.",
+          "Draai de roomkaas, suiker, eigeel en Baileys in de keukenmachine tot een volkomen gladde massa en zet apart. Voor de brownie: verwarm de oven op 180 °C en vet een vorm van 20x20 cm in. Bekleed hem in beide richtingen met twee vellen bakpapier of folie van 18x30 cm, glanzende kant boven, en laat de uiteinden overhangen — dat zijn straks je handvatten om het hele blok eruit te tillen.",
           "Smelt de chocolade in een kleine hittebestendige kom boven een pan heet water, zo'n 5 minuten, en roer 4 tot 5 keer tot ze glad is. Klop in een andere kom de bloem, cacao, bakpoeder en zout samen. Klop boter en suiker op lage snelheid tot ze goed gemengd zijn, dan de eieren één voor één, en schraap ondertussen de kom uit. Klop de vanille erdoor. Voeg nu afwisselend het droge mengsel en de gesmolten chocolade toe, en spatel de walnoten er met de hand door. Stop op het moment dat het net samenkomt — een brownie die je doorklopt wordt cake. Schep het beslag in de vorm en strijk het glad.",
           "Schep grote lepels van het cheesecakemengsel op de chocolade en trek er met een botermes doorheen om te marmeren, zonder de twee tot één te roeren.",
           "Ga er nog eens over met een tweede ronde lepels en een paar halen van het mes, zodat de marmering ook de hoeken haalt en niet alleen het midden.",
@@ -2462,7 +2462,7 @@ window.initialRecipes = [
         "subtitle": "Des brownies marbrés de cheesecake",
         "description": "Un brownie au chocolat bien dense avec un ruban de cheesecake au Baileys tourbillonné dessus avant cuisson. Il se coupe en seize petits carrés, et petits, c'est le bon format — c'est très riche.",
         "instructions": [
-          "Mixe le fromage à la crème, le sucre, le jaune d'œuf et le Baileys au robot jusqu'à consistance parfaitement lisse, et réserve. Pour le brownie : chauffe le four à 350 degrés et graisse un moule de 8 x 8 pouces. Tapisse-le dans les deux sens avec deux feuilles de papier cuisson ou d'aluminium de 7 x 12 pouces, côté brillant vers le haut, en laissant dépasser les bords — ce seront tes poignées pour soulever le bloc entier tout à l'heure.",
+          "Mixe le fromage à la crème, le sucre, le jaune d'œuf et le Baileys au robot jusqu'à consistance parfaitement lisse, et réserve. Pour le brownie : chauffe le four à 180 °C et graisse un moule de 20x20 cm. Tapisse-le dans les deux sens avec deux feuilles de papier cuisson ou d'aluminium de 18x30 cm, côté brillant vers le haut, en laissant dépasser les bords — ce seront tes poignées pour soulever le bloc entier tout à l'heure.",
           "Fais fondre le chocolat dans un petit bol résistant à la chaleur posé dans une casserole d'eau chaude, environ 5 minutes, en remuant 4 à 5 fois jusqu'à ce qu'il soit lisse. Dans un autre bol, fouette la farine, le cacao, la levure et le sel. Bats le beurre et le sucre à basse vitesse jusqu'à bon mélange, puis les œufs un à un en raclant les parois. Incorpore la vanille. Ajoute maintenant en alternance le mélange sec et le chocolat fondu, et incorpore les noix à la main. Arrête dès que ça vient — une pâte à brownie trop battue devient du gâteau. Verse dans le moule et lisse.",
           "Dépose de grosses cuillerées de l'appareil à cheesecake sur le chocolat et tire un couteau à beurre au travers pour marbrer, sans mélanger les deux en un seul.",
           "Repasse avec une deuxième série de cuillerées et quelques passages de couteau, pour que le marbré atteigne aussi les coins et pas seulement le centre.",
@@ -2669,7 +2669,7 @@ window.initialRecipes = [
         "subtitle": "Strawberries, biscuit and no dairy at all",
         "description": "Soft little shortcakes split and filled with cold strawberries and whipped topping. There's no butter, milk or egg anywhere in it, which nobody notices once the strawberries are in.",
         "instructions": [
-          "Heat your oven to 400 degrees F.",
+          "Heat your oven to 200 °C.",
           "Slice the strawberries into a glass bowl and put them in the fridge. Cold strawberries against warm cake is the whole trick.",
           "Mix the flours, baking soda and salt together in a medium bowl until evenly combined.",
           "In a small bowl, stir 1 teaspoon water into the sugar, just enough to start it dissolving.",
@@ -2691,7 +2691,7 @@ window.initialRecipes = [
         "subtitle": "Aardbeien, koekje en geen spoor van zuivel",
         "description": "Zachte kleine shortcakes doormidden gesneden en gevuld met koude aardbeien en opgeklopte topping. Er zit nergens boter, melk of ei in, en dat merkt niemand zodra de aardbeien erop liggen.",
         "instructions": [
-          "Verwarm je oven voor op 400 graden F.",
+          "Verwarm je oven voor op 200 °C.",
           "Snijd de aardbeien in een glazen kom en zet ze in de koelkast. Koude aardbeien tegen warm gebak, dat is de hele truc.",
           "Meng de bloem, het bakpoeder en het zout in een middelgrote kom tot alles gelijkmatig verdeeld is.",
           "Roer in een klein kommetje 1 theelepel water door de suiker, net genoeg om ze te laten oplossen.",
@@ -2713,7 +2713,7 @@ window.initialRecipes = [
         "subtitle": "Fraises, biscuit, et pas une trace de lait",
         "description": "De petits shortcakes tendres fendus et garnis de fraises froides et de crème fouettée végétale. Il n'y a ni beurre, ni lait, ni œuf nulle part, et personne ne s'en aperçoit une fois les fraises posées.",
         "instructions": [
-          "Chauffe ton four à 400 degrés F.",
+          "Chauffe ton four à 200 °C.",
           "Tranche les fraises dans un bol en verre et mets-les au frigo. Des fraises froides contre un biscuit tiède, c'est toute l'astuce.",
           "Mélange les farines, le bicarbonate et le sel dans un bol moyen jusqu'à répartition homogène.",
           "Dans un petit bol, mélange 1 cuillère à café d'eau au sucre, juste assez pour commencer à le dissoudre.",
@@ -3004,7 +3004,7 @@ window.initialRecipes = [
           "Season with salt and pepper, lay the lemon slices along the steak, then the onion slices over those.",
           "Stir the ketchup, Worcestershire and water together in a cup.",
           "Pour it over the steak, letting it run down into the pan.",
-          "Bake at 425 degrees for 30 to 45 minutes, depending how well done you like it. Thirty for pink in the middle, forty-five for none."
+          "Bake at 220 °C for 30 to 45 minutes, depending how well done you like it. Thirty for pink in the middle, forty-five for none."
         ]
       },
       "nl": {
@@ -3017,7 +3017,7 @@ window.initialRecipes = [
           "Kruid met peper en zout, leg de schijfjes citroen op de biefstuk en daar de plakjes ui bovenop.",
           "Roer de ketchup, worcestershire en het water samen in een kopje.",
           "Giet het over de biefstuk en laat het in de pan lopen.",
-          "Bak op 425 graden gedurende 30 tot 45 minuten, afhankelijk van hoe gaar je hem wil. Dertig voor rosé, vijfenveertig voor helemaal door."
+          "Bak op 220 °C gedurende 30 tot 45 minuten, afhankelijk van hoe gaar je hem wil. Dertig voor rosé, vijfenveertig voor helemaal door."
         ]
       },
       "fr": {
@@ -3030,7 +3030,7 @@ window.initialRecipes = [
           "Sale et poivre, dispose les rondelles de citron sur le steak, puis les rondelles d'oignon par-dessus.",
           "Mélange le ketchup, le worcestershire et l'eau dans un bol.",
           "Verse sur le steak en laissant couler dans le plat.",
-          "Cuis à 425 degrés pendant 30 à 45 minutes, selon la cuisson que tu aimes. Trente pour rosé, quarante-cinq pour à point."
+          "Cuis à 220 °C pendant 30 à 45 minutes, selon la cuisson que tu aimes. Trente pour rosé, quarante-cinq pour à point."
         ]
       }
     },
@@ -3532,9 +3532,9 @@ window.initialRecipes = [
         "instructions": [
           "Rub the chicken all over with the spice powders, garlic, lemon juice and a tsp of olive oil. Get right under the skin where you can — that's where it does the most good.",
           "Season with salt and pepper and leave it out at room temperature for at least half an hour. Cold chicken straight from the fridge cooks unevenly.",
-          "Heat the oven to 400F and grease an ovenproof pan.",
+          "Heat the oven to 200 °C and grease an ovenproof pan.",
           "Lay the drumsticks out in a single layer, not touching each other.",
-          "Bake hot for the first fifteen minutes, then drop the heat to 300F and give it another fifteen, until they're nearly done.",
+          "Bake hot for the first fifteen minutes, then drop the heat to 150 °C and give it another fifteen, until they're nearly done.",
           "Now turn on the broiler and slide the pan underneath. Let them colour on both sides, turning after about five minutes a side. Stay in the room for this part; the grill goes from golden to black while your back is turned.",
           "Serve with corn fried with garlic, chilli and green onions, and scatter fresh coriander and spring onion tops over everything."
         ]
@@ -3546,9 +3546,9 @@ window.initialRecipes = [
         "instructions": [
           "Wrijf de kip helemaal in met de kruidenpoeders, knoflook, citroensap en een theelepel olijfolie. Ga onder het vel waar je kan — daar doet het het meeste werk.",
           "Kruid met peper en zout en laat minstens een half uur op kamertemperatuur staan. Kip zo uit de koelkast gaart ongelijk.",
-          "Verwarm de oven tot 400F en vet een ovenvaste pan in.",
+          "Verwarm de oven tot 200 °C en vet een ovenvaste pan in.",
           "Leg de drumsticks in één laag, zonder dat ze elkaar raken.",
-          "Bak de eerste vijftien minuten heet, zet dan terug naar 300F en geef ze nog eens vijftien minuten, tot ze bijna gaar zijn.",
+          "Bak de eerste vijftien minuten heet, zet dan terug naar 150 °C en geef ze nog eens vijftien minuten, tot ze bijna gaar zijn.",
           "Zet nu de grill aan en schuif de pan eronder. Laat ze aan beide kanten kleuren en draai ze na ongeveer vijf minuten per kant. Blijf hierbij in de keuken; onder de grill gaat het van goudbruin naar zwart terwijl je even wegkijkt.",
           "Serveer met maïs gebakken met knoflook, chili en groene uien, en strooi verse koriander en lente-uitjes over alles."
         ]
@@ -3560,10 +3560,10 @@ window.initialRecipes = [
         "instructions": [
           "Frotte le poulet partout avec les poudres d'épices, l'ail, le jus de citron et une cuillère à café d'huile d'olive. Passe sous la peau là où tu peux — c'est là que ça travaille le mieux.",
           "Sale et poivre, et laisse à température ambiante au moins une demi-heure. Un poulet sorti tout droit du frigo cuit de façon inégale.",
-          "Chauffe le four à 400F et graisse un plat allant au four.",
+          "Chauffe le four à 200 °C et graisse un plat allant au four.",
           "Dispose les pilons en une seule couche, sans qu'ils se touchent.",
-          "Cuis à four chaud les quinze premières minutes, puis descends à 300F et donne-leur encore quinze minutes, jusqu'à ce qu'ils soient presque cuits.",
-          "Allume maintenant le gril et glisse le plat dessous. Laisse-les colorer des deux côtés en les retournant après environ cinq minutes par face. Reste dans la cuisine pour cette partie ; sous le gril, ça passe de doré à noir dès qu'on regarde ailleurs.",
+          "Cuis à four chaud les quinze premières minutes, puis descends à 150 °C et donne-leur encore quinze minutes, jusqu'à ce qu'ils soient presque cuits.",
+          "Allume maintenant le gril et glisse le plat dessous. Laisse-les colorer des deux côtés en les retournant après environ cinq minutes par face. Reste dans la cuisine pour cette partie; sous le gril, ça passe de doré à noir dès qu'on regarde ailleurs.",
           "Sers avec du maïs sauté à l'ail, au piment et aux oignons verts, et parsème le tout de coriandre fraîche et de tiges d'oignons nouveaux."
         ]
       }
@@ -3832,7 +3832,7 @@ window.initialRecipes = [
         "description": "Des côtelettes de porc saisies puis finies au four, avec une sauce de gousses d'ail entières mijotées au vin et à la crème jusqu'à être assez tendres pour être mixées lisses. L'ail perd toute son agressivité et devient sucré.",
         "instructions": [
           "Dans une petite casserole, fais fondre le beurre à feu moyen-doux et cuis les échalotes jusqu'à ce qu'elles soient tendres, environ 5 minutes.",
-          "Ajoute le vin, le thym et une généreuse cuillère à café de sel. Monte à feu moyen et laisse réduire jusqu'à 2 cuillères à soupe — ça paraît beaucoup trop peu, et c'est normal. Incorpore la crème épaisse, le babeurre et toutes les gousses d'ail, ramène à frémissement à peine perceptible et cuis, en remuant de temps en temps, jusqu'à ce que l'ail soit complètement tendre, 40 à 45 minutes. Des gousses entières cuites aussi longtemps deviennent sucrées ; presse-les et elles restent piquantes.",
+          "Ajoute le vin, le thym et une généreuse cuillère à café de sel. Monte à feu moyen et laisse réduire jusqu'à 2 cuillères à soupe — ça paraît beaucoup trop peu, et c'est normal. Incorpore la crème épaisse, le babeurre et toutes les gousses d'ail, ramène à frémissement à peine perceptible et cuis, en remuant de temps en temps, jusqu'à ce que l'ail soit complètement tendre, 40 à 45 minutes. Des gousses entières cuites aussi longtemps deviennent sucrées; presse-les et elles restent piquantes.",
           "Verse le mélange d'ail dans un blender et mixe jusqu'à consistance très lisse, environ 1 minute. Remets-le dans la casserole — il doit être assez épais pour napper le dos d'une cuillère en bois tout en restant versable. Couvre et garde au chaud. Chauffe le four à 375. Sale et poivre généreusement les côtelettes. Fais bien chauffer l'huile dans une grande poêle à feu moyen-vif, puis saisis les côtelettes 2 minutes de chaque côté.",
           "Du feu directement au four chaud. Donne-leur 3 minutes à 375, puis baisse à 300 pour encore 5. Elles sont prêtes quand elles sont élastiques au toucher et dorées à l'extérieur — appuie dessus plutôt que de les couper, le jus restera où il doit être."
         ]
@@ -4002,7 +4002,7 @@ window.initialRecipes = [
         "subtitle": "What to do with the last of the turkey",
         "description": "Turkey and vegetables in a thick, herby gravy, shut between two pie crusts and baked until the top is deep gold. It was invented for the days after a big meal, and it is better than the meal was.",
         "instructions": [
-          "Heat the oven to 425 degrees. Melt the butter in a medium pot and soften the celery and onion over medium heat for about 8 minutes. Stir in 2/3 cup flour, salt and pepper, celery seed, onion powder, garlic powder and Italian seasoning. Now whisk in the chicken broth and milk slowly, stirring the whole time, until it starts to thicken, then let it simmer gently until properly thick. Add the liquid slowly or you will be picking lumps out for the next ten minutes.",
+          "Heat the oven to 220 °C. Melt the butter in a medium pot and soften the celery and onion over medium heat for about 8 minutes. Stir in 85 g flour, salt and pepper, celery seed, onion powder, garlic powder and Italian seasoning. Now whisk in the chicken broth and milk slowly, stirring the whole time, until it starts to thicken, then let it simmer gently until properly thick. Add the liquid slowly or you will be picking lumps out for the next ten minutes.",
           "Take it off the heat and stir through the drained vegetables and the turkey. Fill two pie crusts with the mixture, lay another crust over each and pinch the edges together all the way round.",
           "Bake uncovered until the pies are golden brown, about 30 minutes. If the tops are colouring too fast, lay a sheet of foil over them and carry on. Let them cool about 10 minutes before you cut in — the filling is molten and needs that time to settle."
         ]
@@ -4012,7 +4012,7 @@ window.initialRecipes = [
         "subtitle": "Wat je met de laatste kalkoen doet",
         "description": "Kalkoen en groenten in een dikke, kruidige saus, ingesloten tussen twee taartbodems en gebakken tot de bovenkant diepgoud is. Het is bedacht voor de dagen ná een groot feestmaal, en het is lekkerder dan dat feestmaal was.",
         "instructions": [
-          "Verwarm de oven op 425 graden. Smelt de boter in een middelgrote pan en stoof de selderij en ui zacht op middelhoog vuur, ongeveer 8 minuten. Roer 2/3 kopje bloem, peper en zout, selderijzaad, uienpoeder, knoflookpoeder en Italiaanse kruiden erdoor. Klop nu langzaam de kippenbouillon en de melk erbij, de hele tijd roerend, tot het begint in te dikken, en laat het dan zachtjes sudderen tot het echt dik is. Giet het vocht traag erbij, anders sta je de volgende tien minuten klontjes uit te vissen.",
+          "Verwarm de oven op 220 °C. Smelt de boter in een middelgrote pan en stoof de selderij en ui zacht op middelhoog vuur, ongeveer 8 minuten. Roer 85 g bloem, peper en zout, selderijzaad, uienpoeder, knoflookpoeder en Italiaanse kruiden erdoor. Klop nu langzaam de kippenbouillon en de melk erbij, de hele tijd roerend, tot het begint in te dikken, en laat het dan zachtjes sudderen tot het echt dik is. Giet het vocht traag erbij, anders sta je de volgende tien minuten klontjes uit te vissen.",
           "Haal van het vuur en roer de uitgelekte groenten en de kalkoen erdoor. Vul twee taartbodems met het mengsel, leg er telkens een tweede bodem op en knijp de randen helemaal rond dicht.",
           "Bak onafgedekt tot de taarten goudbruin zijn, ongeveer 30 minuten. Kleurt de bovenkant te snel, leg er dan een vel folie op en bak verder. Laat ze ongeveer 10 minuten afkoelen voor je aansnijdt — de vulling is gloeiend en heeft die tijd nodig om te zakken."
         ]
@@ -4022,7 +4022,7 @@ window.initialRecipes = [
         "subtitle": "Que faire du reste de la dinde",
         "description": "De la dinde et des légumes dans une sauce épaisse et herbeuse, enfermées entre deux pâtes et cuites jusqu'à ce que le dessus soit bien doré. Ça a été inventé pour les jours d'après un grand repas, et c'est meilleur que le repas ne l'était.",
         "instructions": [
-          "Chauffe le four à 425 degrés. Fais fondre le beurre dans une casserole moyenne et attendris le céleri et l'oignon à feu moyen pendant environ 8 minutes. Incorpore 2/3 tasse de farine, le sel et le poivre, les graines de céleri, la poudre d'oignon, la poudre d'ail et l'assaisonnement italien. Verse maintenant lentement le bouillon de poulet et le lait en remuant sans arrêt, jusqu'à ce que ça commence à épaissir, puis laisse mijoter doucement jusqu'à bonne consistance. Ajoute le liquide lentement ou tu passeras les dix minutes suivantes à repêcher des grumeaux.",
+          "Chauffe le four à 220 °C. Fais fondre le beurre dans une casserole moyenne et attendris le céleri et l'oignon à feu moyen pendant environ 8 minutes. Incorpore 85 g de farine, le sel et le poivre, les graines de céleri, la poudre d'oignon, la poudre d'ail et l'assaisonnement italien. Verse maintenant lentement le bouillon de poulet et le lait en remuant sans arrêt, jusqu'à ce que ça commence à épaissir, puis laisse mijoter doucement jusqu'à bonne consistance. Ajoute le liquide lentement ou tu passeras les dix minutes suivantes à repêcher des grumeaux.",
           "Retire du feu et mélange les légumes égouttés et la dinde. Garnis deux fonds de tarte avec la préparation, pose une seconde pâte sur chacune et pince les bords tout autour.",
           "Cuis à découvert jusqu'à ce que les tourtes soient bien dorées, environ 30 minutes. Si le dessus colore trop vite, pose une feuille d'aluminium dessus et poursuis. Laisse refroidir environ 10 minutes avant de couper — la garniture est brûlante et a besoin de ce temps pour se poser."
         ]
@@ -4251,7 +4251,7 @@ window.initialRecipes = [
         "subtitle": "Peaches, tequila and a sugared rim",
         "description": "Ripe peaches blended into a margarita, poured into glasses rimmed with sugar you've scented with lime zest. Make the lime sugar first; it needs half an hour to itself.",
         "instructions": [
-          "Stir 1/2 teaspoon of finely minced lime zest into 1/4 cup granulated sugar and leave it about 30 minutes, giving it a stir now and then — that's the zest perfuming the sugar. For the rims: rub a lime wedge round the edge of each glass, then press the glass upside down into a plate of the lime sugar until the rim is coated. Plain white sugar does the job too if you'd rather not wait.",
+          "Stir 1/2 teaspoon of finely minced lime zest into 30 g granulated sugar and leave it about 30 minutes, giving it a stir now and then — that's the zest perfuming the sugar. For the rims: rub a lime wedge round the edge of each glass, then press the glass upside down into a plate of the lime sugar until the rim is coated. Plain white sugar does the job too if you'd rather not wait.",
           "Everything into the blender, and purée it.",
           "A little cold water will loosen it if it's too thick. Either chill all the ingredients beforehand, or add ice cubes to the finished margarita and stir until it's as cold as you want, then strain it into the glasses — or just serve it over the rocks and be done."
         ]
@@ -4261,7 +4261,7 @@ window.initialRecipes = [
         "subtitle": "Perziken, tequila en een suikerrandje",
         "description": "Rijpe perziken tot een margarita gedraaid, geschonken in glazen met een randje suiker dat je met limoenzeste hebt geparfumeerd. Maak die limoensuiker eerst; ze heeft een half uur voor zichzelf nodig.",
         "instructions": [
-          "Roer 1/2 theelepel fijngehakte limoenschil door 1/4 kopje kristalsuiker en laat het ongeveer 30 minuten staan, af en toe even roeren — dat is de zeste die de suiker parfumeert. Voor de randjes: wrijf met een schijfje limoen rond de rand van elk glas en druk het glas dan ondersteboven in een bordje limoensuiker tot de rand bedekt is. Gewone witte suiker doet het ook, als je liever niet wacht.",
+          "Roer 1/2 theelepel fijngehakte limoenschil door 30 g kristalsuiker en laat het ongeveer 30 minuten staan, af en toe even roeren — dat is de zeste die de suiker parfumeert. Voor de randjes: wrijf met een schijfje limoen rond de rand van elk glas en druk het glas dan ondersteboven in een bordje limoensuiker tot de rand bedekt is. Gewone witte suiker doet het ook, als je liever niet wacht.",
           "Alles in de blender, en pureren maar.",
           "Een beetje koud water maakt het losser als het te dik is. Koel ofwel alle ingrediënten vooraf, ofwel doe ijsblokjes bij de afgewerkte margarita en roer tot ze zo koud is als je wil, en zeef ze dan in de glazen — of schenk ze gewoon op het ijs en klaar."
         ]
@@ -4269,9 +4269,9 @@ window.initialRecipes = [
       "fr": {
         "title": "Margarita aux pêches fraîches avec sucre au citron vert",
         "subtitle": "Des pêches, de la tequila et un bord sucré",
-        "description": "Des pêches mûres mixées en margarita, versées dans des verres dont le bord est givré d'un sucre parfumé au zeste de citron vert. Fais ce sucre en premier ; il lui faut une demi-heure à lui seul.",
+        "description": "Des pêches mûres mixées en margarita, versées dans des verres dont le bord est givré d'un sucre parfumé au zeste de citron vert. Fais ce sucre en premier; il lui faut une demi-heure à lui seul.",
         "instructions": [
-          "Mélange 1/2 cuillère à café de zeste de citron vert finement haché à 1/4 tasse de sucre cristallisé et laisse reposer environ 30 minutes, en remuant de temps en temps — c'est le zeste qui parfume le sucre. Pour les bords : frotte un quartier de citron vert sur le bord de chaque verre, puis presse le verre à l'envers dans une assiette de sucre au citron vert jusqu'à ce que le bord soit givré. Du sucre blanc ordinaire fait l'affaire aussi si tu préfères ne pas attendre.",
+          "Mélange 1/2 cuillère à café de zeste de citron vert finement haché à 30 g de sucre cristallisé et laisse reposer environ 30 minutes, en remuant de temps en temps — c'est le zeste qui parfume le sucre. Pour les bords : frotte un quartier de citron vert sur le bord de chaque verre, puis presse le verre à l'envers dans une assiette de sucre au citron vert jusqu'à ce que le bord soit givré. Du sucre blanc ordinaire fait l'affaire aussi si tu préfères ne pas attendre.",
           "Verse tout dans le blender et réduis en purée.",
           "Un peu d'eau froide la détendra si elle est trop épaisse. Soit tu refroidis tous les ingrédients avant, soit tu ajoutes des glaçons à la margarita finie et tu remues jusqu'à ce qu'elle soit aussi froide que tu veux, puis tu la filtres dans les verres — ou tu la sers simplement sur glace et c'est réglé."
         ]
@@ -4405,7 +4405,7 @@ window.initialRecipes = [
         "subtitle": "Apples set in custard on an oat base",
         "description": "A crumbly oat and cinnamon crust, baked blind, then filled with apple wedges and a vanilla custard that sets around them in the oven. Somewhere between a pie and a baked pudding.",
         "instructions": [
-          "Heat the oven to 350 degrees. Put the oats, flour, cinnamon and brown sugar in a food processor and pulse a few times until the oats are ground. Tip that onto the butter in a bowl and mix until the dough is crumbly. Butter a pie plate and press the dough over the bottom and up the sides.",
+          "Heat the oven to 180 °C. Put the oats, flour, cinnamon and brown sugar in a food processor and pulse a few times until the oats are ground. Tip that onto the butter in a bowl and mix until the dough is crumbly. Butter a pie plate and press the dough over the bottom and up the sides.",
           "Bake the crust 15 minutes, until it's just going golden. For the filling, beat the eggs, sugar and vanilla together, then beat in the milk until smooth. Lay the apple wedges over the base and pour the filling in around them.",
           "Scatter the topping over and return it to the oven for another 30-40 minutes, until the filling has set. Give the plate a gentle shake — a set custard wobbles as one piece, a raw one ripples."
         ]
@@ -4415,7 +4415,7 @@ window.initialRecipes = [
         "subtitle": "Appels gestold in vla op een haverbodem",
         "description": "Een kruimelige bodem van haver en kaneel, blind gebakken, dan gevuld met appelpartjes en een vanillevla die er in de oven omheen stolt. Iets tussen een taart en een ovenpudding in.",
         "instructions": [
-          "Verwarm de oven op 350 graden. Doe de haver, bloem, kaneel en bruine suiker in een keukenmachine en pulseer een paar keer tot de haver gemalen is. Doe dat bij de boter in een kom en meng tot het deeg kruimelig is. Beboter een taartvorm en druk het deeg tegen de bodem en de zijkanten.",
+          "Verwarm de oven op 180 °C. Doe de haver, bloem, kaneel en bruine suiker in een keukenmachine en pulseer een paar keer tot de haver gemalen is. Doe dat bij de boter in een kom en meng tot het deeg kruimelig is. Beboter een taartvorm en druk het deeg tegen de bodem en de zijkanten.",
           "Bak de bodem 15 minuten, tot hij net goudbruin wordt. Klop voor de vulling de eieren, de suiker en de vanille samen, en klop er dan de melk door tot een gladde massa. Leg de appelpartjes op de bodem en giet de vulling eromheen.",
           "Strooi de topping erover en zet hem nog eens 30-40 minuten in de oven, tot de vulling gestold is. Schud zachtjes aan de vorm — een gestolde vla wiebelt als één geheel, een rauwe rimpelt."
         ]
@@ -4425,7 +4425,7 @@ window.initialRecipes = [
         "subtitle": "Des pommes prises dans un flan sur fond d'avoine",
         "description": "Un fond friable d'avoine et de cannelle, cuit à blanc, puis garni de quartiers de pommes et d'un flan à la vanille qui prend autour d'eux au four. Quelque part entre la tarte et le pouding cuit.",
         "instructions": [
-          "Chauffe le four à 350 degrés. Mets les flocons d'avoine, la farine, la cannelle et la cassonade dans un robot et donne quelques impulsions jusqu'à ce que l'avoine soit moulue. Verse sur le beurre dans un bol et mélange jusqu'à ce que la pâte soit friable. Beurre un moule à tarte et presse la pâte au fond et sur les côtés.",
+          "Chauffe le four à 180 °C. Mets les flocons d'avoine, la farine, la cannelle et la cassonade dans un robot et donne quelques impulsions jusqu'à ce que l'avoine soit moulue. Verse sur le beurre dans un bol et mélange jusqu'à ce que la pâte soit friable. Beurre un moule à tarte et presse la pâte au fond et sur les côtés.",
           "Cuis le fond 15 minutes, jusqu'à ce qu'il commence tout juste à dorer. Pour la garniture, bats les œufs, le sucre et la vanille, puis incorpore le lait jusqu'à consistance lisse. Dispose les quartiers de pommes sur le fond et verse la garniture autour.",
           "Parsème la garniture du dessus et remets au four encore 30 à 40 minutes, jusqu'à ce que l'appareil soit pris. Secoue doucement le moule — un flan pris tremble d'un seul bloc, un flan cru ondule."
         ]
@@ -4586,9 +4586,9 @@ window.initialRecipes = [
           "Add the ricotta, lemon juice, zest, rum, vanilla and almond extract.",
           "Mix until it's blended. In another bowl, sift the ground almonds, flour, baking powder and salt together.",
           "Whisk that into the ricotta mixture in 3 additions, so it stays light.",
-          "Pour the batter into a 10\" springform pan, buttered, with the bottom lined with parchment paper.",
-          "Bake in a preheated 350F oven for 45-50 minutes. It's done when a wooden skewer pushed into the centre comes out clean. For the topping, turn the oven up to 375 F.",
-          "Heat the milk and stir 2 tablespoons of sugar into it. Toss the almonds through so every flake is coated. In another bowl, blend the 3/4 cup ricotta, the egg, 1/4 cup sugar, the zest and the vanilla.",
+          "Pour the batter into a 25 cm springform pan, buttered, with the bottom lined with parchment paper.",
+          "Bake in a preheated 180 °C oven for 45-50 minutes. It's done when a wooden skewer pushed into the centre comes out clean. For the topping, turn the oven up to 190 °C.",
+          "Heat the milk and stir 2 tablespoons of sugar into it. Toss the almonds through so every flake is coated. In another bowl, blend the 180 ml ricotta, the egg, 30 g sugar, the zest and the vanilla.",
           "Spread that ricotta topping over the baked cake and scatter the almond slices on. Back into the oven for 15 minutes, until the almonds are golden brown.",
           "Out of the oven, and spread the glaze over the almonds. Let the cake cool before you release the tin. For the glaze: warm the apricot jam in the microwave or a small pan until it starts to go liquid, a minute or two, stirring so it doesn't catch. Strain it if there's much pulp in it.",
           "Brush it gently over the baked cake — gently, or you'll drag the almonds out of place."
@@ -4604,8 +4604,8 @@ window.initialRecipes = [
           "Meng tot alles opgenomen is. Zeef in een aparte kom de gemalen amandelen, de bloem, het bakpoeder en het zout samen.",
           "Klop dat in 3 keer door het ricottamengsel, zodat het luchtig blijft.",
           "Giet het beslag in een springvorm van 25 cm, beboterd en met de bodem bekleed met bakpapier.",
-          "Bak in een voorverwarmde oven van 350 F gedurende 45-50 minuten. Hij is gaar als een houten spies die je in het midden steekt er schoon uitkomt. Voor de topping zet je de oven hoger, naar 375 F.",
-          "Verwarm de melk en roer er 2 eetlepels suiker door. Schep de amandelen erdoor tot elk schilfertje bedekt is. Meng in een aparte kom de 3/4 kop ricotta, het ei, 1/4 kop suiker, de schil en de vanille.",
+          "Bak in een voorverwarmde oven van 180 °C gedurende 45-50 minuten. Hij is gaar als een houten spies die je in het midden steekt er schoon uitkomt. Voor de topping zet je de oven hoger, naar 190 °C.",
+          "Verwarm de melk en roer er 2 eetlepels suiker door. Schep de amandelen erdoor tot elk schilfertje bedekt is. Meng in een aparte kom de 180 ml ricotta, het ei, 30 g suiker, de schil en de vanille.",
           "Verdeel die ricottatopping over de gebakken cake en strooi de amandelschijfjes erover. Terug de oven in voor 15 minuten, tot de amandelen goudbruin zijn.",
           "Uit de oven, en strijk het glazuur over de amandelen. Laat de cake afkoelen voor je de vorm opent. Voor het glazuur: verwarm de abrikozenjam in de magnetron of een klein pannetje tot ze vloeibaar begint te worden, een minuut of twee, en roer zodat ze niet aanbrandt. Zeef ze als er veel vruchtvlees in zit.",
           "Bestrijk er de gebakken cake voorzichtig mee — voorzichtig, anders sleep je de amandelen uit hun plaats."
@@ -4620,9 +4620,9 @@ window.initialRecipes = [
           "Ajoute la ricotta, le jus de citron, le zeste, le rhum, la vanille et l'extrait d'amande.",
           "Mélange jusqu'à homogénéité. Dans un autre bol, tamise ensemble la poudre d'amandes, la farine, la levure chimique et le sel.",
           "Incorpore-la au mélange de ricotta en 3 fois, pour que ça reste léger.",
-          "Verse la pâte dans un moule à charnière de 10\" beurré et dont le fond est tapissé de papier sulfurisé.",
-          "Cuis au four préchauffé à 350 F pendant 45-50 minutes. C'est cuit quand une brochette en bois plantée au centre ressort propre. Pour la garniture, monte le four à 375 F.",
-          "Chauffe le lait et incorpore-y 2 cuillères à soupe de sucre. Mélange les amandes dedans pour que chaque lamelle soit enrobée. Dans un autre bol, mélange les 3/4 tasse de ricotta, l'œuf, 1/4 tasse de sucre, le zeste et la vanille.",
+          "Verse la pâte dans un moule à charnière de 25 cm beurré et dont le fond est tapissé de papier sulfurisé.",
+          "Cuis au four préchauffé à 180 °C pendant 45-50 minutes. C'est cuit quand une brochette en bois plantée au centre ressort propre. Pour la garniture, monte le four à 190 °C.",
+          "Chauffe le lait et incorpore-y 2 cuillères à soupe de sucre. Mélange les amandes dedans pour que chaque lamelle soit enrobée. Dans un autre bol, mélange les 180 ml de ricotta, l'œuf, 30 g de sucre, le zeste et la vanille.",
           "Étale cette garniture à la ricotta sur le gâteau cuit et parsème les lamelles d'amandes. Retour au four pour 15 minutes, jusqu'à ce que les amandes soient bien dorées.",
           "Sors du four et étale le glaçage sur les amandes. Laisse le gâteau refroidir avant d'ouvrir le moule. Pour le glaçage : chauffe la confiture d'abricots au micro-ondes ou dans une petite casserole jusqu'à ce qu'elle commence à se liquéfier, une minute ou deux, en remuant pour qu'elle n'attache pas. Filtre-la s'il y a beaucoup de pulpe.",
           "Badigeonne-en délicatement le gâteau cuit — délicatement, sinon tu déplaces les amandes."
@@ -4864,8 +4864,8 @@ window.initialRecipes = [
         "subtitle": "Figs and rosemary baked under the cake",
         "description": "Figs laid cut-side up in butter and brown sugar with walnuts and rosemary, then batter poured over and the whole thing turned out upside down. The rosemary is what stops it being merely sweet.",
         "instructions": [
-          "Put a rack in the middle of the oven and heat it to 350 degrees.",
-          "Put the butter in a 9 inch round baking pan and set it in the warm oven until melted, about 5 minutes.",
+          "Put a rack in the middle of the oven and heat it to 180 °C.",
+          "Put the butter in a 23 cm round baking pan and set it in the warm oven until melted, about 5 minutes.",
           "Take it out and scatter the brown sugar evenly over the butter.",
           "Lay the figs in, flesh side up. This is the side that will be facing you at the end, so arrange them as you'd like to see them.",
           "Sprinkle over 1 tsp of the rosemary.",
@@ -4888,7 +4888,7 @@ window.initialRecipes = [
         "subtitle": "Vijgen en rozemarijn onder de cake gebakken",
         "description": "Vijgen met de snijkant naar boven in boter en bruine suiker gelegd, met walnoten en rozemarijn, dan beslag eroverheen en het geheel ondersteboven gestort. Die rozemarijn is wat het van louter zoet redt.",
         "instructions": [
-          "Zet een rooster in het midden van de oven en verwarm hem op 350 graden.",
+          "Zet een rooster in het midden van de oven en verwarm hem op 180 °C.",
           "Doe de boter in een ronde bakvorm van 23 cm en zet die in de warme oven tot ze gesmolten is, ongeveer 5 minuten.",
           "Haal hem eruit en strooi de bruine suiker gelijkmatig over de boter.",
           "Leg de vijgen erin, met het vruchtvlees naar boven. Dit is de kant die je straks te zien krijgt, dus schik ze zoals je ze wil zien.",
@@ -4912,8 +4912,8 @@ window.initialRecipes = [
         "subtitle": "Des figues et du romarin cuits sous le gâteau",
         "description": "Des figues posées face coupée vers le haut dans du beurre et de la cassonade, avec des noix et du romarin, puis la pâte versée dessus et le tout renversé. C'est le romarin qui l'empêche d'être seulement sucré.",
         "instructions": [
-          "Place une grille au centre du four et préchauffe à 350 degrés.",
-          "Mets le beurre dans un moule rond de 9 pouces et pose-le dans le four chaud jusqu'à ce qu'il fonde, environ 5 minutes.",
+          "Place une grille au centre du four et préchauffe à 180 °C.",
+          "Mets le beurre dans un moule rond de 23 cm et pose-le dans le four chaud jusqu'à ce qu'il fonde, environ 5 minutes.",
           "Sors-le et saupoudre la cassonade uniformément sur le beurre.",
           "Dispose les figues, côté chair vers le haut. C'est la face que tu verras à la fin, alors range-les comme tu veux les voir.",
           "Saupoudre d'1 cuillère à café de romarin.",
@@ -5335,7 +5335,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Plat principal d'artichauts farcis",
         "subtitle": "Un artichaut évidé et farci",
-        "description": "Un artichaut entier bouilli, nettoyé et bourré de poulet, de pomme de terre et de mozzarella, puis passé au four. Retirer le foin est la partie délicate ; tout le reste est facile.",
+        "description": "Un artichaut entier bouilli, nettoyé et bourré de poulet, de pomme de terre et de mozzarella, puis passé au four. Retirer le foin est la partie délicate; tout le reste est facile.",
         "instructions": [
           "Écarte les feuilles centrales de l'artichaut pour l'ouvrir.",
           "Coupe jusqu'au centre pour pouvoir atteindre le foin piquant.",
@@ -5842,9 +5842,9 @@ window.initialRecipes = [
         "subtitle": "Baked apples under a crumbly lid",
         "description": "Apples baked with pomegranate until they soften, then finished under an oat crumble. The apples go in on their own first, which is what stops the topping turning to mush.",
         "instructions": [
-          "Heat the oven to 425 degrees.",
+          "Heat the oven to 220 °C.",
           "Mix all the baked apple ingredients in a large bowl until the apples are well coated.",
-          "Spread them evenly in a 9 x 9\" pan or a 7 x 12\" glass pan.",
+          "Spread them evenly in a 23x23 cm pan or a 18x30 cm glass pan.",
           "Into the oven, uncovered, for 10 minutes.",
           "While the apples bake, mix the topping. Use the same big bowl you just emptied the apples out of — there's no sense washing it twice.",
           "Throw all the topping ingredients into the bowl and stir until everything is evenly coated.",
@@ -5857,9 +5857,9 @@ window.initialRecipes = [
         "subtitle": "Gebakken appels onder een kruimelig dekseltje",
         "description": "Appels met granaatappel gebakken tot ze zacht zijn, en dan afgewerkt onder een haverkruimel. De appels gaan eerst alleen de oven in, en dat is net wat de topping voor papperigheid behoedt.",
         "instructions": [
-          "Verwarm de oven op 425 graden.",
+          "Verwarm de oven op 220 °C.",
           "Meng alle ingrediënten voor de gebakken appels in een grote kom tot de appels goed bedekt zijn.",
-          "Verdeel ze gelijkmatig in een vorm van 9 x 9\" of een glazen vorm van 7 x 12\".",
+          "Verdeel ze gelijkmatig in een vorm van 23x23 cm of een glazen vorm van 18x30 cm.",
           "De oven in, onafgedekt, voor 10 minuten.",
           "Meng de topping terwijl de appels bakken. Gebruik dezelfde grote kom waar je net de appels uit hebt gehaald — die twee keer afwassen heeft geen zin.",
           "Gooi alle ingrediënten voor de topping in de kom en roer tot alles gelijkmatig bedekt is.",
@@ -5872,9 +5872,9 @@ window.initialRecipes = [
         "subtitle": "Des pommes cuites sous un couvercle friable",
         "description": "Des pommes cuites avec de la grenade jusqu'à ce qu'elles s'attendrissent, puis terminées sous un crumble d'avoine. Les pommes passent d'abord seules au four, et c'est ce qui empêche la garniture de se transformer en bouillie.",
         "instructions": [
-          "Préchauffe le four à 425 degrés.",
+          "Préchauffe le four à 220 °C.",
           "Mélange tous les ingrédients des pommes dans un grand bol jusqu'à ce que les pommes soient bien enrobées.",
-          "Répartis-les uniformément dans un moule de 9 x 9\" ou un moule en verre de 7 x 12\".",
+          "Répartis-les uniformément dans un moule de 23x23 cm ou un moule en verre de 18x30 cm.",
           "Au four, à découvert, pendant 10 minutes.",
           "Pendant que les pommes cuisent, mélange la garniture. Reprends le grand bol que tu viens de vider — inutile de le laver deux fois.",
           "Jette tous les ingrédients de la garniture dans le bol et remue jusqu'à ce que tout soit uniformément enrobé.",
@@ -6107,12 +6107,12 @@ window.initialRecipes = [
         "description": "Layered phyllo with walnuts, cinnamon and crisp bacon between the sheets, baked slowly and drowned in hot honey. It sounds like a dare and it works — the salt is what keeps it from being sickly.",
         "instructions": [
           "Put the walnuts, bacon, sugar and cinnamon into the large bowl of a food processor. Pulse until the walnuts and bacon are chopped, then set it aside. Fry the bacon to a properly crisp stage first — crisp bacon chops finely and evenly, soft bacon smears.",
-          "Cut the phyllo into 13\" by 9\" rectangles. In a greased 13\" by 9\" baking dish lay 1 phyllo sheet and brush it with melted butter. Repeat with phyllo and butter for 5 more layers, overlapping any small strips to make up a full rectangle where you need to.",
-          "Sprinkle 1 cup of the walnut mixture over the phyllo in the dish.",
+          "Cut the phyllo into 33x23 cm rectangles. In a greased 33x23 cm baking dish lay 1 phyllo sheet and brush it with melted butter. Repeat with phyllo and butter for 5 more layers, overlapping any small strips to make up a full rectangle where you need to.",
+          "Sprinkle 125 g of the walnut mixture over the phyllo in the dish.",
           "Repeat steps 2 and 3 to build 3 more layers, 4 layers in all.",
           "Lay the remaining phyllo over the last walnut layer and brush it with butter.",
           "With a sharp knife, cut only halfway down through the layers in a triangle or diamond pattern. Cutting now is what lets the honey get in later; cutting all the way through now would let the filling escape.",
-          "Bake in a 300 degree oven for 1 hour and 25 minutes, until the top is golden brown.",
+          "Bake in a 150 °C oven for 1 hour and 25 minutes, until the top is golden brown.",
           "In a small saucepan over medium-low heat, warm the honey until it's hot but not boiling. Spoon it evenly over the baklava while both are still hot — hot honey onto hot pastry is the whole trick, and it hisses when it's right.",
           "Cool the baklava in the dish on a wire rack at least 1 hour, then cover it with foil and leave it at room temperature until you serve it.",
           "To serve, finish the cuts with a sharp knife all the way through the layers, into triangles or diamonds."
@@ -6124,12 +6124,12 @@ window.initialRecipes = [
         "description": "Filodeeg in laagjes met walnoten, kaneel en krokant spek ertussen, traag gebakken en verdronken in hete honing. Het klinkt als een weddenschap en het werkt — dat zout is net wat het van mierzoet redt.",
         "instructions": [
           "Doe de walnoten, het spek, de suiker en de kaneel in de grote kom van de keukenmachine. Pulseer tot de walnoten en het spek gehakt zijn en zet apart. Bak het spek eerst echt krokant — krokant spek hakt fijn en gelijkmatig, zacht spek smeert.",
-          "Snijd het filodeeg in rechthoeken van 13 bij 9 inch. Leg in een ingevette ovenschaal van 13 bij 9 inch 1 vel filodeeg en bestrijk het met gesmolten boter. Herhaal met filodeeg en boter voor nog 5 lagen, en laat kleine reepjes overlappen waar je een volledige rechthoek nodig hebt.",
-          "Strooi 1 kop van het walnotenmengsel over het filodeeg in de schaal.",
+          "Snijd het filodeeg in rechthoeken van 33x23 cm. Leg in een ingevette ovenschaal van 33x23 cm 1 vel filodeeg en bestrijk het met gesmolten boter. Herhaal met filodeeg en boter voor nog 5 lagen, en laat kleine reepjes overlappen waar je een volledige rechthoek nodig hebt.",
+          "Strooi 125 g van het walnotenmengsel over het filodeeg in de schaal.",
           "Herhaal stap 2 en 3 om nog 3 lagen te bouwen, 4 lagen in totaal.",
           "Leg het resterende filodeeg over de laatste walnootlaag en bestrijk het met boter.",
           "Snijd met een scherp mes tot halverwege door de lagen, in een driehoek- of ruitpatroon. Nu insnijden is wat de honing er straks in laat; helemaal doorsnijden zou de vulling laten ontsnappen.",
-          "Bak in een oven van 300 graden gedurende 1 uur en 25 minuten, tot de bovenkant goudbruin is.",
+          "Bak in een oven van 150 °C gedurende 1 uur en 25 minuten, tot de bovenkant goudbruin is.",
           "Verwarm de honing in een klein pannetje op middelhoog vuur tot ze heet is maar niet kookt. Schep ze gelijkmatig over de baklava terwijl allebei nog heet zijn — hete honing op heet deeg is de hele truc, en het sist als het klopt.",
           "Laat de baklava in de schaal op een rooster minstens 1 uur afkoelen, dek dan af met folie en laat op kamertemperatuur staan tot je opdient.",
           "Om op te dienen snijd je met een scherp mes de sneden helemaal door de lagen af, tot driehoeken of ruiten."
@@ -6141,12 +6141,12 @@ window.initialRecipes = [
         "description": "Du phyllo en couches avec des noix, de la cannelle et du lard croustillant entre les feuilles, cuit lentement et noyé de miel chaud. Ça ressemble à un pari et ça fonctionne — c'est le sel qui l'empêche d'être écœurant.",
         "instructions": [
           "Mets les noix, le lard, le sucre et la cannelle dans le grand bol d'un robot. Pulse jusqu'à ce que les noix et le lard soient hachés, puis réserve. Fais d'abord frire le lard jusqu'à ce qu'il soit vraiment croustillant — un lard croustillant se hache finement et régulièrement, un lard mou s'écrase.",
-          "Coupe la pâte phyllo en rectangles de 13\" sur 9\". Dans un plat graissé de 13\" sur 9\", pose 1 feuille de phyllo et badigeonne-la de beurre fondu. Répète avec phyllo et beurre pour 5 couches de plus, en superposant les petites bandes là où il faut compléter un rectangle.",
-          "Saupoudre 1 tasse du mélange de noix sur le phyllo dans le plat.",
+          "Coupe la pâte phyllo en rectangles de 33x23 cm. Dans un plat graissé de 33x23 cm, pose 1 feuille de phyllo et badigeonne-la de beurre fondu. Répète avec phyllo et beurre pour 5 couches de plus, en superposant les petites bandes là où il faut compléter un rectangle.",
+          "Saupoudre 125 g du mélange de noix sur le phyllo dans le plat.",
           "Répète les étapes 2 et 3 pour construire 3 couches supplémentaires, 4 couches en tout.",
           "Pose le reste du phyllo sur la dernière couche de noix et badigeonne de beurre.",
-          "Avec un couteau bien aiguisé, coupe seulement à mi-hauteur des couches, en triangles ou en losanges. Entailler maintenant, c'est ce qui laissera le miel pénétrer ensuite ; couper de part en part laisserait la garniture s'échapper.",
-          "Cuis dans un four à 300 degrés pendant 1 heure et 25 minutes, jusqu'à ce que le dessus soit bien doré.",
+          "Avec un couteau bien aiguisé, coupe seulement à mi-hauteur des couches, en triangles ou en losanges. Entailler maintenant, c'est ce qui laissera le miel pénétrer ensuite; couper de part en part laisserait la garniture s'échapper.",
+          "Cuis dans un four à 150 °C pendant 1 heure et 25 minutes, jusqu'à ce que le dessus soit bien doré.",
           "Dans une petite casserole à feu moyen-doux, chauffe le miel jusqu'à ce qu'il soit chaud sans bouillir. Verse-le uniformément sur le baklava pendant que les deux sont encore chauds — miel chaud sur pâte chaude, c'est toute l'astuce, et ça grésille quand c'est juste.",
           "Laisse refroidir le baklava dans le plat sur une grille au moins 1 heure, puis couvre de papier d'aluminium et laisse à température ambiante jusqu'au service.",
           "Pour servir, termine les entailles au couteau bien aiguisé à travers toutes les couches, en triangles ou en losanges."
@@ -6610,7 +6610,7 @@ window.initialRecipes = [
         "subtitle": "Lamb that marinates overnight and cooks in minutes",
         "description": "Lamb cubed and left overnight in spiced yoghurt, then grilled hard over charcoal. Two steps, one of which is waiting — the yoghurt is doing the tenderising while you sleep.",
         "instructions": [
-          "Bone the lamb and cut it into 1\" cubes, keeping them even so they cook at the same rate.",
+          "Bone the lamb and cut it into 2.5 cm cubes, keeping them even so they cook at the same rate.",
           "Combine everything in a large bowl, mix it well so every cube is coated, cover it and refrigerate overnight. Next day, thread the cubes onto skewers and grill over charcoal about 7 min. per side. Don't wipe the marinade off — the yoghurt clinging to the meat is what chars into that good crust."
         ]
       },
@@ -6619,7 +6619,7 @@ window.initialRecipes = [
         "subtitle": "Lam dat een nacht marineert en in minuten gaar is",
         "description": "Lam in blokjes en een nacht in gekruide yoghurt gelegd, dan hard gegrild boven houtskool. Twee stappen, waarvan er één wachten is — de yoghurt doet het mals maken terwijl jij slaapt.",
         "instructions": [
-          "Ontbeen het lamsvlees en snijd het in blokjes van 1 inch, mooi gelijk zodat ze samen gaar zijn.",
+          "Ontbeen het lamsvlees en snijd het in blokjes van 2.5 cm, mooi gelijk zodat ze samen gaar zijn.",
           "Doe alles samen in een grote kom, meng het goed zodat elk blokje bedekt is, dek af en zet een nacht in de koelkast. De volgende dag rijg je de blokjes aan spiesen en gril je ze boven houtskool ongeveer 7 minuten per kant. Veeg de marinade er niet af — die yoghurt die aan het vlees kleeft is net wat tot dat lekkere korstje verbrandt."
         ]
       },
@@ -6628,7 +6628,7 @@ window.initialRecipes = [
         "subtitle": "De l'agneau qui marine la nuit et cuit en minutes",
         "description": "De l'agneau en cubes laissé une nuit dans un yaourt épicé, puis grillé vivement sur les braises. Deux étapes, dont une consiste à attendre — le yaourt attendrit la viande pendant que tu dors.",
         "instructions": [
-          "Désosse l'agneau et coupe-le en cubes de 1\", bien réguliers pour qu'ils cuisent au même rythme.",
+          "Désosse l'agneau et coupe-le en cubes de 2.5 cm, bien réguliers pour qu'ils cuisent au même rythme.",
           "Réunis tout dans un grand bol, mélange bien pour enrober chaque cube, couvre et réfrigère toute la nuit. Le lendemain, embroche les cubes et grille sur du charbon de bois environ 7 min. par côté. N'essuie pas la marinade — c'est ce yaourt accroché à la viande qui se caramélise en cette bonne croûte."
         ]
       }
@@ -6761,7 +6761,7 @@ window.initialRecipes = [
         "subtitle": "Orange loaf soaked while it's still warm",
         "description": "A buttermilk and orange loaf, brushed with orange syrup the moment it comes out of the tin. That soaking is what makes it keep, and what makes it worth the seventeen steps.",
         "instructions": [
-          "Heat the oven to 350F.",
+          "Heat the oven to 180 °C.",
           "Grease the loaf pans and dust them lightly with flour.",
           "In a medium bowl, whisk the flour, baking powder, baking soda and salt together and set it aside.",
           "Measure the buttermilk, orange juice and vanilla into a measuring cup and set that aside too.",
@@ -6774,7 +6774,7 @@ window.initialRecipes = [
           "Add the last of the flour mixture and mix only until just blended.",
           "Divide the batter between the pans, filling them about 3/4 full, and bake for 30 to 35 minutes — 45 minutes for a large loaf pan — until a toothpick in the centre comes out clean.",
           "While the loaves bake, make the orange syrup.",
-          "Stir 1/2 cup orange juice and 1/2 cup brown sugar together in a small pot. Bring it to the boil over medium heat, stirring now and then, then turn it down and simmer a few minutes.",
+          "Stir 120 ml orange juice and 65 g brown sugar together in a small pot. Bring it to the boil over medium heat, stirring now and then, then turn it down and simmer a few minutes.",
           "Take the pot off the heat and leave it to cool.",
           "When the loaves are done, cool them 10 minutes before turning them out onto a wire rack. Set the rack over a sheet pan or a piece of foil, and soak each loaf with the syrup using a brush or a spoon. Go slowly and let each coat sink in before the next. Then let them cool completely.",
           "Store in an airtight container, or wrap them up tightly."
@@ -6785,7 +6785,7 @@ window.initialRecipes = [
         "subtitle": "Sinaasappelcake die nog warm wordt gedrenkt",
         "description": "Een cake van karnemelk en sinaasappel, bestreken met sinaasappelsiroop op het moment dat hij uit de vorm komt. Dat drenken is wat hem goed houdt, en wat de zeventien stappen de moeite waard maakt.",
         "instructions": [
-          "Verwarm de oven op 350F.",
+          "Verwarm de oven op 180 °C.",
           "Vet de broodvormen in en bestuif ze licht met bloem.",
           "Klop in een middelgrote kom de bloem, het bakpoeder, het zuiveringszout en het zout samen en zet opzij.",
           "Meet de karnemelk, het sinaasappelsap en de vanille af in een maatbeker en zet die ook opzij.",
@@ -6798,7 +6798,7 @@ window.initialRecipes = [
           "Voeg het laatste bloemmengsel toe en meng net tot het opgenomen is.",
           "Verdeel het beslag over de vormen, ongeveer 3/4 vol, en bak 30 tot 35 minuten — 45 minuten bij een grote broodvorm — tot een tandenstoker in het midden er schoon uitkomt.",
           "Maak de sinaasappelsiroop terwijl de cakes bakken.",
-          "Roer 1/2 kopje sinaasappelsap en 1/2 kopje bruine suiker samen in een klein pannetje. Breng aan de kook op middelhoog vuur, af en toe roerend, zet dan lager en laat een paar minuten sudderen.",
+          "Roer 120 ml sinaasappelsap en 65 g bruine suiker samen in een klein pannetje. Breng aan de kook op middelhoog vuur, af en toe roerend, zet dan lager en laat een paar minuten sudderen.",
           "Haal het pannetje van het vuur en laat het afkoelen.",
           "Als de cakes klaar zijn, laat je ze 10 minuten afkoelen voor je ze op een rooster stort. Zet het rooster op een bakplaat of een stuk folie en drenk elke cake met de siroop, met een kwastje of een lepel. Doe het traag en laat elke laag intrekken voor de volgende. Laat ze dan helemaal afkoelen.",
           "Bewaar ze in een luchtdichte doos, of wikkel ze stevig in."
@@ -6809,7 +6809,7 @@ window.initialRecipes = [
         "subtitle": "Un cake à l'orange imbibé encore tiède",
         "description": "Un cake au babeurre et à l'orange, badigeonné de sirop d'orange à l'instant où il sort du moule. C'est cet imbibage qui le fait se conserver, et qui rend les dix-sept étapes justifiées.",
         "instructions": [
-          "Préchauffe le four à 350F.",
+          "Préchauffe le four à 180 °C.",
           "Beurre les moules à cake et farine-les légèrement.",
           "Dans un bol moyen, fouette la farine, la levure chimique, le bicarbonate et le sel, puis réserve.",
           "Mesure le babeurre, le jus d'orange et la vanille dans un verre doseur et réserve aussi.",
@@ -6822,7 +6822,7 @@ window.initialRecipes = [
           "Ajoute le dernier tiers de farine et mélange juste jusqu'à ce que ce soit homogène.",
           "Répartis la pâte dans les moules, en les remplissant aux 3/4 environ, et cuis 30 à 35 minutes — 45 minutes pour un grand moule à cake — jusqu'à ce qu'un cure-dent planté au centre ressorte propre.",
           "Pendant la cuisson, prépare le sirop à l'orange.",
-          "Mélange 1/2 tasse de jus d'orange et 1/2 tasse de cassonade dans une petite casserole. Porte à ébullition à feu moyen en remuant de temps en temps, puis baisse et laisse mijoter quelques minutes.",
+          "Mélange 120 ml de jus d'orange et 65 g de cassonade dans une petite casserole. Porte à ébullition à feu moyen en remuant de temps en temps, puis baisse et laisse mijoter quelques minutes.",
           "Retire la casserole du feu et laisse refroidir.",
           "Quand les cakes sont cuits, laisse-les 10 minutes avant de les démouler sur une grille. Pose la grille sur une plaque ou une feuille d'aluminium et imbibe chaque cake de sirop au pinceau ou à la cuillère. Vas-y lentement, en laissant chaque couche pénétrer avant la suivante. Puis laisse refroidir complètement.",
           "Conserve dans une boîte hermétique, ou emballe-les bien serrés."
@@ -7033,7 +7033,7 @@ window.initialRecipes = [
           "Stand all the finished dumplings on the well-floured dish, not touching one another, until you're ready to cook. They freeze well at this stage.",
           "To cook, add 2 to 3 tablespoons of vegetable oil to a very hot frying pan. Cook them in at least 2 batches — a crowded pan steams instead of frying.",
           "When the oil is hot, put the dumplings in flat side down. Fry until the bottoms are a good golden brown.",
-          "Add 1/3 cup of water to the pan, cover it immediately and let the steam cook the dumplings for 4 to 5 minutes. Stand back as you pour; it spits.",
+          "Add 80 ml of water to the pan, cover it immediately and let the steam cook the dumplings for 4 to 5 minutes. Stand back as you pour; it spits.",
           "Once the water has gone, take the lid off and leave the dumplings in the hot pan another minute so the bases crisp up again. Now they're potstickers.",
           "Lift them gently onto a plate.",
           "Serve immediately.",
@@ -7062,7 +7062,7 @@ window.initialRecipes = [
           "Zet alle afgewerkte dumplings op de goed bebloemde schaal, zonder dat ze elkaar raken, tot je klaar bent om te bakken. In dit stadium kan je ze prima invriezen.",
           "Om te bakken doe je 2 tot 3 eetlepels plantaardige olie in een heel hete koekenpan. Bak ze in minstens 2 porties — een volle pan stoomt in plaats van te bakken.",
           "Als de olie heet is, leg je de dumplings met de platte kant naar beneden in de pan. Bak tot de bodems mooi goudbruin zijn.",
-          "Giet 1/3 kopje water in de pan, dek meteen af en laat de stoom de dumplings 4 tot 5 minuten garen. Ga even achteruit bij het gieten; het spat.",
+          "Giet 80 ml water in de pan, dek meteen af en laat de stoom de dumplings 4 tot 5 minuten garen. Ga even achteruit bij het gieten; het spat.",
           "Zodra het water weg is, haal je het deksel eraf en laat je de dumplings nog een minuut in de hete pan staan zodat de bodems opnieuw krokant worden. Nu zijn het potstickers.",
           "Til ze voorzichtig op een bord.",
           "Meteen opdienen.",
@@ -7072,7 +7072,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Potstickers chinois",
         "subtitle": "Des raviolis croustillants dessous, vapeur dessus",
-        "description": "Des raviolis au porc plissés à la main, poêlés jusqu'à ce que le fond soit doré, puis terminés avec un peu d'eau sous couvercle pour que le dessus cuise à la vapeur. Rate les plis les dix premières fois ; c'est comme ça que tout le monde apprend.",
+        "description": "Des raviolis au porc plissés à la main, poêlés jusqu'à ce que le fond soit doré, puis terminés avec un peu d'eau sous couvercle pour que le dessus cuise à la vapeur. Rate les plis les dix premières fois; c'est comme ça que tout le monde apprend.",
         "instructions": [
           "Mets 200 g de porc haché dans un grand saladier. Du poulet haché fait tout aussi bien si tu préfères.",
           "Ajoute 1 cuillère à café de sel marin, 1 cuillère à café de sucre fin, 1/2 cuillère à café de poivre noir moulu, 2 cuillères à café de sauce soja légère, 2 cuillères à café d'huile de sésame et 1 cuillère à soupe de vin Shaoxing Huatiao.",
@@ -7091,7 +7091,7 @@ window.initialRecipes = [
           "Range tous les raviolis finis sur le plat bien fariné, sans qu'ils se touchent, jusqu'au moment de cuire. Ils se congèlent très bien à ce stade.",
           "Pour la cuisson, mets 2 à 3 cuillères à soupe d'huile végétale dans une poêle très chaude. Cuis-les en au moins 2 fournées — une poêle chargée cuit à la vapeur au lieu de frire.",
           "Quand l'huile est chaude, pose les raviolis face plate vers le bas. Fais-les frire jusqu'à ce que les fonds soient bien dorés.",
-          "Ajoute 1/3 tasse d'eau dans la poêle, couvre immédiatement et laisse la vapeur cuire les raviolis 4 à 5 minutes. Recule un peu en versant ; ça crache.",
+          "Ajoute 80 ml d'eau dans la poêle, couvre immédiatement et laisse la vapeur cuire les raviolis 4 à 5 minutes. Recule un peu en versant; ça crache.",
           "Une fois l'eau évaporée, retire le couvercle et laisse les raviolis encore une minute dans la poêle chaude pour que les fonds redeviennent croustillants. Ce sont maintenant des potstickers.",
           "Transfère-les délicatement sur une assiette.",
           "Sers immédiatement.",
@@ -7288,10 +7288,10 @@ window.initialRecipes = [
         "instructions": [
           "Rinse the black-eyed peas and leave them to soak under several inches of water for 6 hours or overnight.",
           "Drain and rinse them, then put them in a large saucepan and cover with fresh water. Bring to the boil, drop the heat to medium-low, cover and simmer for 40 to 60 minutes. Watch them near the end — they want to be tender but still holding together, not falling apart.",
-          "Drain and set aside. For the aubergine: cut off the stem and bottom, halve it lengthways, and score the flesh in diagonal 1-inch lines, then turn it and score again to make a diamond pattern. Don't cut through the skin; it's holding everything in.",
+          "Drain and set aside. For the aubergine: cut off the stem and bottom, halve it lengthways, and score the flesh in diagonal 2.5 cm lines, then turn it and score again to make a diamond pattern. Don't cut through the skin; it's holding everything in.",
           "Sprinkle with salt and leave it 40 minutes. Then rinse it and squeeze the excess water out. That salting draws out the bitterness along with the water.",
           "Brush the aubergine with oil and lay it in a roasting pan.",
-          "Bake in a preheated 400 oven until the flesh has collapsed and gone wrinkly.",
+          "Bake in a preheated 200 °C oven until the flesh has collapsed and gone wrinkly.",
           "Take it out and let it cool about 10 minutes, season with a little salt, then scoop the flesh away from the skin. If it's very wet, drain it in a strainer. Set aside.",
           "Heat the oil over medium heat in the same saucepan you cooked the peas in. When it's hot, throw in the shallots and chillies and sauté 2 to 3 minutes. Add the spices and stir another minute, until they smell fragrant — that minute is what wakes them up.",
           "Add the tomato and cook a few minutes more, then the aubergine and the black-eyed peas, and cook a few minutes longer, stirring often.",
@@ -7311,7 +7311,7 @@ window.initialRecipes = [
           "Giet af en zet opzij. Voor de aubergine: snijd de steel en de onderkant eraf, halveer haar in de lengte, en kerf het vruchtvlees in diagonale lijnen van 2,5 cm, draai dan en kerf opnieuw tot je een ruitpatroon hebt. Snijd niet door het vel; dat houdt alles bij elkaar.",
           "Bestrooi met zout en laat 40 minuten staan. Spoel daarna af en knijp het overtollige water eruit. Dat zouten trekt met het vocht ook de bitterheid eruit.",
           "Bestrijk de aubergine met olie en leg haar in een braadslee.",
-          "Bak in een voorverwarmde oven van 400 graden tot het vruchtvlees ingezakt en rimpelig is.",
+          "Bak in een voorverwarmde oven van 200 °C tot het vruchtvlees ingezakt en rimpelig is.",
           "Haal haar eruit en laat ongeveer 10 minuten afkoelen, kruid met een beetje zout en schep het vruchtvlees van het vel. Is het erg nat, laat het dan uitlekken in een zeef. Zet opzij.",
           "Verhit de olie op middelhoog vuur in dezelfde pan waarin je de bonen kookte. Als ze heet is, gooi je de sjalotten en pepers erin en bak je ze 2 tot 3 minuten. Voeg de specerijen toe en roer nog een minuut, tot ze geurig worden — die minuut is wat ze wakker maakt.",
           "Voeg de tomaat toe en gaar nog een paar minuten, dan de aubergine en de bonen, en gaar nog een paar minuten verder terwijl je regelmatig roert.",
@@ -7328,10 +7328,10 @@ window.initialRecipes = [
         "instructions": [
           "Rince les cornilles et laisse-les tremper sous plusieurs centimètres d'eau pendant 6 heures ou toute la nuit.",
           "Égoutte et rince-les, puis mets-les dans une grande casserole et couvre d'eau fraîche. Porte à ébullition, baisse à feu moyen-doux, couvre et laisse mijoter 40 à 60 minutes. Surveille vers la fin — elles doivent être tendres tout en se tenant, pas se défaire.",
-          "Égoutte et réserve. Pour l'aubergine : coupe la tige et le bas, fends-la en deux dans la longueur, et incise la chair en lignes diagonales de 1 pouce, puis tourne-la et incise encore pour former des losanges. Ne traverse pas la peau ; c'est elle qui tient tout.",
+          "Égoutte et réserve. Pour l'aubergine : coupe la tige et le bas, fends-la en deux dans la longueur, et incise la chair en lignes diagonales de 2.5 cm, puis tourne-la et incise encore pour former des losanges. Ne traverse pas la peau; c'est elle qui tient tout.",
           "Saupoudre de sel et laisse reposer 40 minutes. Rince ensuite et presse pour évacuer l'excès d'eau. Ce salage tire l'amertume en même temps que le jus.",
           "Badigeonne l'aubergine d'huile et pose-la dans un plat à rôtir.",
-          "Cuis au four préchauffé à 400 jusqu'à ce que la chair soit affaissée et ridée.",
+          "Cuis au four préchauffé à 200 °C jusqu'à ce que la chair soit affaissée et ridée.",
           "Sors-la et laisse refroidir environ 10 minutes, sale légèrement, puis prélève la chair de la peau. Si c'est très humide, égoutte dans une passoire. Réserve.",
           "Chauffe l'huile à feu moyen dans la casserole qui a servi aux cornilles. Quand elle est chaude, jette les échalotes et les piments et fais-les revenir 2 à 3 minutes. Ajoute les épices et remue encore une minute, jusqu'à ce qu'elles embaument — cette minute est ce qui les réveille.",
           "Ajoute la tomate et poursuis quelques minutes, puis l'aubergine et les cornilles, et cuis encore quelques minutes en remuant souvent.",
@@ -7593,7 +7593,7 @@ window.initialRecipes = [
           "Puis le bouillon, feu à fond, et porte à ébullition.",
           "Ajoute les haricots et assaisonne avec les herbes séchées.",
           "Transvase maintenant la moitié de la soupe en morceaux dans une autre marmite. Cette moitié-là est finie — c'est l'autre qui continue.",
-          "Mixe ce qui reste au mixeur plongeant ou au blender, puis passe au chinois. Ce passage vaut la peine ; c'est la différence entre une soupe mixée et du velours.",
+          "Mixe ce qui reste au mixeur plongeant ou au blender, puis passe au chinois. Ce passage vaut la peine; c'est la différence entre une soupe mixée et du velours.",
           "Ramène à ébullition, ajoute la crème, le curcuma, la poudre de curry et le poivre de Cayenne, et remue bien."
         ]
       }
@@ -7785,7 +7785,7 @@ window.initialRecipes = [
         "subtitle": "More apple than cake",
         "description": "A cake so loaded with apple and walnut that the batter barely holds it together. It goes into an ungreased tin and bakes for an hour, and it improves for days afterwards.",
         "instructions": [
-          "Heat the oven to 350F degrees. In a large bowl, mix the apples, oil, sugar, eggs and walnuts together by hand — a machine would break the apple up, and you want the pieces.",
+          "Heat the oven to 180 °C degrees. In a large bowl, mix the apples, oil, sugar, eggs and walnuts together by hand — a machine would break the apple up, and you want the pieces.",
           "Mix it well and set it aside. In a separate bowl, mix the flour, baking soda, salt, vanilla and cinnamon.",
           "Mix that well, then add it to the apple mixture. The batter will be thick — thicker than looks right, and that is correct.",
           "Pour it into an ungreased 13x9 baking pan and bake for one hour, or until done. Ungreased on purpose: the batter needs to climb the sides of the tin."
@@ -7796,7 +7796,7 @@ window.initialRecipes = [
         "subtitle": "Meer appel dan cake",
         "description": "Een cake die zo volgeladen is met appel en walnoot dat het beslag hem amper bij elkaar houdt. Hij gaat in een niet-ingevette vorm en bakt een uur, en hij wordt er dagen daarna alleen maar beter op.",
         "instructions": [
-          "Verwarm de oven op 350F graden. Meng de appels, olie, suiker, eieren en walnoten met de hand in een grote kom — een machine zou de appel stukslaan, en je wil net die stukken.",
+          "Verwarm de oven op 180 °C graden. Meng de appels, olie, suiker, eieren en walnoten met de hand in een grote kom — een machine zou de appel stukslaan, en je wil net die stukken.",
           "Meng goed en zet opzij. Meng in een aparte kom de bloem, het bakpoeder, zout, vanille en kaneel.",
           "Meng dat goed en voeg het dan bij het appelmengsel. Het beslag wordt dik — dikker dan juist lijkt, en dat klopt.",
           "Giet het in een niet-ingevette bakvorm van 13x9 en bak een uur, of tot het gaar is. Niet invetten is met opzet: het beslag moet tegen de rand van de vorm omhoog kunnen kruipen."
@@ -7807,7 +7807,7 @@ window.initialRecipes = [
         "subtitle": "Plus de pommes que de gâteau",
         "description": "Un gâteau si chargé de pommes et de noix que la pâte le tient à peine ensemble. Il va dans un moule non graissé et cuit une heure, et il s'améliore les jours suivants.",
         "instructions": [
-          "Chauffe le four à 350F degrés. Dans un grand bol, mélange à la main les pommes, l'huile, le sucre, les œufs et les noix — un robot casserait les pommes, et ce sont justement les morceaux que tu veux.",
+          "Chauffe le four à 180 °C degrés. Dans un grand bol, mélange à la main les pommes, l'huile, le sucre, les œufs et les noix — un robot casserait les pommes, et ce sont justement les morceaux que tu veux.",
           "Mélange bien et réserve. Dans un autre bol, mélange la farine, le bicarbonate de soude, le sel, la vanille et la cannelle.",
           "Mélange bien puis ajoute à l'appareil aux pommes. La pâte sera épaisse — plus épaisse que ça n'en a l'air normal, et c'est juste.",
           "Verse dans un moule 13x9 non graissé et cuis une heure, ou jusqu'à cuisson complète. Non graissé exprès : la pâte doit pouvoir grimper le long des parois."
@@ -7992,7 +7992,7 @@ window.initialRecipes = [
         "description": "Du naan grillé sur les braises, tartiné d'une tapenade grossière, fondu sous la mozzarella et terminé par de la roquette poivrée. Dix minutes, dont l'essentiel est le temps que le gril chauffe.",
         "instructions": [
           "Chauffe le barbecue à feu moyen-vif. Badigeonne les deux faces du naan avec la cuillère à soupe d'huile d'olive et grille-le 3 minutes de chaque côté.",
-          "Mets les olives et 6 à 8 cuillères à café de jus d'olive ou de saumure dans un robot — mélanger les deux sortes ne pose aucun problème — et pulse jusqu'à une texture plus fine mais pas lisse. Tu dois encore voir des morceaux d'olive ; une tapenade lisse n'est qu'une pâte.",
+          "Mets les olives et 6 à 8 cuillères à café de jus d'olive ou de saumure dans un robot — mélanger les deux sortes ne pose aucun problème — et pulse jusqu'à une texture plus fine mais pas lisse. Tu dois encore voir des morceaux d'olive; une tapenade lisse n'est qu'une pâte.",
           "Étale la tapenade sur une face de chaque naan.",
           "Parsème de morceaux de mozzarella.",
           "Remets le naan sur le gril et cuis jusqu'à ce que le fond soit brun et croustillant et le fromage fondu. Mélange la roquette au vinaigre balsamique et entasse-la sur le pain plat chaud.",
@@ -8153,7 +8153,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Pétoncles poêlés aux légumes verts fanés",
         "subtitle": "Des Saint-Jacques sur des verdures au lard",
-        "description": "Du chou frisé fondu lentement avec du lard et de l'échalote, et des Saint-Jacques saisies vivement dans une poêle fumante, à peine deux minutes par face. Les verdures peuvent attendre ; les Saint-Jacques absolument pas.",
+        "description": "Du chou frisé fondu lentement avec du lard et de l'échalote, et des Saint-Jacques saisies vivement dans une poêle fumante, à peine deux minutes par face. Les verdures peuvent attendre; les Saint-Jacques absolument pas.",
         "instructions": [
           "Coupe les tiges de chou frisé en fines lamelles et les feuilles en larges lanières. Tiges et feuilles n'entrent pas au même moment, alors garde-les séparées.",
           "Chauffe une grande poêle profonde à feu moyen-vif.",
@@ -8328,7 +8328,7 @@ window.initialRecipes = [
         "subtitle": "The loaf that saves black bananas",
         "description": "Overripe bananas mashed into melted butter with sugar, egg and vanilla, then baked into a loaf. The blacker the bananas the better it is, which makes this the most forgiving thing in the book.",
         "instructions": [
-          "Heat the oven to 350 degrees. In a big bowl, mash the bananas and add the melted butter, then the sugar, egg and vanilla. Keep mixing, then add the flour, salt and baking soda, mixed well together, and pour the batter into an 8 X 3.75 inch loaf pan.",
+          "Heat the oven to 180 °C. In a big bowl, mash the bananas and add the melted butter, then the sugar, egg and vanilla. Keep mixing, then add the flour, salt and baking soda, mixed well together, and pour the batter into a 20x9.5 cm loaf pan.",
           "Bake for 1 hour. Let it cool on a rack — slicing it warm will drag and tear it. Then slice and serve."
         ]
       },
@@ -8337,7 +8337,7 @@ window.initialRecipes = [
         "subtitle": "Het brood dat zwarte bananen redt",
         "description": "Overrijpe bananen geprakt in gesmolten boter met suiker, ei en vanille, en dan tot een cake gebakken. Hoe zwarter de bananen, hoe beter, en dat maakt dit het meest vergevingsgezinde recept in het boek.",
         "instructions": [
-          "Verwarm de oven op 350 graden. Prak de bananen in een grote kom en voeg de gesmolten boter toe, dan de suiker, het ei en de vanille. Blijf mengen, voeg dan de bloem, het zout en het zuiveringszout toe, goed samen gemengd, en giet het beslag in een broodvorm van 8 x 3,75 inch.",
+          "Verwarm de oven op 180 °C. Prak de bananen in een grote kom en voeg de gesmolten boter toe, dan de suiker, het ei en de vanille. Blijf mengen, voeg dan de bloem, het zout en het zuiveringszout toe, goed samen gemengd, en giet het beslag in een broodvorm van 20x9.5 cm.",
           "Bak gedurende 1 uur. Laat afkoelen op een rooster — warm snijden trekt hem uit elkaar. Dan snijden en opdienen."
         ]
       },
@@ -8346,7 +8346,7 @@ window.initialRecipes = [
         "subtitle": "Le cake qui sauve les bananes noires",
         "description": "Des bananes trop mûres écrasées dans du beurre fondu avec du sucre, un œuf et de la vanille, puis cuites en cake. Plus les bananes sont noires, meilleur il est, ce qui en fait la recette la plus indulgente du livre.",
         "instructions": [
-          "Chauffe le four à 350 degrés. Dans un grand bol, écrase les bananes et ajoute le beurre fondu, puis le sucre, l'œuf et la vanille. Continue de mélanger, puis ajoute la farine, le sel et le bicarbonate bien mélangés ensemble, et verse la pâte dans un moule à cake de 8 X 3,75 pouces.",
+          "Chauffe le four à 180 °C. Dans un grand bol, écrase les bananes et ajoute le beurre fondu, puis le sucre, l'œuf et la vanille. Continue de mélanger, puis ajoute la farine, le sel et le bicarbonate bien mélangés ensemble, et verse la pâte dans un moule à cake de 20x9.5 cm.",
           "Cuis 1 heure. Laisse refroidir sur une grille — le trancher tiède le déchire. Puis tranche et sers."
         ]
       }
@@ -8478,7 +8478,7 @@ window.initialRecipes = [
         "subtitle": "Curry wrapped in puff pastry",
         "description": "A quick potato and carrot curry cooled slightly and shut inside squares of puff pastry, then baked until they puff up golden. Make the filling thick — a wet filling will burst them.",
         "instructions": [
-          "Heat the oven to 350 degrees.",
+          "Heat the oven to 180 °C.",
           "In a pot over medium-high heat, add the oil and onions and cook for 2 minutes.",
           "Add the potatoes and carrots and cook for 5 minutes.",
           "Add the water and bring it to the boil. Turn the heat down and simmer for 15 minutes.",
@@ -8492,7 +8492,7 @@ window.initialRecipes = [
         "subtitle": "Curry ingepakt in bladerdeeg",
         "description": "Een snelle curry van aardappel en wortel, lichtjes afgekoeld en opgesloten in vierkantjes bladerdeeg, dan gebakken tot ze goudbruin opblazen. Maak de vulling dik — een natte vulling doet ze openbarsten.",
         "instructions": [
-          "Verwarm de oven op 350 graden.",
+          "Verwarm de oven op 180 °C.",
           "Doe de olie en de uien in een pan op middelhoog tot hoog vuur en bak 2 minuten.",
           "Voeg de aardappelen en wortels toe en gaar 5 minuten.",
           "Voeg het water toe en breng aan de kook. Zet het vuur lager en laat 15 minuten sudderen.",
@@ -8506,7 +8506,7 @@ window.initialRecipes = [
         "subtitle": "Du curry enfermé dans de la pâte feuilletée",
         "description": "Un curry rapide de pommes de terre et carottes légèrement refroidi et enfermé dans des carrés de pâte feuilletée, puis cuit jusqu'à ce qu'ils gonflent et dorent. Fais la garniture épaisse — une garniture liquide les fait éclater.",
         "instructions": [
-          "Préchauffe le four à 350 degrés.",
+          "Préchauffe le four à 180 °C.",
           "Dans une casserole à feu moyen-vif, mets l'huile et les oignons et cuis 2 minutes.",
           "Ajoute les pommes de terre et les carottes, cuis 5 minutes.",
           "Ajoute l'eau et porte à ébullition. Baisse le feu et laisse mijoter 15 minutes.",
@@ -8631,7 +8631,7 @@ window.initialRecipes = [
         "subtitle": "Brownies built on beans and beetroot",
         "description": "Kidney beans and beetroot puréed into the batter, which sounds like a threat and turns out to be fudgy, dark and entirely convincing. Nobody has to be told what's in them.",
         "instructions": [
-          "Heat the oven to 350 F and spray an 8x8 inch pan with cooking spray. Set it aside. In a food processor, purée the kidney beans and beets until completely smooth — any grain left now stays in the finished brownie.",
+          "Heat the oven to 180 °C and spray a 20x20 cm pan with cooking spray. Set it aside. In a food processor, purée the kidney beans and beets until completely smooth — any grain left now stays in the finished brownie.",
           "Tip the purée into a large bowl.",
           "Add the remaining ingredients and mix by hand until smooth and fully combined, then fold the batter into the greased pan.",
           "Bake for 35-40 minutes, turning the pan halfway through. Test with a toothpick when the time's up: you want some batter clinging to it. Do not over-bake — dry is the one way these go wrong.",
@@ -8644,7 +8644,7 @@ window.initialRecipes = [
         "subtitle": "Brownies gebouwd op bonen en biet",
         "description": "Bruine bonen en rode biet in het beslag gepureerd, wat als een dreigement klinkt en fudge-achtig, donker en volstrekt overtuigend blijkt. Niemand hoeft te horen wat erin zit.",
         "instructions": [
-          "Verwarm de oven op 350 F en spuit een vorm van 8x8 inch in met kookspray. Zet opzij. Pureer de bruine bonen en de bieten in een keukenmachine tot ze helemaal glad zijn — elke korrel die er nu nog in zit, blijft in de brownie zitten.",
+          "Verwarm de oven op 180 °C en spuit een vorm van 20x20 cm in met kookspray. Zet opzij. Pureer de bruine bonen en de bieten in een keukenmachine tot ze helemaal glad zijn — elke korrel die er nu nog in zit, blijft in de brownie zitten.",
           "Doe de puree over in een grote kom.",
           "Voeg de resterende ingrediënten toe en meng met de hand tot een gladde, volledig gemengde massa, en spatel het beslag dan in de ingevette vorm.",
           "Bak 35-40 minuten en draai de vorm halverwege om. Test als de tijd om is met een tandenstoker: er hoort wat beslag aan te blijven kleven. Bak ze niet te lang — droog is de enige manier waarop deze mislukken.",
@@ -8657,7 +8657,7 @@ window.initialRecipes = [
         "subtitle": "Des brownies bâtis sur des haricots et de la betterave",
         "description": "Des haricots rouges et de la betterave mixés dans la pâte, ce qui sonne comme une menace et donne un brownie fondant, sombre et parfaitement convaincant. Personne n'a besoin de savoir ce qu'il y a dedans.",
         "instructions": [
-          "Chauffe le four à 350 F et vaporise un moule de 8 x 8 pouces d'enduit de cuisson. Réserve. Au robot, réduis les haricots rouges et les betteraves en purée bien lisse — le moindre grain qui reste maintenant restera dans le brownie fini.",
+          "Chauffe le four à 180 °C et vaporise un moule de 20x20 cm d'enduit de cuisson. Réserve. Au robot, réduis les haricots rouges et les betteraves en purée bien lisse — le moindre grain qui reste maintenant restera dans le brownie fini.",
           "Verse la purée dans un grand bol.",
           "Ajoute le reste des ingrédients et mélange à la main jusqu'à ce que ce soit lisse et parfaitement homogène, puis étale la pâte dans le moule graissé.",
           "Cuis 35 à 40 minutes en tournant le moule à mi-cuisson. Au bout du temps, teste au cure-dent : il doit rester un peu de pâte accrochée. Ne cuis pas trop — sec est la seule façon de les rater.",
@@ -8929,7 +8929,7 @@ window.initialRecipes = [
         "subtitle": "Chicken rolled round cheese and spinach",
         "description": "Chicken beaten flat, spread with a spiced cream cheese, rolled up around spinach and cheese and jacketed in crushed tortilla chips. The chips go soft under the lid, so uncover them at the end if you want crunch.",
         "instructions": [
-          "Flatten the chicken breasts out to about 1/4\" thickness. Put them between two sheets of plastic first — bare chicken tears under a mallet.",
+          "Flatten the chicken breasts out to about 6 mm thickness. Put them between two sheets of plastic first — bare chicken tears under a mallet.",
           "Blend the cream cheese, salsa, cilantro, cumin and garlic powder together into a sauce.",
           "Spread a spoonful of the sauce across each breast, then lay on the spinach leaves and the cheese.",
           "Roll each one closed and coat it in the crushed tortilla chips.",
@@ -8941,7 +8941,7 @@ window.initialRecipes = [
         "subtitle": "Kip gerold rond kaas en spinazie",
         "description": "Kip platgeslagen, bestreken met gekruide roomkaas, opgerold rond spinazie en kaas en ingepakt in verkruimelde tortillachips. Die chips worden zacht onder het deksel, dus haal het er op het einde af als je knapperigheid wil.",
         "instructions": [
-          "Sla de kipfilets plat tot een dikte van ongeveer 1/4\". Leg ze eerst tussen twee vellen plasticfolie — kip zonder bescherming scheurt onder de hamer.",
+          "Sla de kipfilets plat tot een dikte van ongeveer 6 mm. Leg ze eerst tussen twee vellen plasticfolie — kip zonder bescherming scheurt onder de hamer.",
           "Meng de roomkaas, salsa, koriander, komijn en knoflookpoeder tot een saus.",
           "Verdeel een lepel saus over elke filet, leg er dan de spinazieblaadjes en de kaas op.",
           "Rol elke filet dicht en wentel hem door de verkruimelde tortillachips.",
@@ -8953,7 +8953,7 @@ window.initialRecipes = [
         "subtitle": "Du poulet roulé autour de fromage et d'épinards",
         "description": "Du poulet aplati, tartiné de fromage frais épicé, roulé autour d'épinards et de fromage et enrobé de chips tortilla écrasées. Les chips ramollissent sous le couvercle, alors découvre à la fin si tu veux du croquant.",
         "instructions": [
-          "Aplatis les blancs de poulet à environ 1/4\" d'épaisseur. Mets-les d'abord entre deux feuilles de film — le poulet nu se déchire sous le maillet.",
+          "Aplatis les blancs de poulet à environ 6 mm d'épaisseur. Mets-les d'abord entre deux feuilles de film — le poulet nu se déchire sous le maillet.",
           "Mélange le fromage à la crème, la salsa, la coriandre, le cumin et la poudre d'ail pour former une sauce.",
           "Étale une cuillerée de sauce sur chaque blanc, puis pose les feuilles d'épinards et le fromage.",
           "Roule chacun bien fermé et enrobe-le de chips tortilla écrasées.",
@@ -9101,7 +9101,7 @@ window.initialRecipes = [
         "description": "Onion browned properly first, then potatoes left in the slow cooker for hours until some of them can be mashed into the soup to thicken it. No flour anywhere — the potato does all the work.",
         "instructions": [
           "In a large sauté pan, melt the butter over medium heat and sauté the onion for about 10 minutes, until lightly browned. That browning is the only deep flavour this soup gets, so don't hurry it.",
-          "Move the onion to a 7-quart slow cooker and add the potatoes, bay leaf, thyme and water. Cover and cook on LOW for about 4 hours, until the potatoes are tender. Then mash some of the potatoes against the inside of the cooker, or blitz a small amount with a hand blender, to thicken the soup slightly.",
+          "Move the onion to a 7 litre slow cooker and add the potatoes, bay leaf, thyme and water. Cover and cook on LOW for about 4 hours, until the potatoes are tender. Then mash some of the potatoes against the inside of the cooker, or blitz a small amount with a hand blender, to thicken the soup slightly.",
           "Add the corn, chiles, half-and-half and a cup of the cheddar.",
           "Salt it to taste and carry on cooking 20 to 30 minutes, just until everything is hot through — boil it now and the dairy will split. Ladle into bowls and finish each with the rest of the cheddar and the chopped chives."
         ]
@@ -9304,12 +9304,12 @@ window.initialRecipes = [
         "subtitle": "Three days of marinade, six hours of smoke",
         "description": "Pork shoulder marinated in mustard sauce for days, smoked slowly over charcoal, then finished in the oven and rested in a paper bag until it falls apart under a fork. Nothing about it is quick and all of it is worth it.",
         "instructions": [
-          "Massage the mustard sauce into the meat. Wrap it tightly in a double layer of plastic wrap and refrigerate at least 3 hours, or up to 3 days. If your sauce is thin and won't massage in, put the meat and the sauce into a ziplock bag, shake it until the meat is coated, and let it sit that way. At least one hour before cooking, unwrap the roast and put it with all its marinating juices into a disposable 9x13 aluminium pan to come up to room temperature — double the pan up if it feels flimsy, because it will be carrying a heavy wet roast. Soak the wood chips in cold water for 1 hour and drain them. Meanwhile light a large chimney starter filled halfway with charcoal, about 3 quarts, and let it burn until the coals are partly covered in ash. Build a two-level fire by banking all the coals over half the grill and leaving the other half empty. Open the bottom vents all the way.",
-          "Put the wood chips on the coals. Set the cooking grate in place, cover, and let the grate heat up for about 5 minutes, then scrape it clean with a grill brush. Dip a wad of paper towels in vegetable oil, hold it with tongs and oil the grate. Set the aluminium pan with the roast on the grate on the side away from the coals. Open the lid vents three-quarters and cover, with the vent positioned over the meat so the smoke is drawn across it. Cook for three hours, adding about eight briquettes every hour or so to hold an average temperature of 275F, and baste the roast with its marinade each time you add coals. Then set an oven rack in the middle position and heat the oven to 325F. Wrap the pan completely in heavy-duty foil, taking care not to spill the marinating liquid.",
+          "Massage the mustard sauce into the meat. Wrap it tightly in a double layer of plastic wrap and refrigerate at least 3 hours, or up to 3 days. If your sauce is thin and won't massage in, put the meat and the sauce into a ziplock bag, shake it until the meat is coated, and let it sit that way. At least one hour before cooking, unwrap the roast and put it with all its marinating juices into a disposable 9x13 aluminium pan to come up to room temperature — double the pan up if it feels flimsy, because it will be carrying a heavy wet roast. Soak the wood chips in cold water for 1 hour and drain them. Meanwhile light a large chimney starter filled halfway with charcoal, about 2.8 litre, and let it burn until the coals are partly covered in ash. Build a two-level fire by banking all the coals over half the grill and leaving the other half empty. Open the bottom vents all the way.",
+          "Put the wood chips on the coals. Set the cooking grate in place, cover, and let the grate heat up for about 5 minutes, then scrape it clean with a grill brush. Dip a wad of paper towels in vegetable oil, hold it with tongs and oil the grate. Set the aluminium pan with the roast on the grate on the side away from the coals. Open the lid vents three-quarters and cover, with the vent positioned over the meat so the smoke is drawn across it. Cook for three hours, adding about eight briquettes every hour or so to hold an average temperature of 140 °C, and baste the roast with its marinade each time you add coals. Then set an oven rack in the middle position and heat the oven to 160 °C. Wrap the pan completely in heavy-duty foil, taking care not to spill the marinating liquid.",
           "Put the pan in the oven and cook until the meat is fork-tender, about 2 hours. Then carefully slide the foil-wrapped pan into a brown paper bag and crimp the end shut.",
           "Let it rest for 1 hour. It's easiest to lay the bag open on its side and slide the roast in rather than dropping it down into the bag, then fold the opening over and tape it. While the roast rests, make the barbecue sauce. For true South Carolina style, make the mustard marinade above; for something thicker and tangier with heat at the back, use the sauce below — it's mostly things out of jars and bottles, but it is loud in the best way. In a large saucepan over low heat, sauté the onions and garlic in the oil until the onions turn translucent, about 10 to 15 minutes.",
-          "Add the rest of the ingredients and simmer uncovered over low heat for 30 minutes. Use it at once or keep it in the fridge; it makes about 6 cups and it freezes beautifully, so a big batch made in autumn will still be there when you want it. Once the pork has rested, move the roast to a carving board and throw away the marinade liquid and the pan. When it's cool enough to handle, pull the roast apart into sections, taking off fat if you like, and shred the meat with your fingers. Forks do the same job without the mess.",
-          "Put the shredded meat in a large bowl and toss it with 1 cup of the barbecue sauce, adding more to taste.",
+          "Add the rest of the ingredients and simmer uncovered over low heat for 30 minutes. Use it at once or keep it in the fridge; it makes about 1440 ml and it freezes beautifully, so a big batch made in autumn will still be there when you want it. Once the pork has rested, move the roast to a carving board and throw away the marinade liquid and the pan. When it's cool enough to handle, pull the roast apart into sections, taking off fat if you like, and shred the meat with your fingers. Forks do the same job without the mess.",
+          "Put the shredded meat in a large bowl and toss it with 240 ml of the barbecue sauce, adding more to taste.",
           "Serve, and pass the remaining sauce separately."
         ]
       },
@@ -9319,11 +9319,11 @@ window.initialRecipes = [
         "description": "Varkensschouder dagenlang gemarineerd in mosterdsaus, traag gerookt boven houtskool, dan afgewerkt in de oven en uitgerust in een papieren zak tot ze onder een vork uit elkaar valt. Niets eraan gaat snel en alles eraan is de moeite waard.",
         "instructions": [
           "Masseer de mosterdsaus in het vlees. Wikkel het strak in een dubbele laag plasticfolie en zet het minstens 3 uur, tot maximaal 3 dagen, in de koelkast. Is je saus te dun om in te masseren, doe het vlees en de saus dan in een diepvrieszak, schud tot het vlees bedekt is en laat het zo staan. Haal het braadstuk minstens een uur voor het garen uit de folie en leg het met al zijn marinadesappen in een wegwerp-aluminiumschaal van 9x13 om op kamertemperatuur te komen — verdubbel de schaal als ze slap aanvoelt, want ze moet een zwaar, nat braadstuk dragen. Week de houtsnippers 1 uur in koud water en laat ze uitlekken. Steek ondertussen een grote schoorsteenstarter aan die halfvol houtskool zit, zo'n 3 liter, en laat branden tot de kolen deels met as bedekt zijn. Bouw een vuur met twee zones door alle kolen op de helft van de grill te schuiven en de andere helft leeg te laten. Zet de onderste ventilatieopeningen helemaal open.",
-          "Leg de houtsnippers op de kolen. Zet het rooster op zijn plaats, dek af en laat het rooster ongeveer 5 minuten heet worden, en schraap het dan schoon met een grillborstel. Doop een prop keukenpapier in plantaardige olie, hou hem met een tang vast en vet het rooster in. Zet de aluminiumschaal met het braadstuk op het rooster, aan de kant weg van de kolen. Open de ventilatieopeningen van het deksel voor driekwart en dek af, met de opening boven het vlees zodat de rook eroverheen getrokken wordt. Gaar drie uur en voeg elk uur ongeveer acht briketten toe om een gemiddelde temperatuur van 275F aan te houden, en bedruip het braadstuk telkens met zijn marinade als je kolen bijlegt. Zet dan een ovenrek in de middelste stand en verwarm de oven op 325F. Wikkel de schaal volledig in stevige aluminiumfolie, en pas op dat je de marinadevloeistof niet morst.",
+          "Leg de houtsnippers op de kolen. Zet het rooster op zijn plaats, dek af en laat het rooster ongeveer 5 minuten heet worden, en schraap het dan schoon met een grillborstel. Doop een prop keukenpapier in plantaardige olie, hou hem met een tang vast en vet het rooster in. Zet de aluminiumschaal met het braadstuk op het rooster, aan de kant weg van de kolen. Open de ventilatieopeningen van het deksel voor driekwart en dek af, met de opening boven het vlees zodat de rook eroverheen getrokken wordt. Gaar drie uur en voeg elk uur ongeveer acht briketten toe om een gemiddelde temperatuur van 140 °C aan te houden, en bedruip het braadstuk telkens met zijn marinade als je kolen bijlegt. Zet dan een ovenrek in de middelste stand en verwarm de oven op 160 °C. Wikkel de schaal volledig in stevige aluminiumfolie, en pas op dat je de marinadevloeistof niet morst.",
           "Zet de schaal in de oven en gaar tot het vlees onder een vork uiteenvalt, ongeveer 2 uur. Schuif dan de in folie gewikkelde schaal voorzichtig in een bruine papieren zak en knijp het uiteinde dicht.",
           "Laat 1 uur rusten. Het gaat het makkelijkst als je de zak open op zijn kant legt en het braadstuk erin schuift in plaats van het naar beneden te laten zakken, en dan de opening omvouwt en dichtplakt. Maak de barbecuesaus terwijl het braadstuk rust. Voor echte South Carolina-stijl maak je de mosterdmarinade van hierboven; wil je iets dikkers en pittigers met hitte achteraan, neem dan de saus hieronder — het is grotendeels spul uit potjes en flessen, maar ze is luid op de beste manier. Bak in een grote pan op laag vuur de uien en knoflook in de olie tot de uien doorschijnend worden, ongeveer 10 tot 15 minuten.",
-          "Voeg de rest van de ingrediënten toe en laat 30 minuten onafgedekt op laag vuur sudderen. Gebruik ze meteen of bewaar ze in de koelkast; het is goed voor ongeveer 6 kopjes en ze vriest prachtig in, dus een grote batch die je in het najaar maakt staat er nog als je ze nodig hebt. Zodra het varkensvlees gerust heeft, leg je het braadstuk op een snijplank en gooi je de marinadevloeistof en de schaal weg. Als het koel genoeg is om vast te pakken, trek je het braadstuk in stukken uit elkaar, haal je het vet eraf als je dat wil, en pluk je het vlees met je vingers uiteen. Met vorken lukt het net zo goed en blijven je handen schoon.",
-          "Doe het geplukte vlees in een grote kom en meng het met 1 kopje barbecuesaus, en voeg naar smaak meer toe.",
+          "Voeg de rest van de ingrediënten toe en laat 30 minuten onafgedekt op laag vuur sudderen. Gebruik ze meteen of bewaar ze in de koelkast; het is goed voor ongeveer 1440 ml en ze vriest prachtig in, dus een grote batch die je in het najaar maakt staat er nog als je ze nodig hebt. Zodra het varkensvlees gerust heeft, leg je het braadstuk op een snijplank en gooi je de marinadevloeistof en de schaal weg. Als het koel genoeg is om vast te pakken, trek je het braadstuk in stukken uit elkaar, haal je het vet eraf als je dat wil, en pluk je het vlees met je vingers uiteen. Met vorken lukt het net zo goed en blijven je handen schoon.",
+          "Doe het geplukte vlees in een grote kom en meng het met 240 ml barbecuesaus, en voeg naar smaak meer toe.",
           "Dien op, en geef de resterende saus er apart bij."
         ]
       },
@@ -9333,11 +9333,11 @@ window.initialRecipes = [
         "description": "De l'épaule de porc marinée des jours dans une sauce moutarde, fumée lentement sur les braises, puis finie au four et reposée dans un sac en papier jusqu'à se défaire sous la fourchette. Rien là-dedans n'est rapide et tout en vaut la peine.",
         "instructions": [
           "Masse la sauce moutarde dans la viande. Enveloppe-la serrée dans une double couche de film et réfrigère au moins 3 heures, jusqu'à 3 jours. Si ta sauce est trop liquide pour se masser, mets la viande et la sauce dans un sac congélation, secoue jusqu'à ce que la viande soit enrobée et laisse-la ainsi. Au moins une heure avant la cuisson, déballe le rôti et pose-le avec tout son jus de marinade dans un plat jetable en aluminium de 9x13 pour qu'il revienne à température ambiante — double le plat s'il te paraît fragile, car il portera un rôti lourd et mouillé. Fais tremper les copeaux de bois dans l'eau froide 1 heure puis égoutte-les. Pendant ce temps, allume une grande cheminée d'allumage remplie à moitié de charbon, environ 3 litres, et laisse brûler jusqu'à ce que les braises soient en partie couvertes de cendre. Construis un feu à deux zones en rassemblant toutes les braises sur la moitié du gril et en laissant l'autre moitié vide. Ouvre les évents du bas en grand.",
-          "Pose les copeaux sur les braises. Mets la grille en place, couvre et laisse-la chauffer environ 5 minutes, puis gratte-la avec une brosse à gril. Trempe une liasse de papier absorbant dans l'huile végétale, tiens-la avec une pince et huile la grille. Pose le plat en aluminium avec le rôti sur la grille, du côté opposé aux braises. Ouvre les évents du couvercle aux trois quarts et couvre, l'évent placé au-dessus de la viande pour que la fumée soit tirée à travers. Cuis trois heures en ajoutant environ huit briquettes toutes les heures pour tenir une température moyenne de 275F, et arrose le rôti de sa marinade chaque fois que tu ajoutes du charbon. Place ensuite une grille au milieu du four et chauffe-le à 325F. Enveloppe complètement le plat de papier d'aluminium épais, en prenant garde de ne pas renverser le liquide de marinade.",
+          "Pose les copeaux sur les braises. Mets la grille en place, couvre et laisse-la chauffer environ 5 minutes, puis gratte-la avec une brosse à gril. Trempe une liasse de papier absorbant dans l'huile végétale, tiens-la avec une pince et huile la grille. Pose le plat en aluminium avec le rôti sur la grille, du côté opposé aux braises. Ouvre les évents du couvercle aux trois quarts et couvre, l'évent placé au-dessus de la viande pour que la fumée soit tirée à travers. Cuis trois heures en ajoutant environ huit briquettes toutes les heures pour tenir une température moyenne de 140 °C, et arrose le rôti de sa marinade chaque fois que tu ajoutes du charbon. Place ensuite une grille au milieu du four et chauffe-le à 160 °C. Enveloppe complètement le plat de papier d'aluminium épais, en prenant garde de ne pas renverser le liquide de marinade.",
           "Mets le plat au four et cuis jusqu'à ce que la viande cède à la fourchette, environ 2 heures. Glisse ensuite délicatement le plat emballé d'aluminium dans un sac en papier brun et pince l'extrémité pour la fermer.",
-          "Laisse reposer 1 heure. Le plus simple est de coucher le sac ouvert sur le côté et d'y glisser le rôti plutôt que de le laisser tomber, puis de replier l'ouverture et de la scotcher. Pendant le repos, prépare la sauce barbecue. Pour du vrai style Caroline du Sud, fais la marinade à la moutarde ci-dessus ; pour quelque chose de plus épais et plus vif avec du piquant en fin de bouche, prends la sauce ci-dessous — c'est surtout des choses en bocaux et en bouteilles, mais elle est bruyante dans le bon sens. Dans une grande casserole à feu doux, fais revenir les oignons et l'ail dans l'huile jusqu'à ce que les oignons deviennent translucides, environ 10 à 15 minutes.",
-          "Ajoute le reste des ingrédients et laisse mijoter à découvert à feu doux 30 minutes. Utilise-la tout de suite ou garde-la au frigo ; ça fait environ 6 tasses et elle se congèle à merveille, si bien qu'un gros lot fait à l'automne sera encore là quand tu en voudras. Une fois le porc reposé, pose le rôti sur une planche et jette le liquide de marinade et le plat. Quand c'est assez froid pour être manipulé, sépare le rôti en morceaux, retire le gras si tu veux, et effiloche la viande avec les doigts. Les fourchettes font aussi bien sans se salir les mains.",
-          "Mets la viande effilochée dans un grand bol et mélange-la avec 1 tasse de sauce barbecue, en ajoutant plus au goût.",
+          "Laisse reposer 1 heure. Le plus simple est de coucher le sac ouvert sur le côté et d'y glisser le rôti plutôt que de le laisser tomber, puis de replier l'ouverture et de la scotcher. Pendant le repos, prépare la sauce barbecue. Pour du vrai style Caroline du Sud, fais la marinade à la moutarde ci-dessus; pour quelque chose de plus épais et plus vif avec du piquant en fin de bouche, prends la sauce ci-dessous — c'est surtout des choses en bocaux et en bouteilles, mais elle est bruyante dans le bon sens. Dans une grande casserole à feu doux, fais revenir les oignons et l'ail dans l'huile jusqu'à ce que les oignons deviennent translucides, environ 10 à 15 minutes.",
+          "Ajoute le reste des ingrédients et laisse mijoter à découvert à feu doux 30 minutes. Utilise-la tout de suite ou garde-la au frigo; ça fait environ 1440 ml et elle se congèle à merveille, si bien qu'un gros lot fait à l'automne sera encore là quand tu en voudras. Une fois le porc reposé, pose le rôti sur une planche et jette le liquide de marinade et le plat. Quand c'est assez froid pour être manipulé, sépare le rôti en morceaux, retire le gras si tu veux, et effiloche la viande avec les doigts. Les fourchettes font aussi bien sans se salir les mains.",
+          "Mets la viande effilochée dans un grand bol et mélange-la avec 240 ml de sauce barbecue, en ajoutant plus au goût.",
           "Sers, et fais passer le reste de la sauce à part."
         ]
       }
@@ -9607,7 +9607,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Pain aux bananes et aux noix sans gluten Curious George's",
         "subtitle": "Un pain à la banane sans gluten qui prend son temps",
-        "description": "Un cake banane-noix sans blé, cuit bas et longtemps jusqu'à ce que le dessus brunisse et que le centre cède légèrement sous le doigt. Grille les noix d'abord ; ça change plus que ça ne devrait.",
+        "description": "Un cake banane-noix sans blé, cuit bas et longtemps jusqu'à ce que le dessus brunisse et que le centre cède légèrement sous le doigt. Grille les noix d'abord; ça change plus que ça ne devrait.",
         "instructions": [
           "Préchauffe le four à 350.",
           "Beurre un moule à cake et réserve.",
@@ -9772,7 +9772,7 @@ window.initialRecipes = [
         "subtitle": "Peanut butter cookie, cut into bars",
         "description": "A peanut butter and oat dough pressed flat into a dish, scattered with peanut butter candy and baked until just set. It makes enough for two dishes, so half can wait in the fridge for another day.",
         "instructions": [
-          "Heat the oven to 375 degrees. In a small bowl with the melted butter, beat in the brown sugar, granulated sugar, peanut butter and eggs, then set it aside. In a separate bowl, combine the flour, bran, oats and baking soda. Stir that mixture into the butter mixture. Press half the dough out into each of your glass baking dishes.",
+          "Heat the oven to 190 °C. In a small bowl with the melted butter, beat in the brown sugar, granulated sugar, peanut butter and eggs, then set it aside. In a separate bowl, combine the flour, bran, oats and baking soda. Stir that mixture into the butter mixture. Press half the dough out into each of your glass baking dishes.",
           "Scatter the peanut butter candy pieces across the top. Bake until done, testing with a toothpick, approximately 19 minutes. Bake the rest of the batter now if you want it, or keep it in the fridge for another time.",
           "Move it to a rack to cool. Cut into bars to serve — and let it cool first, or they'll fall apart on the knife."
         ]
@@ -9782,7 +9782,7 @@ window.initialRecipes = [
         "subtitle": "Pindakaaskoek, in repen gesneden",
         "description": "Een deeg van pindakaas en haver plat in een schaal gedrukt, bestrooid met pindakaassnoepjes en gebakken tot het net gaar is. Er is genoeg voor twee schalen, dus de helft mag in de koelkast wachten op een andere dag.",
         "instructions": [
-          "Verwarm de oven op 375 graden. Klop in een kleine kom met de gesmolten boter de bruine suiker, kristalsuiker, pindakaas en eieren erdoor, en zet opzij. Meng in een aparte kom de bloem, zemelen, haver en zuiveringszout. Roer dat mengsel door het botermengsel. Druk de helft van het deeg uit in elk van je glazen bakvormen.",
+          "Verwarm de oven op 190 °C. Klop in een kleine kom met de gesmolten boter de bruine suiker, kristalsuiker, pindakaas en eieren erdoor, en zet opzij. Meng in een aparte kom de bloem, zemelen, haver en zuiveringszout. Roer dat mengsel door het botermengsel. Druk de helft van het deeg uit in elk van je glazen bakvormen.",
           "Strooi de stukjes pindakaassnoep over de bovenkant. Bak tot het gaar is, test met een tandenstoker, ongeveer 19 minuten. Bak de rest van het deeg nu als je wil, of zet het in de koelkast voor een andere keer.",
           "Zet het op een rooster om af te koelen. Snijd het in repen om te serveren — en laat het eerst afkoelen, anders vallen ze op het mes uit elkaar."
         ]
@@ -9792,7 +9792,7 @@ window.initialRecipes = [
         "subtitle": "Un cookie au beurre de cacahuète, coupé en barres",
         "description": "Une pâte au beurre de cacahuète et à l'avoine pressée à plat dans un plat, parsemée de bonbons au beurre de cacahuète et cuite juste à point. Il y en a pour deux plats, alors la moitié peut attendre au frigo pour un autre jour.",
         "instructions": [
-          "Chauffe le four à 375 degrés. Dans un petit bol avec le beurre fondu, incorpore la cassonade, le sucre cristallisé, le beurre de cacahuète et les œufs, puis réserve. Dans un autre bol, mélange la farine, le son, les flocons d'avoine et le bicarbonate. Incorpore ce mélange à celui au beurre. Presse la moitié de la pâte dans chacun de tes plats en verre.",
+          "Chauffe le four à 190 °C. Dans un petit bol avec le beurre fondu, incorpore la cassonade, le sucre cristallisé, le beurre de cacahuète et les œufs, puis réserve. Dans un autre bol, mélange la farine, le son, les flocons d'avoine et le bicarbonate. Incorpore ce mélange à celui au beurre. Presse la moitié de la pâte dans chacun de tes plats en verre.",
           "Parsème les morceaux de bonbon au beurre de cacahuète sur le dessus. Cuis jusqu'à cuisson complète, en testant au cure-dent, environ 19 minutes. Cuis le reste de la pâte maintenant si tu veux, ou garde-le au frigo pour une autre fois.",
           "Sors sur une grille pour refroidir. Coupe en barres pour servir — et laisse refroidir d'abord, sinon elles se déferont sur le couteau."
         ]
@@ -9963,9 +9963,9 @@ window.initialRecipes = [
         "instructions": [
           "Dissolve the yeast in warm water as the package instructs, and set it aside.",
           "Put the sugar, shortening, salt and hot water in a bowl. Stir until the shortening has melted and the sugar dissolved, then let it cool to lukewarm. Lukewarm matters — hot liquid would kill the yeast you just woke up.",
-          "Add the cream, egg, 3 cups flour and the yeast to the sugar-shortening mixture. Attach the bowl and dough hook, turn to speed \"2\" and mix 2 minutes.",
-          "Add the remaining flour, 1/2 cup at a time, until the dough clings to the hook and pulls clean off the sides of the bowl, about 5 minutes longer.",
-          "Put the dough on a lightly floured board and roll it into a 10x24 inch rectangle. With a sharp knife, cut it into 2-inch squares. In a large heavy saucepan or a deep fryer, heat the oil to 360 degrees. Fry them, turning to brown both sides, about 3 minutes. Keep an eye on that temperature between batches; cold oil makes greasy beignets.",
+          "Add the cream, egg, 380 g flour and the yeast to the sugar-shortening mixture. Attach the bowl and dough hook, turn to speed \"2\" and mix 2 minutes.",
+          "Add the remaining flour, 65 g at a time, until the dough clings to the hook and pulls clean off the sides of the bowl, about 5 minutes longer.",
+          "Put the dough on a lightly floured board and roll it into a 25x61 cm rectangle. With a sharp knife, cut it into 5 cm squares. In a large heavy saucepan or a deep fryer, heat the oil to 180 °C. Fry them, turning to brown both sides, about 3 minutes. Keep an eye on that temperature between batches; cold oil makes greasy beignets.",
           "Drain them on absorbent towels and bury them in powdered sugar."
         ]
       },
@@ -9976,9 +9976,9 @@ window.initialRecipes = [
         "instructions": [
           "Los de gist op in warm water volgens de instructies op de verpakking en zet opzij.",
           "Doe de suiker, het bakvet, het zout en het hete water in een kom. Roer tot het bakvet gesmolten is en de suiker opgelost, en laat het dan afkoelen tot lauw. Lauw is belangrijk — heet vocht zou de gist doden die je net gewekt hebt.",
-          "Voeg de room, het ei, 3 kopjes bloem en de gist bij het suiker-bakvetmengsel. Bevestig de kom en de deeghaak, zet op snelheid \"2\" en meng 2 minuten.",
-          "Voeg de resterende bloem toe, 1/2 kopje per keer, tot het deeg aan de haak hangt en de zijkanten van de kom schoon achterlaat, ongeveer 5 minuten langer.",
-          "Leg het deeg op een licht bebloemde plank en rol het uit tot een rechthoek van 10 x 24 inch. Snijd het met een scherp mes in vierkanten van 2 inch. Verhit de olie in een grote, zware pan of frituurpan tot 360 graden. Bak ze en draai ze zodat beide kanten bruinen, ongeveer 3 minuten. Hou die temperatuur tussen de porties in de gaten; koude olie geeft vette beignets.",
+          "Voeg de room, het ei, 380 g bloem en de gist bij het suiker-bakvetmengsel. Bevestig de kom en de deeghaak, zet op snelheid \"2\" en meng 2 minuten.",
+          "Voeg de resterende bloem toe, 65 g per keer, tot het deeg aan de haak hangt en de zijkanten van de kom schoon achterlaat, ongeveer 5 minuten langer.",
+          "Leg het deeg op een licht bebloemde plank en rol het uit tot een rechthoek van 25x61 cm. Snijd het met een scherp mes in vierkanten van 5 cm. Verhit de olie in een grote, zware pan of frituurpan tot 180 °C. Bak ze en draai ze zodat beide kanten bruinen, ongeveer 3 minuten. Hou die temperatuur tussen de porties in de gaten; koude olie geeft vette beignets.",
           "Laat ze uitlekken op keukenpapier en bedelf ze onder de poedersuiker."
         ]
       },
@@ -9989,9 +9989,9 @@ window.initialRecipes = [
         "instructions": [
           "Dissous la levure dans l'eau tiède selon les instructions du paquet et réserve.",
           "Mets le sucre, le shortening, le sel et l'eau chaude dans un bol. Remue jusqu'à ce que le shortening soit fondu et le sucre dissous, puis laisse refroidir jusqu'à tiède. Tiède, c'est important — un liquide chaud tuerait la levure que tu viens de réveiller.",
-          "Ajoute la crème, l'œuf, 3 tasses de farine et la levure au mélange sucre-shortening. Fixe le bol et le crochet pétrisseur, passe à la vitesse « 2 » et mélange 2 minutes.",
-          "Ajoute le reste de la farine, 1/2 tasse à la fois, jusqu'à ce que la pâte s'accroche au crochet et décolle proprement les parois du bol, environ 5 minutes de plus.",
-          "Pose la pâte sur une planche légèrement farinée et étale-la en un rectangle de 10 x 24 pouces. Au couteau bien aiguisé, coupe-la en carrés de 2 pouces. Dans une grande casserole à fond épais ou une friteuse, chauffe l'huile à 360 degrés. Fais-les frire en les retournant pour dorer les deux faces, environ 3 minutes. Surveille cette température entre les fournées ; une huile froide donne des beignets gras.",
+          "Ajoute la crème, l'œuf, 380 g de farine et la levure au mélange sucre-shortening. Fixe le bol et le crochet pétrisseur, passe à la vitesse « 2 » et mélange 2 minutes.",
+          "Ajoute le reste de la farine, 65 g à la fois, jusqu'à ce que la pâte s'accroche au crochet et décolle proprement les parois du bol, environ 5 minutes de plus.",
+          "Pose la pâte sur une planche légèrement farinée et étale-la en un rectangle de 25x61 cm. Au couteau bien aiguisé, coupe-la en carrés de 5 cm. Dans une grande casserole à fond épais ou une friteuse, chauffe l'huile à 180 °C. Fais-les frire en les retournant pour dorer les deux faces, environ 3 minutes. Surveille cette température entre les fournées; une huile froide donne des beignets gras.",
           "Égoutte-les sur du papier absorbant et ensevelis-les sous le sucre glace."
         ]
       }
@@ -10147,7 +10147,7 @@ window.initialRecipes = [
         "subtitle": "The whole beetroot, leaves and all",
         "description": "Beets and their greens cooked with leek and garlic, with a poached egg on top and parmesan over that. The leaves are the point — most people throw them away, and they're the best part.",
         "instructions": [
-          "Heat a small skillet over medium-low heat with 2 inches of water, until small bubbles start to rise. You want it trembling, never boiling; a rolling boil shreds a poached egg.",
+          "Heat a small skillet over medium-low heat with 5 cm of water, until small bubbles start to rise. You want it trembling, never boiling; a rolling boil shreds a poached egg.",
           "Add a pinch of salt and the vinegar. Crack the eggs gently into the water, sliding them in slowly. Cover and let them simmer 8 to 10 minutes, until the white is set and the yolks are still runny. A runny yolk is the sauce for this dish, so don't let it go past.",
           "Heat a large nonstick skillet over medium heat with the coconut oil.",
           "Add the leeks and sliced beets. Cook for 5 to 8 minutes, until both are tender.",
@@ -10175,7 +10175,7 @@ window.initialRecipes = [
         "subtitle": "La betterave entière, fanes comprises",
         "description": "Des betteraves et leurs fanes cuites avec du poireau et de l'ail, un œuf poché dessus et du parmesan par-dessus encore. Les fanes sont l'essentiel — la plupart des gens les jettent, et c'est le meilleur.",
         "instructions": [
-          "Chauffe une petite poêle à feu moyen-doux avec 2 doigts d'eau, jusqu'à ce que de petites bulles commencent à monter. Elle doit frémir, jamais bouillir ; une grosse ébullition met un œuf poché en lambeaux.",
+          "Chauffe une petite poêle à feu moyen-doux avec 2 doigts d'eau, jusqu'à ce que de petites bulles commencent à monter. Elle doit frémir, jamais bouillir; une grosse ébullition met un œuf poché en lambeaux.",
           "Ajoute une pincée de sel et le vinaigre. Casse délicatement les œufs dans l'eau en les y glissant lentement. Couvre et laisse pocher 8 à 10 minutes, jusqu'à ce que le blanc soit pris et les jaunes encore coulants. Ce jaune coulant est la sauce du plat, alors ne le laisse pas aller trop loin.",
           "Chauffe une grande poêle antiadhésive à feu moyen avec l'huile de coco.",
           "Ajoute les poireaux et les betteraves en tranches. Cuis 5 à 8 minutes, jusqu'à ce que les deux soient tendres.",
@@ -10325,7 +10325,7 @@ window.initialRecipes = [
         "description": "Raisins left overnight in warm rum, folded into a soda bread with rosemary and toasted pecans. No yeast, no proving — but the raisins want a night to themselves, so start it the day before.",
         "instructions": [
           "Combine the rum and raisins in a small saucepan and bring to a boil. Simmer for 30 seconds, then take it off the heat. Cover it and let the raisins macerate at least 4 hours, and overnight if you can manage it.",
-          "When you're ready to bake, heat the oven to 375F.",
+          "When you're ready to bake, heat the oven to 190 °C.",
           "Coat a baking sheet with olive oil and dust it lightly with flour, or just line it with parchment paper.",
           "In a large bowl, whisk the flours, baking soda, salt and rosemary together, then stir in the toasted pecans.",
           "In a separate bowl, combine the raisins with their rum, the yogurt and the honey.",
@@ -10347,7 +10347,7 @@ window.initialRecipes = [
         "description": "Rozijnen een nacht in warme rum gelegd, door een sodabrood met rozemarijn en geroosterde pecannoten gespateld. Geen gist, geen rijzen — maar die rozijnen willen een nacht voor zichzelf, dus begin de dag ervoor.",
         "instructions": [
           "Doe de rum en de rozijnen samen in een klein pannetje en breng aan de kook. Laat 30 seconden sudderen en haal dan van het vuur. Dek af en laat de rozijnen minstens 4 uur macereren, en een hele nacht als het lukt.",
-          "Als je klaar bent om te bakken, verwarm je de oven op 375F.",
+          "Als je klaar bent om te bakken, verwarm je de oven op 190 °C.",
           "Bestrijk een bakplaat met olijfolie en bestuif ze licht met bloem, of bekleed ze gewoon met bakpapier.",
           "Klop in een grote kom de bloemsoorten, het zuiveringszout, het zout en de rozemarijn samen, en roer er dan de geroosterde pecannoten door.",
           "Meng in een aparte kom de rozijnen met hun rum, de yoghurt en de honing.",
@@ -10369,7 +10369,7 @@ window.initialRecipes = [
         "description": "Des raisins secs laissés une nuit dans du rhum tiède, incorporés à un pain soda au romarin et aux noix de pécan grillées. Pas de levure, pas de pousse — mais les raisins veulent une nuit à eux, alors commence la veille.",
         "instructions": [
           "Réunis le rhum et les raisins secs dans une petite casserole et porte à ébullition. Laisse frémir 30 secondes, puis retire du feu. Couvre et laisse macérer les raisins au moins 4 heures, et toute la nuit si tu peux.",
-          "Quand tu es prêt à cuire, chauffe le four à 375F.",
+          "Quand tu es prêt à cuire, chauffe le four à 190 °C.",
           "Enduis une plaque d'huile d'olive et farine-la légèrement, ou tapisse-la simplement de papier cuisson.",
           "Dans un grand bol, mélange au fouet les farines, le bicarbonate, le sel et le romarin, puis incorpore les noix de pécan grillées.",
           "Dans un autre bol, réunis les raisins avec leur rhum, le yaourt et le miel.",
@@ -10569,7 +10569,7 @@ window.initialRecipes = [
         "subtitle": "Des baies et du citron vert, tout droit du congélateur",
         "description": "Des baies surgelées mixées avec de la limonade au citron vert et du lait d'amande jusqu'à consistance lisse. C'est le citron vert qui l'empêche d'avoir le goût d'un milkshake — sans lui, ce n'est que sucré.",
         "instructions": [
-          "Mets tout dans le bol de ton blender. Pulse 3 à 4 fois pour briser les ingrédients, puis lance-le à pleine vitesse environ une minute, jusqu'à ce que ce soit parfaitement lisse. La durée dépend entièrement de la puissance de ton blender ; ça peut être plus long, ou plus court.",
+          "Mets tout dans le bol de ton blender. Pulse 3 à 4 fois pour briser les ingrédients, puis lance-le à pleine vitesse environ une minute, jusqu'à ce que ce soit parfaitement lisse. La durée dépend entièrement de la puissance de ton blender; ça peut être plus long, ou plus court.",
           "Ajoute du liquide au besoin — cela dépend de la quantité d'eau que tes fruits rendent. Si c'est trop épais, ajoute du lait d'amande ou de la limonade jusqu'à la consistance voulue.",
           "Bois-les tout de suite, ou verse dans un récipient hermétique allant au congélateur et congèle jusqu'à 2 mois. Décongèle 24 heures au réfrigérateur avant de servir."
         ]
@@ -11024,7 +11024,7 @@ window.initialRecipes = [
         "instructions": [
           "Mets l'ail, les anchois avec leur huile, le romarin et le jus de citron dans un robot. Mixe jusqu'à ce que ce soit assez lisse.",
           "Ajoute du jus de citron, puis l'huile d'olive, et continue de mixer jusqu'à consistance lisse. Couvre et réserve. Assaisonne le poulet avec les flocons de piment rouge, l'assaisonnement pour volaille et une pincée de sel casher, et réserve aussi. Mets une casserole d'eau à bouillir pour les pâtes.",
-          "Ajoute une pincée de sel à l'eau. Une fois à ébullition, cuis les pâtes comme tu les aimes, environ 6 à 9 minutes pour al dente. Pendant ce temps, verse un peu d'huile d'olive dans une large poêle ; quand elle est chaude, ajoute le poulet et cuis jusqu'à ce qu'il n'y ait plus de rose à l'intérieur, environ 5 à 7 minutes.",
+          "Ajoute une pincée de sel à l'eau. Une fois à ébullition, cuis les pâtes comme tu les aimes, environ 6 à 9 minutes pour al dente. Pendant ce temps, verse un peu d'huile d'olive dans une large poêle; quand elle est chaude, ajoute le poulet et cuis jusqu'à ce qu'il n'y ait plus de rose à l'intérieur, environ 5 à 7 minutes.",
           "Égoutte les pâtes et fais-les tomber directement dans la poêle avec le poulet, pendant que tout est encore chaud.",
           "Ajoute la sauce aux anchois et remue jusqu'à ce que chaque brin soit enrobé.",
           "Parsème de persil frais si tu veux."
@@ -11730,7 +11730,7 @@ window.initialRecipes = [
           "Let it warm just enough to roll out.",
           "Roll out the crust to fit your pie dish. You may need to patch a piece or two, but none of it will show to whoever eats it. Wrap the pie dish in plastic and chill 30 minutes.",
           "Pour the filling into the crust. Wrap the pie in plastic again and chill.",
-          "Roll out the other dough disk and cut shapes for the top with your favourite cookie cutters. Take the pie out of the fridge and decorate the top, remembering to leave gaps for the steam to escape. Cover the edges with foil and bake at 325 degrees F for 40 minutes.",
+          "Roll out the other dough disk and cut shapes for the top with your favourite cookie cutters. Take the pie out of the fridge and decorate the top, remembering to leave gaps for the steam to escape. Cover the edges with foil and bake at 160 °C for 40 minutes.",
           "Take the foil off and bake on until the top is golden brown and the filling is bubbling up through the gaps.",
           "Let it cool. Warm fruit pie runs everywhere; a cooled one cuts."
         ]
@@ -11747,7 +11747,7 @@ window.initialRecipes = [
           "Laat het net genoeg opwarmen om uit te rollen.",
           "Rol de korst uit zodat hij in je taartvorm past. Misschien moet je hier en daar een stukje aanplakken, maar wie het eet zal er niets van zien. Wikkel de taartvorm in plastic en zet hem 30 minuten koud.",
           "Giet de vulling in de korst. Wikkel de taart opnieuw in plastic en zet hem koud.",
-          "Rol de andere deegschijf uit en steek er met je favoriete koekjesvormen vormpjes uit voor de bovenkant. Haal de taart uit de koelkast en versier de bovenkant, en denk eraan gaten te laten waar de stoom door kan. Bedek de randen met folie en bak op 325 graden F gedurende 40 minuten.",
+          "Rol de andere deegschijf uit en steek er met je favoriete koekjesvormen vormpjes uit voor de bovenkant. Haal de taart uit de koelkast en versier de bovenkant, en denk eraan gaten te laten waar de stoom door kan. Bedek de randen met folie en bak op 160 °C gedurende 40 minuten.",
           "Haal de folie eraf en bak verder tot de bovenkant goudbruin is en de vulling door de openingen omhoog borrelt.",
           "Laat hem afkoelen. Een warme fruittaart loopt overal uit; een afgekoelde snijdt."
         ]
@@ -11764,9 +11764,9 @@ window.initialRecipes = [
           "Laisse-la se réchauffer juste assez pour pouvoir l'étaler.",
           "Étale la pâte pour l'ajuster à ton moule. Tu devras peut-être rapiécer un endroit ou deux, mais personne à table ne le verra. Enveloppe le moule de film et réfrigère 30 minutes.",
           "Verse la garniture dans le fond de tarte. Enveloppe de nouveau la tarte de film et réfrigère.",
-          "Étale l'autre disque de pâte et découpe des formes pour le dessus avec tes emporte-pièces préférés. Sors la tarte du frigo et décore le dessus, en pensant à laisser des ouvertures pour la vapeur. Couvre les bords de papier d'aluminium et cuis à 325 degrés F pendant 40 minutes.",
+          "Étale l'autre disque de pâte et découpe des formes pour le dessus avec tes emporte-pièces préférés. Sors la tarte du frigo et décore le dessus, en pensant à laisser des ouvertures pour la vapeur. Couvre les bords de papier d'aluminium et cuis à 160 °C pendant 40 minutes.",
           "Retire l'aluminium et poursuis la cuisson jusqu'à ce que le dessus soit bien doré et que la garniture bouillonne par les ouvertures.",
-          "Laisse refroidir. Une tarte aux fruits chaude coule partout ; une tarte refroidie se coupe."
+          "Laisse refroidir. Une tarte aux fruits chaude coule partout; une tarte refroidie se coupe."
         ]
       }
     },
@@ -11945,10 +11945,10 @@ window.initialRecipes = [
         "subtitle": "Chicken rolled round cheese, wrapped in bacon",
         "description": "Chicken beaten thin, filled with cream cheese cooked through with onion and garlic, rolled up and bound in a rasher of bacon. The bacon holds it shut and bastes it at the same time.",
         "instructions": [
-          "Heat the oven to 350 F. In a small skillet, sweat the onions over medium-low heat in the butter or olive oil until soft and translucent, about 5 minutes.",
+          "Heat the oven to 180 °C. In a small skillet, sweat the onions over medium-low heat in the butter or olive oil until soft and translucent, about 5 minutes.",
           "Add the garlic and cook another minute, then take it off the heat and let it cool. In another skillet, cook the bacon over low heat until it's soft and the fat is beginning to render, but don't let it brown — it still has the oven to go.",
           "Lift the bacon onto a paper towel and set it aside.",
-          "Put the chicken breasts between two sheets of waxed paper and pound them evenly to 1/4-inch thickness, with the smooth side of a meat mallet or a small heavy pan. Season both sides with salt and pepper. Stir the onion and garlic into the cream cheese until well blended, then divide it between the breasts, a dollop in the centre of each.",
+          "Put the chicken breasts between two sheets of waxed paper and pound them evenly to 6 mm thickness, with the smooth side of a meat mallet or a small heavy pan. Season both sides with salt and pepper. Stir the onion and garlic into the cream cheese until well blended, then divide it between the breasts, a dollop in the centre of each.",
           "Roll or fold the chicken around the cream cheese, tucking the ends under and securing them with toothpicks. Count the toothpicks as they go in, so you can count them out again.",
           "Sprinkle the tarragon evenly over the parcels and wrap each in a piece of bacon.",
           "Set them in an 8x11 baking dish and drizzle over the melted butter.",
@@ -11961,10 +11961,10 @@ window.initialRecipes = [
         "subtitle": "Kip rond kaas gerold, in spek gewikkeld",
         "description": "Kip dun geslagen, gevuld met roomkaas waar ui en knoflook doorheen gegaard zijn, opgerold en met een reep spek dichtgebonden. Het spek houdt het dicht en bedruipt het tegelijk.",
         "instructions": [
-          "Verwarm de oven op 350 F. Zweet de uien in een kleine koekenpan op middelhoog-laag vuur in de boter of olijfolie tot ze zacht en doorschijnend zijn, ongeveer 5 minuten.",
+          "Verwarm de oven op 180 °C. Zweet de uien in een kleine koekenpan op middelhoog-laag vuur in de boter of olijfolie tot ze zacht en doorschijnend zijn, ongeveer 5 minuten.",
           "Voeg de knoflook toe en gaar nog een minuut, haal dan van het vuur en laat afkoelen. Bak in een andere pan het spek op laag vuur tot het zacht is en het vet begint uit te lopen, maar laat het niet bruinen — het moet de oven nog in.",
           "Leg het spek op keukenpapier en zet het opzij.",
-          "Leg de kipfilets tussen twee vellen vetvrij papier en sla ze gelijkmatig plat tot een dikte van 1/4 inch, met de gladde kant van een vleeshamer of een kleine zware pan. Kruid beide kanten met peper en zout. Roer de ui en knoflook door de roomkaas tot alles goed gemengd is en verdeel die dan over de filets, een klodder in het midden van elk.",
+          "Leg de kipfilets tussen twee vellen vetvrij papier en sla ze gelijkmatig plat tot een dikte van 6 mm, met de gladde kant van een vleeshamer of een kleine zware pan. Kruid beide kanten met peper en zout. Roer de ui en knoflook door de roomkaas tot alles goed gemengd is en verdeel die dan over de filets, een klodder in het midden van elk.",
           "Rol of vouw de kip rond de roomkaas, stop de uiteinden eronder en zet ze vast met tandenstokers. Tel de tandenstokers als je ze erin steekt, zodat je ze er weer uit kan tellen.",
           "Verdeel de dragon gelijkmatig over de pakketjes en wikkel elk in een reep spek.",
           "Zet ze in een ovenschaal van 8x11 en sprenkel de gesmolten boter erover.",
@@ -11977,10 +11977,10 @@ window.initialRecipes = [
         "subtitle": "Du poulet roulé autour du fromage, enrobé de lard",
         "description": "Du poulet aplati, garni de fromage frais additionné d'oignon et d'ail cuits, roulé et ceinturé d'une tranche de lard. Le lard le maintient fermé et l'arrose en même temps.",
         "instructions": [
-          "Chauffe le four à 350 F. Dans une petite poêle, fais suer les oignons à feu moyen-doux dans le beurre ou l'huile d'olive jusqu'à ce qu'ils soient tendres et translucides, environ 5 minutes.",
+          "Chauffe le four à 180 °C. Dans une petite poêle, fais suer les oignons à feu moyen-doux dans le beurre ou l'huile d'olive jusqu'à ce qu'ils soient tendres et translucides, environ 5 minutes.",
           "Ajoute l'ail et cuis encore une minute, puis retire du feu et laisse refroidir. Dans une autre poêle, cuis le lard à feu doux jusqu'à ce qu'il soit souple et que la graisse commence à fondre, mais ne le laisse pas dorer — il lui reste le four à faire.",
           "Dépose le lard sur du papier absorbant et réserve.",
-          "Place les blancs de poulet entre deux feuilles de papier sulfurisé et aplatis-les régulièrement à 1/4 de pouce d'épaisseur, avec le côté lisse d'un maillet ou une petite poêle lourde. Assaisonne les deux faces de sel et de poivre. Incorpore l'oignon et l'ail au fromage frais jusqu'à bon mélange, puis répartis-le entre les blancs, une cuillerée au centre de chacun.",
+          "Place les blancs de poulet entre deux feuilles de papier sulfurisé et aplatis-les régulièrement à 6 mm d'épaisseur, avec le côté lisse d'un maillet ou une petite poêle lourde. Assaisonne les deux faces de sel et de poivre. Incorpore l'oignon et l'ail au fromage frais jusqu'à bon mélange, puis répartis-le entre les blancs, une cuillerée au centre de chacun.",
           "Roule ou replie le poulet autour du fromage, rentre les extrémités dessous et fixe avec des cure-dents. Compte les cure-dents en les plantant, pour pouvoir les recompter en les retirant.",
           "Parsème l'estragon uniformément sur les paquets et enveloppe chacun d'une tranche de lard.",
           "Range-les dans un plat de 8x11 et arrose du beurre fondu.",
@@ -12140,7 +12140,7 @@ window.initialRecipes = [
         "subtitle": "Mashed potato served inside a cabbage",
         "description": "Potato mashed with buttery cabbage and spring onion, spooned back into the hollowed-out cabbage head it came from. Irish, and it looks far grander on the table than the work it takes.",
         "instructions": [
-          "Cut into the top of the cabbage and hollow it out, leaving 3-4 outside leaves intact, and keep the part you scooped out. Plunge the hollowed head into a large amount of boiling water and simmer 5 minutes, until tender-crisp — it has to hold its shape, because it's the serving dish. Cool it quickly in cold water, then invert it and let it drain. Chop the reserved cabbage and measure out 1 1/2 cups. Stir fry that in butter with the green onions until tender, and set it aside. Boil and mash the potatoes with milk and seasonings, then stir in the sautéed cabbage and the parsley."
+          "Cut into the top of the cabbage and hollow it out, leaving 3-4 outside leaves intact, and keep the part you scooped out. Plunge the hollowed head into a large amount of boiling water and simmer 5 minutes, until tender-crisp — it has to hold its shape, because it's the serving dish. Cool it quickly in cold water, then invert it and let it drain. Chop the reserved cabbage and measure out 190 g. Stir fry that in butter with the green onions until tender, and set it aside. Boil and mash the potatoes with milk and seasonings, then stir in the sautéed cabbage and the parsley."
         ]
       },
       "nl": {
@@ -12148,7 +12148,7 @@ window.initialRecipes = [
         "subtitle": "Aardappelpuree opgediend ín een kool",
         "description": "Aardappel gestampt met boterige kool en lente-ui, teruggeschept in de uitgeholde koolkop waar ze vandaan kwam. Iers, en het staat veel indrukwekkender op tafel dan het werk dat het kost.",
         "instructions": [
-          "Snijd de bovenkant van de kool in en hol haar uit, laat 3-4 buitenste bladeren heel, en hou het uitgeschepte deel bij. Dompel de uitgeholde kop in een grote hoeveelheid kokend water en laat 5 minuten sudderen, tot ze gaar maar nog knapperig is — ze moet haar vorm houden, want ze is de schaal. Koel haar snel in koud water, keer ze om en laat ze uitlekken. Hak de bewaarde kool fijn en meet 1 1/2 kopjes af. Roerbak die in boter met de lente-uitjes tot ze zacht is, en zet opzij. Kook en stamp de aardappelen met melk en kruiden, en roer er dan de gebakken kool en de peterselie door."
+          "Snijd de bovenkant van de kool in en hol haar uit, laat 3-4 buitenste bladeren heel, en hou het uitgeschepte deel bij. Dompel de uitgeholde kop in een grote hoeveelheid kokend water en laat 5 minuten sudderen, tot ze gaar maar nog knapperig is — ze moet haar vorm houden, want ze is de schaal. Koel haar snel in koud water, keer ze om en laat ze uitlekken. Hak de bewaarde kool fijn en meet 190 g af. Roerbak die in boter met de lente-uitjes tot ze zacht is, en zet opzij. Kook en stamp de aardappelen met melk en kruiden, en roer er dan de gebakken kool en de peterselie door."
         ]
       },
       "fr": {
@@ -12156,7 +12156,7 @@ window.initialRecipes = [
         "subtitle": "De la purée servie dans un chou",
         "description": "De la pomme de terre écrasée avec du chou au beurre et de l'oignon nouveau, remise dans le chou évidé dont elle sort. Irlandais, et ça fait bien plus d'effet sur la table que le travail que ça demande.",
         "instructions": [
-          "Entaille le dessus du chou et évide-le en laissant 3-4 feuilles extérieures intactes, et garde la partie retirée. Plonge la tête évidée dans une grande quantité d'eau bouillante et laisse frémir 5 minutes, jusqu'à ce qu'elle soit tendre-croquante — elle doit garder sa forme, car c'est le plat de service. Refroidis-la vite à l'eau froide, retourne-la et laisse-la égoutter. Hache le chou réservé et mesure 1 1/2 tasse. Fais-le sauter au beurre avec les oignons verts jusqu'à tendreté, et réserve. Fais bouillir et écrase les pommes de terre avec le lait et les assaisonnements, puis incorpore le chou sauté et le persil."
+          "Entaille le dessus du chou et évide-le en laissant 3-4 feuilles extérieures intactes, et garde la partie retirée. Plonge la tête évidée dans une grande quantité d'eau bouillante et laisse frémir 5 minutes, jusqu'à ce qu'elle soit tendre-croquante — elle doit garder sa forme, car c'est le plat de service. Refroidis-la vite à l'eau froide, retourne-la et laisse-la égoutter. Hache le chou réservé et mesure 190 g. Fais-le sauter au beurre avec les oignons verts jusqu'à tendreté, et réserve. Fais bouillir et écrase les pommes de terre avec le lait et les assaisonnements, puis incorpore le chou sauté et le persil."
         ]
       }
     },
@@ -12498,7 +12498,7 @@ window.initialRecipes = [
           "Add the tomatoes and chili and cook over medium heat for 5 minutes, until most of the liquid has gone. Stir in the chili powder and paprika and cook 3 minutes, then add the refried beans, breaking them up with a fork.",
           "Add the measured water and cook, stirring occasionally, for 8-10 minutes, until the mixture thickens. Spoon the beans into the middle of a baking dish, stand the tortilla chips around the edge and sprinkle with cumin.",
           "Scatter the cheese over the beans and the chips.",
-          "Bake at 400 degrees for 15-20 minutes, until the cheese has melted.",
+          "Bake at 200 °C for 15-20 minutes, until the cheese has melted.",
           "Sprinkle the garnishing paprika over in a lattice pattern and serve immediately, while the cheese still pulls."
         ]
       },
@@ -12511,7 +12511,7 @@ window.initialRecipes = [
           "Voeg de tomaten en de chili toe en gaar op middelhoog vuur 5 minuten, tot het meeste vocht weg is. Roer het chilipoeder en de paprika erdoor en gaar 3 minuten, voeg dan de gebakken bonen toe en breek ze met een vork.",
           "Voeg het afgemeten water toe en gaar, af en toe roerend, 8-10 minuten, tot het mengsel indikt. Schep de bonen in het midden van een ovenschaal, zet de tortillachips langs de rand en bestrooi met komijn.",
           "Strooi de kaas over de bonen en de chips.",
-          "Bak op 400 graden gedurende 15-20 minuten, tot de kaas gesmolten is.",
+          "Bak op 200 °C gedurende 15-20 minuten, tot de kaas gesmolten is.",
           "Strooi de paprikapoeder er in een ruitpatroon overheen en dien meteen op, zolang de kaas nog draadjes trekt."
         ]
       },
@@ -12524,7 +12524,7 @@ window.initialRecipes = [
           "Ajoute les tomates et le piment et cuis à feu moyen 5 minutes, jusqu'à ce que l'essentiel du liquide se soit évaporé. Incorpore la poudre de chili et le paprika et cuis 3 minutes, puis ajoute les haricots frits en les écrasant à la fourchette.",
           "Ajoute l'eau mesurée et cuis, en remuant de temps en temps, 8 à 10 minutes, jusqu'à épaississement. Dépose les haricots au centre d'un plat, dresse les chips tortilla sur le pourtour et saupoudre de cumin.",
           "Parsème le fromage sur les haricots et les chips.",
-          "Cuis à 400 degrés pendant 15 à 20 minutes, jusqu'à ce que le fromage soit fondu.",
+          "Cuis à 200 °C pendant 15 à 20 minutes, jusqu'à ce que le fromage soit fondu.",
           "Saupoudre le paprika de garniture en treillis et sers immédiatement, tant que le fromage file encore."
         ]
       }
@@ -12947,7 +12947,7 @@ window.initialRecipes = [
         "subtitle": "Des crevettes brûlantes sur une salade froide",
         "description": "Des crevettes saisies vite avec ail et piment, du citron vert pressé dessus dans la poêle, et tout versé sur une salade d'avocat — sucs de cuisson compris. Ces sucs sont la vinaigrette que tu n'as pas faite.",
         "instructions": [
-          "Les crevettes d'abord. Chauffe l'huile d'olive dans une poêle et une fois chaude ajoute les crevettes, l'ail écrasé et les flocons de piment. Que l'huile soit vraiment chaude compte — sans fumer, juste avant — et les crevettes doivent grésiller à l'instant où elles tombent. Surveille le dos, et quand la couleur a changé jusqu'à mi-hauteur, retourne-les. Pareil de l'autre côté. Une minute à deux minutes maximum par face ; plus longtemps et elles deviennent caoutchouteuses, et de ça on ne revient pas. Presse le jus de citron vert dessus, qui doit lui aussi bouillonner et réduire.",
+          "Les crevettes d'abord. Chauffe l'huile d'olive dans une poêle et une fois chaude ajoute les crevettes, l'ail écrasé et les flocons de piment. Que l'huile soit vraiment chaude compte — sans fumer, juste avant — et les crevettes doivent grésiller à l'instant où elles tombent. Surveille le dos, et quand la couleur a changé jusqu'à mi-hauteur, retourne-les. Pareil de l'autre côté. Une minute à deux minutes maximum par face; plus longtemps et elles deviennent caoutchouteuses, et de ça on ne revient pas. Presse le jus de citron vert dessus, qui doit lui aussi bouillonner et réduire.",
           "Ajoute un peu de sel et de poivre, mélange, retire du feu et réserve.",
           "Mélange les ingrédients de la vinaigrette, goûte, rectifie si besoin, et réserve aussi.",
           "Mets tous les ingrédients de la salade dans un bol sauf l'avocat, le sel et le poivre. Ne coupe l'avocat qu'au moment de servir, sinon il brunit. Une fois enrobé de vinaigrette au citron vert, cela ralentit beaucoup et il garde sa couleur.",
@@ -13203,7 +13203,7 @@ window.initialRecipes = [
         "subtitle": "Wonton wrappers baked into little cups",
         "description": "Wonton wrappers pressed into a mini muffin tin and filled with crab and cream cheese, baked until the edges go brown and brittle. They come out as cups, and they disappear at parties.",
         "instructions": [
-          "Heat the oven to 350F and spray a mini muffin tin with nonstick cooking spray.",
+          "Heat the oven to 180 °C and spray a mini muffin tin with nonstick cooking spray.",
           "In a medium bowl, combine the crab meat, cream cheese, mayonnaise, soy sauce, garlic, onion powder and pepper.",
           "Mix until it's well combined.",
           "Press 1 won ton wrapper into each of the 12 mini muffin cups. The corners will stick up well beyond the tin and may need folding in a little — that's what gives them their ragged, pretty edges. Fill the middle of each with the crab mixture.",
@@ -13215,7 +13215,7 @@ window.initialRecipes = [
         "subtitle": "Wontonvelletjes gebakken tot kleine kopjes",
         "description": "Wontonvelletjes in een mini-muffinvorm gedrukt en gevuld met krab en roomkaas, gebakken tot de randen bruin en broos worden. Ze komen eruit als kopjes, en op een feestje verdwijnen ze.",
         "instructions": [
-          "Verwarm de oven op 350F en spuit een mini-muffinvorm in met anti-aanbakspray.",
+          "Verwarm de oven op 180 °C en spuit een mini-muffinvorm in met anti-aanbakspray.",
           "Meng in een middelgrote kom het krabvlees, de roomkaas, mayonaise, sojasaus, knoflook, uienpoeder en peper.",
           "Meng tot alles goed samengaat.",
           "Druk 1 wontonvelletje in elk van de 12 mini-muffinvormpjes. De punten steken ver boven de vorm uit en moeten misschien een beetje ingevouwen worden — dat is net wat ze hun rafelige, mooie randen geeft. Vul het midden van elk met het krabmengsel.",
@@ -13227,7 +13227,7 @@ window.initialRecipes = [
         "subtitle": "Des feuilles de wonton cuites en petites coupes",
         "description": "Des feuilles de wonton pressées dans un moule à mini-muffins et garnies de crabe et de fromage frais, cuites jusqu'à ce que les bords brunissent et deviennent cassants. Elles ressortent en coupelles, et à l'apéritif elles disparaissent.",
         "instructions": [
-          "Chauffe le four à 350F et vaporise un moule à mini-muffins d'enduit antiadhésif.",
+          "Chauffe le four à 180 °C et vaporise un moule à mini-muffins d'enduit antiadhésif.",
           "Dans un bol moyen, mélange la chair de crabe, le fromage à la crème, la mayonnaise, la sauce soja, l'ail, la poudre d'oignon et le poivre.",
           "Mélange jusqu'à ce que ce soit bien homogène.",
           "Presse 1 feuille de wonton dans chacune des 12 empreintes du moule. Les coins dépasseront largement et devront peut-être être repliés un peu — c'est ce qui leur donne ces bords déchiquetés si jolis. Garnis le centre de chacune du mélange au crabe.",
@@ -13362,7 +13362,7 @@ window.initialRecipes = [
         "subtitle": "Cheesecake with the berries hidden inside",
         "description": "A baked cheesecake with no eggs in it, white chocolate through the filling and blueberries buried in the middle so they neither burn nor sink. It needs a long cold night before it will cut.",
         "instructions": [
-          "Combine the crushed digestive biscuits with the melted butter and mix thoroughly. Press the mixture firmly into a greased 10 inch springform tin — firmly, with the back of a spoon, or the base will crumble under the knife later. For the filling, beat all the ingredients together except the blueberries until thickened, and stop there; over-mixing is what cracks a cheesecake.",
+          "Combine the crushed digestive biscuits with the melted butter and mix thoroughly. Press the mixture firmly into a greased 25 cm springform tin — firmly, with the back of a spoon, or the base will crumble under the knife later. For the filling, beat all the ingredients together except the blueberries until thickened, and stop there; over-mixing is what cracks a cheesecake.",
           "Pour some of the mixture over the crust and scatter the blueberries across it.",
           "Pour the rest of the cheese mixture over the blueberries. Burying them this way keeps them from burning in the oven, and the flour they're dusted in stops them sinking to the bottom while it cooks.",
           "Bake at 180 degrees Celsius for 1 hour until set — I gave mine the full 1 hour, though a fan oven runs quicker, so start looking early. Let it cool, then refrigerate at least 8 hours.",
@@ -13386,7 +13386,7 @@ window.initialRecipes = [
         "subtitle": "Un cheesecake avec les baies cachées dedans",
         "description": "Un cheesecake cuit sans œufs, au chocolat blanc dans l'appareil et aux myrtilles enfouies au milieu pour qu'elles ne brûlent ni ne coulent. Il lui faut une longue nuit au froid avant de se laisser couper.",
         "instructions": [
-          "Mélange les biscuits digestifs écrasés au beurre fondu et mélange à fond. Presse fermement le mélange dans un moule à charnière graissé de 25 cm — fermement, avec le dos d'une cuillère, sinon le fond s'émiettera sous le couteau. Pour l'appareil, bats tous les ingrédients ensemble sauf les myrtilles jusqu'à épaississement, et arrête-toi là ; trop mélanger est justement ce qui fait craquer un cheesecake.",
+          "Mélange les biscuits digestifs écrasés au beurre fondu et mélange à fond. Presse fermement le mélange dans un moule à charnière graissé de 25 cm — fermement, avec le dos d'une cuillère, sinon le fond s'émiettera sous le couteau. Pour l'appareil, bats tous les ingrédients ensemble sauf les myrtilles jusqu'à épaississement, et arrête-toi là; trop mélanger est justement ce qui fait craquer un cheesecake.",
           "Verse une partie de l'appareil sur le fond et répartis les myrtilles dessus.",
           "Verse le reste de l'appareil sur les myrtilles. Les enfouir ainsi les empêche de brûler au four, et la farine dont elles sont saupoudrées les empêche de couler au fond pendant la cuisson.",
           "Cuis à 180 degrés Celsius pendant 1 heure jusqu'à ce que ce soit pris — j'ai laissé le mien 1 heure pleine, mais un four ventilé va plus vite, alors surveille tôt. Laisse refroidir, puis réfrigère au moins 8 heures.",
@@ -13557,7 +13557,7 @@ window.initialRecipes = [
         "subtitle": "Cocoa cupcakes with no dairy anywhere",
         "description": "Cocoa cupcakes made with oil and coffee instead of butter and milk, filled with peanut butter and topped with marshmallow frosting. The coffee is there to make the cocoa taste of more.",
         "instructions": [
-          "Heat the oven to 350F and line a 12-cup muffin tin with paper liners. In a large bowl, whisk together the cocoa powder, flour, baking powder, baking soda and salt. In a medium bowl, whisk the egg, oil, sugars, flavorings and coffee. Stir the wet into the dry with a spoon or spatula. The batter will be somewhat lumpy — leave it that way, because mixing it smooth is what makes a tough cupcake. Fill the liners using an ice cream scoop, 1/4 cup at a time.",
+          "Heat the oven to 180 °C and line a 12-cup muffin tin with paper liners. In a large bowl, whisk together the cocoa powder, flour, baking powder, baking soda and salt. In a medium bowl, whisk the egg, oil, sugars, flavorings and coffee. Stir the wet into the dry with a spoon or spatula. The batter will be somewhat lumpy — leave it that way, because mixing it smooth is what makes a tough cupcake. Fill the liners using an ice cream scoop, 60 ml at a time.",
           "Put the chocolate into one bottom corner of a resealable plastic bag. Microwave on high about 30 seconds, then carry on in 10-second bursts until it's melted. Very carefully snip the tiniest corner off, making a hole small enough to drizzle a thin line of chocolate over the frosting. Sprinkle the peanuts lightly over the cupcakes. If you want to save time, skip making the peanut butter filling and use a jar of white chocolate peanut butter instead. And if you're not avoiding lactose, a cake mix will do for the cupcakes, though you'll have to double the other ingredients."
         ]
       },
@@ -13566,7 +13566,7 @@ window.initialRecipes = [
         "subtitle": "Cacaocupcakes zonder een spoor zuivel",
         "description": "Cacaocupcakes gemaakt met olie en koffie in plaats van boter en melk, gevuld met pindakaas en afgewerkt met marshmallowglazuur. Die koffie zit erin om de cacao naar méér te laten smaken.",
         "instructions": [
-          "Verwarm de oven op 350F en bekleed een muffinvorm met 12 holtes met papieren vormpjes. Klop in een grote kom het cacaopoeder, de bloem, het bakpoeder, het zuiveringszout en het zout samen. Klop in een middelgrote kom het ei, de olie, de suikers, de smaakstoffen en de koffie. Roer het natte met een lepel of spatel door het droge. Het beslag wordt wat klonterig — laat dat zo, want glad roeren is net wat een taaie cupcake oplevert. Vul de vormpjes met een ijsschep, 1/4 kopje per keer.",
+          "Verwarm de oven op 180 °C en bekleed een muffinvorm met 12 holtes met papieren vormpjes. Klop in een grote kom het cacaopoeder, de bloem, het bakpoeder, het zuiveringszout en het zout samen. Klop in een middelgrote kom het ei, de olie, de suikers, de smaakstoffen en de koffie. Roer het natte met een lepel of spatel door het droge. Het beslag wordt wat klonterig — laat dat zo, want glad roeren is net wat een taaie cupcake oplevert. Vul de vormpjes met een ijsschep, 60 ml per keer.",
           "Doe de chocolade in een onderste hoek van een hersluitbare plastic zak. Zet hem ongeveer 30 seconden op de hoogste stand in de magnetron en ga daarna verder met tussenpozen van 10 seconden tot ze gesmolten is. Knip heel voorzichtig het allerkleinste hoekje af, met een gaatje dat klein genoeg is om een dun lijntje chocolade over het glazuur te trekken. Strooi de pinda's lichtjes over de cupcakes. Wil je tijd sparen, sla dan de pindakaasvulling over en gebruik een pot pindakaas met witte chocolade. En als je geen lactose hoeft te mijden, mag er voor de cupcakes een cakemix bij, al moet je dan de overige ingrediënten verdubbelen."
         ]
       },
@@ -13575,7 +13575,7 @@ window.initialRecipes = [
         "subtitle": "Des cupcakes au cacao sans une trace de lait",
         "description": "Des cupcakes au cacao faits à l'huile et au café plutôt qu'au beurre et au lait, fourrés au beurre de cacahuète et coiffés d'un glaçage à la guimauve. Le café est là pour que le cacao ait davantage de goût.",
         "instructions": [
-          "Chauffe le four à 350F et garnis un moule à muffins de 12 empreintes de caissettes en papier. Dans un grand bol, fouette ensemble la poudre de cacao, la farine, la levure chimique, le bicarbonate et le sel. Dans un bol moyen, fouette l'œuf, l'huile, les sucres, les arômes et le café. Incorpore le liquide au sec à la cuillère ou à la spatule. La pâte sera un peu grumeleuse — laisse-la ainsi, car la lisser est exactement ce qui donne un cupcake dur. Remplis les caissettes à la cuillère à glace, 1/4 tasse à la fois.",
+          "Chauffe le four à 180 °C et garnis un moule à muffins de 12 empreintes de caissettes en papier. Dans un grand bol, fouette ensemble la poudre de cacao, la farine, la levure chimique, le bicarbonate et le sel. Dans un bol moyen, fouette l'œuf, l'huile, les sucres, les arômes et le café. Incorpore le liquide au sec à la cuillère ou à la spatule. La pâte sera un peu grumeleuse — laisse-la ainsi, car la lisser est exactement ce qui donne un cupcake dur. Remplis les caissettes à la cuillère à glace, 60 ml à la fois.",
           "Mets le chocolat dans un coin inférieur d'un sac plastique refermable. Passe au micro-ondes à pleine puissance environ 30 secondes, puis continue par intervalles de 10 secondes jusqu'à ce qu'il soit fondu. Coupe très prudemment le tout petit coin, avec un trou assez fin pour tracer un filet de chocolat sur le glaçage. Parsème légèrement les cacahuètes sur les cupcakes. Pour gagner du temps, saute la garniture au beurre de cacahuète et prends un pot de beurre de cacahuète au chocolat blanc. Et si tu n'évites pas le lactose, une préparation à gâteau fera l'affaire pour les cupcakes, mais il faudra doubler les autres ingrédients."
         ]
       }
@@ -13899,20 +13899,20 @@ window.initialRecipes = [
         "subtitle": "Samosas that go in the oven, not the fryer",
         "description": "Potato, chicken, peas and mango folded into puff pastry triangles and baked. Not the fried street version, but they hold their shape and you can make eight without filling the kitchen with smoke.",
         "instructions": [
-          "Heat the oven to 425 degrees F.",
+          "Heat the oven to 220 °C.",
           "In a small saucepan, add the potato and enough cold water to cover it.",
           "Add a generous pinch of salt and bring to a boil over medium heat, then reduce the heat and simmer until tender, 12 to 15 minutes.",
-          "Bring 4 cups water to a simmer and add a generous pinch of salt, the bay leaves, 1 teaspoon coriander seeds, peppercorns, chili flakes and the chicken breast. Simmer until cooked through, 8 to 10 minutes.",
+          "Bring 960 ml water to a simmer and add a generous pinch of salt, the bay leaves, 1 teaspoon coriander seeds, peppercorns, chili flakes and the chicken breast. Simmer until cooked through, 8 to 10 minutes.",
           "Mash the potato, shred the chicken finely, and put both into a large bowl.",
           "Combine with the peas, mango, lime juice, chipotle sauce, remaining coriander seeds, cumin, cilantro, and salt and pepper to taste.",
           "Mix with a spoon or your hands until well incorporated. Taste it and adjust the seasoning if it needs it — cold filling always tastes blander than it will once baked.",
-          "Roll the puff pastry out slightly, flattening the seams. Trace round a 7-inch ring mold or bowl with a paring knife and cut the dough into 8 rounds, each 7-inch wide.",
+          "Roll the puff pastry out slightly, flattening the seams. Trace round a 18 cm ring mold or bowl with a paring knife and cut the dough into 8 rounds, each 18 cm wide.",
           "Cut each round into 2 semicircles.",
           "Put a tablespoon or so of filling in the centre of a semicircle. Keep a small bowl of water to hand. Dip your finger in it and run it along the edges. Set the samosa so the flat side faces away from you, take the left corner and fold it over in a triangular motion so that corner lands at the bottom right of the filling. Do the same with the other corner.",
           "Squeeze the bottom shut, fold it over, seal it with water and press it with a fork. Repeat with the rest of the dough and filling, and arrange the 8 samosas on a lightly greased baking sheet.",
           "In a small bowl, whisk the egg and 1 teaspoon water with a fork until thoroughly combined.",
           "Brush the tops with the egg wash.",
-          "Bake for 15 minutes at 425 degrees F, then turn the heat down to 375 degrees F and bake 10 more minutes. You can flip them over just before you turn the heat down if you like a browner bottom.",
+          "Bake for 15 minutes at 220 °C, then turn the heat down to 190 °C and bake 10 more minutes. You can flip them over just before you turn the heat down if you like a browner bottom.",
           "Serve with chutney."
         ]
       },
@@ -13921,20 +13921,20 @@ window.initialRecipes = [
         "subtitle": "Samosa's die de oven in gaan, niet de friteuse",
         "description": "Aardappel, kip, erwtjes en mango in driehoekjes bladerdeeg gevouwen en gebakken. Niet de gefrituurde straatversie, maar ze houden hun vorm en je maakt er acht zonder de keuken vol rook te zetten.",
         "instructions": [
-          "Verwarm de oven op 425 graden F.",
+          "Verwarm de oven op 220 °C.",
           "Doe de aardappel in een klein pannetje met genoeg koud water om hem onder te zetten.",
           "Voeg een flinke snuf zout toe en breng op middelhoog vuur aan de kook, zet dan het vuur lager en laat sudderen tot hij zacht is, 12 tot 15 minuten.",
-          "Breng 4 kopjes water tegen de kook aan en voeg een flinke snuf zout, de laurierblaadjes, 1 theelepel korianderzaad, peperkorrels, chilivlokken en de kipfilet toe. Laat sudderen tot ze gaar is, 8 tot 10 minuten.",
+          "Breng 960 ml water tegen de kook aan en voeg een flinke snuf zout, de laurierblaadjes, 1 theelepel korianderzaad, peperkorrels, chilivlokken en de kipfilet toe. Laat sudderen tot ze gaar is, 8 tot 10 minuten.",
           "Prak de aardappel, pluk de kip fijn uiteen en doe allebei in een grote kom.",
           "Meng met de erwten, mango, limoensap, chipotlesaus, het overgebleven korianderzaad, komijn, koriander en peper en zout naar smaak.",
           "Meng met een lepel of met je handen tot alles goed opgenomen is. Proef en pas de kruiding aan als het nodig is — koude vulling smaakt altijd flauwer dan ze na het bakken zal doen.",
-          "Rol het bladerdeeg lichtjes uit en strijk de naden plat. Trek met een schilmesje rond een ringvorm of kom van 7 inch en snijd het deeg in 8 rondjes van elk 7 inch breed.",
+          "Rol het bladerdeeg lichtjes uit en strijk de naden plat. Trek met een schilmesje rond een ringvorm of kom van 18 cm en snijd het deeg in 8 rondjes van elk 18 cm breed.",
           "Snijd elk rondje in 2 halve cirkels.",
           "Doe ongeveer een eetlepel vulling in het midden van een halve cirkel. Hou een kommetje water bij de hand. Doop er je vinger in en ga langs de randen. Leg de samosa met de platte kant van je af, neem de linkerhoek en vouw hem in een driehoeksbeweging over, zodat die hoek rechtsonder op de vulling landt. Doe hetzelfde met de andere hoek.",
           "Knijp de onderkant dicht, vouw hem om, sluit af met water en druk aan met een vork. Herhaal met het resterende deeg en de vulling, en schik de 8 samosa's op een licht ingevette bakplaat.",
           "Klop in een kommetje het ei en 1 theelepel water met een vork tot alles goed gemengd is.",
           "Bestrijk de bovenkanten met het eiwitmengsel.",
-          "Bak 15 minuten op 425 graden F, zet dan het vuur terug naar 375 graden F en bak nog 10 minuten. Je mag ze net voor je het vuur lager zet omdraaien als je een bruinere onderkant wil.",
+          "Bak 15 minuten op 220 °C, zet dan het vuur terug naar 190 °C en bak nog 10 minuten. Je mag ze net voor je het vuur lager zet omdraaien als je een bruinere onderkant wil.",
           "Serveer met chutney."
         ]
       },
@@ -13943,20 +13943,20 @@ window.initialRecipes = [
         "subtitle": "Des samoussas qui passent au four, pas à la friture",
         "description": "De la pomme de terre, du poulet, des petits pois et de la mangue pliés en triangles de pâte feuilletée et cuits au four. Pas la version frite de la rue, mais ils tiennent leur forme et tu en fais huit sans enfumer la cuisine.",
         "instructions": [
-          "Préchauffe le four à 425 degrés F.",
+          "Préchauffe le four à 220 °C.",
           "Dans une petite casserole, mets la pomme de terre et assez d'eau froide pour la couvrir.",
           "Ajoute une généreuse pincée de sel et porte à ébullition à feu moyen, puis baisse le feu et laisse frémir jusqu'à tendreté, 12 à 15 minutes.",
-          "Porte 4 tasses d'eau à frémissement et ajoute une généreuse pincée de sel, les feuilles de laurier, 1 cuillère à café de graines de coriandre, les grains de poivre, les flocons de piment et le blanc de poulet. Laisse frémir jusqu'à cuisson complète, 8 à 10 minutes.",
+          "Porte 960 ml d'eau à frémissement et ajoute une généreuse pincée de sel, les feuilles de laurier, 1 cuillère à café de graines de coriandre, les grains de poivre, les flocons de piment et le blanc de poulet. Laisse frémir jusqu'à cuisson complète, 8 à 10 minutes.",
           "Écrase la pomme de terre, effiloche finement le poulet, et mets les deux dans un grand bol.",
           "Mélange avec les petits pois, la mangue, le jus de citron vert, la sauce chipotle, le reste des graines de coriandre, le cumin, la coriandre, et le sel et le poivre au goût.",
           "Mélange à la cuillère ou à la main jusqu'à ce que tout soit bien incorporé. Goûte et rectifie l'assaisonnement si besoin — une farce froide a toujours moins de goût qu'elle n'en aura une fois cuite.",
-          "Étale légèrement la pâte feuilletée en aplatissant les soudures. Trace au couteau d'office le contour d'un cercle ou d'un bol de 7 pouces et découpe la pâte en 8 ronds de 7 pouces de large chacun.",
+          "Étale légèrement la pâte feuilletée en aplatissant les soudures. Trace au couteau d'office le contour d'un cercle ou d'un bol de 18 cm et découpe la pâte en 8 ronds de 18 cm de large chacun.",
           "Coupe chaque rond en 2 demi-cercles.",
           "Dépose environ une cuillère à soupe de garniture au centre d'un demi-cercle. Garde un petit bol d'eau à portée de main. Trempe ton doigt dedans et passe-le le long des bords. Place le samoussa côté plat à l'opposé de toi, prends le coin gauche et replie-le en triangle pour que ce coin arrive en bas à droite de la garniture. Fais de même avec l'autre coin.",
           "Pince le bas pour fermer, replie, scelle à l'eau et presse à la fourchette. Recommence avec le reste de la pâte et de la garniture, et range les 8 samoussas sur une plaque légèrement graissée.",
           "Dans un petit bol, fouette l'œuf et 1 cuillère à café d'eau à la fourchette jusqu'à ce que ce soit bien homogène.",
           "Badigeonne les dessus de dorure.",
-          "Cuis 15 minutes à 425 degrés F, puis baisse à 375 degrés F et cuis 10 minutes de plus. Tu peux les retourner juste avant de baisser le feu si tu veux un dessous plus doré.",
+          "Cuis 15 minutes à 220 °C, puis baisse à 190 °C et cuis 10 minutes de plus. Tu peux les retourner juste avant de baisser le feu si tu veux un dessous plus doré.",
           "Sers avec du chutney."
         ]
       }
@@ -14210,7 +14210,7 @@ window.initialRecipes = [
         "instructions": [
           "Cream the butter and molasses together until light.",
           "Add the eggs, ground almonds, lemon rind and almond extract, and mix well. Stir in the Amaretto alternately with the flour, a little of each at a time. Drop by teaspoonfuls onto unoiled cookie sheets, leaving room between them to spread.",
-          "Bake at 350 degrees for 12-15 minutes. They're done when golden brown. Makes 36 cookies."
+          "Bake at 180 °C for 12-15 minutes. They're done when golden brown. Makes 36 cookies."
         ]
       },
       "nl": {
@@ -14220,7 +14220,7 @@ window.initialRecipes = [
         "instructions": [
           "Klop de boter en de melasse samen tot een licht mengsel.",
           "Voeg de eieren, de gemalen amandelen, de citroenschil en het amandelextract toe en meng goed. Roer de amaretto afwisselend met de bloem erdoor, telkens een beetje van elk. Druppel met theelepels op ongeoliede bakplaten en laat ruimte tussen de hoopjes om uit te lopen.",
-          "Bak op 350 graden gedurende 12-15 minuten. Ze zijn klaar als ze goudbruin zijn. Goed voor 36 koekjes."
+          "Bak op 180 °C gedurende 12-15 minuten. Ze zijn klaar als ze goudbruin zijn. Goed voor 36 koekjes."
         ]
       },
       "fr": {
@@ -14230,7 +14230,7 @@ window.initialRecipes = [
         "instructions": [
           "Crème le beurre et la mélasse ensemble jusqu'à ce que ce soit léger.",
           "Ajoute les œufs, la poudre d'amandes, le zeste de citron et l'extrait d'amande, et mélange bien. Incorpore l'amaretto en alternance avec la farine, un peu de chaque à la fois. Dépose à la cuillère à café sur des plaques non huilées, en laissant de l'espace entre eux pour qu'ils s'étalent.",
-          "Cuis à 350 degrés pendant 12 à 15 minutes. Ils sont prêts quand ils sont dorés. Donne 36 biscuits."
+          "Cuis à 180 °C pendant 12 à 15 minutes. Ils sont prêts quand ils sont dorés. Donne 36 biscuits."
         ]
       }
     },
@@ -14365,10 +14365,10 @@ window.initialRecipes = [
           "Add the garlic and stir 1 minute, just until it smells sweet.",
           "Add the eggplant, green bell peppers, tomatoes, onion, zucchini and basil.",
           "Sauté for 5 minutes. Cover and simmer until all the vegetables are tender, stirring occasionally, about 25 minutes. Then take the lid off and simmer until the juice thickens, stirring occasionally, about 10 minutes.",
-          "Mix in the vinegar and season to taste with salt and pepper. Heat the oven to 350 degrees.",
-          "Spread it in a 9-inch pie dish.",
+          "Mix in the vinegar and season to taste with salt and pepper. Heat the oven to 180 °C.",
+          "Spread it in a 23 cm pie dish.",
           "Sprinkle with cheese if you want it.",
-          "Bake until heated through, about 20 minutes. This makes about 3 cups."
+          "Bake until heated through, about 20 minutes. This makes about 720 ml."
         ]
       },
       "nl": {
@@ -14380,10 +14380,10 @@ window.initialRecipes = [
           "Voeg de knoflook toe en roer 1 minuut, net tot hij zoet ruikt.",
           "Voeg de aubergine, groene paprika, tomaten, ui, courgette en basilicum toe.",
           "Bak 5 minuten. Dek af en laat sudderen tot alle groenten zacht zijn, af en toe roerend, ongeveer 25 minuten. Haal dan het deksel eraf en laat sudderen tot het sap indikt, af en toe roerend, ongeveer 10 minuten.",
-          "Meng de azijn erdoor en breng op smaak met peper en zout. Verwarm de oven op 350 graden.",
-          "Verdeel het in een taartvorm van 9 inch.",
+          "Meng de azijn erdoor en breng op smaak met peper en zout. Verwarm de oven op 180 °C.",
+          "Verdeel het in een taartvorm van 23 cm.",
           "Bestrooi met kaas als je dat wil.",
-          "Bak tot alles goed heet is, ongeveer 20 minuten. Dit is goed voor ongeveer 3 kopjes."
+          "Bak tot alles goed heet is, ongeveer 20 minuten. Dit is goed voor ongeveer 720 ml."
         ]
       },
       "fr": {
@@ -14395,10 +14395,10 @@ window.initialRecipes = [
           "Ajoute l'ail et remue 1 minute, juste jusqu'à ce qu'il sente bon.",
           "Ajoute les aubergines, les poivrons verts, les tomates, l'oignon, la courgette et le basilic.",
           "Fais sauter 5 minutes. Couvre et laisse mijoter jusqu'à ce que tous les légumes soient tendres, en remuant de temps en temps, environ 25 minutes. Puis découvre et laisse mijoter jusqu'à ce que le jus épaississe, en remuant de temps en temps, environ 10 minutes.",
-          "Incorpore le vinaigre et assaisonne au goût de sel et de poivre. Chauffe le four à 350 degrés.",
-          "Étale dans un plat à tarte de 9 pouces.",
+          "Incorpore le vinaigre et assaisonne au goût de sel et de poivre. Chauffe le four à 180 °C.",
+          "Étale dans un plat à tarte de 23 cm.",
           "Parsème de fromage si tu en veux.",
-          "Cuis jusqu'à ce que ce soit bien chaud, environ 20 minutes. Cela donne environ 3 tasses."
+          "Cuis jusqu'à ce que ce soit bien chaud, environ 20 minutes. Cela donne environ 720 ml."
         ]
       }
     },
@@ -14553,11 +14553,11 @@ window.initialRecipes = [
         "subtitle": "Crepes with no wheat, egg or dairy in them",
         "description": "A quinoa and corn flour batter bound with flax and hemp milk, rested cold and cooked thin. It behaves differently from a wheat crepe, so expect to sacrifice the first one to the pan.",
         "instructions": [
-          "Whisk the dry ingredients together in a bowl. In a separate bowl, whisk 2 1/2 cups hemp milk, the flax seed mixture, maple syrup and the melted coconut oil together.",
-          "Add the wet ingredients to the dry and mix gently. If the batter is too thick, add a few tablespoons of hemp milk at a time, up to 1/2 cup more, until it will pour — it should be thin enough to spread easily in the pan. Let the batter rest in the refrigerator for at least 30 minutes. That rest is not optional here; it's what lets the flours drink and stops the crepes tearing.",
-          "Heat an 8- or 10-inch nonstick skillet over medium heat.",
+          "Whisk the dry ingredients together in a bowl. In a separate bowl, whisk 600 ml hemp milk, the flax seed mixture, maple syrup and the melted coconut oil together.",
+          "Add the wet ingredients to the dry and mix gently. If the batter is too thick, add a few tablespoons of hemp milk at a time, up to 120 ml more, until it will pour — it should be thin enough to spread easily in the pan. Let the batter rest in the refrigerator for at least 30 minutes. That rest is not optional here; it's what lets the flours drink and stops the crepes tearing.",
+          "Heat an 8- or 25 cm nonstick skillet over medium heat.",
           "Add a small dab of virgin coconut oil to cook in.",
-          "Pour about 1/2 cup batter into the skillet and rotate the pan at the same time so the batter spreads in a thin layer over the bottom. Patch any holes with small amounts of batter, working quickly and keeping the crepe thin. Cook until the top of the crepe is dry, then after about 1 minute loosen the edges from the pan with a spatula. Flip with your fingers, or toss it gently — that may take a few attempts but it works best — and cook the other side for 30 to 60 seconds. Stack the cooked crepes on a plate and keep them warm in a low oven, or fill each one while it's still in the pan, spooning the filling across the lower third.",
+          "Pour about 120 ml batter into the skillet and rotate the pan at the same time so the batter spreads in a thin layer over the bottom. Patch any holes with small amounts of batter, working quickly and keeping the crepe thin. Cook until the top of the crepe is dry, then after about 1 minute loosen the edges from the pan with a spatula. Flip with your fingers, or toss it gently — that may take a few attempts but it works best — and cook the other side for 30 to 60 seconds. Stack the cooked crepes on a plate and keep them warm in a low oven, or fill each one while it's still in the pan, spooning the filling across the lower third.",
           "Roll the crepe up from the filled end, or fold the bottom third over the filling, fold the sides in, then fold from the bottom up to make a pocket. Repeat, adding more coconut oil between crepes as it needs it, until all the batter is used."
         ]
       },
@@ -14566,11 +14566,11 @@ window.initialRecipes = [
         "subtitle": "Pannenkoeken zonder tarwe, ei of zuivel",
         "description": "Een beslag van quinoa- en maïsmeel gebonden met lijnzaad en hennepmelk, koud gerust en dun gebakken. Het gedraagt zich anders dan tarwebeslag, dus reken erop dat de eerste voor de pan is.",
         "instructions": [
-          "Klop de droge ingrediënten samen in een kom. Klop in een aparte kom 2 1/2 kopjes hennepmelk, het lijnzaadmengsel, de ahornsiroop en de gesmolten kokosolie samen.",
+          "Klop de droge ingrediënten samen in een kom. Klop in een aparte kom 600 ml hennepmelk, het lijnzaadmengsel, de ahornsiroop en de gesmolten kokosolie samen.",
           "Voeg de natte ingrediënten bij de droge en meng voorzichtig. Is het beslag te dik, voeg dan per paar eetlepels hennepmelk toe, tot een half kopje extra, tot het schenkbaar is — het moet dun genoeg zijn om makkelijk in de pan uit te lopen. Laat het beslag minstens 30 minuten in de koelkast rusten. Dat rusten is hier niet vrijblijvend; het laat de meelsoorten drinken en behoedt de pannenkoeken voor scheuren.",
-          "Verhit een antiaanbakpan van 8 of 10 inch op middelhoog vuur.",
+          "Verhit een antiaanbakpan van 8 of 25 cm op middelhoog vuur.",
           "Doe er een klein klontje virgin kokosolie in om in te bakken.",
-          "Giet ongeveer 1/2 kop beslag in de pan en draai de pan tegelijk rond zodat het beslag zich in een dunne laag over de bodem verdeelt. Vul gaatjes op met kleine beetjes beslag, werk snel en hou de pannenkoek dun. Bak tot de bovenkant droog is, en maak dan na ongeveer 1 minuut de randen los van de pan met een spatel. Draai hem om met je vingers, of gooi hem voorzichtig op — dat vraagt misschien een paar pogingen maar werkt het best — en bak de andere kant 30 tot 60 seconden. Stapel de gebakken pannenkoeken op een bord en hou ze warm in een lauwe oven, of vul elke pannenkoek terwijl hij nog in de pan ligt, met de vulling over het onderste derde geschept.",
+          "Giet ongeveer 120 ml beslag in de pan en draai de pan tegelijk rond zodat het beslag zich in een dunne laag over de bodem verdeelt. Vul gaatjes op met kleine beetjes beslag, werk snel en hou de pannenkoek dun. Bak tot de bovenkant droog is, en maak dan na ongeveer 1 minuut de randen los van de pan met een spatel. Draai hem om met je vingers, of gooi hem voorzichtig op — dat vraagt misschien een paar pogingen maar werkt het best — en bak de andere kant 30 tot 60 seconden. Stapel de gebakken pannenkoeken op een bord en hou ze warm in een lauwe oven, of vul elke pannenkoek terwijl hij nog in de pan ligt, met de vulling over het onderste derde geschept.",
           "Rol de pannenkoek op vanaf de gevulde kant, of vouw het onderste derde over de vulling, vouw de zijkanten naar binnen en vouw dan van onder naar boven tot een zakje. Herhaal, met telkens wat extra kokosolie tussen de pannenkoeken als het nodig is, tot al het beslag op is."
         ]
       },
@@ -14579,11 +14579,11 @@ window.initialRecipes = [
         "subtitle": "Des crêpes sans blé, sans œuf et sans lait",
         "description": "Une pâte au quinoa et à la farine de maïs liée au lin et au lait de chanvre, reposée au froid et cuite fine. Elle se comporte autrement qu'une pâte au blé, alors compte sacrifier la première à la poêle.",
         "instructions": [
-          "Fouette les ingrédients secs ensemble dans un bol. Dans un autre bol, fouette ensemble 2 1/2 tasses de lait de chanvre, le mélange de graines de lin, le sirop d'érable et l'huile de coco fondue.",
-          "Ajoute les ingrédients humides aux secs et mélange délicatement. Si la pâte est trop épaisse, ajoute quelques cuillères à soupe de lait de chanvre à la fois, jusqu'à 1/2 tasse de plus, jusqu'à ce qu'elle se verse — elle doit être assez fine pour s'étaler facilement dans la poêle. Laisse reposer la pâte au réfrigérateur au moins 30 minutes. Ce repos n'est pas facultatif ici ; c'est lui qui laisse les farines boire et empêche les crêpes de se déchirer.",
-          "Chauffe une poêle antiadhésive de 8 ou 10 pouces à feu moyen.",
+          "Fouette les ingrédients secs ensemble dans un bol. Dans un autre bol, fouette ensemble 600 ml de lait de chanvre, le mélange de graines de lin, le sirop d'érable et l'huile de coco fondue.",
+          "Ajoute les ingrédients humides aux secs et mélange délicatement. Si la pâte est trop épaisse, ajoute quelques cuillères à soupe de lait de chanvre à la fois, jusqu'à 120 ml de plus, jusqu'à ce qu'elle se verse — elle doit être assez fine pour s'étaler facilement dans la poêle. Laisse reposer la pâte au réfrigérateur au moins 30 minutes. Ce repos n'est pas facultatif ici; c'est lui qui laisse les farines boire et empêche les crêpes de se déchirer.",
+          "Chauffe une poêle antiadhésive de 8 ou 25 cm à feu moyen.",
           "Ajoute une petite noisette d'huile de coco vierge pour la cuisson.",
-          "Verse environ 1/2 tasse de pâte dans la poêle en la faisant tourner en même temps pour que la pâte couvre le fond d'une fine couche. Rebouche les trous avec de petites quantités de pâte, en travaillant vite et en gardant la crêpe fine. Cuis jusqu'à ce que le dessus soit sec, puis après environ 1 minute décolle les bords à la spatule. Retourne-la avec les doigts, ou fais-la sauter doucement — cela demande parfois quelques essais mais c'est ce qui marche le mieux — et cuis l'autre face 30 à 60 secondes. Empile les crêpes cuites sur une assiette et garde-les au chaud dans un four doux, ou garnis chaque crêpe pendant qu'elle est encore dans la poêle, en répartissant la garniture sur le tiers inférieur.",
+          "Verse environ 120 ml de pâte dans la poêle en la faisant tourner en même temps pour que la pâte couvre le fond d'une fine couche. Rebouche les trous avec de petites quantités de pâte, en travaillant vite et en gardant la crêpe fine. Cuis jusqu'à ce que le dessus soit sec, puis après environ 1 minute décolle les bords à la spatule. Retourne-la avec les doigts, ou fais-la sauter doucement — cela demande parfois quelques essais mais c'est ce qui marche le mieux — et cuis l'autre face 30 à 60 secondes. Empile les crêpes cuites sur une assiette et garde-les au chaud dans un four doux, ou garnis chaque crêpe pendant qu'elle est encore dans la poêle, en répartissant la garniture sur le tiers inférieur.",
           "Roule la crêpe depuis le côté garni, ou replie le tiers inférieur sur la garniture, rabats les côtés, puis plie du bas vers le haut pour former une pochette. Recommence, en ajoutant de l'huile de coco entre les crêpes selon les besoins, jusqu'à épuisement de la pâte."
         ]
       }
@@ -14728,7 +14728,7 @@ window.initialRecipes = [
         "subtitle": "Mince under a lid of mashed potato",
         "description": "Beef and vegetables in gravy with mashed potato spread over the top and browned under the grill. It's the sort of thing that gets better the second day, so make more than you need.",
         "instructions": [
-          "Heat the oven to 375 degrees.",
+          "Heat the oven to 190 °C.",
           "Heat the oil in a large skillet.",
           "Add the onions, celery and garlic and cook until translucent but not browned, approximately 5-6 minutes.",
           "Move them to a clean dish. In the same skillet, add the ground beef and cook until browned, then spoon off any excess fat — leave it in and the topping will slide about later.",
@@ -14747,7 +14747,7 @@ window.initialRecipes = [
         "subtitle": "Gehakt onder een deksel van aardappelpuree",
         "description": "Rundsgehakt en groenten in jus met aardappelpuree eroverheen en onder de grill gebruind. Het is het soort schotel dat de tweede dag beter is, dus maak meer dan je nodig hebt.",
         "instructions": [
-          "Verwarm de oven op 375 graden.",
+          "Verwarm de oven op 190 °C.",
           "Verhit de olie in een grote koekenpan.",
           "Voeg de uien, selderij en knoflook toe en gaar ze tot ze doorschijnend zijn maar niet bruin, ongeveer 5-6 minuten.",
           "Doe ze in een schone schaal. Bak in dezelfde pan het gehakt bruin en schep dan het overtollige vet eraf — laat je het erin, dan schuift de topping straks alle kanten op.",
@@ -14766,7 +14766,7 @@ window.initialRecipes = [
         "subtitle": "De la viande hachée sous un couvercle de purée",
         "description": "Du bœuf et des légumes en sauce, couverts de purée et gratinés sous le gril. C'est le genre de plat qui est meilleur le lendemain, alors fais-en plus qu'il n'en faut.",
         "instructions": [
-          "Préchauffe le four à 375 degrés.",
+          "Préchauffe le four à 190 °C.",
           "Chauffe l'huile dans une grande poêle.",
           "Ajoute les oignons, le céleri et l'ail et cuis jusqu'à ce qu'ils soient translucides sans colorer, environ 5 à 6 minutes.",
           "Transfère-les dans un plat propre. Dans la même poêle, ajoute le bœuf haché et cuis jusqu'à ce qu'il soit doré, puis retire l'excès de graisse à la cuillère — si tu la laisses, la garniture glissera tout à l'heure.",
@@ -14990,7 +14990,7 @@ window.initialRecipes = [
         "subtitle": "Des moules au vin, et du pain pour finir la sauce",
         "description": "Des moules ouvertes à la vapeur de vin blanc avec échalote, ail et beurre. Le nettoyage prend plus de temps que la cuisson, et le pain à la fin n'est pas facultatif.",
         "instructions": [
-          "Brosse les moules avec une brosse dure et jette celles qui restent ouvertes même quand tu refermes la coquille, ainsi que toutes les cassées. Fais-les tremper dans de l'eau fraîche et propre au moins une heure — elles sont vivantes, elles ont avalé du sable avec le temps, et c'est ainsi qu'elles le recrachent. Chacune a une petite barbe fibreuse ; tire-la vers la charnière de la coquille pour la retirer sans blesser la moule.",
+          "Brosse les moules avec une brosse dure et jette celles qui restent ouvertes même quand tu refermes la coquille, ainsi que toutes les cassées. Fais-les tremper dans de l'eau fraîche et propre au moins une heure — elles sont vivantes, elles ont avalé du sable avec le temps, et c'est ainsi qu'elles le recrachent. Chacune a une petite barbe fibreuse; tire-la vers la charnière de la coquille pour la retirer sans blesser la moule.",
           "Chauffe l'huile d'olive dans une grande casserole à feu moyen-vif.",
           "Ajoute les échalotes et l'ail et cuis jusqu'à ce qu'ils soient tendres, environ 5 minutes.",
           "Ajoute les moules, le vin, le babeurre, le beurre et le persil, et assaisonne bien de sel casher. Remue franchement, couvre, et cuis jusqu'à ce que les moules soient ouvertes et cuites, 10 à 15 minutes. Répartis-les avec leur jus dans 2 bols et sers avec un pain complet croustillant, car laisser cette sauce au fond du bol serait du gâchis."
@@ -15283,7 +15283,7 @@ window.initialRecipes = [
         "subtitle": "Green beans with mustard seed and coconut",
         "description": "Green beans cooked down with tamarind, curry leaves and popping mustard seeds, finished with coconut. A South Indian side dish that takes over the whole plate anyway.",
         "instructions": [
-          "Soak the tamarind pulp in 2/3 cup boiling water for 40 minutes. Strain it into a small bowl, pressing down hard on the pulp to squeeze out as much liquid as you can, and set that liquid aside. In a large frying pan or wok, heat the oil over medium heat until hot.",
+          "Soak the tamarind pulp in 160 ml boiling water for 40 minutes. Strain it into a small bowl, pressing down hard on the pulp to squeeze out as much liquid as you can, and set that liquid aside. In a large frying pan or wok, heat the oil over medium heat until hot.",
           "Add the mustard seeds and cumin seeds to the pan and cook a few minutes. Now add the urad and toor or chana dals, chilli, asafetida and curry leaves. Fry another few minutes until the mustard seeds turn grey and start to splutter and pop — that popping is the signal, so keep a lid handy. Now add the green beans, about 3 tablespoons of the tamarind water, and salt. Turn the heat down to medium-low and cover. Cook until the beans are tender, about 5 to 7 minutes. Stir in the coconut and cook a few minutes more.",
           "Take it off the heat and taste it for seasoning.",
           "Serve warm alongside freshly cooked white rice and whichever dal you like best."
@@ -15294,7 +15294,7 @@ window.initialRecipes = [
         "subtitle": "Sperziebonen met mosterdzaad en kokos",
         "description": "Sperziebonen gegaard met tamarinde, curryblad en knappend mosterdzaad, afgewerkt met kokos. Een Zuid-Indisch bijgerecht dat toch het hele bord overneemt.",
         "instructions": [
-          "Week de tamarindepulp 40 minuten in 2/3 kopje kokend water. Zeef ze in een kommetje en druk stevig op het vruchtvlees om er zoveel mogelijk vocht uit te persen, en zet dat vocht opzij. Verhit de olie in een grote koekenpan of wok op middelhoog vuur tot ze heet is.",
+          "Week de tamarindepulp 40 minuten in 160 ml kokend water. Zeef ze in een kommetje en druk stevig op het vruchtvlees om er zoveel mogelijk vocht uit te persen, en zet dat vocht opzij. Verhit de olie in een grote koekenpan of wok op middelhoog vuur tot ze heet is.",
           "Voeg het mosterdzaad en komijnzaad toe en gaar een paar minuten. Voeg nu de urad en toor of chana dals, de chili, asafoetida en curryblaadjes toe. Bak nog een paar minuten tot het mosterdzaad grijs wordt en begint te sputteren en te knappen — dat knappen is het teken, dus hou een deksel bij de hand. Voeg nu de sperziebonen, ongeveer 3 eetlepels tamarindewater en zout toe. Zet het vuur op middelhoog-laag en dek af. Gaar tot de bonen zacht zijn, ongeveer 5 tot 7 minuten. Roer de kokos erdoor en gaar nog een paar minuten.",
           "Haal van het vuur en proef of de kruiding klopt.",
           "Serveer warm bij versgekookte witte rijst en de dal die jij het lekkerst vindt."
@@ -15305,7 +15305,7 @@ window.initialRecipes = [
         "subtitle": "Des haricots verts aux graines de moutarde et à la coco",
         "description": "Des haricots verts cuits avec du tamarin, des feuilles de curry et des graines de moutarde qui éclatent, finis à la noix de coco. Un accompagnement du sud de l'Inde qui prend toute l'assiette de toute façon.",
         "instructions": [
-          "Fais tremper la pulpe de tamarin dans 2/3 tasse d'eau bouillante pendant 40 minutes. Filtre dans un petit bol en pressant fort sur la pulpe pour en extraire le maximum de liquide, et réserve ce liquide. Dans une grande poêle ou un wok, chauffe l'huile à feu moyen jusqu'à ce qu'elle soit chaude.",
+          "Fais tremper la pulpe de tamarin dans 160 ml d'eau bouillante pendant 40 minutes. Filtre dans un petit bol en pressant fort sur la pulpe pour en extraire le maximum de liquide, et réserve ce liquide. Dans une grande poêle ou un wok, chauffe l'huile à feu moyen jusqu'à ce qu'elle soit chaude.",
           "Ajoute les graines de moutarde et de cumin dans la poêle et cuis quelques minutes. Ajoute maintenant l'urad et le toor ou chana dal, le piment, l'asafoetida et les feuilles de curry. Fais frire encore quelques minutes jusqu'à ce que les graines de moutarde grisent et se mettent à crépiter et éclater — ce crépitement est le signal, alors garde un couvercle à portée. Ajoute alors les haricots verts, environ 3 cuillères à soupe d'eau de tamarin, et du sel. Baisse à feu moyen-doux et couvre. Cuis jusqu'à ce que les haricots soient tendres, environ 5 à 7 minutes. Incorpore la noix de coco et cuis encore quelques minutes.",
           "Retire du feu et goûte l'assaisonnement.",
           "Sers chaud avec du riz blanc fraîchement cuit et le dal que tu préfères."
@@ -15493,7 +15493,7 @@ window.initialRecipes = [
         "subtitle": "Du filet mignon, tranché fin dans des tortillas",
         "description": "Du filet mignon cuit lentement à la poêle, tranché fin et empilé dans des tortillas de maïs chaudes avec guacamole et crème aigre. Un morceau extravagant pour un taco, et qui mérite d'être fait une fois.",
         "instructions": [
-          "Chauffe la poêle à feu moyen-doux. Frotte les steaks d'huile d'olive et assaisonne de poivre noir concassé. Cuis les filets lentement jusqu'à la cuisson que tu aimes — nous cuisons les nôtres à point, ce qui fait en moyenne environ 7 minutes de chaque côté. Doux et lent convient à ce morceau ; une poêle brûlante te donnerait une croûte carbonisée et un cœur froid.",
+          "Chauffe la poêle à feu moyen-doux. Frotte les steaks d'huile d'olive et assaisonne de poivre noir concassé. Cuis les filets lentement jusqu'à la cuisson que tu aimes — nous cuisons les nôtres à point, ce qui fait en moyenne environ 7 minutes de chaque côté. Doux et lent convient à ce morceau; une poêle brûlante te donnerait une croûte carbonisée et un cœur froid.",
           "Retire les filets du feu et tranche-les finement dans la longueur. Dans une poêle propre à feu moyen, réchauffe les tortillas de maïs. Garnis-les de steak, de guacamole, de crème aigre et de fromage râpé."
         ]
       }
@@ -16304,7 +16304,7 @@ window.initialRecipes = [
         "description": "An almond paste cake with plums laid over the batter, which sink as it bakes and go jammy. It's better the day after, so it's a good one to make in advance.",
         "instructions": [
           "Preheat the oven at 350.",
-          "Butter and flour a 9-inch spring form pan. In a small bowl, mix the cake flour with the baking powder and salt.",
+          "Butter and flour a 23 cm spring form pan. In a small bowl, mix the cake flour with the baking powder and salt.",
           "In the bowl of a standing mixer fitted with a paddle, beat the sugar with the almond paste until crumbly.",
           "Add the butter and beat at high speed until light in colour and fluffy, about 2 minutes.",
           "Add the eggs one at a time, beating until each is fully incorporated before the next. Beat in the vanilla extract and the vanilla seeds. Gently fold in the flour mixture until fully incorporated — fold, don't beat, now that the flour is in.",
@@ -16321,7 +16321,7 @@ window.initialRecipes = [
         "description": "Een cake op amandelspijs met pruimen op het beslag gelegd, die tijdens het bakken wegzakken en jammig worden. Hij is de dag erna beter, dus een goede om vooraf te maken.",
         "instructions": [
           "Verwarm de oven voor op 350.",
-          "Beboter en bebloem een springvorm van 9 inch. Meng in een kleine kom het cakemeel met het bakpoeder en het zout.",
+          "Beboter en bebloem een springvorm van 23 cm. Meng in een kleine kom het cakemeel met het bakpoeder en het zout.",
           "Klop in de kom van een staande mixer met platte klopper de suiker met de amandelspijs tot een kruimelig mengsel.",
           "Voeg de boter toe en klop op hoge snelheid tot het licht van kleur en luchtig is, ongeveer 2 minuten.",
           "Voeg de eieren één voor één toe en klop elk volledig op voor het volgende erbij gaat. Klop het vanille-extract en de vanillezaadjes erdoor. Spatel het bloemmengsel er voorzichtig door tot het volledig opgenomen is — spatelen, niet kloppen, nu de bloem erin zit.",
@@ -16338,7 +16338,7 @@ window.initialRecipes = [
         "description": "Un gâteau à la pâte d'amande avec des prunes posées sur l'appareil, qui s'enfoncent à la cuisson et deviennent confites. Il est meilleur le lendemain, alors c'est un bon candidat pour la veille.",
         "instructions": [
           "Préchauffe le four à 350.",
-          "Beurre et farine un moule à charnière de 9 pouces. Dans un petit bol, mélange la farine à gâteau avec la levure chimique et le sel.",
+          "Beurre et farine un moule à charnière de 23 cm. Dans un petit bol, mélange la farine à gâteau avec la levure chimique et le sel.",
           "Dans le bol d'un batteur sur socle muni d'une feuille, bats le sucre avec la pâte d'amande jusqu'à obtenir un mélange sableux.",
           "Ajoute le beurre et bats à grande vitesse jusqu'à ce que ce soit clair et mousseux, environ 2 minutes.",
           "Ajoute les œufs un à un, en battant jusqu'à ce que chacun soit complètement incorporé avant le suivant. Incorpore l'extrait de vanille et les graines de vanille. Incorpore délicatement le mélange de farine jusqu'à complète absorption — à la spatule, pas au fouet, maintenant que la farine est dedans.",
@@ -16867,7 +16867,7 @@ window.initialRecipes = [
         "instructions": [
           "Mélange tous les ingrédients sauf les crevettes dans un grand bol.",
           "Ajoute les crevettes et remue jusqu'à ce que chaque partie de chacune soit enrobée de marinade. Réfrigère 4 heures ou toute la nuit. Le moment venu, préchauffe le gril à feu moyen.",
-          "Pose les crevettes sur le gril et cuis-les en les retournant une fois, jusqu'à ce qu'elles soient roses — environ 5 minutes. Regarde les crevettes, pas l'horloge ; elles passent de parfaites à caoutchouteuses en moins d'une minute.",
+          "Pose les crevettes sur le gril et cuis-les en les retournant une fois, jusqu'à ce qu'elles soient roses — environ 5 minutes. Regarde les crevettes, pas l'horloge; elles passent de parfaites à caoutchouteuses en moins d'une minute.",
           "Sers avec une salade de poivrons rouges rôtis si tu veux lui donner un tour méditerranéen."
         ]
       }
@@ -16987,10 +16987,10 @@ window.initialRecipes = [
         "subtitle": "A leg of lamb studded with garlic",
         "description": "Slivers of garlic pushed deep into the meat, the whole leg rubbed with rosemary and parsley, and roasted hot then slow. It rests twice before carving, and both rests matter.",
         "instructions": [
-          "With the tip of a small sharp knife, poke holes in the leg of lamb about 1 1/2-inch deep, and stuff one slice of garlic into each. Push them right in — garlic left near the surface just burns.",
+          "With the tip of a small sharp knife, poke holes in the leg of lamb about 4 cm deep, and stuff one slice of garlic into each. Push them right in — garlic left near the surface just burns.",
           "Rub the leg all over with olive oil, parsley and rosemary. Season well with kosher salt and black pepper.",
-          "Heat the oven to 425 degrees.",
-          "Put the lamb in a roasting pan and roast 30 minutes. Reduce the heat to 325 degrees and baste the leg with whatever juices have gathered in the pan. Cook about 2 hours — total cooking time works out around 20 minutes per pound — until an instant-read thermometer shows 130 degrees in the thickest part for medium.",
+          "Heat the oven to 220 °C.",
+          "Put the lamb in a roasting pan and roast 30 minutes. Reduce the heat to 160 °C and baste the leg with whatever juices have gathered in the pan. Cook about 2 hours — total cooking time works out around 20 minutes per pound — until an instant-read thermometer shows 55 °C in the thickest part for medium.",
           "Take the roast out of the oven and let it rest 15 minutes.",
           "Move it to a cutting board and let it rest another 10 minutes. This is where the juices settle back into the meat instead of running out onto the board.",
           "Carve in thin slices, parallel to the bone, and serve."
@@ -17001,10 +17001,10 @@ window.initialRecipes = [
         "subtitle": "Een lamsbout doorspekt met knoflook",
         "description": "Reepjes knoflook diep in het vlees geduwd, de hele bout ingewreven met rozemarijn en peterselie, en eerst heet en dan traag gebraden. Hij rust twee keer voor het aansnijden, en beide rustpauzes tellen.",
         "instructions": [
-          "Prik met de punt van een klein scherp mes gaatjes in de lamsbout van ongeveer 1 1/2 inch diep, en stop in elk gaatje een plakje knoflook. Duw ze er echt in — knoflook die vlak onder het oppervlak blijft, verbrandt gewoon.",
+          "Prik met de punt van een klein scherp mes gaatjes in de lamsbout van ongeveer 4 cm diep, en stop in elk gaatje een plakje knoflook. Duw ze er echt in — knoflook die vlak onder het oppervlak blijft, verbrandt gewoon.",
           "Wrijf de bout rondom in met olijfolie, peterselie en rozemarijn. Kruid goed met koosjer zout en zwarte peper.",
-          "Verwarm de oven op 425 graden.",
-          "Leg het lam in een braadslee en braad 30 minuten. Zet het vuur terug naar 325 graden en bedruip de bout met het vocht dat zich in de pan verzameld heeft. Gaar ongeveer 2 uur — de totale gaartijd komt neer op zo'n 20 minuten per pond — tot een kernthermometer 130 graden aangeeft in het dikste stuk voor medium.",
+          "Verwarm de oven op 220 °C.",
+          "Leg het lam in een braadslee en braad 30 minuten. Zet het vuur terug naar 160 °C en bedruip de bout met het vocht dat zich in de pan verzameld heeft. Gaar ongeveer 2 uur — de totale gaartijd komt neer op zo'n 20 minuten per pond — tot een kernthermometer 55 °C aangeeft in het dikste stuk voor medium.",
           "Haal het braadstuk uit de oven en laat het 15 minuten rusten.",
           "Leg het op een snijplank en laat het nog eens 10 minuten rusten. Hier trekt het vocht terug in het vlees in plaats van op je plank te lopen.",
           "Snijd in dunne plakjes, evenwijdig aan het bot, en dien op."
@@ -17015,10 +17015,10 @@ window.initialRecipes = [
         "subtitle": "Un gigot d'agneau piqué d'ail",
         "description": "Des lamelles d'ail enfoncées profondément dans la viande, tout le gigot frotté de romarin et de persil, rôti d'abord vif puis lent. Il repose deux fois avant d'être tranché, et les deux repos comptent.",
         "instructions": [
-          "Avec la pointe d'un petit couteau bien aiguisé, perce des trous d'environ 1 1/2 pouce de profondeur dans le gigot, et glisse une lamelle d'ail dans chacun. Enfonce-les bien — l'ail resté près de la surface ne fait que brûler.",
+          "Avec la pointe d'un petit couteau bien aiguisé, perce des trous d'environ 4 cm de profondeur dans le gigot, et glisse une lamelle d'ail dans chacun. Enfonce-les bien — l'ail resté près de la surface ne fait que brûler.",
           "Frotte le gigot partout d'huile d'olive, de persil et de romarin. Assaisonne largement de sel casher et de poivre noir.",
-          "Chauffe le four à 425 degrés.",
-          "Pose l'agneau dans une rôtissoire et rôtis 30 minutes. Baisse à 325 degrés et arrose le gigot du jus accumulé dans le plat. Cuis environ 2 heures — le temps total revient à peu près à 20 minutes par livre — jusqu'à ce qu'un thermomètre indique 130 degrés au cœur de la partie la plus épaisse pour une cuisson à point.",
+          "Chauffe le four à 220 °C.",
+          "Pose l'agneau dans une rôtissoire et rôtis 30 minutes. Baisse à 160 °C et arrose le gigot du jus accumulé dans le plat. Cuis environ 2 heures — le temps total revient à peu près à 20 minutes par livre — jusqu'à ce qu'un thermomètre indique 55 °C au cœur de la partie la plus épaisse pour une cuisson à point.",
           "Sors le rôti du four et laisse-le reposer 15 minutes.",
           "Transfère-le sur une planche à découper et laisse-le reposer encore 10 minutes. C'est là que le jus retourne dans la viande au lieu de couler sur la planche.",
           "Découpe en fines tranches, parallèlement à l'os, et sers."
@@ -17290,7 +17290,7 @@ window.initialRecipes = [
         "subtitle": "Porridge you can pick up in your hand",
         "description": "Oats, cranberries and liquid baked in a tin until they set into bars. Breakfast made on Sunday that lasts through the week.",
         "instructions": [
-          "Heat the oven to 350F.",
+          "Heat the oven to 180 °C.",
           "Mix the dry ingredients until well combined.",
           "Mix the liquid ingredients separately.",
           "Add the liquid ingredients to the dry mix.",
@@ -17304,7 +17304,7 @@ window.initialRecipes = [
         "subtitle": "Pap die je met de hand kan oppakken",
         "description": "Haver, veenbessen en vocht in een vorm gebakken tot het tot repen opstijft. Ontbijt dat je op zondag maakt en dat de hele week meegaat.",
         "instructions": [
-          "Verwarm de oven op 350F.",
+          "Verwarm de oven op 180 °C.",
           "Meng de droge ingrediënten tot alles goed samengaat.",
           "Meng de vloeibare ingrediënten apart.",
           "Voeg de vloeibare ingrediënten bij het droge mengsel.",
@@ -17318,7 +17318,7 @@ window.initialRecipes = [
         "subtitle": "Du porridge qu'on peut prendre à la main",
         "description": "De l'avoine, des canneberges et du liquide cuits dans un moule jusqu'à prendre en barres. Un petit-déjeuner préparé le dimanche qui tient toute la semaine.",
         "instructions": [
-          "Préchauffe le four à 350F.",
+          "Préchauffe le four à 180 °C.",
           "Mélange les ingrédients secs jusqu'à ce qu'ils soient bien réunis.",
           "Mélange les ingrédients liquides à part.",
           "Ajoute les ingrédients liquides au mélange sec.",
@@ -17528,7 +17528,7 @@ window.initialRecipes = [
           "Coupe chaque tranche en deux et grille-les toutes.",
           "Tartine chaque moitié d'1 cuillère à café de beurre allégé.",
           "Saupoudre chacune d'un peu de poudre d'ail.",
-          "Pose les 8 moitiés sur une assiette et réchauffe au micro-ondes environ 15 secondes — c'est ce qui fait pénétrer le beurre dans le pain au lieu de le laisser posé dessus. La poudre d'ail au persil vaut la peine d'être cherchée ; elle a bien meilleur goût que l'ordinaire."
+          "Pose les 8 moitiés sur une assiette et réchauffe au micro-ondes environ 15 secondes — c'est ce qui fait pénétrer le beurre dans le pain au lieu de le laisser posé dessus. La poudre d'ail au persil vaut la peine d'être cherchée; elle a bien meilleur goût que l'ordinaire."
         ]
       }
     },
@@ -17743,14 +17743,14 @@ window.initialRecipes = [
         "subtitle": "Grilled aubergine rolled round ricotta",
         "description": "Aubergine sliced long and grilled, rolled around ricotta and basil, warmed through and served over linguine with a simple tomato sauce. It looks like restaurant food and isn't.",
         "instructions": [
-          "Heat the oven to 350F and put water on to boil for the linguine.",
-          "Heat 1 teaspoon oil in a 2-quart heavy saucepan over medium heat and add the onion and green pepper. Cook until just tender.",
+          "Heat the oven to 180 °C and put water on to boil for the linguine.",
+          "Heat 1 teaspoon oil in a 2 litre heavy saucepan over medium heat and add the onion and green pepper. Cook until just tender.",
           "Add the garlic and red pepper flakes and cook another 30 seconds.",
           "Add the tomatoes and 1/2 teaspoon salt and simmer, uncovered, stirring occasionally, until slightly thickened, 15 to 20 minutes.",
           "Grill the aubergine while the sauce cooks.",
           "Heat a grill pan over high heat until hot. Peel the skin from the aubergine and throw it away.",
-          "Cut the aubergine lengthways into 8 slices, each 1/3-inch thick. Brush both sides lightly with 2 teaspoons oil in total, then season with salt and pepper. Grill the slices in batches, turning once, until golden brown and tender, about 4 minutes, then move them to a tray. They must be properly flexible or they'll crack when you roll them.",
-          "Stir together the ricotta and 1/2 cup Parmesan, the basil, pepper and the remaining salt. Divide the cheese mixture among the slices.",
+          "Cut the aubergine lengthways into 8 slices, each 8 mm thick. Brush both sides lightly with 2 teaspoons oil in total, then season with salt and pepper. Grill the slices in batches, turning once, until golden brown and tender, about 4 minutes, then move them to a tray. They must be properly flexible or they'll crack when you roll them.",
+          "Stir together the ricotta and 65 g Parmesan, the basil, pepper and the remaining salt. Divide the cheese mixture among the slices.",
           "Roll each slice up.",
           "Put the rolls in a small casserole dish and bake until the cheese starts to melt, about 10 minutes.",
           "Meanwhile, cook the linguine to the package directions.",
@@ -17762,14 +17762,14 @@ window.initialRecipes = [
         "subtitle": "Gegrilde aubergine rond ricotta gerold",
         "description": "Aubergine in de lengte gesneden en gegrild, opgerold rond ricotta en basilicum, doorgewarmd en opgediend op linguine met een eenvoudige tomatensaus. Het ziet er restaurantwaardig uit en is het niet.",
         "instructions": [
-          "Verwarm de oven op 350F en zet water op voor de linguine.",
+          "Verwarm de oven op 180 °C en zet water op voor de linguine.",
           "Verhit 1 theelepel olie in een zware pan van 2 liter op middelhoog vuur en voeg de ui en de groene paprika toe. Gaar tot ze net zacht zijn.",
           "Voeg de knoflook en de rode pepervlokken toe en gaar nog 30 seconden.",
           "Voeg de tomaten en 1/2 theelepel zout toe en laat onafgedekt sudderen, af en toe roerend, tot het licht ingedikt is, 15 tot 20 minuten.",
           "Gril de aubergine terwijl de saus staat te pruttelen.",
           "Verhit een grillpan op hoog vuur tot hij heet is. Schil de aubergine en gooi de schil weg.",
-          "Snijd de aubergine in de lengte in 8 plakken van elk 1/3 inch dik. Bestrijk beide kanten lichtjes met in totaal 2 theelepels olie en kruid met peper en zout. Gril de plakken in porties, één keer omdraaiend, tot ze goudbruin en zacht zijn, ongeveer 4 minuten, en leg ze op een plateau. Ze moeten echt buigzaam zijn, anders barsten ze bij het oprollen.",
-          "Roer de ricotta en 1/2 kopje parmezaan, de basilicum, de peper en het resterende zout door elkaar. Verdeel het kaasmengsel over de plakken.",
+          "Snijd de aubergine in de lengte in 8 plakken van elk 8 mm dik. Bestrijk beide kanten lichtjes met in totaal 2 theelepels olie en kruid met peper en zout. Gril de plakken in porties, één keer omdraaiend, tot ze goudbruin en zacht zijn, ongeveer 4 minuten, en leg ze op een plateau. Ze moeten echt buigzaam zijn, anders barsten ze bij het oprollen.",
+          "Roer de ricotta en 65 g parmezaan, de basilicum, de peper en het resterende zout door elkaar. Verdeel het kaasmengsel over de plakken.",
           "Rol elke plak op.",
           "Zet de rolletjes in een kleine ovenschaal en bak tot de kaas begint te smelten, ongeveer 10 minuten.",
           "Kook ondertussen de linguine volgens de aanwijzingen op de verpakking.",
@@ -17781,14 +17781,14 @@ window.initialRecipes = [
         "subtitle": "De l'aubergine grillée roulée autour de ricotta",
         "description": "De l'aubergine tranchée dans la longueur et grillée, roulée autour de ricotta et de basilic, réchauffée et servie sur des linguines avec une sauce tomate simple. Ça a l'air d'un plat de restaurant et ça n'en est pas un.",
         "instructions": [
-          "Chauffe le four à 350F et mets l'eau des linguines à bouillir.",
+          "Chauffe le four à 180 °C et mets l'eau des linguines à bouillir.",
           "Chauffe 1 cuillère à café d'huile dans une casserole épaisse de 2 litres à feu moyen et ajoute l'oignon et le poivron vert. Cuis jusqu'à ce que ce soit tout juste tendre.",
           "Ajoute l'ail et les flocons de piment rouge et cuis encore 30 secondes.",
           "Ajoute les tomates et 1/2 cuillère à café de sel et laisse mijoter à découvert, en remuant de temps en temps, jusqu'à léger épaississement, 15 à 20 minutes.",
           "Grille les aubergines pendant que la sauce cuit.",
           "Chauffe une poêle-gril à feu vif jusqu'à ce qu'elle soit brûlante. Pèle l'aubergine et jette la peau.",
-          "Coupe l'aubergine en 8 tranches dans la longueur, de 1/3 de pouce d'épaisseur chacune. Badigeonne légèrement les deux faces avec 2 cuillères à café d'huile au total, puis sale et poivre. Grille les tranches par fournées, en les retournant une fois, jusqu'à ce qu'elles soient dorées et tendres, environ 4 minutes, puis dépose-les sur un plateau. Elles doivent être vraiment souples, sinon elles casseront au roulage.",
-          "Mélange la ricotta et 1/2 tasse de parmesan, le basilic, le poivre et le reste du sel. Répartis le mélange entre les tranches.",
+          "Coupe l'aubergine en 8 tranches dans la longueur, de 8 mm d'épaisseur chacune. Badigeonne légèrement les deux faces avec 2 cuillères à café d'huile au total, puis sale et poivre. Grille les tranches par fournées, en les retournant une fois, jusqu'à ce qu'elles soient dorées et tendres, environ 4 minutes, puis dépose-les sur un plateau. Elles doivent être vraiment souples, sinon elles casseront au roulage.",
+          "Mélange la ricotta et 65 g de parmesan, le basilic, le poivre et le reste du sel. Répartis le mélange entre les tranches.",
           "Roule chaque tranche.",
           "Range les rouleaux dans un petit plat et cuis jusqu'à ce que le fromage commence à fondre, environ 10 minutes.",
           "Pendant ce temps, cuis les linguines selon les instructions du paquet.",
@@ -17983,11 +17983,11 @@ window.initialRecipes = [
         "subtitle": "A banana split you build in a tin",
         "description": "A crumb base, bananas, ice cream, nuts and a cooked chocolate sauce, layered and frozen between each stage. It takes a day of stops and starts, and it feeds a crowd.",
         "instructions": [
-          "In a small bowl, combine the graham cracker crumbs and the melted butter. Set aside 1/4 cup of the mixture for later, then press the rest into the bottom of a 9 x 13 pan.",
+          "In a small bowl, combine the graham cracker crumbs and the melted butter. Set aside 30 g of the mixture for later, then press the rest into the bottom of a 9 x 13 pan.",
           "Lay the bananas in a single layer over the crust.",
           "Spread the softened ice cream on top and smooth it out.",
           "Sprinkle the nuts over the ice cream, then cover with plastic wrap and freeze until firm, about 2 hours.",
-          "In a medium saucepan, melt the chocolate chips and the remaining 1/4 cup butter and stir until smooth.",
+          "In a medium saucepan, melt the chocolate chips and the remaining 60 ml butter and stir until smooth.",
           "Add the confectioner's sugar and evaporated milk. Cook, stirring constantly over medium heat, until slightly thickened and smooth, about 8 minutes.",
           "Take the pan off the heat and stir in the vanilla. Cool the mixture about 30 minutes, stirring occasionally. Pour it on warm and it will melt straight through your ice cream.",
           "Pour the mixture over the ice cream and freeze until firm, about 1 hour.",
@@ -18000,11 +18000,11 @@ window.initialRecipes = [
         "subtitle": "Een dame blanche die je in een vorm bouwt",
         "description": "Een kruimelbodem, bananen, ijs, noten en een gekookte chocoladesaus, in lagen en tussen elke stap ingevroren. Het kost een dag van starten en stoppen, en er kan een hele tafel van eten.",
         "instructions": [
-          "Meng in een kleine kom de grahamcrackerkruimels en de gesmolten boter. Zet 1/4 kopje van het mengsel apart voor later en druk de rest op de bodem van een vorm van 9 x 13.",
+          "Meng in een kleine kom de grahamcrackerkruimels en de gesmolten boter. Zet 30 g van het mengsel apart voor later en druk de rest op de bodem van een vorm van 9 x 13.",
           "Leg de bananen in één laag over de bodem.",
           "Verdeel het zachte ijs erover en strijk het glad.",
           "Strooi de noten over het ijs, dek af met plasticfolie en vries in tot het stevig is, ongeveer 2 uur.",
-          "Smelt in een middelgrote pan de chocoladestukjes en de resterende 1/4 kop boter en roer tot alles glad is.",
+          "Smelt in een middelgrote pan de chocoladestukjes en de resterende 60 ml boter en roer tot alles glad is.",
           "Voeg de poedersuiker en de gecondenseerde melk toe. Kook, voortdurend roerend op middelhoog vuur, tot het licht ingedikt en glad is, ongeveer 8 minuten.",
           "Haal de pan van het vuur en roer de vanille erdoor. Laat het mengsel ongeveer 30 minuten afkoelen, af en toe roerend. Giet je het warm op, dan smelt het dwars door je ijs heen.",
           "Giet het mengsel over het ijs en vries in tot het stevig is, ongeveer 1 uur.",
@@ -18017,11 +18017,11 @@ window.initialRecipes = [
         "subtitle": "Une banana split qu'on monte dans un moule",
         "description": "Un fond de biscuit, des bananes, de la glace, des noix et une sauce au chocolat cuite, montés en couches et congelés entre chaque étape. Ça prend une journée d'arrêts et de reprises, et ça nourrit une tablée.",
         "instructions": [
-          "Dans un petit bol, mélange la chapelure de biscuits Graham et le beurre fondu. Réserve 1/4 tasse du mélange pour plus tard, puis presse le reste au fond d'un moule 9 x 13.",
+          "Dans un petit bol, mélange la chapelure de biscuits Graham et le beurre fondu. Réserve 30 g du mélange pour plus tard, puis presse le reste au fond d'un moule 9 x 13.",
           "Dispose les bananes en une seule couche sur le fond.",
           "Étale la glace ramollie dessus et lisse.",
           "Parsème les noix sur la glace, puis couvre de film et congèle jusqu'à ce que ce soit ferme, environ 2 heures.",
-          "Dans une casserole moyenne, fais fondre les pépites de chocolat et le 1/4 tasse de beurre restant et remue jusqu'à consistance lisse.",
+          "Dans une casserole moyenne, fais fondre les pépites de chocolat et le 60 ml de beurre restant et remue jusqu'à consistance lisse.",
           "Ajoute le sucre glace et le lait concentré. Cuis en remuant sans arrêt à feu moyen, jusqu'à ce que ce soit légèrement épaissi et lisse, environ 8 minutes.",
           "Retire la casserole du feu et incorpore la vanille. Laisse refroidir le mélange environ 30 minutes en remuant de temps en temps. Versé chaud, il fondrait droit à travers ta glace.",
           "Verse le mélange sur la glace et congèle jusqu'à ce que ce soit ferme, environ 1 heure.",
@@ -18181,7 +18181,7 @@ window.initialRecipes = [
         "subtitle": "Apple parcels baked in orange soda",
         "description": "Apple wedges rolled in puff pastry, drowned in butter, sugar and a bottle of Fanta, and baked until the liquid turns to caramel. It sounds like a joke and it is genuinely very good.",
         "instructions": [
-          "Heat the oven to 400 F (about 200 C).",
+          "Heat the oven to 200 °C (about 200 C).",
           "Peel and core the apples and cut them into crescents — cut each apple into 4 pieces first, then cut each of those into 2.",
           "Sprinkle them with lemon juice so they don't brown while you roll.",
           "With a sharp knife, cut the puff pastry into equal squares, each crust into 4, then cut those into triangles — 8 triangles from each crust.",
@@ -18191,7 +18191,7 @@ window.initialRecipes = [
           "Arrange the dumplings in a baking pan, close enough together that they hold each other up, and pour plenty of the melted butter and sugar over each one.",
           "Pour the Fanta over the top. Don't be alarmed by how much liquid there is; it cooks down to a syrup.",
           "Sprinkle with ground cinnamon if you like.",
-          "Bake in the preheated 400 F (about 200 C) oven for about 30 minutes. After the first 15-20 minutes you can lay baking paper over them so they don't burn on top while the middle finishes."
+          "Bake in the preheated 200 °C (about 200 C) oven for about 30 minutes. After the first 15-20 minutes you can lay baking paper over them so they don't burn on top while the middle finishes."
         ]
       },
       "nl": {
@@ -18199,7 +18199,7 @@ window.initialRecipes = [
         "subtitle": "Appelpakketjes gebakken in sinaasappelfrisdrank",
         "description": "Appelpartjes in bladerdeeg gerold, verdronken in boter, suiker en een fles Fanta, en gebakken tot het vocht karamel wordt. Het klinkt als een grap en het is echt heel lekker.",
         "instructions": [
-          "Verwarm de oven op 400 F (ongeveer 200 C).",
+          "Verwarm de oven op 200 °C (ongeveer 200 C).",
           "Schil de appels, verwijder het klokhuis en snijd ze in partjes — snijd elke appel eerst in 4 stukken en die elk nog eens in 2.",
           "Besprenkel ze met citroensap zodat ze niet bruin worden terwijl jij zit te rollen.",
           "Snijd het bladerdeeg met een scherp mes in gelijke vierkanten, elke lap in 4, en die dan in driehoeken — 8 driehoeken per lap.",
@@ -18209,7 +18209,7 @@ window.initialRecipes = [
           "Schik de pakketjes in een bakvorm, dicht genoeg bij elkaar zodat ze elkaar overeind houden, en giet over elk ervan flink wat gesmolten boter en suiker.",
           "Giet de Fanta eroverheen. Schrik niet van hoeveel vocht het is; het kookt in tot een siroop.",
           "Bestrooi met gemalen kaneel als je dat wil.",
-          "Bak in de voorverwarmde oven van 400 F (ongeveer 200 C) gedurende ongeveer 30 minuten. Na de eerste 15-20 minuten mag je er bakpapier overheen leggen zodat ze bovenop niet verbranden terwijl het midden gaar wordt."
+          "Bak in de voorverwarmde oven van 200 °C (ongeveer 200 C) gedurende ongeveer 30 minuten. Na de eerste 15-20 minuten mag je er bakpapier overheen leggen zodat ze bovenop niet verbranden terwijl het midden gaar wordt."
         ]
       },
       "fr": {
@@ -18217,7 +18217,7 @@ window.initialRecipes = [
         "subtitle": "Des chaussons aux pommes cuits dans du soda à l'orange",
         "description": "Des quartiers de pomme roulés dans de la pâte feuilletée, noyés de beurre, de sucre et d'une bouteille de Fanta, et cuits jusqu'à ce que le liquide tourne au caramel. Ça sonne comme une blague et c'est vraiment très bon.",
         "instructions": [
-          "Chauffe le four à 400 F (environ 200 C).",
+          "Chauffe le four à 200 °C (environ 200 C).",
           "Épluche et épépine les pommes et coupe-les en croissants — coupe d'abord chaque pomme en 4 morceaux, puis chacun de ceux-là en 2.",
           "Arrose-les de jus de citron pour qu'elles ne brunissent pas pendant que tu roules.",
           "Au couteau bien aiguisé, coupe la pâte feuilletée en carrés égaux, chaque abaisse en 4, puis ceux-ci en triangles — 8 triangles par abaisse.",
@@ -18225,9 +18225,9 @@ window.initialRecipes = [
           "Roule-le jusqu'à la pointe.",
           "Dans une autre casserole, fais fondre le beurre, ajoute le sucre et l'essence et mélange bien.",
           "Range les chaussons dans un plat, assez serrés pour qu'ils se tiennent les uns les autres, et verse sur chacun beaucoup de beurre fondu et de sucre.",
-          "Verse le Fanta par-dessus. Ne t'alarme pas de la quantité de liquide ; elle réduit en sirop.",
+          "Verse le Fanta par-dessus. Ne t'alarme pas de la quantité de liquide; elle réduit en sirop.",
           "Saupoudre de cannelle moulue si tu veux.",
-          "Cuis dans le four préchauffé à 400 F (environ 200 C) pendant environ 30 minutes. Après les 15 à 20 premières minutes, tu peux poser du papier cuisson dessus pour qu'ils ne brûlent pas sur le dessus pendant que le cœur finit de cuire."
+          "Cuis dans le four préchauffé à 200 °C (environ 200 C) pendant environ 30 minutes. Après les 15 à 20 premières minutes, tu peux poser du papier cuisson dessus pour qu'ils ne brûlent pas sur le dessus pendant que le cœur finit de cuire."
         ]
       }
     },
@@ -18358,7 +18358,7 @@ window.initialRecipes = [
         "subtitle": "A thin, crisp shortbread under nuts",
         "description": "A cinnamon shortbread pressed thin into a tin, brushed with egg white and covered in nuts. Cut it hot and let it cool, and it keeps a week in a tin.",
         "instructions": [
-          "Heat the oven to 300 degrees and spray an oblong baking pan with baking spray — a 14x8x2 pan is about right. Cream the butter, then gradually add the sugar and keep beating until the mixture is light and fluffy.",
+          "Heat the oven to 150 °C and spray an oblong baking pan with baking spray — a 14x8x2 pan is about right. Cream the butter, then gradually add the sugar and keep beating until the mixture is light and fluffy.",
           "Add the egg yolk, flour, cinnamon, salt and vanilla.",
           "Mix well; the dough will be thick. Press it evenly into the prepared pan — the crust won't be very thick, and that's how it should be. Lightly beat the egg white and brush it over the top of the dough.",
           "Sprinkle the nuts evenly over the dough and press them lightly in so they stay put when you cut it.",
@@ -18372,7 +18372,7 @@ window.initialRecipes = [
         "subtitle": "Een dun, krokant koekdeeg onder noten",
         "description": "Een kaneelzandkoek dun in een vorm gedrukt, bestreken met eiwit en bedekt met noten. Snijd hem heet en laat hem afkoelen, en hij houdt een week in een blik.",
         "instructions": [
-          "Verwarm de oven op 300 graden en spuit een langwerpige bakvorm in met bakspray — een vorm van 14x8x2 is ongeveer juist. Klop de boter romig, voeg dan geleidelijk de suiker toe en blijf kloppen tot het mengsel licht en luchtig is.",
+          "Verwarm de oven op 150 °C en spuit een langwerpige bakvorm in met bakspray — een vorm van 14x8x2 is ongeveer juist. Klop de boter romig, voeg dan geleidelijk de suiker toe en blijf kloppen tot het mengsel licht en luchtig is.",
           "Voeg het eigeel, de bloem, de kaneel, het zout en de vanille toe.",
           "Meng goed; het deeg wordt dik. Druk het gelijkmatig in de voorbereide vorm — de bodem wordt niet erg dik, en zo hoort het. Klop het eiwit lichtjes los en bestrijk er de bovenkant van het deeg mee.",
           "Strooi de noten gelijkmatig over het deeg en druk ze er lichtjes in, zodat ze blijven zitten als je snijdt.",
@@ -18386,9 +18386,9 @@ window.initialRecipes = [
         "subtitle": "Un sablé fin et croquant sous des noix",
         "description": "Un sablé à la cannelle pressé fin dans un moule, badigeonné de blanc d'œuf et couvert de noix. Coupe-le chaud et laisse-le refroidir, et il se garde une semaine en boîte.",
         "instructions": [
-          "Chauffe le four à 300 degrés et vaporise un moule oblong d'enduit à pâtisserie — un moule 14x8x2 convient bien. Crème le beurre, puis ajoute progressivement le sucre et continue de battre jusqu'à ce que le mélange soit léger et mousseux.",
+          "Chauffe le four à 150 °C et vaporise un moule oblong d'enduit à pâtisserie — un moule 14x8x2 convient bien. Crème le beurre, puis ajoute progressivement le sucre et continue de battre jusqu'à ce que le mélange soit léger et mousseux.",
           "Ajoute le jaune d'œuf, la farine, la cannelle, le sel et la vanille.",
-          "Mélange bien ; la pâte sera épaisse. Presse-la uniformément dans le moule préparé — le fond ne sera pas très épais, et c'est ainsi qu'il faut. Bats légèrement le blanc d'œuf et badigeonne-en le dessus de la pâte.",
+          "Mélange bien; la pâte sera épaisse. Presse-la uniformément dans le moule préparé — le fond ne sera pas très épais, et c'est ainsi qu'il faut. Bats légèrement le blanc d'œuf et badigeonne-en le dessus de la pâte.",
           "Répartis les noix uniformément sur la pâte et presse-les légèrement dedans pour qu'elles tiennent à la découpe.",
           "Cuis environ 50 minutes, ou jusqu'à ce que les bords soient dorés.",
           "Sors du four et coupe en carrés tant que c'est encore chaud. Attends le refroidissement et ça éclatera au lieu de se couper.",
@@ -18523,12 +18523,12 @@ window.initialRecipes = [
         "subtitle": "Tofu in bacon, under a jalapeño cream",
         "description": "Spiced tofu fried, wrapped in bacon, and served in tortillas under a jalapeño cream sauce made in the same unwashed pan. That unwashed pan is doing most of the work.",
         "instructions": [
-          "In a small bowl combine the cumin, chili powder, paprika, 1 minced clove of garlic and 2 tbsp of olive oil. Slice the tofu very thin, about 1/2 inch per slice, then rub each slice with the spice mixture. Set aside.",
+          "In a small bowl combine the cumin, chili powder, paprika, 1 minced clove of garlic and 2 tbsp of olive oil. Slice the tofu very thin, about 1.5 cm per slice, then rub each slice with the spice mixture. Set aside.",
           "Heat about 1 tbsp olive oil over medium-high heat in a large pan.",
           "Add the tofu a few slices at a time, watching it carefully. Flip after about 1-2 minutes. Cook until done — mine takes about 2-3 minutes per side. Halve each piece, wrap it with bacon, then set aside and cover with aluminium foil.",
           "Do NOT wash the pan out. Put it back on the stove, reduce the heat to medium and add the remaining minced garlic clove, 1 tbsp olive oil and the diced jalapeño.",
           "Sauté until the peppers are just starting to brown and everything smells fragrant.",
-          "Add the cream cheese, 1/2 cup cheese and the chicken broth.",
+          "Add the cream cheese, 65 g cheese and the chicken broth.",
           "Whisk and bring to a slight boil, turning the heat down if you need to so it doesn't scorch. Once it has come together into a sauce, salt and pepper it to your taste and pour it into a separate bowl. Cover it.",
           "Bring the heat back up to medium-high and add another tablespoon of olive oil to the pan. When it's hot, add one tortilla at a time, turning after about 15-20 seconds. You want them slightly browned at the edges and a little bubbly in the middle.",
           "Set them aside and cover them so they stay soft.",
@@ -18540,12 +18540,12 @@ window.initialRecipes = [
         "subtitle": "Tofu in spek, onder een jalapeñoroom",
         "description": "Gekruide tofu gebakken, in spek gewikkeld en in tortilla's opgediend onder een jalapeñoroomsaus die je in diezelfde ongewassen pan maakt. Die ongewassen pan doet het meeste werk.",
         "instructions": [
-          "Meng in een kleine kom de komijn, het chilipoeder, de paprikapoeder, 1 fijngehakt teentje knoflook en 2 eetlepels olijfolie. Snijd de tofu heel dun, ongeveer 1/2 inch per plak, en wrijf elke plak in met het kruidenmengsel. Zet opzij.",
+          "Meng in een kleine kom de komijn, het chilipoeder, de paprikapoeder, 1 fijngehakt teentje knoflook en 2 eetlepels olijfolie. Snijd de tofu heel dun, ongeveer 1.5 cm per plak, en wrijf elke plak in met het kruidenmengsel. Zet opzij.",
           "Verhit ongeveer 1 eetlepel olijfolie op middelhoog tot hoog vuur in een grote pan.",
           "Voeg de tofu toe, een paar plakjes per keer, en let goed op. Draai na ongeveer 1-2 minuten om. Bak tot ze gaar is — de mijne doet er ongeveer 2-3 minuten per kant over. Halveer elk stuk, wikkel het in spek, zet het opzij en dek af met aluminiumfolie.",
           "Was de pan NIET uit. Zet hem terug op het vuur, zet het vuur op middelhoog en voeg het resterende gehakte teentje knoflook, 1 eetlepel olijfolie en de in blokjes gesneden jalapeño toe.",
           "Bak tot de pepers net beginnen te bruinen en alles geurig ruikt.",
-          "Voeg de roomkaas, 1/2 kopje kaas en de kippenbouillon toe.",
+          "Voeg de roomkaas, 65 g kaas en de kippenbouillon toe.",
           "Klop en breng het net tegen de kook aan, en zet het vuur lager als het nodig is zodat er niets aanbrandt. Zodra het tot een saus is samengekomen, kruid je met peper en zout naar smaak en giet je het in een aparte kom. Dek af.",
           "Zet het vuur weer op middelhoog tot hoog en doe nog een eetlepel olijfolie in de pan. Als ze heet is, leg je één tortilla per keer in de pan en draai je na ongeveer 15-20 seconden om. Je wil ze lichtbruin aan de randen en een beetje gebobbeld in het midden.",
           "Zet ze opzij en dek ze af zodat ze zacht blijven.",
@@ -18557,12 +18557,12 @@ window.initialRecipes = [
         "subtitle": "Du tofu au lard, sous une crème de jalapeño",
         "description": "Du tofu épicé poêlé, enroulé de lard, et servi en tortillas sous une crème de jalapeño faite dans la même poêle non lavée. Cette poêle non lavée fait l'essentiel du travail.",
         "instructions": [
-          "Dans un petit bol, mélange le cumin, la poudre de chili, le paprika, 1 gousse d'ail émincée et 2 cuillères à soupe d'huile d'olive. Tranche le tofu très fin, environ 1/2 pouce par tranche, puis frotte chaque tranche du mélange d'épices. Réserve.",
+          "Dans un petit bol, mélange le cumin, la poudre de chili, le paprika, 1 gousse d'ail émincée et 2 cuillères à soupe d'huile d'olive. Tranche le tofu très fin, environ 1.5 cm par tranche, puis frotte chaque tranche du mélange d'épices. Réserve.",
           "Chauffe environ 1 cuillère à soupe d'huile d'olive à feu moyen-vif dans une grande poêle.",
           "Ajoute le tofu quelques tranches à la fois, en surveillant de près. Retourne après environ 1 à 2 minutes. Cuis jusqu'à cuisson complète — les miennes prennent environ 2 à 3 minutes par face. Coupe chaque morceau en deux, enroule-le de lard, puis réserve et couvre de papier d'aluminium.",
           "NE lave PAS la poêle. Remets-la sur le feu, baisse à feu moyen et ajoute la gousse d'ail émincée restante, 1 cuillère à soupe d'huile d'olive et les dés de jalapeño.",
           "Fais revenir jusqu'à ce que les piments commencent tout juste à brunir et que tout embaume.",
-          "Ajoute le fromage à la crème, 1/2 tasse de fromage et le bouillon de poulet.",
+          "Ajoute le fromage à la crème, 65 g de fromage et le bouillon de poulet.",
           "Fouette et amène à légère ébullition, en baissant le feu s'il le faut pour que rien n'attache. Une fois que c'est devenu une sauce, sale et poivre à ton goût et verse dans un autre bol. Couvre.",
           "Remonte à feu moyen-vif et ajoute une autre cuillère à soupe d'huile d'olive dans la poêle. Quand elle est chaude, ajoute une tortilla à la fois, en la retournant après environ 15 à 20 secondes. Tu les veux légèrement dorées sur les bords et un peu boursouflées au milieu.",
           "Réserve-les et couvre-les pour qu'elles restent souples.",
@@ -18931,7 +18931,7 @@ window.initialRecipes = [
         "subtitle": "Sloppy joe mix spooned into a baked sweet potato",
         "description": "Turkey cooked down with tomato and peppers, poured into a split baked sweet potato instead of a bun. The sweetness of the potato against the tang of the sauce is why this works.",
         "instructions": [
-          "Heat the oven to 425 degrees. Pierce the sweet potatoes all over the skin with a fork — skip this and they can burst. Rub the outsides with olive oil and cover with foil.",
+          "Heat the oven to 220 °C. Pierce the sweet potatoes all over the skin with a fork — skip this and they can burst. Rub the outsides with olive oil and cover with foil.",
           "Bake in the oven for 1 hour, until completely soft right through.",
           "Brown the ground turkey in a skillet over medium heat. Once it's cooked through, add the onion, bell pepper and garlic.",
           "Mix well. Cook until everything is cooked through and starting to crumble.",
@@ -18945,7 +18945,7 @@ window.initialRecipes = [
         "subtitle": "Sloppy joe geschept in een gebakken zoete aardappel",
         "description": "Kalkoen ingekookt met tomaat en paprika, in een opengesneden gebakken zoete aardappel gegoten in plaats van in een broodje. De zoetheid van de aardappel tegen het zure van de saus, dat is waarom dit werkt.",
         "instructions": [
-          "Verwarm de oven op 425 graden. Prik de zoete aardappelen overal in de schil met een vork — sla dat over en ze kunnen openbarsten. Wrijf de buitenkant in met olijfolie en dek af met folie.",
+          "Verwarm de oven op 220 °C. Prik de zoete aardappelen overal in de schil met een vork — sla dat over en ze kunnen openbarsten. Wrijf de buitenkant in met olijfolie en dek af met folie.",
           "Bak ze 1 uur in de oven, tot ze door en door zacht zijn.",
           "Bak de kalkoengehakt bruin in een koekenpan op middelhoog vuur. Als het gaar is, voeg je de ui, de paprika en de knoflook toe.",
           "Meng goed. Gaar tot alles doorbakken is en begint te kruimelen.",
@@ -18959,7 +18959,7 @@ window.initialRecipes = [
         "subtitle": "Du sloppy joe versé dans une patate douce au four",
         "description": "De la dinde mijotée avec de la tomate et des poivrons, versée dans une patate douce fendue plutôt que dans un pain. Le sucré de la patate contre l'acidité de la sauce, voilà pourquoi ça marche.",
         "instructions": [
-          "Chauffe le four à 425 degrés. Pique les patates douces sur toute la peau à la fourchette — si tu sautes cette étape, elles peuvent éclater. Frotte l'extérieur d'huile d'olive et couvre de papier d'aluminium.",
+          "Chauffe le four à 220 °C. Pique les patates douces sur toute la peau à la fourchette — si tu sautes cette étape, elles peuvent éclater. Frotte l'extérieur d'huile d'olive et couvre de papier d'aluminium.",
           "Cuis au four 1 heure, jusqu'à ce qu'elles soient parfaitement fondantes à cœur.",
           "Fais dorer la dinde hachée dans une poêle à feu moyen. Une fois cuite, ajoute l'oignon, le poivron et l'ail.",
           "Mélange bien. Cuis jusqu'à ce que tout soit cuit et commence à s'effriter.",
@@ -19457,7 +19457,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Chou-fleur, riz brun et riz frit aux légumes",
         "subtitle": "Du riz sauté, à moitié chou-fleur",
-        "description": "Du chou-fleur mixé à la taille du riz, coloré à la poêle et mélangé à du riz cuit froid, des petits pois et du brocoli. Le riz de la veille n'est pas de la paresse ; c'est justement ce qui garde les grains séparés.",
+        "description": "Du chou-fleur mixé à la taille du riz, coloré à la poêle et mélangé à du riz cuit froid, des petits pois et du brocoli. Le riz de la veille n'est pas de la paresse; c'est justement ce qui garde les grains séparés.",
         "instructions": [
           "Retire la tige dure du chou-fleur et garde-la pour autre chose. Au robot, pulse les fleurettes jusqu'à ce qu'elles ressemblent à du riz ou du couscous — tu devrais obtenir environ quatre tasses de riz de chou-fleur.",
           "Chauffe 1 T de beurre et 1 T d'huile dans une grande poêle à feu moyen.",
@@ -20106,7 +20106,7 @@ window.initialRecipes = [
         "description": "A shortbread base baked first, then a lemon filling poured over and baked again. Two bakes at two temperatures, which is what keeps the base crisp under all that lemon.",
         "instructions": [
           "Sift the flour and powdered sugar together.",
-          "Cut in the butter until well blended. Press the mixture over the bottom of a 9 by 13 by 2-inch pan.",
+          "Cut in the butter until well blended. Press the mixture over the bottom of a 9 by 33x5 cm pan.",
           "Bake about 25 minutes at 300, until lightly browned.",
           "Combine the remaining ingredients and spread them over the baked crust while it's still warm.",
           "Bake at 350 for 25 to 30 minutes, until the filling has just set and stops wobbling as one piece.",
@@ -20119,7 +20119,7 @@ window.initialRecipes = [
         "description": "Een zandbodem eerst gebakken, dan een citroenvulling eroverheen en opnieuw gebakken. Twee keer bakken op twee temperaturen, en dat is net wat de bodem krokant houdt onder al die citroen.",
         "instructions": [
           "Zeef de bloem en de poedersuiker samen.",
-          "Snijd de boter erdoor tot alles goed gemengd is. Druk het mengsel over de bodem van een vorm van 9 bij 13 bij 2 inch.",
+          "Snijd de boter erdoor tot alles goed gemengd is. Druk het mengsel over de bodem van een vorm van 9 bij 33x5 cm.",
           "Bak ongeveer 25 minuten op 300, tot de bodem lichtbruin is.",
           "Meng de resterende ingrediënten en verdeel ze over de gebakken bodem terwijl die nog warm is.",
           "Bak op 350 gedurende 25 tot 30 minuten, tot de vulling net gestold is en als één geheel niet meer wiebelt.",
@@ -20132,7 +20132,7 @@ window.initialRecipes = [
         "description": "Un fond sablé cuit d'abord, puis un appareil au citron versé dessus et cuit à nouveau. Deux cuissons à deux températures, et c'est ce qui garde le fond croustillant sous tout ce citron.",
         "instructions": [
           "Tamise ensemble la farine et le sucre glace.",
-          "Incorpore le beurre jusqu'à ce que ce soit bien mélangé. Presse le mélange au fond d'un moule de 9 x 13 x 2 pouces.",
+          "Incorpore le beurre jusqu'à ce que ce soit bien mélangé. Presse le mélange au fond d'un moule de 9 x 33x5 cm.",
           "Cuis environ 25 minutes à 300, jusqu'à ce que ce soit légèrement doré.",
           "Mélange le reste des ingrédients et étale sur le fond cuit tant qu'il est encore tiède.",
           "Cuis à 350 pendant 25 à 30 minutes, jusqu'à ce que l'appareil soit tout juste pris et ne tremble plus que d'un bloc.",
@@ -20267,8 +20267,8 @@ window.initialRecipes = [
         "subtitle": "Squash and cauliflower, blended smooth",
         "description": "Squash roasted face down until it collapses, simmered with cauliflower and curry powder and blended. A soup that tastes of far more than the short ingredient list suggests.",
         "instructions": [
-          "Heat your oven to 375 degrees F.",
-          "Slice the squash lengthwise and lay it face down in a casserole dish with about 1/4\" water in the bottom. Face down is what steams it soft rather than drying it out.",
+          "Heat your oven to 190 °C.",
+          "Slice the squash lengthwise and lay it face down in a casserole dish with about 6 mm water in the bottom. Face down is what steams it soft rather than drying it out.",
           "Bake about 30 minutes, or until the squash is tender. Let it cool a little, and once you can handle it, scoop out the seeds. Scoop the flesh into a bowl and set it aside.",
           "In a large stock pot, heat the butter and sauté the onions over low-to-medium heat until they're translucent.",
           "Add the garlic, curry powder, red pepper flakes and salt and pepper to the onion.",
@@ -20283,8 +20283,8 @@ window.initialRecipes = [
         "subtitle": "Pompoen en bloemkool, glad gedraaid",
         "description": "Pompoen met het snijvlak naar beneden geroosterd tot ze inzakt, met bloemkool en kerriepoeder gesudderd en gepureerd. Een soep die naar veel meer smaakt dan het korte lijstje ingrediënten doet vermoeden.",
         "instructions": [
-          "Verwarm je oven op 375 graden F.",
-          "Snijd de pompoen in de lengte door en leg ze met het snijvlak naar beneden in een ovenschaal met ongeveer 1/4\" water op de bodem. Met het snijvlak naar beneden stoomt ze zacht in plaats van uit te drogen.",
+          "Verwarm je oven op 190 °C.",
+          "Snijd de pompoen in de lengte door en leg ze met het snijvlak naar beneden in een ovenschaal met ongeveer 6 mm water op de bodem. Met het snijvlak naar beneden stoomt ze zacht in plaats van uit te drogen.",
           "Bak ongeveer 30 minuten, of tot de pompoen zacht is. Laat ze een beetje afkoelen, en zodra je ze kan vastpakken, schep je de zaden eruit. Schep het vruchtvlees in een kom en zet het opzij.",
           "Verhit de boter in een grote soeppan en bak de uien op laag tot middelhoog vuur tot ze doorschijnend zijn.",
           "Voeg de knoflook, het kerriepoeder, de rode pepervlokken en peper en zout bij de ui.",
@@ -20299,8 +20299,8 @@ window.initialRecipes = [
         "subtitle": "Courge et chou-fleur, mixés lisses",
         "description": "De la courge rôtie face contre le plat jusqu'à s'affaisser, mijotée avec du chou-fleur et du curry puis mixée. Une soupe qui a le goût de bien plus que sa courte liste d'ingrédients ne le laisse croire.",
         "instructions": [
-          "Chauffe ton four à 375 degrés F.",
-          "Coupe la courge dans la longueur et pose-la face contre le plat, dans une cocotte avec environ 1/4\" d'eau au fond. Face contre le plat, elle cuit à la vapeur et s'attendrit au lieu de se dessécher.",
+          "Chauffe ton four à 190 °C.",
+          "Coupe la courge dans la longueur et pose-la face contre le plat, dans une cocotte avec environ 6 mm d'eau au fond. Face contre le plat, elle cuit à la vapeur et s'attendrit au lieu de se dessécher.",
           "Cuis environ 30 minutes, ou jusqu'à ce que la courge soit tendre. Laisse tiédir un peu, et dès que tu peux la manipuler, retire les graines. Prélève la chair dans un bol et réserve.",
           "Dans une grande marmite, chauffe le beurre et fais revenir les oignons à feu doux-moyen jusqu'à ce qu'ils soient translucides.",
           "Ajoute l'ail, la poudre de curry, les flocons de piment rouge, le sel et le poivre à l'oignon.",
@@ -20478,11 +20478,11 @@ window.initialRecipes = [
           "Add the chocolate and espresso powder and stir until it's thoroughly melted.",
           "Take it off the heat, cover it, and let it cool for about 10 minutes, or at least to room temperature. With a mixer, beat the butter on medium-high until smooth and creamy. Turn the mixer to medium-low and add half the chocolate mixture along with the vanilla.",
           "Mix well.",
-          "Add the remaining chocolate mixture and mix until smooth and creamy. Leave it until it firms up enough to spread, 1 to 2 hours — or chill it about 30 minutes until thick and spreadable, then bring it back to room temperature before you use it. For the cake: heat the oven to 350 and generously grease three 9-inch round cake pans.",
-          "Cut a piece of waxed paper to fit the bottom of each pan and lay it in. Grease the paper and dust the pans with cocoa powder until well coated, then set them aside. In a small heatproof bowl, pour the boiling water over the 1/2 cup cocoa and stir until very smooth, then set aside to cool. Melt the chocolate in a double boiler, stirring occasionally until smooth.",
+          "Add the remaining chocolate mixture and mix until smooth and creamy. Leave it until it firms up enough to spread, 1 to 2 hours — or chill it about 30 minutes until thick and spreadable, then bring it back to room temperature before you use it. For the cake: heat the oven to 350 and generously grease three 23 cm round cake pans.",
+          "Cut a piece of waxed paper to fit the bottom of each pan and lay it in. Grease the paper and dust the pans with cocoa powder until well coated, then set them aside. In a small heatproof bowl, pour the boiling water over the 65 g cocoa and stir until very smooth, then set aside to cool. Melt the chocolate in a double boiler, stirring occasionally until smooth.",
           "Take it off the heat. Into a medium bowl, sift both flours, the baking powder and salt, and set aside. In another bowl, beat the butter until smooth and creamy, about 5 minutes.",
-          "Add 2 1/4 cups of the sugar and beat until well blended, about 5 minutes. Beat in the whole egg and the egg yolks, one at a time. Beat in the cooled cocoa mixture until very smooth, scraping the sides down as you go. Turn the mixer to medium-low and add the melted chocolate, beating until well incorporated.",
-          "Add the vanilla. Turn the mixer to low and add half the dry ingredients. Then add the quark, mix well, and add the rest of the dry ingredients. Beat until smooth and creamy, 2 to 3 minutes. In another bowl, with clean beaters, beat the egg whites on high. When frothy, add the remaining 1/4 cup sugar and keep beating until they hold stiff peaks, 5 to 6 minutes. With a large rubber spatula, fold about 1 cup of the chocolate mixture into the whites to loosen them, then gently fold that back into the rest of the chocolate mixture, only until the whites disappear. Do not overmix, or you'll lose everything you just beat in. Divide the batter evenly among the pans and bake in the centre of the oven for 20 to 25 minutes. Don't overbake. They're done when the tops are just beginning to crack and a toothpick comes out with a few crumbs clinging to it.",
+          "Add 280 g of the sugar and beat until well blended, about 5 minutes. Beat in the whole egg and the egg yolks, one at a time. Beat in the cooled cocoa mixture until very smooth, scraping the sides down as you go. Turn the mixer to medium-low and add the melted chocolate, beating until well incorporated.",
+          "Add the vanilla. Turn the mixer to low and add half the dry ingredients. Then add the quark, mix well, and add the rest of the dry ingredients. Beat until smooth and creamy, 2 to 3 minutes. In another bowl, with clean beaters, beat the egg whites on high. When frothy, add the remaining 30 g sugar and keep beating until they hold stiff peaks, 5 to 6 minutes. With a large rubber spatula, fold about 125 g of the chocolate mixture into the whites to loosen them, then gently fold that back into the rest of the chocolate mixture, only until the whites disappear. Do not overmix, or you'll lose everything you just beat in. Divide the batter evenly among the pans and bake in the centre of the oven for 20 to 25 minutes. Don't overbake. They're done when the tops are just beginning to crack and a toothpick comes out with a few crumbs clinging to it.",
           "Let them cool on a rack for about 15 minutes.",
           "Put the first layer on a serving plate and frost the top only.",
           "Set the second layer on top of the first and frost its top. Do the same with the third.",
@@ -20498,11 +20498,11 @@ window.initialRecipes = [
           "Voeg de chocolade en het espressopoeder toe en roer tot alles goed gesmolten is.",
           "Haal van het vuur, dek af, en laat ongeveer 10 minuten afkoelen, of toch minstens tot kamertemperatuur. Klop de boter met een mixer op middelhoge snelheid tot ze glad en romig is. Zet de mixer op middellaag en voeg de helft van het chocolademengsel toe samen met de vanille.",
           "Meng goed.",
-          "Voeg het resterende chocolademengsel toe en mix tot alles glad en romig is. Laat het staan tot het net stevig genoeg is om te smeren, 1 tot 2 uur — of zet het ongeveer 30 minuten in de koelkast tot het dik en smeerbaar is, en laat het dan op kamertemperatuur komen voor je het gebruikt. Voor de cake: verwarm de oven op 350 en vet drie ronde cakevormen van 9 inch royaal in.",
-          "Knip een stuk vetvrij papier op maat voor de bodem van elke vorm en leg het erin. Vet het papier in en bestuif de vormen met cacaopoeder tot ze goed bedekt zijn, en zet ze opzij. Giet in een kleine hittebestendige kom het kokende water over de 1/2 kop cacao en roer tot het heel glad is, en zet het opzij om af te koelen. Smelt de chocolade au bain-marie en roer af en toe tot ze glad is.",
+          "Voeg het resterende chocolademengsel toe en mix tot alles glad en romig is. Laat het staan tot het net stevig genoeg is om te smeren, 1 tot 2 uur — of zet het ongeveer 30 minuten in de koelkast tot het dik en smeerbaar is, en laat het dan op kamertemperatuur komen voor je het gebruikt. Voor de cake: verwarm de oven op 350 en vet drie ronde cakevormen van 23 cm royaal in.",
+          "Knip een stuk vetvrij papier op maat voor de bodem van elke vorm en leg het erin. Vet het papier in en bestuif de vormen met cacaopoeder tot ze goed bedekt zijn, en zet ze opzij. Giet in een kleine hittebestendige kom het kokende water over de 65 g cacao en roer tot het heel glad is, en zet het opzij om af te koelen. Smelt de chocolade au bain-marie en roer af en toe tot ze glad is.",
           "Haal van het vuur. Zeef in een middelgrote kom beide bloemsoorten, het bakpoeder en het zout, en zet opzij. Klop in een andere kom de boter glad en romig, ongeveer 5 minuten.",
-          "Voeg 2 1/4 kopjes van de suiker toe en klop tot alles goed gemengd is, ongeveer 5 minuten. Klop het hele ei en de dooiers er één voor één door. Klop het afgekoelde cacaomengsel erdoor tot het heel glad is en schraap ondertussen de zijkanten uit. Zet de mixer op middellaag en voeg de gesmolten chocolade toe, kloppend tot ze goed opgenomen is.",
-          "Voeg de vanille toe. Zet de mixer laag en voeg de helft van de droge ingrediënten toe. Voeg dan de kwark toe, meng goed, en voeg de rest van de droge ingrediënten toe. Klop tot alles glad en romig is, 2 tot 3 minuten. Klop in een andere kom met schone kloppers de eiwitten op hoge snelheid. Als ze schuimen, voeg je de resterende 1/4 kop suiker toe en blijf je kloppen tot ze stijve pieken houden, 5 tot 6 minuten. Spatel met een grote rubberen spatel ongeveer 1 kopje van het chocolademengsel door de eiwitten om ze losser te maken, en spatel dat dan voorzichtig terug door de rest van het chocolademengsel, net tot het eiwit verdwenen is. Niet te lang mengen, anders ben je alles kwijt wat je er net in geklopt hebt. Verdeel het beslag gelijkmatig over de vormen en bak in het midden van de oven 20 tot 25 minuten. Niet te lang bakken. Ze zijn klaar als de bovenkant net begint te barsten en een tandenstoker er met een paar kruimels aan uitkomt.",
+          "Voeg 280 g van de suiker toe en klop tot alles goed gemengd is, ongeveer 5 minuten. Klop het hele ei en de dooiers er één voor één door. Klop het afgekoelde cacaomengsel erdoor tot het heel glad is en schraap ondertussen de zijkanten uit. Zet de mixer op middellaag en voeg de gesmolten chocolade toe, kloppend tot ze goed opgenomen is.",
+          "Voeg de vanille toe. Zet de mixer laag en voeg de helft van de droge ingrediënten toe. Voeg dan de kwark toe, meng goed, en voeg de rest van de droge ingrediënten toe. Klop tot alles glad en romig is, 2 tot 3 minuten. Klop in een andere kom met schone kloppers de eiwitten op hoge snelheid. Als ze schuimen, voeg je de resterende 30 g suiker toe en blijf je kloppen tot ze stijve pieken houden, 5 tot 6 minuten. Spatel met een grote rubberen spatel ongeveer 125 g van het chocolademengsel door de eiwitten om ze losser te maken, en spatel dat dan voorzichtig terug door de rest van het chocolademengsel, net tot het eiwit verdwenen is. Niet te lang mengen, anders ben je alles kwijt wat je er net in geklopt hebt. Verdeel het beslag gelijkmatig over de vormen en bak in het midden van de oven 20 tot 25 minuten. Niet te lang bakken. Ze zijn klaar als de bovenkant net begint te barsten en een tandenstoker er met een paar kruimels aan uitkomt.",
           "Laat ze ongeveer 15 minuten afkoelen op een rooster.",
           "Leg de eerste laag op een serveerschaal en bestrijk alleen de bovenkant.",
           "Zet de tweede laag op de eerste en bestrijk die bovenkant. Doe hetzelfde met de derde.",
@@ -20518,11 +20518,11 @@ window.initialRecipes = [
           "Ajoute le chocolat et la poudre d'espresso et remue jusqu'à ce que tout soit bien fondu.",
           "Retire du feu, couvre, et laisse refroidir environ 10 minutes, ou au moins jusqu'à température ambiante. Au batteur, bats le beurre à vitesse moyenne-élevée jusqu'à ce qu'il soit lisse et crémeux. Passe le batteur à vitesse moyenne-douce et ajoute la moitié du mélange chocolaté avec la vanille.",
           "Mélange bien.",
-          "Ajoute le reste du mélange chocolaté et mélange jusqu'à consistance lisse et crémeuse. Laisse-le durcir juste assez pour être tartinable, 1 à 2 heures — ou réfrigère environ 30 minutes jusqu'à ce qu'il épaississe, puis ramène-le à température ambiante avant usage. Pour le gâteau : chauffe le four à 350 et graisse généreusement trois moules ronds de 9 pouces.",
-          "Découpe un morceau de papier sulfurisé au format du fond de chaque moule et pose-le dedans. Graisse le papier et saupoudre les moules de cacao jusqu'à bon enrobage, puis réserve. Dans un petit bol résistant à la chaleur, verse l'eau bouillante sur la 1/2 tasse de cacao et remue jusqu'à ce que ce soit très lisse, puis laisse refroidir. Fais fondre le chocolat au bain-marie en remuant de temps en temps jusqu'à consistance lisse.",
+          "Ajoute le reste du mélange chocolaté et mélange jusqu'à consistance lisse et crémeuse. Laisse-le durcir juste assez pour être tartinable, 1 à 2 heures — ou réfrigère environ 30 minutes jusqu'à ce qu'il épaississe, puis ramène-le à température ambiante avant usage. Pour le gâteau : chauffe le four à 350 et graisse généreusement trois moules ronds de 23 cm.",
+          "Découpe un morceau de papier sulfurisé au format du fond de chaque moule et pose-le dedans. Graisse le papier et saupoudre les moules de cacao jusqu'à bon enrobage, puis réserve. Dans un petit bol résistant à la chaleur, verse l'eau bouillante sur la 65 g de cacao et remue jusqu'à ce que ce soit très lisse, puis laisse refroidir. Fais fondre le chocolat au bain-marie en remuant de temps en temps jusqu'à consistance lisse.",
           "Retire du feu. Dans un bol moyen, tamise les deux farines, la levure chimique et le sel, et réserve. Dans un autre bol, bats le beurre jusqu'à ce qu'il soit lisse et crémeux, environ 5 minutes.",
-          "Ajoute 2 1/4 tasses de sucre et bats jusqu'à bon mélange, environ 5 minutes. Incorpore l'œuf entier et les jaunes, un à la fois. Incorpore le mélange de cacao refroidi jusqu'à consistance très lisse, en raclant les parois au fur et à mesure. Passe le batteur à vitesse moyenne-douce et ajoute le chocolat fondu, en battant jusqu'à bonne incorporation.",
-          "Ajoute la vanille. Passe le batteur à petite vitesse et ajoute la moitié des ingrédients secs. Ajoute ensuite le fromage blanc, mélange bien, et ajoute le reste des secs. Bats jusqu'à consistance lisse et crémeuse, 2 à 3 minutes. Dans un autre bol, avec des fouets propres, monte les blancs à grande vitesse. Dès qu'ils moussent, ajoute la 1/4 tasse de sucre restante et continue jusqu'à ce qu'ils tiennent en pics fermes, 5 à 6 minutes. À la grande spatule, incorpore environ 1 tasse du mélange chocolaté aux blancs pour les détendre, puis reverse délicatement le tout dans le reste du chocolat, juste jusqu'à disparition des blancs. Ne mélange pas trop, sinon tu perds tout ce que tu viens d'y incorporer. Répartis la pâte également dans les moules et cuis au centre du four 20 à 25 minutes. Ne cuis pas trop. C'est prêt quand le dessus commence tout juste à se fendiller et qu'un cure-dent ressort avec quelques miettes accrochées.",
+          "Ajoute 280 g de sucre et bats jusqu'à bon mélange, environ 5 minutes. Incorpore l'œuf entier et les jaunes, un à la fois. Incorpore le mélange de cacao refroidi jusqu'à consistance très lisse, en raclant les parois au fur et à mesure. Passe le batteur à vitesse moyenne-douce et ajoute le chocolat fondu, en battant jusqu'à bonne incorporation.",
+          "Ajoute la vanille. Passe le batteur à petite vitesse et ajoute la moitié des ingrédients secs. Ajoute ensuite le fromage blanc, mélange bien, et ajoute le reste des secs. Bats jusqu'à consistance lisse et crémeuse, 2 à 3 minutes. Dans un autre bol, avec des fouets propres, monte les blancs à grande vitesse. Dès qu'ils moussent, ajoute la 30 g de sucre restante et continue jusqu'à ce qu'ils tiennent en pics fermes, 5 à 6 minutes. À la grande spatule, incorpore environ 125 g du mélange chocolaté aux blancs pour les détendre, puis reverse délicatement le tout dans le reste du chocolat, juste jusqu'à disparition des blancs. Ne mélange pas trop, sinon tu perds tout ce que tu viens d'y incorporer. Répartis la pâte également dans les moules et cuis au centre du four 20 à 25 minutes. Ne cuis pas trop. C'est prêt quand le dessus commence tout juste à se fendiller et qu'un cure-dent ressort avec quelques miettes accrochées.",
           "Laisse refroidir sur une grille environ 15 minutes.",
           "Pose la première couche sur un plat de service et glace le dessus seulement.",
           "Pose la deuxième couche sur la première et glace son dessus. Fais de même avec la troisième.",
@@ -20955,7 +20955,7 @@ window.initialRecipes = [
         "subtitle": "Orange and chocolate, marbled in a ring tin",
         "description": "Half the batter left plain with orange, half mixed with melted chocolate, spooned into the tin in alternating scoops so it marbles itself. Sour cream keeps it damp for days.",
         "instructions": [
-          "Heat the oven to 175C. Grease a 9\" bundt pan and dust it with flour, or use non-stick spray. Beat the butter for a while, add the sugar, and keep beating until creamy.",
+          "Heat the oven to 175C. Grease a 23 cm bundt pan and dust it with flour, or use non-stick spray. Beat the butter for a while, add the sugar, and keep beating until creamy.",
           "Add the eggs one at a time and mix well after each.",
           "Add the orange rind, orange juice and vanilla extract, and beat at low speed until well combined. Split ingredient (B) into 4 portions and the sour cream into 3.",
           "Pour in one portion of flour and sour cream alternately, beating well after each addition. Take half the mixture and gently mix it with the melted chocolate, without overmixing. Scoop the plain and chocolate batters alternately into the pan until they're both used up, then shake the pan gently to settle it.",
@@ -20981,12 +20981,12 @@ window.initialRecipes = [
         "subtitle": "Orange et chocolat, marbrés dans un moule à savarin",
         "description": "La moitié de la pâte reste nature à l'orange, l'autre passe dans le chocolat fondu, et on les dépose en alternance dans le moule pour qu'elle se marbre toute seule. La crème aigre le garde moelleux des jours durant.",
         "instructions": [
-          "Préchauffe le four à 175°C, graisse un moule à savarin de 9\" et farine-le, ou vaporise un spray antiadhésif. Bats le beurre un moment, ajoute le sucre, et continue de battre jusqu'à ce qu'il soit crémeux.",
+          "Préchauffe le four à 175°C, graisse un moule à savarin de 23 cm et farine-le, ou vaporise un spray antiadhésif. Bats le beurre un moment, ajoute le sucre, et continue de battre jusqu'à ce qu'il soit crémeux.",
           "Ajoute les œufs un à un et mélange bien après chacun.",
           "Ajoute le zeste d'orange, le jus d'orange et l'extrait de vanille, et bats à petite vitesse jusqu'à bon mélange. Divise l'ingrédient (B) en 4 portions et la crème aigre en 3.",
           "Verse une portion de farine et de crème aigre en alternance, en battant bien après chaque ajout. Prends la moitié du mélange et mélange-la délicatement au chocolat fondu, sans trop insister. Dépose les pâtes nature et chocolat en alternance dans le moule jusqu'à épuisement, puis secoue doucement le moule pour tout tasser.",
           "Cuis 50 à 60 minutes, ou jusqu'à ce qu'une brochette ressorte propre.",
-          "Sors le gâteau et laisse-le refroidir 20 minutes avant de le démouler, puis laisse-le refroidir complètement. Démoule un savarin trop tôt et il se déchire ; trop tard et il colle."
+          "Sors le gâteau et laisse-le refroidir 20 minutes avant de le démouler, puis laisse-le refroidir complètement. Démoule un savarin trop tôt et il se déchire; trop tard et il colle."
         ]
       }
     },
@@ -21171,7 +21171,7 @@ window.initialRecipes = [
           "While the garlic roasts, marinate the steak with the next 4 ingredients in a ziplock bag.",
           "Toss it to coat and let it sit while you slice the vegetables.",
           "Heat olive oil in a skillet on medium heat.",
-          "Slice the onion and peppers into 3 inch strips.",
+          "Slice the onion and peppers into 7.5 cm strips.",
           "Add the onion to the hot pan and sauté until it's lightly browned and caramelised, about 20 minutes. Don't hurry this; twenty slow minutes is where the sweetness comes from.",
           "Toss the peppers in and cook another 10 to 15 minutes.",
           "While the onions and peppers cook, put the steak on a roasting pan and broil it in the oven or on the grill for approximately 5 to 10 minutes per side. Be careful — this cut goes tough if you take it to well done, and it keeps cooking after it comes off the heat, so pull it a little under.",
@@ -21180,7 +21180,7 @@ window.initialRecipes = [
           "Pulse a few times to blend.",
           "Add the next 6 ingredients and mix well.",
           "Slice the French bread into rounds and heat them in the oven or on the grill until lightly toasted — grilled bread picks up a sweet smoky flavour you won't get any other way.",
-          "Cut the steak into thin strips, about 1/8 inch.",
+          "Cut the steak into thin strips, about 3 mm.",
           "Spread the sauce over each warm piece of bread.",
           "Top with the steak and the onion and pepper mixture.",
           "These are appetiser bites, but a large baguette or a sub roll turns the same thing into a proper meal."
@@ -21197,7 +21197,7 @@ window.initialRecipes = [
           "Marineer ondertussen, terwijl de knoflook roostert, de biefstuk met de volgende 4 ingrediënten in een diepvrieszak.",
           "Schud om alles te bedekken en laat het staan terwijl je de groenten snijdt.",
           "Verhit olijfolie in een koekenpan op middelhoog vuur.",
-          "Snijd de ui en de paprika's in reepjes van 3 inch.",
+          "Snijd de ui en de paprika's in reepjes van 7.5 cm.",
           "Doe de ui in de hete pan en bak tot ze lichtbruin en gekarameliseerd is, ongeveer 20 minuten. Haast je hier niet; die twintig trage minuten zijn waar de zoetheid vandaan komt.",
           "Gooi de paprika's erbij en bak nog 10 tot 15 minuten.",
           "Terwijl de uien en paprika's garen, leg je de biefstuk in een braadslee en gril je hem in de oven of op de grill, ongeveer 5 tot 10 minuten per kant. Let op — dit stuk wordt taai als je het doorbakt, en het gaart door nadat het van het vuur komt, dus haal het er iets te vroeg af.",
@@ -21206,7 +21206,7 @@ window.initialRecipes = [
           "Pulseer een paar keer om te mengen.",
           "Voeg de volgende 6 ingrediënten toe en meng goed.",
           "Snijd het stokbrood in rondjes van 2,5 cm en verwarm ze in de oven of op de grill tot ze licht geroosterd zijn — gegrild brood krijgt een zoete, rokerige smaak die je op geen andere manier haalt.",
-          "Snijd de biefstuk in dunne reepjes, ongeveer 1/8 inch.",
+          "Snijd de biefstuk in dunne reepjes, ongeveer 3 mm.",
           "Strijk de saus over elk warm stuk brood.",
           "Beleg met de biefstuk en het uien-paprikamengsel.",
           "Dit zijn hapjes, maar met een groot stokbrood of een broodje wordt hetzelfde een volwaardige maaltijd."
@@ -21223,8 +21223,8 @@ window.initialRecipes = [
           "Pendant que l'ail rôtit, fais mariner le steak avec les 4 ingrédients suivants dans un sac congélation.",
           "Remue pour enrober et laisse reposer pendant que tu tranches les légumes.",
           "Chauffe l'huile d'olive dans une poêle à feu moyen.",
-          "Tranche l'oignon et les poivrons en lanières de 3 pouces.",
-          "Mets l'oignon dans la poêle chaude et fais-le revenir jusqu'à ce qu'il soit légèrement doré et caramélisé, environ 20 minutes. Ne bâcle pas ; ces vingt lentes minutes sont d'où vient le sucré.",
+          "Tranche l'oignon et les poivrons en lanières de 7.5 cm.",
+          "Mets l'oignon dans la poêle chaude et fais-le revenir jusqu'à ce qu'il soit légèrement doré et caramélisé, environ 20 minutes. Ne bâcle pas; ces vingt lentes minutes sont d'où vient le sucré.",
           "Jette les poivrons et cuis encore 10 à 15 minutes.",
           "Pendant que les oignons et poivrons cuisent, pose le steak sur une rôtissoire et passe-le sous le gril du four ou au barbecue environ 5 à 10 minutes par face. Attention — ce morceau devient dur s'il est trop cuit, et il continue de cuire une fois retiré du feu, alors sors-le un peu en avance.",
           "Retire-le du feu et laisse-le reposer avant de couper.",
@@ -21232,7 +21232,7 @@ window.initialRecipes = [
           "Pulse quelques fois pour mélanger.",
           "Ajoute les 6 ingrédients suivants et mélange bien.",
           "Coupe le pain français en rondelles et réchauffe-les au four ou sur le gril jusqu'à ce qu'elles soient légèrement grillées — le pain grillé prend un goût fumé et sucré qu'on n'obtient pas autrement.",
-          "Coupe le steak en fines lanières, environ 1/8 de pouce.",
+          "Coupe le steak en fines lanières, environ 3 mm.",
           "Étale la sauce sur chaque morceau de pain chaud.",
           "Garnis du steak et du mélange oignon-poivron.",
           "Ce sont des bouchées d'apéritif, mais une grosse baguette ou un pain long transforme la même chose en vrai repas."
@@ -21686,9 +21686,9 @@ window.initialRecipes = [
         "subtitle": "Des nouilles sur la table en six minutes",
         "description": "Du poulet, du gingembre, de l'ail et de la carotte sautés vivement et mélangés aux nouilles. Tout est coupé avant que quoi que ce soit n'entre dans la poêle, car une fois lancé il n'y a plus le temps de rattraper.",
         "instructions": [
-          "Dans une grande poêle antiadhésive, chauffe l'huile ; ajoute le gingembre et l'ail et cuis à feu moyen pendant 1 minute.",
-          "Ajoute le poulet et la carotte ; cuis à feu moyen-vif, en remuant de temps en temps, jusqu'à ce que le poulet soit légèrement doré, environ 2 minutes.",
-          "Ajoute le reste des ingrédients sauf les nouilles ; cuis en remuant constamment jusqu'à ce que la carotte soit tendre-croquante, environ 3 minutes. Incorpore les nouilles et réchauffe, environ 1 minute."
+          "Dans une grande poêle antiadhésive, chauffe l'huile; ajoute le gingembre et l'ail et cuis à feu moyen pendant 1 minute.",
+          "Ajoute le poulet et la carotte; cuis à feu moyen-vif, en remuant de temps en temps, jusqu'à ce que le poulet soit légèrement doré, environ 2 minutes.",
+          "Ajoute le reste des ingrédients sauf les nouilles; cuis en remuant constamment jusqu'à ce que la carotte soit tendre-croquante, environ 3 minutes. Incorpore les nouilles et réchauffe, environ 1 minute."
         ]
       }
     },
@@ -21867,12 +21867,12 @@ window.initialRecipes = [
         "subtitle": "Stale brioche, saved by cream and eggs",
         "description": "Brioche cubes left to drink up a custard of cream, eggs and Frangelico, then baked under crumbs made from the crusts you cut off. Nothing is wasted and the result is far better than the bread deserved.",
         "instructions": [
-          "Place the bread cubes in a 13- by 9- by 2-inch baking pan.",
+          "Place the bread cubes in a 13- by 23x5 cm baking pan.",
           "Whisk the eggs, whipping cream, milk, sugar, Frangelico, vanilla extract and almond extract together in a large bowl.",
           "Pour it over the bread cubes.",
-          "Let it stand 30 minutes, pressing the bread down into the custard now and then so every cube drinks. You can do this up to 2 hours ahead, covered, in the fridge. Heat the oven to 350 degrees. Spread the crusts you cut off on a baking sheet and bake until dry, about 10 minutes, then cool them. Leave the oven on.",
+          "Let it stand 30 minutes, pressing the bread down into the custard now and then so every cube drinks. You can do this up to 2 hours ahead, covered, in the fridge. Heat the oven to 180 °C. Spread the crusts you cut off on a baking sheet and bake until dry, about 10 minutes, then cool them. Leave the oven on.",
           "Tip the dried crusts into a food processor and grind them to fine crumbs.",
-          "Sprinkle 1 cup of the crumbs over the top of the pudding.",
+          "Sprinkle 125 g of the crumbs over the top of the pudding.",
           "Bake until the pudding is set in the centre, about 40 minutes. Let it cool slightly.",
           "Serve warm. This makes 8 to 10 servings."
         ]
@@ -21882,12 +21882,12 @@ window.initialRecipes = [
         "subtitle": "Oude brioche, gered door room en eieren",
         "description": "Blokjes brioche die zich volzuigen met een vla van room, eieren en Frangelico, en dan gebakken onder kruim van de korstjes die je eraf sneed. Er gaat niets verloren en het resultaat is veel beter dan het brood verdiende.",
         "instructions": [
-          "Leg de broodblokjes in een bakvorm van 13 bij 9 bij 2 inch.",
+          "Leg de broodblokjes in een bakvorm van 13 bij 23x5 cm.",
           "Klop de eieren, de slagroom, de melk, de suiker, de Frangelico, het vanille-extract en het amandelextract samen in een grote kom.",
           "Giet het over de broodblokjes.",
-          "Laat 30 minuten staan en duw het brood af en toe onder de vla zodat elk blokje drinkt. Je mag dit tot 2 uur op voorhand doen, afgedekt in de koelkast. Verwarm de oven op 350 graden. Leg de korstjes die je eraf sneed op een bakplaat en bak ze droog, ongeveer 10 minuten, en laat ze afkoelen. Laat de oven aanstaan.",
+          "Laat 30 minuten staan en duw het brood af en toe onder de vla zodat elk blokje drinkt. Je mag dit tot 2 uur op voorhand doen, afgedekt in de koelkast. Verwarm de oven op 180 °C. Leg de korstjes die je eraf sneed op een bakplaat en bak ze droog, ongeveer 10 minuten, en laat ze afkoelen. Laat de oven aanstaan.",
           "Doe de gedroogde korstjes in de keukenmachine en maal ze tot fijne kruimels.",
-          "Strooi 1 kopje van die kruimels over de pudding.",
+          "Strooi 125 g van die kruimels over de pudding.",
           "Bak tot de pudding in het midden gestold is, ongeveer 40 minuten. Laat hem een beetje afkoelen.",
           "Warm opdienen. Dit is goed voor 8 tot 10 porties."
         ]
@@ -21897,12 +21897,12 @@ window.initialRecipes = [
         "subtitle": "De la brioche rassise, sauvée par la crème et les œufs",
         "description": "Des cubes de brioche qu'on laisse boire une crème aux œufs et au Frangelico, puis cuits sous une chapelure faite des croûtes que tu as ôtées. Rien ne se perd et le résultat est bien meilleur que ce que ce pain méritait.",
         "instructions": [
-          "Dispose les cubes de pain dans un plat de 13 x 9 x 2 pouces.",
+          "Dispose les cubes de pain dans un plat de 13 x 23x5 cm.",
           "Fouette ensemble les œufs, la crème fleurette, le lait, le sucre, le Frangelico, l'extrait de vanille et l'extrait d'amande dans un grand bol.",
           "Verse sur les cubes de pain.",
-          "Laisse reposer 30 minutes, en enfonçant le pain dans la crème de temps en temps pour que chaque cube boive. Tu peux le faire jusqu'à 2 heures à l'avance, couvert, au frigo. Chauffe le four à 350 degrés. Étale les croûtes que tu as retirées sur une plaque et fais-les sécher au four, environ 10 minutes, puis laisse-les refroidir. Laisse le four allumé.",
+          "Laisse reposer 30 minutes, en enfonçant le pain dans la crème de temps en temps pour que chaque cube boive. Tu peux le faire jusqu'à 2 heures à l'avance, couvert, au frigo. Chauffe le four à 180 °C. Étale les croûtes que tu as retirées sur une plaque et fais-les sécher au four, environ 10 minutes, puis laisse-les refroidir. Laisse le four allumé.",
           "Verse les croûtes sèches dans un robot et broie-les en chapelure fine.",
-          "Saupoudre 1 tasse de cette chapelure sur le pouding.",
+          "Saupoudre 125 g de cette chapelure sur le pouding.",
           "Cuis jusqu'à ce que le pouding soit pris au centre, environ 40 minutes. Laisse tiédir un peu.",
           "Sers chaud. Cela fait 8 à 10 portions."
         ]
@@ -22068,7 +22068,7 @@ window.initialRecipes = [
         "instructions": [
           "Mets le poulet à frémir dans l'eau avec du laurier, du thym, un oignon coupé en deux, du sel et du poivre, environ 35 minutes, jusqu'à ce que la chair quitte l'os sans discuter.",
           "Retire le poulet et garde ce bouillon — c'est toute la soupe. Effiloche la chair en gros morceaux et jette la peau.",
-          "Taille le poireau, les carottes, le céleri et les pommes de terre en fine julienne. La finesse compte ici ; ce plat doit rester délicat.",
+          "Taille le poireau, les carottes, le céleri et les pommes de terre en fine julienne. La finesse compte ici; ce plat doit rester délicat.",
           "Fais fondre le beurre dans une large cocotte et fais suer les légumes doucement 10 minutes, sans les laisser prendre la moindre couleur.",
           "Mouille à hauteur avec le bouillon filtré et laisse cuire jusqu'à ce que la pomme de terre soit juste tendre.",
           "Fouette la crème avec les jaunes d'œuf dans un bol et retire la cocotte du feu.",
@@ -22473,7 +22473,7 @@ window.initialRecipes = [
         "subtitle": "La marmite qui vide le bac à légumes",
         "description": "Du porc et des saucisses mijotés avec tous les légumes racines de la maison, jusqu'à ce que le tout se lie de lui-même. Il n'y a aucune technique à apprendre ici — seulement l'ordre des choses, et la patience de les laisser faire.",
         "instructions": [
-          "Mets la poitrine de porc et les saucisses dans une grande marmite, couvre d'eau froide et monte doucement à frémissement. Écume la mousse grise à mesure qu'elle monte ; c'est ce qui garde le bouillon clair.",
+          "Mets la poitrine de porc et les saucisses dans une grande marmite, couvre d'eau froide et monte doucement à frémissement. Écume la mousse grise à mesure qu'elle monte; c'est ce qui garde le bouillon clair.",
           "Ajoute le laurier, le thym, les clous de girofle et les grains de poivre, et laisse aller 45 minutes.",
           "Pendant ce temps, coupe grossièrement les carottes, navets, poireaux, céleri-rave et chou. Rien n'a besoin d'être régulier — tout se défait de toute façon.",
           "Ajoute d'abord les légumes durs : carottes, navet et céleri-rave. Compte 20 minutes.",
@@ -22673,11 +22673,11 @@ window.initialRecipes = [
         "instructions": [
           "Fais d'abord un fumet : laisse infuser les carapaces dans le lait 15 minutes, filtre et jette les carapaces. N'achète jamais de crevettes décortiquées pour ça — c'est dans les carapaces qu'est le goût.",
           "Fais fondre le beurre, incorpore la farine et cuis le roux deux minutes sans le laisser colorer.",
-          "Ajoute le lait de crevettes chaud petit à petit en fouettant fermement, jusqu'à obtenir une sauce très épaisse et brillante. Plus épaisse qu'il ne paraît raisonnable ; elle doit tenir sa forme à froid.",
+          "Ajoute le lait de crevettes chaud petit à petit en fouettant fermement, jusqu'à obtenir une sauce très épaisse et brillante. Plus épaisse qu'il ne paraît raisonnable; elle doit tenir sa forme à froid.",
           "Hors du feu, incorpore le jaune d'œuf, la muscade, le jus de citron, sel et poivre, puis les crevettes.",
           "Étale dans un plat huilé sur 3 cm, couvre et réfrigère au moins quatre heures, idéalement une nuit. Ce doit être parfaitement ferme avant que tu t'en approches avec un couteau.",
           "Détaille en blocs et passe chacun dans la farine, l'œuf battu, puis la chapelure. Double l'œuf et la chapelure — c'est cette seconde couche qui les empêche d'éclater dans la friture.",
-          "Fais frire à 180°C environ 3 minutes, jusqu'à une belle couleur dorée. Deux ou trois à la fois ; un bain surchargé refroidit et alors elles se vident.",
+          "Fais frire à 180°C environ 3 minutes, jusqu'à une belle couleur dorée. Deux ou trois à la fois; un bain surchargé refroidit et alors elles se vident.",
           "Fais frire les brins de persil quelques secondes jusqu'à ce qu'ils soient croustillants et sers-les dessus avec un quartier de citron."
         ]
       }
@@ -22872,11 +22872,11 @@ window.initialRecipes = [
           "Émiette le pain dans un bol, verse le lait dessus et laisse ramollir, puis presse pour retirer l'excédent. Ce pain trempé est tout le secret d'une boulette moelleuse.",
           "Mélange le haché avec le pain trempé, l'œuf, l'oignon finement émincé, le persil, le sel, le poivre et la muscade. Ne travaille pas trop la masse — plus tu la pétris, plus elles deviennent fermes.",
           "Roule des boulettes de la taille d'une noix, les mains humides pour que rien ne colle.",
-          "Fais-les dorer au beurre par petites quantités, en les retournant pour qu'elles colorent partout. Elles n'ont pas besoin d'être cuites à cœur ; elles finiront dans la sauce.",
+          "Fais-les dorer au beurre par petites quantités, en les retournant pour qu'elles colorent partout. Elles n'ont pas besoin d'être cuites à cœur; elles finiront dans la sauce.",
           "Dans la même cocotte, fais fondre le second oignon émincé, puis ajoute les tomates concassées, le concentré, le laurier, une pincée de sucre et le bouillon.",
           "Laisse mijoter la sauce 15 minutes, puis replonge les boulettes dedans.",
           "Couvre et laisse mijoter doucement 25 minutes, en les arrosant de sauce de temps en temps.",
-          "Goûte et rectifie l'équilibre — un peu plus de sucre si les tomates sont acides. Ce sucré n'est pas une erreur ; c'est ainsi que ça doit avoir le goût."
+          "Goûte et rectifie l'équilibre — un peu plus de sucre si les tomates sont acides. Ce sucré n'est pas une erreur; c'est ainsi que ça doit avoir le goût."
         ]
       }
     },
@@ -23098,7 +23098,7 @@ window.initialRecipes = [
           "Incorpore le lait à la levure, les jaunes d'œuf, le beurre fondu et la vanille jusqu'à obtenir une pâte lisse.",
           "Couvre et laisse lever une heure au chaud, jusqu'à voir les bulles travailler.",
           "Monte les blancs en neige souple et incorpore-les en deux fois, en gardant le plus d'air possible. C'est là toute la recette — le reste n'est que de la pâte.",
-          "Chauffe bien le gaufrier et beurre-le. Verse juste de quoi couvrir la plaque ; ça s'étale tout seul.",
+          "Chauffe bien le gaufrier et beurre-le. Verse juste de quoi couvrir la plaque; ça s'étale tout seul.",
           "Cuis 4 à 5 minutes jusqu'à ce que ce soit bien doré et croustillant. Ne l'ouvre pas trop tôt — tu déchireras la gaufre en deux sans rien apprendre.",
           "Sers-les tout de suite avec du sucre impalpable. Elles ramollissent en quelques minutes, alors ne fais attendre personne."
         ]
@@ -23967,7 +23967,7 @@ window.initialRecipes = [
         "subtitle": "Une salade servie tiède, exprès",
         "description": "Des haricots verts et des pommes de terre mêlés au lard et au vinaigre sortis de la poêle brûlante, pour que tout boive la vinaigrette. Sers-la froide et tu auras fait un autre plat, moins bon.",
         "instructions": [
-          "Cuis les pommes de terre en robe des champs jusqu'à tendreté, égoutte-les et coupe-les en grosses rondelles encore chaudes. Une pomme de terre tiède prend la vinaigrette ; froide, elle la refuse.",
+          "Cuis les pommes de terre en robe des champs jusqu'à tendreté, égoutte-les et coupe-les en grosses rondelles encore chaudes. Une pomme de terre tiède prend la vinaigrette; froide, elle la refuse.",
           "Cuis les haricots 6 à 8 minutes à l'eau salée, pour qu'ils gardent du croquant. Égoutte-les bien.",
           "Fais rissoler les lardons dans une grande poêle jusqu'à ce qu'ils croustillent, puis ajoute l'échalote émincée et poursuis deux minutes.",
           "Retire la poêle du feu et verse le vinaigre. Il va fumer aussitôt et décoller tout ce qui est au fond — c'est ta vinaigrette qui se fait toute seule.",
@@ -24586,7 +24586,7 @@ window.initialRecipes = [
         "subtitle": "De l'anguille ensevelie sous une montagne d'herbes",
         "description": "De l'anguille pochée au vin blanc avec plus d'herbes qu'il ne paraît raisonnable, liée par le seul jaune d'œuf. Tiède en été, et froide au sortir du frigo le lendemain, comme beaucoup la préfèrent.",
         "instructions": [
-          "Demande au poissonnier de dépouiller les anguilles et de les couper en tronçons de 5 cm. Il n'y a là aucune honte ; dépouiller une anguille est un travail pour qui a le bon couteau.",
+          "Demande au poissonnier de dépouiller les anguilles et de les couper en tronçons de 5 cm. Il n'y a là aucune honte; dépouiller une anguille est un travail pour qui a le bon couteau.",
           "Fais fondre le beurre dans une large sauteuse et fais suer les échalotes émincées sans les laisser colorer.",
           "Dépose les anguilles dessus, verse le vin blanc et juste assez d'eau pour les couvrir à peine.",
           "Poche très doucement 10 minutes. Le liquide doit frémir et jamais bouillir — une anguille bouillie devient coriace et rien ne la rattrape.",
@@ -24813,7 +24813,7 @@ window.initialRecipes = [
           "Rince-les à l'eau froide jusqu'à ce qu'elle reste claire, pour éliminer l'amidon de surface.",
           "Sèche-les complètement dans un torchon. L'eau qui reste dessus fera crépiter la graisse, et la graisse chaude projette loin.",
           "Chauffe la graisse de bœuf à 150°C et cuis les frites par petites quantités 6 à 8 minutes. Elles doivent ressortir molles et pâles, sans la moindre coloration — on cuit l'intérieur, on ne dore rien.",
-          "Retire-les et étale-les sur une grille. Laisse-les reposer au moins 30 minutes ; une heure vaut mieux. C'est là que l'extérieur sèche et se prépare à croustiller.",
+          "Retire-les et étale-les sur une grille. Laisse-les reposer au moins 30 minutes; une heure vaut mieux. C'est là que l'extérieur sèche et se prépare à croustiller.",
           "Chauffe la graisse à 180°C et refais-les frire, par petites quantités, 2 à 3 minutes, jusqu'à ce qu'elles soient bien dorées et croustillantes.",
           "Égoutte brièvement, verse dans un saladier, sale de haut pour que ça se répartisse, et mélange.",
           "Sers immédiatement avec de la mayonnaise. Les frites n'attendent personne, et elles ne te pardonneront pas de les avoir fait attendre."
@@ -24926,7 +24926,7 @@ window.initialRecipes = [
           "Fais tremper le pain émietté dans le lait jusqu'à ce qu'il soit mou, puis presse-le.",
           "Mélange le haché avec le pain, l'œuf, la moitié de l'oignon émincé, le persil, le sel, le poivre et la muscade, et façonne quatre gros boulets. Quatre, pas vingt — c'est un par personne.",
           "Fais-les dorer de tous les côtés au beurre, puis retire-les.",
-          "Fais fondre le reste des oignons dans la même cocotte à feu doux pendant 15 minutes, jusqu'à ce qu'ils soient bien tendres et commencent à caraméliser. Donne-leur les quinze minutes entières ; c'est la base de tout.",
+          "Fais fondre le reste des oignons dans la même cocotte à feu doux pendant 15 minutes, jusqu'à ce qu'ils soient bien tendres et commencent à caraméliser. Donne-leur les quinze minutes entières; c'est la base de tout.",
           "Ajoute le vinaigre et laisse-le s'évaporer presque entièrement. C'est ce qui empêche la sauce d'être seulement sucrée.",
           "Incorpore le sirop de Liège, le bouillon, le laurier et le thym, puis remets les boulets dans la cocotte.",
           "Couvre et laisse mijoter doucement 40 minutes, en les retournant deux fois pour qu'ils se glacent partout.",
@@ -25342,7 +25342,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Oiseaux sans Tête",
         "subtitle": "Du veau roulé autour d'une bonne poignée de haché",
-        "description": "De fines escalopes roulées autour d'un haché assaisonné et braisées lentement jusqu'à ce que tout cède. En néerlandais on les appelle « pinsons aveugles » ; personne ne sait pourquoi, et personne qui en mange ne s'en soucie.",
+        "description": "De fines escalopes roulées autour d'un haché assaisonné et braisées lentement jusqu'à ce que tout cède. En néerlandais on les appelle « pinsons aveugles »; personne ne sait pourquoi, et personne qui en mange ne s'en soucie.",
         "instructions": [
           "Fais tremper le pain dans le lait, presse-le et mélange-le au haché, à l'œuf, au persil, au sel, au poivre et à la muscade.",
           "Étale les escalopes et aplatis-les entre deux films, si le boucher ne l'a pas déjà fait pour toi.",
@@ -25556,7 +25556,7 @@ window.initialRecipes = [
         "instructions": [
           "Assaisonne les morceaux de poulet et fais-les bien dorer au beurre, côté peau d'abord, jusqu'à belle couleur. Par petites quantités — une cocotte chargée les fait cuire à l'étouffée.",
           "Réserve le poulet et fais rendre les lardons dans la même cocotte.",
-          "Ajoute les échalotes émincées et les champignons, et cuis jusqu'à évaporation complète du liquide et début de coloration. Attends cette couleur ; les champignons n'ont aucun goût avant.",
+          "Ajoute les échalotes émincées et les champignons, et cuis jusqu'à évaporation complète du liquide et début de coloration. Attends cette couleur; les champignons n'ont aucun goût avant.",
           "Verse la bière en grattant le fond de la cocotte, et laisse bouillonner deux minutes pour en ôter l'âpreté.",
           "Remets le poulet avec le laurier, le thym et une cuillère de moutarde. Couvre et laisse mijoter 45 minutes.",
           "Retire le poulet et garde-le au chaud.",
@@ -25753,7 +25753,7 @@ window.initialRecipes = [
           "Épluche et évide les pommes, coupe-les en morceaux et mets-les dans une casserole avec un peu d'eau, le sucre et la cannelle.",
           "Couvre et cuis 20 minutes à feu doux jusqu'à ce qu'elles se défassent. Mélange en compote grossière en gardant des morceaux — une compote lisse appartient à une autre assiette.",
           "Cuis les pommes de terre à l'eau salée jusqu'à ce qu'elles cèdent au couteau, égoutte-les et laisse bien la vapeur s'échapper.",
-          "Écrase-les avec le lait chaud et la majeure partie du beurre. Du lait chaud, pas froid ; le lait froid donne une purée collante. Sale et muscade généreusement.",
+          "Écrase-les avec le lait chaud et la majeure partie du beurre. Du lait chaud, pas froid; le lait froid donne une purée collante. Sale et muscade généreusement.",
           "Pique les boudins une ou deux fois pour qu'ils n'éclatent pas, et cuis-les doucement dans le reste du beurre, environ 6 minutes par face.",
           "Ne les brusque pas à feu vif — le boudin noir devient granuleux s'il cuit trop fort, et il n'y a pas de retour en arrière.",
           "Sers un boudin par assiette, avec un dôme de purée et une bonne cuillère de compote tiède."
@@ -26300,7 +26300,7 @@ window.initialRecipes = [
           "Dans une marmite propre, fais suer 10 minutes au beurre le poireau émincé, le reste des carottes et le céleri.",
           "Ajoute le concentré de tomates et laisse-le cuire une minute — cette minute ôte le goût de boîte — puis verse le vin blanc et fais réduire de moitié.",
           "Ajoute le fumet filtré et les pommes de terre en dés, et laisse mijoter jusqu'à ce que la pomme de terre soit tendre, environ 15 minutes.",
-          "Coupe les filets en gros cubes et fais-les glisser avec les crevettes. Quatre minutes au maximum ; au-delà, ils se défont en filaments.",
+          "Coupe les filets en gros cubes et fais-les glisser avec les crevettes. Quatre minutes au maximum; au-delà, ils se défont en filaments.",
           "Retire la marmite du feu, incorpore la crème et le persil, et goûte avant de servir avec du pain."
         ]
       }
@@ -27353,7 +27353,7 @@ window.initialRecipes = [
         "description": "De la cassonade et de la crème versées dans les creux d'une pâte levée, où elles caramélisent en une croûte sombre et craquelée. Une tarte de boulangerie wallonne, et elle veut se manger à peine tiède.",
         "instructions": [
           "Tiédis le lait à température du corps, délaie-y la levure et une cuillère de sucre, et laisse mousser 10 minutes.",
-          "Mélange la farine et le sel, puis incorpore le lait à la levure, l'œuf et le beurre mou jusqu'à obtenir une pâte souple et légèrement collante. Elle doit coller un peu ; résiste à l'envie d'ajouter de la farine.",
+          "Mélange la farine et le sel, puis incorpore le lait à la levure, l'œuf et le beurre mou jusqu'à obtenir une pâte souple et légèrement collante. Elle doit coller un peu; résiste à l'envie d'ajouter de la farine.",
           "Pétris cinq minutes, couvre, et laisse lever une heure, jusqu'à ce qu'elle double.",
           "Dégaze-la et étale-la dans un moule beurré de 26 cm en remontant un peu sur les bords. Laisse lever encore 30 minutes.",
           "Creuse toute la surface du bout des doigts, en appuyant bien. Ces cavités retiennent la garniture — sur une surface plate, elle file simplement par-dessus bord.",
@@ -27714,7 +27714,7 @@ window.initialRecipes = [
         "description": "Du porc et du foie hachés gros avec du genièvre et un trait de genièvre, et c'est ce qui la distingue d'un pâté ordinaire. Il lui faut une nuit sous un poids avant d'être prête.",
         "instructions": [
           "Coupe l'épaule de porc et le foie en cubes et hache-les gros, ou fais-les passer une fois à la grosse grille chez le boucher. Le gros grain est le but — haché fin, ça devient autre chose, de plus lisse.",
-          "Concasse grossièrement les baies de genièvre et les grains de poivre au mortier. Garde du grain, pas de poudre ; tu veux les rencontrer dans la tranche.",
+          "Concasse grossièrement les baies de genièvre et les grains de poivre au mortier. Garde du grain, pas de poudre; tu veux les rencontrer dans la tranche.",
           "Mélange la viande avec les épices concassées, les échalotes ciselées, le thym, le genièvre, le sel et l'œuf.",
           "Fais cuire une cuillère à café du mélange à la poêle et goûte. C'est ta seule occasion de rectifier l'assaisonnement — une fois en terrine, c'est ce que tu mangeras.",
           "Chemise une terrine de bardes de lard en les laissant déborder sur les côtés.",
@@ -27870,7 +27870,7 @@ window.initialRecipes = [
         "subtitle": "Beef under a lid of suet dumplings",
         "description": "Beef braised for two hours in wine and stock, then finished with dumplings dropped straight onto the surface to swell in the steam. The dumplings go on at the end, never at the start.",
         "instructions": [
-          "Heat the oven to 180C/350F/Gas 4.",
+          "Heat the oven to 180 °C.",
           "For the stew, heat the oil and butter in an ovenproof casserole and fry the beef until it's browned on every side. Do it in batches if the pan looks crowded; that browning is the whole colour of the finished dish.",
           "Sprinkle the flour over and cook it a further 2-3 minutes, so it loses its raw taste before any liquid goes near it.",
           "Add the garlic and all the vegetables and fry 1-2 minutes.",
@@ -27888,7 +27888,7 @@ window.initialRecipes = [
         "subtitle": "Rundvlees onder een deksel van niertjesdeeg",
         "description": "Rundvlees twee uur gestoofd in wijn en bouillon, en dan afgewerkt met balletjes deeg die je zo op het oppervlak legt om in de stoom te zwellen. Die balletjes gaan er op het eind op, nooit bij het begin.",
         "instructions": [
-          "Verwarm de oven op 180C/350F/Gas 4.",
+          "Verwarm de oven op 180 °C.",
           "Verhit voor de stoofpot de olie en de boter in een ovenvaste pot en bak het rundvlees rondom bruin. Doe het in porties als de pan vol lijkt; dat bruinen is de hele kleur van het afgewerkte gerecht.",
           "Strooi de bloem eroverheen en gaar ze nog 2-3 minuten, zodat ze haar rauwe smaak kwijt is voor er vocht bij komt.",
           "Voeg de knoflook en alle groenten toe en bak 1-2 minuten.",
@@ -27906,8 +27906,8 @@ window.initialRecipes = [
         "subtitle": "Du bœuf sous un couvercle de boulettes de suif",
         "description": "Du bœuf braisé deux heures au vin et au bouillon, puis terminé par des boulettes déposées telles quelles à la surface pour gonfler à la vapeur. Elles arrivent à la fin, jamais au début.",
         "instructions": [
-          "Chauffe le four à 180C/350F/Gas 4.",
-          "Pour le ragoût, chauffe l'huile et le beurre dans une cocotte allant au four et fais dorer le bœuf sur toutes ses faces. Par petites quantités si la cocotte paraît chargée ; cette coloration est toute la couleur du plat fini.",
+          "Chauffe le four à 180 °C.",
+          "Pour le ragoût, chauffe l'huile et le beurre dans une cocotte allant au four et fais dorer le bœuf sur toutes ses faces. Par petites quantités si la cocotte paraît chargée; cette coloration est toute la couleur du plat fini.",
           "Saupoudre la farine et cuis encore 2-3 minutes, pour qu'elle perde son goût cru avant qu'un liquide ne l'approche.",
           "Ajoute l'ail et tous les légumes et fais revenir 1-2 minutes.",
           "Incorpore le vin, le bouillon et les herbes, puis la sauce Worcestershire et le vinaigre balsamique au goût. Sale et poivre au moulin.",
@@ -28188,7 +28188,7 @@ window.initialRecipes = [
         "subtitle": "Poland's hunter's stew, better on the third day",
         "description": "Bacon, sausage and pork cooked down with cabbage and sauerkraut for three hours. Bigos is famously better reheated, so make it the day before anyone is coming.",
         "instructions": [
-          "Heat the oven to 350 degrees F (175 degrees C).",
+          "Heat the oven to 175 °C.",
           "Heat a large pot over medium heat. Add the bacon and kielbasa and cook until the bacon has given up its fat and the sausage is lightly browned. Lift the meat out with a slotted spoon into a large casserole or Dutch oven, leaving every drop of that fat behind.",
           "Coat the pork cubes lightly in flour and fry them in the bacon fat over medium-high heat until golden brown, then move them to the casserole too. Add the garlic, onion, carrots, fresh mushrooms, cabbage and sauerkraut. Turn the heat down to medium and cook until the carrots are soft, about 10 minutes, without letting the vegetables brown.",
           "Deglaze the pan with the red wine, stirring to lift all the flour and stuck bits off the bottom. Season with the bay leaf, basil, marjoram, paprika, salt, pepper, caraway seeds and cayenne, and cook 1 minute.",
@@ -28201,7 +28201,7 @@ window.initialRecipes = [
         "subtitle": "De Poolse jagersstoofpot, beter op de derde dag",
         "description": "Spek, worst en varkensvlees drie uur ingekookt met kool en zuurkool. Bigos staat erom bekend dat hij opgewarmd beter is, dus maak hem de dag voordat er iemand komt.",
         "instructions": [
-          "Verwarm de oven op 350 graden F (175 graden C).",
+          "Verwarm de oven op 175 °C.",
           "Verhit een grote pot op middelhoog vuur. Doe het spek en de kielbasa erin en bak tot het spek zijn vet heeft afgegeven en de worst lichtbruin is. Schep het vlees met een schuimspaan in een grote braadpan en laat elke druppel van dat vet achter.",
           "Wentel de blokjes varkensvlees licht door bloem en bak ze in het spekvet op middelhoog tot hoog vuur goudbruin, en doe ze ook bij de braadpan. Voeg de knoflook, ui, wortelen, verse champignons, kool en zuurkool toe. Zet het vuur op middelhoog en gaar tot de wortelen zacht zijn, ongeveer 10 minuten, zonder de groenten te laten bruinen.",
           "Blus de pan af met de rode wijn en roer alle bloem en aanbaksels van de bodem los. Kruid met het laurierblad, basilicum, marjolein, paprika, zout, peper, karwijzaad en cayennepeper, en gaar 1 minuut.",
@@ -28214,7 +28214,7 @@ window.initialRecipes = [
         "subtitle": "Le ragoût du chasseur polonais, meilleur le troisième jour",
         "description": "Du lard, de la saucisse et du porc mijotés trois heures avec du chou et de la choucroute. Le bigos est réputé meilleur réchauffé, alors fais-le la veille du jour où quelqu'un vient.",
         "instructions": [
-          "Chauffe le four à 350 degrés F (175 degrés C).",
+          "Chauffe le four à 175 °C.",
           "Chauffe une grande marmite à feu moyen. Ajoute le lard et la kielbasa et cuis jusqu'à ce que le lard ait rendu sa graisse et la saucisse légèrement doré. Retire la viande à l'écumoire vers une grande cocotte, en laissant chaque goutte de cette graisse derrière toi.",
           "Enrobe légèrement les cubes de porc de farine et fais-les dorer dans la graisse de lard à feu moyen-vif, puis transfère-les aussi dans la cocotte. Ajoute l'ail, l'oignon, les carottes, les champignons frais, le chou et la choucroute. Baisse à feu moyen et cuis jusqu'à ce que les carottes soient tendres, environ 10 minutes, sans laisser les légumes colorer.",
           "Déglace la poêle au vin rouge en grattant pour décoller toute la farine et les sucs du fond. Assaisonne avec le laurier, le basilic, la marjolaine, le paprika, le sel, le poivre, les graines de carvi et le cayenne, et cuis 1 minute.",
@@ -28798,12 +28798,12 @@ window.initialRecipes = [
         "description": "Chicken simmered in a broth made sour with tamarind and sweet with pineapple, brightened by lemongrass and lime leaf. The whole dish is an argument between sour, sweet and salty, and you settle it by tasting.",
         "instructions": [
           "Heat 1 tbsp vegetable oil in a large pot over medium-high heat until it shimmers, about 1 minute.",
-          "Add 1 lb boneless, skinless chicken thighs and cook until browned on all sides, approximately 5-7 minutes, stirring now and then so nothing sticks.",
-          "Pour 4 cups water into the pot, bring it to a boil, then turn it down to a simmer.",
+          "Add 450 g boneless, skinless chicken thighs and cook until browned on all sides, approximately 5-7 minutes, stirring now and then so nothing sticks.",
+          "Pour 960 ml water into the pot, bring it to a boil, then turn it down to a simmer.",
           "Stir in 2 tbsp tamarind paste, 1 tbsp fish sauce and 1 tsp sugar until fully dissolved, about 1 minute.",
           "Add 1 stalk lemongrass and 2 kaffir lime leaves, then cover and simmer 10 minutes to let the broth take on their perfume.",
           "Bruise the lemongrass with the back of a knife before it goes in — whole and untouched it gives up almost nothing.",
-          "Add 1 cup pineapple chunks, 1 cup cherry tomatoes and 1 cup green beans, stirring gently to combine.",
+          "Add 125 g pineapple chunks, 125 g cherry tomatoes and 125 g green beans, stirring gently to combine.",
           "Simmer uncovered 10-12 minutes, until the beans are tender but still have a bite and the tomatoes are starting to slump.",
           "Don't cook the vegetables past that point; the colour and the texture are half of what makes this dish look alive.",
           "Stir in 1 Thai chili and simmer another 2 minutes to let the heat spread through.",
@@ -28818,12 +28818,12 @@ window.initialRecipes = [
         "description": "Kip gesudderd in een bouillon die zuur is van tamarinde en zoet van ananas, opgefrist met citroengras en limoenblad. Het hele gerecht is een discussie tussen zuur, zoet en zout, en die beslecht je door te proeven.",
         "instructions": [
           "Verhit 1 eetlepel plantaardige olie in een grote pot op middelhoog tot hoog vuur tot ze glanst, ongeveer 1 minuut.",
-          "Voeg 1 pond kippendijen zonder bot en vel toe en bak ze rondom bruin, ongeveer 5-7 minuten, en roer af en toe zodat er niets aanplakt.",
-          "Giet 4 kopjes water in de pot, breng het aan de kook en zet het dan terug tot een zacht sudderen.",
+          "Voeg 450 g kippendijen zonder bot en vel toe en bak ze rondom bruin, ongeveer 5-7 minuten, en roer af en toe zodat er niets aanplakt.",
+          "Giet 960 ml water in de pot, breng het aan de kook en zet het dan terug tot een zacht sudderen.",
           "Roer 2 eetlepels tamarindepasta, 1 eetlepel vissaus en 1 theelepel suiker erdoor tot alles volledig opgelost is, ongeveer 1 minuut.",
           "Voeg 1 stengel citroengras en 2 kaffirlimoenblaadjes toe, dek af en laat 10 minuten sudderen zodat de bouillon hun parfum opneemt.",
           "Kneus het citroengras met de rug van een mes voor het erin gaat — heel en onaangeroerd geeft het bijna niets af.",
-          "Voeg 1 kopje ananasstukjes, 1 kopje kerstomaatjes en 1 kopje sperziebonen toe en roer voorzichtig om.",
+          "Voeg 125 g ananasstukjes, 125 g kerstomaatjes en 125 g sperziebonen toe en roer voorzichtig om.",
           "Laat onafgedekt 10-12 minuten sudderen, tot de bonen zacht zijn maar nog beet hebben en de tomaatjes beginnen te zakken.",
           "Gaar de groenten niet verder dan dat; de kleur en de structuur zijn de helft van wat dit gerecht levend doet lijken.",
           "Roer 1 Thaise chilipeper erdoor en laat nog 2 minuten sudderen zodat de hitte zich verspreidt.",
@@ -28838,14 +28838,14 @@ window.initialRecipes = [
         "description": "Du poulet mijoté dans un bouillon rendu acide par le tamarin et sucré par l'ananas, éclairé de citronnelle et de feuille de combava. Tout le plat est une dispute entre l'acide, le sucré et le salé, et on la tranche en goûtant.",
         "instructions": [
           "Chauffe 1 cuillère à soupe d'huile végétale dans une grande marmite à feu moyen-vif jusqu'à ce qu'elle miroite, environ 1 minute.",
-          "Ajoute 1 livre de cuisses de poulet désossées et sans peau et fais-les dorer sur toutes les faces, environ 5 à 7 minutes, en remuant de temps en temps pour que rien n'attache.",
-          "Verse 4 tasses d'eau dans la marmite, porte à ébullition, puis baisse à frémissement.",
+          "Ajoute 450 g de cuisses de poulet désossées et sans peau et fais-les dorer sur toutes les faces, environ 5 à 7 minutes, en remuant de temps en temps pour que rien n'attache.",
+          "Verse 960 ml d'eau dans la marmite, porte à ébullition, puis baisse à frémissement.",
           "Incorpore 2 cuillères à soupe de pâte de tamarin, 1 cuillère à soupe de sauce de poisson et 1 cuillère à café de sucre jusqu'à dissolution complète, environ 1 minute.",
           "Ajoute 1 tige de citronnelle et 2 feuilles de combava, couvre et laisse frémir 10 minutes pour que le bouillon prenne leur parfum.",
           "Écrase la citronnelle avec le dos d'un couteau avant de l'ajouter — entière et intacte, elle ne donne presque rien.",
-          "Ajoute 1 tasse de morceaux d'ananas, 1 tasse de tomates cerises et 1 tasse de haricots verts, en remuant doucement.",
+          "Ajoute 125 g de morceaux d'ananas, 125 g de tomates cerises et 125 g de haricots verts, en remuant doucement.",
           "Laisse frémir à découvert 10 à 12 minutes, jusqu'à ce que les haricots soient tendres mais encore croquants et que les tomates commencent à s'affaisser.",
-          "Ne pousse pas la cuisson des légumes au-delà ; la couleur et la texture font la moitié de ce qui rend ce plat vivant.",
+          "Ne pousse pas la cuisson des légumes au-delà; la couleur et la texture font la moitié de ce qui rend ce plat vivant.",
           "Incorpore 1 piment thaï et laisse frémir encore 2 minutes pour que la chaleur se diffuse.",
           "Goûte le bouillon maintenant et rectifie avec du tamarin ou de la sauce de poisson — petit à petit, car il est bien plus facile d'ajouter que de reprendre.",
           "Retire la marmite du feu et repêche la citronnelle et les feuilles de combava avant de servir.",
@@ -29318,7 +29318,7 @@ window.initialRecipes = [
         "description": "Kidney beans cooked until they collapse and thicken the pot themselves, with salted pigtail for the seasoning and hand-rolled dumplings dropped in at the end. It thickens further as it cools, so keep some water back.",
         "instructions": [
           "Wash and rinse the dried kidney beans, then cover them with water in a deep bowl. They will swell to at least three times their size as they soak, so give them far more water than looks necessary. Soak overnight, or at least 2 hrs to make the cooking quicker, and throw that soaking water away.",
-          "Have your butcher cut the salted pigtail into 2 inch pieces — it is very hard to cut with an ordinary kitchen knife. Wash it, bring a deep pot of water to the boil and cook 20 minutes, then drain, rinse and boil it again in fresh water. That second boil is what makes the pigtail tender and takes out most of the salt it was cured in.",
+          "Have your butcher cut the salted pigtail into 5 cm pieces — it is very hard to cut with an ordinary kitchen knife. Wash it, bring a deep pot of water to the boil and cook 20 minutes, then drain, rinse and boil it again in fresh water. That second boil is what makes the pigtail tender and takes out most of the salt it was cured in.",
           "Now the soup. Everything into the pot except the flour and potato, cover with water and bring it to the boil on a high flame. Skim off the froth as it rises and throw it away. Turn it down to a gentle boil and let it cook 1 hr and 15 mins, until the beans are tender and beginning to fall apart.",
           "Now add the potato — and yam, if you're using it — along with the coconut milk, and carry on for 15 minutes.",
           "This is a good moment to make the dough for the spinner dumplings. Mix the flour and water, with a pinch of salt if you like, until it is soft and smooth. Let it rest 5 minutes, then pinch off a tablespoon at a time and roll it between your palms into a cigarette shape.",
@@ -29334,7 +29334,7 @@ window.initialRecipes = [
         "description": "Kidneybonen gekookt tot ze uit elkaar vallen en de pot vanzelf binden, met gezouten varkensstaart voor de kruiding en met de hand gerolde balletjes die er op het eind in gaan. Ze dikt nog verder in bij het afkoelen, dus hou wat water achter.",
         "instructions": [
           "Was en spoel de gedroogde kidneybonen en zet ze dan onder water in een diepe kom. Ze zwellen bij het weken tot minstens drie keer hun grootte, dus geef ze veel meer water dan nodig lijkt. Week ze een nacht, of minstens 2 uur om het koken sneller te maken, en gooi dat weekwater weg.",
-          "Laat je slager de gezouten varkensstaart in stukken van 2 inch snijden — met een gewoon keukenmes krijg je dat nauwelijks doorgesneden. Was hem, breng een diepe pot water aan de kook en kook 20 minuten, giet dan af, spoel en kook opnieuw in vers water. Die tweede beurt is wat de staart mals maakt en het meeste zout eruit haalt waarin hij gepekeld werd.",
+          "Laat je slager de gezouten varkensstaart in stukken van 5 cm snijden — met een gewoon keukenmes krijg je dat nauwelijks doorgesneden. Was hem, breng een diepe pot water aan de kook en kook 20 minuten, giet dan af, spoel en kook opnieuw in vers water. Die tweede beurt is wat de staart mals maakt en het meeste zout eruit haalt waarin hij gepekeld werd.",
           "Nu de soep. Alles in de pot behalve de bloem en de aardappel, onder water zetten en op een hoog vuur aan de kook brengen. Schep het schuim eraf naarmate het bovenkomt en gooi het weg. Zet het terug tot een zachte kook en laat het 1 uur en 15 minuten koken, tot de bonen zacht zijn en uit elkaar beginnen te vallen.",
           "Voeg nu de aardappel toe — en yam, als je die gebruikt — samen met de kokosmelk, en ga nog 15 minuten door.",
           "Dit is een goed moment om het deeg voor de spinner-balletjes te maken. Meng de bloem en het water, met een snuf zout als je wil, tot het zacht en glad is. Laat het 5 minuten rusten, knijp er dan telkens een eetlepel af en rol die tussen je handpalmen tot een sigaarvorm.",
@@ -29350,7 +29350,7 @@ window.initialRecipes = [
         "description": "Des haricots rouges cuits jusqu'à se défaire et lier la marmite d'eux-mêmes, avec de la queue de porc salée pour l'assaisonnement et des boulettes roulées à la main ajoutées à la fin. Elle épaissit encore en refroidissant, alors garde de l'eau de côté.",
         "instructions": [
           "Lave et rince les haricots rouges secs, puis couvre-les d'eau dans un grand saladier. Ils gonfleront au moins jusqu'au triple de leur taille en trempant, alors donne-leur bien plus d'eau qu'il n'y paraît nécessaire. Fais tremper une nuit, ou au moins 2 heures pour accélérer la cuisson, et jette cette eau de trempage.",
-          "Fais couper par ton boucher la queue de porc salée en morceaux de 2 pouces — c'est très difficile avec un couteau de cuisine ordinaire. Lave-la, porte une grande casserole d'eau à ébullition et cuis 20 minutes, puis égoutte, rince et refais bouillir dans de l'eau fraîche. Cette deuxième cuisson est ce qui attendrit la queue et retire l'essentiel du sel de sa salaison.",
+          "Fais couper par ton boucher la queue de porc salée en morceaux de 5 cm — c'est très difficile avec un couteau de cuisine ordinaire. Lave-la, porte une grande casserole d'eau à ébullition et cuis 20 minutes, puis égoutte, rince et refais bouillir dans de l'eau fraîche. Cette deuxième cuisson est ce qui attendrit la queue et retire l'essentiel du sel de sa salaison.",
           "La soupe maintenant. Tout dans la marmite sauf la farine et la pomme de terre, couvre d'eau et porte à ébullition à feu vif. Écume la mousse à mesure qu'elle monte et jette-la. Baisse à petits bouillons et laisse cuire 1 heure et 15 minutes, jusqu'à ce que les haricots soient tendres et commencent à se défaire.",
           "Ajoute maintenant la pomme de terre — et l'igname, si tu en mets — avec le lait de coco, et poursuis 15 minutes.",
           "C'est le bon moment pour faire la pâte des boulettes. Mélange la farine et l'eau, avec une pincée de sel si tu veux, jusqu'à ce que ce soit souple et lisse. Laisse reposer 5 minutes, puis pince une cuillère à soupe à la fois et roule-la entre tes paumes en forme de cigare.",
@@ -29600,7 +29600,7 @@ window.initialRecipes = [
           "Dans un wok, porte le bouillon de poulet à ébullition.",
           "Ajoute le sel, le sucre, l'huile de sésame, le poivre blanc, la sauce piquante, le vinaigre et la sauce soja et remue quelques secondes.",
           "Ajoute le tofu, les champignons et les champignons noirs dans le wok.",
-          "Pour lier, fouette 1 cuillère à soupe de fécule de maïs avec 2 cuillère à soupe d'eau dans un bol et verse-la doucement jusqu'à l'épaisseur voulue. Doucement est le mot ; d'un coup, tu obtiens des grumeaux.",
+          "Pour lier, fouette 1 cuillère à soupe de fécule de maïs avec 2 cuillère à soupe d'eau dans un bol et verse-la doucement jusqu'à l'épaisseur voulue. Doucement est le mot; d'un coup, tu obtiens des grumeaux.",
           "Bats 1 œuf légèrement au couteau ou à la fourchette, verse-le dans la soupe et remue 8 secondes — juste assez pour l'étirer en filaments, pas assez pour le briser.",
           "Sers en bols avec le porc grillé et les oignons verts émincés dessus."
         ]
@@ -29828,7 +29828,7 @@ window.initialRecipes = [
           "Heat the vegetable oil in a large pot over medium heat until it shimmers, about 2 minutes.",
           "Add the minced garlic and sauté until fragrant and lightly golden, about 1 minute, stirring the whole time so it does not catch and turn bitter.",
           "Add the chicken pieces and cook until they turn opaque on all sides, about 5 minutes, stirring now and then.",
-          "Pour in the 8 cups of water and bring it to the boil over high heat, which takes about 8 minutes.",
+          "Pour in the 1920 ml of water and bring it to the boil over high heat, which takes about 8 minutes.",
           "Turn the heat down low, stir in the fish sauce, salt and sugar, and simmer uncovered for 20 minutes to let the flavours come together.",
           "While the broth simmers, cook the rice noodles as the packet says until al dente, then drain and rinse them under cold water to stop them cooking. Rinsed noodles stay separate instead of setting into a block.",
           "Divide the noodles evenly among four bowls.",
@@ -29845,7 +29845,7 @@ window.initialRecipes = [
           "Verhit de plantaardige olie in een grote pot op middelhoog vuur tot ze glanst, ongeveer 2 minuten.",
           "Voeg de fijngehakte knoflook toe en bak tot ze geurt en licht goudbruin is, ongeveer 1 minuut, en roer de hele tijd zodat ze niet aanbrandt en bitter wordt.",
           "Voeg de stukken kip toe en gaar tot ze aan alle kanten ondoorzichtig zijn, ongeveer 5 minuten, af en toe roerend.",
-          "Giet er 8 kopjes water bij en breng het op hoog vuur aan de kook, wat ongeveer 8 minuten duurt.",
+          "Giet er 1920 ml water bij en breng het op hoog vuur aan de kook, wat ongeveer 8 minuten duurt.",
           "Zet het vuur laag, roer de vissaus, het zout en de suiker erdoor, en laat onafgedekt 20 minuten sudderen zodat de smaken samenkomen.",
           "Kook ondertussen de rijstnoedels volgens de verpakking tot ze al dente zijn, giet ze af en spoel ze koud zodat ze stoppen met garen. Gespoelde noedels blijven los in plaats van tot een blok te stollen.",
           "Verdeel de noedels gelijkmatig over vier kommen.",
@@ -29857,12 +29857,12 @@ window.initialRecipes = [
       "fr": {
         "title": "Nom Banh Chok – Cambodian Noodle Soup",
         "subtitle": "Une soupe de nouilles cambodgienne sur bouillon clair",
-        "description": "Du poulet mijoté en bouillon léger versé sur des nouilles de riz, puis chargé de germes, de menthe et de citron vert. Ces garnitures ne décorent pas ; elles font la moitié du plat.",
+        "description": "Du poulet mijoté en bouillon léger versé sur des nouilles de riz, puis chargé de germes, de menthe et de citron vert. Ces garnitures ne décorent pas; elles font la moitié du plat.",
         "instructions": [
           "Chauffe l'huile végétale dans une grande marmite à feu moyen jusqu'à ce qu'elle miroite, environ 2 minutes.",
           "Ajoute l'ail émincé et fais-le revenir jusqu'à ce qu'il embaume et blondisse, environ 1 minute, en remuant sans arrêt pour qu'il n'attache pas et ne devienne pas amer.",
           "Ajoute les morceaux de poulet et cuis jusqu'à ce qu'ils soient opaques sur toutes les faces, environ 5 minutes, en remuant de temps en temps.",
-          "Verse les 8 tasses d'eau et porte à ébullition à feu vif, ce qui prend environ 8 minutes.",
+          "Verse les 1920 ml d'eau et porte à ébullition à feu vif, ce qui prend environ 8 minutes.",
           "Baisse à feu doux, incorpore la sauce de poisson, le sel et le sucre, et laisse frémir à découvert 20 minutes pour que les saveurs se rejoignent.",
           "Pendant que le bouillon frémit, cuis les nouilles de riz selon le paquet jusqu'à al dente, puis égoutte-les et rince-les à l'eau froide pour arrêter la cuisson. Rincées, elles restent séparées au lieu de prendre en bloc.",
           "Répartis les nouilles également dans quatre bols.",
@@ -30318,7 +30318,7 @@ window.initialRecipes = [
         "instructions": [
           "Verse le bouillon de bœuf et 500ml d'eau dans une grande casserole. Pose l'oignon et le gingembre dans une poêle à feu vif et fais-les noircir sur toutes les faces, environ 3 à 5 minutes — tu les veux vraiment noirs par endroits, pas seulement colorés. Ajoute-les au bouillon.",
           "Dans la même poêle, torréfie les épices 2 à 3 minutes, et dès qu'elles embaument ajoute-les au bouillon aussi. Porte à ébullition, baisse à frémissement et cuis 30 minutes avant de filtrer.",
-          "Pendant ce temps, retire le gras du steak, enveloppe-le de film et mets-le au congélateur 15 minutes. Une viande ferme se tranche fin ; une viande molle se déchire. Tranche-la finement, remballe-la et mets-la au frigo.",
+          "Pendant ce temps, retire le gras du steak, enveloppe-le de film et mets-le au congélateur 15 minutes. Une viande ferme se tranche fin; une viande molle se déchire. Tranche-la finement, remballe-la et mets-la au frigo.",
           "Goûte le bouillon et assaisonne-le au sucre de palme, à la sauce de poisson et au soja. Cuis les nouilles selon le paquet et répartis-les dans deux bols, avec le bœuf tranché dessus. Ramène le bouillon à ébullition et verse-le dans les bols — c'est cette chaleur qui cuit le bœuf. Garnis d'oignons nouveaux, de rondelles de piment et d'herbes, et sers avec des quartiers de citron vert."
         ]
       }
@@ -30848,7 +30848,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Portuguese fish stew (Caldeirada de peixe)",
         "subtitle": "Tout l'étal du poissonnier, dans une seule casserole",
-        "description": "Une caldeirada portugaise où le cabillaud, les calmars, les crevettes, les palourdes et les moules entrent tous à la fin et cuisent dans les mêmes quelques minutes. Grille le pain d'abord ; tu en voudras.",
+        "description": "Une caldeirada portugaise où le cabillaud, les calmars, les crevettes, les palourdes et les moules entrent tous à la fin et cuisent dans les mêmes quelques minutes. Grille le pain d'abord; tu en voudras.",
         "instructions": [
           "Chauffe un filet d'huile dans une grande sauteuse profonde et fais revenir l'oignon et le poivron à feu moyen jusqu'à ce qu'ils soient tendres sans colorer. Hache finement les tiges de coriandre — garde les feuilles pour plus tard — et ajoute-les avec le piment et l'ail haché. Fais revenir encore quelques minutes. Ajoute le vin, le safran et le laurier et laisse réduire de moitié.",
           "Ajoute les pommes de terre, les tomates et 300ml d'eau et porte à petite ébullition. Écrase les tomates contre la paroi de la casserole à la cuillère et laisse mijoter 20 à 25 minutes, jusqu'à ce que les pommes de terre soient juste tendres et les tomates défaites.",
@@ -31117,7 +31117,7 @@ window.initialRecipes = [
         "instructions": [
           "Presse le citron vert sur le poulet et frotte-le bien, puis égoutte le jus qui reste.",
           "Réunis la tomate, l'oignon nouveau, l'oignon, l'ail, le poivron, le thym, le piment et la sauce soja dans un grand bol avec les morceaux de poulet. Couvre et fais mariner au moins une heure — plus si la journée le permet.",
-          "Chauffe l'huile dans une cocotte ou une grande casserole. Secoue les aromates de chaque morceau en le sortant de la marinade, et garde cette marinade ; elle deviendra la sauce.",
+          "Chauffe l'huile dans une cocotte ou une grande casserole. Secoue les aromates de chaque morceau en le sortant de la marinade, et garde cette marinade; elle deviendra la sauce.",
           "Fais dorer légèrement le poulet, quelques morceaux à la fois, dans l'huile très chaude. Laisse reposer les morceaux dorés sur une assiette pendant que tu fais le reste — une cocotte chargée les fait cuire à l'étouffée.",
           "Verse l'excès d'huile et remets le poulet dans la cocotte. Verse la marinade dessus, ajoute les carottes, remue et cuis à feu moyen 10 minutes.",
           "Mélange la farine au lait de coco et incorpore-le au ragoût en remuant sans arrêt. Baisse le feu au minimum et cuis encore 20 minutes, ou jusqu'à tendreté."
@@ -31321,9 +31321,9 @@ window.initialRecipes = [
         "description": "Conch needs pounding and hours of boiling before it stops fighting back. While it cooks you make sea pie — thin squares of dough dropped in at the end to thicken the pot.",
         "instructions": [
           "Read the whole thing through before you start: the conch takes hours and the dough wants making while it boils.",
-          "Clean the conch meat and pound it to tenderise it. Boil it for 2 - 3 hours, or until tender. Make the sea pie while it cooks. Once cool, cut the conch into bite-size pieces and season it. Add everything except the flour to the pan and simmer 10 to 20 minutes. Mix the flour with 1 cup water and pour it in to thicken. Add the sea pie pieces and cook a further 10 minutes.",
+          "Clean the conch meat and pound it to tenderise it. Boil it for 2 - 3 hours, or until tender. Make the sea pie while it cooks. Once cool, cut the conch into bite-size pieces and season it. Add everything except the flour to the pan and simmer 10 to 20 minutes. Mix the flour with 240 ml water and pour it in to thicken. Add the sea pie pieces and cook a further 10 minutes.",
           "For the sea pie, which is nothing more than a dough to stretch the pot.",
-          "Make a dough from the flour, a pinch of salt and water, stiff enough to roll as thin as you can manage, then cut it into 2 ½\" x 2 ½\" squares. Let them sit 30 minutes, then stretch each square thinner still before adding it to the stew.",
+          "Make a dough from the flour, a pinch of salt and water, stiff enough to roll as thin as you can manage, then cut it into 6.5 cm x 6.5 cm squares. Let them sit 30 minutes, then stretch each square thinner still before adding it to the stew.",
           "Serve with white rice, plantain, breadfruit, or whichever vegetables you like."
         ]
       },
@@ -31333,9 +31333,9 @@ window.initialRecipes = [
         "description": "Conch moet geklopt en urenlang gekookt worden voor het ophoudt met tegenstribbelen. Terwijl het kookt maak je sea pie — dunne vierkantjes deeg die er op het eind in gaan om de pot te binden.",
         "instructions": [
           "Lees het geheel eerst door: de conch kost uren en het deeg wil gemaakt worden terwijl hij kookt.",
-          "Maak het schelpvlees schoon en klop het mals. Kook het 2 - 3 uur, of tot het zacht is. Maak ondertussen de sea pie. Snijd het schelpvlees, eenmaal afgekoeld, in hapklare stukken en kruid het. Doe alles behalve de bloem in de pan en laat 10 tot 20 minuten sudderen. Meng de bloem met 1 kopje water en giet dat erbij om te binden. Voeg de stukjes sea pie toe en gaar nog 10 minuten.",
+          "Maak het schelpvlees schoon en klop het mals. Kook het 2 - 3 uur, of tot het zacht is. Maak ondertussen de sea pie. Snijd het schelpvlees, eenmaal afgekoeld, in hapklare stukken en kruid het. Doe alles behalve de bloem in de pan en laat 10 tot 20 minuten sudderen. Meng de bloem met 240 ml water en giet dat erbij om te binden. Voeg de stukjes sea pie toe en gaar nog 10 minuten.",
           "Voor de sea pie, wat niets meer is dan een deeg om de pot te rekken.",
-          "Maak een deeg van de bloem, een snuf zout en water, stevig genoeg om zo dun mogelijk uit te rollen, en snijd het in vierkantjes van 2 ½\" x 2 ½\". Laat ze 30 minuten liggen en rek elk vierkantje dan nog dunner voor je het in de stoofpot doet.",
+          "Maak een deeg van de bloem, een snuf zout en water, stevig genoeg om zo dun mogelijk uit te rollen, en snijd het in vierkantjes van 6.5 cm x 6.5 cm. Laat ze 30 minuten liggen en rek elk vierkantje dan nog dunner voor je het in de stoofpot doet.",
           "Serveer met witte rijst, bakbanaan, broodvrucht, of de groenten die je zelf lekker vindt."
         ]
       },
@@ -31345,9 +31345,9 @@ window.initialRecipes = [
         "description": "Le lambi doit être battu et bouilli des heures avant de cesser de résister. Pendant qu'il cuit, tu prépares le sea pie — de fins carrés de pâte ajoutés à la fin pour lier la casserole.",
         "instructions": [
           "Lis tout avant de commencer : le lambi prend des heures et la pâte se prépare pendant qu'il bout.",
-          "Nettoie la chair de lambi et bats-la pour l'attendrir. Fais-la bouillir 2 - 3 heures, ou jusqu'à tendreté. Prépare le sea pie pendant ce temps. Une fois refroidie, coupe la chair en bouchées et assaisonne-la. Mets tout sauf la farine dans la casserole et laisse mijoter 10 à 20 minutes. Mélange la farine avec 1 tasse d'eau et verse pour lier. Ajoute les morceaux de sea pie et poursuis 10 minutes.",
+          "Nettoie la chair de lambi et bats-la pour l'attendrir. Fais-la bouillir 2 - 3 heures, ou jusqu'à tendreté. Prépare le sea pie pendant ce temps. Une fois refroidie, coupe la chair en bouchées et assaisonne-la. Mets tout sauf la farine dans la casserole et laisse mijoter 10 à 20 minutes. Mélange la farine avec 240 ml d'eau et verse pour lier. Ajoute les morceaux de sea pie et poursuis 10 minutes.",
           "Pour le sea pie, qui n'est rien d'autre qu'une pâte pour étirer la casserole.",
-          "Fais une pâte avec la farine, une pincée de sel et de l'eau, assez ferme pour être étalée aussi fin que possible, puis découpe-la en carrés de 2 ½\" x 2 ½\". Laisse-les reposer 30 minutes, puis étire chaque carré encore plus fin avant de l'ajouter au ragoût.",
+          "Fais une pâte avec la farine, une pincée de sel et de l'eau, assez ferme pour être étalée aussi fin que possible, puis découpe-la en carrés de 6.5 cm x 6.5 cm. Laisse-les reposer 30 minutes, puis étire chaque carré encore plus fin avant de l'ajouter au ragoût.",
           "Sers avec du riz blanc, de la banane plantain, du fruit à pain, ou les légumes que tu préfères."
         ]
       }
@@ -31560,7 +31560,7 @@ window.initialRecipes = [
         "subtitle": "Lamb and whole wheat, seared piece by piece",
         "description": "Everything gets browned separately before anything goes back in the pot — the lamb, then the shallots, then each vegetable in turn. It is slow and it is the entire reason the stew tastes of anything.",
         "instructions": [
-          "Heat the oven to 180C/350F/gas mark 4. Drain and rinse the soaked wheat, put it in a medium pan with plenty of water, bring to a boil and simmer for an hour until cooked. Drain and set aside.",
+          "Heat the oven to 180 °C. Drain and rinse the soaked wheat, put it in a medium pan with plenty of water, bring to a boil and simmer for an hour until cooked. Drain and set aside.",
           "Season the lamb with a teaspoon of salt and some black pepper. Put one tablespoon of oil in a large deep sauté pan you have a lid for, over medium-high heat. Add some of the lamb — don't crowd the pan — and sear four minutes on all sides. Move it to a bowl and repeat with the rest, adding oil as needed.",
           "Lower the heat to medium and add a tablespoon of oil. Fry the shallots four minutes, until caramelised, and tip them into the lamb bowl. Repeat with the remaining vegetables until they are all nicely browned, adding oil as you go.",
           "Once every vegetable is seared and out of the pan, add the wine with the sugar, herbs, a teaspoon of salt and a good grind of black pepper. Boil hard about three minutes.",
@@ -31573,7 +31573,7 @@ window.initialRecipes = [
         "subtitle": "Lam en tarwekorrels, stuk voor stuk aangebakken",
         "description": "Alles wordt apart gebruind voor er iets terug de pot in gaat — eerst het lam, dan de sjalotten, dan elke groente om beurten. Het gaat traag en het is precies de reden dat deze stoofpot naar iets smaakt.",
         "instructions": [
-          "Verwarm de oven op 180C/350F/gas mark 4. Giet de geweekte tarwe af en spoel ze, doe ze in een middelgrote pan met ruim water, breng aan de kook en laat een uur sudderen tot ze gaar is. Afgieten en opzijzetten.",
+          "Verwarm de oven op 180 °C. Giet de geweekte tarwe af en spoel ze, doe ze in een middelgrote pan met ruim water, breng aan de kook en laat een uur sudderen tot ze gaar is. Afgieten en opzijzetten.",
           "Kruid het lam met een theelepel zout en wat zwarte peper. Doe één eetlepel olie in een grote diepe pan waar je een deksel voor hebt, op middelhoog tot hoog vuur. Voeg een deel van het lam toe — maak de pan niet vol — en schroei het vier minuten aan alle kanten dicht. Doe het in een kom en herhaal met de rest, met olie erbij naar behoefte.",
           "Zet het vuur op middelhoog en doe er een eetlepel olie bij. Bak de sjalotten vier minuten tot ze karamelliseren, en kieper ze bij het lam. Herhaal met de resterende groenten tot ze allemaal mooi bruin zijn, met olie erbij naarmate je vordert.",
           "Als elke groente aangebakken en uit de pan is, voeg je de wijn toe met de suiker, de kruiden, een theelepel zout en een flinke draai zwarte peper. Kook ongeveer drie minuten hard door.",
@@ -31586,7 +31586,7 @@ window.initialRecipes = [
         "subtitle": "De l'agneau et du blé, saisis morceau par morceau",
         "description": "Tout est coloré séparément avant que quoi que ce soit ne retourne dans la cocotte — l'agneau, puis les échalotes, puis chaque légume à son tour. C'est lent et c'est toute la raison pour laquelle ce ragoût a du goût.",
         "instructions": [
-          "Chauffe le four à 180C/350F/gas mark 4. Égoutte et rince le blé trempé, mets-le dans une casserole moyenne avec beaucoup d'eau, porte à ébullition et laisse frémir une heure jusqu'à cuisson. Égoutte et réserve.",
+          "Chauffe le four à 180 °C. Égoutte et rince le blé trempé, mets-le dans une casserole moyenne avec beaucoup d'eau, porte à ébullition et laisse frémir une heure jusqu'à cuisson. Égoutte et réserve.",
           "Assaisonne l'agneau d'une cuillère à café de sel et de poivre noir. Mets une cuillère à soupe d'huile dans une grande sauteuse profonde dont tu as le couvercle, à feu moyen-vif. Ajoute une partie de l'agneau — ne charge pas la poêle — et saisis quatre minutes sur toutes les faces. Transfère dans un bol et recommence avec le reste, en ajoutant de l'huile au besoin.",
           "Baisse à feu moyen et ajoute une cuillère à soupe d'huile. Fais revenir les échalotes quatre minutes, jusqu'à caramélisation, et verse-les dans le bol de l'agneau. Recommence avec les autres légumes jusqu'à ce qu'ils soient tous bien dorés, en ajoutant de l'huile au fur et à mesure.",
           "Une fois tous les légumes saisis et sortis, ajoute le vin avec le sucre, les herbes, une cuillère à café de sel et un bon tour de poivre noir. Fais bouillir vivement environ trois minutes.",
@@ -32222,7 +32222,7 @@ window.initialRecipes = [
         "subtitle": "Chicken in white sauce under a lid of potato",
         "description": "A roux-based chicken and mushroom filling with sliced potatoes overlapped across the top like tiles. The two minutes of stirring the roux is what stops the whole thing tasting of flour.",
         "instructions": [
-          "Heat the oven to 200C/180C fan/gas 6. Put the butter in a medium saucepan over medium heat. Add the onion and cook 5 mins, stirring now and then, then add the mushrooms.",
+          "Heat the oven to 200 °C / 180 °C fan. Put the butter in a medium saucepan over medium heat. Add the onion and cook 5 mins, stirring now and then, then add the mushrooms.",
           "Once the onion and mushrooms are almost cooked, stir in the flour to make a thick paste — a roux. If you are using a stock cube, crumble it into the roux now and stir well. Keep it over a low heat and stir continuously for 2 mins; this cooks the flour out and is the difference between a sauce and a floury one.",
           "Take the roux off the heat. Add the fresh stock slowly, or 500ml water if you used a cube, stirring all the time. Once it is all in, season with pepper, a pinch of nutmeg and the mustard powder.",
           "Put the pan back on medium heat and bring it slowly to the boil, stirring all the while. Once the sauce has thickened, drop it to a very low heat, add the cooked chicken and vegetables and stir well.",
@@ -32236,7 +32236,7 @@ window.initialRecipes = [
         "subtitle": "Kip in witte saus onder een deksel van aardappel",
         "description": "Een vulling van kip en champignons op een roux, met schijfjes aardappel als dakpannen over de bovenkant gelegd. Die twee minuten roeren aan de roux zijn wat het geheel van een bloemsmaak redt.",
         "instructions": [
-          "Verwarm de oven op 200C/180C hetelucht/gas 6. Doe de boter in een middelgrote pan op middelhoog vuur. Voeg de ui toe en gaar 5 minuten, af en toe roerend, en doe er dan de champignons bij.",
+          "Verwarm de oven op 200 °C / 180 °C hetelucht. Doe de boter in een middelgrote pan op middelhoog vuur. Voeg de ui toe en gaar 5 minuten, af en toe roerend, en doe er dan de champignons bij.",
           "Als de ui en de champignons bijna gaar zijn, roer je de bloem erdoor tot een dikke pasta — een roux. Gebruik je een bouillonblokje, verkruimel het er nu in en roer goed. Hou het op een laag vuur en roer 2 minuten onafgebroken; dat gaart de bloem en is het verschil tussen een saus en een bloemige saus.",
           "Haal de roux van het vuur. Voeg de verse bouillon traag toe, of 500ml water als je een blokje gebruikte, terwijl je de hele tijd roert. Als alles erin zit, kruid je met peper, een snuf nootmuskaat en het mosterdpoeder.",
           "Zet de pan terug op middelhoog vuur en breng haar traag aan de kook, de hele tijd roerend. Zodra de saus gebonden is, zet je het vuur heel laag, voeg je de gegaarde kip en de groenten toe en roer je goed.",
@@ -32250,8 +32250,8 @@ window.initialRecipes = [
         "subtitle": "Du poulet en sauce blanche sous un couvercle de pomme de terre",
         "description": "Une garniture de poulet et champignons sur roux, avec des rondelles de pomme de terre posées en tuiles sur le dessus. Ces deux minutes à remuer le roux sont ce qui évite au plat entier un goût de farine.",
         "instructions": [
-          "Chauffe le four à 200C/180C chaleur tournante/gas 6. Mets le beurre dans une casserole moyenne à feu moyen. Ajoute l'oignon et cuis 5 minutes en remuant de temps en temps, puis ajoute les champignons.",
-          "Quand l'oignon et les champignons sont presque cuits, incorpore la farine pour obtenir une pâte épaisse — un roux. Si tu utilises un cube de bouillon, émiette-le maintenant dans le roux et mélange bien. Garde-le à feu doux et remue sans arrêt 2 minutes ; c'est ce qui cuit la farine et fait la différence entre une sauce et une sauce farineuse.",
+          "Chauffe le four à 200 °C / 180 °C chaleur tournante. Mets le beurre dans une casserole moyenne à feu moyen. Ajoute l'oignon et cuis 5 minutes en remuant de temps en temps, puis ajoute les champignons.",
+          "Quand l'oignon et les champignons sont presque cuits, incorpore la farine pour obtenir une pâte épaisse — un roux. Si tu utilises un cube de bouillon, émiette-le maintenant dans le roux et mélange bien. Garde-le à feu doux et remue sans arrêt 2 minutes; c'est ce qui cuit la farine et fait la différence entre une sauce et une sauce farineuse.",
           "Retire le roux du feu. Ajoute le bouillon frais lentement, ou 500ml d'eau si tu as pris un cube, en remuant sans cesse. Une fois tout incorporé, assaisonne de poivre, d'une pincée de muscade et de moutarde en poudre.",
           "Remets la casserole à feu moyen et amène lentement à ébullition, en remuant toujours. Dès que la sauce a épaissi, baisse à feu très doux, ajoute le poulet cuit et les légumes et mélange bien.",
           "Beurre un plat à gratin moyen et verses-y la garniture.",
@@ -32447,7 +32447,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Easy White Bean Soup",
         "subtitle": "Des haricots mijotés avec un oignon entier dans la marmite",
-        "description": "Une soupe de haricots des Balkans où un oignon est émincé et l'autre entre entier, pour être repêché et écrasé dedans à la fin. Elle se lie toute seule ; il n'y a de farine nulle part.",
+        "description": "Une soupe de haricots des Balkans où un oignon est émincé et l'autre entre entier, pour être repêché et écrasé dedans à la fin. Elle se lie toute seule; il n'y a de farine nulle part.",
         "instructions": [
           "Mets les haricots dans une grande marmite et couvre-les d'eau froide. Fais tremper au moins 4 heures, ou toute la nuit, puis égoutte et rince avant usage.",
           "Émince l'un des oignons et laisse l'autre entier. Coupe les carottes.",
@@ -32869,7 +32869,7 @@ window.initialRecipes = [
           "Add some olive oil to a sauté pan or saucepan with a lid. Once it is hot, add the onions, diced beef and red peppers and fry 5 minutes, stirring occasionally. The meat should be fully browned.",
           "Add the paprika, tomato puree and chilli flakes and season with salt and pepper. Mix together and carry on frying 2 minutes.",
           "Add the cabbage and stir it through. Fry, stirring occasionally, for 3-5 minutes. Most of the oil should have cooked away by now.",
-          "Pour in the boiling water, enough to cover the cabbage completely with about 1 inch above it. Lid on and bring to the boil.",
+          "Pour in the boiling water, enough to cover the cabbage completely with about 2.5 cm above it. Lid on and bring to the boil.",
           "Leave it to simmer 2.5 hours. It is ready when the cabbage is soft and the meat tender — not before, whatever it looks like at the hour mark.",
           "Serve in wide bowls and let it cool 5 minutes; straight from the pot it is hot enough to hurt."
         ]
@@ -32883,7 +32883,7 @@ window.initialRecipes = [
           "Doe wat olijfolie in een sauteerpan of steelpan met deksel. Als ze heet is, voeg je de uien, de blokjes rundvlees en de rode paprika's toe en bak je 5 minuten, af en toe roerend. Het vlees moet helemaal bruin zijn.",
           "Voeg de paprikapoeder, de tomatenpuree en de chilivlokken toe en kruid met peper en zout. Meng door elkaar en bak nog 2 minuten door.",
           "Voeg de kool toe en roer haar erdoor. Bak, af en toe roerend, 3-5 minuten. De meeste olie hoort nu weggekookt te zijn.",
-          "Giet het kokende water erbij, genoeg om de kool volledig onder te zetten met ongeveer 1 inch erboven. Deksel erop en aan de kook brengen.",
+          "Giet het kokende water erbij, genoeg om de kool volledig onder te zetten met ongeveer 2.5 cm erboven. Deksel erop en aan de kook brengen.",
           "Laat 2.5 uur sudderen. Het is klaar als de kool zacht is en het vlees mals — niet eerder, hoe het er na een uur ook uitziet.",
           "Dien op in brede kommen en laat het 5 minuten afkoelen; recht uit de pot is het heet genoeg om pijn te doen."
         ]
@@ -32897,9 +32897,9 @@ window.initialRecipes = [
           "Mets un peu d'huile d'olive dans une sauteuse ou une casserole à couvercle. Une fois chaude, ajoute les oignons, le bœuf en dés et les poivrons rouges et fais revenir 5 minutes en remuant de temps en temps. La viande doit être entièrement colorée.",
           "Ajoute le paprika, le concentré de tomate et les flocons de piment et assaisonne de sel et de poivre. Mélange et poursuis la cuisson 2 minutes.",
           "Ajoute le chou et mélange. Fais revenir en remuant de temps en temps 3 à 5 minutes. L'essentiel de l'huile doit avoir disparu.",
-          "Verse l'eau bouillante, assez pour couvrir entièrement le chou avec environ 1 pouce au-dessus. Couvre et porte à ébullition.",
+          "Verse l'eau bouillante, assez pour couvrir entièrement le chou avec environ 2.5 cm au-dessus. Couvre et porte à ébullition.",
           "Laisse mijoter 2.5 heures. C'est prêt quand le chou est fondant et la viande tendre — pas avant, quoi qu'il en paraisse au bout d'une heure.",
-          "Sers dans des bols larges et laisse refroidir 5 minutes ; sorti de la casserole, c'est assez chaud pour faire mal."
+          "Sers dans des bols larges et laisse refroidir 5 minutes; sorti de la casserole, c'est assez chaud pour faire mal."
         ]
       }
     },
@@ -33069,7 +33069,7 @@ window.initialRecipes = [
         "subtitle": "Beef and pumpkin, three hours to the good",
         "description": "Floured beef browned in butter and simmered in stock thickened with pumpkin purée. The purée does the work a roux usually does, and gives it a colour nothing else would.",
         "instructions": [
-          "Cut the beef into 1-inch chunks and dredge them in the flour until every side is covered.",
+          "Cut the beef into 2.5 cm chunks and dredge them in the flour until every side is covered.",
           "In a large soup pot, melt the butter over medium-high heat. Brown the beef in small batches, lifting each batch into a large bowl as it is done. When all the beef is browned, add the onion and garlic to the pot and sauté for one minute, scraping the bottom as you stir — everything stuck down there is flavour.",
           "Return the beef to the pot and add the beef stock, pumpkin puree, Worcestershire sauce, salt and pepper. Stir well and bring to a boil. Once it boils, drop the heat to medium-low and simmer 3 hours, stirring occasionally.",
           "Add the potatoes, carrots and thyme sprigs and turn the heat up to medium. Cook a further 30 minutes. Salt to taste and serve."
@@ -33080,7 +33080,7 @@ window.initialRecipes = [
         "subtitle": "Rundvlees en pompoen, drie uur in het voordeel",
         "description": "Gebloemd rundvlees in boter aangebraden en gesudderd in bouillon die gebonden wordt met pompoenpuree. Die puree doet het werk dat normaal een roux doet, en geeft een kleur die je anders nooit krijgt.",
         "instructions": [
-          "Snijd het rundvlees in stukken van 1 inch en wentel ze door de bloem tot elke kant bedekt is.",
+          "Snijd het rundvlees in stukken van 2.5 cm en wentel ze door de bloem tot elke kant bedekt is.",
           "Smelt de boter in een grote soeppot op middelhoog tot hoog vuur. Bak het vlees in kleine porties bruin en til elke portie in een grote kom zodra ze klaar is. Als al het vlees gebruind is, voeg je de ui en de knoflook toe aan de pot en bak je die één minuut, terwijl je de bodem losschraapt — alles wat daar vastzit is smaak.",
           "Doe het vlees terug in de pot en voeg de runderbouillon, de pompoenpuree, de worcestershiresaus, zout en peper toe. Roer goed door en breng aan de kook. Zodra het kookt, zet je het vuur op middelhoog-laag en laat je 3 uur sudderen, af en toe roerend.",
           "Voeg de aardappelen, wortelen en takjes tijm toe en zet het vuur op middelhoog. Gaar nog 30 minuten. Breng op smaak met zout en dien op."
@@ -33091,7 +33091,7 @@ window.initialRecipes = [
         "subtitle": "Du bœuf et du potiron, trois heures au bénéfice",
         "description": "Du bœuf fariné doré au beurre et mijoté dans un bouillon lié à la purée de potiron. Cette purée fait le travail d'un roux, et donne une couleur qu'on n'obtiendrait pas autrement.",
         "instructions": [
-          "Coupe le bœuf en morceaux de 1 pouce et roule-les dans la farine jusqu'à ce que toutes les faces soient couvertes.",
+          "Coupe le bœuf en morceaux de 2.5 cm et roule-les dans la farine jusqu'à ce que toutes les faces soient couvertes.",
           "Dans une grande marmite, fais fondre le beurre à feu moyen-vif. Fais dorer le bœuf par petites quantités, en transférant chaque fournée dans un grand bol. Quand tout le bœuf est doré, ajoute l'oignon et l'ail dans la marmite et fais revenir une minute, en grattant le fond en remuant — tout ce qui y est accroché, c'est du goût.",
           "Remets le bœuf dans la marmite et ajoute le bouillon de bœuf, la purée de potiron, la sauce Worcestershire, le sel et le poivre. Mélange bien et porte à ébullition. Dès l'ébullition, baisse à feu moyen-doux et laisse mijoter 3 heures, en remuant de temps en temps.",
           "Ajoute les pommes de terre, les carottes et les brins de thym et remonte à feu moyen. Cuis encore 30 minutes. Sale au goût et sers."
@@ -33990,7 +33990,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Bahia-style Moqueca prawn stew",
         "subtitle": "Des crevettes marinées au citron vert, puis à peine cuites",
-        "description": "Une moqueca bahianaise bâtie sur le lait et l'huile de coco, où les crevettes entrent tout à la fin et sont prêtes en trois minutes. La marinade part avec elles ; rien ne se perd.",
+        "description": "Une moqueca bahianaise bâtie sur le lait et l'huile de coco, où les crevettes entrent tout à la fin et sont prêtes en trois minutes. La marinade part avec elles; rien ne se perd.",
         "instructions": [
           "Mets les crevettes dans un bol avec 2 cuillères à soupe de jus de citron vert, 1 cuillère à café de sel et 1 cuillère à soupe d'ail haché. Réfrigère 1 heure.",
           "Chauffe l'huile de coco dans une grande casserole. Ajoute l'oignon nouveau et l'oignon et fais revenir 5 minutes, puis ajoute le poivron rouge, les flocons de piment, le paprika et le reste de l'ail.",
@@ -34448,7 +34448,7 @@ window.initialRecipes = [
         "subtitle": "Des pommes de terre, de la graisse de lard et un filet de sirop d'érable à la fin",
         "description": "Des pommes de terre rissolées, puis du lard ajouté pour que sa graisse finisse le travail, et du sirop d'érable tout à la fin pour accrocher et caraméliser. Congèle le lard d'abord — il se coupe bien plus facilement.",
         "instructions": [
-          "Avant tout, mets les tranches de lard au congélateur. Un lard froid se coupe net ; un lard mou s'écrase sous le couteau.",
+          "Avant tout, mets les tranches de lard au congélateur. Un lard froid se coupe net; un lard mou s'écrase sous le couteau.",
           "Lave les pommes de terre et coupe-les en dés moyens. Jette les morceaux au fur et à mesure dans un saladier d'eau, pour qu'ils ne brunissent pas.",
           "Pendant ce temps, chauffe 1 à 2 cuillères à soupe d'huile dans une grande poêle à feu moyen-vif, en inclinant la poêle pour bien la répartir.",
           "Dès que l'huile est chaude, égoutte les pommes de terre et mets-les dans la poêle. Assaisonne de sel, de poivre et d'Old Bay selon le besoin.",
@@ -34645,8 +34645,8 @@ window.initialRecipes = [
           "D'abord la pâte à la farine.",
           "Mélange la farine, l'eau et le sel jusqu'à ce qu'il ne reste plus un grumeau. Elle doit être épaisse mais encore versable — ajoute un peu d'eau s'il le faut. Réserve.",
           "Ensuite la garniture qui va entre les couches.",
-          "Mélange le beurre, l'huile et le yaourt ou la crème choisis jusqu'à consistance lisse. Ce doit être coulant ; laisse reposer 10 minutes et remélange bien. La consistance visée est à peu près celle d'une crème anglaise. Réserve.",
-          "Préchauffe le gril à moyen — position 4 sur 6 chez moi. Prends un grand plat profond ou un moule à tarte et huile le fond à l'huile d'olive. Dépose la première couche de pâte à la pipette ou à la louche ; n'essaie pas de la verser, elle est trop épaisse.",
+          "Mélange le beurre, l'huile et le yaourt ou la crème choisis jusqu'à consistance lisse. Ce doit être coulant; laisse reposer 10 minutes et remélange bien. La consistance visée est à peu près celle d'une crème anglaise. Réserve.",
+          "Préchauffe le gril à moyen — position 4 sur 6 chez moi. Prends un grand plat profond ou un moule à tarte et huile le fond à l'huile d'olive. Dépose la première couche de pâte à la pipette ou à la louche; n'essaie pas de la verser, elle est trop épaisse.",
           "Fais une étoile en laissant des triangles de plat nu entre chaque trait de pâte. Passe sous le gril jusqu'à ce que ce soit doré, 3 - 5 minutes.",
           "Sors-le et étale au pinceau ou à la cuillère une couche de garniture sur tout le plat, sur les parties couvertes comme sur les nues. Ajoute ensuite une nouvelle couche de pâte en étoile, cette fois en faisant passer les traits dans les vides laissés par la couche précédente.",
           "Laisse de nouveau les mêmes triangles entre chaque trait. Retour sous le gril jusqu'à coloration, 3 - 5 minutes.",
@@ -34833,7 +34833,7 @@ window.initialRecipes = [
           "Chauffe la plaque à feu doux, sur 2 feux si elle tient, et badigeonne-la légèrement d'huile d'olive douce.",
           "Les saucisses d'abord. Pose-les sur la plaque chaude — sur la partie la plus tiède s'il y en a une — et laisse-les cuire lentement environ 15 à 20 minutes, en les retournant de temps en temps, jusqu'à ce qu'elles dorent. Après les 10 premières minutes, monte à feu moyen avant de commencer le reste. Si la place manque, cuis-les entièrement et garde-les au chaud au four.",
           "Fais quelques petites entailles dans le gras du lard pour qu'il ne s'enroule pas. Pose-le directement sur la plaque et cuis 2 à 4 minutes par face, jusqu'au croustillant que tu aimes. Comme les saucisses, il peut attendre au four.",
-          "Pour les champignons, brosse la terre au pinceau et coupe le pied au ras du chapeau. Sale, poivre et arrose d'un filet d'huile d'olive. Pose-les pied vers le haut sur la plaque et cuis 1 à 2 minutes avant de les retourner et de poursuivre 3 à 4 minutes. Ne les déplace pas pendant la cuisson ; les bouger leur fait rendre leur eau et tu obtiens des champignons mous.",
+          "Pour les champignons, brosse la terre au pinceau et coupe le pied au ras du chapeau. Sale, poivre et arrose d'un filet d'huile d'olive. Pose-les pied vers le haut sur la plaque et cuis 1 à 2 minutes avant de les retourner et de poursuivre 3 à 4 minutes. Ne les déplace pas pendant la cuisson; les bouger leur fait rendre leur eau et tu obtiens des champignons mous.",
           "Pour les tomates, coupe-les en deux dans la largeur — ou dans la longueur pour des tomates allongées — et retire le pédoncule vert au petit couteau. Assaisonne et arrose d'huile d'olive. Pose-les face coupée contre la plaque et cuis sans les bouger 2 minutes.",
           "Retourne-les délicatement et assaisonne de nouveau. Cuis encore 2 à 3 minutes jusqu'à ce qu'elles soient tendres mais tiennent encore.",
           "Pour le boudin noir, coupe-le en 3 à 4 tranches et retire la peau. Cuis-le sur la plaque 1½ à 2 minutes par face jusqu'à ce qu'il croustille un peu.",
@@ -35149,9 +35149,9 @@ window.initialRecipes = [
         "description": "Day-old baguette soaked in milk infused with citrus zest, cinnamon and dry sherry, then egged and fried in olive oil. Eaten across Spain at Easter, and worth making at any time of year.",
         "instructions": [
           "Finely grate the zest of 1 medium orange, about 2 teaspoons, and 1 medium lemon, about 1 teaspoon, into a medium saucepan.",
-          "Add 1 quart whole milk, 1/2 cup granulated sugar and 1 (3-inch) cinnamon stick. Bring to a boil over medium heat. Take the pan off the heat and add 1/3 cup dry sherry. Let it sit until cool enough to handle. Meanwhile cut 1 (12-ounce) day-old baguette crosswise into 1-inch-thick slices, about 16, and lay them in a single layer on a rimmed baking sheet.",
+          "Add 950 ml whole milk, 65 g granulated sugar and 1 (7.5 cm) cinnamon stick. Bring to a boil over medium heat. Take the pan off the heat and add 80 ml dry sherry. Let it sit until cool enough to handle. Meanwhile cut 1 (12-ounce) day-old baguette crosswise into 2.5 cm-thick slices, about 16, and lay them in a single layer on a rimmed baking sheet.",
           "Pour the milk over the bread and let it soak 5 minutes. Turn each slice over and leave it until it has drunk up most of the liquid but is not falling apart, about 5 minutes more. Day-old bread is essential here; fresh bread simply dissolves.",
-          "Heat 1 cup olive oil in a large frying pan over medium-high heat until it shimmers. Meanwhile whisk 4 eggs together in a medium bowl.",
+          "Heat 240 ml olive oil in a large frying pan over medium-high heat until it shimmers. Meanwhile whisk 4 eggs together in a medium bowl.",
           "Working with 1 slice at a time, dip the bread in the egg to coat it, let the excess drip off, then lay it in the pan. Fill the pan with a single layer. Fry until golden-brown underneath, about 4 minutes.",
           "Flip the slices and fry the second side until golden-brown, 3 to 4 minutes more. Lift onto a paper towel-lined plate. Repeat with the rest of the bread, and trickle honey over to serve."
         ]
@@ -35162,9 +35162,9 @@ window.initialRecipes = [
         "description": "Stokbrood van gisteren geweekt in melk getrokken met citruszeste, kaneel en droge sherry, dan door ei gehaald en in olijfolie gebakken. In heel Spanje met Pasen gegeten, en het hele jaar door de moeite waard.",
         "instructions": [
           "Rasp de zeste van 1 middelgrote sinaasappel, ongeveer 2 theelepels, en 1 middelgrote citroen, ongeveer 1 theelepel, fijn in een middelgrote pan.",
-          "Voeg 1 quart volle melk, 1/2 kopje kristalsuiker en 1 kaneelstokje van 3 inch toe. Breng op middelhoog vuur aan de kook. Haal de pan van het vuur en voeg 1/3 kopje droge sherry toe. Laat het staan tot je het kan vastpakken. Snijd ondertussen 1 stokbrood van 12 ounce, een dag oud, dwars in plakken van 1 inch dik, ongeveer 16, en leg ze in één laag op een bakplaat met rand.",
+          "Voeg 950 ml volle melk, 65 g kristalsuiker en 1 kaneelstokje van 7.5 cm toe. Breng op middelhoog vuur aan de kook. Haal de pan van het vuur en voeg 80 ml droge sherry toe. Laat het staan tot je het kan vastpakken. Snijd ondertussen 1 stokbrood van 340 g, een dag oud, dwars in plakken van 2.5 cm dik, ongeveer 16, en leg ze in één laag op een bakplaat met rand.",
           "Giet de melk over het brood en laat het 5 minuten weken. Draai elke plak om en laat hem tot hij het meeste vocht heeft opgezogen maar nog niet uit elkaar valt, ongeveer 5 minuten langer. Brood van een dag oud is hier essentieel; vers brood lost gewoon op.",
-          "Verhit 1 kopje olijfolie in een grote koekenpan op middelhoog tot hoog vuur tot ze glanst. Klop ondertussen 4 eieren los in een middelgrote kom.",
+          "Verhit 240 ml olijfolie in een grote koekenpan op middelhoog tot hoog vuur tot ze glanst. Klop ondertussen 4 eieren los in een middelgrote kom.",
           "Werk met 1 plak tegelijk: haal het brood door het ei, laat het overtollige eraf lopen en leg het in de pan. Vul de pan met één laag. Bak tot de onderkant goudbruin is, ongeveer 4 minuten.",
           "Draai de plakken om en bak de tweede kant goudbruin, nog 3 tot 4 minuten. Til ze op een bord met keukenpapier. Herhaal met de rest van het brood, en druppel er honing over om op te dienen."
         ]
@@ -35175,9 +35175,9 @@ window.initialRecipes = [
         "description": "De la baguette de la veille trempée dans un lait infusé de zestes, de cannelle et de xérès sec, puis passée à l'œuf et frite à l'huile d'olive. On en mange dans toute l'Espagne à Pâques, et ça vaut la peine toute l'année.",
         "instructions": [
           "Râpe finement le zeste de 1 orange moyenne, environ 2 cuillères à café, et de 1 citron moyen, environ 1 cuillère à café, dans une casserole moyenne.",
-          "Ajoute 1 quart de lait entier, 1/2 tasse de sucre cristallisé et 1 bâton de cannelle de 3 pouces. Porte à ébullition à feu moyen. Retire la casserole du feu et ajoute 1/3 tasse de xérès sec. Laisse tiédir jusqu'à pouvoir le manipuler. Pendant ce temps, coupe 1 baguette de 12 onces, rassise d'un jour, en tranches de 1 pouce d'épaisseur, environ 16, et range-les en une seule couche sur une plaque à rebord.",
-          "Verse le lait sur le pain et laisse tremper 5 minutes. Retourne chaque tranche et laisse-la jusqu'à ce qu'elle ait bu l'essentiel du liquide sans se défaire, environ 5 minutes de plus. Le pain de la veille est indispensable ici ; le pain frais se dissout tout simplement.",
-          "Chauffe 1 tasse d'huile d'olive dans une grande poêle à feu moyen-vif jusqu'à ce qu'elle miroite. Pendant ce temps, bats 4 œufs dans un bol moyen.",
+          "Ajoute 950 ml de lait entier, 65 g de sucre cristallisé et 1 bâton de cannelle de 7.5 cm. Porte à ébullition à feu moyen. Retire la casserole du feu et ajoute 80 ml de xérès sec. Laisse tiédir jusqu'à pouvoir le manipuler. Pendant ce temps, coupe 1 baguette de 12 onces, rassise d'un jour, en tranches de 2.5 cm d'épaisseur, environ 16, et range-les en une seule couche sur une plaque à rebord.",
+          "Verse le lait sur le pain et laisse tremper 5 minutes. Retourne chaque tranche et laisse-la jusqu'à ce qu'elle ait bu l'essentiel du liquide sans se défaire, environ 5 minutes de plus. Le pain de la veille est indispensable ici; le pain frais se dissout tout simplement.",
+          "Chauffe 240 ml d'huile d'olive dans une grande poêle à feu moyen-vif jusqu'à ce qu'elle miroite. Pendant ce temps, bats 4 œufs dans un bol moyen.",
           "En travaillant avec 1 tranche à la fois, trempe le pain dans l'œuf pour l'enrober, laisse l'excédent s'égoutter, puis dépose-le dans la poêle. Remplis la poêle d'une seule couche. Fais frire jusqu'à ce que le dessous soit doré, environ 4 minutes.",
           "Retourne les tranches et fais dorer la seconde face, 3 à 4 minutes de plus. Dépose sur une assiette garnie de papier absorbant. Recommence avec le reste du pain, et arrose de miel pour servir."
         ]
@@ -35378,7 +35378,7 @@ window.initialRecipes = [
         "subtitle": "De la pâte frite kényane, et ne l'étale pas fin",
         "description": "Une pâte sucrée simple coupée en morceaux et frite jusqu'à blondir. Garde la pâte épaisse — étalés fin, les mandazi sortent plats et durs au lieu de gonflés.",
         "instructions": [
-          "Utilise une farine qui contient déjà un agent levant ; c'est la seule chose que cette recette ne pardonnera pas. Ajuste le sucre à ton goût, et essaie d'autres arômes quand tu en as.",
+          "Utilise une farine qui contient déjà un agent levant; c'est la seule chose que cette recette ne pardonnera pas. Ajuste le sucre à ton goût, et essaie d'autres arômes quand tu en as.",
           "Le lait de coco remplace le lait ordinaire, et tu peux ajouter de la noix de coco râpée à la farine, ou des épices comme le clou de girofle moulu ou la cannelle.",
           "Pour des mandazi bien dodus, n'étale pas la pâte trop fin avant de frire.",
           "Mélange la farine, la cannelle et le sucre dans un bol adapté.",
@@ -35831,7 +35831,7 @@ window.initialRecipes = [
         "subtitle": "Puff pastry folded into a frame around the fruit",
         "description": "Squares of puff pastry cut and folded so the corners cross over, making a little raised frame that holds cream cheese and berries. The folding is the whole recipe; everything else is assembly.",
         "instructions": [
-          "Heat the oven to 400ºF (200ºC) and line two cookie sheets with parchment. Mix the cream cheese, sugar and vanilla until fully combined. Flour the surface lightly and roll the puff pastry out flat. Cut each sheet into 9 equal squares. On the top right and bottom left of each square, cut an L shape about ½ inch (1 cm) in from the edge.",
+          "Heat the oven to 400ºF (200ºC) and line two cookie sheets with parchment. Mix the cream cheese, sugar and vanilla until fully combined. Flour the surface lightly and roll the puff pastry out flat. Cut each sheet into 9 equal squares. On the top right and bottom left of each square, cut an L shape about 1 cm in from the edge.",
           "The L cuts should run all the way down and across the square, but the two Ls must not meet at their ends. What you want is something like a picture frame with two corners still joined.",
           "Take the upper right corner and fold it down towards the inner bottom corner. You now have a diamond.",
           "Put 1 to 2 teaspoons of the cream cheese filling in the middle and lay berries on top.",
@@ -35844,7 +35844,7 @@ window.initialRecipes = [
         "subtitle": "Bladerdeeg tot een lijstje rond het fruit gevouwen",
         "description": "Vierkantjes bladerdeeg zo ingesneden en gevouwen dat de hoeken elkaar kruisen, wat een opstaand lijstje maakt dat roomkaas en bessen vasthoudt. Dat vouwen is het hele recept; al de rest is opbouwen.",
         "instructions": [
-          "Verwarm de oven op 400ºF (200ºC) en bekleed twee bakplaten met bakpapier. Meng de roomkaas, de suiker en de vanille tot alles volledig samengaat. Bebloem het werkblad licht en rol het bladerdeeg plat uit. Snijd elk vel in 9 gelijke vierkantjes. Snijd rechtsboven en linksonder van elk vierkantje een L-vorm, ongeveer ½ inch (1 cm) van de rand.",
+          "Verwarm de oven op 400ºF (200ºC) en bekleed twee bakplaten met bakpapier. Meng de roomkaas, de suiker en de vanille tot alles volledig samengaat. Bebloem het werkblad licht en rol het bladerdeeg plat uit. Snijd elk vel in 9 gelijke vierkantjes. Snijd rechtsboven en linksonder van elk vierkantje een L-vorm, ongeveer 1 cm van de rand.",
           "Die L-sneden moeten helemaal door tot beneden en dwars over het vierkantje lopen, maar de twee L's mogen elkaar aan de uiteinden niet raken. Wat je wil is zoiets als een fotolijstje met twee hoeken nog aan elkaar.",
           "Neem de rechterbovenhoek en vouw hem naar de binnenste onderhoek. Nu heb je een ruit.",
           "Doe 1 tot 2 theelepels van de roomkaasvulling in het midden en leg er bessen op.",
@@ -35855,9 +35855,9 @@ window.initialRecipes = [
       "fr": {
         "title": "Fruit and Cream Cheese Breakfast Pastries",
         "subtitle": "De la pâte feuilletée pliée en cadre autour des fruits",
-        "description": "Des carrés de pâte feuilletée entaillés et pliés pour que les coins se croisent, formant un petit cadre en relief qui retient le fromage frais et les baies. Ce pliage est toute la recette ; le reste n'est que montage.",
+        "description": "Des carrés de pâte feuilletée entaillés et pliés pour que les coins se croisent, formant un petit cadre en relief qui retient le fromage frais et les baies. Ce pliage est toute la recette; le reste n'est que montage.",
         "instructions": [
-          "Chauffe le four à 400ºF (200ºC) et garnis deux plaques de papier cuisson. Mélange le fromage frais, le sucre et la vanille jusqu'à parfaite homogénéité. Farine légèrement le plan et étale la pâte feuilletée. Coupe chaque abaisse en 9 carrés égaux. En haut à droite et en bas à gauche de chaque carré, entaille un L à environ ½ pouce (1 cm) du bord.",
+          "Chauffe le four à 400ºF (200ºC) et garnis deux plaques de papier cuisson. Mélange le fromage frais, le sucre et la vanille jusqu'à parfaite homogénéité. Farine légèrement le plan et étale la pâte feuilletée. Coupe chaque abaisse en 9 carrés égaux. En haut à droite et en bas à gauche de chaque carré, entaille un L à environ 1 cm du bord.",
           "Ces entailles en L doivent courir sur toute la longueur et la largeur du carré, mais les deux L ne doivent pas se rejoindre aux extrémités. Ce que tu veux ressemble à un cadre photo dont deux coins tiennent encore.",
           "Prends le coin supérieur droit et replie-le vers le coin inférieur intérieur. Tu obtiens un losange.",
           "Dépose 1 à 2 cuillères à café de garniture au fromage frais au centre et pose les baies dessus.",
@@ -36001,8 +36001,8 @@ window.initialRecipes = [
         "subtitle": "Cornmeal porridge, whisked smooth before it meets the pot",
         "description": "The cornmeal is slaked in cold water first, so it can go into boiling liquid without seizing into lumps. Sweetened with condensed milk at the very end, off the heat.",
         "instructions": [
-          "Add 2 ½ cups water and 1 can coconut milk to a 4 QT heavy-bottomed pot. Bring to a boil over medium-high heat.",
-          "Meanwhile, whisk 1 cup cornmeal with 1 ½ cup water in a large measuring jug until completely smooth. This cold slurry is what saves you from lumps later.",
+          "Add 600 ml water and 1 can coconut milk to a 4 litre heavy-bottomed pot. Bring to a boil over medium-high heat.",
+          "Meanwhile, whisk 125 g cornmeal with 360 ml water in a large measuring jug until completely smooth. This cold slurry is what saves you from lumps later.",
           "Once the pot boils, whisk the cornmeal mixture in and keep whisking for about 1 minute, making sure nothing sets into a lump. Drop the heat to low and cover with a tight-fitting lid.",
           "Cook over low heat 15-20 minutes, stirring occasionally. When about 5 minutes are left, stir in the vanilla, cinnamon, nutmeg and allspice. Take it off the heat and sweeten with condensed milk — off the heat, or it catches on the bottom."
         ]
@@ -36012,8 +36012,8 @@ window.initialRecipes = [
         "subtitle": "Maïspap, glad geklopt voor ze de pot ziet",
         "description": "De maïsgriesmeel wordt eerst in koud water aangelengd, zodat ze in kokend vocht kan zonder tot klonters te schrikken. Op het allerlaatst gezoet met gecondenseerde melk, buiten het vuur.",
         "instructions": [
-          "Doe 2 ½ kopjes water en 1 blik kokosmelk in een pot van 4 QT met een zware bodem. Breng aan de kook op middelhoog tot hoog vuur.",
-          "Klop ondertussen 1 kopje maïsgriesmeel met 1 ½ kopje water glad in een grote maatbeker. Die koude papje is wat je straks van klonters redt.",
+          "Doe 600 ml water en 1 blik kokosmelk in een pot van 4 litre met een zware bodem. Breng aan de kook op middelhoog tot hoog vuur.",
+          "Klop ondertussen 125 g maïsgriesmeel met 360 ml water glad in een grote maatbeker. Die koude papje is wat je straks van klonters redt.",
           "Zodra de pot kookt, klop je het maïsmengsel erdoor en blijf je ongeveer 1 minuut kloppen, zodat er niets tot een klont stolt. Zet het vuur laag en dek af met een goed sluitend deksel.",
           "Gaar 15-20 minuten op laag vuur, af en toe roerend. Als er nog ongeveer 5 minuten over zijn, roer je de vanille, kaneel, nootmuskaat en piment erdoor. Haal van het vuur en zoet met gecondenseerde melk — van het vuur af, anders bakt het aan."
         ]
@@ -36023,8 +36023,8 @@ window.initialRecipes = [
         "subtitle": "Une bouillie de maïs, lissée avant d'entrer dans la casserole",
         "description": "La semoule de maïs est délayée à l'eau froide d'abord, pour pouvoir entrer dans un liquide bouillant sans se figer en grumeaux. Sucrée au lait concentré tout à la fin, hors du feu.",
         "instructions": [
-          "Mets 2 ½ tasses d'eau et 1 boîte de lait de coco dans une casserole de 4 QT à fond épais. Porte à ébullition à feu moyen-vif.",
-          "Pendant ce temps, fouette 1 tasse de semoule de maïs avec 1 ½ tasse d'eau dans un grand verre doseur jusqu'à consistance parfaitement lisse. Cette bouillie froide est ce qui t'évitera les grumeaux.",
+          "Mets 600 ml d'eau et 1 boîte de lait de coco dans une casserole de 4 litre à fond épais. Porte à ébullition à feu moyen-vif.",
+          "Pendant ce temps, fouette 125 g de semoule de maïs avec 360 ml d'eau dans un grand verre doseur jusqu'à consistance parfaitement lisse. Cette bouillie froide est ce qui t'évitera les grumeaux.",
           "Dès que ça bout, incorpore le mélange au fouet et continue de fouetter environ 1 minute, en veillant à ce que rien ne prenne en grumeau. Baisse à feu doux et couvre d'un couvercle bien ajusté.",
           "Cuis à feu doux 15 à 20 minutes, en remuant de temps en temps. Quand il reste environ 5 minutes, incorpore la vanille, la cannelle, la muscade et le piment de la Jamaïque. Retire du feu et sucre au lait concentré — hors du feu, sinon ça attache."
         ]
@@ -36355,7 +36355,7 @@ window.initialRecipes = [
         "description": "Une bouillie norvégienne où l'on cuit la crème aigre jusqu'à ce que son gras remonte, on garde ce gras, et on le reverse sur le bol fini. C'est aussi riche que ça en a l'air, et c'est voulu.",
         "instructions": [
           "Cuis la crème aigre dans une casserole couverte à feu moyen environ 5 minutes.",
-          "Baisse le feu et incorpore la moitié de la farine au fouet. Une fois bien absorbée, laisse cuire en remuant de temps en temps, jusqu'à ce que le gras commence à se séparer. Récupère à la cuillère autant de ce gras que possible dans un petit bol et garde-le — il revient à la fin. S'il n'en sort pas, tant pis ; tu utiliseras du beurre plus tard.",
+          "Baisse le feu et incorpore la moitié de la farine au fouet. Une fois bien absorbée, laisse cuire en remuant de temps en temps, jusqu'à ce que le gras commence à se séparer. Récupère à la cuillère autant de ce gras que possible dans un petit bol et garde-le — il revient à la fin. S'il n'en sort pas, tant pis; tu utiliseras du beurre plus tard.",
           "Incorpore le reste de la farine, puis ajoute le lait lentement en fouettant sans arrêt pour que ce soit lisse. Laisse la bouillie cuire à feu doux 5 minutes, puis ajoute le sel.",
           "Sers avec du sucre, de la cannelle, et le gras réservé versé dessus. Avec une crème plus maigre, mets du beurre à la place."
         ]
@@ -36806,8 +36806,8 @@ window.initialRecipes = [
           "Let the apples cook about 5-7 minutes over medium heat.",
           "Take it off the heat and let the apple mixture cool completely. The fridge speeds this up, and warm filling is what bursts these open in the oven.",
           "Mix the egg and water for an egg wash.",
-          "Roll the pie dough out to 1/8 inch thickness.",
-          "Cut rounds of 2 ½ to 3 inches and lay them on parchment paper. You will need to re-roll the scraps left from cutting.",
+          "Roll the pie dough out to 3 mm thickness.",
+          "Cut rounds of 6.5 to 7.5 cm and lay them on parchment paper. You will need to re-roll the scraps left from cutting.",
           "In half of the rounds, cut shapes or holes for the steam to escape.",
           "In the other half, gently press one lollipop stick about halfway up each round.",
           "Put one tablespoon of the apple mixture in the centre of each of those rounds.",
@@ -36833,8 +36833,8 @@ window.initialRecipes = [
           "Laat de appels ongeveer 5-7 minuten garen op middelhoog vuur.",
           "Haal van het vuur en laat het appelmengsel volledig afkoelen. De koelkast versnelt dat, en warme vulling is net wat deze dingen in de oven doet openbarsten.",
           "Meng het ei met het water voor een eierwas.",
-          "Rol het deeg uit tot 1/8 inch dik.",
-          "Steek rondjes van 2 ½ tot 3 inch uit en leg ze op bakpapier. De restjes van het uitsteken moet je opnieuw uitrollen.",
+          "Rol het deeg uit tot 3 mm dik.",
+          "Steek rondjes van 6.5 tot 7.5 cm uit en leg ze op bakpapier. De restjes van het uitsteken moet je opnieuw uitrollen.",
           "Snijd in de helft van de rondjes vormpjes of gaatjes zodat de stoom kan ontsnappen.",
           "Druk in de andere helft één lollystokje tot ongeveer halverwege elk rondje.",
           "Doe één eetlepel appelmengsel in het midden van elk van die rondjes.",
@@ -36860,8 +36860,8 @@ window.initialRecipes = [
           "Laisse les pommes cuire environ 5 à 7 minutes à feu moyen.",
           "Retire du feu et laisse la garniture refroidir complètement. Le frigo accélère les choses, et c'est une garniture tiède qui les fait éclater au four.",
           "Mélange l'œuf et l'eau pour la dorure.",
-          "Étale la pâte sur 1/8 de pouce d'épaisseur.",
-          "Découpe des ronds de 2 ½ à 3 pouces et pose-les sur du papier cuisson. Il faudra réétaler les chutes.",
+          "Étale la pâte sur 3 mm d'épaisseur.",
+          "Découpe des ronds de 6.5 to 7.5 cm et pose-les sur du papier cuisson. Il faudra réétaler les chutes.",
           "Dans la moitié des ronds, découpe des formes ou des trous pour que la vapeur s'échappe.",
           "Dans l'autre moitié, enfonce doucement un bâton de sucette jusqu'à mi-hauteur de chaque rond.",
           "Dépose une cuillère à soupe de compotée de pommes au centre de chacun de ces ronds.",
@@ -37085,21 +37085,21 @@ window.initialRecipes = [
         "description": "Two discs of pastry, one for the base and one cut into strips for the lattice, with fruit tossed in cornstarch and sugar between them. The weaving looks harder than it is.",
         "instructions": [
           "For the pie crust: put the flour, salt and sugar in a food processor and process until combined. Add the butter and process until the mixture resembles coarse",
-          "meal, about 15 seconds. Pour 1/4 cup (60 ml) water in a slow steady stream through the feed tube until the dough just holds together when pinched. Add more water if it needs it. Do not process more than 30 seconds.",
+          "meal, about 15 seconds. Pour 60 ml water in a slow steady stream through the feed tube until the dough just holds together when pinched. Add more water if it needs it. Do not process more than 30 seconds.",
           "Turn the dough out and gather it into a ball. Divide it in half, flatten each half into a disk, cover with plastic and refrigerate about one hour before using. This chills the butter and relaxes the gluten, which is what keeps the pastry short.",
-          "Once the dough has chilled, take one piece out and put it on a lightly floured surface. Roll it into a 12 inch (30 cm) circle.",
-          "Keep lifting the pastry and turning it a quarter turn as you roll, always working from the centre outwards — that stops it sticking and keeps the thickness even. Fold the dough in half and transfer it gently to a 9 inch (23 cm) pie pan.",
-          "Brush off the excess flour and trim the overhang to 1/2 inch (1.5 cm). Cover with plastic and refrigerate while you make the filling.",
-          "Roll the second piece into a 13 inch (30 cm) circle. With a pastry wheel or pizza cutter, cut it into strips about 3/4 inch (2 cm) wide. Lay the strips on a parchment-lined baking sheet, cover, and refrigerate about 10 minutes.",
+          "Once the dough has chilled, take one piece out and put it on a lightly floured surface. Roll it into a 30 cm circle.",
+          "Keep lifting the pastry and turning it a quarter turn as you roll, always working from the centre outwards — that stops it sticking and keeps the thickness even. Fold the dough in half and transfer it gently to a 23 cm pie pan.",
+          "Brush off the excess flour and trim the overhang to 1.5 cm. Cover with plastic and refrigerate while you make the filling.",
+          "Roll the second piece into a 30 cm circle. With a pastry wheel or pizza cutter, cut it into strips about 2 cm wide. Lay the strips on a parchment-lined baking sheet, cover, and refrigerate about 10 minutes.",
           "For the filling: put the cut strawberries and rhubarb in a large bowl. In a small bowl, mix the cornstarch, sugar and ground cinnamon.",
           "Take the chilled crust out. Sprinkle about 2 tablespoons of the sugar mixture over the base — that layer soaks up juice and saves you a soggy bottom. Add the rest of the sugar mixture to the fruit and toss gently. Pour the fruit into the shell, sprinkle with about 1 teaspoon of lemon juice and dot with 2 tablespoons of butter.",
-          "Take the strips from the fridge and, starting at the centre with the longest and working outwards, lay half of them about 1 inch (2.5 cm) apart across the filling, keeping the shortest for the outer edges.",
+          "Take the strips from the fridge and, starting at the centre with the longest and working outwards, lay half of them about 2.5 cm apart across the filling, keeping the shortest for the outer edges.",
           "Then fold back every other strip about halfway. Lay a new strip perpendicular across the ones still flat. Unfold the folded strips, and fold back the ones you left alone the first time.",
-          "Lay another perpendicular strip and carry on the same way with the rest. Trim the strips to a 1 inch (2.5 cm) overhang, tuck them under the bottom crust to seal, and flute the edge.",
-          "Brush the lattice with milk and sprinkle with a little sugar. Cover and refrigerate while you heat the oven to 400 degrees F (205 degrees C), with the rack in the lower third and a foil-lined baking sheet on it to catch the spills.",
+          "Lay another perpendicular strip and carry on the same way with the rest. Trim the strips to a 2.5 cm overhang, tuck them under the bottom crust to seal, and flute the edge.",
+          "Brush the lattice with milk and sprinkle with a little sugar. Cover and refrigerate while you heat the oven to 205 °C, with the rack in the lower third and a foil-lined baking sheet on it to catch the spills.",
           "Set the pie on the hot baking sheet and bake about 35 minutes, then cover the edges with a foil ring if they are browning too fast. Bake another 10 minutes or so, until the crust is golden brown and the juices are bubbling.",
           "Take it out onto a wire rack and let it cool for several hours — a hot fruit pie will not hold a slice. Serve at room temperature with softly whipped cream or vanilla ice cream. Leftovers keep in the fridge about 3 days and reheat well, and the whole pie freezes.",
-          "Makes one 9 inch (23 cm) pie."
+          "Makes one 23 cm pie."
         ]
       },
       "nl": {
@@ -37108,21 +37108,21 @@ window.initialRecipes = [
         "description": "Twee schijven deeg, één voor de bodem en één in reepjes gesneden voor de vlecht, met fruit dat in maizena en suiker is omgeschept ertussen. Dat vlechten ziet er moeilijker uit dan het is.",
         "instructions": [
           "Voor het deeg: doe de bloem, het zout en de suiker in een keukenmachine en draai tot alles gemengd is. Voeg de boter toe en draai tot het mengsel op grof",
-          "gries lijkt, ongeveer 15 seconden. Giet 1/4 kopje (60 ml) water in een traag, gestaag straaltje door de vulopening tot het deeg net samenhoudt als je erin knijpt. Voeg meer water toe als het nodig is. Draai niet langer dan 30 seconden.",
+          "gries lijkt, ongeveer 15 seconden. Giet 60 ml water in een traag, gestaag straaltje door de vulopening tot het deeg net samenhoudt als je erin knijpt. Voeg meer water toe als het nodig is. Draai niet langer dan 30 seconden.",
           "Stort het deeg uit en breng het samen tot een bal. Verdeel het in tweeën, druk elke helft plat tot een schijf, dek af met plastic en zet ongeveer een uur in de koelkast voor gebruik. Dat koelt de boter en ontspant de gluten, en dat is wat het deeg bros houdt.",
-          "Als het deeg genoeg gekoeld is, haal je één stuk eruit en leg je het op een licht bebloemd werkblad. Rol het uit tot een cirkel van 12 inch (30 cm).",
-          "Til het deeg steeds op en draai het een kwartslag terwijl je rolt, altijd vanuit het midden naar buiten — zo plakt het niet vast en blijft de dikte gelijk. Vouw het deeg dubbel en leg het voorzichtig in een taartvorm van 9 inch (23 cm).",
-          "Borstel de overtollige bloem eraf en snijd de overhang bij tot 1/2 inch (1.5 cm). Dek af met plastic en zet koud terwijl je de vulling maakt.",
-          "Rol het tweede stuk uit tot een cirkel van 13 inch (30 cm). Snijd het met een deegwieltje of pizzasnijder in reepjes van ongeveer 3/4 inch (2 cm) breed. Leg de reepjes op een met bakpapier beklede plaat, dek af en zet ongeveer 10 minuten in de koelkast.",
+          "Als het deeg genoeg gekoeld is, haal je één stuk eruit en leg je het op een licht bebloemd werkblad. Rol het uit tot een cirkel van 30 cm.",
+          "Til het deeg steeds op en draai het een kwartslag terwijl je rolt, altijd vanuit het midden naar buiten — zo plakt het niet vast en blijft de dikte gelijk. Vouw het deeg dubbel en leg het voorzichtig in een taartvorm van 23 cm.",
+          "Borstel de overtollige bloem eraf en snijd de overhang bij tot 1.5 cm. Dek af met plastic en zet koud terwijl je de vulling maakt.",
+          "Rol het tweede stuk uit tot een cirkel van 30 cm. Snijd het met een deegwieltje of pizzasnijder in reepjes van ongeveer 2 cm breed. Leg de reepjes op een met bakpapier beklede plaat, dek af en zet ongeveer 10 minuten in de koelkast.",
           "Voor de vulling: doe de gesneden aardbeien en rabarber in een grote kom. Meng in een kleine kom de maizena, de suiker en de gemalen kaneel.",
           "Haal de gekoelde bodem eruit. Strooi ongeveer 2 eetlepels van het suikermengsel over de bodem — die laag zuigt sap op en behoedt je voor een natte bodem. Doe de rest van het suikermengsel bij het fruit en schep voorzichtig om. Giet het fruit in de vorm, sprenkel er ongeveer 1 theelepel citroensap over en verdeel er 2 eetlepels boter in klontjes over.",
-          "Haal de reepjes uit de koelkast en leg, beginnend in het midden met de langste en naar buiten toe werkend, de helft ervan op ongeveer 1 inch (2.5 cm) van elkaar over de vulling, met de kortste aan de buitenranden.",
+          "Haal de reepjes uit de koelkast en leg, beginnend in het midden met de langste en naar buiten toe werkend, de helft ervan op ongeveer 2.5 cm van elkaar over de vulling, met de kortste aan de buitenranden.",
           "Vouw dan om en om een reepje tot ongeveer halverwege terug. Leg een nieuw reepje dwars over de reepjes die nog plat liggen. Vouw de teruggeslagen reepjes weer neer, en sla nu de reepjes terug die je de eerste keer liet liggen.",
-          "Leg opnieuw een dwars reepje en ga zo verder met de rest. Snijd de reepjes bij tot een overhang van 1 inch (2.5 cm), stop ze onder de onderste bodem om af te sluiten, en kartel de rand.",
-          "Bestrijk de vlecht met melk en bestrooi met wat suiker. Dek af en zet koud terwijl je de oven op 400 graden F (205 graden C) verwarmt, met het rooster in het onderste derde en een met folie beklede bakplaat erop om het overkoken op te vangen.",
+          "Leg opnieuw een dwars reepje en ga zo verder met de rest. Snijd de reepjes bij tot een overhang van 2.5 cm, stop ze onder de onderste bodem om af te sluiten, en kartel de rand.",
+          "Bestrijk de vlecht met melk en bestrooi met wat suiker. Dek af en zet koud terwijl je de oven op 205 °C verwarmt, met het rooster in het onderste derde en een met folie beklede bakplaat erop om het overkoken op te vangen.",
           "Zet de taart op de hete bakplaat en bak ongeveer 35 minuten, en leg dan een ring folie over de randen als ze te snel bruinen. Bak nog een minuut of 10, tot de korst goudbruin is en het sap borrelt.",
           "Haal hem eruit op een rooster en laat hem enkele uren afkoelen — een hete fruittaart houdt geen punt. Serveer op kamertemperatuur met licht opgeklopte room of vanille-ijs. Restjes houden ongeveer 3 dagen in de koelkast en warmen goed op, en de hele taart laat zich invriezen.",
-          "Goed voor één taart van 9 inch (23 cm)."
+          "Goed voor één taart van 23 cm."
         ]
       },
       "fr": {
@@ -37131,21 +37131,21 @@ window.initialRecipes = [
         "description": "Deux disques de pâte, un pour le fond et un coupé en bandes pour le treillis, avec des fruits mélangés à la fécule et au sucre entre les deux. Le tressage a l'air plus difficile qu'il ne l'est.",
         "instructions": [
           "Pour la pâte : mets la farine, le sel et le sucre dans un robot et mixe jusqu'à ce que ce soit mélangé. Ajoute le beurre et mixe jusqu'à ce que le mélange ressemble à une semoule",
-          "grossière, environ 15 secondes. Verse 1/4 tasse (60 ml) d'eau en un filet lent et régulier par la cheminée jusqu'à ce que la pâte tienne tout juste quand on la pince. Ajoute de l'eau s'il en faut. Ne mixe pas plus de 30 secondes.",
+          "grossière, environ 15 secondes. Verse 60 ml d'eau en un filet lent et régulier par la cheminée jusqu'à ce que la pâte tienne tout juste quand on la pince. Ajoute de l'eau s'il en faut. Ne mixe pas plus de 30 secondes.",
           "Renverse la pâte et rassemble-la en boule. Divise-la en deux, aplatis chaque moitié en disque, couvre de film et réfrigère environ une heure avant usage. Cela refroidit le beurre et détend le gluten, ce qui garde la pâte sablée.",
-          "Une fois la pâte bien froide, sors-en un morceau et pose-le sur un plan légèrement fariné. Étale-le en un cercle de 12 pouces (30 cm).",
-          "Soulève la pâte et fais-lui faire un quart de tour à mesure que tu étales, toujours du centre vers l'extérieur — cela l'empêche de coller et garde l'épaisseur régulière. Plie la pâte en deux et transfère-la délicatement dans un moule de 9 pouces (23 cm).",
-          "Chasse l'excédent de farine et recoupe le débord à 1/2 pouce (1.5 cm). Couvre de film et réfrigère pendant que tu prépares la garniture.",
-          "Étale le second morceau en un cercle de 13 pouces (30 cm). À la roulette ou au coupe-pizza, découpe-le en bandes d'environ 3/4 de pouce (2 cm). Range les bandes sur une plaque chemisée, couvre, et réfrigère environ 10 minutes.",
+          "Une fois la pâte bien froide, sors-en un morceau et pose-le sur un plan légèrement fariné. Étale-le en un cercle de 30 cm.",
+          "Soulève la pâte et fais-lui faire un quart de tour à mesure que tu étales, toujours du centre vers l'extérieur — cela l'empêche de coller et garde l'épaisseur régulière. Plie la pâte en deux et transfère-la délicatement dans un moule de 23 cm.",
+          "Chasse l'excédent de farine et recoupe le débord à 1.5 cm. Couvre de film et réfrigère pendant que tu prépares la garniture.",
+          "Étale le second morceau en un cercle de 30 cm. À la roulette ou au coupe-pizza, découpe-le en bandes d'environ 2 cm (2 cm). Range les bandes sur une plaque chemisée, couvre, et réfrigère environ 10 minutes.",
           "Pour la garniture : mets les fraises et la rhubarbe coupées dans un grand bol. Dans un petit bol, mélange la fécule, le sucre et la cannelle moulue.",
           "Sors le fond de tarte refroidi. Saupoudre environ 2 cuillères à soupe du mélange sucré sur le fond — cette couche absorbe le jus et t'évite un fond détrempé. Ajoute le reste du mélange aux fruits et remue délicatement. Verse les fruits dans le moule, asperge d'environ 1 cuillère à café de jus de citron et parsème de 2 cuillères à soupe de beurre.",
-          "Sors les bandes du frigo et, en commençant au centre avec les plus longues et en allant vers l'extérieur, dispose la moitié d'entre elles à environ 1 pouce (2.5 cm) d'écart sur la garniture, en gardant les plus courtes pour les bords.",
+          "Sors les bandes du frigo et, en commençant au centre avec les plus longues et en allant vers l'extérieur, dispose la moitié d'entre elles à environ 2.5 cm d'écart sur la garniture, en gardant les plus courtes pour les bords.",
           "Replie ensuite une bande sur deux à mi-chemin. Pose une nouvelle bande perpendiculairement sur celles restées à plat. Rabats les bandes repliées, puis replie celles que tu avais laissées la première fois.",
-          "Pose une autre bande perpendiculaire et continue ainsi avec le reste. Recoupe les bandes à 1 pouce (2.5 cm) de débord, glisse-les sous la pâte du fond pour souder, et cannelle le bord.",
-          "Badigeonne le treillis de lait et saupoudre d'un peu de sucre. Couvre et réfrigère pendant que tu chauffes le four à 400 degrés F (205 degrés C), grille dans le tiers inférieur et une plaque chemisée d'aluminium dessus pour recueillir les débordements.",
+          "Pose une autre bande perpendiculaire et continue ainsi avec le reste. Recoupe les bandes à 2.5 cm de débord, glisse-les sous la pâte du fond pour souder, et cannelle le bord.",
+          "Badigeonne le treillis de lait et saupoudre d'un peu de sucre. Couvre et réfrigère pendant que tu chauffes le four à 205 °C, grille dans le tiers inférieur et une plaque chemisée d'aluminium dessus pour recueillir les débordements.",
           "Pose la tarte sur la plaque chaude et cuis environ 35 minutes, puis couvre les bords d'un anneau d'aluminium s'ils dorent trop vite. Cuis encore environ 10 minutes, jusqu'à ce que la croûte soit dorée et que les jus bouillonnent.",
           "Sors-la sur une grille et laisse-la refroidir plusieurs heures — une tarte aux fruits chaude ne tient pas la part. Sers à température ambiante avec de la crème fouettée souple ou de la glace vanille. Les restes se gardent environ 3 jours au frigo et se réchauffent bien, et la tarte entière se congèle.",
-          "Donne une tarte de 9 pouces (23 cm)."
+          "Donne une tarte de 23 cm."
         ]
       }
     },
@@ -37407,7 +37407,7 @@ window.initialRecipes = [
           "Retire du feu et laisse reposer environ 5 minutes.",
           "Ajoute le mélange à la gélatine et remue, puis ajoute l'essence de vanille.",
           "Verse le mélange dans de petits verres posés en biais. C'est très riche, alors de petits verres gardent la portion raisonnable.",
-          "Réfrigère au minimum 4 heures — une nuit vaut mieux. Jamais au congélateur ; une gélatine prise au froid extrême rend de l'eau en décongelant. La purée de mangue maintenant.",
+          "Réfrigère au minimum 4 heures — une nuit vaut mieux. Jamais au congélateur; une gélatine prise au froid extrême rend de l'eau en décongelant. La purée de mangue maintenant.",
           "Ne commence la purée qu'au moment de la déposer sur le pouding bien pris.",
           "Mixe les morceaux ou tranches de mangue au blender ou au mixeur plongeant.",
           "Passe la purée au tamis pour une consistance plus fine.",
@@ -37576,7 +37576,7 @@ window.initialRecipes = [
           "Roll each wheel lightly with the rolling pin so it will fit 2 x 12-hole non-stick fairy cake tins.",
           "Press the pastry into the tins.",
           "Press the circles into the tins and mould them up the sides into thin cases. Chill them until needed. Now the infused syrup.",
-          "Heat the oven to 220C/fan 200C/gas 7. Make a sugar syrup by bringing the sugar, 200ml water, lemon zest and cinnamon stick to the boil. Reduce it until syrupy, let it cool, then take out the cinnamon and lemon. In another large pan, whisk the eggs, egg yolks and cornflour until smooth. Now the custard.",
+          "Heat the oven to 220 °C / fan 200 °C. Make a sugar syrup by bringing the sugar, 200ml water, lemon zest and cinnamon stick to the boil. Reduce it until syrupy, let it cool, then take out the cinnamon and lemon. In another large pan, whisk the eggs, egg yolks and cornflour until smooth. Now the custard.",
           "Heat the milk and vanilla seeds in a separate pan until just below boiling. Pour the hot milk gradually over the eggs and cornflour, then cook on a low heat, whisking continually. Now add the syrup.",
           "Add the cooled sugar syrup to the custard and whisk until it thickens slightly.",
           "Pour the custard into the tins.",
@@ -37598,7 +37598,7 @@ window.initialRecipes = [
           "Rol elk wieltje licht uit met de deegrol zodat het in 2 x 12-gaats antiaanbakvormen past.",
           "Druk het deeg in de vormpjes.",
           "Druk de cirkels in de vormpjes en modelleer ze langs de wand tot dunne bakjes. Zet ze koud tot je ze nodig hebt. Nu de siroop.",
-          "Verwarm de oven op 220C/hetelucht 200C/gas 7. Maak een suikersiroop door de suiker, 200ml water, de citroenzeste en het kaneelstokje aan de kook te brengen. Kook in tot ze stroperig is, laat afkoelen, en haal dan de kaneel en de citroen eruit. Klop in een andere grote pan de eieren, de eierdooiers en de maizena glad. Nu de vla.",
+          "Verwarm de oven op 220 °C / hetelucht 200 °C. Maak een suikersiroop door de suiker, 200ml water, de citroenzeste en het kaneelstokje aan de kook te brengen. Kook in tot ze stroperig is, laat afkoelen, en haal dan de kaneel en de citroen eruit. Klop in een andere grote pan de eieren, de eierdooiers en de maizena glad. Nu de vla.",
           "Verwarm de melk en de vanillezaadjes in een aparte pan tot net onder het kookpunt. Giet de hete melk geleidelijk over de eieren en maizena, en gaar dan op een laag vuur terwijl je onophoudelijk klopt. Nu de siroop erbij.",
           "Voeg de afgekoelde suikersiroop bij de vla en klop tot ze lichtjes indikt.",
           "Giet de vla in de vormpjes.",
@@ -37620,7 +37620,7 @@ window.initialRecipes = [
           "Étale chaque rondelle légèrement au rouleau pour qu'elle entre dans 2 moules antiadhésifs à 12 empreintes.",
           "Presse la pâte dans les moules.",
           "Presse les disques dans les moules et remonte-les sur les parois en coques fines. Réserve au frais jusqu'au besoin. Le sirop infusé maintenant.",
-          "Chauffe le four à 220C/chaleur tournante 200C/gas 7. Fais un sirop en portant à ébullition le sucre, 200ml d'eau, le zeste de citron et le bâton de cannelle. Réduis jusqu'à consistance sirupeuse, laisse refroidir, puis retire la cannelle et le citron. Dans une autre grande casserole, fouette les œufs, les jaunes et la maïzena jusqu'à consistance lisse. La crème maintenant.",
+          "Chauffe le four à 220 °C / chaleur tournante 200 °C. Fais un sirop en portant à ébullition le sucre, 200ml d'eau, le zeste de citron et le bâton de cannelle. Réduis jusqu'à consistance sirupeuse, laisse refroidir, puis retire la cannelle et le citron. Dans une autre grande casserole, fouette les œufs, les jaunes et la maïzena jusqu'à consistance lisse. La crème maintenant.",
           "Chauffe le lait et les graines de vanille dans une autre casserole jusqu'à juste sous l'ébullition. Verse le lait chaud progressivement sur les œufs et la maïzena, puis cuis à feu doux en fouettant sans arrêt. Le sirop maintenant.",
           "Ajoute le sirop refroidi à la crème et fouette jusqu'à léger épaississement.",
           "Verse la crème dans les moules.",
@@ -37820,7 +37820,7 @@ window.initialRecipes = [
           "Then put the saucepan back on the heat and pour the egg mixture into the remaining milk, whisking constantly. Once it thickens, lower the heat and keep whisking about 30 seconds.",
           "Pour the custard into a clean bowl and cover it with plastic wrap laid directly on the surface, so no skin forms. Chill it. Now the cake.",
           "Mix the butter and sugar until light and fluffy. Add the egg yolks one at a time, keeping the whites for the meringue. Add the flour mixed with the baking powder. Stir in the milk and beat until smooth — an electric mixer is fine here.",
-          "Heat the oven to 320°F (160°C). Line a baking sheet with baking paper and spread the batter out into a large, even rectangle. Now the meringue.",
+          "Heat the oven to 160 °C. Line a baking sheet with baking paper and spread the batter out into a large, even rectangle. Now the meringue.",
           "Whisk the egg whites and sugar to glossy, stiff peaks. It should hold its shape; if it still slumps, keep whisking.",
           "Spread the meringue over the cake batter and use a spatula to work light waves into it. Scatter the almonds over the meringue. Bake about 30 minutes, until the meringue and almonds are golden. Now the cream filling.",
           "Whisk the cream to stiff peaks and carefully fold in the vanilla custard. Now the assembly.",
@@ -37842,7 +37842,7 @@ window.initialRecipes = [
           "Zet de pan dan terug op het vuur en giet het eimengsel bij de resterende melk, voortdurend kloppend. Zodra het indikt, zet je het vuur lager en klop je nog ongeveer 30 seconden door.",
           "Giet de vla in een propere kom en dek af met plasticfolie recht op het oppervlak, zodat er geen vel op komt. Zet koud. Nu de cake.",
           "Meng de boter en de suiker tot een licht en luchtig geheel. Voeg de eierdooiers één voor één toe en hou de eiwitten voor de meringue. Voeg de bloem gemengd met het bakpoeder toe. Roer de melk erdoor en klop glad — een elektrische mixer mag hier gerust.",
-          "Verwarm de oven op 320°F (160°C). Bekleed een bakplaat met bakpapier en strijk het beslag uit tot een grote, gelijkmatige rechthoek. Nu de meringue.",
+          "Verwarm de oven op 160 °C. Bekleed een bakplaat met bakpapier en strijk het beslag uit tot een grote, gelijkmatige rechthoek. Nu de meringue.",
           "Klop de eiwitten en de suiker tot glanzende, stijve pieken. Ze moet haar vorm houden; zakt ze nog in, blijf dan kloppen.",
           "Strijk de meringue over het cakebeslag en trek er met een spatel lichte golven in. Strooi de amandelen over de meringue. Bak ongeveer 30 minuten, tot de meringue en de amandelen goudbruin zijn. Nu de roomvulling.",
           "Klop de room tot stijve pieken en spatel er voorzichtig de vanillevla door. Nu het opbouwen.",
@@ -37864,8 +37864,8 @@ window.initialRecipes = [
           "Remets ensuite la casserole sur le feu et verse le mélange aux œufs dans le lait restant, en fouettant sans arrêt. Dès que ça épaissit, baisse le feu et continue de fouetter environ 30 secondes.",
           "Verse la crème dans un bol propre et couvre-la de film posé directement au contact, pour qu'aucune peau ne se forme. Réfrigère. Le gâteau maintenant.",
           "Mélange le beurre et le sucre jusqu'à ce que ce soit léger et mousseux. Ajoute les jaunes un à un, en gardant les blancs pour la meringue. Ajoute la farine mélangée à la levure. Incorpore le lait et bats jusqu'à consistance lisse — un batteur électrique convient très bien.",
-          "Chauffe le four à 320°F (160°C). Chemise une plaque de papier cuisson et étale la pâte en un grand rectangle régulier. La meringue maintenant.",
-          "Monte les blancs avec le sucre en pics fermes et brillants. Elle doit tenir sa forme ; si elle s'affaisse encore, continue de fouetter.",
+          "Chauffe le four à 160 °C. Chemise une plaque de papier cuisson et étale la pâte en un grand rectangle régulier. La meringue maintenant.",
+          "Monte les blancs avec le sucre en pics fermes et brillants. Elle doit tenir sa forme; si elle s'affaisse encore, continue de fouetter.",
           "Étale la meringue sur la pâte et forme de légères vagues à la spatule. Parsème les amandes sur la meringue. Cuis environ 30 minutes, jusqu'à ce que meringue et amandes soient dorées. La crème de garniture maintenant.",
           "Monte la crème en pics fermes et incorpore délicatement la crème vanille. Le montage maintenant.",
           "Une fois le gâteau refroidi, coupe-le en deux. Des ciseaux font l'affaire, ou un couteau sur une planche, en tranchant aussi le papier cuisson.",
@@ -38053,11 +38053,11 @@ window.initialRecipes = [
           "Shape it into a ball and put it into a large greased bowl. Cover with a clean tea towel and leave it somewhere warm to prove for an hour, or until doubled in size.",
           "Meanwhile, for the filling and topping, mix the softened butter in a bowl with half the sugar and 1 tablespoon cinnamon. Use a fork to work the sugar and spice right through the butter.",
           "Mix the remaining sugar and cinnamon in a separate bowl and set it aside.",
-          "When the dough has risen, turn it out onto a floured surface and gently roll it into a 36x24cm/14x9½in rectangle. Spread the cinnamon-sugar-butter evenly over it with a table or palette knife.",
+          "When the dough has risen, turn it out onto a floured surface and gently roll it into a 36x24cm rectangle. Spread the cinnamon-sugar-butter evenly over it with a table or palette knife.",
           "With the longest edge nearest you, roll the dough up into a cylinder and cut it into 12 even slices.",
           "Put each slice into a flattened-out paper cupcake case on a baking tray, or into a greased muffin tin. A muffin tin will give you taller, domed buns.",
           "Cover with a clean tea towel and leave to prove again for 30–45 minutes, or until risen.",
-          "Heat the oven to 200C/180C Fan/Gas 6.",
+          "Heat the oven to 200 °C / 180 °C Fan.",
           "Brush the tops with beaten egg and dust them liberally with the cinnamon sugar. Bake 12 minutes, until dark golden-brown. They are best warm, with coffee."
         ]
       },
@@ -38073,11 +38073,11 @@ window.initialRecipes = [
           "Vorm er een bal van en leg die in een grote ingevette kom. Dek af met een propere theedoek en laat op een warme plek een uur rijzen, of tot het volume verdubbeld is.",
           "Meng ondertussen voor de vulling en de topping de zachte boter in een kom met de helft van de suiker en 1 eetlepel kaneel. Werk de suiker en de specerij met een vork helemaal door de boter.",
           "Meng de resterende suiker en kaneel in een aparte kom en zet die opzij.",
-          "Stort het gerezen deeg op een bebloemd werkblad en rol het voorzichtig uit tot een rechthoek van 36x24cm/14x9½in. Strijk de kaneel-suiker-boter er gelijkmatig over met een tafelmes of paletmes.",
+          "Stort het gerezen deeg op een bebloemd werkblad en rol het voorzichtig uit tot een rechthoek van 36x24cm. Strijk de kaneel-suiker-boter er gelijkmatig over met een tafelmes of paletmes.",
           "Rol het deeg met de langste zijde naar je toe op tot een cilinder en snijd die in 12 gelijke plakken.",
           "Zet elke plak in een platgedrukt papieren cupcakevormpje op een bakplaat, of in een ingevette muffinvorm. Een muffinvorm geeft je hogere broodjes met een bolle kop.",
           "Dek af met een propere theedoek en laat nog 30–45 minuten narijzen, of tot ze gerezen zijn.",
-          "Verwarm de oven op 200C/180C hetelucht/gas 6.",
+          "Verwarm de oven op 200 °C / 180 °C hetelucht.",
           "Bestrijk de bovenkant met losgeklopt ei en bestuif ze rijkelijk met de kaneelsuiker. Bak 12 minuten, tot ze diep goudbruin zijn. Ze zijn het lekkerst lauw, bij koffie."
         ]
       },
@@ -38093,11 +38093,11 @@ window.initialRecipes = [
           "Forme une boule et mets-la dans un grand bol graissé. Couvre d'un torchon propre et laisse pousser une heure au chaud, ou jusqu'à ce qu'elle ait doublé.",
           "Pendant ce temps, pour la garniture, mélange le beurre mou dans un bol avec la moitié du sucre et 1 cuillère à soupe de cannelle. Travaille le sucre et l'épice à la fourchette jusqu'à ce que ce soit parfaitement homogène.",
           "Mélange le reste du sucre et de la cannelle dans un autre bol et réserve.",
-          "Quand la pâte a poussé, renverse-la sur un plan fariné et étale-la doucement en un rectangle de 36x24cm/14x9½in. Étale le beurre cannelle-sucre uniformément dessus au couteau ou à la palette.",
+          "Quand la pâte a poussé, renverse-la sur un plan fariné et étale-la doucement en un rectangle de 36x24cm. Étale le beurre cannelle-sucre uniformément dessus au couteau ou à la palette.",
           "Le plus grand côté vers toi, roule la pâte en cylindre et coupe-la en 12 tranches égales.",
           "Pose chaque tranche dans une caissette en papier aplatie sur une plaque, ou dans un moule à muffins graissé. Le moule à muffins te donnera des brioches plus hautes et bombées.",
           "Couvre d'un torchon propre et laisse pousser encore 30 à 45 minutes, ou jusqu'à ce qu'elles aient levé.",
-          "Chauffe le four à 200C/180C chaleur tournante/gas 6.",
+          "Chauffe le four à 200 °C / 180 °C chaleur tournante.",
           "Badigeonne le dessus d'œuf battu et saupoudre généreusement de sucre à la cannelle. Cuis 12 minutes, jusqu'à ce qu'elles soient bien dorées. Elles sont meilleures tièdes, avec un café."
         ]
       }
@@ -38760,9 +38760,9 @@ window.initialRecipes = [
           "Tip the dough onto a generously floured work surface. Knead for five minutes, adding more flour if you must, until it is smooth and elastic and no longer feels sticky.",
           "Lightly oil a bowl with a little of the vegetable oil. Put the dough in and turn it until it is coated. Cover with cling film and leave somewhere warm for one hour, or until doubled in size.",
           "Lightly grease a baking tray.",
-          "For the filling, knock the dough back to its original size and turn it out onto a lightly floured surface. Roll it into a rectangle 0.5cm/¼in thick. Brush it all over with the melted butter, then scatter over the brown sugar, cinnamon and dried fruit.",
-          "Roll the dough up into a tight cylinder, cut ten 4cm/1½in slices and set them on a lightly greased baking sheet with a little space between them. Cover with a tea towel and leave to rise 30 minutes.",
-          "Heat the oven to 190C/375F/Gas 5.",
+          "For the filling, knock the dough back to its original size and turn it out onto a lightly floured surface. Roll it into a rectangle 0.5cm thick. Brush it all over with the melted butter, then scatter over the brown sugar, cinnamon and dried fruit.",
+          "Roll the dough up into a tight cylinder, cut ten 4cm slices and set them on a lightly greased baking sheet with a little space between them. Cover with a tea towel and leave to rise 30 minutes.",
+          "Heat the oven to 190 °C.",
           "Bake the buns 20-25 minutes, until risen and golden-brown.",
           "Meanwhile, for the glaze, heat the milk and sugar in a saucepan until boiling, then lower the heat and simmer 2-3 minutes.",
           "Take the buns out and brush them with the glaze while they are still hot — that is when it sinks in and sets shiny. Cool them on a wire rack."
@@ -38779,9 +38779,9 @@ window.initialRecipes = [
           "Stort het deeg op een royaal bebloemd werkblad. Kneed vijf minuten, met wat extra bloem als het moet, tot het glad en elastisch is en niet meer plakt.",
           "Vet een kom licht in met wat van de plantaardige olie. Leg het deeg erin en draai het rond tot het bedekt is. Dek af met folie en zet het een uur warm weg, of tot het volume verdubbeld is.",
           "Vet een bakplaat licht in.",
-          "Sla voor de vulling het deeg terug tot zijn oorspronkelijke volume en stort het op een licht bebloemd werkblad. Rol het uit tot een rechthoek van 0.5cm/¼in dik. Bestrijk het helemaal met de gesmolten boter en strooi er dan de bruine suiker, de kaneel en het gedroogd fruit over.",
-          "Rol het deeg strak op tot een cilinder, snijd er tien plakken van 4cm/1½in van en zet ze met wat ruimte ertussen op een licht ingevette bakplaat. Dek af met een theedoek en laat 30 minuten rijzen.",
-          "Verwarm de oven op 190C/375F/gas 5.",
+          "Sla voor de vulling het deeg terug tot zijn oorspronkelijke volume en stort het op een licht bebloemd werkblad. Rol het uit tot een rechthoek van 0.5cm dik. Bestrijk het helemaal met de gesmolten boter en strooi er dan de bruine suiker, de kaneel en het gedroogd fruit over.",
+          "Rol het deeg strak op tot een cilinder, snijd er tien plakken van 4cm van en zet ze met wat ruimte ertussen op een licht ingevette bakplaat. Dek af met een theedoek en laat 30 minuten rijzen.",
+          "Verwarm de oven op 190 °C.",
           "Bak de broodjes 20-25 minuten, tot ze gerezen en goudbruin zijn.",
           "Breng ondertussen voor het glazuur de melk en de suiker in een steelpan aan de kook, zet dan lager en laat 2-3 minuten sudderen.",
           "Haal de broodjes eruit en bestrijk ze met het glazuur terwijl ze nog heet zijn — dan trekt het in en droogt het glanzend op. Laat ze afkoelen op een rooster."
@@ -38798,9 +38798,9 @@ window.initialRecipes = [
           "Renverse la pâte sur un plan généreusement fariné. Pétris cinq minutes, en ajoutant de la farine s'il le faut, jusqu'à ce qu'elle soit lisse, élastique et plus du tout collante.",
           "Huile légèrement un bol avec un peu d'huile végétale. Mets-y la pâte et tourne-la jusqu'à ce qu'elle soit enrobée. Couvre de film et laisse au chaud une heure, ou jusqu'à ce qu'elle ait doublé.",
           "Graisse légèrement une plaque.",
-          "Pour la garniture, dégaze la pâte à son volume d'origine et renverse-la sur un plan légèrement fariné. Étale-la en un rectangle de 0.5cm/¼in d'épaisseur. Badigeonne-la partout de beurre fondu, puis parsème la cassonade, la cannelle et les fruits secs.",
-          "Roule la pâte en un cylindre serré, coupe dix tranches de 4cm/1½in et pose-les sur une plaque légèrement graissée en laissant un peu d'espace. Couvre d'un torchon et laisse lever 30 minutes.",
-          "Chauffe le four à 190C/375F/gas 5.",
+          "Pour la garniture, dégaze la pâte à son volume d'origine et renverse-la sur un plan légèrement fariné. Étale-la en un rectangle de 0.5cm d'épaisseur. Badigeonne-la partout de beurre fondu, puis parsème la cassonade, la cannelle et les fruits secs.",
+          "Roule la pâte en un cylindre serré, coupe dix tranches de 4cm et pose-les sur une plaque légèrement graissée en laissant un peu d'espace. Couvre d'un torchon et laisse lever 30 minutes.",
+          "Chauffe le four à 190 °C.",
           "Cuis les brioches 20 à 25 minutes, jusqu'à ce qu'elles soient levées et bien dorées.",
           "Pendant ce temps, pour le glaçage, porte le lait et le sucre à ébullition dans une casserole, puis baisse le feu et laisse frémir 2 à 3 minutes.",
           "Sors les brioches et badigeonne-les de glaçage tant qu'elles sont chaudes — c'est là qu'il pénètre et sèche brillant. Laisse-les refroidir sur une grille."
@@ -38996,8 +38996,8 @@ window.initialRecipes = [
           "Run the almonds and sugar together in a food processor until the almonds are finely ground — how coarse or fine is up to you.",
           "Stir in the butter, egg, cognac and almond extract, if you are using them. Now the assembly.",
           "Line the bottom of your cake form with baking paper and grease the sides.",
-          "Heat the oven to 350°F (175°C).",
-          "Cut 2/3 of the crust dough into slices and press them into the form. Cover the bottom and bring the dough 2-3 cm (1 inch) up the sides, pressing until it is even.",
+          "Heat the oven to 175 °C.",
+          "Cut 2/3 of the crust dough into slices and press them into the form. Cover the bottom and bring the dough 2-3 cm (2.5 cm) up the sides, pressing until it is even.",
           "Spoon the almond filling on top of the crust and spread it evenly across the form.",
           "Roll out the rest of the dough and cut it into long strips. Lay the strips across the cake in a grid. Don't worry if they break — just press them back together on the cake.",
           "Gently brush the dough with egg wash.",
@@ -39015,8 +39015,8 @@ window.initialRecipes = [
           "Draai de amandelen en de suiker samen in een keukenmachine tot de amandelen fijn gemalen zijn — hoe grof of fijn mag je zelf beslissen.",
           "Roer de boter, het ei, de cognac en het amandelextract erdoor, als je die gebruikt. Nu het opbouwen.",
           "Bekleed de bodem van je vorm met bakpapier en vet de zijkanten in.",
-          "Verwarm de oven op 350°F (175°C).",
-          "Snijd 2/3 van het deeg in plakken en druk ze in de vorm. Bedek de bodem en breng het deeg 2-3 cm (1 inch) langs de wand omhoog, tot het overal even dik is.",
+          "Verwarm de oven op 175 °C.",
+          "Snijd 2/3 van het deeg in plakken en druk ze in de vorm. Bedek de bodem en breng het deeg 2-3 cm (2.5 cm) langs de wand omhoog, tot het overal even dik is.",
           "Schep de amandelvulling op het deeg en strijk ze gelijkmatig uit over de vorm.",
           "Rol de rest van het deeg uit en snijd het in lange reepjes. Leg de reepjes als een ruit over de taart. Geen zorgen als ze breken — druk ze gewoon weer aan elkaar op de taart.",
           "Bestrijk het deeg voorzichtig met eierwas.",
@@ -39034,8 +39034,8 @@ window.initialRecipes = [
           "Mixe les amandes et le sucre ensemble au robot jusqu'à ce que les amandes soient finement moulues — à toi de décider si tu les veux grossières ou fines.",
           "Incorpore le beurre, l'œuf, le cognac et l'extrait d'amande, si tu en mets. Le montage maintenant.",
           "Chemise le fond de ton moule de papier cuisson et graisse les parois.",
-          "Chauffe le four à 350°F (175°C).",
-          "Coupe 2/3 de la pâte en tranches et presse-les dans le moule. Couvre le fond et fais remonter la pâte de 2 à 3 cm (1 pouce) sur les parois, en pressant jusqu'à ce que ce soit régulier.",
+          "Chauffe le four à 175 °C.",
+          "Coupe 2/3 de la pâte en tranches et presse-les dans le moule. Couvre le fond et fais remonter la pâte de 2 à 3 cm (2.5 cm) sur les parois, en pressant jusqu'à ce que ce soit régulier.",
           "Dépose la garniture aux amandes sur la pâte et étale-la uniformément dans le moule.",
           "Étale le reste de la pâte et coupe-la en longues bandes. Dispose les bandes en quadrillage sur le gâteau. Peu importe si elles cassent — represse-les simplement l'une contre l'autre sur le gâteau.",
           "Badigeonne doucement la pâte de dorure.",
@@ -39226,8 +39226,8 @@ window.initialRecipes = [
         "subtitle": "Fruit soaked in stout, and cheddar on the side",
         "description": "A dark Easter loaf from Jamaica, the dried fruit steeped in beer before it goes in and the batter darkened with molasses and browning. Eaten in slices with sharp cheddar, which sounds odd until you try it.",
         "instructions": [
-          "Soak the craisins, raisins and cherries in the 1 cup of beer. Set them aside for 30 minutes.",
-          "Heat the oven to 325 degrees Fahrenheit. Grease an 8x4 loaf pan and set it aside.",
+          "Soak the craisins, raisins and cherries in the 240 ml of beer. Set them aside for 30 minutes.",
+          "Heat the oven to 160 °C. Grease an 8x4 loaf pan and set it aside.",
           "Combine the all-purpose flour, baking powder, ground cinnamon and salt in a large bowl and set it aside.",
           "In another bowl, combine the brown sugar, egg, milk, honey, melted butter, molasses, browning, vanilla extract, and the beer the fruit has been soaking in. Just the beer at this point, not the fruit. Mix it together.",
           "Take 2 tablespoons of flour out of the flour mixture and toss the fruit in it — that coating is what stops the fruit sinking. Set it aside.",
@@ -39241,8 +39241,8 @@ window.initialRecipes = [
         "subtitle": "Fruit geweekt in stout, en cheddar ernaast",
         "description": "Een donker paasbrood uit Jamaica, met het gedroogde fruit dat vooraf in bier weekt en een beslag dat donker gemaakt wordt met melasse en browning. Wordt in plakken gegeten met pittige cheddar, wat vreemd klinkt tot je het probeert.",
         "instructions": [
-          "Week de veenbessen, de rozijnen en de kersen in het 1 kopje bier. Zet ze 30 minuten opzij.",
-          "Verwarm de oven op 325 graden Fahrenheit. Vet een cakevorm van 8x4 in en zet hem opzij.",
+          "Week de veenbessen, de rozijnen en de kersen in het 240 ml bier. Zet ze 30 minuten opzij.",
+          "Verwarm de oven op 160 °C. Vet een cakevorm van 8x4 in en zet hem opzij.",
           "Meng de bloem, het bakpoeder, de gemalen kaneel en het zout in een grote kom en zet die opzij.",
           "Meng in een andere kom de bruine suiker, het ei, de melk, de honing, de gesmolten boter, de melasse, de browning, het vanille-extract en het bier waarin het fruit heeft geweekt. Enkel het bier op dit punt, niet het fruit. Meng alles door elkaar.",
           "Neem 2 eetlepels bloem uit het bloemmengsel en schep het fruit erdoor — dat laagje is net wat het fruit belet te zinken. Zet opzij.",
@@ -39256,8 +39256,8 @@ window.initialRecipes = [
         "subtitle": "Des fruits trempés dans la stout, et du cheddar à côté",
         "description": "Un pain de Pâques sombre venu de Jamaïque, dont les fruits secs macèrent dans la bière avant d'entrer et dont la pâte est noircie à la mélasse et au browning. Il se mange en tranches avec du cheddar bien fort, ce qui surprend jusqu'à ce qu'on essaie.",
         "instructions": [
-          "Fais tremper les canneberges, les raisins secs et les cerises dans la 1 tasse de bière. Réserve 30 minutes.",
-          "Chauffe le four à 325 degrés Fahrenheit. Graisse un moule à cake de 8x4 et réserve-le.",
+          "Fais tremper les canneberges, les raisins secs et les cerises dans la 240 ml de bière. Réserve 30 minutes.",
+          "Chauffe le four à 160 °C. Graisse un moule à cake de 8x4 et réserve-le.",
           "Mélange la farine, la levure, la cannelle moulue et le sel dans un grand bol et réserve.",
           "Dans un autre bol, mélange la cassonade, l'œuf, le lait, le miel, le beurre fondu, la mélasse, le browning, l'extrait de vanille et la bière dans laquelle les fruits ont trempé. Seulement la bière à ce stade, pas les fruits. Mélange bien.",
           "Prélève 2 cuillères à soupe de farine du mélange sec et enrobe-en les fruits — c'est cet enrobage qui les empêche de couler. Réserve.",
@@ -39505,7 +39505,7 @@ window.initialRecipes = [
           "Now press half the pastry into a dish as a base, pressing gently to level it.",
           "Pour the cheese mixture over the top and level it with a spoon.",
           "Cover it with the other half of the pastry.",
-          "Put the dish into an oven preheated to 200 degrees for about 20-25 minutes.",
+          "Put the dish into an oven preheated to 95 °C for about 20-25 minutes.",
           "It is done when the surface is golden and crunchy.",
           "Boil water in a pan and dissolve the sugar in it for 4–5 minutes, or cook until slightly thickened, stirring all the while. Add the lemon juice and rose water and mix.",
           "Pour the syrup evenly over the kunafa the moment it comes out of the oven. Cold syrup onto hot pastry is what keeps it crisp.",
@@ -39524,7 +39524,7 @@ window.initialRecipes = [
           "Druk nu de helft van het deeg als bodem in een schaal, zachtjes aandrukkend om het te effenen.",
           "Giet het kaasmengsel erover en strijk het glad met een lepel.",
           "Bedek het met de andere helft van het deeg.",
-          "Zet de schaal in een voorverwarmde oven op 200 graden gedurende ongeveer 20-25 minuten.",
+          "Zet de schaal in een voorverwarmde oven op 95 °C gedurende ongeveer 20-25 minuten.",
           "Ze is klaar als het oppervlak goudbruin en krokant is.",
           "Kook water in een pan en los er de suiker in op gedurende 4–5 minuten, of kook tot ze lichtjes indikt, al roerend. Voeg het citroensap en het rozenwater toe en meng.",
           "Giet de siroop gelijkmatig over de kunafa zodra ze uit de oven komt. Koude siroop op heet deeg is net wat het krokant houdt.",
@@ -39543,7 +39543,7 @@ window.initialRecipes = [
           "Presse maintenant la moitié de la pâte au fond d'un plat, en tassant doucement pour égaliser.",
           "Verse l'appareil au fromage par-dessus et lisse-le à la cuillère.",
           "Recouvre de l'autre moitié de la pâte.",
-          "Mets le plat au four préchauffé à 200 degrés pendant environ 20 à 25 minutes.",
+          "Mets le plat au four préchauffé à 95 °C pendant environ 20 à 25 minutes.",
           "C'est prêt quand la surface est dorée et croustillante.",
           "Fais bouillir de l'eau dans une casserole et dissous-y le sucre pendant 4 à 5 minutes, ou cuis jusqu'à léger épaississement en remuant sans arrêt. Ajoute le jus de citron et l'eau de rose et mélange.",
           "Verse le sirop uniformément sur le kunafa dès sa sortie du four. C'est le sirop froid sur la pâte chaude qui la garde croustillante.",
@@ -39768,7 +39768,7 @@ window.initialRecipes = [
           "Quand la pâte ne colle plus aux mains, verse le beurre fondu refroidi et pétris encore quelques minutes. Couvre d'un linge et laisse lever au chaud au moins 1 h-1 h 30.",
           "Mélange la confiture aux amandes moulues et mets-la dans une poche à douille ou une seringue à confiture. Divise la pâte en 16 morceaux et façonne-les en beignets. Couvre et laisse lever 30 min.",
           "Remplis une casserole profonde ou une friteuse au tiers d'huile ou de saindoux fondu et chauffe à 180C. Sans thermomètre, jette un petit morceau de pain — l'huile est prête quand il dore en 30 sec environ.",
-          "Plonge les beignets et fais-les frire, en les retournant une fois, environ 1 à 2 min de chaque côté. Un fin anneau pâle doit se former au milieu ; cela veut dire qu'ils ont flotté plutôt que coulé, et que l'huile était bonne. Égoutte-les sur du papier absorbant, puis garnis-les de confiture et saupoudre de sucre glace."
+          "Plonge les beignets et fais-les frire, en les retournant une fois, environ 1 à 2 min de chaque côté. Un fin anneau pâle doit se former au milieu; cela veut dire qu'ils ont flotté plutôt que coulé, et que l'huile était bonne. Égoutte-les sur du papier absorbant, puis garnis-les de confiture et saupoudre de sucre glace."
         ]
       }
     },
@@ -40012,7 +40012,7 @@ window.initialRecipes = [
           "First, make the syrup. Tip the sugar into a large saucepan with 650ml water. Stir over a low heat until the sugar has dissolved, then turn the heat up and bring it to the boil. Lower it to a simmer and cook 15 mins, then squeeze in a few drops of lemon juice and simmer another 5 mins.",
           "Take it off the heat and leave it to cool — this must be cold when the baklava is hot. Meanwhile, melt the butter in a small pan over a low heat for 5 mins, skimming off and discarding any froth that rises.",
           "For the filling, crush all the nuts in a pestle and mortar or blitz them in a food processor. You want mostly finely ground nuts with a few chunky pieces left. Tip them into a bowl, stir through the spices and set aside.",
-          "In a separate bowl, mix the ricotta with the lemon and orange zests and the vanilla. Heat the oven to 180C/160C fan/gas 4. Brush the bottom of a large baking tray, about 35 x 47cm, with some of the melted butter.",
+          "In a separate bowl, mix the ricotta with the lemon and orange zests and the vanilla. Heat the oven to 180 °C / 160 °C fan. Brush the bottom of a large baking tray, about 35 x 47cm, with some of the melted butter.",
           "Work with one sheet of filo at a time, keeping the rest under a damp tea towel so it doesn't dry out. Lay the sheet on a board with a short end facing you. Sprinkle 30g of the nut mixture evenly over the whole sheet, then spoon 1 tbsp of the ricotta across the end closest to you.",
           "Fold that end over to enclose the filling, then lay a long thin skewer next to the folded edge and roll the pastry around it into a long roll. Rolled up, it should be about the thickness of a chipolata.",
           "Holding one end of the skewer, gently scrunch the roll along it like an accordion, then carefully push it off onto the prepared tray. Repeat with the rest of the filo and filling — you should get about 12 rolls. Cut each into four for 48 large baklava, or eight for 96 small.",
@@ -40028,7 +40028,7 @@ window.initialRecipes = [
           "Maak eerst de siroop. Doe de suiker met 650ml water in een grote pan. Roer op een laag vuur tot de suiker opgelost is, zet dan hoger en breng aan de kook. Zet terug op zacht vuur en laat 15 min koken, knijp er dan een paar druppels citroensap in en laat nog 5 min sudderen.",
           "Haal van het vuur en laat afkoelen — deze moet koud zijn wanneer de baklava heet is. Smelt ondertussen de boter in een pannetje op een laag vuur gedurende 5 min, en schep het schuim dat bovenkomt eraf.",
           "Verpulver voor de vulling alle noten in een vijzel of draai ze in een keukenmachine. Je wil vooral fijngemalen noten met een paar grovere stukjes ertussen. Doe ze in een kom, roer de specerijen erdoor en zet opzij.",
-          "Meng in een aparte kom de ricotta met de citroen- en sinaasappelzeste en de vanille. Verwarm de oven op 180C/160C hetelucht/gas 4. Bestrijk de bodem van een grote bakplaat, ongeveer 35 x 47cm, met wat van de gesmolten boter.",
+          "Meng in een aparte kom de ricotta met de citroen- en sinaasappelzeste en de vanille. Verwarm de oven op 180 °C / 160 °C hetelucht. Bestrijk de bodem van een grote bakplaat, ongeveer 35 x 47cm, met wat van de gesmolten boter.",
           "Werk met één vel filodeeg tegelijk en hou de rest onder een vochtige theedoek zodat het niet uitdroogt. Leg het vel op een plank met een korte zijde naar je toe. Strooi 30g van het notenmengsel gelijkmatig over het hele vel en lepel dan 1 el ricotta over de rand die het dichtst bij je ligt.",
           "Vouw die rand over de vulling, leg dan een lange dunne spies tegen de gevouwen rand en rol het deeg eromheen tot een lange rol. Opgerold zou hij ongeveer zo dik moeten zijn als een chipolata.",
           "Hou één uiteinde van de spies vast en frommel de rol er als een harmonica langs op, schuif hem er dan voorzichtig af op de voorbereide plaat. Herhaal met de rest van het deeg en de vulling — je zou ongeveer 12 rollen moeten hebben. Snijd elke rol in vieren voor 48 grote baklava, of in achten voor 96 kleine.",
@@ -40044,7 +40044,7 @@ window.initialRecipes = [
           "D'abord, le sirop. Verse le sucre dans une grande casserole avec 650ml d'eau. Remue à feu doux jusqu'à dissolution du sucre, puis monte le feu et porte à ébullition. Baisse à frémissement et cuis 15 min, puis presse quelques gouttes de jus de citron et laisse frémir encore 5 min.",
           "Retire du feu et laisse refroidir — il doit être froid quand le baklava sera chaud. Pendant ce temps, fais fondre le beurre dans une petite casserole à feu doux 5 min, en écumant la mousse qui remonte.",
           "Pour la garniture, écrase toutes les noix au mortier ou mixe-les au robot. Tu veux surtout des noix finement moulues avec quelques morceaux plus gros. Verse-les dans un bol, mélange les épices et réserve.",
-          "Dans un autre bol, mélange la ricotta avec les zestes de citron et d'orange et la vanille. Chauffe le four à 180C/160C chaleur tournante/gas 4. Badigeonne le fond d'une grande plaque, environ 35 x 47cm, d'un peu de beurre fondu.",
+          "Dans un autre bol, mélange la ricotta avec les zestes de citron et d'orange et la vanille. Chauffe le four à 180 °C / 160 °C chaleur tournante. Badigeonne le fond d'une grande plaque, environ 35 x 47cm, d'un peu de beurre fondu.",
           "Travaille une feuille de filo à la fois, en gardant les autres sous un torchon humide pour qu'elles ne sèchent pas. Pose la feuille sur une planche, un petit côté face à toi. Répartis 30g du mélange de noix uniformément sur toute la feuille, puis dépose 1 c. à soupe de ricotta le long du bord le plus proche.",
           "Replie ce bord sur la garniture, pose une longue broche fine contre le pli et roule la pâte autour en un long rouleau. Une fois roulé, il doit avoir à peu près l'épaisseur d'une chipolata.",
           "En tenant un bout de la broche, froisse doucement le rouleau en accordéon le long de celle-ci, puis fais-le glisser sur la plaque préparée. Recommence avec le reste de filo et de garniture — tu devrais obtenir environ 12 rouleaux. Coupe chacun en quatre pour 48 grands baklavas, ou en huit pour 96 petits.",
@@ -40260,14 +40260,14 @@ window.initialRecipes = [
         "subtitle": "Barely stirred, so it stays marbled",
         "description": "Blackberry purée folded once or twice into cream and yoghurt — no more, or you lose the marbling that gives a fool its name. The hazelnut biscuits are a separate job and keep five days.",
         "instructions": [
-          "For the biscuits, heat the oven to 200C/180C (fan)/Gas 6 and line two large baking trays with baking parchment. Scatter the nuts over a tray and roast 6-8 minutes, or until golden-brown. Watch them — they go from golden to burnt in under a minute. Tip them onto a board and leave to cool.",
+          "For the biscuits, heat the oven to 200 °C / 180 °C (fan) and line two large baking trays with baking parchment. Scatter the nuts over a tray and roast 6-8 minutes, or until golden-brown. Watch them — they go from golden to burnt in under a minute. Tip them onto a board and leave to cool.",
           "Put the butter and sugar in a large bowl and beat with a wooden spoon until light and creamy. Roughly chop the cooled nuts and add them to the creamed butter and sugar with the lemon zest, flour and baking powder. Stir well until it comes together into a ball — you may need your hands.",
           "Divide the dough into 24 even pieces and roll them into small balls. Set them on the prepared trays, well spaced, because they spread.",
-          "Press the biscuits flat to around 1cm/½in thick. Bake them one tray at a time for 12 minutes, or until very pale golden-brown. Leave them to cool on the trays. They will be very soft out of the oven and crisp as they cool.",
+          "Press the biscuits flat to around 1cm thick. Bake them one tray at a time for 12 minutes, or until very pale golden-brown. Leave them to cool on the trays. They will be very soft out of the oven and crisp as they cool.",
           "Store them in an airtight tin and eat within five days.",
           "For the fool, rinse the blackberries in a colander to wash off any dust. Put them in a non-stick saucepan and sprinkle over the caster sugar.",
           "Stir in the lemon juice and heat gently for two minutes, until the blackberries begin to soften and release their juices. Take out 12 blackberries and keep them for decoration, then carry on with the rest.",
-          "Simmer the blackberries very gently for 15 minutes, stirring regularly, until very soft and squidgy. Take them off the heat and press the berries and juice through a sieve over a bowl, using the bottom of a ladle to get as much purée through as you can. Leave the purée to cool and throw away the seeds. You should have around 325ml/11fl oz.",
+          "Simmer the blackberries very gently for 15 minutes, stirring regularly, until very soft and squidgy. Take them off the heat and press the berries and juice through a sieve over a bowl, using the bottom of a ladle to get as much purée through as you can. Leave the purée to cool and throw away the seeds. You should have around 325ml.",
           "Put the cream and yoghurt in a large bowl and whip with an electric whisk until soft peaks form when you lift the whisk out. The acidity of the fruit will thicken it further, so stop short.",
           "When the purée is completely cold, taste it and add more sugar if it needs it. Pour it into the bowl with the whipped cream and yoghurt and stir just once or twice, very lightly.",
           "Spoon the fool into individual wide glass dishes, or one large bowl. It should look properly marbled, so resist stirring it smooth. Scatter a few tiny mint leaves on top and decorate with the blackberries you kept back. A little sugar over if you like, and the hazelnut biscuits alongside."
@@ -40278,14 +40278,14 @@ window.initialRecipes = [
         "subtitle": "Amper geroerd, zodat ze gemarmerd blijft",
         "description": "Bramenpuree één of twee keer door room en yoghurt geschept — niet meer, of je verliest net de marmering waar een fool zijn naam aan dankt. De hazelnootkoekjes zijn een apart werkje en houden vijf dagen.",
         "instructions": [
-          "Verwarm voor de koekjes de oven op 200C/180C (hetelucht)/gas 6 en bekleed twee grote bakplaten met bakpapier. Strooi de noten over een plaat en rooster ze 6-8 minuten, of tot ze goudbruin zijn. Hou ze in de gaten — ze gaan in minder dan een minuut van goudbruin naar verbrand. Stort ze op een plank en laat ze afkoelen.",
+          "Verwarm voor de koekjes de oven op 200 °C / 180 °C (hetelucht) en bekleed twee grote bakplaten met bakpapier. Strooi de noten over een plaat en rooster ze 6-8 minuten, of tot ze goudbruin zijn. Hou ze in de gaten — ze gaan in minder dan een minuut van goudbruin naar verbrand. Stort ze op een plank en laat ze afkoelen.",
           "Doe de boter en de suiker in een grote kom en klop met een houten lepel tot een licht en romig geheel. Hak de afgekoelde noten grof en doe ze bij de geklopte boter en suiker, samen met de citroenzeste, de bloem en het bakpoeder. Roer goed tot het samenkomt tot een bal — misschien heb je je handen nodig.",
           "Verdeel het deeg in 24 gelijke stukken en rol er balletjes van. Zet ze goed uit elkaar op de voorbereide platen, want ze lopen uit.",
-          "Druk de koekjes plat tot ongeveer 1cm/½in dik. Bak ze één plaat per keer gedurende 12 minuten, of tot ze heel bleek goudbruin zijn. Laat ze op de platen afkoelen. Ze zijn heel zacht uit de oven en worden krokant terwijl ze afkoelen.",
+          "Druk de koekjes plat tot ongeveer 1cm dik. Bak ze één plaat per keer gedurende 12 minuten, of tot ze heel bleek goudbruin zijn. Laat ze op de platen afkoelen. Ze zijn heel zacht uit de oven en worden krokant terwijl ze afkoelen.",
           "Bewaar ze in een luchtdichte doos en eet ze binnen vijf dagen op.",
           "Spoel voor de fool de bramen in een vergiet om het stof eraf te wassen. Doe ze in een antiaanbakpan en strooi er de fijne suiker over.",
           "Roer het citroensap erdoor en verwarm twee minuten zachtjes, tot de bramen beginnen te verzachten en hun sap loslaten. Haal er 12 bramen uit en hou die voor de versiering, en ga dan met de rest verder.",
-          "Laat de bramen 15 minuten heel zachtjes sudderen, regelmatig roerend, tot ze heel zacht en papperig zijn. Haal ze van het vuur en druk de vruchten en het sap door een zeef boven een kom, met de bolle kant van een pollepel om er zoveel mogelijk puree door te krijgen. Laat de puree afkoelen en gooi de pitjes weg. Je zou ongeveer 325ml/11fl oz moeten hebben.",
+          "Laat de bramen 15 minuten heel zachtjes sudderen, regelmatig roerend, tot ze heel zacht en papperig zijn. Haal ze van het vuur en druk de vruchten en het sap door een zeef boven een kom, met de bolle kant van een pollepel om er zoveel mogelijk puree door te krijgen. Laat de puree afkoelen en gooi de pitjes weg. Je zou ongeveer 325ml moeten hebben.",
           "Doe de room en de yoghurt in een grote kom en klop met een elektrische garde tot er zachte pieken staan als je de garde optilt. Het zuur van het fruit dikt het nog verder in, dus stop op tijd.",
           "Proef de puree als ze volledig koud is en voeg meer suiker toe als het nodig is. Giet ze in de kom met de opgeklopte room en yoghurt en roer maar één of twee keer, heel licht.",
           "Schep de fool in aparte brede glazen schaaltjes, of in één grote kom. Ze hoort duidelijk gemarmerd te zijn, dus roer ze niet glad. Strooi er een paar kleine muntblaadjes over en versier met de bramen die je hebt achtergehouden. Wat suiker erover als je wil, en de hazelnootkoekjes ernaast."
@@ -40296,14 +40296,14 @@ window.initialRecipes = [
         "subtitle": "À peine mélangée, pour qu'elle reste marbrée",
         "description": "De la purée de mûres incorporée une ou deux fois à de la crème et du yaourt — pas plus, sinon tu perds le marbré qui fait tout le charme d'un fool. Les biscuits aux noisettes sont un travail à part et se gardent cinq jours.",
         "instructions": [
-          "Pour les biscuits, chauffe le four à 200C/180C (chaleur tournante)/gas 6 et chemise deux grandes plaques de papier cuisson. Répartis les noisettes sur une plaque et fais-les griller 6 à 8 minutes, jusqu'à ce qu'elles soient dorées. Surveille-les — elles passent de dorées à brûlées en moins d'une minute. Verse-les sur une planche et laisse refroidir.",
+          "Pour les biscuits, chauffe le four à 200 °C / 180 °C (chaleur tournante) et chemise deux grandes plaques de papier cuisson. Répartis les noisettes sur une plaque et fais-les griller 6 à 8 minutes, jusqu'à ce qu'elles soient dorées. Surveille-les — elles passent de dorées à brûlées en moins d'une minute. Verse-les sur une planche et laisse refroidir.",
           "Mets le beurre et le sucre dans un grand bol et bats à la cuillère en bois jusqu'à ce que ce soit léger et crémeux. Concasse grossièrement les noisettes refroidies et ajoute-les au mélange avec le zeste de citron, la farine et la levure. Mélange bien jusqu'à former une boule — il te faudra peut-être les mains.",
           "Divise la pâte en 24 morceaux égaux et roule-les en petites boules. Pose-les sur les plaques préparées, bien espacées, car elles s'étalent.",
-          "Aplatis les biscuits à environ 1cm/½in d'épaisseur. Cuis-les une plaque à la fois pendant 12 minutes, ou jusqu'à ce qu'ils soient à peine dorés. Laisse-les refroidir sur les plaques. Ils sont très mous à la sortie du four et croustillent en refroidissant.",
+          "Aplatis les biscuits à environ 1cm d'épaisseur. Cuis-les une plaque à la fois pendant 12 minutes, ou jusqu'à ce qu'ils soient à peine dorés. Laisse-les refroidir sur les plaques. Ils sont très mous à la sortie du four et croustillent en refroidissant.",
           "Range-les dans une boîte hermétique et mange-les dans les cinq jours.",
           "Pour le fool, rince les mûres dans une passoire pour ôter la poussière. Mets-les dans une casserole antiadhésive et saupoudre de sucre en poudre.",
           "Ajoute le jus de citron et chauffe doucement deux minutes, jusqu'à ce que les mûres commencent à s'attendrir et à rendre leur jus. Retire 12 mûres et garde-les pour le décor, puis poursuis avec le reste.",
-          "Laisse frémir les mûres très doucement 15 minutes, en remuant régulièrement, jusqu'à ce qu'elles soient très molles. Retire du feu et passe les fruits et le jus au tamis au-dessus d'un bol, en t'aidant du dos d'une louche pour en extraire le maximum de purée. Laisse la purée refroidir et jette les pépins. Tu devrais en avoir environ 325ml/11fl oz.",
+          "Laisse frémir les mûres très doucement 15 minutes, en remuant régulièrement, jusqu'à ce qu'elles soient très molles. Retire du feu et passe les fruits et le jus au tamis au-dessus d'un bol, en t'aidant du dos d'une louche pour en extraire le maximum de purée. Laisse la purée refroidir et jette les pépins. Tu devrais en avoir environ 325ml.",
           "Mets la crème et le yaourt dans un grand bol et fouette au batteur électrique jusqu'à ce que des pics souples se forment quand tu retires le fouet. L'acidité des fruits épaissira encore, alors arrête-toi avant.",
           "Quand la purée est complètement froide, goûte-la et ajoute du sucre s'il en faut. Verse-la dans le bol avec la crème fouettée et le yaourt et mélange une ou deux fois seulement, très légèrement.",
           "Répartis le fool dans des coupes en verre larges, ou dans un grand saladier. Il doit paraître nettement marbré, alors résiste à l'envie de le lisser. Parsème de quelques petites feuilles de menthe et décore des mûres réservées. Un peu de sucre dessus si tu veux, et les biscuits aux noisettes à côté."
@@ -40493,7 +40493,7 @@ window.initialRecipes = [
         "subtitle": "Uruguay's meringue-crusted cake of peaches and dulce de leche",
         "description": "Four thin layers of sponge, brushed with peach syrup and filled alternately with cream and peaches and with dulce de leche, then patted all over with crushed meringue. Assemble it cold and serve it at once.",
         "instructions": [
-          "For the sponge cake, heat the oven to 180 degrees Celsius and prepare one or two 20cm/8 inch cake pans, lining the bottoms with parchment. Separate the eggs. Use a bigger bowl for the yolks, and if you have a glass or metal bowl, use that for the whites.",
+          "For the sponge cake, heat the oven to 180 degrees Celsius and prepare one or two 20cm cake pans, lining the bottoms with parchment. Separate the eggs. Use a bigger bowl for the yolks, and if you have a glass or metal bowl, use that for the whites.",
           "Make sure that bowl is free of any fat or grease and that your beaters are properly clean — a trace of fat and the whites will never rise. Beat the whites on medium speed with a pinch of salt until soft peaks form, then set them aside. Without washing the beaters, beat the yolks with the sugar until the colour is much paler and the texture creamy.",
           "This usually takes several minutes.",
           "Gently pour one third of the whites onto the yolk mixture and sift the flour and cornstarch over the top. Don't skip the sifting. Fold everything together with a spatula, trying to get the flour and whites in without knocking out the volume.",
@@ -40511,7 +40511,7 @@ window.initialRecipes = [
         "subtitle": "Uruguays taart met meringuekorst, perziken en dulce de leche",
         "description": "Vier dunne lagen biscuit, bestreken met perziksiroop en afwisselend gevuld met room en perziken en met dulce de leche, en dan helemaal bedekt met verkruimelde meringue. Bouw hem koud op en dien meteen op.",
         "instructions": [
-          "Verwarm voor het biscuit de oven op 180 graden Celsius en maak één of twee bakvormen van 20cm/8 inch klaar, met bakpapier op de bodem. Scheid de eieren. Gebruik een grotere kom voor de dooiers, en als je een glazen of metalen kom hebt, neem die voor de eiwitten.",
+          "Verwarm voor het biscuit de oven op 180 graden Celsius en maak één of twee bakvormen van 20cm klaar, met bakpapier op de bodem. Scheid de eieren. Gebruik een grotere kom voor de dooiers, en als je een glazen of metalen kom hebt, neem die voor de eiwitten.",
           "Zorg dat die kom volledig vetvrij is en dat je gardes goed schoon zijn — een spoortje vet en de eiwitten komen nooit op. Klop de eiwitten op middelhoge snelheid met een snuifje zout tot er zachte pieken staan en zet ze opzij. Klop, zonder de gardes te wassen, de dooiers met de suiker tot de kleur veel bleker is en de structuur romig.",
           "Dat duurt meestal enkele minuten.",
           "Giet voorzichtig een derde van de eiwitten op het dooiermengsel en zeef de bloem en de maizena erover. Sla het zeven niet over. Spatel alles voorzichtig door elkaar en probeer de bloem en de eiwitten erdoor te krijgen zonder het volume eruit te slaan.",
@@ -40529,12 +40529,12 @@ window.initialRecipes = [
         "subtitle": "Le gâteau uruguayen à croûte de meringue, pêches et dulce de leche",
         "description": "Quatre fines couches de génoise, imbibées de sirop de pêche et fourrées alternativement de crème et de pêches puis de dulce de leche, et enfin recouvertes de meringue écrasée. Monte-le froid et sers-le aussitôt.",
         "instructions": [
-          "Pour la génoise, chauffe le four à 180 degrés Celsius et prépare un ou deux moules de 20cm/8 pouces, fond chemisé de papier cuisson. Sépare les œufs. Prends un grand bol pour les jaunes, et si tu as un bol en verre ou en métal, garde-le pour les blancs.",
+          "Pour la génoise, chauffe le four à 180 degrés Celsius et prépare un ou deux moules de 20cm/20 cm, fond chemisé de papier cuisson. Sépare les œufs. Prends un grand bol pour les jaunes, et si tu as un bol en verre ou en métal, garde-le pour les blancs.",
           "Assure-toi que ce bol est parfaitement dégraissé et que tes fouets sont bien propres — une trace de gras et les blancs ne monteront jamais. Bats les blancs à vitesse moyenne avec une pincée de sel jusqu'à obtenir des pics souples, puis réserve. Sans laver les fouets, bats les jaunes avec le sucre jusqu'à ce que la couleur pâlisse nettement et que la texture devienne crémeuse.",
           "Cela prend généralement plusieurs minutes.",
           "Verse doucement un tiers des blancs sur les jaunes et tamise la farine et la fécule dessus. Ne saute pas le tamisage. Mélange délicatement à la spatule, en cherchant à incorporer la farine et les blancs sans perdre de volume.",
           "Ajoute les deux tiers de blancs restants et incorpore délicatement. Ne mélange pas trop. Verse la pâte dans les moules préparés et enfourne immédiatement — une pâte qui attend retombe vite. Cuis 35 minutes pour un moule, ou 25 minutes pour deux.",
-          "Laisse tiédir un peu avant de démouler doucement. Si tu la fais la veille, emballe-la dans du film ; froide, elle se coupe bien plus facilement.",
+          "Laisse tiédir un peu avant de démouler doucement. Si tu la fais la veille, emballe-la dans du film; froide, elle se coupe bien plus facilement.",
           "Pour la meringue, bats le blanc jusqu'à obtenir des pics souples, ajoute une pincée de sel et continue à pleine vitesse en versant le sucre. Bats encore au moins trois minutes, jusqu'à ce que ce soit brillant et lustré. Dresse de petites étoiles ou d'autres formes sur une plaque chemisée. Sèche-les environ 45min à 100 degrés Celsius au four. Garde-les en boîte hermétique jusqu'à utilisation.",
           "Pour la garniture, monte la crème entière, l'extrait de vanille et le sucre en pics fermes, et coupe les pêches en fines tranches. Coupe le gâteau en quatre couches, bien plus facile une fois les couches froides.",
           "Imbibe une couche d'un peu du jus de pêche restant, puis dresse un fin cordon de crème fouettée sur le pourtour et dispose les tranches de pêche au centre. Sur la deuxième couche, étale seulement le dulce de leche. Répète le jus de pêche, la crème et les pêches pour la troisième et dernière couche.",
@@ -40727,11 +40727,11 @@ window.initialRecipes = [
         "description": "Saskatoons look like blueberries and taste closer to almond. The pastry recipe makes five discs — two for this pie, three for the freezer, which is the sort of arrangement that makes a second pie easy.",
         "instructions": [
           "To make the pastry, put the flour and salt in a large bowl and mix well. Add the cubes of butter and shortening and rub them in — hands are best, though a pastry blender works — just until it looks like coarse oatmeal with some pea-sized bits left.",
-          "Break the egg into a 2-cup measure and beat it with a fork. Beat in the vinegar and just enough ice-cold water to bring it up to the 1-cup mark. Stir this into the flour mixture, only until the dough clings together. Hands again, or a wooden spoon. Try not to overmix.",
+          "Break the egg into a 480 ml measure and beat it with a fork. Beat in the vinegar and just enough ice-cold water to bring it up to the 240 ml mark. Stir this into the flour mixture, only until the dough clings together. Hands again, or a wooden spoon. Try not to overmix.",
           "On a lightly floured surface, gather the dough into a ball and divide it into 5 even portions. Shape each into a disc and wrap it tightly in plastic. Chill 2 of the discs for 1 hour. Freeze the other 3 in a resealable bag for another day — the pastry keeps up to 2 months.",
-          "Heat the oven to 350°F, with the rack in the lower third. Line a baking sheet with foil to catch the drips.",
-          "On a lightly floured surface, roll out 1 disc into a 12-inch circle, or thereabouts. Lay it into a 9-inch pie plate with the pastry overhanging the edges.",
-          "For the filling, put the saskatoon berries in a large bowl and stir in the 1/2 cup sugar and the cornstarch until well combined. Pour the berries into the pie. Dot with the butter. On a lightly floured surface, roll the second disc into another 12-inch circle for the top.",
+          "Heat the oven to 180 °C, with the rack in the lower third. Line a baking sheet with foil to catch the drips.",
+          "On a lightly floured surface, roll out 1 disc into a 30 cm circle, or thereabouts. Lay it into a 23 cm pie plate with the pastry overhanging the edges.",
+          "For the filling, put the saskatoon berries in a large bowl and stir in the 65 g sugar and the cornstarch until well combined. Pour the berries into the pie. Dot with the butter. On a lightly floured surface, roll the second disc into another 30 cm circle for the top.",
           "Use a ruler to guide you and cut the pastry into 6 wide, long strips, so the edges stay straight. Keep the 2 end pieces in case you need to patch. Wide strips are nice, but cut them thinner if you prefer that look.",
           "Weave the strips over and under, making sure they meet the edges of the bottom crust. Fold the edges of the bottom crust over, tucking the lattice ends in. That seals the juices in and looks properly rustic.",
           "If you would rather it looked neat, trim the overhang and crimp the edge with a fork. Brush the top with the egg wash and sprinkle with the remaining Tbsp sugar. Set the pie on the prepared baking sheet and bake about 90 – 100 minutes, until golden brown and bubbling. Take it out onto a wire rack to cool.",
@@ -40744,11 +40744,11 @@ window.initialRecipes = [
         "description": "Saskatoons lijken op bosbessen en smaken dichter bij amandel. Het deegrecept geeft vijf schijven — twee voor deze taart, drie voor de diepvries, precies het soort regeling dat een tweede taart makkelijk maakt.",
         "instructions": [
           "Doe voor het deeg de bloem en het zout in een grote kom en meng goed. Voeg de blokjes boter en bakvet toe en wrijf ze erdoor — met de handen gaat het het best, al werkt een deegmenger ook — net tot het op grove havervlokken lijkt met hier en daar stukjes ter grootte van een erwt.",
-          "Breek het ei in een maatbeker van 2 kopjes en klop het los met een vork. Klop de azijn erdoor en net genoeg ijskoud water om tot het streepje van 1 kopje te komen. Roer dit door het bloemmengsel, enkel tot het deeg samenhangt. Weer met de handen, of met een houten lepel. Probeer niet te veel te mengen.",
+          "Breek het ei in een maatbeker van 480 ml en klop het los met een vork. Klop de azijn erdoor en net genoeg ijskoud water om tot het streepje van 240 ml te komen. Roer dit door het bloemmengsel, enkel tot het deeg samenhangt. Weer met de handen, of met een houten lepel. Probeer niet te veel te mengen.",
           "Breng het deeg op een licht bebloemd werkblad samen tot een bal en verdeel het in 5 gelijke stukken. Vorm er schijven van en wikkel ze strak in plastic. Zet 2 schijven 1 uur koud. Vries de andere 3 in in een hersluitbare zak voor een andere keer — het deeg houdt tot 2 maanden.",
-          "Verwarm de oven op 350°F, met het rooster in het onderste derde. Bekleed een bakplaat met folie om het druipen op te vangen.",
-          "Rol op een licht bebloemd werkblad 1 schijf uit tot een cirkel van 12 inch, of daaromtrent. Leg hem in een taartvorm van 9 inch, met het deeg over de rand hangend.",
-          "Doe voor de vulling de saskatoonbessen in een grote kom en roer er het 1/2 kopje suiker en de maizena door tot alles goed gemengd is. Giet de bessen in de taart. Verdeel er de boter in klontjes over. Rol op een licht bebloemd werkblad de tweede schijf uit tot nog een cirkel van 12 inch voor het deksel.",
+          "Verwarm de oven op 180 °C, met het rooster in het onderste derde. Bekleed een bakplaat met folie om het druipen op te vangen.",
+          "Rol op een licht bebloemd werkblad 1 schijf uit tot een cirkel van 30 cm, of daaromtrent. Leg hem in een taartvorm van 23 cm, met het deeg over de rand hangend.",
+          "Doe voor de vulling de saskatoonbessen in een grote kom en roer er het 65 g suiker en de maizena door tot alles goed gemengd is. Giet de bessen in de taart. Verdeel er de boter in klontjes over. Rol op een licht bebloemd werkblad de tweede schijf uit tot nog een cirkel van 30 cm voor het deksel.",
           "Gebruik een lat als geleider en snijd het deeg in 6 brede, lange reepjes, zodat de randen recht blijven. Hou de 2 eindstukken bij voor het geval je moet lappen. Brede reepjes zijn mooi, maar snijd ze dunner als je dat liever ziet.",
           "Vlecht de reepjes over en onder elkaar en zorg dat ze aansluiten op de rand van de bodem. Vouw de rand van de bodem eroverheen en stop de uiteinden van de vlecht eronder. Dat sluit het sap op en ziet er lekker rustiek uit.",
           "Wil je het liever netjes, snijd dan de overhang bij en kartel de rand met een vork. Bestrijk de bovenkant met de eierwas en bestrooi met de resterende eetlepel suiker. Zet de taart op de voorbereide bakplaat en bak ongeveer 90 – 100 minuten, tot ze goudbruin is en borrelt. Haal ze eruit op een rooster om af te koelen.",
@@ -40761,11 +40761,11 @@ window.initialRecipes = [
         "description": "L'amélanche ressemble à la myrtille et goûte plutôt l'amande. La recette de pâte donne cinq disques — deux pour cette tarte, trois pour le congélateur, exactement le genre d'arrangement qui rend la deuxième tarte facile.",
         "instructions": [
           "Pour la pâte, mets la farine et le sel dans un grand bol et mélange bien. Ajoute les cubes de beurre et de shortening et sable-les — à la main c'est mieux, même si un coupe-pâte fait l'affaire — juste jusqu'à ce que ça ressemble à des flocons d'avoine grossiers avec quelques morceaux de la taille d'un pois.",
-          "Casse l'œuf dans un verre doseur de 2 tasses et bats-le à la fourchette. Incorpore le vinaigre et juste assez d'eau glacée pour atteindre la marque de 1 tasse. Verse cela dans la farine et remue seulement jusqu'à ce que la pâte tienne ensemble. Encore les mains, ou une cuillère en bois. Évite de trop travailler.",
+          "Casse l'œuf dans un verre doseur de 480 ml et bats-le à la fourchette. Incorpore le vinaigre et juste assez d'eau glacée pour atteindre la marque de 240 ml. Verse cela dans la farine et remue seulement jusqu'à ce que la pâte tienne ensemble. Encore les mains, ou une cuillère en bois. Évite de trop travailler.",
           "Sur un plan légèrement fariné, rassemble la pâte en boule et divise-la en 5 portions égales. Façonne chacune en disque et emballe-la serrée dans du film. Réfrigère 2 disques pendant 1 heure. Congèle les 3 autres dans un sac refermable pour une autre fois — la pâte se garde jusqu'à 2 mois.",
-          "Chauffe le four à 350°F, grille dans le tiers inférieur. Chemise une plaque d'aluminium pour recueillir les coulures.",
-          "Sur un plan légèrement fariné, étale 1 disque en un cercle de 12 pouces, à peu près. Pose-le dans un moule de 9 pouces, la pâte débordant des bords.",
-          "Pour la garniture, mets les amélanches dans un grand bol et mélange-y la 1/2 tasse de sucre et la fécule jusqu'à ce que ce soit bien réparti. Verse les baies dans la tarte. Parsème de beurre. Sur un plan légèrement fariné, étale le second disque en un autre cercle de 12 pouces pour le dessus.",
+          "Chauffe le four à 180 °C, grille dans le tiers inférieur. Chemise une plaque d'aluminium pour recueillir les coulures.",
+          "Sur un plan légèrement fariné, étale 1 disque en un cercle de 30 cm, à peu près. Pose-le dans un moule de 23 cm, la pâte débordant des bords.",
+          "Pour la garniture, mets les amélanches dans un grand bol et mélange-y la 65 g de sucre et la fécule jusqu'à ce que ce soit bien réparti. Verse les baies dans la tarte. Parsème de beurre. Sur un plan légèrement fariné, étale le second disque en un autre cercle de 30 cm pour le dessus.",
           "Sers-toi d'une règle et coupe la pâte en 6 longues bandes larges, pour que les bords restent droits. Garde les 2 chutes des extrémités au cas où il faudrait rapiécer. Les bandes larges sont jolies, mais coupe-les plus fines si tu préfères.",
           "Tresse les bandes en dessus-dessous, en veillant à ce qu'elles rejoignent les bords du fond. Rabats les bords du fond par-dessus, en glissant les extrémités du treillis dessous. Cela emprisonne les jus et donne un air rustique.",
           "Si tu préfères quelque chose de net, recoupe le débord et cannelle le bord à la fourchette. Badigeonne le dessus de dorure et saupoudre de la cuillère à soupe de sucre restante. Pose la tarte sur la plaque préparée et cuis environ 90 à 100 minutes, jusqu'à ce qu'elle soit dorée et bouillonnante. Sors-la sur une grille pour refroidir.",
@@ -40968,14 +40968,14 @@ window.initialRecipes = [
         "subtitle": "Almond tarts dipped hot in orange-blossom syrup",
         "description": "An Algerian tart for Eid: paper-thin pastry cases filled with a sticky almond paste and dipped in syrup the moment they leave the oven. The almonds must be blanched and dried the day before.",
         "instructions": [
-          "Prepare the almonds the day before. Bring 6 cups of water to the boil, take it off the heat and add the almonds. Let them soak about 5 minutes, then drain and slip off the skins. Spread them on baking sheets and dry them at 200 degrees F (95 degrees C) until completely dry and toasted.",
+          "Prepare the almonds the day before. Bring 1440 ml of water to the boil, take it off the heat and add the almonds. Let them soak about 5 minutes, then drain and slip off the skins. Spread them on baking sheets and dry them at 95 °C until completely dry and toasted.",
           "This takes several hours, which is why it has to be done ahead. Be careful not to let them burn — burnt almonds will make the whole filling bitter.",
-          "Put 1 cup sugar and 1 cup water in a saucepan and bring to the boil. Add 1 teaspoon lemon juice, turn the heat right down and let it simmer until syrupy, about 30 to 40 minutes. Stir in the orange blossom water and take it off the heat. Set the syrup aside.",
+          "Put 125 g sugar and 240 ml water in a saucepan and bring to the boil. Add 1 teaspoon lemon juice, turn the heat right down and let it simmer until syrupy, about 30 to 40 minutes. Stir in the orange blossom water and take it off the heat. Set the syrup aside.",
           "Combine the flour and salt in a large mixing bowl. Make a hole in the centre and pour in the oil, egg, 1/2 teaspoon lemon juice and 1 tablespoon orange blossom water. Mix with your fingers until the dough looks like coarse crumbs. Sprinkle in warm water gradually as you mix, until the dough is soft and pliable. Divide it into 4 equal portions, cover with a wet cloth and set aside.",
-          "Grind the almonds finely in a food processor. Measure 3 cups of the ground almonds into a mixing bowl and stir in 1 cup sugar, the baking powder, vanilla powder, lemon zest and 2 tablespoons orange flower water. Mix in three eggs one at a time, stirring constantly, until you have a sticky paste.",
-          "Sprinkle cornstarch on the rolling surface so nothing sticks. Roll each portion of dough very thinly, 1 to 2 millimeters (1/16 inch). Cut it into circles about 10 centimeters (4 inches) across.",
+          "Grind the almonds finely in a food processor. Measure 380 g of the ground almonds into a mixing bowl and stir in 125 g sugar, the baking powder, vanilla powder, lemon zest and 2 tablespoons orange flower water. Mix in three eggs one at a time, stirring constantly, until you have a sticky paste.",
+          "Sprinkle cornstarch on the rolling surface so nothing sticks. Roll each portion of dough very thinly, 1 to 2 millimeters (2 mm). Cut it into circles about 10 centimeters (10 cm) across.",
           "Wipe the surface of each circle lightly with cornstarch and fit it into a tart mould, cornstarch side down so it releases. Press the dough gently onto the sides and base and trim the extra from the rim. Fill each mould three quarters full with the almond filling.",
-          "Bake on the top shelf at 350 degrees F (175 degrees C) for 20 to 25 minutes, until the surface is golden and the pastry firm. Turn them out of the moulds the moment they leave the oven and dip each one in the sugar syrup while it is still hot — that is when it drinks the syrup in. Press a pine nut into the middle of each and set them on a wire rack to drain."
+          "Bake on the top shelf at 175 °C for 20 to 25 minutes, until the surface is golden and the pastry firm. Turn them out of the moulds the moment they leave the oven and dip each one in the sugar syrup while it is still hot — that is when it drinks the syrup in. Press a pine nut into the middle of each and set them on a wire rack to drain."
         ]
       },
       "nl": {
@@ -40983,14 +40983,14 @@ window.initialRecipes = [
         "subtitle": "Amandeltaartjes heet gedoopt in oranjebloesemsiroop",
         "description": "Een Algerijns taartje voor het Suikerfeest: flinterdunne deegbakjes gevuld met een kleverige amandelpasta en gedoopt in siroop op het moment dat ze uit de oven komen. De amandelen moeten een dag vooraf gepeld en gedroogd worden.",
         "instructions": [
-          "Maak de amandelen een dag vooraf klaar. Breng 6 kopjes water aan de kook, haal het van het vuur en doe er de amandelen bij. Laat ze ongeveer 5 minuten weken, giet ze af en wrijf de velletjes eraf. Spreid ze op bakplaten en droog ze op 200 graden F (95 graden C) tot ze volledig droog en geroosterd zijn.",
+          "Maak de amandelen een dag vooraf klaar. Breng 1440 ml water aan de kook, haal het van het vuur en doe er de amandelen bij. Laat ze ongeveer 5 minuten weken, giet ze af en wrijf de velletjes eraf. Spreid ze op bakplaten en droog ze op 95 °C tot ze volledig droog en geroosterd zijn.",
           "Dat duurt enkele uren, en daarom moet het vooraf gebeuren. Zorg dat ze niet verbranden — verbrande amandelen maken de hele vulling bitter.",
-          "Doe 1 kopje suiker en 1 kopje water in een steelpan en breng aan de kook. Voeg 1 theelepel citroensap toe, zet het vuur heel laag en laat sudderen tot ze stroperig is, ongeveer 30 tot 40 minuten. Roer het oranjebloesemwater erdoor en haal van het vuur. Zet de siroop opzij.",
+          "Doe 125 g suiker en 240 ml water in een steelpan en breng aan de kook. Voeg 1 theelepel citroensap toe, zet het vuur heel laag en laat sudderen tot ze stroperig is, ongeveer 30 tot 40 minuten. Roer het oranjebloesemwater erdoor en haal van het vuur. Zet de siroop opzij.",
           "Meng de bloem en het zout in een grote kom. Maak een kuiltje in het midden en giet er de olie, het ei, 1/2 theelepel citroensap en 1 eetlepel oranjebloesemwater in. Meng met je vingers tot het deeg op grove kruimels lijkt. Sprenkel er al mengend geleidelijk warm water bij tot het deeg zacht en soepel is. Verdeel het in 4 gelijke stukken, dek af met een natte doek en zet opzij.",
-          "Maal de amandelen fijn in een keukenmachine. Weeg 3 kopjes gemalen amandelen af in een kom en roer er 1 kopje suiker, het bakpoeder, de vanillepoeder, de citroenzeste en 2 eetlepels oranjebloesemwater door. Meng er drie eieren één voor één door, al roerend, tot je een kleverige pasta hebt.",
-          "Strooi maizena op het werkblad zodat er niets plakt. Rol elk stuk deeg heel dun uit, 1 tot 2 millimeter (1/16 inch). Steek er cirkels van ongeveer 10 centimeter (4 inch) doorsnede uit.",
+          "Maal de amandelen fijn in een keukenmachine. Weeg 380 g gemalen amandelen af in een kom en roer er 125 g suiker, het bakpoeder, de vanillepoeder, de citroenzeste en 2 eetlepels oranjebloesemwater door. Meng er drie eieren één voor één door, al roerend, tot je een kleverige pasta hebt.",
+          "Strooi maizena op het werkblad zodat er niets plakt. Rol elk stuk deeg heel dun uit, 1 tot 2 millimeter (2 mm). Steek er cirkels van ongeveer 10 centimeter (10 cm) doorsnede uit.",
           "Wrijf het oppervlak van elke cirkel licht in met maizena en leg hem in een taartvormpje, met de maizenakant naar beneden zodat hij loskomt. Druk het deeg zachtjes tegen de wand en de bodem en snijd het teveel langs de rand weg. Vul elk vormpje voor drie kwart met de amandelvulling.",
-          "Bak op de bovenste richel op 350 graden F (175 graden C) gedurende 20 tot 25 minuten, tot het oppervlak goudbruin is en het deeg stevig. Haal ze uit de vormpjes zodra ze de oven verlaten en doop elk taartje in de suikersiroop terwijl het nog heet is — dan zuigt het de siroop op. Druk in het midden van elk een pijnboompit en zet ze op een rooster om uit te lekken."
+          "Bak op de bovenste richel op 175 °C gedurende 20 tot 25 minuten, tot het oppervlak goudbruin is en het deeg stevig. Haal ze uit de vormpjes zodra ze de oven verlaten en doop elk taartje in de suikersiroop terwijl het nog heet is — dan zuigt het de siroop op. Druk in het midden van elk een pijnboompit en zet ze op een rooster om uit te lekken."
         ]
       },
       "fr": {
@@ -40998,14 +40998,14 @@ window.initialRecipes = [
         "subtitle": "Des tartelettes aux amandes trempées chaudes dans un sirop à la fleur d'oranger",
         "description": "Une tartelette algérienne pour l'Aïd : des coques de pâte très fines garnies d'une pâte d'amande collante et trempées dans le sirop dès la sortie du four. Les amandes doivent être émondées et séchées la veille.",
         "instructions": [
-          "Prépare les amandes la veille. Porte 6 tasses d'eau à ébullition, retire du feu et ajoute les amandes. Laisse-les tremper environ 5 minutes, puis égoutte et retire les peaux. Étale-les sur des plaques et sèche-les à 200 degrés F (95 degrés C) jusqu'à ce qu'elles soient parfaitement sèches et grillées.",
+          "Prépare les amandes la veille. Porte 1440 ml d'eau à ébullition, retire du feu et ajoute les amandes. Laisse-les tremper environ 5 minutes, puis égoutte et retire les peaux. Étale-les sur des plaques et sèche-les à 95 °C jusqu'à ce qu'elles soient parfaitement sèches et grillées.",
           "Cela prend plusieurs heures, d'où la préparation à l'avance. Veille à ne pas les brûler — des amandes brûlées rendraient toute la garniture amère.",
-          "Mets 1 tasse de sucre et 1 tasse d'eau dans une casserole et porte à ébullition. Ajoute 1 cuillère à café de jus de citron, baisse le feu au minimum et laisse frémir jusqu'à consistance sirupeuse, environ 30 à 40 minutes. Incorpore l'eau de fleur d'oranger et retire du feu. Réserve le sirop.",
+          "Mets 125 g de sucre et 240 ml d'eau dans une casserole et porte à ébullition. Ajoute 1 cuillère à café de jus de citron, baisse le feu au minimum et laisse frémir jusqu'à consistance sirupeuse, environ 30 à 40 minutes. Incorpore l'eau de fleur d'oranger et retire du feu. Réserve le sirop.",
           "Mélange la farine et le sel dans un grand saladier. Creuse un puits au centre et verses-y l'huile, l'œuf, 1/2 cuillère à café de jus de citron et 1 cuillère à soupe d'eau de fleur d'oranger. Mélange du bout des doigts jusqu'à obtenir de grosses miettes. Asperge progressivement d'eau tiède en mélangeant, jusqu'à ce que la pâte soit souple et malléable. Divise-la en 4 portions égales, couvre d'un linge humide et réserve.",
-          "Mixe finement les amandes au robot. Pèse 3 tasses d'amandes moulues dans un saladier et mélange-y 1 tasse de sucre, la levure, la vanille en poudre, le zeste de citron et 2 cuillères à soupe d'eau de fleur d'oranger. Incorpore trois œufs un à un, en remuant sans arrêt, jusqu'à obtenir une pâte collante.",
-          "Saupoudre le plan de travail de fécule pour que rien n'accroche. Étale chaque portion de pâte très finement, 1 à 2 millimètres (1/16 de pouce). Découpe des cercles d'environ 10 centimètres (4 pouces) de diamètre.",
+          "Mixe finement les amandes au robot. Pèse 380 g d'amandes moulues dans un saladier et mélange-y 125 g de sucre, la levure, la vanille en poudre, le zeste de citron et 2 cuillères à soupe d'eau de fleur d'oranger. Incorpore trois œufs un à un, en remuant sans arrêt, jusqu'à obtenir une pâte collante.",
+          "Saupoudre le plan de travail de fécule pour que rien n'accroche. Étale chaque portion de pâte très finement, 1 à 2 millimètres (2 mm). Découpe des cercles d'environ 10 centimètres (10 cm) de diamètre.",
           "Passe légèrement de la fécule sur la surface de chaque cercle et place-le dans un moule à tartelette, côté fécule vers le bas pour qu'il se démoule. Presse la pâte doucement contre les parois et le fond et recoupe l'excédent au bord. Remplis chaque moule aux trois quarts de garniture aux amandes.",
-          "Cuis sur la grille du haut à 350 degrés F (175 degrés C) pendant 20 à 25 minutes, jusqu'à ce que la surface soit dorée et la pâte ferme. Démoule-les dès la sortie du four et trempe chaque tartelette dans le sirop tant qu'elle est chaude — c'est là qu'elle le boit. Enfonce un pignon au centre de chacune et pose-les sur une grille pour égoutter."
+          "Cuis sur la grille du haut à 175 °C pendant 20 à 25 minutes, jusqu'à ce que la surface soit dorée et la pâte ferme. Démoule-les dès la sortie du four et trempe chaque tartelette dans le sirop tant qu'elle est chaude — c'est là qu'elle le boit. Enfonce un pignon au centre de chacune et pose-les sur une grille pour égoutter."
         ]
       }
     },
@@ -41210,7 +41210,7 @@ window.initialRecipes = [
         "subtitle": "Better on the second day, sitting in its sauce",
         "description": "Dates soaked in boiling water and mashed into a treacle batter, baked in seven small tins and drowned in toffee sauce. Made a day or two ahead and left in the sauce, it turns properly sticky.",
         "instructions": [
-          "Stone and chop the dates quite small, put them in a bowl and pour the boiling water over. Leave about 30 mins until cool and well soaked, then mash them a bit with a fork and stir in the vanilla extract. Butter and flour seven mini pudding tins, each about 200ml/7fl oz, and sit them on a baking sheet. Heat the oven to 180C/fan 160C/gas 4.",
+          "Stone and chop the dates quite small, put them in a bowl and pour the boiling water over. Leave about 30 mins until cool and well soaked, then mash them a bit with a fork and stir in the vanilla extract. Butter and flour seven mini pudding tins, each about 200ml, and sit them on a baking sheet. Heat the oven to 180 °C / fan 160 °C.",
           "While the dates soak, make the puddings. Mix the flour and bicarbonate of soda together and beat the eggs in a separate bowl. Beat the butter and sugar together in a large bowl for a few mins until slightly creamy — it will stay grainy from the sugar, which is fine.",
           "Add the eggs a little at a time, beating well between each. Beat in the black treacle, then with a large metal spoon gently fold in one-third of the flour, then half the milk, taking care not to overbeat. Carry on until all the flour and milk is in. Stir the soaked dates into the batter.",
           "It may look a little curdled at this point, and it should be like a soft, thick batter. Spoon it evenly between the tins and bake 20-25 mins, until risen and firm.",
@@ -41218,7 +41218,7 @@ window.initialRecipes = [
           "Stir in the black treacle, turn the heat up slightly and let it bubble 2-3 mins until it is a rich toffee colour, stirring now and then so it doesn't catch. Take the pan off the heat and beat in the rest of the cream.",
           "Take the puddings out of the oven. Leave them in the tins a few mins, then loosen them well from the sides with a small palette knife before turning them out. You can serve them now with the sauce poured over, but they will be far stickier if you leave them a day or two sitting in it.",
           "To do that, pour about half the sauce into one or two ovenproof serving dishes. Sit the upturned puddings on the sauce, then pour the rest over them. Cover with a loose tent of foil so the sauce isn't smudged. No need to chill them.",
-          "When you want them, heat the oven to 180C/fan 160C/gas 4 and warm them through, still covered, for 15-20 mins or until the sauce is bubbling. Serve on their own, or with cream or custard."
+          "When you want them, heat the oven to 180 °C / fan 160 °C and warm them through, still covered, for 15-20 mins or until the sauce is bubbling. Serve on their own, or with cream or custard."
         ]
       },
       "nl": {
@@ -41226,7 +41226,7 @@ window.initialRecipes = [
         "subtitle": "Beter op de tweede dag, in zijn saus",
         "description": "Dadels geweekt in kokend water en door een beslag met melasse geprakt, gebakken in zeven kleine vormpjes en verdronken in toffeesaus. Een dag of twee vooraf gemaakt en in de saus laten staan, wordt hij pas echt kleverig.",
         "instructions": [
-          "Ontpit de dadels en snijd ze vrij klein, doe ze in een kom en giet er het kokende water over. Laat ongeveer 30 min staan tot ze afgekoeld en goed doorweekt zijn, prak ze dan wat met een vork en roer het vanille-extract erdoor. Beboter en bebloem zeven kleine puddingvormpjes van elk ongeveer 200ml/7fl oz en zet ze op een bakplaat. Verwarm de oven op 180C/hetelucht 160C/gas 4.",
+          "Ontpit de dadels en snijd ze vrij klein, doe ze in een kom en giet er het kokende water over. Laat ongeveer 30 min staan tot ze afgekoeld en goed doorweekt zijn, prak ze dan wat met een vork en roer het vanille-extract erdoor. Beboter en bebloem zeven kleine puddingvormpjes van elk ongeveer 200ml en zet ze op een bakplaat. Verwarm de oven op 180 °C / hetelucht 160 °C.",
           "Maak de puddingen terwijl de dadels weken. Meng de bloem en het bicarbonaat en klop de eieren los in een aparte kom. Klop de boter en de suiker een paar minuten samen in een grote kom tot ze wat romig zijn — het blijft korrelig van de suiker, en dat hoort.",
           "Voeg de eieren beetje bij beetje toe en klop er telkens goed door. Klop de melasse erdoor en spatel dan met een grote metalen lepel voorzichtig een derde van de bloem erdoor, dan de helft van de melk, zonder te veel te kloppen. Ga zo door tot alle bloem en melk erin zit. Roer de geweekte dadels door het beslag.",
           "Het kan er op dit punt wat geschift uitzien, en het hoort een zacht, dik beslag te zijn. Verdeel het gelijkmatig over de vormpjes en bak 20-25 min, tot ze gerezen en stevig zijn.",
@@ -41234,7 +41234,7 @@ window.initialRecipes = [
           "Roer de melasse erdoor, zet het vuur iets hoger en laat het 2-3 min borrelen tot het een diepe toffeekleur heeft, af en toe roerend zodat het niet aanbrandt. Haal de pan van het vuur en klop de rest van de room erdoor.",
           "Haal de puddingen uit de oven. Laat ze een paar minuten in de vormpjes, maak ze dan goed los langs de wand met een klein paletmes voor je ze stort. Je kan ze nu opdienen met de saus eroverheen, maar ze worden veel kleveriger als je ze een dag of twee in de saus laat staan.",
           "Giet daarvoor ongeveer de helft van de saus in één of twee ovenvaste schalen. Zet de omgekeerde puddingen op de saus en giet de rest eroverheen. Dek af met een losse tent van folie zodat de saus niet uitveegt. Koelen hoeft niet.",
-          "Verwarm de oven, als je ze wil, op 180C/hetelucht 160C/gas 4 en warm ze afgedekt door gedurende 15-20 min, of tot de saus borrelt. Dien ze op zoals ze zijn, of met room of vla."
+          "Verwarm de oven, als je ze wil, op 180 °C / hetelucht 160 °C en warm ze afgedekt door gedurende 15-20 min, of tot de saus borrelt. Dien ze op zoals ze zijn, of met room of vla."
         ]
       },
       "fr": {
@@ -41242,7 +41242,7 @@ window.initialRecipes = [
         "subtitle": "Meilleur le lendemain, baignant dans sa sauce",
         "description": "Des dattes trempées dans l'eau bouillante et écrasées dans une pâte à la mélasse, cuites en sept petits moules et noyées de sauce caramel. Préparé un ou deux jours à l'avance et laissé dans sa sauce, il devient vraiment collant.",
         "instructions": [
-          "Dénoyaute et coupe les dattes assez petit, mets-les dans un bol et verse l'eau bouillante dessus. Laisse environ 30 min jusqu'à ce qu'elles soient froides et bien gonflées, puis écrase-les un peu à la fourchette et incorpore l'extrait de vanille. Beurre et farine sept petits moules à pouding d'environ 200ml/7fl oz chacun et pose-les sur une plaque. Chauffe le four à 180C/chaleur tournante 160C/gas 4.",
+          "Dénoyaute et coupe les dattes assez petit, mets-les dans un bol et verse l'eau bouillante dessus. Laisse environ 30 min jusqu'à ce qu'elles soient froides et bien gonflées, puis écrase-les un peu à la fourchette et incorpore l'extrait de vanille. Beurre et farine sept petits moules à pouding d'environ 200ml chacun et pose-les sur une plaque. Chauffe le four à 180 °C / chaleur tournante 160 °C.",
           "Pendant que les dattes trempent, prépare les poudings. Mélange la farine et le bicarbonate et bats les œufs dans un autre bol. Bats le beurre et le sucre ensemble dans un grand bol quelques minutes jusqu'à ce que ce soit un peu crémeux — cela restera granuleux à cause du sucre, c'est normal.",
           "Ajoute les œufs petit à petit, en battant bien entre chaque. Incorpore la mélasse noire, puis, à la grande cuillère en métal, incorpore délicatement un tiers de la farine, puis la moitié du lait, sans trop travailler. Continue jusqu'à ce que toute la farine et tout le lait soient dedans. Mélange les dattes gonflées à la pâte.",
           "Elle peut sembler un peu tranchée à ce stade, et doit ressembler à une pâte souple et épaisse. Répartis-la également entre les moules et cuis 20 à 25 min, jusqu'à ce que ce soit levé et ferme.",
@@ -41250,7 +41250,7 @@ window.initialRecipes = [
           "Incorpore la mélasse noire, monte légèrement le feu et laisse bouillonner 2 à 3 min jusqu'à obtenir une belle couleur caramel, en remuant de temps en temps pour que ça n'attache pas. Retire du feu et incorpore le reste de la crème.",
           "Sors les poudings du four. Laisse-les quelques minutes dans les moules, puis décolle-les bien des parois à la petite palette avant de les démouler. Tu peux les servir tout de suite avec la sauce dessus, mais ils seront bien plus collants si tu les laisses un jour ou deux dedans.",
           "Pour cela, verse environ la moitié de la sauce dans un ou deux plats allant au four. Pose les poudings démoulés sur la sauce, puis verse le reste dessus. Couvre d'une tente d'aluminium lâche pour ne pas étaler la sauce. Inutile de réfrigérer.",
-          "Au moment de servir, chauffe le four à 180C/chaleur tournante 160C/gas 4 et réchauffe-les, toujours couverts, 15 à 20 min ou jusqu'à ce que la sauce bouillonne. Sers-les tels quels, ou avec de la crème ou une crème anglaise."
+          "Au moment de servir, chauffe le four à 180 °C / chaleur tournante 160 °C et réchauffe-les, toujours couverts, 15 à 20 min ou jusqu'à ce que la sauce bouillonne. Sers-les tels quels, ou avec de la crème ou une crème anglaise."
         ]
       }
     },
@@ -41444,7 +41444,7 @@ window.initialRecipes = [
         "description": "The chocolate scattered over the hot base melts into a thin waterproof layer, which is what keeps the pastry crisp under the custard. Assemble it the day you eat it.",
         "instructions": [
           "First the tart shell.",
-          "Heat the oven to 175°C / 347 °F.",
+          "Heat the oven to 175 °C.",
           "Grate the marzipan and mix it thoroughly with the sugar. Whip the mixture with the butter until fluffy.",
           "Whip the eggs into the mixture, then fold in the flour. Line a springform pan of about 24 cm with baking paper and grease it with butter. Roll the dough out and transfer it to the pan. Bake in the middle of the oven about 25 minutes. Make the vanilla custard while it bakes.",
           "Finely chop the chocolate and scatter it over the shell as soon as it comes out. Spread it with a spatula as it melts — that thin sealed layer is what keeps the base crisp. Let the shell cool to room temperature. Now the vanilla custard.",
@@ -41460,7 +41460,7 @@ window.initialRecipes = [
         "description": "De chocolade die je over de hete bodem strooit, smelt tot een dun waterdicht laagje, en dat is net wat het deeg krokant houdt onder de vla. Bouw ze op de dag zelf op.",
         "instructions": [
           "Eerst de taartbodem.",
-          "Verwarm de oven op 175°C / 347 °F.",
+          "Verwarm de oven op 175 °C.",
           "Rasp de marsepein en meng ze grondig met de suiker. Klop het mengsel met de boter tot het luchtig is.",
           "Klop de eieren door het mengsel en spatel er dan de bloem door. Bekleed een springvorm van ongeveer 24 cm met bakpapier en vet hem in met boter. Rol het deeg uit en leg het in de vorm. Bak ongeveer 25 minuten in het midden van de oven. Maak de vanillevla terwijl hij bakt.",
           "Hak de chocolade fijn en strooi ze over de bodem zodra hij eruit komt. Strijk ze uit met een spatel terwijl ze smelt — dat dunne afgesloten laagje is net wat de bodem krokant houdt. Laat de bodem afkoelen tot kamertemperatuur. Nu de vanillevla.",
@@ -41476,7 +41476,7 @@ window.initialRecipes = [
         "description": "Le chocolat parsemé sur le fond chaud fond en une fine couche imperméable, et c'est elle qui garde la pâte croustillante sous la crème. Monte-la le jour même.",
         "instructions": [
           "D'abord le fond de tarte.",
-          "Chauffe le four à 175°C / 347 °F.",
+          "Chauffe le four à 175 °C.",
           "Râpe la pâte d'amande et mélange-la soigneusement au sucre. Fouette le mélange avec le beurre jusqu'à ce qu'il soit mousseux.",
           "Incorpore les œufs au fouet, puis mélange la farine à la spatule. Chemise un moule à charnière d'environ 24 cm de papier cuisson et beurre-le. Étale la pâte et transfère-la dans le moule. Cuis au milieu du four environ 25 minutes. Prépare la crème vanille pendant la cuisson.",
           "Hache finement le chocolat et parsème-le sur le fond dès sa sortie. Étale-le à la spatule à mesure qu'il fond — cette fine couche scellée est ce qui garde le fond croustillant. Laisse refroidir le fond à température ambiante. La crème vanille maintenant.",
@@ -41861,7 +41861,7 @@ window.initialRecipes = [
         "subtitle": "Pink and yellow checks under a marzipan coat",
         "description": "Two sponges baked separately, one plain almond and one pink, cut into batons and glued into a checkerboard with apricot jam before the marzipan goes round. The quantities make two cakes.",
         "instructions": [
-          "Heat the oven to 180C/160C fan/gas 4 and line the base and sides of a 20cm square tin with baking parchment — the easiest way is to cross 2 x 20cm-long strips over the base. For the almond sponge, put the butter, sugar, flour, ground almonds, baking powder, eggs, vanilla and almond extract in a large bowl.",
+          "Heat the oven to 180 °C / 160 °C fan and line the base and sides of a 20cm square tin with baking parchment — the easiest way is to cross 2 x 20cm-long strips over the base. For the almond sponge, put the butter, sugar, flour, ground almonds, baking powder, eggs, vanilla and almond extract in a large bowl.",
           "Beat with an electric whisk until the mix comes together smoothly. Scrape it into the tin, spreading it right into the corners, and bake 25-30 mins — a skewer should come out clean. Cool in the tin 10 mins, then turn onto a wire rack to finish cooling while you make the second sponge.",
           "For the pink sponge, line the tin as before. Mix all the ingredients as before, but leave out the almond extract, and fold in some pink food colouring instead. Scrape it into the tin and bake as before. Cool.",
           "To assemble, heat the jam in a small pan until runny, then sieve it. Barely trim two opposite edges from the almond sponge, then trim a third edge properly. Roughly measure the height of the sponge, then cut from the well-trimmed edge, using a ruler to help you cut 4 slices each the same width as the sponge is high. Nibble the leftovers. Repeat with the pink cake.",
@@ -41877,7 +41877,7 @@ window.initialRecipes = [
         "subtitle": "Roze en gele blokjes onder een marsepeinen jas",
         "description": "Twee cakes apart gebakken, één met amandel en één roze, in staven gesneden en met abrikozenjam tot een dambord gelijmd voor de marsepein eromheen gaat. De hoeveelheden geven twee cakes.",
         "instructions": [
-          "Verwarm de oven op 180C/160C hetelucht/gas 4 en bekleed de bodem en de wanden van een vierkante vorm van 20cm met bakpapier — het makkelijkst is 2 stroken van 20cm lang kruislings over de bodem. Doe voor de amandelcake de boter, de suiker, de bloem, de amandelpoeder, het bakpoeder, de eieren, de vanille en het amandelextract in een grote kom.",
+          "Verwarm de oven op 180 °C / 160 °C hetelucht en bekleed de bodem en de wanden van een vierkante vorm van 20cm met bakpapier — het makkelijkst is 2 stroken van 20cm lang kruislings over de bodem. Doe voor de amandelcake de boter, de suiker, de bloem, de amandelpoeder, het bakpoeder, de eieren, de vanille en het amandelextract in een grote kom.",
           "Klop met een elektrische mixer tot alles glad samenkomt. Schraap het in de vorm, tot in de hoeken uitgestreken, en bak 25-30 min — een prikker hoort er schoon uit te komen. Laat 10 min afkoelen in de vorm en stort dan op een rooster om verder af te koelen terwijl je de tweede cake maakt.",
           "Bekleed voor de roze cake de vorm zoals daarnet. Meng alle ingrediënten op dezelfde manier, maar laat het amandelextract weg en spatel er in de plaats wat roze kleurstof door. Schraap het in de vorm en bak zoals daarnet. Laat afkoelen.",
           "Verwarm voor het opbouwen de jam in een pannetje tot ze vloeibaar is en zeef ze. Snijd twee tegenoverliggende randen van de amandelcake heel licht bij en snijd een derde rand goed recht. Meet ruwweg de hoogte van de cake en snijd dan vanaf de rechte rand, met een lat als hulp, 4 plakken die elk even breed zijn als de cake hoog is. De restjes mag je opeten. Herhaal met de roze cake.",
@@ -41893,7 +41893,7 @@ window.initialRecipes = [
         "subtitle": "Des damiers roses et jaunes sous un manteau de pâte d'amande",
         "description": "Deux gâteaux cuits séparément, l'un à l'amande et l'autre rose, coupés en bâtonnets et collés en damier à la confiture d'abricot avant que la pâte d'amande n'en fasse le tour. Les quantités donnent deux gâteaux.",
         "instructions": [
-          "Chauffe le four à 180C/160C chaleur tournante/gas 4 et chemise le fond et les parois d'un moule carré de 20cm de papier cuisson — le plus simple est de croiser 2 bandes de 20cm de long sur le fond. Pour le gâteau à l'amande, mets le beurre, le sucre, la farine, la poudre d'amandes, la levure, les œufs, la vanille et l'extrait d'amande dans un grand bol.",
+          "Chauffe le four à 180 °C / 160 °C chaleur tournante et chemise le fond et les parois d'un moule carré de 20cm de papier cuisson — le plus simple est de croiser 2 bandes de 20cm de long sur le fond. Pour le gâteau à l'amande, mets le beurre, le sucre, la farine, la poudre d'amandes, la levure, les œufs, la vanille et l'extrait d'amande dans un grand bol.",
           "Bats au batteur électrique jusqu'à ce que le mélange soit lisse. Verse-le dans le moule en l'étalant jusque dans les coins, et cuis 25 à 30 min — une brochette doit ressortir propre. Laisse refroidir 10 min dans le moule, puis démoule sur une grille pendant que tu prépares le second.",
           "Pour le gâteau rose, chemise le moule comme avant. Mélange tous les ingrédients de la même façon, mais sans l'extrait d'amande, et incorpore plutôt un peu de colorant rose. Verse dans le moule et cuis comme avant. Laisse refroidir.",
           "Pour le montage, chauffe la confiture dans une petite casserole jusqu'à ce qu'elle soit liquide, puis passe-la au tamis. Rogne à peine deux bords opposés du gâteau à l'amande, puis égalise franchement un troisième bord. Mesure grossièrement la hauteur du gâteau, puis coupe depuis le bord égalisé, à la règle, 4 tranches de la même largeur que la hauteur du gâteau. Grignote les chutes. Recommence avec le gâteau rose.",
@@ -42088,10 +42088,10 @@ window.initialRecipes = [
         "subtitle": "Made in autumn, fed with sherry, eaten at Christmas",
         "description": "A dense fruit cake baked low and slow, then wrapped and kept for months while it matures. The dip in the middle before it goes in is what stops it doming.",
         "instructions": [
-          "Heat the oven to 160C/fan 140C/gas 3. Line the base and sides of a 20 cm round, 7.5 cm deep cake tin. Beat the butter and sugar with an electric hand mixer 1-2 mins until very creamy and pale, scraping down the sides of the bowl halfway through.",
+          "Heat the oven to 160 °C / fan 140 °C. Line the base and sides of a 20 cm round, 7.5 cm deep cake tin. Beat the butter and sugar with an electric hand mixer 1-2 mins until very creamy and pale, scraping down the sides of the bowl halfway through.",
           "Stir in a spoonful of the flour, then add the beaten egg and the rest of the flour alternately, a quarter at a time, beating well each time with a wooden spoon. Stir in the almonds.",
           "Mix in the sherry — the mix will look curdled, and that is fine — then add the peel, cherries, raisins, currants, nuts, lemon zest, spice, rosewater and vanilla. Beat together to mix, then stir in the baking powder.",
-          "Spoon the mixture into the tin and smooth the top, making a slight dip in the centre so it bakes level rather than doming. Bake 30 mins, then lower the temperature to 150C/fan 130C/gas 2 and bake a further 2-2¼ hrs, until a skewer pushed into the middle comes out clean. Leave it to cool in the tin, then take it out and peel off the lining paper.",
+          "Spoon the mixture into the tin and smooth the top, making a slight dip in the centre so it bakes level rather than doming. Bake 30 mins, then lower the temperature to 150 °C / fan 130 °C and bake a further 2-2¼ hrs, until a skewer pushed into the middle comes out clean. Leave it to cool in the tin, then take it out and peel off the lining paper.",
           "When it is completely cold, wrap it well in cling film and foil and store it until you are ready to decorate. It will keep for several months, and only gets better."
         ]
       },
@@ -42100,10 +42100,10 @@ window.initialRecipes = [
         "subtitle": "In de herfst gemaakt, met sherry gevoed, met Kerst gegeten",
         "description": "Een dichte vruchtencake die laag en traag bakt, en dan ingepakt maanden ligt te rijpen. Het kuiltje in het midden voor hij de oven in gaat, is net wat hem plat houdt.",
         "instructions": [
-          "Verwarm de oven op 160C/hetelucht 140C/gas 3. Bekleed de bodem en de wanden van een ronde bakvorm van 20 cm en 7.5 cm diep. Klop de boter en de suiker 1-2 min met een elektrische handmixer tot een heel romig en bleek geheel, en schraap halverwege de kom af.",
+          "Verwarm de oven op 160 °C / hetelucht 140 °C. Bekleed de bodem en de wanden van een ronde bakvorm van 20 cm en 7.5 cm diep. Klop de boter en de suiker 1-2 min met een elektrische handmixer tot een heel romig en bleek geheel, en schraap halverwege de kom af.",
           "Roer er een lepel bloem door, voeg dan afwisselend het losgeklopte ei en de rest van de bloem toe, telkens een kwart, en klop er elke keer goed door met een houten lepel. Roer de amandelen erdoor.",
           "Meng de sherry erdoor — het mengsel ziet er geschift uit, en dat mag — voeg dan de sukade, de kersen, de rozijnen, de krenten, de noten, de citroenzeste, de specerijen, het rozenwater en de vanille toe. Klop alles door elkaar en roer er dan het bakpoeder door.",
-          "Schep het mengsel in de vorm en strijk de bovenkant glad, met een klein kuiltje in het midden zodat hij vlak bakt in plaats van bol te komen. Bak 30 min, zet dan de temperatuur op 150C/hetelucht 130C/gas 2 en bak nog 2-2¼ uur, tot een prikker in het midden er schoon uitkomt. Laat hem in de vorm afkoelen, haal hem er dan uit en trek het bakpapier eraf.",
+          "Schep het mengsel in de vorm en strijk de bovenkant glad, met een klein kuiltje in het midden zodat hij vlak bakt in plaats van bol te komen. Bak 30 min, zet dan de temperatuur op 150 °C / hetelucht 130 °C en bak nog 2-2¼ uur, tot een prikker in het midden er schoon uitkomt. Laat hem in de vorm afkoelen, haal hem er dan uit en trek het bakpapier eraf.",
           "Wikkel hem, als hij volledig koud is, goed in folie en aluminiumfolie en berg hem op tot je hem wil versieren. Hij houdt maanden, en wordt er alleen maar beter op."
         ]
       },
@@ -42112,10 +42112,10 @@ window.initialRecipes = [
         "subtitle": "Fait à l'automne, nourri au xérès, mangé à Noël",
         "description": "Un cake aux fruits dense cuit bas et lentement, puis emballé et gardé des mois pendant qu'il mûrit. Le petit creux au centre avant l'enfournement est ce qui l'empêche de bomber.",
         "instructions": [
-          "Chauffe le four à 160C/chaleur tournante 140C/gas 3. Chemise le fond et les parois d'un moule rond de 20 cm et 7.5 cm de haut. Bats le beurre et le sucre au batteur électrique 1 à 2 min jusqu'à ce que ce soit très crémeux et pâle, en raclant les bords à mi-parcours.",
+          "Chauffe le four à 160 °C / chaleur tournante 140 °C. Chemise le fond et les parois d'un moule rond de 20 cm et 7.5 cm de haut. Bats le beurre et le sucre au batteur électrique 1 à 2 min jusqu'à ce que ce soit très crémeux et pâle, en raclant les bords à mi-parcours.",
           "Incorpore une cuillerée de farine, puis ajoute l'œuf battu et le reste de la farine en alternance, par quart, en battant bien à la cuillère en bois à chaque fois. Incorpore les amandes.",
           "Mélange le xérès — l'appareil paraîtra tranché, c'est normal — puis ajoute les écorces confites, les cerises, les raisins secs, les raisins de Corinthe, les noix, le zeste de citron, les épices, l'eau de rose et la vanille. Bats pour mélanger, puis incorpore la levure.",
-          "Verse la préparation dans le moule et lisse le dessus en creusant légèrement le centre, pour qu'il cuise plat au lieu de bomber. Cuis 30 min, puis baisse à 150C/chaleur tournante 130C/gas 2 et cuis encore 2 h à 2 h ¼, jusqu'à ce qu'une brochette plantée au centre ressorte propre. Laisse refroidir dans le moule, puis démoule et retire le papier.",
+          "Verse la préparation dans le moule et lisse le dessus en creusant légèrement le centre, pour qu'il cuise plat au lieu de bomber. Cuis 30 min, puis baisse à 150 °C / chaleur tournante 130 °C et cuis encore 2 h à 2 h ¼, jusqu'à ce qu'une brochette plantée au centre ressorte propre. Laisse refroidir dans le moule, puis démoule et retire le papier.",
           "Une fois complètement froid, emballe-le soigneusement dans du film et de l'aluminium et range-le jusqu'au moment de le décorer. Il se garde plusieurs mois, et ne fait que s'améliorer."
         ]
       }
@@ -42351,13 +42351,13 @@ window.initialRecipes = [
         "subtitle": "Almond crescents dipped in honey and orange blossom",
         "description": "A North African pastry shaped like a gazelle's horn: a thin case folded round a log of roasted almond paste, baked pale, then dipped in warm honey. Let them get dark and they turn dry.",
         "instructions": [
-          "Heat the oven to 300 degrees F (150 degrees C). Line a baking sheet with parchment and spread the almonds over it.",
+          "Heat the oven to 150 °C. Line a baking sheet with parchment and spread the almonds over it.",
           "Roast in the heated oven until the almonds smell toasted, 20 to 25 minutes.",
-          "Make the pastry while the almonds roast. Combine the flour, 1/2 cup plus 1 tablespoon butter and salt in a bowl and rub together until it looks like breadcrumbs. Add the egg, oil and 1 1/2 tablespoons orange blossom water, and knead it all into a smooth dough.",
+          "Make the pastry while the almonds roast. Combine the flour, 120 ml plus 1 tablespoon butter and salt in a bowl and rub together until it looks like breadcrumbs. Add the egg, oil and 1 1/2 tablespoons orange blossom water, and knead it all into a smooth dough.",
           "Add a little water, 1 teaspoon at a time, if the dough is too dry. Shape it into a ball, wrap it in plastic and let it rest 30 minutes.",
-          "Take the almonds out and let them cool a little, about 5 minutes. Put them in a food processor and grind them finely and evenly. Add 3/4 cup plus 1 tablespoon sugar, the cinnamon, egg and 1 tablespoon orange blossom water, in that order, pulsing after each until the mixture is evenly combined and paste-like.",
+          "Take the almonds out and let them cool a little, about 5 minutes. Put them in a food processor and grind them finely and evenly. Add 95 g plus 1 tablespoon sugar, the cinnamon, egg and 1 tablespoon orange blossom water, in that order, pulsing after each until the mixture is evenly combined and paste-like.",
           "With greased hands, take walnut-sized pieces of the filling and roll them into small logs tapered at the ends. Set them aside.",
-          "Heat the oven to 325 degrees F (165 degrees C). Line a baking sheet with parchment.",
+          "Heat the oven to 165 °C. Line a baking sheet with parchment.",
           "Roll half the pastry out very thinly on a lightly floured surface. Lay one almond log on the edge of the pastry, fold the pastry over it to cover it completely and seal the edges. Mould it with your fingers into a crescent. Cut round the crescent with a pastry cutter and move it to the prepared sheet. Repeat with the rest.",
           "Bake in the heated oven until the horns are lightly golden and cooked through, about 20 minutes. They should not go dark — dark means dry. Let them cool a little, about 3 minutes.",
           "Heat the honey in a small saucepan over low-medium heat. Take it off and stir in 1 tablespoon orange blossom water. Dip the horns in the honey and lay them on a serving plate. Sprinkle with crushed pistachios."
@@ -42368,13 +42368,13 @@ window.initialRecipes = [
         "subtitle": "Amandelhoorntjes gedoopt in honing en oranjebloesem",
         "description": "Een Noord-Afrikaans gebakje in de vorm van een gazellehoorn: een dun deegje gevouwen rond een rolletje geroosterde amandelpasta, bleek gebakken en dan in warme honing gedoopt. Laat je ze donker worden, dan worden ze droog.",
         "instructions": [
-          "Verwarm de oven op 300 graden F (150 graden C). Bekleed een bakplaat met bakpapier en spreid de amandelen erover.",
+          "Verwarm de oven op 150 °C. Bekleed een bakplaat met bakpapier en spreid de amandelen erover.",
           "Rooster in de warme oven tot de amandelen geroosterd ruiken, 20 tot 25 minuten.",
-          "Maak het deeg terwijl de amandelen roosteren. Meng de bloem, de 1/2 kopje plus 1 eetlepel boter en het zout in een kom en wrijf het door elkaar tot het op broodkruimels lijkt. Voeg het ei, de olie en 1 1/2 eetlepel oranjebloesemwater toe en kneed alles tot een glad deeg.",
+          "Maak het deeg terwijl de amandelen roosteren. Meng de bloem, de 120 ml plus 1 eetlepel boter en het zout in een kom en wrijf het door elkaar tot het op broodkruimels lijkt. Voeg het ei, de olie en 1 1/2 eetlepel oranjebloesemwater toe en kneed alles tot een glad deeg.",
           "Voeg een beetje water toe, 1 theelepel per keer, als het deeg te droog is. Vorm er een bal van, wikkel hem in plastic en laat hem 30 minuten rusten.",
-          "Haal de amandelen eruit en laat ze een beetje afkoelen, ongeveer 5 minuten. Doe ze in een keukenmachine en maal ze fijn en gelijkmatig. Voeg 3/4 kopje plus 1 eetlepel suiker, de kaneel, het ei en 1 eetlepel oranjebloesemwater toe, in die volgorde, en pulseer na elke toevoeging tot het mengsel gelijkmatig is en op een pasta lijkt.",
+          "Haal de amandelen eruit en laat ze een beetje afkoelen, ongeveer 5 minuten. Doe ze in een keukenmachine en maal ze fijn en gelijkmatig. Voeg 95 g plus 1 eetlepel suiker, de kaneel, het ei en 1 eetlepel oranjebloesemwater toe, in die volgorde, en pulseer na elke toevoeging tot het mengsel gelijkmatig is en op een pasta lijkt.",
           "Neem met ingevette handen stukjes vulling ter grootte van een walnoot en rol er kleine rolletjes van met dunne uiteinden. Zet ze opzij.",
-          "Verwarm de oven op 325 graden F (165 graden C). Bekleed een bakplaat met bakpapier.",
+          "Verwarm de oven op 165 °C. Bekleed een bakplaat met bakpapier.",
           "Rol de helft van het deeg heel dun uit op een licht bebloemd werkblad. Leg één amandelrolletje op de rand van het deeg, vouw het deeg eroverheen tot het helemaal bedekt is en druk de randen dicht. Modelleer het met je vingers tot een halve maan. Snijd met een deegwieltje rond de halve maan en leg hem op de voorbereide plaat. Herhaal met de rest.",
           "Bak in de warme oven tot de hoorntjes licht goudbruin en gaar zijn, ongeveer 20 minuten. Ze mogen niet donker worden — donker betekent droog. Laat ze een beetje afkoelen, ongeveer 3 minuten.",
           "Verwarm de honing in een pannetje op laag tot middelhoog vuur. Haal hem eraf en roer er 1 eetlepel oranjebloesemwater door. Doop de hoorntjes in de honing en leg ze op een schaal. Bestrooi met gehakte pistaches."
@@ -42385,13 +42385,13 @@ window.initialRecipes = [
         "subtitle": "Des croissants aux amandes trempés dans le miel et la fleur d'oranger",
         "description": "Une pâtisserie nord-africaine en forme de corne de gazelle : une pâte fine repliée autour d'un boudin de pâte d'amande grillée, cuite pâle, puis trempée dans le miel tiède. Laisse-les brunir et elles deviennent sèches.",
         "instructions": [
-          "Chauffe le four à 300 degrés F (150 degrés C). Chemise une plaque de papier cuisson et répartis les amandes dessus.",
+          "Chauffe le four à 150 °C. Chemise une plaque de papier cuisson et répartis les amandes dessus.",
           "Fais griller au four chaud jusqu'à ce que les amandes embaument, 20 à 25 minutes.",
-          "Prépare la pâte pendant que les amandes grillent. Mélange la farine, la 1/2 tasse plus 1 cuillère à soupe de beurre et le sel dans un bol et sable jusqu'à obtenir une texture de chapelure. Ajoute l'œuf, l'huile et 1 1/2 cuillère à soupe d'eau de fleur d'oranger, et pétris le tout en une pâte lisse.",
+          "Prépare la pâte pendant que les amandes grillent. Mélange la farine, la 120 ml plus 1 cuillère à soupe de beurre et le sel dans un bol et sable jusqu'à obtenir une texture de chapelure. Ajoute l'œuf, l'huile et 1 1/2 cuillère à soupe d'eau de fleur d'oranger, et pétris le tout en une pâte lisse.",
           "Ajoute un peu d'eau, 1 cuillère à café à la fois, si la pâte est trop sèche. Forme une boule, emballe-la dans du film et laisse reposer 30 minutes.",
-          "Sors les amandes et laisse-les tiédir un peu, environ 5 minutes. Mets-les au robot et mouds-les finement et régulièrement. Ajoute 3/4 de tasse plus 1 cuillère à soupe de sucre, la cannelle, l'œuf et 1 cuillère à soupe d'eau de fleur d'oranger, dans cet ordre, en pulsant après chaque ajout jusqu'à obtenir un mélange homogène en pâte.",
+          "Sors les amandes et laisse-les tiédir un peu, environ 5 minutes. Mets-les au robot et mouds-les finement et régulièrement. Ajoute 95 g plus 1 cuillère à soupe de sucre, la cannelle, l'œuf et 1 cuillère à soupe d'eau de fleur d'oranger, dans cet ordre, en pulsant après chaque ajout jusqu'à obtenir un mélange homogène en pâte.",
           "Les mains graissées, prélève des portions de garniture de la taille d'une noix et roule-les en petits boudins aux extrémités effilées. Réserve.",
-          "Chauffe le four à 325 degrés F (165 degrés C). Chemise une plaque de papier cuisson.",
+          "Chauffe le four à 165 °C. Chemise une plaque de papier cuisson.",
           "Étale la moitié de la pâte très finement sur un plan légèrement fariné. Pose un boudin d'amande sur le bord de la pâte, replie la pâte dessus pour le couvrir entièrement et soude les bords. Modèle en croissant du bout des doigts. Découpe autour du croissant à la roulette et transfère-le sur la plaque préparée. Recommence avec le reste.",
           "Cuis au four chaud jusqu'à ce que les cornes soient légèrement dorées et cuites à cœur, environ 20 minutes. Elles ne doivent pas foncer — foncé veut dire sec. Laisse-les tiédir un peu, environ 3 minutes.",
           "Chauffe le miel dans une petite casserole à feu doux-moyen. Retire du feu et incorpore 1 cuillère à soupe d'eau de fleur d'oranger. Trempe les cornes dans le miel et pose-les sur un plat. Parsème de pistaches concassées."
@@ -42572,7 +42572,7 @@ window.initialRecipes = [
           "Heat the oven to 325ºF.",
           "Put the cookies in the bowl of a food processor and pulse 30 seconds, until finely ground. You can also crush them by hand in a zip-top bag with the bottom of a heavy skillet. Tip the crumbs into a bowl.",
           "Add the softened butter and stir until combined.",
-          "Transfer the mixture to a 9\" springform pan. With your fingers, press the crumbs evenly over the bottom and up the sides. Bake until firm and fragrant, about 10 minutes, then let it cool.",
+          "Transfer the mixture to a 23 cm springform pan. With your fingers, press the crumbs evenly over the bottom and up the sides. Bake until firm and fragrant, about 10 minutes, then let it cool.",
           "With an electric mixer on medium speed, beat the cream cheese until fluffy, about 3 minutes.",
           "Add the condensed milk and beat until smooth, 1 minute.",
           "Beat in the eggs, vanilla and 3 tbsp dulce de leche until combined, 3 minutes.",
@@ -42593,7 +42593,7 @@ window.initialRecipes = [
           "Verwarm de oven op 325ºF.",
           "Doe de koekjes in de kom van een keukenmachine en pulseer 30 seconden, tot ze fijn gemalen zijn. Je kan ze ook met de hand verkruimelen in een diepvrieszakje met de bodem van een zware pan. Doe de kruimels in een kom.",
           "Voeg de zachte boter toe en roer tot alles gemengd is.",
-          "Doe het mengsel in een springvorm van 9\". Druk de kruimels met je vingers gelijkmatig over de bodem en tegen de wand. Bak tot ze stevig en geurig zijn, ongeveer 10 minuten, en laat afkoelen.",
+          "Doe het mengsel in een springvorm van 23 cm. Druk de kruimels met je vingers gelijkmatig over de bodem en tegen de wand. Bak tot ze stevig en geurig zijn, ongeveer 10 minuten, en laat afkoelen.",
           "Klop de roomkaas met een elektrische mixer op middelhoge snelheid luchtig, ongeveer 3 minuten.",
           "Voeg de gecondenseerde melk toe en klop glad, 1 minuut.",
           "Klop de eieren, de vanille en 3 el dulce de leche erdoor tot alles gemengd is, 3 minuten.",
@@ -42614,11 +42614,11 @@ window.initialRecipes = [
           "Chauffe le four à 325ºF.",
           "Mets les biscuits dans le bol d'un robot et pulse 30 secondes, jusqu'à obtenir une poudre fine. Tu peux aussi les écraser à la main dans un sac à fermeture avec le fond d'une poêle lourde. Verse les miettes dans un bol.",
           "Ajoute le beurre ramolli et mélange.",
-          "Transfère le mélange dans un moule à charnière de 9\". Du bout des doigts, presse les miettes uniformément sur le fond et les parois. Cuis jusqu'à ce que ce soit ferme et parfumé, environ 10 minutes, puis laisse refroidir.",
+          "Transfère le mélange dans un moule à charnière de 23 cm. Du bout des doigts, presse les miettes uniformément sur le fond et les parois. Cuis jusqu'à ce que ce soit ferme et parfumé, environ 10 minutes, puis laisse refroidir.",
           "Au batteur électrique à vitesse moyenne, bats le fromage frais jusqu'à ce qu'il soit mousseux, environ 3 minutes.",
           "Ajoute le lait concentré et bats jusqu'à consistance lisse, 1 minute.",
           "Incorpore les œufs, la vanille et 3 c. à soupe de dulce de leche, 3 minutes.",
-          "Verse l'appareil sur la croûte. Cuis jusqu'à ce que ce soit doré et pris mais encore un peu tremblotant au centre, 45 à 55 minutes. Ce tremblement est juste ; un centre ferme veut dire trop cuit.",
+          "Verse l'appareil sur la croûte. Cuis jusqu'à ce que ce soit doré et pris mais encore un peu tremblotant au centre, 45 à 55 minutes. Ce tremblement est juste; un centre ferme veut dire trop cuit.",
           "Éteins le four et entrouvre la porte.",
           "Laisse le cheesecake dans le four qui refroidit jusqu'à ce qu'il revienne à température ambiante, environ 1 heure. C'est ce refroidissement lent qui empêche le dessus de craquer.",
           "Mets-le au réfrigérateur et laisse-le refroidir complètement, au moins 4 heures.",
@@ -42752,12 +42752,12 @@ window.initialRecipes = [
         "description": "A Scottish fruit cake, lighter than a Christmas cake, with the almonds arranged in rings across the top before it bakes. It wants two days wrapped before you cut it.",
         "instructions": [
           "Put the almonds into a small bowl and pour over boiling water just to cover. Leave 5 mins, then drain in a sieve and leave to dry.",
-          "Heat the oven to 180C/160 C fan/Gas Mark 4. Line a deep loose-based 20cm cake tin with baking parchment.",
+          "Heat the oven to 180 °C / 160 °C fan. Line a deep loose-based 20cm cake tin with baking parchment.",
           "Put the butter in a large bowl and beat well until soft. Add the sugar and beat until light and fluffy. Stir in the orange zest and apricot jam.",
           "Sieve the flour and baking powder together. Add the eggs to the creamed butter and sugar a little at a time, beating well between each addition. If it starts to curdle, stir in a little flour.",
           "Add the remaining flour and the ground almonds and mix well. Mix in the milk, then add the dried fruit and cherries and fold them in gently.",
           "Spoon the mixture into the prepared tin and level it with the back of a spoon. Arrange the whole almonds close together in neat circles over the top. Bake 45 mins.",
-          "Lower the oven to 160C/140 C fan/Gas Mark 3 and cook a further 60–80 minutes. Check the cake after 50 minutes by pushing a wooden or metal skewer into it — when it is done there should be just a few crumbs on it. Check every 10 minutes after that. Don't overcook it; the centre is meant to stay a little soft.",
+          "Lower the oven to 160 °C / 140 °C fan and cook a further 60–80 minutes. Check the cake after 50 minutes by pushing a wooden or metal skewer into it — when it is done there should be just a few crumbs on it. Check every 10 minutes after that. Don't overcook it; the centre is meant to stay a little soft.",
           "When it is done, take the cake briefly out of the oven. Put the milk and sugar into a small pan and heat gently until the sugar dissolves. Brush it over the top and put the cake back in for 2-3 mins. Take it out and let it cool in the tin. When it is quite cold, turn it out, wrap it in foil and leave it at least 2 days before cutting."
         ]
       },
@@ -42767,12 +42767,12 @@ window.initialRecipes = [
         "description": "Een Schotse vruchtencake, lichter dan een kerstcake, met de amandelen in ringen over de bovenkant gelegd voor hij de oven in gaat. Hij wil twee dagen ingepakt liggen voor je hem aansnijdt.",
         "instructions": [
           "Doe de amandelen in een kommetje en giet er kokend water over tot ze net onderstaan. Laat 5 min staan, giet ze dan af in een zeef en laat ze drogen.",
-          "Verwarm de oven op 180C/160 C hetelucht/Gas Mark 4. Bekleed een diepe bakvorm van 20cm met losse bodem met bakpapier.",
+          "Verwarm de oven op 180 °C / 160 °C hetelucht. Bekleed een diepe bakvorm van 20cm met losse bodem met bakpapier.",
           "Doe de boter in een grote kom en klop ze goed zacht. Voeg de suiker toe en klop tot een licht en luchtig geheel. Roer de sinaasappelzeste en de abrikozenjam erdoor.",
           "Zeef de bloem en het bakpoeder samen. Voeg de eieren beetje bij beetje bij de geklopte boter en suiker en klop er telkens goed door. Begint het te schiften, roer er dan wat bloem door.",
           "Voeg de resterende bloem en de amandelpoeder toe en meng goed. Meng de melk erdoor en spatel dan voorzichtig het gedroogde fruit en de kersen erdoor.",
           "Schep het mengsel in de voorbereide vorm en strijk het glad met de bolle kant van een lepel. Leg de hele amandelen dicht bij elkaar in nette cirkels op de bovenkant. Bak 45 min.",
-          "Zet de oven op 160C/140 C hetelucht/Gas Mark 3 en bak nog 60–80 minuten. Controleer de cake na 50 minuten door er een houten of metalen prikker in te steken — als hij klaar is, horen er maar een paar kruimels aan te hangen. Kijk daarna elke 10 minuten. Bak hem niet te lang; het midden hoort een beetje zacht te blijven.",
+          "Zet de oven op 160 °C / 140 °C hetelucht en bak nog 60–80 minuten. Controleer de cake na 50 minuten door er een houten of metalen prikker in te steken — als hij klaar is, horen er maar een paar kruimels aan te hangen. Kijk daarna elke 10 minuten. Bak hem niet te lang; het midden hoort een beetje zacht te blijven.",
           "Haal de cake als hij klaar is even uit de oven. Doe de melk en de suiker in een pannetje en verwarm zachtjes tot de suiker opgelost is. Bestrijk er de bovenkant mee en zet de cake nog 2-3 min terug in de oven. Haal hem eruit en laat hem in de vorm afkoelen. Stort hem als hij helemaal koud is, wikkel hem in folie en laat hem minstens 2 dagen liggen voor je hem aansnijdt."
         ]
       },
@@ -42782,12 +42782,12 @@ window.initialRecipes = [
         "description": "Un cake aux fruits écossais, plus léger qu'un gâteau de Noël, avec les amandes disposées en anneaux sur le dessus avant cuisson. Il veut deux jours emballé avant qu'on le coupe.",
         "instructions": [
           "Mets les amandes dans un petit bol et couvre-les tout juste d'eau bouillante. Laisse 5 min, puis égoutte dans une passoire et laisse sécher.",
-          "Chauffe le four à 180C/160 C chaleur tournante/Gas Mark 4. Chemise un moule profond de 20cm à fond amovible de papier cuisson.",
+          "Chauffe le four à 180 °C / 160 °C chaleur tournante. Chemise un moule profond de 20cm à fond amovible de papier cuisson.",
           "Mets le beurre dans un grand bol et bats-le bien jusqu'à ce qu'il soit souple. Ajoute le sucre et bats jusqu'à ce que ce soit léger et mousseux. Incorpore le zeste d'orange et la confiture d'abricot.",
           "Tamise la farine et la levure ensemble. Ajoute les œufs au mélange beurre-sucre petit à petit, en battant bien entre chaque. Si ça commence à trancher, incorpore un peu de farine.",
           "Ajoute le reste de farine et la poudre d'amandes et mélange bien. Incorpore le lait, puis ajoute les fruits secs et les cerises et mélange délicatement.",
           "Verse la préparation dans le moule préparé et lisse au dos d'une cuillère. Dispose les amandes entières serrées en cercles réguliers sur le dessus. Cuis 45 min.",
-          "Baisse le four à 160C/140 C chaleur tournante/Gas Mark 3 et cuis encore 60 à 80 minutes. Vérifie le cake après 50 minutes en y plantant une brochette en bois ou en métal — quand il est cuit, il ne doit rester que quelques miettes dessus. Vérifie toutes les 10 minutes ensuite. Ne le cuis pas trop ; le centre doit rester un peu moelleux.",
+          "Baisse le four à 160 °C / 140 °C chaleur tournante et cuis encore 60 à 80 minutes. Vérifie le cake après 50 minutes en y plantant une brochette en bois ou en métal — quand il est cuit, il ne doit rester que quelques miettes dessus. Vérifie toutes les 10 minutes ensuite. Ne le cuis pas trop; le centre doit rester un peu moelleux.",
           "Quand il est cuit, sors brièvement le cake du four. Mets le lait et le sucre dans une petite casserole et chauffe doucement jusqu'à dissolution du sucre. Badigeonne-en le dessus et remets le cake au four 2 à 3 min. Sors-le et laisse-le refroidir dans le moule. Une fois bien froid, démoule-le, emballe-le dans de l'aluminium et laisse-le au moins 2 jours avant de le couper."
         ]
       }
@@ -42988,18 +42988,18 @@ window.initialRecipes = [
         "description": "Not treacle at all but golden syrup, thickened with breadcrumbs and sharpened with lemon. The lattice is egg-washed before it goes on, never after, or the wash runs into the filling.",
         "instructions": [
           "First make the shortcrust pastry: measure the flour into a large bowl and rub in the butter with your fingertips until it looks like fine breadcrumbs — a food processor does this too. Add about three tablespoons of cold water and mix to a firm dough, wrap it in cling film and chill about 20 minutes.",
-          "Heat the oven to 200C/400F/Gas 6 and put a heavy baking tray in to heat up. Grease a deep 18cm/7in loose-bottomed fluted flan tin with butter.",
-          "Take about 150g/5½oz of pastry off the main ball and set it aside for the lattice.",
+          "Heat the oven to 200 °C and put a heavy baking tray in to heat up. Grease a deep 18cm loose-bottomed fluted flan tin with butter.",
+          "Take about 150g of pastry off the main ball and set it aside for the lattice.",
           "Roll the rest out thinly on a lightly floured surface and line the prepared tin with it.",
           "Prick the base with a fork so it doesn't rise while it bakes.",
           "Put the pastry you kept for the lattice on cling film and roll it out thinly. Egg wash it and chill it — the cling film makes it easier to move. Don't cut it into strips yet. And don't egg wash the strips once they are on the tart, or it will drip into the filling.",
           "For the filling, heat the syrup gently in a large pan, but don't let it boil.",
           "Once it has melted, add the breadcrumbs, lemon juice and zest. Use less lemon if you want it less sharp. If it looks runny, add a few more breadcrumbs.",
           "Pour the syrup mixture into the lined tin and level the surface.",
-          "Take the reserved pastry out of the fridge and cut it into long strips, 1cm/½in wide. Make them all longer than the tin is wide.",
+          "Take the reserved pastry out of the fridge and cut it into long strips, 1cm wide. Make them all longer than the tin is wide.",
           "Egg wash the pastry edge in the tin and weave the lattice over the filling, leaving the strips hanging over the edge.",
           "Once the lattice is in place, press down with your hands along the tin edge to cut the strips off cleanly.",
-          "Bake on the preheated tray in the hot oven about 10 minutes, until the pastry starts to colour, then lower the oven to 180C/350F/Gas 4. If the lattice is already getting too dark at this point, cover the tart with foil.",
+          "Bake on the preheated tray in the hot oven about 10 minutes, until the pastry starts to colour, then lower the oven to 180 °C. If the lattice is already getting too dark at this point, cover the tart with foil.",
           "Bake a further 25-30 minutes, until the pastry is golden-brown and the filling set.",
           "Take the tart out and leave it to firm up in the tin. Serve it warm or cold."
         ]
@@ -43010,18 +43010,18 @@ window.initialRecipes = [
         "description": "Helemaal geen melasse maar gouden siroop, gebonden met broodkruim en scherp gemaakt met citroen. De vlecht wordt met ei bestreken voor ze erop gaat, nooit erna, anders loopt het in de vulling.",
         "instructions": [
           "Maak eerst het zanddeeg: weeg de bloem af in een grote kom en wrijf de boter er met je vingertoppen door tot het op fijne broodkruimels lijkt — een keukenmachine kan dit ook. Voeg ongeveer drie eetlepels koud water toe en meng tot een stevig deeg, wikkel het in folie en zet het ongeveer 20 minuten koud.",
-          "Verwarm de oven op 200C/400F/gas 6 en zet er een zware bakplaat in om mee op te warmen. Vet een diepe geribde vlaaivorm van 18cm/7in met losse bodem in met boter.",
-          "Neem ongeveer 150g/5½oz deeg van de bal en zet het opzij voor de vlecht.",
+          "Verwarm de oven op 200 °C en zet er een zware bakplaat in om mee op te warmen. Vet een diepe geribde vlaaivorm van 18cm met losse bodem in met boter.",
+          "Neem ongeveer 150g deeg van de bal en zet het opzij voor de vlecht.",
           "Rol de rest dun uit op een licht bebloemd werkblad en bekleed er de voorbereide vorm mee.",
           "Prik de bodem in met een vork zodat hij niet opkomt tijdens het bakken.",
           "Leg het deeg dat je voor de vlecht hield op folie en rol het dun uit. Bestrijk het met ei en zet het koud — de folie maakt het makkelijker te verplaatsen. Snijd het nog niet in reepjes. En bestrijk de reepjes niet met ei als ze eenmaal op de taart liggen, want dan drupt het in de vulling.",
           "Verwarm voor de vulling de siroop zachtjes in een grote pan, maar laat ze niet koken.",
           "Voeg zodra ze gesmolten is de broodkruimels, het citroensap en de zeste toe. Neem minder citroen als je het minder scherp wil. Ziet het er te dun uit, doe er dan nog wat broodkruim bij.",
           "Giet het siroopmengsel in de beklede vorm en strijk het glad.",
-          "Haal het achtergehouden deeg uit de koelkast en snijd het in lange reepjes van 1cm/½in breed. Maak ze allemaal langer dan de vorm breed is.",
+          "Haal het achtergehouden deeg uit de koelkast en snijd het in lange reepjes van 1cm breed. Maak ze allemaal langer dan de vorm breed is.",
           "Bestrijk de deegrand in de vorm met ei en vlecht de reepjes over de vulling, met de uiteinden over de rand hangend.",
           "Druk als de vlecht ligt met je handen langs de rand van de vorm om de reepjes netjes af te snijden.",
-          "Bak op de voorverwarmde plaat in de hete oven ongeveer 10 minuten, tot het deeg begint te kleuren, en zet de oven dan op 180C/350F/gas 4. Wordt de vlecht op dit punt al te donker, dek de taart dan af met folie.",
+          "Bak op de voorverwarmde plaat in de hete oven ongeveer 10 minuten, tot het deeg begint te kleuren, en zet de oven dan op 180 °C. Wordt de vlecht op dit punt al te donker, dek de taart dan af met folie.",
           "Bak nog 25-30 minuten, tot het deeg goudbruin is en de vulling opgesteven.",
           "Haal de taart eruit en laat ze in de vorm opstijven. Dien ze warm of koud op."
         ]
@@ -43032,18 +43032,18 @@ window.initialRecipes = [
         "description": "Pas de mélasse du tout mais du golden syrup, épaissi à la chapelure et relevé au citron. Le treillis est doré à l'œuf avant d'être posé, jamais après, sinon la dorure coule dans la garniture.",
         "instructions": [
           "Fais d'abord la pâte brisée : pèse la farine dans un grand bol et sable le beurre du bout des doigts jusqu'à obtenir une fine chapelure — un robot le fait aussi. Ajoute environ trois cuillères à soupe d'eau froide et mélange en une pâte ferme, emballe-la dans du film et réfrigère environ 20 minutes.",
-          "Chauffe le four à 200C/400F/gas 6 et mets-y une plaque épaisse à chauffer. Beurre un moule à tarte cannelé profond de 18cm/7in à fond amovible.",
-          "Prélève environ 150g/5½oz de pâte sur la boule et réserve-la pour le treillis.",
+          "Chauffe le four à 200 °C et mets-y une plaque épaisse à chauffer. Beurre un moule à tarte cannelé profond de 18cm à fond amovible.",
+          "Prélève environ 150g de pâte sur la boule et réserve-la pour le treillis.",
           "Étale le reste finement sur un plan légèrement fariné et fonce le moule préparé.",
           "Pique le fond à la fourchette pour qu'il ne gonfle pas à la cuisson.",
           "Pose la pâte réservée pour le treillis sur du film et étale-la finement. Dore-la à l'œuf et réfrigère — le film facilite les manipulations. Ne la coupe pas encore en bandes. Et ne dore pas les bandes une fois posées sur la tarte, sinon la dorure coulera dans la garniture.",
           "Pour la garniture, chauffe doucement le sirop dans une grande casserole, sans le faire bouillir.",
           "Une fois fondu, ajoute la chapelure, le jus et le zeste de citron. Mets moins de citron si tu le veux moins acidulé. Si le mélange paraît liquide, ajoute encore un peu de chapelure.",
           "Verse le mélange au sirop dans le moule foncé et lisse la surface.",
-          "Sors la pâte réservée du frigo et coupe-la en longues bandes de 1cm/½in de large. Fais-les toutes plus longues que la largeur du moule.",
+          "Sors la pâte réservée du frigo et coupe-la en longues bandes de 1cm de large. Fais-les toutes plus longues que la largeur du moule.",
           "Dore le bord de la pâte dans le moule et tresse le treillis sur la garniture, en laissant les bandes déborder.",
           "Une fois le treillis en place, presse des mains le long du bord du moule pour couper les bandes net.",
-          "Cuis sur la plaque préchauffée au four chaud environ 10 minutes, jusqu'à ce que la pâte commence à colorer, puis baisse le four à 180C/350F/gas 4. Si le treillis fonce déjà trop à ce stade, couvre la tarte d'aluminium.",
+          "Cuis sur la plaque préchauffée au four chaud environ 10 minutes, jusqu'à ce que la pâte commence à colorer, puis baisse le four à 180 °C. Si le treillis fonce déjà trop à ce stade, couvre la tarte d'aluminium.",
           "Cuis encore 25 à 30 minutes, jusqu'à ce que la pâte soit dorée et la garniture prise.",
           "Sors la tarte et laisse-la raffermir dans le moule. Sers-la tiède ou froide."
         ]
@@ -43613,10 +43613,10 @@ window.initialRecipes = [
           "Shape the dough into a large round and cover it to rest for 45 minutes.",
           "Knead the dough again on a lightly floured surface. The kneading is the most critical part of this recipe.",
           "Shape the dough into whatever bread shapes you like and set them on a baking sheet or in a bread pan.",
-          "Let them rest 25 minutes. Heat the oven to 375°F and bake until golden brown.",
+          "Let them rest 25 minutes. Heat the oven to 190 °C and bake until golden brown.",
           "If you are using active dry yeast instead, start here.",
-          "Mix 3½ cups of warm water (115°F to 120°F) with the yeast and sugar.",
-          "Add a pinch of salt and ½lb of sifted flour to the mixture.",
+          "Mix 840 ml of warm water (45 °C to 50 °C) with the yeast and sugar.",
+          "Add a pinch of salt and 230 g of sifted flour to the mixture.",
           "Stir it with a wooden spoon.",
           "Stand it somewhere warm for approximately one hour.",
           "It should look foamy and full of bubbles. If it doesn't, the yeast is dead and you must start again.",
@@ -43627,7 +43627,7 @@ window.initialRecipes = [
           "Turn the dough onto a floured board to be sure it is properly kneaded.",
           "Knead for approximately 8-10 minutes.",
           "Shape the dough into a large round and cover it to rest for 45 minutes, then shape it as before.",
-          "Let the breads rest 25 minutes. Heat the oven to 375°F and bake until golden brown."
+          "Let the breads rest 25 minutes. Heat the oven to 190 °C and bake until golden brown."
         ]
       },
       "nl": {
@@ -43646,10 +43646,10 @@ window.initialRecipes = [
           "Vorm het deeg tot een grote ronde bol en dek het af om 45 minuten te rusten.",
           "Kneed het deeg opnieuw op een licht bebloemd werkblad. Het kneden is het meest kritieke deel van dit recept.",
           "Vorm het deeg tot welke broodvormen je maar wil en zet ze op een bakplaat of in een broodvorm.",
-          "Laat ze 25 minuten rusten. Verwarm de oven op 375°F en bak tot ze goudbruin zijn.",
+          "Laat ze 25 minuten rusten. Verwarm de oven op 190 °C en bak tot ze goudbruin zijn.",
           "Gebruik je droge gist in plaats daarvan, begin dan hier.",
-          "Meng 3½ kopjes warm water (115°F tot 120°F) met de gist en de suiker.",
-          "Voeg een snuifje zout en ½lb gezeefde bloem toe aan het mengsel.",
+          "Meng 840 ml warm water (45 °C tot 50 °C) met de gist en de suiker.",
+          "Voeg een snuifje zout en 230 g gezeefde bloem toe aan het mengsel.",
           "Roer het met een houten lepel.",
           "Zet het ongeveer een uur op een warme plek.",
           "Het hoort schuimig te zijn en vol bubbels. Is dat niet zo, dan is de gist dood en moet je opnieuw beginnen.",
@@ -43660,7 +43660,7 @@ window.initialRecipes = [
           "Stort het deeg op een bebloemde plank om zeker te zijn dat het goed gekneed is.",
           "Kneed ongeveer 8-10 minuten.",
           "Vorm het deeg tot een grote ronde bol en dek het af om 45 minuten te rusten, en vorm het dan zoals daarnet.",
-          "Laat de broden 25 minuten rusten. Verwarm de oven op 375°F en bak tot ze goudbruin zijn."
+          "Laat de broden 25 minuten rusten. Verwarm de oven op 190 °C en bak tot ze goudbruin zijn."
         ]
       },
       "fr": {
@@ -43679,10 +43679,10 @@ window.initialRecipes = [
           "Façonne la pâte en une grosse boule ronde et couvre-la pour la laisser reposer 45 minutes.",
           "Pétris de nouveau la pâte sur un plan légèrement fariné. Le pétrissage est la partie la plus critique de cette recette.",
           "Façonne la pâte dans les formes de pain que tu veux et pose-les sur une plaque ou dans un moule à pain.",
-          "Laisse-les reposer 25 minutes. Chauffe le four à 375°F et cuis jusqu'à ce qu'ils soient dorés.",
+          "Laisse-les reposer 25 minutes. Chauffe le four à 190 °C et cuis jusqu'à ce qu'ils soient dorés.",
           "Si tu utilises plutôt de la levure sèche active, commence ici.",
-          "Mélange 3½ tasses d'eau tiède (115°F à 120°F) avec la levure et le sucre.",
-          "Ajoute une pincée de sel et ½lb de farine tamisée au mélange.",
+          "Mélange 840 ml d'eau tiède (45 °C à 50 °C) avec la levure et le sucre.",
+          "Ajoute une pincée de sel et 230 g de farine tamisée au mélange.",
           "Remue à la cuillère en bois.",
           "Laisse au chaud environ une heure.",
           "Le mélange doit être mousseux et plein de bulles. Sinon, la levure est morte et il faut recommencer.",
@@ -43693,7 +43693,7 @@ window.initialRecipes = [
           "Renverse la pâte sur une planche farinée pour être sûr qu'elle est bien pétrie.",
           "Pétris environ 8 à 10 minutes.",
           "Façonne la pâte en une grosse boule ronde et couvre-la pour la laisser reposer 45 minutes, puis façonne-la comme avant.",
-          "Laisse les pains reposer 25 minutes. Chauffe le four à 375°F et cuis jusqu'à ce qu'ils soient dorés."
+          "Laisse les pains reposer 25 minutes. Chauffe le four à 190 °C et cuis jusqu'à ce qu'ils soient dorés."
         ]
       }
     },
@@ -43812,7 +43812,7 @@ window.initialRecipes = [
       "en": {
         "title": "Baked brie with sorrel jam",
         "subtitle": "A whole wheel in pastry, with hibiscus jam inside",
-        "description": "Sorrel here means dried hibiscus, cooked down with sugar and orange into a sharp red jam that cuts the richness of the cheese. The source never gives a baking time — 20 to 25 minutes at 400 °F, until the pastry is deep gold, is right for a whole wheel.",
+        "description": "Sorrel here means dried hibiscus, cooked down with sugar and orange into a sharp red jam that cuts the richness of the cheese. The source never gives a baking time — 20 to 25 minutes at 200 °C, until the pastry is deep gold, is right for a whole wheel.",
         "instructions": [
           "First, the sorrel jam.",
           "Combine the sugar, sorrel, lemon zest and water in a medium sized pot.",
@@ -43827,7 +43827,7 @@ window.initialRecipes = [
           "Carefully turn the wrapped cheese over so the gathered dough sits underneath. Set it seam side down on a baking sheet sprayed with non-stick cooking spray.",
           "You can get this far and refrigerate it for 2 days before baking.",
           "Do bring it back to room temperature before it goes in, or the pastry will colour long before the cheese has melted.",
-          "Heat the oven to 400° F.",
+          "Heat the oven to 200 °C.",
           "Combine the egg and water and brush the mixture over the top and sides of the pastry.",
           "Add a decoration cut from the leftover pastry if you like, and brush that with the egg mixture too.",
           "Leftover sorrel pulp from making juice will do for the jam. It comes out a little less acidic, and a brighter red rather than a dark one.",
@@ -43838,7 +43838,7 @@ window.initialRecipes = [
       "nl": {
         "title": "Baked brie with sorrel jam",
         "subtitle": "Een hele kaas in deeg, met hibiscusjam erin",
-        "description": "Sorrel is hier gedroogde hibiscus, ingekookt met suiker en sinaasappel tot een scherpe rode jam die de vettigheid van de kaas doorbreekt. De bron geeft nooit een baktijd — 20 tot 25 minuten op 400 °F, tot het deeg diep goudbruin is, klopt voor een hele kaas.",
+        "description": "Sorrel is hier gedroogde hibiscus, ingekookt met suiker en sinaasappel tot een scherpe rode jam die de vettigheid van de kaas doorbreekt. De bron geeft nooit een baktijd — 20 tot 25 minuten op 200 °C, tot het deeg diep goudbruin is, klopt voor een hele kaas.",
         "instructions": [
           "Eerst de sorreljam.",
           "Doe de suiker, de sorrel, de citroenzeste en het water samen in een middelgrote pan.",
@@ -43853,7 +43853,7 @@ window.initialRecipes = [
           "Draai de ingepakte kaas voorzichtig om zodat het samengeknepen deeg onderaan zit. Zet ze met de naad naar beneden op een bakplaat die je met bakspray hebt ingespoten.",
           "Tot hier kan je vooruitwerken en het geheel 2 dagen in de koelkast bewaren voor je het bakt.",
           "Laat het wel op kamertemperatuur komen voor het de oven in gaat, anders kleurt het deeg lang voor de kaas gesmolten is.",
-          "Verwarm de oven op 400° F.",
+          "Verwarm de oven op 200 °C.",
           "Meng het ei met het water en bestrijk er de bovenkant en de zijkanten van het deeg mee.",
           "Leg er een versiering uit het overgebleven deeg op als je wil, en bestrijk die ook met het eimengsel.",
           "Overgebleven sorrelpulp van het sap maken is prima voor de jam. Ze wordt wat minder zuur, en helderder rood in plaats van donker.",
@@ -43864,7 +43864,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Baked brie with sorrel jam",
         "subtitle": "Une meule entière en croûte, avec de la confiture d'hibiscus dedans",
-        "description": "Le sorrel désigne ici l'hibiscus séché, réduit avec du sucre et de l'orange en une confiture rouge acidulée qui tranche le gras du fromage. La source ne donne jamais de temps de cuisson — 20 à 25 minutes à 400 °F, jusqu'à ce que la pâte soit bien dorée, convient pour une meule entière.",
+        "description": "Le sorrel désigne ici l'hibiscus séché, réduit avec du sucre et de l'orange en une confiture rouge acidulée qui tranche le gras du fromage. La source ne donne jamais de temps de cuisson — 20 à 25 minutes à 200 °C, jusqu'à ce que la pâte soit bien dorée, convient pour une meule entière.",
         "instructions": [
           "D'abord, la confiture de sorrel.",
           "Réunis le sucre, le sorrel, le zeste de citron et l'eau dans une casserole moyenne.",
@@ -43879,7 +43879,7 @@ window.initialRecipes = [
           "Retourne délicatement le fromage emballé pour que la pâte rassemblée se retrouve dessous. Pose-le soudure vers le bas sur une plaque vaporisée d'huile de cuisson.",
           "Tu peux t'arrêter là et réfrigérer 2 jours avant la cuisson.",
           "Ramène-le bien à température ambiante avant d'enfourner, sinon la pâte colorera longtemps avant que le fromage n'ait fondu.",
-          "Chauffe le four à 400° F.",
+          "Chauffe le four à 200 °C.",
           "Mélange l'œuf et l'eau et badigeonne le dessus et les côtés de la pâte.",
           "Ajoute un décor découpé dans les chutes si tu veux, et badigeonne-le aussi de dorure.",
           "La pulpe de sorrel restée d'un jus fait très bien l'affaire pour la confiture. Elle sort un peu moins acide, et d'un rouge plus vif que sombre.",
@@ -44071,10 +44071,10 @@ window.initialRecipes = [
           "In a large saucepan, heat 1 tablespoon olive oil over medium heat and add the onion, tomato, scallions, garlic, cumin, azafran, pepper and salt. Cook 5 minutes, or until the onions are translucent, then add the beef and cook, stirring now and then, about 10 – 15 minutes. Set it aside to cool — a warm filling will not stay put inside the potato. Now the batter.",
           "Put all the batter ingredients in a medium bowl, whisk until smooth and set aside.",
           "Now form the stuffed potatoes.",
-          "Divide the mash into 10 equal portions, about ⅓ cup each, and roll each between your palms into a ball. Flatten them into patties and put 1 ½ tablespoons of the filling in the centre of each. Close the potato back up around the filling and roll it into a ball again, sealing it completely.",
-          "Fill a large heavy pot with vegetable oil and heat it over medium-high heat to 360° F.",
+          "Divide the mash into 10 equal portions, about 80 ml each, and roll each between your palms into a ball. Flatten them into patties and put 1 ½ tablespoons of the filling in the centre of each. Close the potato back up around the filling and roll it into a ball again, sealing it completely.",
+          "Fill a large heavy pot with vegetable oil and heat it over medium-high heat to 180 °C.",
           "Dip each stuffed potato in the batter and lower it carefully into the hot oil. Fry about 4 minutes, or until golden, turning them over halfway. Lift them out with a slotted spoon and drain on a plate lined with paper towels. Serve with ají.",
-          "For a vegetarian version, use the same filling ingredients but leave out the beef and add 1 cup of frozen carrots and peas."
+          "For a vegetarian version, use the same filling ingredients but leave out the beef and add 125 g of frozen carrots and peas."
         ]
       },
       "nl": {
@@ -44088,10 +44088,10 @@ window.initialRecipes = [
           "Verhit in een grote pan 1 eetlepel olijfolie op middelhoog vuur en voeg de ui, de tomaat, de lente-ui, de knoflook, de komijn, de azafran, de peper en het zout toe. Bak 5 minuten, of tot de ui glazig is, voeg dan het rundvlees toe en bak, af en toe roerend, ongeveer 10 – 15 minuten. Zet opzij om af te koelen — een warme vulling blijft niet in de aardappel zitten. Nu het beslag.",
           "Doe alle ingrediënten voor het beslag in een middelgrote kom, klop glad en zet opzij.",
           "Nu de gevulde aardappelen vormen.",
-          "Verdeel de puree in 10 gelijke porties van ongeveer ⅓ kopje elk en rol elke portie tussen je handpalmen tot een bal. Druk ze plat tot schijven en leg 1 ½ eetlepel vulling in het midden van elk. Sluit de aardappel weer rond de vulling en rol er opnieuw een bal van, helemaal dicht.",
-          "Vul een grote zware pan met plantaardige olie en verhit ze op middelhoog vuur tot 360° F.",
+          "Verdeel de puree in 10 gelijke porties van ongeveer 80 ml elk en rol elke portie tussen je handpalmen tot een bal. Druk ze plat tot schijven en leg 1 ½ eetlepel vulling in het midden van elk. Sluit de aardappel weer rond de vulling en rol er opnieuw een bal van, helemaal dicht.",
+          "Vul een grote zware pan met plantaardige olie en verhit ze op middelhoog vuur tot 180 °C.",
           "Haal elke gevulde aardappel door het beslag en laat hem voorzichtig in de hete olie zakken. Frituur ongeveer 4 minuten, of tot ze goudbruin zijn, en draai ze halverwege om. Haal ze eruit met een schuimspaan en laat ze uitlekken op een bord met keukenpapier. Dien op met ají.",
-          "Neem voor een vegetarische versie dezelfde ingrediënten voor de vulling maar laat het rundvlees weg en voeg 1 kopje diepvrieswortel en -erwtjes toe."
+          "Neem voor een vegetarische versie dezelfde ingrediënten voor de vulling maar laat het rundvlees weg en voeg 125 g diepvrieswortel en -erwtjes toe."
         ]
       },
       "fr": {
@@ -44105,10 +44105,10 @@ window.initialRecipes = [
           "Dans une grande sauteuse, chauffe 1 cuillère à soupe d'huile d'olive à feu moyen et ajoute l'oignon, la tomate, les oignons verts, l'ail, le cumin, l'azafran, le poivre et le sel. Cuis 5 minutes, ou jusqu'à ce que l'oignon soit translucide, puis ajoute le bœuf et cuis en remuant de temps en temps environ 10 à 15 minutes. Réserve pour refroidir — une farce tiède ne tiendra pas dans la pomme de terre. La pâte à frire maintenant.",
           "Mets tous les ingrédients de la pâte dans un bol moyen, fouette jusqu'à consistance lisse et réserve.",
           "Forme maintenant les pommes de terre farcies.",
-          "Divise la purée en 10 portions égales d'environ ⅓ de tasse chacune et roule chacune entre tes paumes en boule. Aplatis-les en galettes et dépose 1 ½ cuillère à soupe de farce au centre de chacune. Referme la pomme de terre autour de la farce et reforme une boule, parfaitement scellée.",
-          "Remplis une grande cocotte d'huile végétale et chauffe à feu moyen-vif jusqu'à 360° F.",
+          "Divise la purée en 10 portions égales d'environ 80 ml chacune et roule chacune entre tes paumes en boule. Aplatis-les en galettes et dépose 1 ½ cuillère à soupe de farce au centre de chacune. Referme la pomme de terre autour de la farce et reforme une boule, parfaitement scellée.",
+          "Remplis une grande cocotte d'huile végétale et chauffe à feu moyen-vif jusqu'à 180 °C.",
           "Trempe chaque pomme de terre farcie dans la pâte et plonge-la délicatement dans l'huile chaude. Fais frire environ 4 minutes, ou jusqu'à ce qu'elles soient dorées, en les retournant à mi-cuisson. Sors-les à l'écumoire et égoutte-les sur une assiette garnie de papier absorbant. Sers avec de l'ají.",
-          "Pour une version végétarienne, garde les mêmes ingrédients de farce mais retire le bœuf et ajoute 1 tasse de carottes et petits pois surgelés."
+          "Pour une version végétarienne, garde les mêmes ingrédients de farce mais retire le bœuf et ajoute 125 g de carottes et petits pois surgelés."
         ]
       }
     },
@@ -44349,14 +44349,14 @@ window.initialRecipes = [
         "subtitle": "Crisp without the deep fryer",
         "description": "Pork and cabbage rolled tight in wrappers and cooked in the air fryer with a light brushing of oil. They must not touch in the basket — the air has to get all the way round each one.",
         "instructions": [
-          "If you don't have an air fryer, these can be pan-fried instead. Add enough oil to a medium skillet with high walls so it comes about 1/2 inch up the side. Heat it on medium-high until it reaches 350°F.",
+          "If you don't have an air fryer, these can be pan-fried instead. Add enough oil to a medium skillet with high walls so it comes about 1.5 cm up the side. Heat it on medium-high until it reaches 180 °C.",
           "Add the egg rolls and fry 3 to 4 minutes, flip, and fry another 3 to 4 minutes until golden brown. Lift them out and let them drain and cool on a few paper towels. Now the filling.",
           "In a large skillet over medium heat, add the olive oil with the ground pork or chicken. Break the meat apart with a spatula or wooden spoon as it cooks. Cook until it is cooked through, 6 to 8 minutes.",
           "Add the garlic, ginger, carrot, scallions and cabbage. Keep cooking until the cabbage wilts down and softens, another 3 to 4 minutes, stirring regularly. Season with the soy sauce and rice wine vinegar and take it off the heat to cool. The filling can be made ahead. Now assemble.",
-          "Lay a single wrapper on a dry surface with one point of the square facing you, like a diamond. Put about 1/4 cup of the filling in the middle.",
+          "Lay a single wrapper on a dry surface with one point of the square facing you, like a diamond. Put about 60 ml of the filling in the middle.",
           "Dip your fingers in water and run them round the edges of the wrapper. Fold the edges over the centre and roll the egg roll away from you into a tight cylinder. Set it on a plate and carry on until the filling is gone. You should get at least a dozen. Now air fry them.",
           "Put the egg rolls in the air fryer basket. Spray or brush them lightly with oil. Fit in as many as you can without stacking them, and make sure they don't touch — the air has to circulate right round each one.",
-          "Put the basket in and set the air fryer to 350°F. Cook 6 to 7 minutes, then flip them, oil the other side, and cook another 4 to 5 minutes.",
+          "Put the basket in and set the air fryer to 180 °C. Cook 6 to 7 minutes, then flip them, oil the other side, and cook another 4 to 5 minutes.",
           "They should come out golden brown and crisp. Serve immediately."
         ]
       },
@@ -44365,14 +44365,14 @@ window.initialRecipes = [
         "subtitle": "Krokant zonder frituurpan",
         "description": "Varkensvlees en kool strak in vellen gerold en in de airfryer gegaard met een lichte laag olie. Ze mogen elkaar niet raken in de mand — de lucht moet helemaal rond elk rolletje kunnen.",
         "instructions": [
-          "Heb je geen airfryer, dan kan je ze ook in de pan bakken. Doe zoveel olie in een middelgrote pan met hoge wanden dat ze ongeveer 1/2 inch tegen de zijkant staat. Verhit op middelhoog vuur tot ze 350°F bereikt.",
+          "Heb je geen airfryer, dan kan je ze ook in de pan bakken. Doe zoveel olie in een middelgrote pan met hoge wanden dat ze ongeveer 1.5 cm tegen de zijkant staat. Verhit op middelhoog vuur tot ze 180 °C bereikt.",
           "Doe de loempia's erin en bak 3 tot 4 minuten, draai ze om en bak nog 3 tot 4 minuten tot ze goudbruin zijn. Haal ze eruit en laat ze uitlekken en afkoelen op wat keukenpapier. Nu de vulling.",
           "Doe in een grote pan op middelhoog vuur de olijfolie met het gehakt van varken of kip. Breek het vlees los met een spatel of houten lepel terwijl het gaart. Bak tot het helemaal gaar is, 6 tot 8 minuten.",
           "Voeg de knoflook, de gember, de wortel, de lente-ui en de kool toe. Blijf bakken tot de kool slinkt en zacht wordt, nog 3 tot 4 minuten, regelmatig roerend. Breng op smaak met de sojasaus en de rijstazijn en haal van het vuur om af te koelen. De vulling mag je vooruit maken. Nu opbouwen.",
-          "Leg één vel op een droog werkblad met een punt van het vierkant naar je toe, als een ruit. Doe ongeveer 1/4 kopje vulling in het midden.",
+          "Leg één vel op een droog werkblad met een punt van het vierkant naar je toe, als een ruit. Doe ongeveer 60 ml vulling in het midden.",
           "Doop je vingers in water en ga langs de randen van het vel. Vouw de randen over het midden en rol de loempia van je af tot een strakke cilinder. Leg hem op een bord en ga door tot de vulling op is. Je zou er minstens een dozijn moeten hebben. Nu de airfryer.",
           "Zet de loempia's in de mand van je airfryer. Spuit of bestrijk ze licht met olie. Doe er zoveel in als kan zonder ze te stapelen, en zorg dat ze elkaar niet raken — de lucht moet helemaal rond elk rolletje kunnen.",
-          "Zet de mand erin en stel de airfryer in op 350°F. Gaar 6 tot 7 minuten, draai ze dan om, olie de andere kant, en gaar nog 4 tot 5 minuten.",
+          "Zet de mand erin en stel de airfryer in op 180 °C. Gaar 6 tot 7 minuten, draai ze dan om, olie de andere kant, en gaar nog 4 tot 5 minuten.",
           "Ze horen er goudbruin en krokant uit te komen. Dien meteen op."
         ]
       },
@@ -44381,14 +44381,14 @@ window.initialRecipes = [
         "subtitle": "Croustillants sans friteuse",
         "description": "Du porc et du chou roulés serré dans des feuilles et cuits à l'air fryer avec un léger badigeon d'huile. Ils ne doivent pas se toucher dans le panier — l'air doit circuler tout autour de chacun.",
         "instructions": [
-          "Si tu n'as pas d'air fryer, tu peux les frire à la poêle. Mets assez d'huile dans une poêle moyenne à bords hauts pour qu'elle monte à environ 1/2 pouce sur la paroi. Chauffe à feu moyen-vif jusqu'à 350°F.",
+          "Si tu n'as pas d'air fryer, tu peux les frire à la poêle. Mets assez d'huile dans une poêle moyenne à bords hauts pour qu'elle monte à environ 1.5 cm sur la paroi. Chauffe à feu moyen-vif jusqu'à 180 °C.",
           "Ajoute les rouleaux et fais-les frire 3 à 4 minutes, retourne-les, et fais-les frire encore 3 à 4 minutes jusqu'à ce qu'ils soient dorés. Sors-les et laisse-les égoutter et refroidir sur du papier absorbant. La farce maintenant.",
           "Dans une grande poêle à feu moyen, mets l'huile d'olive avec le porc ou le poulet haché. Défais la viande à la spatule ou à la cuillère en bois pendant la cuisson. Cuis jusqu'à ce qu'elle soit cuite à cœur, 6 à 8 minutes.",
           "Ajoute l'ail, le gingembre, la carotte, les oignons verts et le chou. Poursuis la cuisson jusqu'à ce que le chou tombe et s'attendrisse, encore 3 à 4 minutes, en remuant régulièrement. Assaisonne de sauce soja et de vinaigre de riz et retire du feu pour refroidir. La farce peut se préparer à l'avance. Assemble maintenant.",
-          "Pose une feuille sur un plan sec, une pointe du carré face à toi, comme un losange. Dépose environ 1/4 de tasse de farce au milieu.",
+          "Pose une feuille sur un plan sec, une pointe du carré face à toi, comme un losange. Dépose environ 60 ml de farce au milieu.",
           "Trempe tes doigts dans l'eau et passe-les sur les bords de la feuille. Replie les bords vers le centre et roule le rouleau en l'éloignant de toi pour former un cylindre serré. Pose-le sur une assiette et continue jusqu'à épuisement de la farce. Tu devrais en avoir au moins une douzaine. À l'air fryer maintenant.",
           "Place les rouleaux dans le panier de l'air fryer. Vaporise ou badigeonne-les légèrement d'huile. Mets-en autant que possible sans les empiler, et veille à ce qu'ils ne se touchent pas — l'air doit circuler tout autour de chacun.",
-          "Mets le panier en place et règle l'air fryer sur 350°F. Cuis 6 à 7 minutes, puis retourne-les, huile l'autre face, et cuis encore 4 à 5 minutes.",
+          "Mets le panier en place et règle l'air fryer sur 180 °C. Cuis 6 à 7 minutes, puis retourne-les, huile l'autre face, et cuis encore 4 à 5 minutes.",
           "Ils doivent ressortir dorés et croustillants. Sers immédiatement."
         ]
       }
@@ -44633,7 +44633,7 @@ window.initialRecipes = [
           "Dépose une cuillerée du mélange viande-riz au milieu des feuilles. Rabats le bas de la feuille sur la farce, replie les deux côtés, puis roule vers le haut pour enfermer la farce en un petit paquet.",
           "Tapisse le fond d'une casserole profonde d'une couche de feuilles de vigne et pose le premier paquet dessus. C'est cette couche qui empêche les paquets d'attacher.",
           "Fais autant de paquets que le mélange le permet, en les ajoutant au fur et à mesure dans la casserole. Range-les côte à côte jusqu'à couvrir le fond, puis commence une autre couche par-dessus. La cuisson maintenant.",
-          "Verse assez d'eau bouillante pour recouvrir tout juste le dessus des feuilles et porte à ébullition. Laisse mijoter à couvert 1.5 heure. Toute l'eau doit être absorbée, mais rajoute un peu d'eau bouillante si ça s'assèche avant la fin.  Le service maintenant.",
+          "Verse assez d'eau bouillante pour recouvrir tout juste le dessus des feuilles et porte à ébullition. Laisse mijoter à couvert 1.5 heure. Toute l'eau doit être absorbée, mais rajoute un peu d'eau bouillante si ça s'assèche avant la fin. Le service maintenant.",
           "Sors-les de la casserole et laisse-les tiédir 10 minutes avant de servir."
         ]
       }
@@ -44817,9 +44817,9 @@ window.initialRecipes = [
         "instructions": [
           "Mix the yeast with the water and let it stand a few minutes. Then sift the flour with the salt into a large bowl. Add the water and yeast gradually and mix with your hand until the dough forms a ball.",
           "Turn it out onto a lightly floured surface. Knead the dough 8 to 10 minutes, until it is smooth. Put it in a large bowl, cover it, and let it rise somewhere warm until doubled — usually 1 to 1 1/2 hours.",
-          "Punch it down and turn it onto a lightly floured surface. Stretch the dough into an oblong, then roll it with a rolling pin until it is about 1/2 inch thick. Move it to a greased or non-stick baking sheet and let it stand another 15 minutes.",
+          "Punch it down and turn it onto a lightly floured surface. Stretch the dough into an oblong, then roll it with a rolling pin until it is about 1.5 cm thick. Move it to a greased or non-stick baking sheet and let it stand another 15 minutes.",
           "Cut crosshatches into the top of the dough, about four in either direction. Brush with the beaten egg yolk — loosened with a little water, it spreads more easily — and sprinkle with poppy seeds.",
-          "Bake in a preheated oven at about 400 degrees for 20 to 25 minutes, until golden on top."
+          "Bake in a preheated oven at about 200 °C for 20 to 25 minutes, until golden on top."
         ]
       },
       "nl": {
@@ -44829,9 +44829,9 @@ window.initialRecipes = [
         "instructions": [
           "Meng de gist met het water en laat het een paar minuten staan. Zeef dan de bloem met het zout in een grote kom. Voeg het water met de gist geleidelijk toe en meng met je hand tot het deeg tot een bal komt.",
           "Stort het op een licht bebloemd werkblad. Kneed het deeg 8 tot 10 minuten, tot het glad is. Doe het in een grote kom, dek af, en laat het op een warme plek rijzen tot het verdubbeld is — meestal 1 tot 1 1/2 uur.",
-          "Sla het terug en stort het op een licht bebloemd werkblad. Trek het deeg tot een langwerpige vorm en rol het dan met een deegrol uit tot ongeveer 1/2 inch dik. Leg het op een ingevette of antiaanbakplaat en laat het nog 15 minuten staan.",
+          "Sla het terug en stort het op een licht bebloemd werkblad. Trek het deeg tot een langwerpige vorm en rol het dan met een deegrol uit tot ongeveer 1.5 cm dik. Leg het op een ingevette of antiaanbakplaat en laat het nog 15 minuten staan.",
           "Kerf ruiten in de bovenkant van het deeg, ongeveer vier in elke richting. Bestrijk met de losgeklopte eierdooier — met een beetje water aangelengd strijkt hij makkelijker uit — en bestrooi met maanzaad.",
-          "Bak in een voorverwarmde oven op ongeveer 400 graden gedurende 20 tot 25 minuten, tot de bovenkant goudbruin is."
+          "Bak in een voorverwarmde oven op ongeveer 200 °C gedurende 20 tot 25 minuten, tot de bovenkant goudbruin is."
         ]
       },
       "fr": {
@@ -44841,9 +44841,9 @@ window.initialRecipes = [
         "instructions": [
           "Mélange la levure à l'eau et laisse reposer quelques minutes. Tamise ensuite la farine avec le sel dans un grand bol. Ajoute progressivement l'eau et la levure et mélange à la main jusqu'à ce que la pâte forme une boule.",
           "Renverse-la sur un plan légèrement fariné. Pétris la pâte 8 à 10 minutes, jusqu'à ce qu'elle soit lisse. Mets-la dans un grand bol, couvre, et laisse-la lever au chaud jusqu'à ce qu'elle double — généralement 1 à 1 h 1/2.",
-          "Dégaze-la et renverse-la sur un plan légèrement fariné. Étire la pâte en forme oblongue, puis étale-la au rouleau sur environ 1/2 pouce d'épaisseur. Transfère-la sur une plaque graissée ou antiadhésive et laisse reposer encore 15 minutes.",
+          "Dégaze-la et renverse-la sur un plan légèrement fariné. Étire la pâte en forme oblongue, puis étale-la au rouleau sur environ 1.5 cm d'épaisseur. Transfère-la sur une plaque graissée ou antiadhésive et laisse reposer encore 15 minutes.",
           "Entaille le dessus de la pâte en quadrillage, environ quatre traits dans chaque sens. Badigeonne du jaune d'œuf battu — détendu d'un peu d'eau, il s'étale plus facilement — et parsème de graines de pavot.",
-          "Cuis au four préchauffé à environ 400 degrés pendant 20 à 25 minutes, jusqu'à ce que le dessus soit doré."
+          "Cuis au four préchauffé à environ 200 °C pendant 20 à 25 minutes, jusqu'à ce que le dessus soit doré."
         ]
       }
     },
@@ -45661,12 +45661,12 @@ window.initialRecipes = [
         "subtitle": "Semolina, sesame and a long slow start",
         "description": "An Algerian house bread built in stages: a wet semolina batter left to froth, then flour worked in, then a rest, then a rise. The sesame goes in the dough and on the crust.",
         "instructions": [
-          "Mix 1/2 cup plus 2 tablespoons semolina, 2 tablespoons sesame seeds, the sugar, yeast and salt together in a large bowl. Whisk in the oil, egg and egg white. Stir in the warm milk slowly until you have a liquid dough.",
+          "Mix 65 g plus 2 tablespoons semolina, 2 tablespoons sesame seeds, the sugar, yeast and salt together in a large bowl. Whisk in the oil, egg and egg white. Stir in the warm milk slowly until you have a liquid dough.",
           "Cover the bowl with a plate or plastic wrap and leave it at room temperature until frothy, about 1 hour.",
-          "Stir in 2 3/4 cups flour with a wooden spoon until you have a sticky dough. Cover it again and let it rest 30 minutes.",
+          "Stir in 340 g flour with a wooden spoon until you have a sticky dough. Cover it again and let it rest 30 minutes.",
           "Line a baking sheet with parchment paper or a baking mat.",
           "Sprinkle 1 tablespoon flour over the dough and your hands. Work the dough, adding flour as it needs it, 1 tablespoon at a time, until it pulls away from the sides of the bowl. Shape it into a round loaf and set it on the prepared sheet. Cover it loosely with a towel and let it rise 1 hour somewhere warm, until it has doubled.",
-          "Heat the oven to 400 degrees F (200 degrees C).",
+          "Heat the oven to 200 °C.",
           "Beat the egg yolk and water in a bowl with a fork and brush it over the whole surface of the loaf. Sprinkle 1 tablespoon sesame seeds on top.",
           "Bake in the heated oven until the loaf is golden brown, about 20 to 25 minutes."
         ]
@@ -45676,12 +45676,12 @@ window.initialRecipes = [
         "subtitle": "Griesmeel, sesam en een lange trage start",
         "description": "Een Algerijns huisbrood dat in fasen opgebouwd wordt: een nat griesmeelbeslag dat mag opschuimen, dan bloem erdoor, dan rust, dan rijzen. De sesam zit in het deeg én op de korst.",
         "instructions": [
-          "Meng 1/2 kopje plus 2 eetlepels griesmeel, 2 eetlepels sesamzaad, de suiker, de gist en het zout samen in een grote kom. Klop de olie, het ei en het eiwit erdoor. Roer er langzaam de warme melk door tot je een vloeibaar deeg hebt.",
+          "Meng 65 g plus 2 eetlepels griesmeel, 2 eetlepels sesamzaad, de suiker, de gist en het zout samen in een grote kom. Klop de olie, het ei en het eiwit erdoor. Roer er langzaam de warme melk door tot je een vloeibaar deeg hebt.",
           "Dek de kom af met een bord of folie en laat het op kamertemperatuur staan tot het schuimt, ongeveer 1 uur.",
-          "Roer er met een houten lepel 2 3/4 kopje bloem door tot je een plakkerig deeg hebt. Dek opnieuw af en laat 30 minuten rusten.",
+          "Roer er met een houten lepel 340 g bloem door tot je een plakkerig deeg hebt. Dek opnieuw af en laat 30 minuten rusten.",
           "Bekleed een bakplaat met bakpapier of een bakmat.",
           "Strooi 1 eetlepel bloem over het deeg en over je handen. Werk het deeg door en voeg bloem toe zoveel als het nodig heeft, 1 eetlepel per keer, tot het van de wand van de kom loslaat. Vorm er een rond brood van en zet het op de voorbereide plaat. Dek losjes af met een doek en laat 1 uur rijzen op een warme plek, tot het volume verdubbeld is.",
-          "Verwarm de oven op 400 graden F (200 graden C).",
+          "Verwarm de oven op 200 °C.",
           "Klop de eierdooier en het water los in een kommetje met een vork en bestrijk er het hele oppervlak van het brood mee. Strooi er 1 eetlepel sesamzaad over.",
           "Bak in de warme oven tot het brood goudbruin is, ongeveer 20 tot 25 minuten."
         ]
@@ -45691,12 +45691,12 @@ window.initialRecipes = [
         "subtitle": "De la semoule, du sésame et un départ long et lent",
         "description": "Un pain de maison algérien construit par étapes : une pâte de semoule liquide qu'on laisse mousser, puis la farine incorporée, puis un repos, puis une pousse. Le sésame est dans la pâte et sur la croûte.",
         "instructions": [
-          "Mélange 1/2 tasse plus 2 cuillères à soupe de semoule, 2 cuillères à soupe de graines de sésame, le sucre, la levure et le sel dans un grand bol. Fouette-y l'huile, l'œuf et le blanc d'œuf. Incorpore lentement le lait tiède jusqu'à obtenir une pâte liquide.",
+          "Mélange 65 g plus 2 cuillères à soupe de semoule, 2 cuillères à soupe de graines de sésame, le sucre, la levure et le sel dans un grand bol. Fouette-y l'huile, l'œuf et le blanc d'œuf. Incorpore lentement le lait tiède jusqu'à obtenir une pâte liquide.",
           "Couvre le bol d'une assiette ou de film et laisse à température ambiante jusqu'à ce que ce soit mousseux, environ 1 heure.",
-          "Incorpore 2 3/4 tasses de farine à la cuillère en bois jusqu'à obtenir une pâte collante. Couvre de nouveau et laisse reposer 30 minutes.",
+          "Incorpore 340 g de farine à la cuillère en bois jusqu'à obtenir une pâte collante. Couvre de nouveau et laisse reposer 30 minutes.",
           "Chemise une plaque de papier cuisson ou d'un tapis de cuisson.",
           "Saupoudre 1 cuillère à soupe de farine sur la pâte et sur tes mains. Travaille la pâte en ajoutant de la farine au besoin, 1 cuillère à soupe à la fois, jusqu'à ce qu'elle se détache des parois du bol. Façonne une miche ronde et pose-la sur la plaque préparée. Couvre sans serrer d'un torchon et laisse lever 1 heure au chaud, jusqu'à ce qu'elle double de volume.",
-          "Chauffe le four à 400 degrés F (200 degrés C).",
+          "Chauffe le four à 200 °C.",
           "Bats le jaune d'œuf et l'eau dans un bol à la fourchette et badigeonne toute la surface de la miche. Parsème 1 cuillère à soupe de graines de sésame dessus.",
           "Cuis au four chaud jusqu'à ce que la miche soit bien dorée, environ 20 à 25 minutes."
         ]
@@ -45885,8 +45885,8 @@ window.initialRecipes = [
         "subtitle": "Yeasted, not baking-powder — they are meant to rise",
         "description": "Proper Russian blini: a buckwheat batter raised with yeast, enriched with butter and yolk, lightened with whipped white. Small ones, a coin's width, kept warm under a cloth.",
         "instructions": [
-          "In a large bowl, whisk together 1/2 cup buckwheat flour, 2/3 cup all-purpose flour, 1/2 teaspoon salt and 1 teaspoon yeast.",
-          "Make a well in the centre and pour in 1 cup warm milk, whisking until the batter is smooth.",
+          "In a large bowl, whisk together 65 g buckwheat flour, 85 g all-purpose flour, 1/2 teaspoon salt and 1 teaspoon yeast.",
+          "Make a well in the centre and pour in 240 ml warm milk, whisking until the batter is smooth.",
           "Cover the bowl and let the batter rise until doubled, about 1 hour.",
           "Now enrich and rest the batter.",
           "Stir 2 tablespoons melted butter and 1 egg yolk into the batter.",
@@ -45904,8 +45904,8 @@ window.initialRecipes = [
         "subtitle": "Met gist, niet met bakpoeder — ze horen te rijzen",
         "description": "Echte Russische blini: een boekweitbeslag met gist, verrijkt met boter en dooier, luchtig gemaakt met opgeklopt eiwit. Kleine, zo groot als een muntstuk, warm gehouden onder een doek.",
         "instructions": [
-          "Klop in een grote kom 1/2 kopje boekweitmeel, 2/3 kopje bloem, 1/2 theelepel zout en 1 theelepel gist door elkaar.",
-          "Maak een kuiltje in het midden en giet er 1 kopje warme melk in, kloppend tot het beslag glad is.",
+          "Klop in een grote kom 65 g boekweitmeel, 85 g bloem, 1/2 theelepel zout en 1 theelepel gist door elkaar.",
+          "Maak een kuiltje in het midden en giet er 240 ml warme melk in, kloppend tot het beslag glad is.",
           "Dek de kom af en laat het beslag rijzen tot het verdubbeld is, ongeveer 1 uur.",
           "Nu het beslag verrijken en laten rusten.",
           "Roer 2 eetlepels gesmolten boter en 1 eierdooier door het beslag.",
@@ -45923,8 +45923,8 @@ window.initialRecipes = [
         "subtitle": "À la levure, pas à la poudre à lever — ils doivent gonfler",
         "description": "De vrais blinis russes : une pâte de sarrasin levée à la levure, enrichie de beurre et de jaune, allégée au blanc monté. Petits, de la taille d'une pièce, gardés au chaud sous un linge.",
         "instructions": [
-          "Dans un grand bol, fouette ensemble 1/2 tasse de farine de sarrasin, 2/3 de tasse de farine ordinaire, 1/2 cuillère à café de sel et 1 cuillère à café de levure.",
-          "Creuse un puits au centre et verses-y 1 tasse de lait tiède, en fouettant jusqu'à ce que la pâte soit lisse.",
+          "Dans un grand bol, fouette ensemble 65 g de farine de sarrasin, 85 g de farine ordinaire, 1/2 cuillère à café de sel et 1 cuillère à café de levure.",
+          "Creuse un puits au centre et verses-y 240 ml de lait tiède, en fouettant jusqu'à ce que la pâte soit lisse.",
           "Couvre le bol et laisse la pâte lever jusqu'à ce qu'elle double, environ 1 heure.",
           "Enrichis et laisse reposer la pâte maintenant.",
           "Incorpore 2 cuillères à soupe de beurre fondu et 1 jaune d'œuf à la pâte.",
@@ -46280,13 +46280,13 @@ window.initialRecipes = [
           "If the dough isn't coming together or feels dry, add the rest of the water gradually until it is very elastic — you should be able to pull it without tearing it.",
           "Let the dough rest just 10 minutes, then divide it into 6-8 balls, depending on how big you want your feteer.",
           "Warm the butter, ghee or oil you are using and pour it into a deep bowl.",
-          "Sink the dough balls into the warm butter and let them rest 15 to 20 minutes. Heat the oven to 550F.",
+          "Sink the dough balls into the warm butter and let them rest 15 to 20 minutes. Heat the oven to 290 °C.",
           "Stretch the first ball with your hands on a clean countertop. Get it as thin as you possibly can — the goal is to see the countertop through the dough.",
           "Fold the dough over itself into a square, brushing between each fold with the butter.",
           "Set it aside and start on the next ball.",
           "Stretch the second one just as thin as the first.",
           "Lay the first square in the middle of it, seam side down. Fold the outer sheet over it, brushing with more butter as you fold. Set it aside.",
-          "Do the same for the third and fourth balls. That is one feteer ready — set it seam side down in a 10 inch baking dish and brush the top with more butter.",
+          "Do the same for the third and fourth balls. That is one feteer ready — set it seam side down in a 25 cm baking dish and brush the top with more butter.",
           "Repeat with the remaining 4 balls to make a second one. Press the folded feteer gently with your hands to spread it across the dish.",
           "Put it in the heated oven for 10 minutes, and when the feteer starts to puff, turn on the broiler to brown the top.",
           "When it is done, add a little butter on top and cover it so it doesn't dry out."
@@ -46301,13 +46301,13 @@ window.initialRecipes = [
           "Komt het deeg niet samen of voelt het droog, voeg dan geleidelijk de rest van het water toe tot het heel elastisch is — je zou eraan moeten kunnen trekken zonder dat het scheurt.",
           "Laat het deeg maar 10 minuten rusten en verdeel het dan in 6-8 bollen, naargelang hoe groot je je feteer wil.",
           "Verwarm de boter, ghee of olie die je gebruikt en giet ze in een diepe kom.",
-          "Laat de deegbollen in de warme boter zakken en laat ze 15 tot 20 minuten rusten. Verwarm de oven op 550F.",
+          "Laat de deegbollen in de warme boter zakken en laat ze 15 tot 20 minuten rusten. Verwarm de oven op 290 °C.",
           "Rek de eerste bal met je handen uit op een proper werkblad. Maak hem zo dun als je maar kan — het doel is het werkblad door het deeg heen te zien.",
           "Vouw het deeg over zichzelf tot een vierkant en bestrijk tussen elke plooi met de boter.",
           "Zet het opzij en begin aan de volgende bal.",
           "Rek de tweede net zo dun uit als de eerste.",
           "Leg het eerste vierkant in het midden erop, met de naad naar beneden. Vouw het buitenste vel eroverheen en bestrijk al vouwend met meer boter. Zet opzij.",
-          "Doe hetzelfde voor de derde en de vierde bal. Dat is één feteer klaar — leg hem met de naad naar beneden in een bakvorm van 10 inch en bestrijk de bovenkant met meer boter.",
+          "Doe hetzelfde voor de derde en de vierde bal. Dat is één feteer klaar — leg hem met de naad naar beneden in een bakvorm van 25 cm en bestrijk de bovenkant met meer boter.",
           "Herhaal met de resterende 4 bollen voor een tweede. Druk de gevouwen feteer zachtjes met je handen uit over de vorm.",
           "Zet hem 10 minuten in de warme oven, en zet als de feteer begint op te bollen de grill aan om de bovenkant te kleuren.",
           "Doe er als hij klaar is een beetje boter op en dek hem af zodat hij niet uitdroogt."
@@ -46322,13 +46322,13 @@ window.initialRecipes = [
           "Si la pâte ne se rassemble pas ou paraît sèche, ajoute progressivement le reste de l'eau jusqu'à ce qu'elle soit très élastique — tu dois pouvoir la tirer sans qu'elle se déchire.",
           "Laisse la pâte reposer seulement 10 minutes, puis divise-la en 6 à 8 boules, selon la taille que tu veux pour ton feteer.",
           "Chauffe le beurre, le ghee ou l'huile que tu utilises et verse-le dans un bol profond.",
-          "Plonge les boules de pâte dans le beurre tiède et laisse-les reposer 15 à 20 minutes. Chauffe le four à 550F.",
+          "Plonge les boules de pâte dans le beurre tiède et laisse-les reposer 15 à 20 minutes. Chauffe le four à 290 °C.",
           "Étire la première boule à la main sur un plan de travail propre. Va aussi fin que possible — l'objectif est de voir le plan de travail à travers la pâte.",
           "Replie la pâte sur elle-même en carré, en badigeonnant de beurre entre chaque pli.",
           "Réserve et attaque la boule suivante.",
           "Étire la deuxième aussi fin que la première.",
           "Pose le premier carré au milieu, soudure vers le bas. Replie la feuille extérieure par-dessus en badigeonnant de beurre à mesure. Réserve.",
-          "Fais de même pour la troisième et la quatrième boule. Voilà un feteer prêt — pose-le soudure vers le bas dans un plat de 10 pouces et badigeonne le dessus de beurre.",
+          "Fais de même pour la troisième et la quatrième boule. Voilà un feteer prêt — pose-le soudure vers le bas dans un plat de 25 cm et badigeonne le dessus de beurre.",
           "Recommence avec les 4 boules restantes pour en faire un second. Presse doucement le feteer plié des mains pour l'étaler dans le plat.",
           "Enfourne 10 minutes, et quand le feteer commence à gonfler, mets le gril pour dorer le dessus.",
           "Quand c'est prêt, ajoute un peu de beurre dessus et couvre pour qu'il ne sèche pas."
@@ -46437,8 +46437,8 @@ window.initialRecipes = [
           "Drain the soaked glutinous rice thoroughly in a fine-mesh strainer.",
           "In a medium bowl, combine the coconut milk, palm sugar and salt, stirring until the sugar has dissolved completely.",
           "Add the drained rice to the coconut milk and mix gently so every grain is coated. Let it sit 15 minutes to drink the liquid up.",
-          "Set up a steamer with 2 inches of water in the bottom pot and bring it to the boil over high heat.",
-          "Lay a banana leaf square flat on your work surface, shiny side up. Spoon ¼ cup of the rice into the centre and spread it into a 4-inch rectangle.",
+          "Set up a steamer with 5 cm of water in the bottom pot and bring it to the boil over high heat.",
+          "Lay a banana leaf square flat on your work surface, shiny side up. Spoon 30 g of the rice into the centre and spread it into a 10 cm rectangle.",
           "Lay 2 tablespoons of mung bean paste in a line down the middle of the rice.",
           "Fold the banana leaf over the filling lengthways, then fold in the sides into a tight parcel. Press firmly as you go to compact the rice — that is what holds its shape through the steaming.",
           "Tie the parcel with kitchen twine, firmly but not too tight, so it has room to swell.",
@@ -46446,7 +46446,7 @@ window.initialRecipes = [
           "Arrange the parcels in a single layer in the steamer basket with small gaps between them so the steam can move.",
           "Cover and steam over medium heat for 90 minutes, checking halfway that the water hasn't boiled dry and topping it up with hot water if it has. They are done when the banana leaves have turned deep green and the rice feels firm.",
           "Take the parcels out carefully and let them cool 20 minutes before unwrapping. Cooling sets the texture and gives you a cleaner slice.",
-          "Unwrap the leaves and cut each parcel into 1-inch rounds to serve."
+          "Unwrap the leaves and cut each parcel into 2.5 cm rounds to serve."
         ]
       },
       "nl": {
@@ -46457,8 +46457,8 @@ window.initialRecipes = [
           "Laat de geweekte kleefrijst grondig uitlekken in een fijne zeef.",
           "Meng in een middelgrote kom de kokosmelk, de palmsuiker en het zout, en roer tot de suiker volledig opgelost is.",
           "Doe de uitgelekte rijst bij de kokosmelk en meng voorzichtig zodat elke korrel bedekt is. Laat het 15 minuten staan om het vocht op te nemen.",
-          "Zet een stoompan klaar met 2 inch water in de onderste pan en breng die op hoog vuur aan de kook.",
-          "Leg een vierkant bananenblad plat op je werkblad, met de glanzende kant naar boven. Lepel ¼ kopje rijst in het midden en strijk het uit tot een rechthoek van 4 inch.",
+          "Zet een stoompan klaar met 5 cm water in de onderste pan en breng die op hoog vuur aan de kook.",
+          "Leg een vierkant bananenblad plat op je werkblad, met de glanzende kant naar boven. Lepel 30 g rijst in het midden en strijk het uit tot een rechthoek van 10 cm.",
           "Leg 2 eetlepels mungbonenpasta in een streep over het midden van de rijst.",
           "Vouw het bananenblad in de lengte over de vulling en vouw dan de zijkanten naar binnen tot een strak pakketje. Druk stevig aan terwijl je werkt om de rijst samen te persen — dat is wat de vorm door het stomen heen houdt.",
           "Bind het pakketje dicht met keukentouw, stevig maar niet te strak, zodat het nog kan uitzetten.",
@@ -46466,7 +46466,7 @@ window.initialRecipes = [
           "Leg de pakketjes in één laag in de stoommand met kleine tussenruimtes zodat de stoom kan circuleren.",
           "Dek af en stoom 90 minuten op middelhoog vuur, en kijk halverwege of het water niet drooggekookt is; vul aan met heet water als dat zo is. Ze zijn klaar als de bananenbladeren diepgroen zijn geworden en de rijst stevig aanvoelt.",
           "Haal de pakketjes voorzichtig uit de stoompan en laat ze 20 minuten afkoelen voor je ze openmaakt. Het afkoelen zet de structuur vast en geeft je een nettere snede.",
-          "Wikkel de bladeren open en snijd elk pakketje in rondjes van 1 inch om op te dienen."
+          "Wikkel de bladeren open en snijd elk pakketje in rondjes van 2.5 cm om op te dienen."
         ]
       },
       "fr": {
@@ -46477,8 +46477,8 @@ window.initialRecipes = [
           "Égoutte soigneusement le riz gluant trempé dans une passoire fine.",
           "Dans un bol moyen, mélange le lait de coco, le sucre de palme et le sel, en remuant jusqu'à dissolution complète du sucre.",
           "Ajoute le riz égoutté au lait de coco et mélange doucement pour enrober chaque grain. Laisse reposer 15 minutes pour qu'il boive le liquide.",
-          "Prépare un cuit-vapeur avec 2 pouces d'eau dans la casserole du bas et porte à ébullition à feu vif.",
-          "Pose un carré de feuille de bananier à plat sur ton plan de travail, face brillante vers le haut. Dépose ¼ de tasse de riz au centre et étale-le en un rectangle de 4 pouces.",
+          "Prépare un cuit-vapeur avec 5 cm d'eau dans la casserole du bas et porte à ébullition à feu vif.",
+          "Pose un carré de feuille de bananier à plat sur ton plan de travail, face brillante vers le haut. Dépose 30 g de riz au centre et étale-le en un rectangle de 10 cm.",
           "Dispose 2 cuillères à soupe de pâte de haricot mungo en ligne au milieu du riz.",
           "Replie la feuille sur la garniture dans la longueur, puis rabats les côtés pour former un paquet serré. Presse fermement au fur et à mesure pour tasser le riz — c'est ce qui lui fait tenir sa forme à la vapeur.",
           "Ficelle le paquet avec de la ficelle de cuisine, fermement mais pas trop, pour lui laisser de la place pour gonfler.",
@@ -46486,7 +46486,7 @@ window.initialRecipes = [
           "Range les paquets en une seule couche dans le panier vapeur, en laissant de petits écarts pour que la vapeur circule.",
           "Couvre et cuis à la vapeur à feu moyen pendant 90 minutes, en vérifiant à mi-cuisson que l'eau n'a pas complètement réduit et en rajoutant de l'eau chaude au besoin. Ils sont prêts quand les feuilles ont viré au vert profond et que le riz est ferme au toucher.",
           "Sors les paquets délicatement et laisse-les refroidir 20 minutes avant de les ouvrir. Le refroidissement fixe la texture et donne une coupe plus nette.",
-          "Déballe les feuilles et coupe chaque paquet en rondelles de 1 pouce pour servir."
+          "Déballe les feuilles et coupe chaque paquet en rondelles de 2.5 cm pour servir."
         ]
       }
     },
@@ -46831,7 +46831,7 @@ window.initialRecipes = [
           "Add the all-purpose flour and rye flour and knead about 10 minutes. A kitchen mixer will do this for you.",
           "Transfer the dough to an oiled loaf pan (2.5 l) and smooth the top with a spatula.",
           "Poke holes in the surface with a fork and cover the pan with plastic wrap. Let it rise 1½ hours at room temperature, or for 24 hours in the refrigerator.",
-          "Heat the oven to 200°C / 392℉ (175°C / 347℉ on fan) and bake on the bottom rack about 75 minutes. Check that the centre is dry, or set an oven thermometer to turn off when the centre reaches 98°C / 208℉.",
+          "Heat the oven to 200 °C (175 °C on fan) and bake on the bottom rack about 75 minutes. Check that the centre is dry, or set an oven thermometer to turn off when the centre reaches 98 °C.",
           "Let the bread cool completely before slicing — cut warm, it will tear. One more thing.",
           "If you let the dough rise in the fridge, stand it at room temperature for 1 hour before baking."
         ]
@@ -46847,7 +46847,7 @@ window.initialRecipes = [
           "Voeg de bloem en het roggemeel toe en kneed ongeveer 10 minuten. Een keukenmachine doet dit voor je.",
           "Doe het deeg in een ingevette cakevorm (2.5 l) en strijk de bovenkant glad met een spatel.",
           "Prik met een vork gaatjes in het oppervlak en dek de vorm af met folie. Laat 1½ uur rijzen op kamertemperatuur, of 24 uur in de koelkast.",
-          "Verwarm de oven op 200°C / 392℉ (175°C / 347℉ met hetelucht) en bak op het onderste rooster ongeveer 75 minuten. Kijk of het midden droog is, of stel een oventhermometer in om af te slaan als het midden 98°C / 208℉ bereikt.",
+          "Verwarm de oven op 200 °C (175 °C met hetelucht) en bak op het onderste rooster ongeveer 75 minuten. Kijk of het midden droog is, of stel een oventhermometer in om af te slaan als het midden 98 °C bereikt.",
           "Laat het brood volledig afkoelen voor je het snijdt — warm gesneden scheurt het. Nog dit.",
           "Laat je het deeg in de koelkast rijzen, zet het dan 1 uur op kamertemperatuur voor je het bakt."
         ]
@@ -46863,7 +46863,7 @@ window.initialRecipes = [
           "Ajoute la farine ordinaire et la farine de seigle, et pétris environ 10 minutes. Un robot ménager le fera pour toi.",
           "Verse la pâte dans un moule à cake huilé (2.5 l) et lisse le dessus à la spatule.",
           "Pique la surface à la fourchette et couvre le moule de film. Laisse lever 1 h ½ à température ambiante, ou 24 heures au réfrigérateur.",
-          "Chauffe le four à 200°C / 392℉ (175°C / 347℉ en chaleur tournante) et cuis sur la grille du bas environ 75 minutes. Vérifie que le centre est sec, ou règle un thermomètre de four pour qu'il coupe quand le cœur atteint 98°C / 208℉.",
+          "Chauffe le four à 200 °C (175 °C en chaleur tournante) et cuis sur la grille du bas environ 75 minutes. Vérifie que le centre est sec, ou règle un thermomètre de four pour qu'il coupe quand le cœur atteint 98 °C.",
           "Laisse le pain refroidir complètement avant de le trancher — coupé chaud, il se déchire. Une dernière chose.",
           "Si tu fais lever la pâte au frigo, laisse-la 1 heure à température ambiante avant d'enfourner."
         ]
@@ -47056,7 +47056,7 @@ window.initialRecipes = [
           "Ajoute le beurre légèrement fondu et mélange.",
           "Ajoute progressivement le lait tiède.",
           "Pétris doucement la pâte à la main.",
-          "La pâte ne doit pas être ferme ; elle doit rester collante.",
+          "La pâte ne doit pas être ferme; elle doit rester collante.",
           "Divise-la en petites boules, de la taille que tu veux.",
           "Laisse les boules reposer 15 à 20 minutes, couvertes d'un torchon ou de film.",
           "Aplatis chacune à la main, en appuyant avec le pouce.",
@@ -47192,7 +47192,7 @@ window.initialRecipes = [
           "Boil the potatoes. Peel them while they are still warm and run them through a potato ricer twice.",
           "Let the potatoes cool in an uncovered bowl in the fridge.",
           "Stir the salt, sugar, melted butter and cream into the riced potatoes.",
-          "Add the flour slowly and knead by hand until the consistency is right. Don't add more flour than you have to. Roll the dough into a long sausage and divide it into about 7 or 8 pieces for an 18 inch griddle, or 10 – 12 for a smaller griddle or frying pan.",
+          "Add the flour slowly and knead by hand until the consistency is right. Don't add more flour than you have to. Roll the dough into a long sausage and divide it into about 7 or 8 pieces for a 46 cm griddle, or 10 – 12 for a smaller griddle or frying pan.",
           "Roll each piece into a ball and press it into a flat circle, using the edges of your hands to shape it into a proper circle with no cracks in the rim. This matters — a cracked edge will never roll out round.",
           "Heat your griddle on medium/high heat.",
           "Flour your rolling surface and roll the lefse into a large circle slightly smaller than your griddle or pan. Start with a smooth rolling pin and switch to a corrugated one as it gets thinner. Don't use too much flour or the edges go hard.",
@@ -47208,7 +47208,7 @@ window.initialRecipes = [
           "Kook de aardappelen. Schil ze terwijl ze nog warm zijn en draai ze twee keer door een aardappelpers.",
           "Laat de aardappelen in een onafgedekte kom afkoelen in de koelkast.",
           "Roer het zout, de suiker, de gesmolten boter en de room door de geperste aardappelen.",
-          "Voeg de bloem langzaam toe en kneed met de hand tot de structuur klopt. Voeg niet meer bloem toe dan je moet. Rol het deeg tot een lange rol en verdeel het in ongeveer 7 of 8 stukken voor een bakplaat van 18 inch, of 10 – 12 voor een kleinere plaat of koekenpan.",
+          "Voeg de bloem langzaam toe en kneed met de hand tot de structuur klopt. Voeg niet meer bloem toe dan je moet. Rol het deeg tot een lange rol en verdeel het in ongeveer 7 of 8 stukken voor een bakplaat van 46 cm, of 10 – 12 voor een kleinere plaat of koekenpan.",
           "Rol elk stuk tot een bal en druk die plat tot een cirkel, met de zijkanten van je handen om er een echte cirkel zonder barsten in de rand van te maken. Dit is belangrijk — een gebarsten rand rolt nooit rond uit.",
           "Verhit je bakplaat op middelhoog tot hoog vuur.",
           "Bebloem je werkblad en rol de lefse uit tot een grote cirkel die net iets kleiner is dan je plaat of pan. Begin met een gladde deegrol en schakel over op een geribde als hij dunner wordt. Gebruik niet te veel bloem, anders worden de randen hard.",
@@ -47224,7 +47224,7 @@ window.initialRecipes = [
           "Cuis les pommes de terre. Épluche-les encore tièdes et passe-les deux fois au presse-purée.",
           "Laisse les pommes de terre refroidir dans un bol découvert au réfrigérateur.",
           "Incorpore le sel, le sucre, le beurre fondu et la crème à la purée pressée.",
-          "Ajoute la farine lentement et pétris à la main jusqu'à obtenir la bonne consistance. N'ajoute pas plus de farine qu'il n'en faut. Roule la pâte en un long boudin et divise-la en 7 ou 8 morceaux pour une plaque de 18 pouces, ou 10 à 12 pour une plaque ou une poêle plus petite.",
+          "Ajoute la farine lentement et pétris à la main jusqu'à obtenir la bonne consistance. N'ajoute pas plus de farine qu'il n'en faut. Roule la pâte en un long boudin et divise-la en 7 ou 8 morceaux pour une plaque de 46 cm, ou 10 à 12 pour une plaque ou une poêle plus petite.",
           "Roule chaque morceau en boule puis aplatis-la en disque, en te servant du tranchant des mains pour former un vrai cercle sans fissures au bord. C'est important — un bord fendu ne s'étalera jamais rond.",
           "Chauffe ta plaque à feu moyen-vif.",
           "Farine ton plan de travail et étale la lefse en un grand disque légèrement plus petit que ta plaque ou ta poêle. Commence avec un rouleau lisse et passe à un rouleau cannelé à mesure qu'elle s'affine. N'utilise pas trop de farine, sinon les bords durcissent.",
@@ -47590,7 +47590,7 @@ window.initialRecipes = [
         "subtitle": "Griddled, then oven-finished until they sound hollow",
         "description": "Only masarepa, water and salt — precooked corn flour with no gluten in it, so there is nothing to knead. The oven is what puffs them, and the tap test tells you when they are done.",
         "instructions": [
-          "Heat the oven to 410° F.",
+          "Heat the oven to 210 °C.",
           "Pour the water into a large bowl. Make sure it is at room temperature.",
           "Add the salt. Blend it well with a mixer, fork or spatula so it dissolves properly.",
           "Keep beating while you add the corn meal slowly, a little at a time.",
@@ -47600,7 +47600,7 @@ window.initialRecipes = [
           "Fill a small bowl with water to wet your hands with as you shape.",
           "Take about 2 Tbsp of masa in your damp hands. It should sit easily in your palm so you can roll it into a small ball.",
           "Cross your hands so one is on top of the other with the ball between them. Rotate your right hand in a circle, which presses the masa flat and keeps it round at the same time.",
-          "Finish by passing the disc quickly from one hand to the other, pressing lightly, until it is about ¾ of an inch thick and 4 inches wide. Smooth the edges with fingertips dipped in the water so they stay round and don't crack.",
+          "Finish by passing the disc quickly from one hand to the other, pressing lightly, until it is about ¾ of an inch thick and 10 cm wide. Smooth the edges with fingertips dipped in the water so they stay round and don't crack.",
           "Cook the arepas in batches on the hot budare or non-stick pan. Let each side turn golden, about 4 to 5 minutes a side, checking often so they don't burn.",
           "Once they are browned both sides, put them on a baking sheet in the heated oven for 10 minutes. They should puff a little — tap one on top and it should sound like an empty box.",
           "Serve them hot, split and stuffed with whatever you like, or plain alongside a Venezuelan guiso or stew."
@@ -47611,7 +47611,7 @@ window.initialRecipes = [
         "subtitle": "Op de plaat gebakken en in de oven afgewerkt tot ze hol klinken",
         "description": "Enkel masarepa, water en zout — voorgekookt maïsmeel zonder gluten, dus er valt niets te kneden. De oven laat ze opbollen, en de kloptest zegt je wanneer ze klaar zijn.",
         "instructions": [
-          "Verwarm de oven op 410° F.",
+          "Verwarm de oven op 210 °C.",
           "Giet het water in een grote kom. Zorg dat het op kamertemperatuur is.",
           "Voeg het zout toe. Meng goed met een mixer, vork of spatel zodat het echt oplost.",
           "Blijf kloppen terwijl je het maïsmeel langzaam toevoegt, beetje bij beetje.",
@@ -47621,7 +47621,7 @@ window.initialRecipes = [
           "Vul een kommetje met water om je handen mee nat te maken tijdens het vormen.",
           "Neem ongeveer 2 el masa in je vochtige handen. Ze hoort makkelijk in je handpalm te liggen zodat je er een balletje van kan rollen.",
           "Kruis je handen zodat de ene op de andere ligt met het balletje ertussen. Draai je rechterhand in een cirkel, wat de masa plat drukt en ze tegelijk rond houdt.",
-          "Werk af door de schijf snel van de ene hand in de andere te laten gaan, licht drukkend, tot ze ongeveer ¾ inch dik en 4 inch breed is. Strijk de randen glad met vingertoppen die je in het water hebt gedoopt zodat ze rond blijven en niet barsten.",
+          "Werk af door de schijf snel van de ene hand in de andere te laten gaan, licht drukkend, tot ze ongeveer 2 cm dik en 10 cm breed is. Strijk de randen glad met vingertoppen die je in het water hebt gedoopt zodat ze rond blijven en niet barsten.",
           "Bak de arepas in porties op de hete budare of antiaanbakpan. Laat elke kant goudbruin worden, ongeveer 4 tot 5 minuten per kant, en kijk vaak zodat ze niet verbranden.",
           "Leg ze zodra ze aan beide kanten gekleurd zijn op een bakplaat in de warme oven gedurende 10 minuten. Ze horen wat op te bollen — tik er bovenop en het moet klinken als een lege doos.",
           "Dien ze heet op, opengesneden en gevuld met wat je maar wil, of gewoon naast een Venezolaanse guiso of stoofpot."
@@ -47632,7 +47632,7 @@ window.initialRecipes = [
         "subtitle": "Saisies à la plaque, finies au four jusqu'à ce qu'elles sonnent creux",
         "description": "Rien que de la masarepa, de l'eau et du sel — une farine de maïs précuite sans gluten, donc rien à pétrir. C'est le four qui les fait gonfler, et le petit coup sur le dessus qui dit qu'elles sont prêtes.",
         "instructions": [
-          "Chauffe le four à 410° F.",
+          "Chauffe le four à 210 °C.",
           "Verse l'eau dans un grand bol. Assure-toi qu'elle est à température ambiante.",
           "Ajoute le sel. Mélange bien au batteur, à la fourchette ou à la spatule pour qu'il se dissolve vraiment.",
           "Continue de battre en ajoutant la farine de maïs lentement, petit à petit.",
@@ -47642,7 +47642,7 @@ window.initialRecipes = [
           "Remplis un petit bol d'eau pour humidifier tes mains pendant le façonnage.",
           "Prends environ 2 c. à soupe de masa dans tes mains humides. Elle doit tenir facilement dans la paume pour que tu puisses la rouler en petite boule.",
           "Croise tes mains, l'une sur l'autre, la boule entre les deux. Fais tourner ta main droite en cercle : cela aplatit la masa et la garde ronde en même temps.",
-          "Termine en faisant passer le disque rapidement d'une main à l'autre, en pressant légèrement, jusqu'à environ ¾ de pouce d'épaisseur et 4 pouces de large. Lisse les bords du bout des doigts trempés dans l'eau pour qu'ils restent ronds et ne se fendent pas.",
+          "Termine en faisant passer le disque rapidement d'une main à l'autre, en pressant légèrement, jusqu'à environ 2 cm d'épaisseur et 10 cm de large. Lisse les bords du bout des doigts trempés dans l'eau pour qu'ils restent ronds et ne se fendent pas.",
           "Cuis les arepas par fournées sur le budare chaud ou la poêle antiadhésive. Laisse chaque face dorer, environ 4 à 5 minutes par face, en surveillant souvent pour qu'elles ne brûlent pas.",
           "Une fois dorées des deux côtés, pose-les sur une plaque au four chaud pendant 10 minutes. Elles doivent gonfler un peu — tapote le dessus, cela doit sonner comme une boîte vide.",
           "Sers les arepas chaudes, ouvertes et garnies de ce que tu veux, ou nature à côté d'un guiso ou d'un ragoût vénézuélien."
@@ -48312,7 +48312,7 @@ window.initialRecipes = [
           "Line a baking sheet with baking parchment. Turn the dough out onto a clean surface and divide it into three equal pieces, weighing them if you want to be exact. Roll each into a long sausage about 25cm long, tapering slightly at both ends.",
           "Lay the pieces in front of you, parallel and a couple of centimetres apart. Pinch them together at the top, then plait down the length, tucking the ends under when you reach the bottom.",
           "Carefully move the loaf to the prepared sheet and cover it loosely with a clean tea towel. Leave it to rise until puffy and billowy, about 40 mins.",
-          "Meanwhile, heat the oven to 200C/180C fan/gas 6. Gently brush the rest of the beaten egg all over the challah, working it into all the crevices so the folds don't bake pale, and sprinkle with the poppy or sesame seeds if you are using them.",
+          "Meanwhile, heat the oven to 200 °C / 180 °C fan. Gently brush the rest of the beaten egg all over the challah, working it into all the crevices so the folds don't bake pale, and sprinkle with the poppy or sesame seeds if you are using them.",
           "Bake on a middle shelf for 25-30 mins, until the loaf is golden brown underneath and sounds hollow when tapped. Check after about 15 mins and cover the top with foil if it is getting too dark. Cool it on a wire rack, then serve."
         ]
       },
@@ -48330,7 +48330,7 @@ window.initialRecipes = [
           "Bekleed een bakplaat met bakpapier. Stort het deeg op een proper werkblad en verdeel het in drie gelijke stukken, gewogen als je exact wil zijn. Rol elk stuk tot een lange streng van ongeveer 25cm, aan beide uiteinden lichtjes toelopend.",
           "Leg de strengen voor je, parallel en een paar centimeter uit elkaar. Knijp ze bovenaan samen en vlecht ze dan over de hele lengte, met de uiteinden onderaan naar onder gestopt.",
           "Verplaats het brood voorzichtig naar de voorbereide plaat en dek het losjes af met een propere theedoek. Laat het rijzen tot het bol en donzig staat, ongeveer 40 min.",
-          "Verwarm ondertussen de oven op 200C/180C hetelucht/gas 6. Bestrijk de challah voorzichtig helemaal met de rest van het losgeklopte ei en werk het in alle groeven zodat de plooien niet bleek bakken, en bestrooi met maanzaad of sesamzaad als je die gebruikt.",
+          "Verwarm ondertussen de oven op 200 °C / 180 °C hetelucht. Bestrijk de challah voorzichtig helemaal met de rest van het losgeklopte ei en werk het in alle groeven zodat de plooien niet bleek bakken, en bestrooi met maanzaad of sesamzaad als je die gebruikt.",
           "Bak op een middelste rooster 25-30 min, tot het brood aan de onderkant goudbruin is en hol klinkt als je erop tikt. Kijk na een minuut of 15 en dek de bovenkant af met folie als hij te donker wordt. Laat afkoelen op een rooster en dien op."
         ]
       },
@@ -48348,7 +48348,7 @@ window.initialRecipes = [
           "Chemise une plaque de papier cuisson. Renverse la pâte sur un plan propre et divise-la en trois morceaux égaux, pesés si tu veux être précis. Roule chacun en un long boudin d'environ 25cm, légèrement effilé aux deux bouts.",
           "Dispose les boudins devant toi, parallèles et espacés de quelques centimètres. Pince-les ensemble en haut, puis tresse sur toute la longueur, en glissant les bouts dessous en bas.",
           "Transfère délicatement la tresse sur la plaque préparée et couvre-la sans serrer d'un torchon propre. Laisse lever jusqu'à ce qu'elle soit gonflée et souple, environ 40 min.",
-          "Pendant ce temps, chauffe le four à 200C/180C chaleur tournante/gas 6. Badigeonne doucement toute la challah du reste de l'œuf battu, en le faisant entrer dans tous les creux pour que les plis ne cuisent pas pâles, et parsème de graines de pavot ou de sésame si tu en mets.",
+          "Pendant ce temps, chauffe le four à 200 °C / 180 °C chaleur tournante. Badigeonne doucement toute la challah du reste de l'œuf battu, en le faisant entrer dans tous les creux pour que les plis ne cuisent pas pâles, et parsème de graines de pavot ou de sésame si tu en mets.",
           "Cuis sur une grille du milieu 25 à 30 min, jusqu'à ce que le pain soit doré dessous et sonne creux quand on le tapote. Vérifie après 15 min environ et couvre le dessus d'aluminium s'il fonce trop. Laisse refroidir sur une grille, puis sers."
         ]
       }
@@ -48467,7 +48467,7 @@ window.initialRecipes = [
           "First, the pastry dough.",
           "To a large bowl, add the flour, 1 teaspoon salt and turmeric and mix thoroughly.",
           "Rub the shortening into the flour until there are small pieces of shortening completely coated in flour.",
-          "Pour in 1/2 cup of the ice water and mix with your hands to bring the dough together. Keep adding ice water 2 to 3 tablespoons at a time until it forms a dough.",
+          "Pour in 120 ml of the ice water and mix with your hands to bring the dough together. Keep adding ice water 2 to 3 tablespoons at a time until it forms a dough.",
           "At this point you can cut the dough into 2 large pieces, wrap them in plastic and refrigerate 30 minutes before using.",
           "Or cut it into 10 to 12 equal pieces, lay them on a platter or baking sheet, cover securely with plastic wrap and chill 30 minutes while you make the filling. Now the filling.",
           "Put the ground beef in a large bowl. Sprinkle in the allspice and black pepper. Mix together and set aside.",
@@ -48475,18 +48475,18 @@ window.initialRecipes = [
           "Add the onions and sauté until translucent. Add the hot pepper, garlic and thyme and sauté another minute. Add 1/4 teaspoon salt.",
           "Add the seasoned beef and toss to mix, breaking up the clumps, and cook until the meat is no longer pink.",
           "Add the ketchup and more salt to taste.",
-          "Pour in 2 cups of water and stir. Bring it to the boil, then lower the heat and simmer until most of the liquid has gone and what is left has reduced to a thick sauce.",
+          "Pour in 480 ml of water and stir. Bring it to the boil, then lower the heat and simmer until most of the liquid has gone and what is left has reduced to a thick sauce.",
           "Fold in the green onions. Take it off the heat and let it cool completely — warm filling will melt the pastry as you fold it. Now assemble.",
           "Beat the egg and water together to make an egg wash and set it aside.",
           "There are two ways to work the dough from here.",
-          "First method: flour the work surface and rolling pin. If you cut it into 2 large pieces, take one and roll it into a very large circle. Take a bowl with a wide rim, about 5 inches, and cut out three circles.",
+          "First method: flour the work surface and rolling pin. If you cut it into 2 large pieces, take one and roll it into a very large circle. Take a bowl with a wide rim, about 13 cm, and cut out three circles.",
           "Put about 3 heaping tablespoons of filling onto 1/2 of each circle. Dip a finger in water and moisten the edges. Fold the other half over and press to seal.",
           "Crimp the edges with a fork and trim off any excess so they look neat and even. Lay them on a parchment-lined baking sheet and carry on until all the dough is rolled and all the patties filled.",
-          "Second method: if you cut the dough into individual pieces, work one at a time. Roll it out on a floured surface into a 5-inch circle or a little bigger. Don't worry if the edges aren't perfect.",
+          "Second method: if you cut the dough into individual pieces, work one at a time. Roll it out on a floured surface into a 13 cm circle or a little bigger. Don't worry if the edges aren't perfect.",
           "Put 3 heaping tablespoons of filling on one side of the circle. Dip a finger in water and moisten the edges. Fold the other half over and press to seal.",
           "Crimp the edges with a fork and trim off any excess. Lay them on a parchment-lined baking sheet and carry on until all the dough is rolled and all the patties filled.",
           "Now bake and serve.",
-          "Once they are formed, put the pans in the refrigerator while you heat the oven to 350 F.",
+          "Once they are formed, put the pans in the refrigerator while you heat the oven to 180 °C.",
           "Brush the patties with the egg wash just before the pans go in.",
           "Bake 30 minutes, or until golden brown. Cool on wire racks and serve warm."
         ]
@@ -48499,7 +48499,7 @@ window.initialRecipes = [
           "Eerst het deeg.",
           "Doe de bloem, 1 theelepel zout en de kurkuma in een grote kom en meng grondig.",
           "Wrijf het bakvet door de bloem tot er kleine stukjes bakvet zijn die volledig met bloem bedekt zijn.",
-          "Giet er 1/2 kopje ijswater bij en meng met je handen tot het deeg samenkomt. Blijf ijswater toevoegen, 2 tot 3 eetlepels per keer, tot het een deeg vormt.",
+          "Giet er 120 ml ijswater bij en meng met je handen tot het deeg samenkomt. Blijf ijswater toevoegen, 2 tot 3 eetlepels per keer, tot het een deeg vormt.",
           "Op dit punt kan je het deeg in 2 grote stukken snijden, ze in plastic wikkelen en 30 minuten in de koelkast leggen voor gebruik.",
           "Of snijd het in 10 tot 12 gelijke stukken, leg ze op een schaal of bakplaat, dek goed af met folie en zet ze 30 minuten koud terwijl je de vulling maakt. Nu de vulling.",
           "Doe het rundergehakt in een grote kom. Strooi er de piment en de zwarte peper over. Meng door elkaar en zet opzij.",
@@ -48507,18 +48507,18 @@ window.initialRecipes = [
           "Voeg de uien toe en fruit ze tot ze glazig zijn. Voeg de hete peper, de knoflook en de tijm toe en bak nog een minuut. Voeg 1/4 theelepel zout toe.",
           "Voeg het gekruide gehakt toe en schep om, terwijl je de klonters losbreekt, en bak tot het vlees niet meer rood is.",
           "Voeg de ketchup en naar smaak meer zout toe.",
-          "Giet er 2 kopjes water bij en roer. Breng aan de kook, zet dan lager en laat sudderen tot het meeste vocht weg is en wat overblijft tot een dikke saus is ingekookt.",
+          "Giet er 480 ml water bij en roer. Breng aan de kook, zet dan lager en laat sudderen tot het meeste vocht weg is en wat overblijft tot een dikke saus is ingekookt.",
           "Spatel de lente-ui erdoor. Haal van het vuur en laat volledig afkoelen — warme vulling smelt het deeg terwijl je vouwt. Nu opbouwen.",
           "Klop het ei en het water samen tot een eierwas en zet die opzij.",
           "Vanaf hier kan je het deeg op twee manieren aanpakken.",
-          "Eerste manier: bebloem het werkblad en de deegrol. Heb je het in 2 grote stukken gesneden, neem er dan één en rol het uit tot een heel grote cirkel. Neem een kom met een brede rand, ongeveer 5 inch, en steek er drie cirkels mee uit.",
+          "Eerste manier: bebloem het werkblad en de deegrol. Heb je het in 2 grote stukken gesneden, neem er dan één en rol het uit tot een heel grote cirkel. Neem een kom met een brede rand, ongeveer 13 cm, en steek er drie cirkels mee uit.",
           "Doe ongeveer 3 volle eetlepels vulling op 1/2 van elke cirkel. Doop een vinger in water en bevochtig de randen. Vouw de andere helft eroverheen en druk aan om te sluiten.",
           "Kartel de randen met een vork en snijd het teveel weg zodat ze er netjes en gelijk uitzien. Leg ze op een met bakpapier beklede bakplaat en ga door tot al het deeg uitgerold en alle pasteitjes gevuld zijn.",
-          "Tweede manier: heb je het deeg in aparte stukken gesneden, werk dan één stuk per keer. Rol het op een bebloemd werkblad uit tot een cirkel van 5 inch of iets groter. Geen zorgen als de randen niet perfect zijn.",
+          "Tweede manier: heb je het deeg in aparte stukken gesneden, werk dan één stuk per keer. Rol het op een bebloemd werkblad uit tot een cirkel van 13 cm of iets groter. Geen zorgen als de randen niet perfect zijn.",
           "Doe 3 volle eetlepels vulling op één kant van de cirkel. Doop een vinger in water en bevochtig de randen. Vouw de andere helft eroverheen en druk aan om te sluiten.",
           "Kartel de randen met een vork en snijd het teveel weg. Leg ze op een met bakpapier beklede bakplaat en ga door tot al het deeg uitgerold en alle pasteitjes gevuld zijn.",
           "Nu bakken en opdienen.",
-          "Zet de platen, zodra de pasteitjes gevormd zijn, in de koelkast terwijl je de oven op 350 F verwarmt.",
+          "Zet de platen, zodra de pasteitjes gevormd zijn, in de koelkast terwijl je de oven op 180 °C verwarmt.",
           "Bestrijk de pasteitjes met de eierwas net voor de platen erin gaan.",
           "Bak 30 minuten, of tot ze goudbruin zijn. Laat afkoelen op roosters en dien lauw op."
         ]
@@ -48526,12 +48526,12 @@ window.initialRecipes = [
       "fr": {
         "title": "Jamaican Beef Patties",
         "subtitle": "Du curcuma dans la pâte, du piment de la Jamaïque dans le bœuf",
-        "description": "La pâte est jaune de curcuma et sablée par le shortening ; la farce est du bœuf mijoté au piment de la Jamaïque et au thym jusqu'à ce que le liquide ait disparu. Les deux moitiés doivent être froides au montage.",
+        "description": "La pâte est jaune de curcuma et sablée par le shortening; la farce est du bœuf mijoté au piment de la Jamaïque et au thym jusqu'à ce que le liquide ait disparu. Les deux moitiés doivent être froides au montage.",
         "instructions": [
           "D'abord, la pâte.",
           "Dans un grand bol, mets la farine, 1 cuillère à café de sel et le curcuma et mélange soigneusement.",
           "Sable le shortening dans la farine jusqu'à obtenir de petits morceaux entièrement enrobés de farine.",
-          "Verse 1/2 tasse d'eau glacée et mélange à la main pour rassembler la pâte. Continue d'ajouter de l'eau glacée, 2 à 3 cuillères à soupe à la fois, jusqu'à obtenir une pâte.",
+          "Verse 120 ml d'eau glacée et mélange à la main pour rassembler la pâte. Continue d'ajouter de l'eau glacée, 2 à 3 cuillères à soupe à la fois, jusqu'à obtenir une pâte.",
           "À ce stade, tu peux couper la pâte en 2 gros morceaux, les emballer dans du film et réfrigérer 30 minutes avant usage.",
           "Ou coupe-la en 10 à 12 morceaux égaux, pose-les sur un plat ou une plaque, couvre bien de film et réfrigère 30 minutes pendant que tu prépares la farce. La farce maintenant.",
           "Mets le bœuf haché dans un grand bol. Saupoudre le piment de la Jamaïque et le poivre noir. Mélange et réserve.",
@@ -48539,18 +48539,18 @@ window.initialRecipes = [
           "Ajoute les oignons et fais-les revenir jusqu'à ce qu'ils soient translucides. Ajoute le piment fort, l'ail et le thym et poursuis une minute. Ajoute 1/4 de cuillère à café de sel.",
           "Ajoute le bœuf assaisonné et mélange en défaisant les grumeaux, et cuis jusqu'à ce que la viande ne soit plus rosée.",
           "Ajoute le ketchup et du sel selon ton goût.",
-          "Verse 2 tasses d'eau et remue. Porte à ébullition, puis baisse le feu et laisse mijoter jusqu'à ce que le plus gros du liquide se soit évaporé et que le reste soit réduit en sauce épaisse.",
+          "Verse 480 ml d'eau et remue. Porte à ébullition, puis baisse le feu et laisse mijoter jusqu'à ce que le plus gros du liquide se soit évaporé et que le reste soit réduit en sauce épaisse.",
           "Incorpore les oignons verts. Retire du feu et laisse refroidir complètement — une farce tiède fera fondre la pâte au pliage. Le montage maintenant.",
           "Bats l'œuf et l'eau ensemble pour la dorure et réserve.",
           "À partir d'ici, deux façons de travailler la pâte.",
-          "Première méthode : farine le plan de travail et le rouleau. Si tu l'as coupée en 2 gros morceaux, prends-en un et étale-le en un très grand cercle. Prends un bol à bord large, environ 5 pouces, et découpe trois disques.",
+          "Première méthode : farine le plan de travail et le rouleau. Si tu l'as coupée en 2 gros morceaux, prends-en un et étale-le en un très grand cercle. Prends un bol à bord large, environ 13 cm, et découpe trois disques.",
           "Dépose environ 3 grosses cuillères à soupe de farce sur 1/2 de chaque disque. Trempe un doigt dans l'eau et humidifie les bords. Rabats l'autre moitié et presse pour souder.",
           "Cannelle les bords à la fourchette et recoupe l'excédent pour que ce soit net et régulier. Pose-les sur une plaque chemisée et continue jusqu'à ce que toute la pâte soit étalée et tous les chaussons garnis.",
-          "Deuxième méthode : si tu as prédécoupé la pâte en morceaux, travaille un morceau à la fois. Étale-le sur un plan fariné en un disque de 5 pouces ou un peu plus. Peu importe si les bords ne sont pas parfaits.",
+          "Deuxième méthode : si tu as prédécoupé la pâte en morceaux, travaille un morceau à la fois. Étale-le sur un plan fariné en un disque de 13 cm ou un peu plus. Peu importe si les bords ne sont pas parfaits.",
           "Dépose 3 grosses cuillères à soupe de farce sur une moitié du disque. Trempe un doigt dans l'eau et humidifie les bords. Rabats l'autre moitié et presse pour souder.",
           "Cannelle les bords à la fourchette et recoupe l'excédent. Pose-les sur une plaque chemisée et continue jusqu'à ce que toute la pâte soit étalée et tous les chaussons garnis.",
           "La cuisson et le service maintenant.",
-          "Une fois les chaussons formés, mets les plaques au réfrigérateur pendant que tu chauffes le four à 350 F.",
+          "Une fois les chaussons formés, mets les plaques au réfrigérateur pendant que tu chauffes le four à 180 °C.",
           "Badigeonne les chaussons de dorure juste avant d'enfourner.",
           "Cuis 30 minutes, ou jusqu'à ce qu'ils soient bien dorés. Laisse refroidir sur des grilles et sers tiède."
         ]
@@ -48835,7 +48835,7 @@ window.initialRecipes = [
         "instructions": [
           "Fais d'abord cuire le riz huit minutes. Pendant ce temps, épluche et hache finement l'oignon, puis hache les herbes.",
           "Hache grossièrement ou écrase légèrement les pois chiches pour qu'ils s'intègrent à la farce au lieu d'y rester en billes entières.",
-          "Hache maintenant l'agneau — un petit robot le fait sans peine. Hache la graisse d'agneau avec ; ça n'a l'air de rien et c'est exactement ce qui rend la farce juteuse. La graisse d'agneau ne fond pas simplement à la vapeur comme on pourrait l'espérer, donc la hacher finement est ce qui la répartit dans la farce.",
+          "Hache maintenant l'agneau — un petit robot le fait sans peine. Hache la graisse d'agneau avec; ça n'a l'air de rien et c'est exactement ce qui rend la farce juteuse. La graisse d'agneau ne fond pas simplement à la vapeur comme on pourrait l'espérer, donc la hacher finement est ce qui la répartit dans la farce.",
           "Plonge les mains dans la viande crue et mélange l'oignon, les épices, les pois chiches, le riz, les herbes hachées et la graisse. Ajoute sel et poivre, et sois plutôt généreux — cette farce en demande plus qu'on ne croit.",
           "Mélange bien à la main jusqu'à ce que la farce soit parfaitement homogène.",
           "Remplis la plus grande casserole que tu as d'eau salée et porte à ébullition à feu vif. Détache les feuilles extérieures du chou et garde-les, puis plonge le reste entier. Laisse bouillir trois ou quatre minutes, en le retournant si l'eau ne le couvre pas tout à fait.",
@@ -48846,7 +48846,7 @@ window.initialRecipes = [
           "Dépose une grosse cuillère à soupe de farce au milieu de chaque feuille, en petit boudin. Rabats les extrémités sur la farce, puis roule serré, comme un tout petit burrito.",
           "Mets toutes les feuilles et côtes écartées au fond d'une marmite. Cela paraît étrange, mais tu construis un cuit-vapeur : les chutes font le fond et les dolmas reposent dessus. Dépose les dolmas avec soin sur ce lit.",
           "Ajoute de l'eau dans la marmite jusqu'au sommet des feuilles écartées environ. Ne recouvre pas les dolmas eux-mêmes.",
-          "Improvise maintenant un poids. Les dolmas doivent être maintenus ou ils se déroulent à la cuisson. Un moule à tarte en métal avec quelque chose de lourd dessus convient ; une assiette à dessert résistante lestée aussi.",
+          "Improvise maintenant un poids. Les dolmas doivent être maintenus ou ils se déroulent à la cuisson. Un moule à tarte en métal avec quelque chose de lourd dessus convient; une assiette à dessert résistante lestée aussi.",
           "Porte l'eau à ébullition, puis laisse frémir 25 minutes. Il te faudra peut-être te fier à l'oreille pour savoir si ça bout, puisque le poids cache tout.",
           "Pendant ce temps, fais une simple sauce tomate avec le concentré et de l'eau et chauffe-la quelques minutes à feu moyen. Une fois les 25 minutes des dolmas écoulées, verse la sauce dessus et cuis encore cinq minutes."
         ]
@@ -49103,7 +49103,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Belgian Meatballs in Liège Syrup Sauce",
         "subtitle": "Des boulets à la liégeoise, aigres-doux au sirop de Liège",
-        "description": "La boulette de Liège, mijotée dans une sauce d'oignons caramélisés, de vinaigre et du sirop sombre de pommes et de poires qui a fait la réputation de la ville. Le sucré contre l'acide fait tout l'équilibre ; goûte et penche à ta façon.",
+        "description": "La boulette de Liège, mijotée dans une sauce d'oignons caramélisés, de vinaigre et du sirop sombre de pommes et de poires qui a fait la réputation de la ville. Le sucré contre l'acide fait tout l'équilibre; goûte et penche à ta façon.",
         "instructions": [
           "D'abord, les boulettes.",
           "Mélange la viande hachée avec l'oignon, l'ail, l'œuf, la chapelure, la moutarde, le persil, le sel et le poivre.",
@@ -49382,16 +49382,16 @@ window.initialRecipes = [
         "subtitle": "Two hours in a low oven, finished with gremolata",
         "description": "Veal shanks braised until the meat gives up the bone and the marrow goes soft inside it. Half the gremolata goes on for the last fifteen minutes, half at the table — the hot sauce sets it off.",
         "instructions": [
-          "Heat the oven to 300 degrees.",
+          "Heat the oven to 150 °C.",
           "Dredging the shanks: pour the flour into a shallow dish — a pie plate is ideal. Season the veal shanks all over with salt and pepper. One at a time, roll each shank in the flour, then shake and pat it to knock off the excess. Throw the leftover flour away.",
-          "Browning the shanks: put the oil and 1 tablespoon of the butter in a wide Dutch oven or heavy braising pot, 6 to 7 quart, and heat it over medium-high heat.",
+          "Browning the shanks: put the oil and 1 tablespoon of the butter in a wide Dutch oven or heavy braising pot, 6 to 7 litre, and heat it over medium-high heat.",
           "When the butter has melted and the oil is shimmering, lower the shanks in flat side down. If they won't fit without touching, do it in batches. Brown them, turning once with tongs, until both flat sides are well caramelized, about 5 minutes a side.",
           "If the butter and oil start to burn, lower the heat a little. Move the shanks to a large platter or tray and set them aside.",
           "The aromatics: pour off and discard the fat. Wipe out any burnt bits with a damp paper towel, being careful to leave the good caramelized ones behind. Add the remaining 2 tablespoons butter and melt it over medium heat.",
           "When the butter has stopped foaming, add the onion, carrot, celery and fennel. Season with salt and pepper, stir, and cook until the vegetables begin to soften but do not brown, about 6 minutes. Stir in the garlic, orange zest, marjoram and bay leaf and stew another minute or two.",
-          "The braising liquid: add the wine, turn the heat to high and bring it to the boil. Boil, stirring occasionally, until the wine has reduced by about half, 5 minutes. Add the stock and tomatoes with their juice and boil again to reduce the liquid to about 1 cup in total, about 10 minutes.",
+          "The braising liquid: add the wine, turn the heat to high and bring it to the boil. Boil, stirring occasionally, until the wine has reduced by about half, 5 minutes. Add the stock and tomatoes with their juice and boil again to reduce the liquid to about 240 ml in total, about 10 minutes.",
           "The braise: set the shanks in the pot with the exposed bone facing up, and pour over any juices that collected while they sat. Cover with parchment paper, pressing it down so it nearly touches the veal and the edges hang an inch over the sides of the pot.",
-          "Cover tightly with the lid and slide it into the lower part of the oven to braise at a gentle simmer. Check after the first 15 minutes, and if it is simmering too hard, drop the oven by 10 or 15 degrees.",
+          "Cover tightly with the lid and slide it into the lower part of the oven to braise at a gentle simmer. Check after the first 15 minutes, and if it is simmering too hard, drop the oven by 5 or 10 degrees.",
           "Carry on braising, turning the shanks and spooning pan juices over them after the first 40 minutes, until the meat is completely tender and pulling away from the bone, about 2 hours.",
           "The gremolata: while the shanks braise, stir the garlic, parsley and lemon zest together in a small bowl. Cover with plastic wrap and keep it somewhere cool, or the fridge if your kitchen is warm.",
           "The finish: when the veal is fork-tender and falling off the bone, take the lid off and scatter over half the gremolata. Put it back in the oven uncovered for another 15 minutes to caramelize.",
@@ -49408,16 +49408,16 @@ window.initialRecipes = [
         "subtitle": "Twee uur in een lage oven, afgewerkt met gremolata",
         "description": "Kalfsschenkel gesmoord tot het vlees het bot loslaat en het merg erin zacht wordt. De helft van de gremolata gaat erop voor de laatste kwartier, de helft aan tafel — de hete saus doet ze opengaan.",
         "instructions": [
-          "Verwarm de oven op 300 graden.",
+          "Verwarm de oven op 150 °C.",
           "De schenkels bebloemen: giet de bloem in een ondiepe schaal — een taartvorm is ideaal. Kruid de kalfsschenkels rondom met zout en peper. Rol ze één voor één door de bloem, en schud en klop het teveel eraf. Gooi de resterende bloem weg.",
-          "De schenkels bruinen: doe de olie en 1 eetlepel van de boter in een brede braadpan of zware stoofpot van 6 tot 7 quart en verhit op middelhoog vuur.",
+          "De schenkels bruinen: doe de olie en 1 eetlepel van de boter in een brede braadpan of zware stoofpot van 6 tot 7 litre en verhit op middelhoog vuur.",
           "Laat de schenkels, zodra de boter gesmolten is en de olie glanst, met de platte kant naar beneden in de pan zakken. Passen ze niet zonder elkaar te raken, doe het dan in porties. Bruin ze en draai ze één keer met een tang, tot beide platte kanten goed gekarameliseerd zijn, ongeveer 5 minuten per kant.",
           "Beginnen de boter en de olie te verbranden, zet het vuur dan iets lager. Leg de schenkels op een grote schaal en zet ze opzij.",
           "De aromaten: giet het vet af en gooi het weg. Veeg de verbrande stukjes weg met een vochtig stuk keukenpapier en let erop dat je de goede gekarameliseerde stukjes laat zitten. Voeg de resterende 2 eetlepels boter toe en smelt ze op middelhoog vuur.",
           "Voeg, als de boter niet meer schuimt, de ui, de wortel, de selder en de venkel toe. Kruid met zout en peper, roer, en bak tot de groenten beginnen te verzachten maar niet kleuren, ongeveer 6 minuten. Roer de knoflook, de sinaasappelzeste, de marjolein en het laurierblad erdoor en stoof nog een minuut of twee.",
-          "Het smoorvocht: voeg de wijn toe, zet het vuur hoog en breng aan de kook. Kook, af en toe roerend, tot de wijn ongeveer gehalveerd is, 5 minuten. Voeg de bouillon en de tomaten met hun sap toe en kook opnieuw in tot er in totaal ongeveer 1 kopje vocht over is, ongeveer 10 minuten.",
+          "Het smoorvocht: voeg de wijn toe, zet het vuur hoog en breng aan de kook. Kook, af en toe roerend, tot de wijn ongeveer gehalveerd is, 5 minuten. Voeg de bouillon en de tomaten met hun sap toe en kook opnieuw in tot er in totaal ongeveer 240 ml vocht over is, ongeveer 10 minuten.",
           "Het smoren: zet de schenkels in de pan met het blootliggende bot naar boven en giet er het vocht over dat is vrijgekomen terwijl ze stonden. Dek af met bakpapier en druk het aan zodat het het kalfsvlees bijna raakt en de randen een inch over de rand van de pan hangen.",
-          "Sluit goed af met het deksel en schuif de pan in het onderste deel van de oven om zachtjes te smoren. Kijk na de eerste 15 minuten, en zet de oven 10 of 15 graden lager als het te hard borrelt.",
+          "Sluit goed af met het deksel en schuif de pan in het onderste deel van de oven om zachtjes te smoren. Kijk na de eerste 15 minuten, en zet de oven 5 of 10 graden lager als het te hard borrelt.",
           "Smoor verder, draai de schenkels en lepel er na de eerste 40 minuten wat braadvocht over, tot het vlees helemaal zacht is en van het bot loslaat, ongeveer 2 uur.",
           "De gremolata: roer terwijl de schenkels smoren de knoflook, de peterselie en de citroenzeste door elkaar in een kommetje. Dek af met folie en zet koel weg, of in de koelkast als je keuken warm is.",
           "Afwerken: haal, als het kalfsvlees zacht is en van het bot valt, het deksel eraf en strooi de helft van de gremolata erover. Zet het nog 15 minuten onafgedekt terug in de oven om te karameliseren.",
@@ -49434,16 +49434,16 @@ window.initialRecipes = [
         "subtitle": "Deux heures dans un four doux, fini à la gremolata",
         "description": "Des jarrets de veau braisés jusqu'à ce que la viande quitte l'os et que la moelle s'attendrisse dedans. La moitié de la gremolata entre pour le dernier quart d'heure, l'autre à table — la sauce brûlante la fait éclater.",
         "instructions": [
-          "Chauffe le four à 300 degrés.",
+          "Chauffe le four à 150 °C.",
           "Fariner les jarrets : verse la farine dans un plat creux — un moule à tarte convient parfaitement. Assaisonne les jarrets de sel et de poivre sur toutes les faces. Un à un, roule-les dans la farine, puis secoue et tapote pour ôter l'excédent. Jette la farine restante.",
-          "Colorer les jarrets : mets l'huile et 1 cuillère à soupe de beurre dans une cocotte large ou une braisière épaisse de 6 à 7 quarts et chauffe à feu moyen-vif.",
+          "Colorer les jarrets : mets l'huile et 1 cuillère à soupe de beurre dans une cocotte large ou une braisière épaisse de 6 à 7 litre et chauffe à feu moyen-vif.",
           "Quand le beurre a fondu et que l'huile miroite, dépose les jarrets côté plat dessous. S'ils ne tiennent pas sans se toucher, procède en plusieurs fois. Colore-les en les retournant une fois à la pince, jusqu'à ce que les deux faces plates soient bien caramélisées, environ 5 minutes par face.",
           "Si le beurre et l'huile commencent à brûler, baisse un peu le feu. Transfère les jarrets sur un grand plat et réserve.",
           "Les aromates : verse et jette la graisse. Essuie les parties brûlées avec un papier humide, en prenant soin de laisser les bons sucs caramélisés. Ajoute les 2 cuillères à soupe de beurre restantes et fais-les fondre à feu moyen.",
           "Quand le beurre a cessé de mousser, ajoute l'oignon, la carotte, le céleri et le fenouil. Assaisonne de sel et de poivre, remue, et cuis jusqu'à ce que les légumes commencent à fondre sans colorer, environ 6 minutes. Incorpore l'ail, le zeste d'orange, la marjolaine et le laurier et laisse compoter une minute ou deux.",
-          "Le liquide de braisage : ajoute le vin, monte le feu à vif et porte à ébullition. Fais bouillir en remuant de temps en temps jusqu'à réduction de moitié environ, 5 minutes. Ajoute le bouillon et les tomates avec leur jus et fais bouillir de nouveau pour réduire le tout à environ 1 tasse, environ 10 minutes.",
+          "Le liquide de braisage : ajoute le vin, monte le feu à vif et porte à ébullition. Fais bouillir en remuant de temps en temps jusqu'à réduction de moitié environ, 5 minutes. Ajoute le bouillon et les tomates avec leur jus et fais bouillir de nouveau pour réduire le tout à environ 240 ml, environ 10 minutes.",
           "Le braisage : place les jarrets dans la cocotte, l'os apparent vers le haut, et verse dessus les jus rendus pendant l'attente. Couvre de papier cuisson en l'appuyant pour qu'il touche presque le veau et que les bords dépassent d'un pouce.",
-          "Couvre hermétiquement du couvercle et glisse dans la partie basse du four pour braiser à petit frémissement. Vérifie après les 15 premières minutes, et si ça frémit trop fort, baisse le four de 10 ou 15 degrés.",
+          "Couvre hermétiquement du couvercle et glisse dans la partie basse du four pour braiser à petit frémissement. Vérifie après les 15 premières minutes, et si ça frémit trop fort, baisse le four de 5 ou 10 degrés.",
           "Poursuis le braisage, en retournant les jarrets et en les arrosant de jus après les 40 premières minutes, jusqu'à ce que la viande soit parfaitement tendre et se détache de l'os, environ 2 heures.",
           "La gremolata : pendant que les jarrets braisent, mélange l'ail, le persil et le zeste de citron dans un petit bol. Couvre de film et garde au frais, ou au réfrigérateur si ta cuisine est chaude.",
           "La finition : quand le veau se défait à la fourchette et quitte l'os, retire le couvercle et parsème la moitié de la gremolata. Remets au four à découvert 15 minutes de plus pour caraméliser.",
@@ -49957,7 +49957,7 @@ window.initialRecipes = [
           "Then add the tomatoes and sauté until they are cooked but not mushy.",
           "Add the red chilli powder, biryani powder, mint and coriander leaves and sauté well.",
           "Add the yogurt and mix well. Move the pan off the heat as you add it — that is what stops the yogurt splitting.",
-          "Back on the stove, add the washed lamb, salt and ½ cup water and mix well. Cook covered on medium-low heat for 1 hour, or 6 whistles in a pressure cooker. If any liquid is left, cook it off uncovered.",
+          "Back on the stove, add the washed lamb, salt and 120 ml water and mix well. Cook covered on medium-low heat for 1 hour, or 6 whistles in a pressure cooker. If any liquid is left, cook it off uncovered.",
           "Take another big pan and boil three times the volume of water to rice. When it is at a rolling boil, add the rice, salt and jeera and stir. After 7 minutes exactly, or when the rice is 80% done, switch it off and drain it.",
           "Now the layering. Pat the lamb down level. Spread the drained hot rice over it. Scatter over the fried onions, ghee, mint, coriander leaves and the saffron dissolved in milk.",
           "Cover the dish and bake at 350f for 15 minutes, or until cooked but not mushy. On the stove instead: 12 minutes on medium and 5 minutes on the lowest heat, then switch off. Mix and serve hot. A few notes.",
@@ -49978,7 +49978,7 @@ window.initialRecipes = [
           "Voeg dan de tomaten toe en bak ze goed tot ze gaar zijn maar niet papperig.",
           "Voeg het rodepeperpoeder, het biryanipoeder, de munt en de korianderblaadjes toe en bak goed door.",
           "Voeg de yoghurt toe en meng goed. Haal de pan van het vuur terwijl je hem toevoegt — dat is net wat belet dat de yoghurt schift.",
-          "Voeg terug op het vuur het gewassen lamsvlees, het zout en ½ kopje water toe en meng goed. Gaar afgedekt 1 uur op middellaag vuur, of 6 fluitjes in een snelkookpan. Blijft er vocht over, kook het dan open weg.",
+          "Voeg terug op het vuur het gewassen lamsvlees, het zout en 120 ml water toe en meng goed. Gaar afgedekt 1 uur op middellaag vuur, of 6 fluitjes in een snelkookpan. Blijft er vocht over, kook het dan open weg.",
           "Neem nog een grote pan en breng drie keer het volume van de rijst aan water aan de kook. Voeg als het hard kookt de rijst, het zout en de jeera toe en roer. Zet na exact 7 minuten uit, of als de rijst voor 80% gaar is, en giet ze af.",
           "Nu het lagen. Druk het lam vlak. Verdeel de afgegoten hete rijst erover. Strooi er de gebakken uien, de ghee, de munt, de korianderblaadjes en de in melk opgeloste saffraan over.",
           "Dek de schaal af en bak 15 minuten op 350f, of tot ze gaar is maar niet papperig. Op het vuur in plaats daarvan: 12 minuten op middelhoog en 5 minuten op het laagste vuur, en dan uitzetten. Meng en dien heet op. Nog een paar bemerkingen.",
@@ -49999,7 +49999,7 @@ window.initialRecipes = [
           "Ajoute ensuite les tomates et fais-les revenir jusqu'à ce qu'elles soient cuites sans être en bouillie.",
           "Ajoute la poudre de piment rouge, le mélange biryani, la menthe et la coriandre et fais bien revenir.",
           "Ajoute le yaourt et mélange bien. Écarte la poêle du feu au moment de l'ajouter — c'est ce qui empêche le yaourt de trancher.",
-          "De retour sur le feu, ajoute l'agneau lavé, le sel et ½ tasse d'eau et mélange bien. Cuis à couvert à feu moyen-doux pendant 1 heure, ou 6 sifflements à l'autocuiseur. S'il reste du liquide, fais-le évaporer à découvert.",
+          "De retour sur le feu, ajoute l'agneau lavé, le sel et 120 ml d'eau et mélange bien. Cuis à couvert à feu moyen-doux pendant 1 heure, ou 6 sifflements à l'autocuiseur. S'il reste du liquide, fais-le évaporer à découvert.",
           "Prends une autre grande casserole et porte à ébullition trois fois le volume d'eau par rapport au riz. À gros bouillons, ajoute le riz, le sel et le cumin et remue. Après 7 minutes exactement, ou quand le riz est cuit à 80%, coupe le feu et égoutte.",
           "Le montage maintenant. Tasse l'agneau à plat. Étale le riz chaud égoutté dessus. Parsème les oignons frits, le ghee, la menthe, la coriandre et le safran dissous dans le lait.",
           "Couvre le plat et cuis à 350f pendant 15 minutes, ou jusqu'à ce que ce soit cuit sans être pâteux. Sur le feu à la place : 12 minutes à feu moyen et 5 minutes au plus doux, puis coupe. Mélange et sers chaud. Quelques remarques.",
@@ -50276,7 +50276,7 @@ window.initialRecipes = [
         "subtitle": "Potatoes instead of aubergine, with a choice of two toppings",
         "description": "A Balkan moussaka built on potato. The potatoes go in raw and cook in water in the dish itself. Then either a French béchamel or the Bulgarian yogurt topping — the source gives both.",
         "instructions": [
-          "Heat the oven to 350 F.",
+          "Heat the oven to 180 °C.",
           "Heat oil in a skillet. Add the ground meat and cook, breaking it up with a wooden spoon for 6-7 minutes, until browned. Add the onion and garlic, and the carrots if you are using them. Add salt, black pepper, dried mint, summer savory, thyme if you have it, tomato sauce and tomato paste. Cook 2-3 minutes, stirring often.",
           "Grease a 9×9 or 9×13 baking dish with oil.",
           "Add the drained potatoes and the meat mixture. Stir so the meat is spread evenly through the potatoes.",
@@ -50297,7 +50297,7 @@ window.initialRecipes = [
         "subtitle": "Aardappel in plaats van aubergine, met keuze uit twee toppings",
         "description": "Een Balkanmoussaka op basis van aardappel. De aardappelen gaan er rauw in en garen in het water in de schaal zelf. Daarna ofwel een Franse bechamel ofwel de Bulgaarse yoghurttopping — de bron geeft ze allebei.",
         "instructions": [
-          "Verwarm de oven op 350 F.",
+          "Verwarm de oven op 180 °C.",
           "Verhit olie in een pan. Voeg het gehakt toe en bak het 6-7 minuten terwijl je het met een houten lepel losbreekt, tot het gekleurd is. Voeg de ui en de knoflook toe, en de wortelen als je die gebruikt. Voeg zout, zwarte peper, gedroogde munt, bonenkruid, tijm als je het hebt, tomatensaus en tomatenpuree toe. Bak 2-3 minuten, vaak roerend.",
           "Vet een ovenschaal van 9×9 of 9×13 in met olie.",
           "Voeg de afgegoten aardappelen en het gehaktmengsel toe. Roer zodat het vlees gelijkmatig door de aardappelen zit.",
@@ -50318,7 +50318,7 @@ window.initialRecipes = [
         "subtitle": "De la pomme de terre au lieu de l'aubergine, avec deux nappages au choix",
         "description": "Une moussaka balkanique à la pomme de terre. Les pommes de terre entrent crues et cuisent dans l'eau, à même le plat. Ensuite, soit une béchamel française, soit le nappage bulgare au yaourt — la source donne les deux.",
         "instructions": [
-          "Chauffe le four à 350 F.",
+          "Chauffe le four à 180 °C.",
           "Chauffe de l'huile dans une poêle. Ajoute la viande hachée et cuis en la défaisant à la cuillère en bois 6 à 7 minutes, jusqu'à ce qu'elle soit colorée. Ajoute l'oignon et l'ail, et les carottes si tu en mets. Ajoute sel, poivre noir, menthe séchée, sarriette, thym si tu en as, coulis et concentré de tomate. Cuis 2 à 3 minutes en remuant souvent.",
           "Graisse un plat de 9×9 ou 9×13 avec de l'huile.",
           "Ajoute les pommes de terre égouttées et le mélange à la viande. Remue pour répartir la viande uniformément dans les pommes de terre.",
@@ -50604,9 +50604,9 @@ window.initialRecipes = [
         "instructions": [
           "First, the orange sauce.",
           "Whisk the sauce ingredients together in a medium bowl and set it aside. Now the chicken.",
-          "Cut the chicken into about 1-inch cubes. Whisk the eggs with salt and black pepper in a bowl and add the chicken. Stir together.",
+          "Cut the chicken into about 2.5 cm cubes. Whisk the eggs with salt and black pepper in a bowl and add the chicken. Stir together.",
           "In a separate bowl, whisk the flour and cornstarch together. Lift the chicken out of the egg with a slotted spoon or tongs, letting the excess drain off, then move it into the cornstarch and coat it well. Now fry.",
-          "Add oil to a large 10- to 12-inch skillet. Heat it over medium-high until it reaches 350°F. Without a thermometer, sprinkle in a little flour — if the oil is hot enough it will fizzle straight away.",
+          "Add oil to a large 25 to 30 cm skillet. Heat it over medium-high until it reaches 180 °C. Without a thermometer, sprinkle in a little flour — if the oil is hot enough it will fizzle straight away.",
           "Once the oil is hot, fry the chicken in two batches. The oil might not cover the chicken completely, and that is fine. Cook 3 to 4 minutes, flip the pieces, and cook until done, about 3 to 4 minutes more — 6 to 8 minutes in total.",
           "Lift the fried cubes out onto a plate lined with paper towels to drain. Repeat until all the chicken is cooked.",
           "Now simmer the chicken in the sauce.",
@@ -50622,9 +50622,9 @@ window.initialRecipes = [
         "instructions": [
           "Eerst de sinaasappelsaus.",
           "Klop de ingrediënten voor de saus door elkaar in een middelgrote kom en zet ze opzij. Nu de kip.",
-          "Snijd de kip in blokjes van ongeveer 1 inch. Klop de eieren met zout en zwarte peper los in een kom en doe de kip erbij. Roer om.",
+          "Snijd de kip in blokjes van ongeveer 2.5 cm. Klop de eieren met zout en zwarte peper los in een kom en doe de kip erbij. Roer om.",
           "Klop in een aparte kom de bloem en de maizena door elkaar. Haal de kip met een schuimspaan of tang uit het ei, laat het teveel eraf lopen, en doe ze dan in de maizena en wentel ze goed door. Nu frituren.",
-          "Doe olie in een grote pan van 10 tot 12 inch. Verhit ze op middelhoog vuur tot ze 350°F bereikt. Zonder thermometer strooi je er wat bloem in — is de olie heet genoeg, dan sist het meteen.",
+          "Doe olie in een grote pan van 25 tot 30 cm. Verhit ze op middelhoog vuur tot ze 180 °C bereikt. Zonder thermometer strooi je er wat bloem in — is de olie heet genoeg, dan sist het meteen.",
           "Frituur de kip zodra de olie heet is in twee porties. De olie bedekt de kip misschien niet helemaal, en dat mag. Bak 3 tot 4 minuten, draai de stukjes om, en bak tot ze gaar zijn, nog ongeveer 3 tot 4 minuten — 6 tot 8 minuten in totaal.",
           "Haal de gebakken blokjes eruit op een bord met keukenpapier om uit te lekken. Herhaal tot alle kip gebakken is.",
           "Nu de kip in de saus laten sudderen.",
@@ -50640,9 +50640,9 @@ window.initialRecipes = [
         "instructions": [
           "D'abord, la sauce à l'orange.",
           "Fouette les ingrédients de la sauce dans un bol moyen et réserve. Le poulet maintenant.",
-          "Coupe le poulet en cubes d'environ 1 pouce. Bats les œufs avec le sel et le poivre noir dans un bol et ajoute le poulet. Mélange.",
+          "Coupe le poulet en cubes d'environ 2.5 cm. Bats les œufs avec le sel et le poivre noir dans un bol et ajoute le poulet. Mélange.",
           "Dans un autre bol, mélange la farine et la fécule au fouet. Sors le poulet de l'œuf à l'écumoire ou à la pince en laissant l'excédent s'égoutter, puis transfère-le dans la fécule et enrobe bien. La friture maintenant.",
-          "Verse de l'huile dans une grande poêle de 10 à 12 pouces. Chauffe à feu moyen-vif jusqu'à 350°F. Sans thermomètre, jette un peu de farine — si l'huile est assez chaude, elle grésillera aussitôt.",
+          "Verse de l'huile dans une grande poêle de 25 to 30 cm. Chauffe à feu moyen-vif jusqu'à 180 °C. Sans thermomètre, jette un peu de farine — si l'huile est assez chaude, elle grésillera aussitôt.",
           "Une fois l'huile chaude, fais frire le poulet en deux fois. L'huile ne couvrira peut-être pas complètement le poulet, ce n'est pas grave. Cuis 3 à 4 minutes, retourne les morceaux, et cuis jusqu'à ce que ce soit cuit à cœur, encore 3 à 4 minutes — 6 à 8 minutes au total.",
           "Sors les cubes frits sur une assiette garnie de papier absorbant pour égoutter. Recommence jusqu'à ce que tout le poulet soit cuit.",
           "Fais maintenant mijoter le poulet dans la sauce.",
@@ -50931,7 +50931,7 @@ window.initialRecipes = [
         "subtitle": "Everything under one lid for an hour and a half",
         "description": "Peka is really a method: meat and vegetables sealed under a heavy lid so nothing escapes. Keep the herbs on top and their stalks lift straight out at the end.",
         "instructions": [
-          "Heat the oven to 200°C fan / 220°C / 425°F / Gas mark 7.",
+          "Heat the oven to 200 °C fan / 220 °C.",
           "If you haven't bought diced lamb, cut the shoulder or leg into large chunks and set them aside.",
           "Now make the oil marinade, which is what carries the flavour down through everything.",
           "Mix 80ml of olive oil in a bowl with the garlic puree, sundried tomato puree, black pepper and salt.",
@@ -50951,7 +50951,7 @@ window.initialRecipes = [
         "subtitle": "Alles onder één deksel, anderhalf uur lang",
         "description": "Peka is eigenlijk een methode: vlees en groenten afgesloten onder een zwaar deksel zodat er niets ontsnapt. Hou de kruiden bovenop en hun stengels til je er op het einde zo uit.",
         "instructions": [
-          "Verwarm de oven op 200°C hetelucht / 220°C / 425°F / Gas mark 7.",
+          "Verwarm de oven op 200 °C hetelucht / 220 °C.",
           "Heb je geen voorgesneden lamsvlees gekocht, snijd dan de schouder of de bout in grote stukken en zet ze opzij.",
           "Maak nu de oliemarinade, die de smaak door alles heen naar beneden draagt.",
           "Meng 80ml olijfolie in een kom met de knoflookpuree, de zongedroogde-tomatenpuree, de zwarte peper en het zout.",
@@ -50971,7 +50971,7 @@ window.initialRecipes = [
         "subtitle": "Tout sous un seul couvercle pendant une heure et demie",
         "description": "La peka est avant tout une méthode : viande et légumes scellés sous un couvercle lourd pour que rien ne s'échappe. Garde les herbes sur le dessus et leurs tiges se retirent d'un geste à la fin.",
         "instructions": [
-          "Chauffe le four à 200°C chaleur tournante / 220°C / 425°F / Gas mark 7.",
+          "Chauffe le four à 200 °C chaleur tournante / 220 °C.",
           "Si tu n'as pas acheté d'agneau déjà coupé, taille l'épaule ou le gigot en gros morceaux et réserve-les.",
           "Prépare maintenant la marinade à l'huile.",
           "Mélange 80ml d'huile d'olive dans un bol avec la purée d'ail, la purée de tomates séchées, le poivre noir et le sel.",
@@ -51179,7 +51179,7 @@ window.initialRecipes = [
           "Slice the onion and shallots thinly. Leave them in an ice water bath while you get the rest ready — that is what takes the raw bite out of them.",
           "Grate the coconut and put it in a large bowl.",
           "With the coconut in the large bowl, add the rice and mix the two together with your hands.",
-          "Roll the mixture into 2-inch rice ball croquettes.",
+          "Roll the mixture into 5 cm rice ball croquettes.",
           "Heat the cooking oil in a pot or pan.",
           "Beat two eggs in a large bowl. Dip the balls in the egg, then lower them into the hot oil.",
           "Let them turn a dark amber brown. Deep fry until crisp, crunchy and golden. Lift them out onto paper towel to drain.",
@@ -51201,7 +51201,7 @@ window.initialRecipes = [
           "Snijd de ui en de sjalotten dun. Laat ze in een bad ijswater staan terwijl je de rest klaarmaakt — dat is wat de rauwe scherpte eruit haalt.",
           "Rasp de kokos en doe ze in een grote kom.",
           "Doe bij de kokos in de grote kom de rijst en meng de twee met je handen door elkaar.",
-          "Rol het mengsel tot rijstballetjes van 2 inch.",
+          "Rol het mengsel tot rijstballetjes van 5 cm.",
           "Verhit de bakolie in een pan.",
           "Klop twee eieren los in een grote kom. Doop de balletjes in het ei en laat ze dan in de hete olie zakken.",
           "Laat ze een diep amberbruin worden. Frituur tot ze krokant, knapperig en goudbruin zijn. Haal ze eruit op keukenpapier om uit te lekken.",
@@ -51223,7 +51223,7 @@ window.initialRecipes = [
           "Émince finement l'oignon et les échalotes. Laisse-les dans un bain d'eau glacée pendant que tu prépares le reste — c'est ce qui leur ôte leur mordant cru.",
           "Râpe la noix de coco et mets-la dans un grand bol.",
           "Avec la noix de coco dans le grand bol, ajoute le riz et mélange les deux à la main.",
-          "Roule le mélange en croquettes de riz de 2 pouces.",
+          "Roule le mélange en croquettes de riz de 5 cm.",
           "Chauffe l'huile de friture dans une casserole ou une poêle.",
           "Bats deux œufs dans un grand bol. Trempe les boules dans l'œuf, puis plonge-les dans l'huile chaude.",
           "Laisse-les prendre une couleur ambrée foncée. Fais frire jusqu'à ce qu'elles soient croustillantes et dorées. Sors-les sur du papier absorbant pour égoutter.",
@@ -52061,7 +52061,7 @@ window.initialRecipes = [
         "subtitle": "Cocoa and smoked paprika, with roasted squash folded in",
         "description": "A vegan chilli that gets its depth from cocoa, cinnamon and smoked paprika rather than meat. The squash is roasted separately so it keeps its edges instead of dissolving into the pot.",
         "instructions": [
-          "Begin by roasting the squash. Slice it into thin crescents, drizzle with a little oil and sprinkle with sea salt. A little fresh sage is nice here but not needed. Roast at 205 C (400 F) for 20-30 minutes, flipping halfway, until soft and golden. Let it cool and chop it into cubes.",
+          "Begin by roasting the squash. Slice it into thin crescents, drizzle with a little oil and sprinkle with sea salt. A little fresh sage is nice here but not needed. Roast at 205 C (200 °C) for 20-30 minutes, flipping halfway, until soft and golden. Let it cool and chop it into cubes.",
           "Meanwhile, rinse the lentils and cover them with water. Bring them to the boil, then turn down to a simmer and cook uncovered 20-30 minutes, or until tender. Drain and set aside.",
           "While the lentils cook, heat the 1 Tbsp. of oil on low in a medium pot. Add the onions and leeks and sauté 5 or so minutes, until they begin to soften. Add the garlic with the cumin and coriander and cook a few minutes more.",
           "Add the remaining spices — paprika, cinnamon, chilli, cocoa, Worcestershire sauce, salt and oregano. Then add the can of tomatoes, the water or stock, and the carrots. Simmer covered 20 minutes, until the vegetables are tender and the mixture has thickened.",
@@ -52069,7 +52069,7 @@ window.initialRecipes = [
           "Add the lentils and the chopped roasted squash. Cook 10 more minutes to heat through.",
           "Serve with sliced jalapeno, lime wedges, cilantro, green onions and cashew sour cream. For the cashew sour cream:",
           "Bring some water to the boil and use it to soak the cashews at least four hours. Cold water overnight works too, but the boiling method is far faster if you have forgotten to plan ahead.",
-          "Once the cashews have soaked, drain them and put them in a high speed blender. Start to purée, adding about 1/2 cup fresh water slowly, until it is creamy. You may need a little more or less water.",
+          "Once the cashews have soaked, drain them and put them in a high speed blender. Start to purée, adding about 120 ml fresh water slowly, until it is creamy. You may need a little more or less water.",
           "Add a pinch of sea salt and the vinegar, or lemon juice."
         ]
       },
@@ -52078,7 +52078,7 @@ window.initialRecipes = [
         "subtitle": "Cacao en gerookte paprika, met geroosterde pompoen erdoor",
         "description": "Een veganistische chili die zijn diepte haalt uit cacao, kaneel en gerookte paprika in plaats van uit vlees. De pompoen wordt apart geroosterd zodat ze haar randen houdt in plaats van in de pot op te lossen.",
         "instructions": [
-          "Begin met het roosteren van de pompoen. Snijd ze in dunne halve maantjes, besprenkel met een beetje olie en bestrooi met zeezout. Wat verse salie is hier lekker maar niet nodig. Rooster op 205 C (400 F) gedurende 20-30 minuten, halverwege omgedraaid, tot ze zacht en goudbruin is. Laat afkoelen en snijd in blokjes.",
+          "Begin met het roosteren van de pompoen. Snijd ze in dunne halve maantjes, besprenkel met een beetje olie en bestrooi met zeezout. Wat verse salie is hier lekker maar niet nodig. Rooster op 205 C (200 °C) gedurende 20-30 minuten, halverwege omgedraaid, tot ze zacht en goudbruin is. Laat afkoelen en snijd in blokjes.",
           "Spoel ondertussen de linzen en zet ze onder water. Breng ze aan de kook, zet dan lager en laat 20-30 minuten zonder deksel sudderen, of tot ze gaar zijn. Giet af en zet opzij.",
           "Verhit terwijl de linzen koken de 1 el olie op laag vuur in een middelgrote pan. Voeg de uien en de prei toe en fruit een minuut of 5, tot ze beginnen te verzachten. Voeg de knoflook toe met de komijn en de koriander en bak nog een paar minuten.",
           "Voeg de overige specerijen toe — paprikapoeder, kaneel, chili, cacao, worcestershiresaus, zout en oregano. Voeg dan het blik tomaten, het water of de bouillon en de wortelen toe. Laat 20 minuten afgedekt sudderen, tot de groenten gaar zijn en het mengsel ingedikt.",
@@ -52086,7 +52086,7 @@ window.initialRecipes = [
           "Voeg de linzen en de geroosterde pompoenblokjes toe. Gaar nog 10 minuten om alles door te warmen.",
           "Dien op met gesneden jalapeño, partjes limoen, koriander, lente-ui en zure room van cashewnoten. Voor die zure room:",
           "Breng wat water aan de kook en week de cashewnoten er minstens vier uur in. Een nacht in koud water kan ook, maar met kokend water gaat het veel sneller als je vergeten bent vooruit te denken.",
-          "Giet de geweekte cashewnoten af en doe ze in een krachtige blender. Begin te pureren en voeg langzaam ongeveer 1/2 kopje vers water toe, tot het romig is. Misschien heb je wat meer of minder water nodig.",
+          "Giet de geweekte cashewnoten af en doe ze in een krachtige blender. Begin te pureren en voeg langzaam ongeveer 120 ml vers water toe, tot het romig is. Misschien heb je wat meer of minder water nodig.",
           "Voeg een snuifje zeezout en de azijn toe, of citroensap."
         ]
       },
@@ -52095,7 +52095,7 @@ window.initialRecipes = [
         "subtitle": "Du cacao et du paprika fumé, avec de la courge rôtie incorporée",
         "description": "Un chili végétalien qui tire sa profondeur du cacao, de la cannelle et du paprika fumé plutôt que de la viande. La courge est rôtie à part pour qu'elle garde ses arêtes au lieu de fondre dans la casserole.",
         "instructions": [
-          "Commence par rôtir la courge. Coupe-la en fins croissants, arrose d'un peu d'huile et saupoudre de sel marin. Un peu de sauge fraîche est agréable ici mais pas indispensable. Rôtis à 205 C (400 F) pendant 20 à 30 minutes, en retournant à mi-cuisson, jusqu'à ce qu'elle soit tendre et dorée. Laisse refroidir et coupe en cubes.",
+          "Commence par rôtir la courge. Coupe-la en fins croissants, arrose d'un peu d'huile et saupoudre de sel marin. Un peu de sauge fraîche est agréable ici mais pas indispensable. Rôtis à 205 C (200 °C) pendant 20 à 30 minutes, en retournant à mi-cuisson, jusqu'à ce qu'elle soit tendre et dorée. Laisse refroidir et coupe en cubes.",
           "Pendant ce temps, rince les lentilles et couvre-les d'eau. Porte à ébullition, puis baisse à frémissement et cuis à découvert 20 à 30 minutes, ou jusqu'à ce qu'elles soient tendres. Égoutte et réserve.",
           "Pendant que les lentilles cuisent, chauffe la 1 c. à soupe d'huile à feu doux dans une casserole moyenne. Ajoute les oignons et les poireaux et fais suer 5 minutes environ, jusqu'à ce qu'ils commencent à fondre. Ajoute l'ail avec le cumin et la coriandre et cuis encore quelques minutes.",
           "Ajoute le reste des épices — paprika, cannelle, chili, cacao, sauce Worcestershire, sel et origan. Ajoute ensuite la boîte de tomates, l'eau ou le bouillon, et les carottes. Laisse mijoter à couvert 20 minutes, jusqu'à ce que les légumes soient tendres et que le mélange ait épaissi.",
@@ -52103,7 +52103,7 @@ window.initialRecipes = [
           "Ajoute les lentilles et la courge rôtie en cubes. Cuis encore 10 minutes pour tout réchauffer.",
           "Sers avec du jalapeño en rondelles, des quartiers de citron vert, de la coriandre, des oignons verts et une crème aigre de cajou. Pour cette crème :",
           "Porte de l'eau à ébullition et fais-y tremper les noix de cajou au moins quatre heures. Une nuit à l'eau froide marche aussi, mais l'eau bouillante va bien plus vite quand on a oublié d'anticiper.",
-          "Une fois les cajous trempées, égoutte-les et mets-les dans un blender puissant. Commence à mixer en ajoutant lentement environ 1/2 tasse d'eau fraîche, jusqu'à obtenir une texture crémeuse. Il t'en faudra peut-être un peu plus ou un peu moins.",
+          "Une fois les cajous trempées, égoutte-les et mets-les dans un blender puissant. Commence à mixer en ajoutant lentement environ 120 ml d'eau fraîche, jusqu'à obtenir une texture crémeuse. Il t'en faudra peut-être un peu plus ou un peu moins.",
           "Ajoute une pincée de sel marin et le vinaigre, ou du jus de citron."
         ]
       }
@@ -52370,13 +52370,13 @@ window.initialRecipes = [
         "description": "Three layers built separately: lentils on the bottom, roasted vegetables in the middle, riced baked potato on top. The sauce is a porcini stock reduced twice and strained, and it is what holds the whole thing together.",
         "instructions": [
           "Heat the oven to 450°. Bake the potatoes on a foil-lined baking sheet until tender, about 45 minutes. Let them cool a little, then peel them. Press them through a ricer, food mill or colander into a large bowl. Add the butter and stir until well blended. Stir in the milk and season with salt. Now the filling.",
-          "Soak the dried porcini in 3 cups hot water and set them aside. Combine the lentils, 1 garlic clove, 1 tsp. salt and 4 cups water in a medium saucepan. Bring to the boil, lower the heat and simmer, stirring now and then, until the lentils are tender but not mushy, 15–20 minutes. Drain them and throw the garlic away.",
+          "Soak the dried porcini in 720 ml hot water and set them aside. Combine the lentils, 1 garlic clove, 1 tsp. salt and 960 ml water in a medium saucepan. Bring to the boil, lower the heat and simmer, stirring now and then, until the lentils are tender but not mushy, 15–20 minutes. Drain them and throw the garlic away.",
           "Heat 3 Tbsp. oil in a large heavy pot over medium heat. Add the onions and cook, stirring occasionally, until soft, about 12 minutes. Add the chopped garlic and cook 1 minute. Stir in the tomato paste and cook, stirring constantly, until it caramelizes, 2–3 minutes.",
           "Add the bay leaves and wine and stir, scraping up the browned bits. Stir in the porcini, pouring the soaking liquid in slowly and leaving the sediment behind in the bowl. Bring to a simmer and cook until the liquid has reduced by half, about 10 minutes. Stir in the broth and cook, stirring occasionally, until reduced by half again, about 45 minutes.",
           "Strain the mixture into a large saucepan and bring it to the boil, throwing away the solids in the strainer. Stir the cornstarch and 2 Tbsp. water together in a small bowl to dissolve. Add it and simmer until thickened, about 5 minutes. Whisk in the miso. Season with salt and pepper and set aside.",
           "Heat the oven to 450°. Toss the vegetables and pearl onions with the remaining 2 Tbsp. oil, 5 garlic cloves and the rosemary sprigs in a large bowl and season with salt and pepper. Divide between 2 rimmed baking sheets. Roast, stirring once, until tender, 20–25 minutes.",
           "Move the garlic cloves to a small bowl, mash them well with a fork and stir them into the sauce. Throw the rosemary away. You can make the lentils, sauce and vegetables 1 day ahead — cover them separately and chill.",
-          "Spread the lentils in an even layer in a 3-qt. baking dish and set the dish on a foil-lined rimmed baking sheet. Toss the roasted vegetables with the fresh mushrooms and chopped herbs and layer them over the lentils. Pour the sauce over. Spoon the potato evenly over the top.",
+          "Spread the lentils in an even layer in a 3 litre baking dish and set the dish on a foil-lined rimmed baking sheet. Toss the roasted vegetables with the fresh mushrooms and chopped herbs and layer them over the lentils. Pour the sauce over. Spoon the potato evenly over the top.",
           "Bake until browned and bubbly, about 30 minutes. Let it stand 15 minutes before serving, or the layers will slide apart on the spoon."
         ]
       },
@@ -52386,13 +52386,13 @@ window.initialRecipes = [
         "description": "Drie lagen die apart worden opgebouwd: linzen onderaan, geroosterde groenten in het midden, geperste ovenaardappel bovenop. De saus is een eekhoorntjesbroodbouillon die twee keer inkookt en gezeefd wordt, en zij houdt het geheel bij elkaar.",
         "instructions": [
           "Verwarm de oven op 450°. Bak de aardappelen op een met folie beklede bakplaat tot ze gaar zijn, ongeveer 45 minuten. Laat ze wat afkoelen en schil ze dan. Druk ze door een pers, roerzeef of vergiet in een grote kom. Voeg de boter toe en roer tot alles goed gemengd is. Roer de melk erdoor en breng op smaak met zout. Nu de vulling.",
-          "Week de gedroogde eekhoorntjesbrood in 3 kopjes heet water en zet ze opzij. Doe de linzen, 1 teentje knoflook, 1 tl zout en 4 kopjes water in een middelgrote pan. Breng aan de kook, zet lager en laat sudderen, af en toe roerend, tot de linzen gaar zijn maar niet papperig, 15–20 minuten. Giet ze af en gooi de knoflook weg.",
+          "Week de gedroogde eekhoorntjesbrood in 720 ml heet water en zet ze opzij. Doe de linzen, 1 teentje knoflook, 1 tl zout en 960 ml water in een middelgrote pan. Breng aan de kook, zet lager en laat sudderen, af en toe roerend, tot de linzen gaar zijn maar niet papperig, 15–20 minuten. Giet ze af en gooi de knoflook weg.",
           "Verhit 3 el olie in een grote zware pan op middelhoog vuur. Voeg de uien toe en bak ze, af en toe roerend, tot ze zacht zijn, ongeveer 12 minuten. Voeg de gehakte knoflook toe en bak 1 minuut. Roer de tomatenpuree erdoor en bak, voortdurend roerend, tot ze karameliseert, 2–3 minuten.",
           "Voeg de laurierblaadjes en de wijn toe en roer terwijl je de aanbaksels losschraapt. Roer de eekhoorntjesbrood erdoor en giet het weekvocht er langzaam bij, met het bezinksel achtergelaten in de kom. Breng aan de kook en laat inkoken tot het vocht gehalveerd is, ongeveer 10 minuten. Roer de bouillon erdoor en kook, af en toe roerend, tot het opnieuw gehalveerd is, ongeveer 45 minuten.",
           "Zeef het mengsel in een grote steelpan en breng het aan de kook, en gooi wat in de zeef achterblijft weg. Roer de maizena met 2 el water los in een kommetje. Voeg het toe en laat sudderen tot het indikt, ongeveer 5 minuten. Klop de miso erdoor. Breng op smaak met zout en peper en zet opzij.",
           "Verwarm de oven op 450°. Schep de groenten en de zilveruitjes in een grote kom om met de resterende 2 el olie, 5 teentjes knoflook en de takjes rozemarijn, en breng op smaak met zout en peper. Verdeel over 2 bakplaten met opstaande rand. Rooster, één keer omgeschept, tot ze gaar zijn, 20–25 minuten.",
           "Doe de teentjes knoflook in een kommetje, prak ze goed met een vork en roer ze door de saus. Gooi de rozemarijn weg. De linzen, de saus en de groenten mag je 1 dag vooraf maken — dek ze apart af en zet ze koud.",
-          "Strijk de linzen in een gelijkmatige laag in een ovenschaal van 3 quart en zet de schaal op een met folie beklede bakplaat. Schep de geroosterde groenten om met de verse champignons en de gehakte kruiden en leg ze op de linzen. Giet de saus eroverheen. Verdeel de aardappel er gelijkmatig over.",
+          "Strijk de linzen in een gelijkmatige laag in een ovenschaal van 3 litre en zet de schaal op een met folie beklede bakplaat. Schep de geroosterde groenten om met de verse champignons en de gehakte kruiden en leg ze op de linzen. Giet de saus eroverheen. Verdeel de aardappel er gelijkmatig over.",
           "Bak tot alles gekleurd is en borrelt, ongeveer 30 minuten. Laat het 15 minuten staan voor je opdient, anders schuiven de lagen op de lepel uit elkaar."
         ]
       },
@@ -52402,13 +52402,13 @@ window.initialRecipes = [
         "description": "Trois couches montées séparément : lentilles au fond, légumes rôtis au milieu, pomme de terre cuite au four et pressée dessus. La sauce est un bouillon de cèpes réduit deux fois et passé, et c'est elle qui tient l'ensemble.",
         "instructions": [
           "Chauffe le four à 450°. Cuis les pommes de terre sur une plaque chemisée d'aluminium jusqu'à ce qu'elles soient tendres, environ 45 minutes. Laisse-les tiédir, puis épluche-les. Passe-les au presse-purée, au moulin à légumes ou dans une passoire, dans un grand bol. Ajoute le beurre et remue jusqu'à ce que ce soit homogène. Incorpore le lait et assaisonne de sel. La garniture maintenant.",
-          "Fais tremper les cèpes séchés dans 3 tasses d'eau chaude et réserve. Mets les lentilles, 1 gousse d'ail, 1 c. à café de sel et 4 tasses d'eau dans une casserole moyenne. Porte à ébullition, baisse le feu et laisse frémir en remuant de temps en temps, jusqu'à ce que les lentilles soient tendres sans être en purée, 15 à 20 minutes. Égoutte-les et jette l'ail.",
+          "Fais tremper les cèpes séchés dans 720 ml d'eau chaude et réserve. Mets les lentilles, 1 gousse d'ail, 1 c. à café de sel et 960 ml d'eau dans une casserole moyenne. Porte à ébullition, baisse le feu et laisse frémir en remuant de temps en temps, jusqu'à ce que les lentilles soient tendres sans être en purée, 15 à 20 minutes. Égoutte-les et jette l'ail.",
           "Chauffe 3 c. à soupe d'huile dans une grande cocotte épaisse à feu moyen. Ajoute les oignons et cuis en remuant de temps en temps jusqu'à ce qu'ils soient fondants, environ 12 minutes. Ajoute l'ail haché et cuis 1 minute. Incorpore le concentré de tomate et cuis en remuant sans arrêt jusqu'à ce qu'il caramélise, 2 à 3 minutes.",
           "Ajoute les feuilles de laurier et le vin et remue en grattant les sucs. Incorpore les cèpes, en versant lentement leur eau de trempage et en laissant le dépôt au fond du bol. Porte à frémissement et cuis jusqu'à réduction de moitié, environ 10 minutes. Incorpore le bouillon et cuis en remuant de temps en temps jusqu'à réduction de moitié de nouveau, environ 45 minutes.",
           "Passe le mélange dans une grande casserole et porte à ébullition, en jetant ce qui reste dans le tamis. Délaie la fécule avec 2 c. à soupe d'eau dans un petit bol. Ajoute-la et laisse frémir jusqu'à épaississement, environ 5 minutes. Incorpore le miso au fouet. Assaisonne de sel et de poivre et réserve.",
           "Chauffe le four à 450°. Mélange les légumes et les petits oignons avec les 2 c. à soupe d'huile restantes, 5 gousses d'ail et les brins de romarin dans un grand bol, et assaisonne de sel et de poivre. Répartis sur 2 plaques à rebord. Rôtis en remuant une fois, jusqu'à ce que ce soit tendre, 20 à 25 minutes.",
           "Transfère les gousses d'ail dans un petit bol, écrase-les bien à la fourchette et incorpore-les à la sauce. Jette le romarin. Les lentilles, la sauce et les légumes peuvent se préparer 1 jour à l'avance — couvre-les séparément et réfrigère.",
-          "Étale les lentilles en couche régulière dans un plat de 3 quarts et pose le plat sur une plaque à rebord chemisée. Mélange les légumes rôtis aux champignons frais et aux herbes hachées et dispose-les sur les lentilles. Verse la sauce dessus. Répartis la pomme de terre uniformément par-dessus.",
+          "Étale les lentilles en couche régulière dans un plat de 3 litre et pose le plat sur une plaque à rebord chemisée. Mélange les légumes rôtis aux champignons frais et aux herbes hachées et dispose-les sur les lentilles. Verse la sauce dessus. Répartis la pomme de terre uniformément par-dessus.",
           "Cuis jusqu'à ce que ce soit doré et bouillonnant, environ 30 minutes. Laisse reposer 15 minutes avant de servir, sinon les couches glissent sur la cuillère."
         ]
       }
@@ -52691,7 +52691,7 @@ window.initialRecipes = [
           "Dust your surface with flour and roll the pastry out into wafer-thin rounds. This should make at least 12 roti skins.",
           "Cover them with a tea towel while you go back to the pot.",
           "Peel the potatoes and cube them into small bite-size pieces.",
-          "After the 25 minutes of simmering, add 1/2 pint of water and the potatoes to the pot.",
+          "After the 25 minutes of simmering, add 240 ml of water and the potatoes to the pot.",
           "Cover and cook 30 minutes on low heat.",
           "Turn a flat baking tray upside down, cover it lightly with foil, and set it on the stovetop on high. Cook each roti skin for 1 minute a side, until browned but not crisp.",
           "Pile up your cooked roti skins, take the pot off after its 30 minutes, and fish out the whole scotch bonnet.",
@@ -52714,7 +52714,7 @@ window.initialRecipes = [
           "Bestuif je werkblad met bloem en rol het deeg uit tot flinterdunne rondjes. Dit zou minstens 12 rotivellen moeten geven.",
           "Dek ze af met een theedoek terwijl je terugkeert naar de pan.",
           "Schil de aardappelen en snijd ze in kleine hapklare blokjes.",
-          "Voeg na die 25 minuten sudderen 1/2 pint water en de aardappelen bij de pan.",
+          "Voeg na die 25 minuten sudderen 240 ml water en de aardappelen bij de pan.",
           "Dek af en gaar 30 minuten op laag vuur.",
           "Draai een vlakke bakplaat ondersteboven, bedek ze licht met folie en zet ze op hoog vuur op het fornuis. Bak elk rotivel 1 minuut per kant, tot het kleurt maar niet krokant wordt.",
           "Stapel je gebakken rotivellen op, haal de pan na haar 30 minuten van het vuur en vis de hele scotch bonnet eruit.",
@@ -52737,7 +52737,7 @@ window.initialRecipes = [
           "Farine ton plan de travail et étale la pâte en disques très fins. Cela devrait donner au moins 12 galettes.",
           "Couvre-les d'un torchon pendant que tu retournes à la casserole.",
           "Épluche les pommes de terre et coupe-les en petits cubes.",
-          "Après ces 25 minutes de mijotage, ajoute 1/2 pinte d'eau et les pommes de terre dans la casserole.",
+          "Après ces 25 minutes de mijotage, ajoute 240 ml d'eau et les pommes de terre dans la casserole.",
           "Couvre et cuis 30 minutes à feu doux.",
           "Retourne une plaque plate, couvre-la légèrement d'aluminium, et pose-la sur le feu vif. Cuis chaque galette 1 minute par face, jusqu'à ce qu'elle colore sans devenir croustillante.",
           "Empile tes galettes cuites, retire la casserole après ses 30 minutes, et repêche le scotch bonnet entier.",
@@ -52958,7 +52958,7 @@ window.initialRecipes = [
           "Drain the pasta in a colander. Put the empty pan back over low heat — no need to wash it — and add the butter. Once it has melted, whisk in the flour mixture and keep cooking, whisking often, until it begins to brown and smells nutty, about 1 minute. Watch it closely so it doesn't scorch on the bottom.",
           "Slowly whisk the milk and cream into the flour mixture until everything is really well combined. Cook, whisking constantly, until the sauce is heated through and just starting to thicken, about 2 minutes. Take it off the heat.",
           "Add the cheese gradually, stirring constantly with a wooden spoon or silicone spatula, until it has melted into the sauce. Then stir in the drained pasta.",
-          "Line a 9-by-13-inch (23-by-33-centimeter) rimmed baking sheet with parchment paper or foil. Coat it with nonstick spray or butter. Pour the warm mac and cheese onto the sheet and spread it out evenly with a spatula.",
+          "Line a 23x33 cm (23-by-33-centimeter) rimmed baking sheet with parchment paper or foil. Coat it with nonstick spray or butter. Pour the warm mac and cheese onto the sheet and spread it out evenly with a spatula.",
           "Coat another piece of parchment with spray or butter and lay it oiled side down directly on the surface. Refrigerate until cool and firm, about 1 hour. Now the grilled cheese.",
           "Heat a large cast-iron or nonstick skillet over medium-low heat.",
           "In a small bowl, stir the 4 tablespoons (55 grams) butter and garlic powder together until well blended.",
@@ -52980,7 +52980,7 @@ window.initialRecipes = [
           "Giet de pasta af in een vergiet. Zet de lege pan terug op laag vuur — wassen hoeft niet — en voeg de boter toe. Klop zodra ze gesmolten is het bloemmengsel erdoor en blijf garen, vaak kloppend, tot het begint te kleuren en nootachtig ruikt, ongeveer 1 minuut. Hou het goed in het oog zodat het niet aanbrandt.",
           "Klop de melk en de room langzaam door het bloemmengsel tot alles echt goed gemengd is. Gaar, voortdurend kloppend, tot de saus doorwarmd is en net begint in te dikken, ongeveer 2 minuten. Haal van het vuur.",
           "Voeg de kaas geleidelijk toe terwijl je voortdurend roert met een houten lepel of siliconenspatel, tot ze in de saus gesmolten is. Roer er dan de afgegoten pasta door.",
-          "Bekleed een bakplaat met opstaande rand van 9 bij 13 inch (23 bij 33 centimeter) met bakpapier of folie. Bespuit ze met bakspray of vet ze in met boter. Giet de warme macaroni met kaas op de plaat en strijk ze gelijkmatig uit met een spatel.",
+          "Bekleed een bakplaat met opstaande rand van 23x33 cm (23 bij 33 centimeter) met bakpapier of folie. Bespuit ze met bakspray of vet ze in met boter. Giet de warme macaroni met kaas op de plaat en strijk ze gelijkmatig uit met een spatel.",
           "Bespuit een tweede vel bakpapier met spray of boter en leg het met de ingevette kant naar beneden recht op het oppervlak. Zet koud tot ze koud en stevig is, ongeveer 1 uur. Nu de tosti.",
           "Verhit een grote gietijzeren of antiaanbakpan op middellaag vuur.",
           "Roer in een kommetje de 4 eetlepels (55 gram) boter en het knoflookpoeder tot een egaal geheel.",
@@ -53002,7 +53002,7 @@ window.initialRecipes = [
           "Égoutte les pâtes dans une passoire. Remets la casserole vide sur feu doux — inutile de la laver — et ajoute le beurre. Une fois fondu, incorpore le mélange à la farine au fouet et poursuis la cuisson en fouettant souvent, jusqu'à ce que ça commence à colorer et sente la noisette, environ 1 minute. Surveille bien pour que ça n'attache pas au fond.",
           "Incorpore lentement le lait et la crème au fouet jusqu'à ce que tout soit vraiment homogène. Cuis en fouettant sans arrêt jusqu'à ce que la sauce soit chaude et commence tout juste à épaissir, environ 2 minutes. Retire du feu.",
           "Ajoute le fromage progressivement en remuant sans arrêt à la cuillère en bois ou à la spatule, jusqu'à ce qu'il ait fondu dans la sauce. Incorpore ensuite les pâtes égouttées.",
-          "Chemise une plaque à rebord de 9 sur 13 pouces (23 sur 33 centimètres) de papier cuisson ou d'aluminium. Vaporise d'huile ou beurre-la. Verse les macaronis chauds sur la plaque et étale-les uniformément à la spatule.",
+          "Chemise une plaque à rebord de 23x33 cm (23 sur 33 centimètres) de papier cuisson ou d'aluminium. Vaporise d'huile ou beurre-la. Verse les macaronis chauds sur la plaque et étale-les uniformément à la spatule.",
           "Huile ou beurre une autre feuille de papier cuisson et pose-la, face graissée dessous, directement sur la surface. Réfrigère jusqu'à ce que ce soit froid et ferme, environ 1 heure. Le croque maintenant.",
           "Chauffe une grande poêle en fonte ou antiadhésive à feu moyen-doux.",
           "Dans un petit bol, mélange les 4 cuillères à soupe (55 grammes) de beurre et l'ail en poudre jusqu'à ce que ce soit homogène.",
@@ -53481,14 +53481,14 @@ window.initialRecipes = [
         "subtitle": "Two hours of braising, then pastry on top",
         "description": "The beef is stewed low and slow, then cooled completely before the pastry goes on — put pastry on hot filling and it slumps. Made over two days, this is easy; made in one, it needs planning.",
         "instructions": [
-          "Heat the oven to 150C/300F/Gas 2.",
+          "Heat the oven to 150 °C.",
           "Toss the beef and flour together in a bowl with some salt and black pepper.",
           "Heat a large casserole until hot, add half the rapeseed oil and just enough beef to cover the bottom.",
           "Fry until browned on each side, then take it out and set it aside. Repeat with the remaining oil and beef.",
           "Return all the beef to the pan, add the wine and cook until the liquid has reduced by half, then add the stock, onion, carrots, thyme and mustard, and season well with salt and pepper.",
           "Cover with a lid and put it in the oven for two hours.",
           "Take it out, check the seasoning and set it aside to cool. Take out the thyme.",
-          "When the beef is cool and you are ready to assemble, heat the oven to 200C/400F/Gas 6. Cold filling is what stops the pastry sagging into it.",
+          "When the beef is cool and you are ready to assemble, heat the oven to 200 °C. Cold filling is what stops the pastry sagging into it.",
           "Move the beef to a pie dish, brush the rim with the beaten egg yolks and lay the pastry over the top. Brush the pastry with more beaten egg.",
           "Trim the pastry so there is just enough excess to crimp the edges, then bake 30 minutes, or until the pastry is golden-brown and cooked through.",
           "For the green beans, bring a saucepan of salted water to the boil, add the beans and cook 4-5 minutes, until just tender.",
@@ -53501,14 +53501,14 @@ window.initialRecipes = [
         "subtitle": "Twee uur smoren, en dan deeg erbovenop",
         "description": "Het rundvlees stooft laag en traag en koelt dan volledig af voor het deeg erop gaat — leg deeg op een warme vulling en het zakt in. Over twee dagen gemaakt is dit makkelijk; op één dag vraagt het planning.",
         "instructions": [
-          "Verwarm de oven op 150C/300F/gas 2.",
+          "Verwarm de oven op 150 °C.",
           "Schep het rundvlees en de bloem samen om in een kom met wat zout en zwarte peper.",
           "Verhit een grote braadpan tot ze heet is, voeg de helft van de koolzaadolie toe en net genoeg vlees om de bodem te bedekken.",
           "Bak het aan elke kant bruin, haal het eruit en zet het opzij. Herhaal met de resterende olie en het resterende vlees.",
           "Doe al het vlees terug in de pan, voeg de wijn toe en kook tot het vocht gehalveerd is, voeg dan de bouillon, de ui, de wortelen, de tijm en de mosterd toe, en breng goed op smaak met zout en peper.",
           "Dek af met een deksel en zet twee uur in de oven.",
           "Haal de pan eruit, proef de kruiding en zet ze opzij om af te koelen. Haal de tijm eruit.",
-          "Verwarm de oven, als het vlees koud is en je klaar bent om op te bouwen, op 200C/400F/gas 6. Een koude vulling is net wat belet dat het deeg erin zakt.",
+          "Verwarm de oven, als het vlees koud is en je klaar bent om op te bouwen, op 200 °C. Een koude vulling is net wat belet dat het deeg erin zakt.",
           "Doe het vlees in een taartvorm, bestrijk de rand met de losgeklopte eierdooiers en leg het deeg erbovenop. Bestrijk het deeg met nog wat losgeklopt ei.",
           "Snijd het deeg bij zodat er net genoeg overschot is om de randen te kartelen, en bak dan 30 minuten, of tot het deeg goudbruin en gaar is.",
           "Breng voor de boontjes een pan gezouten water aan de kook, voeg de boontjes toe en kook ze 4-5 minuten, tot ze net gaar zijn.",
@@ -53519,16 +53519,16 @@ window.initialRecipes = [
       "fr": {
         "title": "Beef and Mustard Pie",
         "subtitle": "Deux heures de braisage, puis la pâte dessus",
-        "description": "Le bœuf mijote bas et lentement, puis refroidit complètement avant que la pâte n'arrive — pose de la pâte sur une garniture chaude et elle s'affaisse. Fait sur deux jours, c'est facile ; en un seul, cela demande de s'organiser.",
+        "description": "Le bœuf mijote bas et lentement, puis refroidit complètement avant que la pâte n'arrive — pose de la pâte sur une garniture chaude et elle s'affaisse. Fait sur deux jours, c'est facile; en un seul, cela demande de s'organiser.",
         "instructions": [
-          "Chauffe le four à 150C/300F/gas 2.",
+          "Chauffe le four à 150 °C.",
           "Mélange le bœuf et la farine dans un bol avec un peu de sel et de poivre noir.",
           "Chauffe une grande cocotte jusqu'à ce qu'elle soit brûlante, ajoute la moitié de l'huile de colza et juste assez de bœuf pour couvrir le fond.",
           "Fais dorer sur chaque face, puis retire et réserve. Recommence avec le reste de l'huile et du bœuf.",
           "Remets tout le bœuf dans la cocotte, ajoute le vin et cuis jusqu'à réduction de moitié du liquide, puis ajoute le bouillon, l'oignon, les carottes, le thym et la moutarde, et assaisonne généreusement de sel et de poivre.",
           "Couvre du couvercle et mets au four pour deux heures.",
           "Sors la cocotte, vérifie l'assaisonnement et laisse refroidir. Retire le thym.",
-          "Quand le bœuf est froid et que tu es prêt à monter la tourte, chauffe le four à 200C/400F/gas 6. C'est une garniture froide qui empêche la pâte de s'affaisser dedans.",
+          "Quand le bœuf est froid et que tu es prêt à monter la tourte, chauffe le four à 200 °C. C'est une garniture froide qui empêche la pâte de s'affaisser dedans.",
           "Transfère le bœuf dans un plat à tourte, badigeonne le bord de jaunes d'œufs battus et pose la pâte dessus. Badigeonne la pâte d'encore un peu d'œuf battu.",
           "Recoupe la pâte en laissant juste de quoi pincer les bords, puis cuis 30 minutes, ou jusqu'à ce que la pâte soit dorée et cuite à cœur.",
           "Pour les haricots verts, porte une casserole d'eau salée à ébullition, ajoute les haricots et cuis 4 à 5 minutes, jusqu'à ce qu'ils soient tout juste tendres.",
@@ -53751,21 +53751,21 @@ window.initialRecipes = [
         "description": "Brisket is a hard-working muscle, and only long slow heat softens it. Score the fat, brown it fat side down, and slice across the grain at the end — that last step does as much for tenderness as the four hours.",
         "instructions": [
           "Prepare the brisket. One side should have a layer of fat, which you want. Cut off and throw away any very large chunks, because they will never render out completely.",
-          "With a sharp knife, score the fat in parallel lines about 3/4-inch apart, cutting through the fat but not into the beef. Repeat the other way to make a cross-hatch.",
+          "With a sharp knife, score the fat in parallel lines about 2 cm apart, cutting through the fat but not into the beef. Repeat the other way to make a cross-hatch.",
           "Salt the brisket well and let it sit at room temperature for 30 minutes.",
           "Sear the brisket. You need an oven-proof, thick-bottomed pot with a lid, or a Dutch oven, just wide enough to hold the brisket with a little room for the onions.",
           "Pat the brisket dry, put it fatty side down in the pot and set it over medium-high heat. Cook 5-8 minutes, lightly sizzling, until the fat side is nicely browned. Turn the heat down to medium if it seems to be going too fast — you want a steady sizzle, not a raging sear.",
           "Turn the brisket over and cook a few minutes more to brown the other side.",
           "Sauté the onions and garlic. Once the brisket is browned, take it out and set it aside. There should be a couple of tablespoons of rendered fat in the pot; if not, add some olive oil.",
           "Add the chopped onions and turn the heat to high. Sprinkle a little salt over them. Sauté, stirring often, until lightly browned, 5-8 minutes. Stir in the garlic and cook 1-2 minutes more.",
-          "Return the brisket, add the herbs and stock, bring to a simmer, cover and cook in the oven. Heat the oven to 300°F. Tie the bay leaves, rosemary and thyme together with kitchen twine.",
+          "Return the brisket, add the herbs and stock, bring to a simmer, cover and cook in the oven. Heat the oven to 150 °C. Tie the bay leaves, rosemary and thyme together with kitchen twine.",
           "Push the onions and garlic to the sides of the pot and nestle the brisket in. Add the beef stock and the tied herbs. Bring the stock to the boil on the stovetop.",
-          "Cover the pot, put it in the 300°F oven and cook 3 hours. Carefully turn the brisket over every hour so it cooks evenly.",
+          "Cover the pot, put it in the 150 °C oven and cook 3 hours. Carefully turn the brisket over every hour so it cooks evenly.",
           "Add the carrots and carry on. After 3 hours, add them, cover, and cook 1 hour more, until the carrots are done and the brisket is falling apart.",
           "Move the brisket to a cutting board and tent it with foil. Take the pot out of the oven, lift the brisket out, cover it, and fish out and discard the herbs.",
           "Make the sauce, if you want one. You can serve it as it is, or make a sauce from the drippings and some of the onions. Skip this step if you are serving as is.",
           "For the sauce, take out the carrots and half the onions, set them aside and cover them with foil. Pour everything left in the pot into a blender and purée until smooth. Add 1 tablespoon of mustard if you like. Put it into a small pot and keep it warm.",
-          "Slice the meat across the grain. Look at the lines of muscle fibre running through the roast — that is the grain. Slice perpendicular to those lines, in 1/4-inch to 1/2-inch slices. Cutting this way shortens the fibres and makes the meat noticeably more tender.",
+          "Slice the meat across the grain. Look at the lines of muscle fibre running through the roast — that is the grain. Slice perpendicular to those lines, in 6 mm to 1.5 cm slices. Cutting this way shortens the fibres and makes the meat noticeably more tender.",
           "Serve with the onions, carrots and gravy, alongside mashed, roasted or boiled potatoes, egg noodles or polenta."
         ]
       },
@@ -53775,21 +53775,21 @@ window.initialRecipes = [
         "description": "Borststuk is een hardwerkende spier, en alleen lange trage hitte maakt het zacht. Kerf het vet in, bruin het met de vetkant naar beneden, en snijd het op het einde tegen de draad in — die laatste stap doet net zoveel voor de malsheid als de vier uur.",
         "instructions": [
           "Maak het borststuk klaar. Aan één kant hoort een laag vet te zitten, en die wil je. Snijd heel grote brokken weg en gooi ze weg, want die smelten toch nooit helemaal uit.",
-          "Kerf het vet met een scherp mes in evenwijdige lijnen van ongeveer 3/4 inch uit elkaar, door het vet maar niet in het vlees. Herhaal in de andere richting tot een ruitpatroon.",
+          "Kerf het vet met een scherp mes in evenwijdige lijnen van ongeveer 2 cm uit elkaar, door het vet maar niet in het vlees. Herhaal in de andere richting tot een ruitpatroon.",
           "Zout het borststuk goed en laat het 30 minuten op kamertemperatuur staan.",
           "Schroei het borststuk dicht. Je hebt een ovenvaste pan met dikke bodem en deksel nodig, of een braadpan, net breed genoeg om het borststuk te bevatten met wat ruimte voor de uien.",
           "Dep het borststuk droog, leg het met de vetkant naar beneden in de pan en zet die op middelhoog vuur. Bak 5-8 minuten, licht sissend, tot de vetkant mooi gekleurd is. Zet het vuur op middelmatig als het te snel lijkt te gaan — je wil een gestaag gesis, geen razende schroei.",
           "Draai het borststuk om en bak nog een paar minuten om de andere kant te kleuren.",
           "Fruit de uien en de knoflook. Haal het borststuk eruit zodra het gekleurd is en zet het opzij. Er hoort een paar eetlepels uitgesmolten vet in de pan te zitten; zo niet, voeg dan wat olijfolie toe.",
           "Voeg de gesneden uien toe en zet het vuur hoog. Strooi er wat zout over. Fruit ze, vaak roerend, tot ze lichtbruin zijn, 5-8 minuten. Roer de knoflook erdoor en bak nog 1-2 minuten.",
-          "Doe het borststuk terug, voeg de kruiden en de bouillon toe, breng aan de kook, dek af en gaar in de oven. Verwarm de oven op 300°F. Bind de laurierblaadjes, de rozemarijn en de tijm samen met keukentouw.",
+          "Doe het borststuk terug, voeg de kruiden en de bouillon toe, breng aan de kook, dek af en gaar in de oven. Verwarm de oven op 150 °C. Bind de laurierblaadjes, de rozemarijn en de tijm samen met keukentouw.",
           "Duw de uien en de knoflook naar de zijkanten van de pan en nestel het borststuk erin. Voeg de runderbouillon en het kruidenbundeltje toe. Breng de bouillon op het vuur aan de kook.",
-          "Dek de pan af, zet ze in de oven van 300°F en gaar 3 uur. Draai het borststuk voorzichtig elk uur om zodat het gelijkmatig gaart.",
+          "Dek de pan af, zet ze in de oven van 150 °C en gaar 3 uur. Draai het borststuk voorzichtig elk uur om zodat het gelijkmatig gaart.",
           "Voeg de wortelen toe en ga verder. Voeg ze na 3 uur toe, dek af, en gaar nog 1 uur, tot de wortelen gaar zijn en het borststuk uit elkaar valt.",
           "Leg het borststuk op een snijplank en dek het af met folie. Haal de pan uit de oven, til het borststuk eruit, dek het af, en vis de kruiden eruit en gooi ze weg.",
           "Maak de saus, als je er een wil. Je kan het opdienen zoals het is, of een saus maken van het braadvocht en een deel van de uien. Sla deze stap over als je het zo opdient.",
           "Haal voor de saus de wortelen en de helft van de uien eruit, zet ze opzij en dek ze af met folie. Giet alles wat in de pan overblijft in een blender en pureer glad. Voeg 1 eetlepel mosterd toe als je wil. Doe het in een pannetje en hou het warm.",
-          "Snijd het vlees tegen de draad in. Kijk naar de lijnen van spiervezel die door het stuk lopen — dat is de draad. Snijd loodrecht op die lijnen, in plakken van 1/4 tot 1/2 inch. Zo snijden maakt de vezels korter en het vlees merkbaar malser.",
+          "Snijd het vlees tegen de draad in. Kijk naar de lijnen van spiervezel die door het stuk lopen — dat is de draad. Snijd loodrecht op die lijnen, in plakken van 6 mm tot 1.5 cm. Zo snijden maakt de vezels korter en het vlees merkbaar malser.",
           "Dien op met de uien, de wortelen en de saus, naast puree, gebakken of gekookte aardappelen, eiernoedels of polenta."
         ]
       },
@@ -53799,21 +53799,21 @@ window.initialRecipes = [
         "description": "La poitrine est un muscle qui travaille dur, et seule une chaleur longue et douce l'attendrit. Quadrille le gras, colore côté gras dessous, et tranche en travers du grain à la fin — cette dernière étape fait autant pour la tendreté que les quatre heures.",
         "instructions": [
           "Prépare la poitrine. Une face doit porter une couche de gras, et c'est ce que tu veux. Retire et jette les très gros morceaux, car ils ne fondront jamais complètement.",
-          "Au couteau bien aiguisé, quadrille le gras en lignes parallèles espacées d'environ 3/4 de pouce, en tranchant le gras sans entamer la viande. Recommence dans l'autre sens pour former un croisillon.",
+          "Au couteau bien aiguisé, quadrille le gras en lignes parallèles espacées d'environ 2 cm, en tranchant le gras sans entamer la viande. Recommence dans l'autre sens pour former un croisillon.",
           "Sale bien la poitrine et laisse-la 30 minutes à température ambiante.",
           "Colore la poitrine. Il te faut une cocotte à fond épais allant au four avec couvercle, juste assez large pour contenir la poitrine avec un peu de place pour les oignons.",
           "Sèche la poitrine, pose-la côté gras dessous dans la cocotte et mets sur feu moyen-vif. Cuis 5 à 8 minutes, en grésillement léger, jusqu'à ce que le côté gras soit bien doré. Baisse à feu moyen si ça va trop vite — tu veux un grésillement régulier, pas une saisie furieuse.",
           "Retourne la poitrine et cuis quelques minutes de plus pour dorer l'autre face.",
-          "Fais revenir les oignons et l'ail. Une fois la poitrine dorée, sors-la et réserve. Il devrait rester deux cuillères à soupe de gras fondu dans la cocotte ; sinon, ajoute un peu d'huile d'olive.",
+          "Fais revenir les oignons et l'ail. Une fois la poitrine dorée, sors-la et réserve. Il devrait rester deux cuillères à soupe de gras fondu dans la cocotte; sinon, ajoute un peu d'huile d'olive.",
           "Ajoute les oignons hachés et monte le feu à vif. Sale-les légèrement. Fais revenir en remuant souvent jusqu'à ce qu'ils soient légèrement dorés, 5 à 8 minutes. Ajoute l'ail et cuis 1 à 2 minutes de plus.",
-          "Remets la poitrine, ajoute les herbes et le bouillon, porte à frémissement, couvre et cuis au four. Chauffe le four à 300°F. Ficelle ensemble les feuilles de laurier, le romarin et le thym.",
+          "Remets la poitrine, ajoute les herbes et le bouillon, porte à frémissement, couvre et cuis au four. Chauffe le four à 150 °C. Ficelle ensemble les feuilles de laurier, le romarin et le thym.",
           "Pousse les oignons et l'ail sur les côtés de la cocotte et cale la poitrine au milieu. Ajoute le bouillon de bœuf et le bouquet ficelé. Porte le bouillon à ébullition sur le feu.",
-          "Couvre la cocotte, mets-la au four à 300°F et cuis 3 heures. Retourne la poitrine avec précaution toutes les heures pour qu'elle cuise régulièrement.",
+          "Couvre la cocotte, mets-la au four à 150 °C et cuis 3 heures. Retourne la poitrine avec précaution toutes les heures pour qu'elle cuise régulièrement.",
           "Ajoute les carottes et poursuis. Après 3 heures, ajoute-les, couvre, et cuis 1 heure de plus, jusqu'à ce que les carottes soient cuites et la poitrine prête à se défaire.",
           "Transfère la poitrine sur une planche et couvre-la d'aluminium. Sors la cocotte du four, retire la poitrine, couvre-la, et repêche les herbes pour les jeter.",
           "Fais la sauce, si tu en veux une. Tu peux servir tel quel, ou faire une sauce avec les sucs et une partie des oignons. Saute cette étape si tu sers tel quel.",
           "Pour la sauce, retire les carottes et la moitié des oignons, réserve-les et couvre-les d'aluminium. Verse tout ce qui reste dans la cocotte au blender et mixe jusqu'à consistance lisse. Ajoute 1 cuillère à soupe de moutarde si tu veux. Verse dans une petite casserole et garde au chaud.",
-          "Tranche la viande en travers du grain. Regarde les lignes des fibres musculaires du rôti — c'est le grain. Tranche perpendiculairement à ces lignes, en tranches de 1/4 à 1/2 pouce. Couper ainsi raccourcit les fibres et rend la viande nettement plus tendre.",
+          "Tranche la viande en travers du grain. Regarde les lignes des fibres musculaires du rôti — c'est le grain. Tranche perpendiculairement à ces lignes, en tranches de 6 mm to 1.5 cm. Couper ainsi raccourcit les fibres et rend la viande nettement plus tendre.",
           "Sers avec les oignons, les carottes et la sauce, accompagnés de purée, de pommes de terre rôties ou bouillies, de nouilles aux œufs ou de polenta."
         ]
       }
@@ -54029,7 +54029,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Fašírky",
         "subtitle": "Des galettes de viande slovaques, panées et frites",
-        "description": "Le pain trempé dans le lait les garde moelleuses ; farine, œuf et chapelure leur donnent une croûte. C'est la marjolaine qui les fait goûter slovaque plutôt que quelconque.",
+        "description": "Le pain trempé dans le lait les garde moelleuses; farine, œuf et chapelure leur donnent une croûte. C'est la marjolaine qui les fait goûter slovaque plutôt que quelconque.",
         "instructions": [
           "D'abord, le mélange au pain.",
           "Fais tremper les tranches de pain dans du lait ou de l'eau jusqu'à ce qu'elles soient molles.",
@@ -54512,13 +54512,13 @@ window.initialRecipes = [
           "For the saltfish, soak the salt cod overnight, changing the water a couple of times.",
           "Drain it, put it in a large pan of fresh water and bring it to the boil. Drain again, add fresh water and bring it to the boil again.",
           "Simmer about five minutes, or until cooked through, then drain and flake the fish into large pieces. Throw away any skin or bones.",
-          "For the dumplings, mix the flour and suet with a pinch of salt and 250ml/9fl oz water to make a dough.",
+          "For the dumplings, mix the flour and suet with a pinch of salt and 250ml water to make a dough.",
           "Wrap the dough in clingfilm and leave it in the fridge to rest.",
           "Open the can of ackee, drain and rinse it, then set it aside.",
           "Heat a tablespoon of olive oil in a pan and fry the onion until softened but not browned.",
           "Add the spices, seasoning, pepper sauce and sliced peppers and keep frying until the peppers are tender.",
           "Add the chopped tomatoes, then the salt cod, and mix. Lastly stir in the ackee very gently — it falls apart if you are rough with it — and leave it to simmer until you are ready to serve.",
-          "When you are almost ready to eat, heat about 1cm/½in vegetable oil in a frying pan until it is just smoking.",
+          "When you are almost ready to eat, heat about 1cm vegetable oil in a frying pan until it is just smoking.",
           "Shape the dumpling mix into plum-sized balls and shallow-fry until golden-brown. Hot oil is dangerous; don't leave the pan unattended.",
           "Drain the dumplings on kitchen paper and serve them with the saltfish and ackee."
         ]
@@ -54531,13 +54531,13 @@ window.initialRecipes = [
           "Week voor de klipvis de gezouten kabeljauw een nacht en ververs het water een paar keer.",
           "Giet hem af, doe hem in een grote pan met vers water en breng aan de kook. Giet opnieuw af, doe er vers water bij en breng weer aan de kook.",
           "Laat een minuut of vijf sudderen, of tot hij gaar is, giet dan af en pluk de vis in grote stukken. Gooi de huid en de graten weg.",
-          "Meng voor de deegballetjes de bloem en het niervet met een snuifje zout en 250ml/9fl oz water tot een deeg.",
+          "Meng voor de deegballetjes de bloem en het niervet met een snuifje zout en 250ml water tot een deeg.",
           "Wikkel het deeg in folie en laat het in de koelkast rusten.",
           "Open het blik ackee, giet het af en spoel het, en zet het opzij.",
           "Verhit een eetlepel olijfolie in een pan en bak de ui tot ze zacht is maar niet gekleurd.",
           "Voeg de specerijen, de kruiding, de pepersaus en de gesneden paprika's toe en bak door tot de paprika's zacht zijn.",
           "Voeg de gesneden tomaten toe, dan de klipvis, en meng. Roer als laatste heel voorzichtig de ackee erdoor — ze valt uit elkaar als je ruw doet — en laat het sudderen tot je klaar bent om op te dienen.",
-          "Verhit als je bijna klaar bent om te eten ongeveer 1cm/½in plantaardige olie in een koekenpan tot ze net rookt.",
+          "Verhit als je bijna klaar bent om te eten ongeveer 1cm plantaardige olie in een koekenpan tot ze net rookt.",
           "Vorm het deeg tot balletjes ter grootte van een pruim en bak ze goudbruin. Hete olie is gevaarlijk; laat de pan niet onbewaakt achter.",
           "Laat de balletjes uitlekken op keukenpapier en dien ze op met de klipvis en de ackee."
         ]
@@ -54550,14 +54550,14 @@ window.initialRecipes = [
           "Pour la morue, fais-la dessaler toute une nuit en changeant l'eau deux ou trois fois.",
           "Égoutte-la, mets-la dans une grande casserole d'eau fraîche et porte à ébullition. Égoutte de nouveau, remets de l'eau fraîche et porte encore à ébullition.",
           "Laisse frémir cinq minutes environ, ou jusqu'à cuisson complète, puis égoutte et effeuille le poisson en gros morceaux. Jette la peau et les arêtes.",
-          "Pour les beignets, mélange la farine et la graisse de bœuf avec une pincée de sel et 250ml/9fl oz d'eau pour former une pâte.",
+          "Pour les beignets, mélange la farine et la graisse de bœuf avec une pincée de sel et 250ml d'eau pour former une pâte.",
           "Emballe la pâte dans du film et laisse-la reposer au réfrigérateur.",
           "Ouvre la boîte d'ackee, égoutte et rince, puis réserve.",
           "Chauffe une cuillère à soupe d'huile d'olive dans une poêle et fais revenir l'oignon jusqu'à ce qu'il soit tendre sans colorer.",
           "Ajoute les épices, l'assaisonnement, la sauce piquante et les poivrons émincés et poursuis jusqu'à ce que les poivrons soient tendres.",
           "Ajoute les tomates concassées, puis la morue, et mélange. Incorpore enfin l'ackee très délicatement — il se défait si tu le brusques — et laisse frémir jusqu'au service.",
-          "Quand tu es presque prêt à manger, chauffe environ 1cm/½in d'huile végétale dans une poêle jusqu'à ce qu'elle fume tout juste.",
-          "Façonne la pâte à beignets en boules de la taille d'une prune et fais-les frire jusqu'à ce qu'elles soient dorées. L'huile chaude est dangereuse ; ne laisse pas la poêle sans surveillance.",
+          "Quand tu es presque prêt à manger, chauffe environ 1cm d'huile végétale dans une poêle jusqu'à ce qu'elle fume tout juste.",
+          "Façonne la pâte à beignets en boules de la taille d'une prune et fais-les frire jusqu'à ce qu'elles soient dorées. L'huile chaude est dangereuse; ne laisse pas la poêle sans surveillance.",
           "Égoutte les beignets sur du papier absorbant et sers-les avec la morue et l'ackee."
         ]
       }
@@ -54797,7 +54797,7 @@ window.initialRecipes = [
           "In a bowl, add the beef, salt, sesame seed oil, white pepper, egg white, 2 Tablespoon of corn starch and 1 Tablespoon of oil. That coating is what keeps the beef tender in a hot wok. Now the stir fry.",
           "Cook the beef first, adding 2 Tablespoon of oil, until it is golden brown. Set the beef aside.",
           "In a wok, add 1 Tablespoon of oil, the minced ginger and minced garlic and stir-fry a few seconds.",
-          "Next add all the vegetables, then the sherry cooking wine and 1 cup of water.",
+          "Next add all the vegetables, then the sherry cooking wine and 240 ml of water.",
           "For the sauce, add the oyster sauce, hot pepper sauce and sugar.",
           "Add the cooked beef and 1 spoon of soy sauce.",
           "To thicken the sauce, whisk together 1 Tablespoon of cornstarch and 2 Tablespoon of water in a bowl and add it slowly to the stir-fry until it is the right thickness."
@@ -54812,7 +54812,7 @@ window.initialRecipes = [
           "Doe in een kom het rundvlees, het zout, de sesamolie, de witte peper, het eiwit, 2 eetlepels maizena en 1 eetlepel olie. Dat laagje is net wat het vlees mals houdt in een hete wok. Nu roerbakken.",
           "Bak eerst het vlees, met 2 eetlepels olie erbij, tot het goudbruin is. Zet het vlees opzij.",
           "Doe in een wok 1 eetlepel olie, de fijngehakte gember en de fijngehakte knoflook en roerbak een paar seconden.",
-          "Voeg dan alle groenten toe, en daarna de sherry-kookwijn en 1 kopje water.",
+          "Voeg dan alle groenten toe, en daarna de sherry-kookwijn en 240 ml water.",
           "Voeg voor de saus de oestersaus, de pepersaus en de suiker toe.",
           "Voeg het gebakken vlees en 1 lepel sojasaus toe.",
           "Klop om de saus te binden 1 eetlepel maizena en 2 eetlepels water door elkaar in een kommetje en voeg het langzaam bij het roerbakgerecht tot de dikte klopt."
@@ -54827,7 +54827,7 @@ window.initialRecipes = [
           "Dans un bol, mets le bœuf, le sel, l'huile de sésame, le poivre blanc, le blanc d'œuf, 2 cuillères à soupe de fécule de maïs et 1 cuillère à soupe d'huile. Cet enrobage est ce qui garde le bœuf tendre dans un wok brûlant. Le sauté maintenant.",
           "Cuis d'abord le bœuf en ajoutant 2 cuillères à soupe d'huile, jusqu'à ce qu'il soit bien doré. Réserve-le.",
           "Dans un wok, mets 1 cuillère à soupe d'huile, le gingembre et l'ail hachés et fais sauter quelques secondes.",
-          "Ajoute ensuite tous les légumes, puis le xérès de cuisson et 1 tasse d'eau.",
+          "Ajoute ensuite tous les légumes, puis le xérès de cuisson et 240 ml d'eau.",
           "Pour la sauce, ajoute la sauce d'huître, la sauce piquante et le sucre.",
           "Ajoute le bœuf cuit et 1 cuillerée de sauce soja.",
           "Pour lier la sauce, délaie 1 cuillère à soupe de fécule et 2 cuillères à soupe d'eau dans un bol et ajoute-les doucement au sauté jusqu'à obtenir la bonne épaisseur."
@@ -55108,10 +55108,10 @@ window.initialRecipes = [
         "description": "Chicken velveted in egg white and cornstarch, fried, and tossed into a sauce thickened at the last second. Note that the source's ingredient list and its method don't quite agree — cook from the method.",
         "instructions": [
           "Start with the sauce.",
-          "In a bowl, add 2 Cups of water, 2 Tablespoon soy sauce, 2 Tablespoon white vinegar, sherry cooking wine, 1/4 Teaspoon white pepper, minced ginger, minced garlic, hot pepper, ketchup, hoisin sauce and sugar.",
+          "In a bowl, add 480 ml of water, 2 Tablespoon soy sauce, 2 Tablespoon white vinegar, sherry cooking wine, 1/4 Teaspoon white pepper, minced ginger, minced garlic, hot pepper, ketchup, hoisin sauce and sugar.",
           "Mix it together well and set it aside. Now marinate the chicken.",
           "In a bowl, add the chicken, 1 pinch of salt, 1 pinch of white pepper, 2 egg whites and 3 Tablespoon of corn starch. Now deep fry the chicken.",
-          "Deep fry the chicken at 350 degrees for 3-4 minutes, until golden brown, loosening the pieces so they don't stick together. Set the chicken aside. Now the stir fry.",
+          "Deep fry the chicken at 180 °C for 3-4 minutes, until golden brown, loosening the pieces so they don't stick together. Set the chicken aside. Now the stir fry.",
           "Add the sauce to the wok, then the broccoli, and wait until it comes to the boil.",
           "To thicken the sauce, whisk together 2 Tablespoon of cornstarch and 4 Tablespoon of water in a bowl and add it slowly to the stir-fry until it is the right thickness.",
           "Add the chicken and stir-fry for a minute, then serve."
@@ -55123,10 +55123,10 @@ window.initialRecipes = [
         "description": "Kip gefluweeld in eiwit en maizena, gefrituurd, en door een saus geschept die op het laatste moment gebonden wordt. Let op: de ingrediëntenlijst van de bron en haar werkwijze komen niet helemaal overeen — kook naar de werkwijze.",
         "instructions": [
           "Begin met de saus.",
-          "Doe in een kom 2 kopjes water, 2 eetlepels sojasaus, 2 eetlepels witte azijn, sherry-kookwijn, 1/4 theelepel witte peper, fijngehakte gember, fijngehakte knoflook, hete peper, ketchup, hoisinsaus en suiker.",
+          "Doe in een kom 480 ml water, 2 eetlepels sojasaus, 2 eetlepels witte azijn, sherry-kookwijn, 1/4 theelepel witte peper, fijngehakte gember, fijngehakte knoflook, hete peper, ketchup, hoisinsaus en suiker.",
           "Meng alles goed door elkaar en zet het opzij. Nu de kip marineren.",
           "Doe in een kom de kip, 1 snuifje zout, 1 snuifje witte peper, 2 eiwitten en 3 eetlepels maizena. Nu de kip frituren.",
-          "Frituur de kip op 350 graden gedurende 3-4 minuten, tot ze goudbruin is, en maak de stukjes los zodat ze niet aan elkaar plakken. Zet de kip opzij. Nu roerbakken.",
+          "Frituur de kip op 180 °C gedurende 3-4 minuten, tot ze goudbruin is, en maak de stukjes los zodat ze niet aan elkaar plakken. Zet de kip opzij. Nu roerbakken.",
           "Doe de saus in de wok, dan de broccoli, en wacht tot het kookt.",
           "Klop om de saus te binden 2 eetlepels maizena en 4 eetlepels water door elkaar in een kommetje en voeg het langzaam bij het roerbakgerecht tot de dikte klopt.",
           "Voeg de kip toe en roerbak een minuut, en dien dan op."
@@ -55138,10 +55138,10 @@ window.initialRecipes = [
         "description": "Du poulet velouté au blanc d'œuf et à la fécule, frit, et jeté dans une sauce liée à la dernière seconde. Note que la liste d'ingrédients de la source et sa méthode ne concordent pas tout à fait — cuisine d'après la méthode.",
         "instructions": [
           "Commence par la sauce.",
-          "Dans un bol, mets 2 tasses d'eau, 2 cuillères à soupe de sauce soja, 2 cuillères à soupe de vinaigre blanc, du xérès de cuisson, 1/4 de cuillère à café de poivre blanc, du gingembre et de l'ail hachés, du piment, du ketchup, de la sauce hoisin et du sucre.",
+          "Dans un bol, mets 480 ml d'eau, 2 cuillères à soupe de sauce soja, 2 cuillères à soupe de vinaigre blanc, du xérès de cuisson, 1/4 de cuillère à café de poivre blanc, du gingembre et de l'ail hachés, du piment, du ketchup, de la sauce hoisin et du sucre.",
           "Mélange bien et réserve. Fais mariner le poulet maintenant.",
           "Dans un bol, mets le poulet, 1 pincée de sel, 1 pincée de poivre blanc, 2 blancs d'œufs et 3 cuillères à soupe de fécule de maïs. Fais frire le poulet maintenant.",
-          "Fais frire le poulet à 350 degrés pendant 3 à 4 minutes, jusqu'à ce qu'il soit bien doré, en détachant les morceaux pour qu'ils ne collent pas. Réserve le poulet. Le sauté maintenant.",
+          "Fais frire le poulet à 180 °C pendant 3 à 4 minutes, jusqu'à ce qu'il soit bien doré, en détachant les morceaux pour qu'ils ne collent pas. Réserve le poulet. Le sauté maintenant.",
           "Mets la sauce dans le wok, puis le brocoli, et attends l'ébullition.",
           "Pour lier la sauce, délaie 2 cuillères à soupe de fécule et 4 cuillères à soupe d'eau dans un bol et ajoute-les doucement au sauté jusqu'à obtenir la bonne épaisseur.",
           "Ajoute le poulet et fais sauter une minute, puis sers."
@@ -55699,13 +55699,13 @@ window.initialRecipes = [
         "subtitle": "The white stems first, the green leaves last",
         "description": "Napa cabbage cooks at two speeds, so the thick white parts go in three minutes before the leaves. Dried shrimp, rehydrated, does all the seasoning work.",
         "instructions": [
-          "Dried shrimp gives this dish a punch of salty umami. Look for it in the frozen or refrigerated section of an Asian grocery, in the small size, about 1/4-inch.",
-          "If you can only get medium or large dried shrimp, use more water to hydrate it — 1 cup for medium, 1 1/4 cup for large — and give it longer, 45 to 60 minutes, then chop it into smaller 1/4-inch pieces.",
+          "Dried shrimp gives this dish a punch of salty umami. Look for it in the frozen or refrigerated section of an Asian grocery, in the small size, about 6 mm.",
+          "If you can only get medium or large dried shrimp, use more water to hydrate it — 240 ml for medium, 300 ml for large — and give it longer, 45 to 60 minutes, then chop it into smaller 6 mm pieces.",
           "To make this vegetarian, leave out the dried shrimp and use four or five dried shiitake mushrooms instead, rehydrated and sliced thin.",
           "Rehydrate the dried shrimp.",
           "Put the dried shrimp in a small bowl and pour the boiling water over it. Cover with a small plate and leave it 30 minutes. The shrimp will lighten in colour and plump up a little. Now prep the cabbage.",
           "Meanwhile, split the napa cabbage in half lengthways. Rinse it and shake it dry. Cut out the core and throw it away.",
-          "Set out two large bowls. Cut the cabbage into 1-inch pieces, putting the thicker white pieces from the bottom into one bowl and the thinner leafy green tops into the other — they cook at completely different speeds. Now drain the shrimp.",
+          "Set out two large bowls. Cut the cabbage into 2.5 cm pieces, putting the thicker white pieces from the bottom into one bowl and the thinner leafy green tops into the other — they cook at completely different speeds. Now drain the shrimp.",
           "Once the shrimp has rehydrated, drain it and throw the liquid away.",
           "Now cook the shrimp and cabbage.",
           "In a large wok or skillet over high heat, add the peanut oil and swirl it to coat the pan.",
@@ -55722,13 +55722,13 @@ window.initialRecipes = [
         "subtitle": "Eerst de witte stelen, als laatste de groene bladeren",
         "description": "Chinese kool gaart op twee snelheden, dus de dikke witte delen gaan er drie minuten voor de bladeren in. Gedroogde garnaal, geweekt, doet al het kruidenwerk.",
         "instructions": [
-          "Gedroogde garnaal geeft dit gerecht een stoot zoute umami. Zoek ze in de diepvries- of koelafdeling van een Aziatische winkel, in het kleine formaat van ongeveer 1/4 inch.",
-          "Vind je alleen middelgrote of grote gedroogde garnaal, gebruik dan meer water om ze te weken — 1 kopje voor middelgroot, 1 1/4 kopje voor groot — en geef ze langer, 45 tot 60 minuten, en hak ze dan in stukjes van 1/4 inch.",
+          "Gedroogde garnaal geeft dit gerecht een stoot zoute umami. Zoek ze in de diepvries- of koelafdeling van een Aziatische winkel, in het kleine formaat van ongeveer 6 mm.",
+          "Vind je alleen middelgrote of grote gedroogde garnaal, gebruik dan meer water om ze te weken — 240 ml voor middelgroot, 300 ml voor groot — en geef ze langer, 45 tot 60 minuten, en hak ze dan in stukjes van 6 mm.",
           "Wil je het vegetarisch, laat de gedroogde garnaal dan weg en gebruik in de plaats vier of vijf gedroogde shiitakes, geweekt en dun gesneden.",
           "Week de gedroogde garnaal.",
           "Doe de gedroogde garnaal in een kommetje en giet het kokende water erover. Dek af met een bordje en laat het 30 minuten staan. De garnaal wordt lichter van kleur en zwelt wat op. Nu de kool klaarmaken.",
           "Snijd ondertussen de Chinese kool in de lengte doormidden. Spoel hem en schud hem droog. Snijd het hart eruit en gooi het weg.",
-          "Zet twee grote kommen klaar. Snijd de kool in stukken van 1 inch en doe de dikke witte stukken van onderaan in de ene kom en de dunnere groene bladtoppen in de andere — ze garen op compleet verschillende snelheden. Nu de garnaal afgieten.",
+          "Zet twee grote kommen klaar. Snijd de kool in stukken van 2.5 cm en doe de dikke witte stukken van onderaan in de ene kom en de dunnere groene bladtoppen in de andere — ze garen op compleet verschillende snelheden. Nu de garnaal afgieten.",
           "Giet de geweekte garnaal af en gooi het vocht weg.",
           "Nu de garnaal en de kool bakken.",
           "Doe in een grote wok of pan op hoog vuur de pindaolie en zwenk ze rond om de pan te bedekken.",
@@ -55745,13 +55745,13 @@ window.initialRecipes = [
         "subtitle": "Les côtes blanches d'abord, les feuilles vertes en dernier",
         "description": "Le chou nappa cuit à deux vitesses, alors les parties blanches épaisses entrent trois minutes avant les feuilles. Les crevettes séchées, réhydratées, font tout le travail d'assaisonnement.",
         "instructions": [
-          "Les crevettes séchées donnent à ce plat un coup d'umami salé. Cherche-les au rayon surgelé ou frais d'une épicerie asiatique, en petit format, environ 1/4 de pouce.",
-          "Si tu ne trouves que des crevettes séchées moyennes ou grandes, réhydrate-les avec plus d'eau — 1 tasse pour les moyennes, 1 1/4 tasse pour les grandes — et plus longtemps, 45 à 60 minutes, puis hache-les en morceaux de 1/4 de pouce.",
+          "Les crevettes séchées donnent à ce plat un coup d'umami salé. Cherche-les au rayon surgelé ou frais d'une épicerie asiatique, en petit format, environ 6 mm.",
+          "Si tu ne trouves que des crevettes séchées moyennes ou grandes, réhydrate-les avec plus d'eau — 240 ml pour les moyennes, 300 ml pour les grandes — et plus longtemps, 45 à 60 minutes, puis hache-les en morceaux de 6 mm.",
           "Pour une version végétarienne, omets les crevettes et prends plutôt quatre ou cinq shiitakés séchés, réhydratés et émincés fin.",
           "Réhydrate les crevettes séchées.",
           "Mets les crevettes séchées dans un petit bol et verse l'eau bouillante dessus. Couvre d'une petite assiette et laisse 30 minutes. Les crevettes pâliront et gonfleront un peu. Prépare le chou maintenant.",
           "Pendant ce temps, fends le chou nappa en deux dans la longueur. Rince-le et secoue-le. Retire le trognon et jette-le.",
-          "Sors deux grands bols. Coupe le chou en morceaux de 1 pouce, en mettant les parties blanches épaisses du bas dans un bol et les hauts de feuilles verts et fins dans l'autre — ils cuisent à des vitesses totalement différentes. Égoutte les crevettes maintenant.",
+          "Sors deux grands bols. Coupe le chou en morceaux de 2.5 cm, en mettant les parties blanches épaisses du bas dans un bol et les hauts de feuilles verts et fins dans l'autre — ils cuisent à des vitesses totalement différentes. Égoutte les crevettes maintenant.",
           "Une fois les crevettes réhydratées, égoutte-les et jette le liquide.",
           "Cuis maintenant les crevettes et le chou.",
           "Dans un grand wok ou une poêle à feu vif, mets l'huile d'arachide et fais-la tourner pour enrober.",
@@ -55938,10 +55938,10 @@ window.initialRecipes = [
           "Marinating the beef.",
           "In a bowl, add the beef, salt, 1 pinch white pepper, 1 Teaspoon sesame seed oil, 1/2 egg, corn starch, 1 Tablespoon of oil and mix together.",
           "Boiling the noodles.",
-          "In a 6 qt pot, add your noodles to boiling water until they are submerged and boil on high heat for 10 seconds. Ten seconds is not a typo — they are already cooked. Strain them and cool them under cold water. Now the stir fry.",
+          "In a 6 litre pot, add your noodles to boiling water until they are submerged and boil on high heat for 10 seconds. Ten seconds is not a typo — they are already cooked. Strain them and cool them under cold water. Now the stir fry.",
           "Add 2 Tablespoons of oil and the beef, and cook on high heat until the beef is medium cooked.",
           "Set the cooked beef aside.",
-          "In a wok, add 2 Tablespoon of oil, the onions, minced garlic, minced ginger, bean sprouts, mushrooms, peapods and 1.5 cups of water, or enough to submerge the vegetables. Add the noodles to the wok.",
+          "In a wok, add 2 Tablespoon of oil, the onions, minced garlic, minced ginger, bean sprouts, mushrooms, peapods and 360 ml of water, or enough to submerge the vegetables. Add the noodles to the wok.",
           "For the sauce, add the oyster sauce, 1 pinch white pepper, 1 teaspoon sesame seed oil, sugar and 1 Teaspoon of soy sauce.",
           "Add the beef to the wok and stir-fry."
         ]
@@ -55954,10 +55954,10 @@ window.initialRecipes = [
           "Het rundvlees marineren.",
           "Doe in een kom het rundvlees, het zout, 1 snuifje witte peper, 1 theelepel sesamolie, 1/2 ei, maizena en 1 eetlepel olie en meng alles door elkaar.",
           "De noedels koken.",
-          "Doe in een pan van 6 quart je noedels in kokend water tot ze onderstaan en kook ze 10 seconden op hoog vuur. Tien seconden is geen tikfout — ze zijn al gaar. Giet ze af en koel ze onder koud water. Nu roerbakken.",
+          "Doe in een pan van 6 litre je noedels in kokend water tot ze onderstaan en kook ze 10 seconden op hoog vuur. Tien seconden is geen tikfout — ze zijn al gaar. Giet ze af en koel ze onder koud water. Nu roerbakken.",
           "Doe er 2 eetlepels olie en het rundvlees bij, en bak op hoog vuur tot het vlees medium is.",
           "Zet het gebakken vlees opzij.",
-          "Doe in een wok 2 eetlepels olie, de uien, de fijngehakte knoflook, de fijngehakte gember, de taugé, de champignons, de peultjes en 1.5 kopje water, of genoeg om de groenten onder te zetten. Doe de noedels in de wok.",
+          "Doe in een wok 2 eetlepels olie, de uien, de fijngehakte knoflook, de fijngehakte gember, de taugé, de champignons, de peultjes en 360 ml water, of genoeg om de groenten onder te zetten. Doe de noedels in de wok.",
           "Voeg voor de saus de oestersaus, 1 snuifje witte peper, 1 theelepel sesamolie, de suiker en 1 theelepel sojasaus toe.",
           "Voeg het rundvlees toe aan de wok en roerbak."
         ]
@@ -55970,10 +55970,10 @@ window.initialRecipes = [
           "Mariner le bœuf.",
           "Dans un bol, mets le bœuf, le sel, 1 pincée de poivre blanc, 1 cuillère à café d'huile de sésame, 1/2 œuf, de la fécule de maïs, 1 cuillère à soupe d'huile et mélange.",
           "Cuire les nouilles.",
-          "Dans une casserole de 6 quarts, plonge tes nouilles dans l'eau bouillante jusqu'à immersion et fais bouillir à feu vif pendant 10 secondes. Dix secondes n'est pas une coquille — elles sont déjà cuites. Égoutte-les et refroidis-les à l'eau froide. Le sauté maintenant.",
+          "Dans une casserole de 6 litre, plonge tes nouilles dans l'eau bouillante jusqu'à immersion et fais bouillir à feu vif pendant 10 secondes. Dix secondes n'est pas une coquille — elles sont déjà cuites. Égoutte-les et refroidis-les à l'eau froide. Le sauté maintenant.",
           "Ajoute 2 cuillères à soupe d'huile et le bœuf, et cuis à feu vif jusqu'à ce que le bœuf soit à point.",
           "Réserve le bœuf cuit.",
-          "Dans un wok, mets 2 cuillères à soupe d'huile, les oignons, l'ail haché, le gingembre haché, les germes de soja, les champignons, les pois gourmands et 1.5 tasse d'eau, ou de quoi immerger les légumes. Ajoute les nouilles au wok.",
+          "Dans un wok, mets 2 cuillères à soupe d'huile, les oignons, l'ail haché, le gingembre haché, les germes de soja, les champignons, les pois gourmands et 360 ml d'eau, ou de quoi immerger les légumes. Ajoute les nouilles au wok.",
           "Pour la sauce, ajoute la sauce d'huître, 1 pincée de poivre blanc, 1 cuillère à café d'huile de sésame, le sucre et 1 cuillère à café de sauce soja.",
           "Ajoute le bœuf au wok et fais sauter."
         ]
@@ -57089,7 +57089,7 @@ window.initialRecipes = [
           "Now the egg foo young batter.",
           "In a medium bowl, whisk the cornstarch and water together until dissolved. Add the eggs, salt and sugar. Whisk until well combined and there are no clumps of egg white left.",
           "Add the green onion, bean sprouts and shrimp. Stir until everything is evenly coated. Now fry them.",
-          "Add the vegetable oil to a large wok — it should come about 2 inches up the sides. Heat it over medium-high to 350°F, or until vigorous bubbles form around a wooden chopstick held in it.",
+          "Add the vegetable oil to a large wok — it should come about 5 cm up the sides. Heat it over medium-high to 180 °C, or until vigorous bubbles form around a wooden chopstick held in it.",
           "With a ladle, gently and slowly add 1/4 of the batter. It should bubble and puff up immediately. Fry until golden brown and crisp on each side, about 2 minutes a side. If there are any pale spots, baste them with hot oil from the ladle. One tip:",
           "Egg foo young can be tricky to flip. The easiest way is a tool in each hand — a spider, slotted spoon, tongs and long chopsticks are all good — and coax the omelette over gently, pulling up on one side while pushing down and around on the other.",
           "Lift the omelette out onto a paper towel-lined baking sheet and let it cool 5 minutes. Meanwhile, repeat with the rest of the batter to make 4 omelettes, adding more oil between batches if you need to. Now serve.",
@@ -57107,7 +57107,7 @@ window.initialRecipes = [
           "Nu het beslag voor de egg foo young.",
           "Klop in een middelgrote kom de maizena en het water door elkaar tot het opgelost is. Voeg de eieren, het zout en de suiker toe. Klop tot alles goed gemengd is en er geen klontjes eiwit meer inzitten.",
           "Voeg de lente-ui, de taugé en de garnalen toe. Roer tot alles gelijkmatig bedekt is. Nu bakken.",
-          "Doe de plantaardige olie in een grote wok — ze hoort ongeveer 2 inch tegen de wand te staan. Verhit ze op middelhoog vuur tot 350°F, of tot er stevige belletjes rond een houten eetstokje opborrelen.",
+          "Doe de plantaardige olie in een grote wok — ze hoort ongeveer 5 cm tegen de wand te staan. Verhit ze op middelhoog vuur tot 180 °C, of tot er stevige belletjes rond een houten eetstokje opborrelen.",
           "Doe met een pollepel voorzichtig en langzaam 1/4 van het beslag erin. Het hoort meteen te bubbelen en op te bollen. Bak tot het aan elke kant goudbruin en krokant is, ongeveer 2 minuten per kant. Zitten er bleke plekken op, lepel er dan hete olie overheen.",
           "Egg foo young omdraaien is niet vanzelfsprekend. Het makkelijkst is een gereedschap in elke hand — een schuimspaan, een spatel, een tang en lange eetstokjes zijn allemaal goed — en het omelet voorzichtig omleiden, aan één kant optillend terwijl je aan de andere naar beneden en rond duwt.",
           "Til het omelet eruit op een bakplaat met keukenpapier en laat het 5 minuten afkoelen. Herhaal ondertussen met de rest van het beslag tot je 4 omeletten hebt, met wat extra olie tussendoor als het nodig is. Nu opdienen.",
@@ -57125,7 +57125,7 @@ window.initialRecipes = [
           "La pâte à egg foo young maintenant.",
           "Dans un bol moyen, fouette la fécule et l'eau jusqu'à dissolution. Ajoute les œufs, le sel et le sucre. Fouette jusqu'à ce que ce soit homogène et qu'il ne reste plus de grumeaux de blanc.",
           "Ajoute l'oignon vert, les germes de soja et les crevettes. Remue pour tout enrober. Fais-les frire maintenant.",
-          "Verse l'huile végétale dans un grand wok — elle doit monter d'environ 2 pouces sur les parois. Chauffe à feu moyen-vif jusqu'à 350°F, ou jusqu'à ce que de vigoureuses bulles se forment autour d'une baguette en bois.",
+          "Verse l'huile végétale dans un grand wok — elle doit monter d'environ 5 cm sur les parois. Chauffe à feu moyen-vif jusqu'à 180 °C, ou jusqu'à ce que de vigoureuses bulles se forment autour d'une baguette en bois.",
           "À la louche, verse doucement et lentement 1/4 de la pâte. Elle doit bouillonner et gonfler immédiatement. Fais frire jusqu'à ce que ce soit doré et croustillant de chaque côté, environ 2 minutes par face. S'il reste des zones pâles, arrose-les d'huile chaude à la louche. Un conseil :",
           "L'egg foo young n'est pas simple à retourner. Le plus facile est un ustensile dans chaque main — araignée, écumoire, pince et longues baguettes conviennent tous — et de faire basculer l'omelette doucement, en soulevant d'un côté tout en poussant vers le bas et autour de l'autre.",
           "Sors l'omelette sur une plaque garnie de papier absorbant et laisse-la reposer 5 minutes. Pendant ce temps, recommence avec le reste de la pâte pour faire 4 omelettes, en rajoutant de l'huile entre les fournées si besoin. Sers maintenant.",
@@ -57354,13 +57354,13 @@ window.initialRecipes = [
         "instructions": [
           "Heat a large frying pan and toast the cumin seeds a few minutes, then set them aside. Heat the oil in the same pan and fry the onion, garlic, chilli, pepper and a good pinch of salt for around eight minutes, until there is no moisture left. Take it off the heat, stir in the toasted cumin, ground mace or nutmeg and ground coriander, and leave it to cool.",
           "In a large bowl, mix the minced lamb, white pepper, fresh coriander and the cooled spiced onion mixture until combined. Cover and set it aside in the fridge.",
-          "Heat the oven to 200C/400F/Gas 6 and grease a 20cm/8in diameter loose-bottomed or springform round cake tin generously with lard.",
+          "Heat the oven to 200 °C and grease a 20cm diameter loose-bottomed or springform round cake tin generously with lard.",
           "For the pastry, sift the flour and salt into a large bowl and make a well in the centre.",
-          "Put the milk, lard and 90ml/3fl oz of water in a saucepan and heat gently. When the lard has melted, turn the heat up and bring it to the boil.",
+          "Put the milk, lard and 90ml of water in a saucepan and heat gently. When the lard has melted, turn the heat up and bring it to the boil.",
           "Pour the boiling liquid into the flour and use a wooden spoon to combine it until it is cool enough to handle. Bring it together into a ball.",
           "Dust a work surface with flour and, working quickly while it is still warm, knead the dough briefly — it will be soft and moist. Set aside a third of the pastry and roll the rest out on a well-floured surface. Line the tin with it, pressing it right up the sides until it pokes just over the top.",
           "Add the filling to the lined tin bit by bit. As you reach the top, form a slight peak. Roll out the reserved pastry and lay it over the pie. Pinch the edges to seal and trim the excess. Poke a hole in the top and push in a small tube made from aluminium foil so the steam can escape.",
-          "Brush the top with a little beaten egg yolk and bake 30 minutes, with a tray on the shelf below to catch any drips. Then lower the temperature to 160C/325F/Gas 3 and cook a further 1¼ hours until golden-brown. Leave it to cool completely before refrigerating for two hours, or overnight.",
+          "Brush the top with a little beaten egg yolk and bake 30 minutes, with a tray on the shelf below to catch any drips. Then lower the temperature to 160 °C and cook a further 1¼ hours until golden-brown. Leave it to cool completely before refrigerating for two hours, or overnight.",
           "Run a knife around the edge, take it out of the tin and serve with chutneys, salads or pickles."
         ]
       },
@@ -57371,13 +57371,13 @@ window.initialRecipes = [
         "instructions": [
           "Verhit een grote koekenpan en rooster de komijnzaadjes een paar minuten, en zet ze dan opzij. Verhit de olie in dezelfde pan en bak de ui, de knoflook, de chili, de paprika en een flinke snuif zout ongeveer acht minuten, tot er geen vocht meer over is. Haal van het vuur, roer de geroosterde komijn, de gemalen foelie of nootmuskaat en de gemalen koriander erdoor, en laat het afkoelen.",
           "Meng in een grote kom het lamsgehakt, de witte peper, de verse koriander en het afgekoelde gekruide uienmengsel tot alles samengaat. Dek af en zet in de koelkast.",
-          "Verwarm de oven op 200C/400F/gas 6 en vet een ronde bakvorm van 20cm/8in met losse bodem of springvorm royaal in met reuzel.",
+          "Verwarm de oven op 200 °C en vet een ronde bakvorm van 20cm met losse bodem of springvorm royaal in met reuzel.",
           "Zeef voor het deeg de bloem en het zout in een grote kom en maak een kuiltje in het midden.",
-          "Doe de melk, de reuzel en 90ml/3fl oz water in een steelpan en verwarm zachtjes. Zet het vuur hoger zodra de reuzel gesmolten is en breng het aan de kook.",
+          "Doe de melk, de reuzel en 90ml water in een steelpan en verwarm zachtjes. Zet het vuur hoger zodra de reuzel gesmolten is en breng het aan de kook.",
           "Giet het kokende vocht in de bloem en meng het met een houten lepel tot het koel genoeg is om aan te raken. Breng het samen tot een bal.",
           "Bestuif een werkblad met bloem en kneed het deeg snel en kort terwijl het nog warm is — het is zacht en vochtig. Zet een derde van het deeg opzij en rol de rest uit op een goed bebloemd werkblad. Bekleed de vorm ermee en druk het helemaal tegen de wand tot het net over de rand komt.",
           "Doe de vulling beetje bij beetje in de beklede vorm. Vorm bovenaan een lichte punt. Rol het achtergehouden deeg uit en leg het over de pastei. Knijp de randen dicht en snijd het teveel weg. Prik een gaatje in de bovenkant en steek er een buisje van aluminiumfolie in zodat de stoom kan ontsnappen.",
-          "Bestrijk de bovenkant met wat losgeklopte eierdooier en bak 30 minuten, met een plaat op het rooster eronder om het druipen op te vangen. Zet dan de temperatuur op 160C/325F/gas 3 en bak nog 1¼ uur tot hij goudbruin is. Laat hem volledig afkoelen voor je hem twee uur, of een nacht, in de koelkast zet.",
+          "Bestrijk de bovenkant met wat losgeklopte eierdooier en bak 30 minuten, met een plaat op het rooster eronder om het druipen op te vangen. Zet dan de temperatuur op 160 °C en bak nog 1¼ uur tot hij goudbruin is. Laat hem volledig afkoelen voor je hem twee uur, of een nacht, in de koelkast zet.",
           "Snijd met een mes rond de rand, haal hem uit de vorm en dien op met chutney, salade of pickles."
         ]
       },
@@ -57388,13 +57388,13 @@ window.initialRecipes = [
         "instructions": [
           "Chauffe une grande poêle et fais griller les graines de cumin quelques minutes, puis réserve. Chauffe l'huile dans la même poêle et fais revenir l'oignon, l'ail, le piment, le poivron et une bonne pincée de sel environ huit minutes, jusqu'à ce qu'il ne reste plus d'humidité. Retire du feu, incorpore le cumin grillé, le macis ou la muscade moulue et la coriandre moulue, et laisse refroidir.",
           "Dans un grand bol, mélange l'agneau haché, le poivre blanc, la coriandre fraîche et le mélange d'oignons épicés refroidi. Couvre et réserve au réfrigérateur.",
-          "Chauffe le four à 200C/400F/gas 6 et graisse généreusement au saindoux un moule rond de 20cm/8in à fond amovible ou à charnière.",
+          "Chauffe le four à 200 °C et graisse généreusement au saindoux un moule rond de 20cm à fond amovible ou à charnière.",
           "Pour la pâte, tamise la farine et le sel dans un grand bol et creuse un puits au centre.",
-          "Mets le lait, le saindoux et 90ml/3fl oz d'eau dans une casserole et chauffe doucement. Une fois le saindoux fondu, monte le feu et porte à ébullition.",
+          "Mets le lait, le saindoux et 90ml d'eau dans une casserole et chauffe doucement. Une fois le saindoux fondu, monte le feu et porte à ébullition.",
           "Verse le liquide bouillant dans la farine et mélange à la cuillère en bois jusqu'à ce que ce soit assez tiède pour être manipulé. Rassemble en boule.",
           "Farine un plan de travail et, en travaillant vite tant que c'est chaud, pétris brièvement la pâte — elle sera souple et humide. Réserve un tiers de la pâte et étale le reste sur un plan bien fariné. Fonce le moule en remontant bien sur les parois jusqu'à dépasser légèrement du bord.",
           "Ajoute la farce petit à petit dans le moule foncé. En arrivant en haut, forme un léger dôme. Étale la pâte réservée et couvre la tourte. Pince les bords pour souder et recoupe l'excédent. Perce un trou sur le dessus et glisse-y un petit tube d'aluminium pour laisser la vapeur s'échapper.",
-          "Badigeonne le dessus d'un peu de jaune d'œuf battu et cuis 30 minutes, avec une plaque sur la grille du dessous pour recueillir les coulures. Baisse ensuite à 160C/325F/gas 3 et cuis encore 1 h ¼ jusqu'à ce que ce soit doré. Laisse refroidir complètement avant de réfrigérer deux heures, ou une nuit.",
+          "Badigeonne le dessus d'un peu de jaune d'œuf battu et cuis 30 minutes, avec une plaque sur la grille du dessous pour recueillir les coulures. Baisse ensuite à 160 °C et cuis encore 1 h ¼ jusqu'à ce que ce soit doré. Laisse refroidir complètement avant de réfrigérer deux heures, ou une nuit.",
           "Passe un couteau tout autour, démoule et sers avec des chutneys, des salades ou des pickles."
         ]
       }
@@ -57941,14 +57941,14 @@ window.initialRecipes = [
           "Put the onions, rutabaga and beef through a meat grinder twice if you have one; if not, chop them as fine as you possibly can.",
           "Melt the remaining 4 tablespoons butter over medium heat and add the meat mixture.",
           "Cook over low heat, stirring occasionally, until all the liquid has gone and the mixture is thick enough to hold its shape.",
-          "Take it off the heat and let it cool, then stir in 1 egg and season with salt and pepper. Heat the oven to 350°F.",
-          "On a lightly floured surface, roll the dough into a 13x8\" rectangle, 1/8\" thick.",
+          "Take it off the heat and let it cool, then stir in 1 egg and season with salt and pepper. Heat the oven to 180 °C.",
+          "On a lightly floured surface, roll the dough into a 33x20 cm rectangle, 3 mm thick.",
           "Spoon the filling down the centre lengthways, leaving about an inch clear at each end.",
           "Brush the long sides lightly with cold water, then fold one long side over the filling and the other over the top of that.",
           "Brush the short ends with cold water and fold them over the top, closing the filling in.",
           "Set the pastry seam side down on a baking sheet and brush the top evenly with the remaining beaten egg.",
           "Bake until rich golden brown, 30 minutes.",
-          "Slice the pastry diagonally into 1.5\" pieces and serve as an appetizer, or alongside soup."
+          "Slice the pastry diagonally into 4 cm pieces and serve as an appetizer, or alongside soup."
         ]
       },
       "nl": {
@@ -57965,14 +57965,14 @@ window.initialRecipes = [
           "Draai de uien, de koolraap en het rundvlees twee keer door een vleesmolen als je die hebt; zo niet, hak ze dan zo fijn als je maar kan.",
           "Smelt de resterende 4 eetlepels boter op middelhoog vuur en voeg het vleesmengsel toe.",
           "Gaar op laag vuur, af en toe roerend, tot al het vocht weg is en het mengsel dik genoeg is om zijn vorm te houden.",
-          "Haal van het vuur en laat afkoelen, roer er dan 1 ei door en breng op smaak met zout en peper. Verwarm de oven op 350°F.",
-          "Rol het deeg op een licht bebloemd werkblad uit tot een rechthoek van 13x8\", 1/8\" dik.",
+          "Haal van het vuur en laat afkoelen, roer er dan 1 ei door en breng op smaak met zout en peper. Verwarm de oven op 180 °C.",
+          "Rol het deeg op een licht bebloemd werkblad uit tot een rechthoek van 33x20 cm, 3 mm dik.",
           "Lepel de vulling in de lengte over het midden en laat aan elk uiteinde ongeveer een inch vrij.",
           "Bestrijk de lange zijden licht met koud water, vouw dan de ene lange zijde over de vulling en de andere daaroverheen.",
           "Bestrijk de korte uiteinden met koud water en vouw ze eroverheen, zodat de vulling ingesloten zit.",
           "Leg de rol met de naad naar beneden op een bakplaat en bestrijk de bovenkant gelijkmatig met het resterende losgeklopte ei.",
           "Bak tot hij diep goudbruin is, 30 minuten.",
-          "Snijd de rol schuin in stukken van 1.5\" en dien op als voorgerecht, of naast een soep."
+          "Snijd de rol schuin in stukken van 4 cm en dien op als voorgerecht, of naast een soep."
         ]
       },
       "fr": {
@@ -57986,17 +57986,17 @@ window.initialRecipes = [
           "Incorpore le beurre au fouet, 1 cuillère à soupe à la fois.",
           "Pose la pâte sur un plan fariné et pétris jusqu'à ce qu'elle soit lisse et élastique, puis emballe-la dans du papier sulfurisé et réfrigère jusqu'à ce qu'elle soit ferme, au moins 30 minutes.",
           "Dans une poêle épaisse, fais fondre 2 cuillères à soupe de beurre à feu moyen et fais revenir l'oignon et le rutabaga jusqu'à ce que l'oignon soit tendre et translucide, 5 minutes.",
-          "Passe les oignons, le rutabaga et le bœuf deux fois au hachoir à viande si tu en as un ; sinon, hache-les aussi fin que possible.",
+          "Passe les oignons, le rutabaga et le bœuf deux fois au hachoir à viande si tu en as un; sinon, hache-les aussi fin que possible.",
           "Fais fondre les 4 cuillères à soupe de beurre restantes à feu moyen et ajoute le mélange à la viande.",
           "Cuis à feu doux en remuant de temps en temps, jusqu'à ce que tout le liquide se soit évaporé et que le mélange soit assez épais pour tenir sa forme.",
-          "Retire du feu et laisse refroidir, puis incorpore 1 œuf et assaisonne de sel et de poivre. Chauffe le four à 350°F.",
-          "Sur un plan légèrement fariné, étale la pâte en un rectangle de 13x8\", sur 1/8\" d'épaisseur.",
+          "Retire du feu et laisse refroidir, puis incorpore 1 œuf et assaisonne de sel et de poivre. Chauffe le four à 180 °C.",
+          "Sur un plan légèrement fariné, étale la pâte en un rectangle de 33x20 cm, sur 3 mm d'épaisseur.",
           "Dépose la farce au centre dans la longueur, en laissant environ un pouce libre à chaque bout.",
           "Badigeonne légèrement les grands côtés d'eau froide, puis rabats un grand côté sur la farce et l'autre par-dessus.",
           "Badigeonne les petits bouts d'eau froide et rabats-les sur le dessus, en enfermant la farce.",
           "Pose le rouleau soudure dessous sur une plaque et badigeonne le dessus uniformément du reste d'œuf battu.",
           "Cuis jusqu'à ce que ce soit bien doré, 30 minutes.",
-          "Tranche le rouleau en biais en morceaux de 1.5\" et sers en entrée, ou avec une soupe."
+          "Tranche le rouleau en biais en morceaux de 4 cm et sers en entrée, ou avec une soupe."
         ]
       }
     },
@@ -58148,16 +58148,16 @@ window.initialRecipes = [
         "description": "A quick weeknight curry: brown the chicken, toast the paste, then coconut milk and stock. The basil goes in off the heat so it wilts rather than cooks.",
         "instructions": [
           "Heat 1 tbsp vegetable oil in a large pot or Dutch oven over medium-high heat until it shimmers, about 2 minutes.",
-          "Add 1 lb chicken pieces and cook until browned on all sides, approximately 5–7 minutes, stirring now and then so they don't stick.",
+          "Add 450 g chicken pieces and cook until browned on all sides, approximately 5–7 minutes, stirring now and then so they don't stick.",
           "Take the chicken out and set it aside on a plate, leaving the oil and juices in the pot.",
           "Lower the heat to medium and add 1 sliced onion, cooking until softened and translucent, about 4 minutes.",
           "Stir in 3 cloves minced garlic and 1 tbsp grated ginger and cook 1 minute, until fragrant but not burnt.",
           "Add 2 tbsp red curry paste and cook 1 minute, stirring constantly to toast the spices and deepen the flavour.",
-          "Pour in 1 can coconut milk and 1 cup chicken broth, scraping the bottom of the pot to lift the browned bits into the sauce.",
+          "Pour in 1 can coconut milk and 240 ml chicken broth, scraping the bottom of the pot to lift the browned bits into the sauce.",
           "Stir in 1 tbsp fish sauce and 1 tbsp palm sugar until fully dissolved, then return the browned chicken to the pot.",
           "Bring it to a gentle boil, then lower the heat, cover, and simmer 15 minutes so the flavours come together.",
-          "Add 1 cup bamboo shoots and 1 sliced red bell pepper and simmer uncovered another 5 minutes, until the vegetables are tender-crisp.",
-          "Take the pot off the heat and stir in 1 cup Thai basil leaves until just wilted, about 1 minute, so they keep their scent.",
+          "Add 125 g bamboo shoots and 1 sliced red bell pepper and simmer uncovered another 5 minutes, until the vegetables are tender-crisp.",
+          "Take the pot off the heat and stir in 125 g Thai basil leaves until just wilted, about 1 minute, so they keep their scent.",
           "Serve the curry hot with lime wedges for a bright, sharp finish."
         ]
       },
@@ -58167,16 +58167,16 @@ window.initialRecipes = [
         "description": "Een snelle doordeweekse curry: de kip bruinen, de pasta opentrekken, en dan kokosmelk en bouillon. De basilicum gaat er van het vuur af in zodat ze slinkt in plaats van gaart.",
         "instructions": [
           "Verhit 1 el plantaardige olie in een grote pan of braadpan op middelhoog vuur tot ze glanst, ongeveer 2 minuten.",
-          "Voeg 1 lb stukken kip toe en bak ze rondom bruin, ongeveer 5–7 minuten, af en toe roerend zodat ze niet aanbakken.",
+          "Voeg 450 g stukken kip toe en bak ze rondom bruin, ongeveer 5–7 minuten, af en toe roerend zodat ze niet aanbakken.",
           "Haal de kip eruit en zet ze opzij op een bord, met de olie en het vocht in de pan.",
           "Zet het vuur op middelmatig en voeg 1 gesneden ui toe, en bak tot ze zacht en glazig is, ongeveer 4 minuten.",
           "Roer 3 teentjes fijngehakte knoflook en 1 el geraspte gember erdoor en bak 1 minuut, tot het geurt maar niet verbrandt.",
           "Voeg 2 el rode currypasta toe en bak 1 minuut, voortdurend roerend om de specerijen te roosteren en de smaak te verdiepen.",
-          "Giet er 1 blik kokosmelk en 1 kopje kippenbouillon bij en schraap de bodem van de pan om de aanbaksels in de saus te krijgen.",
+          "Giet er 1 blik kokosmelk en 240 ml kippenbouillon bij en schraap de bodem van de pan om de aanbaksels in de saus te krijgen.",
           "Roer 1 el vissaus en 1 el palmsuiker erdoor tot ze volledig opgelost zijn, en doe dan de gebruinde kip terug in de pan.",
           "Breng het zachtjes aan de kook, zet dan het vuur laag, dek af en laat 15 minuten sudderen zodat de smaken samenkomen.",
-          "Voeg 1 kopje bamboescheuten en 1 gesneden rode paprika toe en laat nog 5 minuten zonder deksel sudderen, tot de groenten beetgaar zijn.",
-          "Haal de pan van het vuur en roer er 1 kopje Thaise basilicumblaadjes door tot ze net geslonken zijn, ongeveer 1 minuut, zodat ze hun geur houden.",
+          "Voeg 125 g bamboescheuten en 1 gesneden rode paprika toe en laat nog 5 minuten zonder deksel sudderen, tot de groenten beetgaar zijn.",
+          "Haal de pan van het vuur en roer er 125 g Thaise basilicumblaadjes door tot ze net geslonken zijn, ongeveer 1 minuut, zodat ze hun geur houden.",
           "Dien de curry heet op met partjes limoen voor een frisse, scherpe afsluiting."
         ]
       },
@@ -58186,16 +58186,16 @@ window.initialRecipes = [
         "description": "Un curry rapide de semaine : colorer le poulet, torréfier la pâte, puis lait de coco et bouillon. Le basilic entre hors du feu pour qu'il tombe sans cuire.",
         "instructions": [
           "Chauffe 1 c. à soupe d'huile végétale dans une grande cocotte à feu moyen-vif jusqu'à ce qu'elle miroite, environ 2 minutes.",
-          "Ajoute 1 lb de morceaux de poulet et cuis jusqu'à ce qu'ils soient dorés sur toutes les faces, environ 5 à 7 minutes, en remuant de temps en temps pour qu'ils n'attachent pas.",
+          "Ajoute 450 g de morceaux de poulet et cuis jusqu'à ce qu'ils soient dorés sur toutes les faces, environ 5 à 7 minutes, en remuant de temps en temps pour qu'ils n'attachent pas.",
           "Sors le poulet et réserve-le sur une assiette, en laissant l'huile et les jus dans la cocotte.",
           "Baisse à feu moyen et ajoute 1 oignon émincé, en cuisant jusqu'à ce qu'il soit tendre et translucide, environ 4 minutes.",
           "Incorpore 3 gousses d'ail hachées et 1 c. à soupe de gingembre râpé et cuis 1 minute, jusqu'à ce que ça embaume sans brûler.",
           "Ajoute 2 c. à soupe de pâte de curry rouge et cuis 1 minute, en remuant sans arrêt pour torréfier les épices et approfondir le goût.",
-          "Verse 1 boîte de lait de coco et 1 tasse de bouillon de poulet, en grattant le fond pour incorporer les sucs à la sauce.",
+          "Verse 1 boîte de lait de coco et 240 ml de bouillon de poulet, en grattant le fond pour incorporer les sucs à la sauce.",
           "Incorpore 1 c. à soupe de sauce de poisson et 1 c. à soupe de sucre de palme jusqu'à dissolution complète, puis remets le poulet doré dans la cocotte.",
           "Porte à petite ébullition, puis baisse le feu, couvre, et laisse mijoter 15 minutes pour que les saveurs se lient.",
-          "Ajoute 1 tasse de pousses de bambou et 1 poivron rouge émincé et laisse mijoter à découvert encore 5 minutes, jusqu'à ce que les légumes soient tendres-croquants.",
-          "Retire la cocotte du feu et incorpore 1 tasse de feuilles de basilic thaï jusqu'à ce qu'elles soient tout juste tombées, environ 1 minute, pour préserver leur parfum.",
+          "Ajoute 125 g de pousses de bambou et 1 poivron rouge émincé et laisse mijoter à découvert encore 5 minutes, jusqu'à ce que les légumes soient tendres-croquants.",
+          "Retire la cocotte du feu et incorpore 125 g de feuilles de basilic thaï jusqu'à ce qu'elles soient tout juste tombées, environ 1 minute, pour préserver leur parfum.",
           "Sers le curry chaud avec des quartiers de citron vert pour une finition vive et acidulée."
         ]
       }
@@ -58693,12 +58693,12 @@ window.initialRecipes = [
           "Put the beef in the pressure cooker with the 4 wedges of onion and the stock.",
           "Pressure cook for 20 minutes.",
           "Release the pressure and open the lid.",
-          "Take the beef out and save 2 cups of the stock in another container.",
+          "Take the beef out and save 480 ml of the stock in another container.",
           "Shred the beef with 2 forks. It should be tender enough to come apart easily. If it isn't, cook it another 10 minutes.",
           "Press the sauté button on the Instant Pot and add the olive oil.",
           "When the machine beeps, add the sliced onion, pepper and tomatoes. Cook until tender.",
           "Add the shredded beef back to the pot and mix.",
-          "Pour in 1 1/2 cups of the saved stock, the Worcestershire sauce, tomato paste, ketchup and cumin. Mix.",
+          "Pour in 360 ml of the saved stock, the Worcestershire sauce, tomato paste, ketchup and cumin. Mix.",
           "If the sauce looks dry, add a little more of the stock.",
           "Season with salt and pepper, and serve."
         ]
@@ -58713,12 +58713,12 @@ window.initialRecipes = [
           "Doe het vlees in de snelkookpan met de 4 parten ui en de bouillon.",
           "Kook 20 minuten onder druk.",
           "Laat de druk ontsnappen en open het deksel.",
-          "Haal het vlees eruit en hou 2 kopjes van de bouillon apart in een andere kom.",
+          "Haal het vlees eruit en hou 480 ml van de bouillon apart in een andere kom.",
           "Trek het vlees met 2 vorken uit elkaar. Het hoort zacht genoeg te zijn om vlot te rafelen. Is dat niet zo, gaar het dan nog 10 minuten.",
           "Druk op de sauteerknop van de Instant Pot en voeg de olijfolie toe.",
           "Voeg als het toestel piept de gesneden ui, de paprika en de tomaten toe. Bak tot ze zacht zijn.",
           "Doe het gerafelde vlees terug in de pan en meng.",
-          "Giet er 1 1/2 kopje van de bewaarde bouillon bij, samen met de worcestershiresaus, de tomatenpuree, de ketchup en de komijn. Meng.",
+          "Giet er 360 ml van de bewaarde bouillon bij, samen met de worcestershiresaus, de tomatenpuree, de ketchup en de komijn. Meng.",
           "Ziet de saus er droog uit, voeg dan wat meer bouillon toe.",
           "Breng op smaak met zout en peper, en dien op."
         ]
@@ -58733,12 +58733,12 @@ window.initialRecipes = [
           "Mets le bœuf dans l'autocuiseur avec les 4 quartiers d'oignon et le bouillon.",
           "Cuis sous pression pendant 20 minutes.",
           "Relâche la pression et ouvre le couvercle.",
-          "Retire le bœuf et garde 2 tasses de bouillon dans un autre récipient.",
+          "Retire le bœuf et garde 480 ml de bouillon dans un autre récipient.",
           "Effiloche le bœuf à 2 fourchettes. Il doit être assez tendre pour se défaire tout seul. Si ce n'est pas le cas, cuis-le encore 10 minutes.",
           "Appuie sur le bouton sauté de l'Instant Pot et ajoute l'huile d'olive.",
           "Quand l'appareil bipe, ajoute l'oignon émincé, le poivron et les tomates. Cuis jusqu'à ce que ce soit tendre.",
           "Remets le bœuf effiloché dans la cuve et mélange.",
-          "Verse 1 tasse 1/2 du bouillon réservé, la sauce Worcestershire, le concentré de tomate, le ketchup et le cumin. Mélange.",
+          "Verse 360 ml du bouillon réservé, la sauce Worcestershire, le concentré de tomate, le ketchup et le cumin. Mélange.",
           "Si la sauce paraît sèche, ajoute encore un peu de bouillon.",
           "Assaisonne de sel et de poivre, et sers."
         ]
@@ -58940,7 +58940,7 @@ window.initialRecipes = [
         "description": "The reserved pasta water is what makes the sauce cling instead of sliding off. Season the vegetables only after they have browned — salt early and they steam.",
         "instructions": [
           "Heat 1 tablespoon of butter and 2 tablespoons of olive oil in a large skillet over medium-high heat. Season both sides of each chicken breast with seasoned salt and a pinch of pepper. Add the chicken and cook 5-7 minutes a side, or until cooked through.",
-          "While the chicken cooks, bring a large pot of water to the boil and season it with a few generous pinches of kosher salt. Add the pasta and stir. Cook, stirring occasionally, until al dente, about 12 minutes. Reserve 1/2 cup of the pasta water before you drain it — that starchy water is what binds the sauce later.",
+          "While the chicken cooks, bring a large pot of water to the boil and season it with a few generous pinches of kosher salt. Add the pasta and stir. Cook, stirring occasionally, until al dente, about 12 minutes. Reserve 120 ml of the pasta water before you drain it — that starchy water is what binds the sauce later.",
           "Take the chicken out of the pan onto a cutting board and let it rest. Turn the heat down to medium and add the remaining 1 tablespoon of butter and olive oil to the same pan.",
           "Add the vegetables, but not the garlic, along with the red pepper flakes, and stir to coat them in the oil and butter. Don't salt them until they have finished browning, or they will steam instead. Cook, stirring often, until tender, about 5 minutes.",
           "Add the garlic and a generous pinch of salt and pepper and cook 1 minute. Deglaze the pan with the white wine and keep cooking until it has reduced by half, about 3 minutes. Stir in the milk, heavy cream and reserved pasta water.",
@@ -58953,7 +58953,7 @@ window.initialRecipes = [
         "description": "Het achtergehouden pastawater is net wat de saus doet hechten in plaats van eraf glijden. Kruid de groenten pas als ze gekleurd zijn — vroeg zouten en ze stoven.",
         "instructions": [
           "Verhit 1 eetlepel boter en 2 eetlepels olijfolie in een grote pan op middelhoog vuur. Kruid beide kanten van elke kipfilet met gekruid zout en een snuifje peper. Voeg de kip toe en bak 5-7 minuten per kant, of tot ze gaar is.",
-          "Breng terwijl de kip bakt een grote pan water aan de kook en kruid het met een paar flinke snuifjes grof zout. Voeg de pasta toe en roer. Kook, af en toe roerend, tot ze beetgaar is, ongeveer 12 minuten. Hou 1/2 kopje pastawater achter voor je afgiet — dat zetmeelrijke water is wat de saus straks bindt.",
+          "Breng terwijl de kip bakt een grote pan water aan de kook en kruid het met een paar flinke snuifjes grof zout. Voeg de pasta toe en roer. Kook, af en toe roerend, tot ze beetgaar is, ongeveer 12 minuten. Hou 120 ml pastawater achter voor je afgiet — dat zetmeelrijke water is wat de saus straks bindt.",
           "Haal de kip uit de pan op een snijplank en laat ze rusten. Zet het vuur op middelmatig en voeg de resterende 1 eetlepel boter en olijfolie toe aan dezelfde pan.",
           "Voeg de groenten toe, maar niet de knoflook, samen met de chilivlokken, en roer tot ze bedekt zijn met olie en boter. Zout ze pas als ze gekleurd zijn, anders stoven ze in plaats van te bakken. Bak, vaak roerend, tot ze zacht zijn, ongeveer 5 minuten.",
           "Voeg de knoflook en een flinke snuif zout en peper toe en bak 1 minuut. Deglaceer de pan met de witte wijn en kook door tot ze gehalveerd is, ongeveer 3 minuten. Roer de melk, de room en het achtergehouden pastawater erdoor.",
@@ -58966,7 +58966,7 @@ window.initialRecipes = [
         "description": "L'eau de cuisson réservée est ce qui fait adhérer la sauce au lieu de la laisser glisser. N'assaisonne les légumes qu'une fois colorés — salés trop tôt, ils rendent de l'eau.",
         "instructions": [
           "Chauffe 1 cuillère à soupe de beurre et 2 cuillères à soupe d'huile d'olive dans une grande poêle à feu moyen-vif. Assaisonne les deux faces de chaque blanc de poulet de sel assaisonné et d'une pincée de poivre. Ajoute le poulet et cuis 5 à 7 minutes par face, ou jusqu'à cuisson complète.",
-          "Pendant la cuisson du poulet, porte une grande casserole d'eau à ébullition et sale-la de quelques bonnes pincées de gros sel. Ajoute les pâtes et remue. Cuis en remuant de temps en temps jusqu'à ce qu'elles soient al dente, environ 12 minutes. Réserve 1/2 tasse d'eau de cuisson avant d'égoutter — c'est cette eau amidonnée qui liera la sauce.",
+          "Pendant la cuisson du poulet, porte une grande casserole d'eau à ébullition et sale-la de quelques bonnes pincées de gros sel. Ajoute les pâtes et remue. Cuis en remuant de temps en temps jusqu'à ce qu'elles soient al dente, environ 12 minutes. Réserve 120 ml d'eau de cuisson avant d'égoutter — c'est cette eau amidonnée qui liera la sauce.",
           "Sors le poulet de la poêle sur une planche et laisse-le reposer. Baisse à feu moyen et ajoute le reste, soit 1 cuillère à soupe de beurre et d'huile d'olive, dans la même poêle.",
           "Ajoute les légumes, sans l'ail, avec les flocons de piment, et remue pour les enrober d'huile et de beurre. Ne les sale pas avant qu'ils aient fini de dorer, sinon ils rendront de l'eau. Cuis en remuant souvent jusqu'à ce qu'ils soient tendres, environ 5 minutes.",
           "Ajoute l'ail et une bonne pincée de sel et de poivre et cuis 1 minute. Déglace au vin blanc et poursuis jusqu'à réduction de moitié, environ 3 minutes. Incorpore le lait, la crème et l'eau de cuisson réservée.",
@@ -59238,7 +59238,7 @@ window.initialRecipes = [
           "Fried rice is best made with leftover rice that is at least a day old. Anything fresher goes gummy in the skillet.",
           "If you have no leftover rice from the night before, cook a batch and spread it on a large baking sheet or several plates. Let it dry out about 1 to 2 hours before you use it.",
           "Rice sticks very easily, so use a wok or pan that doesn't catch. A seasoned carbon steel wok is ideal, but cast iron or nonstick work well too. You may need a little more oil if things aren't releasing. Now prepare the chicken.",
-          "Chop the chicken into small cubes, 1/4-inch to 1/2-inch. Sprinkle 1/2 teaspoon of salt over it and mix. Set it aside about 10 minutes — that is enough time to chop all the vegetables. Now scramble the egg.",
+          "Chop the chicken into small cubes, 6 mm to 1.5 cm. Sprinkle 1/2 teaspoon of salt over it and mix. Set it aside about 10 minutes — that is enough time to chop all the vegetables. Now scramble the egg.",
           "Heat a wok or large sauté pan over medium-high heat. Swirl in a tablespoon of oil and add the whisked eggs. Scramble them quickly with a spatula, breaking the curds smaller as they set. Transfer them to a plate. Now cook the chicken.",
           "Add another tablespoon of oil to the wok. Add the chicken and cook 4 to 5 minutes, stirring occasionally. Turn off the heat and move the chicken to a plate.",
           "Scrape off any chicken stuck to the wok with your spatula so it doesn't burn in the next step. Paper towels work too. Now cook the vegetables.",
@@ -59256,7 +59256,7 @@ window.initialRecipes = [
           "Gebakken rijst maak je het best met restjes rijst die minstens een dag oud zijn. Alles wat verser is wordt pap in de pan.",
           "Heb je geen restjes van de avond ervoor, kook dan een portie en spreid ze uit op een grote bakplaat of een paar borden. Laat ze ongeveer 1 tot 2 uur uitdrogen voor je ze gebruikt.",
           "Rijst plakt heel makkelijk, dus gebruik een wok of pan die niet aanzet. Een ingebrande koolstofstalen wok is ideaal, maar gietijzer of antiaanbak werkt ook goed. Misschien heb je wat meer olie nodig als dingen niet loslaten. Nu de kip klaarmaken.",
-          "Snijd de kip in kleine blokjes van 1/4 tot 1/2 inch. Strooi er 1/2 theelepel zout over en meng. Zet ze ongeveer 10 minuten opzij — dat is precies genoeg tijd om alle groenten te snijden. Nu het ei.",
+          "Snijd de kip in kleine blokjes van 6 mm tot 1.5 cm. Strooi er 1/2 theelepel zout over en meng. Zet ze ongeveer 10 minuten opzij — dat is precies genoeg tijd om alle groenten te snijden. Nu het ei.",
           "Verhit een wok of grote sauteerpan op middelhoog vuur. Zwenk er een eetlepel olie in en voeg de losgeklopte eieren toe. Roer ze snel met een spatel, en breek de vlokken kleiner terwijl ze stollen. Doe ze op een bord. Nu de kip bakken.",
           "Doe nog een eetlepel olie in de wok. Voeg de kip toe en bak 4 tot 5 minuten, af en toe roerend. Zet het vuur uit en doe de kip op een bord.",
           "Schraap met je spatel de kipresten van de wok zodat ze in de volgende stap niet verbranden. Met keukenpapier kan ook. Nu de groenten.",
@@ -59274,7 +59274,7 @@ window.initialRecipes = [
           "Le riz sauté se fait de préférence avec du riz de la veille au moins. Plus frais, il devient gluant dans la poêle.",
           "Si tu n'as pas de riz de la veille, cuis-en une portion et étale-la sur une grande plaque ou plusieurs assiettes. Laisse-le sécher environ 1 à 2 heures avant de l'utiliser.",
           "Le riz accroche très facilement, alors prends un wok ou une poêle qui n'attache pas. Un wok en acier au carbone culotté est idéal, mais la fonte ou l'antiadhésif conviennent aussi. Il te faudra peut-être un peu plus d'huile si rien ne se décolle. Prépare le poulet maintenant.",
-          "Coupe le poulet en petits cubes de 1/4 à 1/2 pouce. Saupoudre 1/2 cuillère à café de sel dessus et mélange. Réserve environ 10 minutes — juste le temps de couper tous les légumes. Brouille l'œuf maintenant.",
+          "Coupe le poulet en petits cubes de 6 mm to 1.5 cm. Saupoudre 1/2 cuillère à café de sel dessus et mélange. Réserve environ 10 minutes — juste le temps de couper tous les légumes. Brouille l'œuf maintenant.",
           "Chauffe un wok ou une grande sauteuse à feu moyen-vif. Fais tourner une cuillère à soupe d'huile et ajoute les œufs battus. Brouille-les vite à la spatule, en cassant les caillots à mesure qu'ils prennent. Débarrasse-les sur une assiette. Cuis le poulet maintenant.",
           "Ajoute une autre cuillère à soupe d'huile dans le wok. Ajoute le poulet et cuis 4 à 5 minutes en remuant de temps en temps. Coupe le feu et transfère le poulet sur une assiette.",
           "Gratte à la spatule les morceaux de poulet restés collés au wok pour qu'ils ne brûlent pas à l'étape suivante. Du papier absorbant marche aussi. Cuis les légumes maintenant.",
@@ -59522,7 +59522,7 @@ window.initialRecipes = [
       "fr": {
         "title": "Chicken Handi",
         "subtitle": "Nommé d'après la marmite dans laquelle il cuit",
-        "description": "Un handi est une marmite de terre profonde, et le plat lui doit son nom. Les oignons frits entrent puis ressortent ; le poulet cuit lentement à feu doux, et c'est de vouloir presser cette étape qui aplatit le goût.",
+        "description": "Un handi est une marmite de terre profonde, et le plat lui doit son nom. Les oignons frits entrent puis ressortent; le poulet cuit lentement à feu doux, et c'est de vouloir presser cette étape qui aplatit le goût.",
         "instructions": [
           "Prends une grande marmite ou un wok, assez grand pour tout le poulet, et chauffe l'huile dedans. Une fois l'huile chaude, ajoute l'oignon émincé et fais-le frire jusqu'à ce qu'il soit bien doré. Sors-le sur une assiette et réserve.",
           "Dans la même marmite, ajoute l'ail haché et fais revenir une minute. Ajoute ensuite les tomates concassées et cuis jusqu'à ce qu'elles fondent, environ 5 minutes.",
@@ -60021,7 +60021,7 @@ window.initialRecipes = [
           "For the bread on the bottom of the dish, tear the pita into bite-size pieces. In a frying pan, add about a 1/4 stick of butter, add the bread and fry until golden brown and crisp. Put the pieces in a glass baking dish, a square one for preference, and set it aside.",
           "Then add to the same pan a little more butter, salt, approximately 2 cloves of crushed fresh garlic, and a teaspoon or so of cumin. Stir it around until you can smell the aroma, then add the fried bread back in, stir to coat it, and return it to the baking dish. Set aside.",
           "For the meat, put some butter in a pot and stir-fry the meat until browned. Add 1 onion quartered, salt and pepper, 1 cube of chicken bouillon and water to cover the meat. Bring to the boil, turn down to a simmer, cover and cook until tender, approximately 2 hours. Once it has cooled, take out the chunks of meat, put them in a bowl and set aside. Keep the broth separately — you need it later.",
-          "For the rice, put some butter in a pot and add the shareya, the fideo noodles, a handful or so. Keep stirring until they are golden brown, not too dark but properly golden. Then add two cups of rice and stir a little until some grains turn opaque white. Add 2-1/4 cups of water and salt to taste.",
+          "For the rice, put some butter in a pot and add the shareya, the fideo noodles, a handful or so. Keep stirring until they are golden brown, not too dark but properly golden. Then add two cups of rice and stir a little until some grains turn opaque white. Add 2-60 ml of water and salt to taste.",
           "Bring it to the boil, cover, turn it down to a simmer and cook until tender. Test the rice after about 35 minutes.",
           "Now take some of the broth from the meat and pour it over the bread in the baking dish to saturate it. Add the cooked rice on top of the bread. Slowly spoon the rest of the broth onto the rice, watching the sides of the glass dish for the level — it should reach just to the top of the rice. It doesn't have to be exact. Now you are ready to make the sauce and fry the meat for the top.",
           "For the red sauce, add a little oil or butter to a pan with the crushed tomato, a half teaspoon of tomato paste, salt and pepper, 2 cloves of fresh crushed garlic and cumin. Add approximately 3 tablespoons of vinegar and stir until you can smell it and it has smoothed out.",
@@ -60038,7 +60038,7 @@ window.initialRecipes = [
           "Scheur voor het brood op de bodem van de schaal de pita in hapklare stukken. Doe ongeveer een 1/4 staaf boter in een koekenpan, voeg het brood toe en bak het goudbruin en krokant. Doe de stukken in een glazen ovenschaal, bij voorkeur een vierkante, en zet die opzij.",
           "Voeg dan in dezelfde pan wat meer boter, zout, ongeveer 2 geplette teentjes verse knoflook en een theelepel of zo komijn toe. Roer tot je het ruikt, doe dan het gebakken brood er weer bij, roer tot het bedekt is, en doe het terug in de ovenschaal. Zet opzij.",
           "Doe voor het vlees wat boter in een pan en bak het vlees bruin. Voeg 1 ui in vieren toe, zout en peper, 1 kippenbouillonblokje en water tot het vlees onderstaat. Breng aan de kook, zet lager, dek af en gaar tot het zacht is, ongeveer 2 uur. Haal de stukken vlees eruit als het afgekoeld is, doe ze in een kom en zet ze opzij. Hou de bouillon apart — die heb je straks nodig.",
-          "Doe voor de rijst wat boter in een pan en voeg de shareya toe, de fideo-noedels, een handvol of zo. Blijf roeren tot ze goudbruin zijn, niet te donker maar goed goudbruin. Voeg dan twee kopjes rijst toe en roer wat tot sommige korrels ondoorzichtig wit worden. Voeg 2-1/4 kopje water en zout naar smaak toe.",
+          "Doe voor de rijst wat boter in een pan en voeg de shareya toe, de fideo-noedels, een handvol of zo. Blijf roeren tot ze goudbruin zijn, niet te donker maar goed goudbruin. Voeg dan twee kopjes rijst toe en roer wat tot sommige korrels ondoorzichtig wit worden. Voeg 2-60 ml water en zout naar smaak toe.",
           "Breng aan de kook, dek af, zet lager en gaar tot ze zacht is. Test de rijst na ongeveer 35 minuten.",
           "Neem nu wat van de bouillon van het vlees en giet die over het brood in de ovenschaal om het te doordrenken. Leg de gare rijst op het brood. Lepel de rest van de bouillon langzaam op de rijst en kijk langs de zijkant van de glazen schaal naar het niveau — het hoort net tot bovenaan de rijst te komen. Het hoeft niet exact te zijn. Nu ben je klaar om de saus te maken en het vlees te bakken voor bovenop.",
           "Doe voor de rode saus een beetje olie of boter in een pan met de geplette tomaat, een halve theelepel tomatenpuree, zout en peper, 2 teentjes verse geplette knoflook en komijn. Voeg ongeveer 3 eetlepels azijn toe en roer tot je het ruikt en het glad geworden is.",
@@ -60055,7 +60055,7 @@ window.initialRecipes = [
           "Pour le pain du fond du plat, déchire le pita en morceaux de la taille d'une bouchée. Dans une poêle, mets environ 1/4 de plaquette de beurre, ajoute le pain et fais-le frire jusqu'à ce qu'il soit doré et croustillant. Mets les morceaux dans un plat en verre, carré de préférence, et réserve.",
           "Ajoute ensuite dans la même poêle un peu plus de beurre, du sel, environ 2 gousses d'ail frais écrasées, et une cuillère à café environ de cumin. Remue jusqu'à ce que tu sentes le parfum, puis remets le pain frit, mélange pour l'enrober, et remets-le dans le plat. Réserve.",
           "Pour la viande, mets du beurre dans une casserole et fais revenir la viande jusqu'à ce qu'elle soit dorée. Ajoute 1 oignon en quartiers, sel et poivre, 1 cube de bouillon de poule et de l'eau à hauteur. Porte à ébullition, baisse à frémissement, couvre et cuis jusqu'à ce que ce soit tendre, environ 2 heures. Une fois refroidi, sors les morceaux de viande, mets-les dans un bol et réserve. Garde le bouillon à part — il te servira plus tard.",
-          "Pour le riz, mets du beurre dans une casserole et ajoute les shareya, les vermicelles fideo, une poignée environ. Remue sans cesse jusqu'à ce qu'ils soient dorés, pas trop foncés mais bien dorés. Ajoute ensuite deux tasses de riz et remue un peu jusqu'à ce que certains grains deviennent blancs opaques. Ajoute 2-1/4 tasses d'eau et du sel à ton goût.",
+          "Pour le riz, mets du beurre dans une casserole et ajoute les shareya, les vermicelles fideo, une poignée environ. Remue sans cesse jusqu'à ce qu'ils soient dorés, pas trop foncés mais bien dorés. Ajoute ensuite deux tasses de riz et remue un peu jusqu'à ce que certains grains deviennent blancs opaques. Ajoute 2-60 ml d'eau et du sel à ton goût.",
           "Porte à ébullition, couvre, baisse à frémissement et cuis jusqu'à ce que ce soit tendre. Vérifie le riz au bout de 35 minutes environ.",
           "Prends maintenant un peu du bouillon de la viande et verse-le sur le pain dans le plat pour l'imbiber. Ajoute le riz cuit sur le pain. Verse lentement le reste du bouillon sur le riz, en surveillant le niveau à travers la paroi en verre — il doit arriver tout juste au sommet du riz. Nul besoin d'être exact. Tu es prêt à faire la sauce et à frire la viande pour le dessus.",
           "Pour la sauce rouge, mets un peu d'huile ou de beurre dans une poêle avec la tomate concassée, une demi-cuillère à café de concentré de tomate, sel et poivre, 2 gousses d'ail frais écrasées et du cumin. Ajoute environ 3 cuillères à soupe de vinaigre et remue jusqu'à ce que ça embaume et que ce soit lisse.",
@@ -60564,7 +60564,7 @@ window.initialRecipes = [
           "While the chicken marinates, combine the julienned carrots, daikon radish, rice vinegar and granulated sugar in a separate bowl, stirring until the sugar has dissolved, to pickle the vegetables.",
           "In a small bowl, mix the mayonnaise and sriracha thoroughly to make a spicy aioli.",
           "Heat the vegetable oil in a large skillet or wok over medium-high heat until it shimmers, about 2 minutes.",
-          "Add the marinated chicken strips to the hot skillet in a single layer, cooking 4-5 minutes a side until they reach an internal temperature of 165°F and have a golden-brown crust.",
+          "Add the marinated chicken strips to the hot skillet in a single layer, cooking 4-5 minutes a side until they reach an internal temperature of 75 °C and have a golden-brown crust.",
           "While the chicken cooks, lightly toast the split baguettes in a toaster oven or under a broiler for 2-3 minutes, until just crisp at the edges.",
           "Spread a generous layer of the spicy aioli inside each toasted baguette.",
           "Drain the pickled carrots and daikon and layer them onto the bottom half of each baguette.",
@@ -60583,7 +60583,7 @@ window.initialRecipes = [
           "Meng terwijl de kip marineert de julienne van wortel, de daikon, de rijstazijn en de kristalsuiker in een aparte kom en roer tot de suiker opgelost is, om de groenten te pekelen.",
           "Meng in een kommetje de mayonaise en de sriracha grondig tot een pittige aioli.",
           "Verhit de plantaardige olie in een grote pan of wok op middelhoog vuur tot ze glanst, ongeveer 2 minuten.",
-          "Leg de gemarineerde reepjes kip in één laag in de hete pan en bak ze 4-5 minuten per kant, tot ze een kerntemperatuur van 165°F hebben en een goudbruine korst.",
+          "Leg de gemarineerde reepjes kip in één laag in de hete pan en bak ze 4-5 minuten per kant, tot ze een kerntemperatuur van 75 °C hebben en een goudbruine korst.",
           "Rooster terwijl de kip bakt de opengesneden baguettes licht in een oventje of onder de grill gedurende 2-3 minuten, tot ze net krokant zijn aan de randen.",
           "Strijk een royale laag pittige aioli aan de binnenkant van elke geroosterde baguette.",
           "Laat de gepekelde wortel en daikon uitlekken en verdeel ze over de onderste helft van elke baguette.",
@@ -60595,14 +60595,14 @@ window.initialRecipes = [
       "fr": {
         "title": "Num Pang – Cambodian Baguette Sandwich",
         "subtitle": "La baguette du Cambodge, avec des pickles qui tranchent le glaçage au miel",
-        "description": "Les Français ont laissé la baguette ; le Cambodge l'a garnie de porc ou de poulet mariné, de carotte et de daikon en pickles rapides, et de mayonnaise au sriracha. Ce sont les pickles qui l'empêchent d'être trop sucrée.",
+        "description": "Les Français ont laissé la baguette; le Cambodge l'a garnie de porc ou de poulet mariné, de carotte et de daikon en pickles rapides, et de mayonnaise au sriracha. Ce sont les pickles qui l'empêchent d'être trop sucrée.",
         "instructions": [
           "Dans un bol moyen, fouette la sauce soja et le miel pour faire une marinade.",
           "Ajoute les lanières de cuisse de poulet en veillant à ce que chaque morceau soit enrobé, et laisse reposer 20 minutes à température ambiante.",
           "Pendant que le poulet marine, mélange les carottes en julienne, le daikon, le vinaigre de riz et le sucre dans un autre bol, en remuant jusqu'à dissolution du sucre, pour faire les pickles.",
           "Dans un petit bol, mélange soigneusement la mayonnaise et le sriracha pour faire un aïoli relevé.",
           "Chauffe l'huile végétale dans une grande poêle ou un wok à feu moyen-vif jusqu'à ce qu'elle miroite, environ 2 minutes.",
-          "Dépose les lanières de poulet marinées en une seule couche dans la poêle chaude et cuis 4 à 5 minutes par face, jusqu'à une température à cœur de 165°F et une croûte bien dorée.",
+          "Dépose les lanières de poulet marinées en une seule couche dans la poêle chaude et cuis 4 à 5 minutes par face, jusqu'à une température à cœur de 75 °C et une croûte bien dorée.",
           "Pendant la cuisson du poulet, fais légèrement griller les baguettes fendues au four grille-pain ou sous le gril 2 à 3 minutes, juste jusqu'à ce que les bords croustillent.",
           "Étale une généreuse couche d'aïoli relevé à l'intérieur de chaque baguette grillée.",
           "Égoutte les pickles de carotte et de daikon et dispose-les sur la moitié inférieure de chaque baguette.",
@@ -61375,9 +61375,9 @@ window.initialRecipes = [
           "In a large bowl, combine the coconut milk, soy sauce, oyster sauce, honey, minced garlic and black pepper to make the marinade.",
           "Add the thinly sliced pork shoulder, making sure every piece is coated, then cover and refrigerate at least 30 minutes so the flavours get in.",
           "While the pork marinates, rinse the jasmine rice under cold water until the water runs clear, which washes off the loose starch and stops it clumping.",
-          "In a medium pot, combine the rinsed rice and 4 cups of water, bring to the boil over high heat, then lower to a simmer, cover and cook 15 minutes until the water is absorbed and the rice is tender.",
-          "Heat a grill pan or outdoor grill to medium-high, about 400°F, and brush it lightly with vegetable oil so nothing sticks.",
-          "Take the pork out of the marinade, shaking off the excess, and put it on the hot grill. Cook 3-4 minutes a side until nicely charred and cooked through, to an internal temperature of 145°F.",
+          "In a medium pot, combine the rinsed rice and 960 ml of water, bring to the boil over high heat, then lower to a simmer, cover and cook 15 minutes until the water is absorbed and the rice is tender.",
+          "Heat a grill pan or outdoor grill to medium-high, about 200 °C, and brush it lightly with vegetable oil so nothing sticks.",
+          "Take the pork out of the marinade, shaking off the excess, and put it on the hot grill. Cook 3-4 minutes a side until nicely charred and cooked through, to an internal temperature of 65 °C.",
           "Don't crowd the grill pan — crowded meat steams instead of browning, and you lose the caramelised marinade.",
           "Once the pork is grilled, let it rest 5 minutes before slicing so it keeps its juices.",
           "If you would rather have it saucier, simmer the leftover marinade in a small saucepan for 5 minutes until slightly thickened and drizzle it over the pork.",
@@ -61394,9 +61394,9 @@ window.initialRecipes = [
           "Meng in een grote kom de kokosmelk, de sojasaus, de oestersaus, de honing, de fijngehakte knoflook en de zwarte peper tot een marinade.",
           "Voeg de dun gesneden varkensschouder toe en zorg dat elk stuk bedekt is, dek dan af en zet minstens 30 minuten in de koelkast zodat de smaken erin trekken.",
           "Spoel terwijl het vlees marineert de jasmijnrijst onder koud water tot het water helder loopt, wat het losse zetmeel wegwast en klitten belet.",
-          "Doe de gespoelde rijst met 4 kopjes water in een middelgrote pan, breng op hoog vuur aan de kook, zet dan lager, dek af en gaar 15 minuten tot het water opgenomen is en de rijst zacht.",
-          "Verhit een grillpan of buitengrill tot middelhoog, ongeveer 400°F, en bestrijk hem licht met plantaardige olie zodat er niets plakt.",
-          "Haal het vlees uit de marinade, schud het teveel eraf, en leg het op de hete grill. Gaar 3-4 minuten per kant tot het mooi geblakerd en gaar is, tot een kerntemperatuur van 145°F.",
+          "Doe de gespoelde rijst met 960 ml water in een middelgrote pan, breng op hoog vuur aan de kook, zet dan lager, dek af en gaar 15 minuten tot het water opgenomen is en de rijst zacht.",
+          "Verhit een grillpan of buitengrill tot middelhoog, ongeveer 200 °C, en bestrijk hem licht met plantaardige olie zodat er niets plakt.",
+          "Haal het vlees uit de marinade, schud het teveel eraf, en leg het op de hete grill. Gaar 3-4 minuten per kant tot het mooi geblakerd en gaar is, tot een kerntemperatuur van 65 °C.",
           "Leg de grillpan niet te vol — te veel vlees stooft in plaats van te kleuren, en dan verlies je de gekarameliseerde marinade.",
           "Laat het vlees na het grillen 5 minuten rusten voor je het snijdt, zodat het zijn sappen houdt.",
           "Wil je het liever sappiger, laat dan de overgebleven marinade 5 minuten inkoken in een pannetje tot ze lichtjes indikt en sprenkel ze over het vlees.",
@@ -61413,9 +61413,9 @@ window.initialRecipes = [
           "Dans un grand bol, mélange le lait de coco, la sauce soja, la sauce d'huître, le miel, l'ail haché et le poivre noir pour faire la marinade.",
           "Ajoute l'échine de porc finement tranchée en veillant à ce que chaque morceau soit enrobé, puis couvre et réfrigère au moins 30 minutes pour que les saveurs pénètrent.",
           "Pendant que le porc marine, rince le riz jasmin à l'eau froide jusqu'à ce que l'eau soit claire, ce qui élimine l'amidon libre et empêche le riz de coller.",
-          "Dans une casserole moyenne, réunis le riz rincé et 4 tasses d'eau, porte à ébullition à feu vif, puis baisse à frémissement, couvre et cuis 15 minutes jusqu'à ce que l'eau soit absorbée et le riz tendre.",
-          "Chauffe une poêle-gril ou un barbecue à feu moyen-vif, environ 400°F, et badigeonne légèrement d'huile végétale pour que rien n'accroche.",
-          "Sors le porc de la marinade en secouant l'excédent, et pose-le sur le gril chaud. Cuis 3 à 4 minutes par face jusqu'à ce qu'il soit bien grillé et cuit à cœur, à une température interne de 145°F.",
+          "Dans une casserole moyenne, réunis le riz rincé et 960 ml d'eau, porte à ébullition à feu vif, puis baisse à frémissement, couvre et cuis 15 minutes jusqu'à ce que l'eau soit absorbée et le riz tendre.",
+          "Chauffe une poêle-gril ou un barbecue à feu moyen-vif, environ 200 °C, et badigeonne légèrement d'huile végétale pour que rien n'accroche.",
+          "Sors le porc de la marinade en secouant l'excédent, et pose-le sur le gril chaud. Cuis 3 à 4 minutes par face jusqu'à ce qu'il soit bien grillé et cuit à cœur, à une température interne de 65 °C.",
           "Ne surcharge pas la poêle-gril — une viande serrée cuit à la vapeur au lieu de dorer, et tu perds la marinade caramélisée.",
           "Une fois le porc grillé, laisse-le reposer 5 minutes avant de le trancher pour qu'il garde ses jus.",
           "Si tu le préfères plus en sauce, fais réduire la marinade restante dans une petite casserole 5 minutes jusqu'à léger épaississement et arrose-en le porc.",
@@ -61605,7 +61605,7 @@ window.initialRecipes = [
           "First, marinate the beef.",
           "Stir together the beef marinade — 1 teaspoon soy sauce, 1 teaspoon Chinese rice wine, 1/2 teaspoon cornstarch, 1/8 teaspoon black pepper — in a medium bowl.",
           "Add the beef slices and stir until coated. Let it stand 10 minutes. Now prepare the sauce.",
-          "Stir together the sauce — 2 tablespoons oyster sauce, 1 teaspoon Chinese rice wine, 1 teaspoon soy sauce, 1/4 cup chicken broth — in a small bowl. Set it aside.",
+          "Stir together the sauce — 2 tablespoons oyster sauce, 1 teaspoon Chinese rice wine, 1 teaspoon soy sauce, 60 ml chicken broth — in a small bowl. Set it aside.",
           "Now blanch or steam the broccoli.",
           "Bring a pot of water to the boil. Add the broccoli and cook until crisp-tender, about 2 minutes. Drain it thoroughly. Now stir-fry the beef.",
           "Heat a large frying pan or wok over high heat until a bead of water sizzles and vanishes on contact. Add the cooking oil and swirl to coat.",
@@ -61624,7 +61624,7 @@ window.initialRecipes = [
           "Marineer eerst het rundvlees.",
           "Roer de marinade voor het vlees — 1 theelepel sojasaus, 1 theelepel Chinese rijstwijn, 1/2 theelepel maizena, 1/8 theelepel zwarte peper — door elkaar in een middelgrote kom.",
           "Voeg de plakjes vlees toe en roer tot ze bedekt zijn. Laat 10 minuten staan. Maak nu de saus.",
-          "Roer de saus — 2 eetlepels oestersaus, 1 theelepel Chinese rijstwijn, 1 theelepel sojasaus, 1/4 kopje kippenbouillon — door elkaar in een kommetje. Zet opzij.",
+          "Roer de saus — 2 eetlepels oestersaus, 1 theelepel Chinese rijstwijn, 1 theelepel sojasaus, 60 ml kippenbouillon — door elkaar in een kommetje. Zet opzij.",
           "Blancheer of stoom nu de broccoli.",
           "Breng een pan water aan de kook. Voeg de broccoli toe en kook tot hij beetgaar is, ongeveer 2 minuten. Giet hem grondig af. Nu het vlees roerbakken.",
           "Verhit een grote koekenpan of wok op hoog vuur tot een druppel water er meteen op sist en verdwijnt. Voeg de bakolie toe en zwenk ze rond.",
@@ -61643,7 +61643,7 @@ window.initialRecipes = [
           "D'abord, fais mariner le bœuf.",
           "Mélange la marinade du bœuf — 1 cuillère à café de sauce soja, 1 cuillère à café de vin de riz chinois, 1/2 cuillère à café de fécule, 1/8 de cuillère à café de poivre noir — dans un bol moyen.",
           "Ajoute les tranches de bœuf et remue pour les enrober. Laisse reposer 10 minutes. Prépare la sauce maintenant.",
-          "Mélange la sauce — 2 cuillères à soupe de sauce d'huître, 1 cuillère à café de vin de riz chinois, 1 cuillère à café de sauce soja, 1/4 de tasse de bouillon de poulet — dans un petit bol. Réserve.",
+          "Mélange la sauce — 2 cuillères à soupe de sauce d'huître, 1 cuillère à café de vin de riz chinois, 1 cuillère à café de sauce soja, 60 ml de bouillon de poulet — dans un petit bol. Réserve.",
           "Blanchis ou fais cuire le brocoli à la vapeur maintenant.",
           "Porte une casserole d'eau à ébullition. Ajoute le brocoli et cuis jusqu'à ce qu'il soit tendre-croquant, environ 2 minutes. Égoutte soigneusement. Fais sauter le bœuf maintenant.",
           "Chauffe une grande poêle ou un wok à feu vif jusqu'à ce qu'une goutte d'eau grésille et disparaisse au contact. Ajoute l'huile et fais-la tourner.",
@@ -61840,12 +61840,12 @@ window.initialRecipes = [
         "instructions": [
           "Season the beef cubes with salt and black pepper. Heat a tablespoon of oil in the frying pan and fry the meat over high heat. Do it in three batches so you don't crowd the pan, transferring the meat to a large flameproof casserole dish as it browns all over. Add extra oil if the pan looks dry.",
           "In the same pan, add another tablespoon of oil and cook the shallots 4-5 minutes, then add the garlic and fry 30 seconds. Add the bacon and fry until slightly browned. Transfer the onion and bacon to the casserole and add the herbs.",
-          "Heat the oven to 180C/350F/Gas 4.",
+          "Heat the oven to 180 °C.",
           "Pour the stout into the frying pan and bring it to the boil, stirring to lift the browned bits off the bottom. Pour the stout over the beef in the casserole and add the stock. Cover and put it in the oven for 1½-2 hours, until the beef is tender and the sauce reduced.",
           "Skim off any fat on the surface, taste and add salt and pepper if it needs it, then stir in the cornflour paste. Put the casserole on the hob — remember it will be hot — and simmer 1-2 minutes, stirring, until thickened. Leave it to cool.",
-          "Turn the oven up to 200C/400F/Gas 6. For the pastry, put the flour and salt in a very large bowl. Grate the butter and stir it into the flour in three batches. Gradually add 325ml/11fl oz cold water — you may not need it all — stirring with a round-bladed knife until it just comes together.",
-          "Knead the pastry lightly into a ball on a lightly floured surface and set aside 250g/9oz for the lid.",
-          "Roll the rest out until about 2cm/¾in larger than your dish. Line the dish, then pile in the filling, tucking the oysters in among it. Brush the edge of the pastry with beaten egg.",
+          "Turn the oven up to 200 °C. For the pastry, put the flour and salt in a very large bowl. Grate the butter and stir it into the flour in three batches. Gradually add 325ml cold water — you may not need it all — stirring with a round-bladed knife until it just comes together.",
+          "Knead the pastry lightly into a ball on a lightly floured surface and set aside 250g for the lid.",
+          "Roll the rest out until about 2cm larger than your dish. Line the dish, then pile in the filling, tucking the oysters in among it. Brush the edge of the pastry with beaten egg.",
           "Roll the reserved pastry until slightly larger than the dish and lift it gently over the filling, pressing the edges firmly to seal, then trim with a sharp knife. Brush with beaten egg to glaze. Put the dish on a baking tray and bake 25-30 minutes, until the pastry is golden-brown and the filling bubbling."
         ]
       },
@@ -61856,12 +61856,12 @@ window.initialRecipes = [
         "instructions": [
           "Kruid de blokjes rundvlees met zout en zwarte peper. Verhit een eetlepel olie in de koekenpan en bak het vlees op hoog vuur. Doe het in drie porties zodat de pan niet te vol staat, en leg het vlees telkens als het rondom gekleurd is in een grote vuurvaste braadpan. Voeg extra olie toe als de pan droog lijkt.",
           "Doe in dezelfde pan nog een eetlepel olie en bak de sjalotten 4-5 minuten, voeg dan de knoflook toe en bak 30 seconden. Voeg de bacon toe en bak tot hij wat gekleurd is. Doe het ui-en-baconmengsel bij de braadpan en voeg de kruiden toe.",
-          "Verwarm de oven op 180C/350F/gas 4.",
+          "Verwarm de oven op 180 °C.",
           "Giet de stout in de koekenpan en breng aan de kook terwijl je de aanbaksels van de bodem losroert. Giet de stout over het vlees in de braadpan en voeg de bouillon toe. Dek af en zet 1½-2 uur in de oven, tot het vlees zacht is en de saus ingekookt.",
           "Schep het vet van het oppervlak, proef en voeg zout en peper toe als het nodig is, en roer er dan het maizenapapje door. Zet de braadpan op het vuur — vergeet niet dat hij heet is — en laat 1-2 minuten sudderen terwijl je roert, tot het indikt. Laat het afkoelen.",
-          "Zet de oven op 200C/400F/gas 6. Doe voor het deeg de bloem en het zout in een heel grote kom. Rasp de boter en roer ze in drie keer door de bloem. Voeg geleidelijk 325ml/11fl oz koud water toe — je hebt het misschien niet allemaal nodig — en roer met een bot mes tot het net samenkomt.",
-          "Kneed het deeg licht tot een bal op een licht bebloemd werkblad en zet 250g/9oz opzij voor het deksel.",
-          "Rol de rest uit tot ongeveer 2cm/¾in groter dan je schaal. Bekleed de schaal en stapel de vulling erin, met de oesters ertussen gestopt. Bestrijk de rand van het deeg met losgeklopt ei.",
+          "Zet de oven op 200 °C. Doe voor het deeg de bloem en het zout in een heel grote kom. Rasp de boter en roer ze in drie keer door de bloem. Voeg geleidelijk 325ml koud water toe — je hebt het misschien niet allemaal nodig — en roer met een bot mes tot het net samenkomt.",
+          "Kneed het deeg licht tot een bal op een licht bebloemd werkblad en zet 250g opzij voor het deksel.",
+          "Rol de rest uit tot ongeveer 2cm groter dan je schaal. Bekleed de schaal en stapel de vulling erin, met de oesters ertussen gestopt. Bestrijk de rand van het deeg met losgeklopt ei.",
           "Rol het achtergehouden deeg uit tot het net iets groter is dan de schaal en til het voorzichtig over de vulling, druk de randen stevig dicht en snijd bij met een scherp mes. Bestrijk met losgeklopt ei om te glaceren. Zet de schaal op een bakplaat en bak 25-30 minuten, tot het deeg goudbruin is en de vulling borrelt."
         ]
       },
@@ -61872,12 +61872,12 @@ window.initialRecipes = [
         "instructions": [
           "Assaisonne les cubes de bœuf de sel et de poivre noir. Chauffe une cuillère à soupe d'huile dans la poêle et fais saisir la viande à feu vif. Procède en trois fournées pour ne pas surcharger la poêle, en transférant la viande dans une grande cocotte allant sur le feu à mesure qu'elle dore. Rajoute de l'huile si la poêle paraît sèche.",
           "Dans la même poêle, ajoute une autre cuillère à soupe d'huile et fais revenir les échalotes 4 à 5 minutes, puis ajoute l'ail et fais revenir 30 secondes. Ajoute le lard et fais-le colorer légèrement. Transfère le mélange oignon-lard dans la cocotte et ajoute les herbes.",
-          "Chauffe le four à 180C/350F/gas 4.",
+          "Chauffe le four à 180 °C.",
           "Verse la stout dans la poêle et porte à ébullition en grattant les sucs du fond. Verse la stout sur le bœuf dans la cocotte et ajoute le bouillon. Couvre et enfourne 1 h ½ à 2 heures, jusqu'à ce que le bœuf soit tendre et la sauce réduite.",
           "Dégraisse la surface, goûte et rectifie en sel et poivre s'il en faut, puis incorpore la liaison à la maïzena. Pose la cocotte sur le feu — n'oublie pas qu'elle est brûlante — et laisse frémir 1 à 2 minutes en remuant, jusqu'à épaississement. Laisse refroidir.",
-          "Monte le four à 200C/400F/gas 6. Pour la pâte, mets la farine et le sel dans un très grand saladier. Râpe le beurre et incorpore-le à la farine en trois fois. Ajoute progressivement 325ml/11fl oz d'eau froide — tu n'en auras peut-être pas besoin de toute — en mélangeant au couteau à bout rond jusqu'à ce que la pâte se rassemble tout juste.",
-          "Pétris légèrement la pâte en boule sur un plan fariné et réserve 250g/9oz pour le couvercle.",
-          "Étale le reste jusqu'à environ 2cm/¾in de plus que ton plat. Fonce le plat, puis remplis-le de garniture en glissant les huîtres au milieu. Badigeonne le bord de la pâte d'œuf battu.",
+          "Monte le four à 200 °C. Pour la pâte, mets la farine et le sel dans un très grand saladier. Râpe le beurre et incorpore-le à la farine en trois fois. Ajoute progressivement 325ml d'eau froide — tu n'en auras peut-être pas besoin de toute — en mélangeant au couteau à bout rond jusqu'à ce que la pâte se rassemble tout juste.",
+          "Pétris légèrement la pâte en boule sur un plan fariné et réserve 250g pour le couvercle.",
+          "Étale le reste jusqu'à environ 2cm de plus que ton plat. Fonce le plat, puis remplis-le de garniture en glissant les huîtres au milieu. Badigeonne le bord de la pâte d'œuf battu.",
           "Étale la pâte réservée jusqu'à un peu plus grand que le plat et pose-la délicatement sur la garniture, en pressant fermement les bords pour souder, puis recoupe au couteau bien aiguisé. Badigeonne d'œuf battu pour dorer. Pose le plat sur une plaque et cuis 25 à 30 minutes, jusqu'à ce que la pâte soit dorée et la garniture bouillonnante."
         ]
       }
@@ -62104,7 +62104,7 @@ window.initialRecipes = [
           "Heat a large casserole pan and add 1 tbsp goose fat. Season the beef and fry until golden brown, about 3-5 mins, then turn and fry the other side until browned all over, adding more fat if you need it. Do this in 2-3 batches, transferring the meat to a colander set over a bowl as it browns.",
           "In the same pan, fry the bacon, shallots or pearl onions, mushrooms, garlic and bouquet garni until lightly browned. Mix in the tomato purée and cook a few mins, stirring it through. This enriches the bourguignon and makes a good base for the stew. Then return the beef and any drained juices and stir through.",
           "Pour over the wine and about 100ml water, so the meat bobs up out of the liquid rather than being completely covered. Bring it to the boil and scrape the caramelised juices from the bottom of the pan with a spoon — that is where a lot of the flavour is.",
-          "Heat the oven to 150C/fan 130C/gas 2. Make a cartouche: tear off a square of foil slightly larger than the casserole, arrange it in the pan so it covers the top of the stew, and trim away the excess. Cook for 3 hrs. If the sauce looks watery, lift the beef and vegetables out with a slotted spoon and set them aside.",
+          "Heat the oven to 150 °C / fan 130 °C. Make a cartouche: tear off a square of foil slightly larger than the casserole, arrange it in the pan so it covers the top of the stew, and trim away the excess. Cook for 3 hrs. If the sauce looks watery, lift the beef and vegetables out with a slotted spoon and set them aside.",
           "Cook the sauce over high heat a few mins until it has thickened a little, then return the beef and vegetables to the pan.",
           "For the celeriac mash, peel the celeriac and cut it into cubes. Heat the olive oil in a large frying pan. Tip in the celeriac and fry 5 mins until golden. Season well with salt and pepper. Stir in the rosemary, thyme, bay and cardamom pods, then pour over 200ml water, enough to nearly cover it.",
           "Turn the heat to low, partially cover the pan and leave it to simmer 25-30 mins.",
@@ -62120,7 +62120,7 @@ window.initialRecipes = [
           "Verhit een grote braadpan en doe er 1 el ganzenvet in. Kruid het vlees en bak het goudbruin, ongeveer 3-5 min, draai het dan om en bak de andere kant tot het rondom gekleurd is, met meer vet als het nodig is. Doe dit in 2-3 porties en leg het vlees telkens in een vergiet boven een kom.",
           "Bak in dezelfde pan de bacon, de sjalotten of zilveruitjes, de champignons, de knoflook en het kruidenbundeltje tot ze licht gekleurd zijn. Meng de tomatenpuree erdoor en bak een paar minuten terwijl je roert. Dat verrijkt de bourguignon en geeft een goede basis voor de stoofpot. Doe dan het vlees met het uitgelekte vocht terug in de pan en roer door.",
           "Giet de wijn en ongeveer 100ml water erover, zodat het vlees uit het vocht opsteekt in plaats van er helemaal onder te staan. Breng aan de kook en schraap de gekarameliseerde sappen met een lepel van de bodem — daar zit veel van de smaak.",
-          "Verwarm de oven op 150C/hetelucht 130C/gas 2. Maak een cartouche: scheur een vierkant folie af dat net iets groter is dan de pan, leg het zo in de pan dat het de bovenkant van de stoofpot bedekt, en snijd het overtollige weg. Gaar 3 uur. Ziet de saus er waterig uit, haal het vlees en de groenten er dan met een schuimspaan uit en zet ze opzij.",
+          "Verwarm de oven op 150 °C / hetelucht 130 °C. Maak een cartouche: scheur een vierkant folie af dat net iets groter is dan de pan, leg het zo in de pan dat het de bovenkant van de stoofpot bedekt, en snijd het overtollige weg. Gaar 3 uur. Ziet de saus er waterig uit, haal het vlees en de groenten er dan met een schuimspaan uit en zet ze opzij.",
           "Kook de saus een paar minuten op hoog vuur tot ze wat ingedikt is, en doe dan het vlees en de groenten terug in de pan.",
           "Schil voor de knolselderstamppot de knolselder en snijd hem in blokjes. Verhit de olijfolie in een grote koekenpan. Doe de knolselder erin en bak 5 min tot hij goudbruin is. Kruid goed met zout en peper. Roer de rozemarijn, de tijm, de laurier en de kardemompeulen erdoor, en giet er dan 200ml water over, net genoeg om hem bijna onder te zetten.",
           "Zet het vuur laag, dek de pan half af en laat 25-30 min sudderen.",
@@ -62136,7 +62136,7 @@ window.initialRecipes = [
           "Chauffe une grande cocotte et ajoute 1 c. à soupe de graisse d'oie. Assaisonne le bœuf et fais-le dorer, environ 3 à 5 min, puis retourne-le et fais dorer l'autre face jusqu'à ce qu'il soit coloré partout, en rajoutant de la graisse au besoin. Procède en 2 ou 3 fournées, en transférant la viande dans une passoire posée sur un bol à mesure.",
           "Dans la même cocotte, fais revenir le lard, les échalotes ou petits oignons, les champignons, l'ail et le bouquet garni jusqu'à légère coloration. Incorpore le concentré de tomate et cuis quelques minutes en remuant. Cela enrichit le bourguignon et donne une bonne base au ragoût. Remets ensuite le bœuf et les jus égouttés et mélange.",
           "Verse le vin et environ 100ml d'eau, de sorte que la viande dépasse du liquide sans être complètement couverte. Porte à ébullition et gratte les sucs caramélisés du fond à la cuillère — c'est là qu'est une bonne part du goût.",
-          "Chauffe le four à 150C/chaleur tournante 130C/gas 2. Fais une cartouche : découpe un carré d'aluminium un peu plus grand que la cocotte, dispose-le pour qu'il couvre le dessus du ragoût, et recoupe l'excédent. Cuis 3 h. Si la sauce paraît trop liquide, retire le bœuf et les légumes à l'écumoire et réserve-les.",
+          "Chauffe le four à 150 °C / chaleur tournante 130 °C. Fais une cartouche : découpe un carré d'aluminium un peu plus grand que la cocotte, dispose-le pour qu'il couvre le dessus du ragoût, et recoupe l'excédent. Cuis 3 h. Si la sauce paraît trop liquide, retire le bœuf et les légumes à l'écumoire et réserve-les.",
           "Fais réduire la sauce à feu vif quelques minutes jusqu'à ce qu'elle épaississe un peu, puis remets le bœuf et les légumes dans la cocotte.",
           "Pour la purée de céleri-rave, épluche le céleri et coupe-le en cubes. Chauffe l'huile d'olive dans une grande poêle. Verses-y le céleri et fais-le revenir 5 min jusqu'à ce qu'il dore. Assaisonne bien de sel et de poivre. Incorpore le romarin, le thym, le laurier et les gousses de cardamome, puis verse 200ml d'eau, de quoi le couvrir presque.",
           "Baisse le feu, couvre partiellement la poêle et laisse mijoter 25 à 30 min.",
@@ -62661,7 +62661,7 @@ window.initialRecipes = [
           "Add the beef and stir on medium heat until the meat is well coated with the spices.",
           "Pour in water or beef stock. Cover and simmer until the beef is tender, about 1.5–2 hours depending on the cut.",
           "Take the beef out carefully and set it aside. Strain the broth and measure it — that broth is the whole point of the dish.",
-          "Add washed, soaked basmati rice to the broth, usually 1 cup rice to 1.5–2 cups liquid. Adjust the seasoning and bring it to the boil.",
+          "Add washed, soaked basmati rice to the broth, usually 125 g rice to 1.5–480 ml liquid. Adjust the seasoning and bring it to the boil.",
           "Lower the heat, cover, and cook the rice until fluffy.",
           "Lay the beef over the rice and steam on low heat for 10 minutes so the flavours come together.",
           "For a smoky flavour, put a small piece of hot charcoal on foil in the pot, add 1 tsp butter or oil, and cover immediately for 5 minutes. Take the coal out before serving. This step is optional.",
@@ -62680,7 +62680,7 @@ window.initialRecipes = [
           "Voeg het vlees toe en roer op middelhoog vuur tot het goed met de specerijen bedekt is.",
           "Giet er water of runderbouillon bij. Dek af en laat sudderen tot het vlees zacht is, ongeveer 1.5–2 uur naargelang het stuk.",
           "Haal het vlees er voorzichtig uit en zet het opzij. Zeef de bouillon en meet ze af — die bouillon is de hele bedoeling van het gerecht.",
-          "Doe de gewassen, geweekte basmatirijst bij de bouillon, meestal 1 kopje rijst op 1.5–2 kopjes vocht. Stel de kruiding bij en breng aan de kook.",
+          "Doe de gewassen, geweekte basmatirijst bij de bouillon, meestal 125 g rijst op 1.5–480 ml vocht. Stel de kruiding bij en breng aan de kook.",
           "Zet het vuur lager, dek af, en gaar de rijst tot ze luchtig is.",
           "Leg het vlees op de rijst en stoom 10 minuten op laag vuur zodat de smaken samenkomen.",
           "Voor een rokerige smaak leg je een klein stukje gloeiende houtskool op folie in de pan, doe je er 1 tl boter of olie op, en dek je meteen 5 minuten af. Haal de kool eruit voor het opdienen. Deze stap is optioneel.",
@@ -62699,7 +62699,7 @@ window.initialRecipes = [
           "Ajoute le bœuf et remue à feu moyen jusqu'à ce que la viande soit bien enrobée d'épices.",
           "Verse de l'eau ou du bouillon de bœuf. Couvre et laisse mijoter jusqu'à ce que le bœuf soit tendre, environ 1.5 à 2 heures selon le morceau.",
           "Sors le bœuf avec précaution et réserve. Filtre le bouillon et mesure-le — ce bouillon est tout l'intérêt du plat.",
-          "Ajoute le riz basmati lavé et trempé au bouillon, généralement 1 tasse de riz pour 1.5 à 2 tasses de liquide. Rectifie l'assaisonnement et porte à ébullition.",
+          "Ajoute le riz basmati lavé et trempé au bouillon, généralement 125 g de riz pour 1.5 à 480 ml de liquide. Rectifie l'assaisonnement et porte à ébullition.",
           "Baisse le feu, couvre, et cuis le riz jusqu'à ce qu'il soit léger.",
           "Dispose le bœuf sur le riz et laisse à l'étuvée à feu doux pendant 10 minutes pour que les saveurs se lient.",
           "Pour une note fumée, pose un petit morceau de charbon brûlant sur de l'aluminium dans la marmite, ajoute 1 c. à café de beurre ou d'huile, et couvre immédiatement 5 minutes. Retire le charbon avant de servir. Cette étape est facultative.",
@@ -62890,7 +62890,7 @@ window.initialRecipes = [
         "subtitle": "The rice cooks in the oven under the chicken",
         "description": "Everything goes into one pot: rice submerged in stock and wine, chicken laid on top so its juices run down through it. Chorizo and paprika do the colouring.",
         "instructions": [
-          "Heat the oven to 180°C/Gas mark 4 and have the chicken joints ready. Heat the butter and 3 tbsp olive oil in a flameproof casserole or large frying pan. Brown the chicken in batches on both sides, seasoning with salt and pepper as you go. Don't crowd the pan — fry in small batches, moving the pieces onto kitchen paper as they are done.",
+          "Heat the oven to 180 °C and have the chicken joints ready. Heat the butter and 3 tbsp olive oil in a flameproof casserole or large frying pan. Brown the chicken in batches on both sides, seasoning with salt and pepper as you go. Don't crowd the pan — fry in small batches, moving the pieces onto kitchen paper as they are done.",
           "Add a little more olive oil to the casserole and fry the onions over medium heat 10 minutes, stirring often, until softened but not browned. Add the rest of the oil, then the peppers, and cook another 5 minutes.",
           "Add the chorizo, sun-dried tomatoes and garlic and cook 2-3 minutes. Add the rice, stirring so it is well coated in the oil. Stir in the tomato paste, paprika, bay leaves and chopped thyme. Pour in the stock and wine. When the liquid starts to bubble, turn the heat down to a gentle simmer.",
           "Press the rice down into the liquid if it isn't already submerged and lay the chicken on top. Add the lemon wedges and olives around the chicken.",
@@ -62902,7 +62902,7 @@ window.initialRecipes = [
         "subtitle": "De rijst gaart in de oven onder de kip",
         "description": "Alles gaat in één pan: rijst onder bouillon en wijn, met de kip erbovenop zodat haar vocht er doorheen zakt. Chorizo en paprikapoeder doen de kleur.",
         "instructions": [
-          "Verwarm de oven op 180°C/Gas mark 4 en zet de stukken kip klaar. Verhit de boter en 3 el olijfolie in een vuurvaste braadpan of grote koekenpan. Bak de kip in porties aan beide kanten bruin en kruid ze onderweg met zout en peper. Leg de pan niet te vol — bak in kleine porties en leg de stukken op keukenpapier zodra ze klaar zijn.",
+          "Verwarm de oven op 180 °C en zet de stukken kip klaar. Verhit de boter en 3 el olijfolie in een vuurvaste braadpan of grote koekenpan. Bak de kip in porties aan beide kanten bruin en kruid ze onderweg met zout en peper. Leg de pan niet te vol — bak in kleine porties en leg de stukken op keukenpapier zodra ze klaar zijn.",
           "Doe wat meer olijfolie in de braadpan en bak de uien 10 minuten op middelhoog vuur, vaak roerend, tot ze zacht zijn maar niet gekleurd. Voeg de rest van de olie toe, dan de paprika's, en bak nog 5 minuten.",
           "Voeg de chorizo, de zongedroogde tomaten en de knoflook toe en bak 2-3 minuten. Voeg de rijst toe en roer tot ze goed met olie bedekt is. Roer de tomatenpuree, de paprikapoeder, de laurierblaadjes en de gehakte tijm erdoor. Giet de bouillon en de wijn erbij. Zet het vuur op zacht sudderen zodra het vocht begint te borrelen.",
           "Druk de rijst in het vocht als ze er nog niet onder staat en leg de kip erbovenop. Leg de partjes citroen en de olijven rond de kip.",
@@ -62914,7 +62914,7 @@ window.initialRecipes = [
         "subtitle": "Le riz cuit au four sous le poulet",
         "description": "Tout va dans un seul plat : le riz immergé dans le bouillon et le vin, le poulet posé dessus pour que ses jus descendent au travers. Le chorizo et le paprika font la couleur.",
         "instructions": [
-          "Chauffe le four à 180°C/Gas mark 4 et prépare les morceaux de poulet. Chauffe le beurre et 3 c. à soupe d'huile d'olive dans une cocotte allant sur le feu ou une grande poêle. Fais dorer le poulet par fournées sur les deux faces, en assaisonnant de sel et de poivre au fur et à mesure. Ne surcharge pas la poêle — travaille par petites quantités, en débarrassant les morceaux sur du papier absorbant à mesure.",
+          "Chauffe le four à 180 °C et prépare les morceaux de poulet. Chauffe le beurre et 3 c. à soupe d'huile d'olive dans une cocotte allant sur le feu ou une grande poêle. Fais dorer le poulet par fournées sur les deux faces, en assaisonnant de sel et de poivre au fur et à mesure. Ne surcharge pas la poêle — travaille par petites quantités, en débarrassant les morceaux sur du papier absorbant à mesure.",
           "Ajoute un peu d'huile d'olive dans la cocotte et fais revenir les oignons à feu moyen 10 minutes, en remuant souvent, jusqu'à ce qu'ils soient fondants sans colorer. Ajoute le reste de l'huile, puis les poivrons, et cuis encore 5 minutes.",
           "Ajoute le chorizo, les tomates séchées et l'ail et cuis 2 à 3 minutes. Ajoute le riz en remuant pour bien l'enrober d'huile. Incorpore le concentré de tomate, le paprika, les feuilles de laurier et le thym haché. Verse le bouillon et le vin. Quand le liquide commence à frémir, baisse à petit frémissement.",
           "Enfonce le riz dans le liquide s'il n'est pas déjà immergé et pose le poulet dessus. Dispose les quartiers de citron et les olives autour du poulet.",
@@ -63184,13 +63184,13 @@ window.initialRecipes = [
         "description": "Poaching the breasts gently keeps them from drying out, and the stock they leave behind goes straight into the white sauce. Cover the sauce with cling film as it cools or you get a skin.",
         "instructions": [
           "Heat the chicken stock in a lidded saucepan. Add the chicken breast and bring it to a low simmer. Cover and cook 10 minutes. Lift the breasts out with tongs onto a plate. Pour the cooking liquor into a large jug — you need it for the sauce.",
-          "Melt 25g/1oz of the butter in a large heavy-based saucepan over low heat. Stir in the leeks and fry gently two minutes, stirring occasionally, until just softened. Add the garlic and cook a further minute. Add the remaining butter and stir in the flour as soon as it has melted. Cook 30 seconds, stirring constantly.",
-          "Slowly pour the milk into the pan, a little at a time, stirring well between each addition. Gradually add 250ml/10fl oz of the reserved stock and the wine, if you are using it, stirring until the sauce is smooth and slightly thickened. Bring to a gentle simmer and cook 3 minutes.",
+          "Melt 25g of the butter in a large heavy-based saucepan over low heat. Stir in the leeks and fry gently two minutes, stirring occasionally, until just softened. Add the garlic and cook a further minute. Add the remaining butter and stir in the flour as soon as it has melted. Cook 30 seconds, stirring constantly.",
+          "Slowly pour the milk into the pan, a little at a time, stirring well between each addition. Gradually add 250ml of the reserved stock and the wine, if you are using it, stirring until the sauce is smooth and slightly thickened. Bring to a gentle simmer and cook 3 minutes.",
           "Season to taste with salt and freshly ground black pepper. Take it off the heat and stir in the cream. Pour it into a large bowl and lay cling film directly on the surface so no skin forms. Set it aside to cool.",
-          "Heat the oven to 200C/400F/Gas 6 and put a baking tray in to heat.",
-          "For the pastry, put the flour and butter in a food processor and blend on the pulse setting until it looks like fine breadcrumbs. With the motor running, add the beaten egg and water and blend until it forms a ball. Portion off 250g/10oz of pastry for the lid.",
-          "Roll the rest out on a lightly floured surface, turning it frequently, until around 5mm/¼in thick and 4cm/1½in larger than the pie dish. Lift it over the rolling pin and lower it gently into the dish. Press it firmly up the sides, making sure there are no air bubbles. Leave the excess overhanging.",
-          "Cut the chicken breasts into 3cm/1¼in pieces. Stir the chicken, ham and leeks into the cooled sauce. Pour the filling into the pie dish. Brush the rim with beaten egg. Roll out the reserved pastry for the lid.",
+          "Heat the oven to 200 °C and put a baking tray in to heat.",
+          "For the pastry, put the flour and butter in a food processor and blend on the pulse setting until it looks like fine breadcrumbs. With the motor running, add the beaten egg and water and blend until it forms a ball. Portion off 250g of pastry for the lid.",
+          "Roll the rest out on a lightly floured surface, turning it frequently, until around 5mm thick and 4cm larger than the pie dish. Lift it over the rolling pin and lower it gently into the dish. Press it firmly up the sides, making sure there are no air bubbles. Leave the excess overhanging.",
+          "Cut the chicken breasts into 3cm pieces. Stir the chicken, ham and leeks into the cooled sauce. Pour the filling into the pie dish. Brush the rim with beaten egg. Roll out the reserved pastry for the lid.",
           "Cover the pie with the lid and press the edges together firmly to seal. Trim any excess.",
           "Make a small hole in the centre with the tip of a knife. Glaze the top with beaten egg. Bake on the preheated tray in the centre of the oven 35-40 minutes, or until golden-brown all over and the filling is piping hot."
         ]
@@ -63201,13 +63201,13 @@ window.initialRecipes = [
         "description": "De filets zachtjes pocheren belet dat ze uitdrogen, en de bouillon die ze achterlaten gaat rechtstreeks in de witte saus. Leg folie op de saus terwijl ze afkoelt of je krijgt een vel.",
         "instructions": [
           "Verwarm de kippenbouillon in een pan met deksel. Voeg de kipfilet toe en breng het zachtjes aan de kook. Dek af en gaar 10 minuten. Til de filets er met een tang uit op een bord. Giet het kookvocht in een grote kan — je hebt het nodig voor de saus.",
-          "Smelt 25g/1oz van de boter in een grote pan met dikke bodem op laag vuur. Roer de prei erdoor en bak twee minuten zachtjes, af en toe roerend, tot ze net zacht is. Voeg de knoflook toe en bak nog een minuut. Voeg de resterende boter toe en roer de bloem erdoor zodra ze gesmolten is. Gaar 30 seconden, voortdurend roerend.",
-          "Giet de melk langzaam in de pan, telkens een beetje, en roer goed door tussen elke toevoeging. Voeg geleidelijk 250ml/10fl oz van de bewaarde bouillon en de wijn toe, als je die gebruikt, en roer tot de saus glad en lichtjes ingedikt is. Breng zachtjes aan de kook en gaar 3 minuten.",
+          "Smelt 25g van de boter in een grote pan met dikke bodem op laag vuur. Roer de prei erdoor en bak twee minuten zachtjes, af en toe roerend, tot ze net zacht is. Voeg de knoflook toe en bak nog een minuut. Voeg de resterende boter toe en roer de bloem erdoor zodra ze gesmolten is. Gaar 30 seconden, voortdurend roerend.",
+          "Giet de melk langzaam in de pan, telkens een beetje, en roer goed door tussen elke toevoeging. Voeg geleidelijk 250ml van de bewaarde bouillon en de wijn toe, als je die gebruikt, en roer tot de saus glad en lichtjes ingedikt is. Breng zachtjes aan de kook en gaar 3 minuten.",
           "Breng op smaak met zout en versgemalen zwarte peper. Haal van het vuur en roer de room erdoor. Giet het in een grote kom en leg folie recht op het oppervlak zodat er geen vel op komt. Zet opzij om af te koelen.",
-          "Verwarm de oven op 200C/400F/gas 6 en zet er een bakplaat in om mee op te warmen.",
-          "Doe voor het deeg de bloem en de boter in een keukenmachine en draai op de pulsstand tot het op fijne broodkruimels lijkt. Voeg met draaiende motor het losgeklopte ei en het water toe en draai tot het een bal vormt. Zet 250g/10oz deeg apart voor het deksel.",
-          "Rol de rest uit op een licht bebloemd werkblad, terwijl je het regelmatig draait, tot het ongeveer 5mm/¼in dik is en 4cm/1½in groter dan de taartvorm. Til het over de deegrol en laat het voorzichtig in de vorm zakken. Druk het stevig tegen de wand en zorg dat er geen luchtbellen inzitten. Laat het overschot over de rand hangen.",
-          "Snijd de kipfilets in stukken van 3cm/1¼in. Roer de kip, de ham en de prei door de afgekoelde saus. Giet de vulling in de taartvorm. Bestrijk de rand met losgeklopt ei. Rol het achtergehouden deeg uit voor het deksel.",
+          "Verwarm de oven op 200 °C en zet er een bakplaat in om mee op te warmen.",
+          "Doe voor het deeg de bloem en de boter in een keukenmachine en draai op de pulsstand tot het op fijne broodkruimels lijkt. Voeg met draaiende motor het losgeklopte ei en het water toe en draai tot het een bal vormt. Zet 250g deeg apart voor het deksel.",
+          "Rol de rest uit op een licht bebloemd werkblad, terwijl je het regelmatig draait, tot het ongeveer 5mm dik is en 4cm groter dan de taartvorm. Til het over de deegrol en laat het voorzichtig in de vorm zakken. Druk het stevig tegen de wand en zorg dat er geen luchtbellen inzitten. Laat het overschot over de rand hangen.",
+          "Snijd de kipfilets in stukken van 3cm. Roer de kip, de ham en de prei door de afgekoelde saus. Giet de vulling in de taartvorm. Bestrijk de rand met losgeklopt ei. Rol het achtergehouden deeg uit voor het deksel.",
           "Dek de taart af met het deksel en druk de randen stevig op elkaar om te sluiten. Snijd het overschot weg.",
           "Maak met de punt van een mes een klein gaatje in het midden. Bestrijk de bovenkant met losgeklopt ei. Bak op de voorverwarmde plaat in het midden van de oven 35-40 minuten, of tot ze overal goudbruin is en de vulling gloeiend heet."
         ]
@@ -63218,13 +63218,13 @@ window.initialRecipes = [
         "description": "Pocher doucement les blancs les empêche de sécher, et le bouillon qu'ils laissent va directement dans la sauce blanche. Pose du film sur la sauce pendant qu'elle refroidit, sinon elle croûte.",
         "instructions": [
           "Chauffe le bouillon de poulet dans une casserole à couvercle. Ajoute les blancs de poulet et porte à petit frémissement. Couvre et cuis 10 minutes. Sors les blancs à la pince sur une assiette. Verse le liquide de cuisson dans un grand pichet — il te faut pour la sauce.",
-          "Fais fondre 25g/1oz de beurre dans une grande casserole à fond épais à feu doux. Ajoute les poireaux et fais-les suer deux minutes en remuant de temps en temps, jusqu'à ce qu'ils soient tout juste tendres. Ajoute l'ail et cuis une minute de plus. Ajoute le reste du beurre et incorpore la farine dès qu'il a fondu. Cuis 30 secondes en remuant sans arrêt.",
-          "Verse lentement le lait dans la casserole, un peu à la fois, en mélangeant bien entre chaque ajout. Ajoute progressivement 250ml/10fl oz du bouillon réservé et le vin, si tu en mets, en remuant jusqu'à ce que la sauce soit lisse et légèrement épaissie. Porte à petit frémissement et cuis 3 minutes.",
+          "Fais fondre 25g de beurre dans une grande casserole à fond épais à feu doux. Ajoute les poireaux et fais-les suer deux minutes en remuant de temps en temps, jusqu'à ce qu'ils soient tout juste tendres. Ajoute l'ail et cuis une minute de plus. Ajoute le reste du beurre et incorpore la farine dès qu'il a fondu. Cuis 30 secondes en remuant sans arrêt.",
+          "Verse lentement le lait dans la casserole, un peu à la fois, en mélangeant bien entre chaque ajout. Ajoute progressivement 250ml du bouillon réservé et le vin, si tu en mets, en remuant jusqu'à ce que la sauce soit lisse et légèrement épaissie. Porte à petit frémissement et cuis 3 minutes.",
           "Assaisonne à ton goût de sel et de poivre noir fraîchement moulu. Retire du feu et incorpore la crème. Verse dans un grand bol et pose du film directement au contact pour qu'aucune peau ne se forme. Réserve pour refroidir.",
-          "Chauffe le four à 200C/400F/gas 6 et mets-y une plaque à chauffer.",
-          "Pour la pâte, mets la farine et le beurre dans un robot et mixe par impulsions jusqu'à obtenir une fine chapelure. Moteur en marche, ajoute l'œuf battu et l'eau et mixe jusqu'à formation d'une boule. Prélève 250g/10oz de pâte pour le couvercle.",
-          "Étale le reste sur un plan légèrement fariné, en la tournant souvent, jusqu'à environ 5mm/¼in d'épaisseur et 4cm/1½in de plus que le plat. Soulève-la sur le rouleau et dépose-la délicatement dans le plat. Presse-la fermement sur les parois en veillant à ne pas laisser de bulles d'air. Laisse l'excédent déborder.",
-          "Coupe les blancs de poulet en morceaux de 3cm/1¼in. Incorpore le poulet, le jambon et les poireaux à la sauce refroidie. Verse la garniture dans le plat. Badigeonne le bord d'œuf battu. Étale la pâte réservée pour le couvercle.",
+          "Chauffe le four à 200 °C et mets-y une plaque à chauffer.",
+          "Pour la pâte, mets la farine et le beurre dans un robot et mixe par impulsions jusqu'à obtenir une fine chapelure. Moteur en marche, ajoute l'œuf battu et l'eau et mixe jusqu'à formation d'une boule. Prélève 250g de pâte pour le couvercle.",
+          "Étale le reste sur un plan légèrement fariné, en la tournant souvent, jusqu'à environ 5mm d'épaisseur et 4cm de plus que le plat. Soulève-la sur le rouleau et dépose-la délicatement dans le plat. Presse-la fermement sur les parois en veillant à ne pas laisser de bulles d'air. Laisse l'excédent déborder.",
+          "Coupe les blancs de poulet en morceaux de 3cm. Incorpore le poulet, le jambon et les poireaux à la sauce refroidie. Verse la garniture dans le plat. Badigeonne le bord d'œuf battu. Étale la pâte réservée pour le couvercle.",
           "Couvre la tourte du couvercle et presse fermement les bords pour souder. Recoupe l'excédent.",
           "Perce un petit trou au centre avec la pointe d'un couteau. Dore le dessus à l'œuf battu. Cuis sur la plaque préchauffée au milieu du four 35 à 40 minutes, ou jusqu'à ce que ce soit doré partout et la garniture brûlante."
         ]
