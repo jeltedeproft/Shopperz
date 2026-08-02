@@ -7,10 +7,9 @@
  */
 // Must match the ?v= query strings in index.html exactly, or the precached
 // URLs never match what the page actually requests.
-const ASSET_VERSION = '21';
+const ASSET_VERSION = '22';
 const SHELL_CACHE = `kookpot-shell-${ASSET_VERSION}`;
 const IMAGE_CACHE = 'kookpot-images';
-const FONT_CACHE = 'kookpot-fonts';
 
 // Everything needed to boot the app with no network at all.
 const SHELL_ASSETS = [
@@ -22,7 +21,17 @@ const SHELL_ASSETS = [
   `./recipes.js?v=${ASSET_VERSION}`,
   `./app.js?v=${ASSET_VERSION}`,
   './images/icon-192.png',
-  './images/icon-512.png'
+  './images/icon-512.png',
+  // The typefaces are part of the shell, not a nicety. They used to be linked
+  // from Google's CDN, which meant that offline — the one situation this app
+  // is built for — the whole book fell back to whatever serif the device had.
+  `./fonts/fonts.css?v=${ASSET_VERSION}`,
+  './fonts/fraunces-400700-latin.woff2',
+  './fonts/fraunces-400700-latin-ext.woff2',
+  './fonts/literata-400600-latin.woff2',
+  './fonts/literata-400600-latin-ext.woff2',
+  './fonts/literata-400600i-latin.woff2',
+  './fonts/literata-400600i-latin-ext.woff2'
 ];
 
 self.addEventListener('install', event => {
@@ -84,12 +93,6 @@ self.addEventListener('fetch', event => {
 
   const url = new URL(request.url);
   const sameOrigin = url.origin === self.location.origin;
-
-  // Google Fonts — best effort, so the bistro type survives offline.
-  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
-    event.respondWith(cacheFirst(request, FONT_CACHE).catch(() => fetch(request)));
-    return;
-  }
 
   if (!sameOrigin) return;
 

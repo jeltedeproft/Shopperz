@@ -1,8 +1,28 @@
 /* ==========================================================================
-   Mijn Kookpot — Belgian Kitchen Table
+   Mijn Kookpot — an illustrated cookbook
    ==========================================================================
-   Warm and light by default: cream paper, brown ink, terracotta. A cookbook
-   left open on the table, not a chalkboard in a dark bistro.
+   The page of a printed cookbook, not an interface. Ivory stock, dark brown
+   ink, one madder-red second colour, and almost nothing else: the warmth is
+   carried by the paper, the type and the space around it rather than by
+   rounded boxes and drop shadows.
+
+   The rules it is built on, in case a later change is tempted to break one:
+
+     Type does the work.       Fraunces sets every title — an old-style face
+                               with soft, slightly irregular terminals. Nothing
+                               here is set in a UI grotesque, because that is
+                               exactly what made the old design feel like
+                               software rather than a book.
+     Ink, not elevation.       Panels are separated by hairline rules, the way
+                               a page is. Shadows are reserved for the two
+                               things that genuinely lift off the page — the
+                               drawer and the modal.
+     Corners are nearly square. Print has no border radius. A couple of pixels
+                               keeps it from looking brutal; more than that and
+                               it reads as an app again.
+     Labels are set in caps.   Small, letterspaced, in the dim ink — the way a
+                               recipe book labels INGREDIËNTEN and BEREIDING.
+     Air is the ornament.      Long measures, generous leading, wide margins.
 
    Colour is semantic, and there are six accents rather than one, so a page
    can be warm without being loud:
@@ -54,111 +74,110 @@
 :root[data-theme="light"] {
   color-scheme: light;
 
-  /* Surfaces */
-  --bg-deep: #E4D7C0;   /* behind the phone frame — table linen */
-  --bg: #FBF6EC;        /* app background — the page */
-  --surface-1: #F6EFE1; /* panel wash */
-  --surface-2: #FFFDF8; /* cards, groups — raised, so lighter */
-  --surface-3: #F2E9D8; /* inputs, chips — recessed */
-  --surface-4: #E7DAC2; /* pressed, dividers, tracks */
+  /* Paper. Uncoated ivory stock, and the steps between are deliberately
+     small — a printed page does not have five distinct greys on it. */
+  --bg-deep: #E7DECD;   /* the desk the book is lying on */
+  --bg: #FAF6EE;        /* the page */
+  --surface-1: #F5F0E5; /* a tinted panel, like a sidebar box */
+  --surface-2: #FFFCF6; /* the printed area — cards, groups */
+  --surface-3: #F1EADD; /* recessed: inputs, chips */
+  --surface-4: #E3D9C7; /* pressed, tracks, rules that need weight */
 
-  /* Terracotta — the app's own colour, in three weights for hierarchy */
-  --accent: #A64C1B;
-  --accent-hi: #8A3C15;   /* higher emphasis = darker on a light page */
-  --accent-lo: #E3A278;   /* decorative only, never text */
-  --accent-wash: rgba(166, 76, 27, 0.10);
-  --accent-line: rgba(166, 76, 27, 0.26);
-  --on-accent: #FFF8F0;   /* type sitting on a filled accent */
+  /* Madder red — the second colour a cookbook is printed in */
+  --accent: #A3391D;
+  --accent-hi: #7F2A11;   /* higher emphasis = darker on a light page */
+  --accent-lo: #E0A184;   /* decorative only, never text */
+  --accent-wash: rgba(163, 57, 29, 0.09);
+  --accent-line: rgba(163, 57, 29, 0.28);
+  --on-accent: #FFF7EE;   /* type sitting on a filled accent */
 
   /* The rest of the family */
-  --herb: #5A7439;
-  --herb-wash: rgba(90, 116, 57, 0.13);
-  --herb-line: rgba(90, 116, 57, 0.32);
-  --berry: #B23A28;
-  --berry-wash: rgba(178, 58, 40, 0.11);
-  --berry-line: rgba(178, 58, 40, 0.30);
-  --honey: #8D6415;
-  --honey-wash: rgba(141, 100, 21, 0.13);
-  --plum: #7D4A63;
-  --plum-wash: rgba(125, 74, 99, 0.12);
+  --herb: #4F6B33;
+  --herb-wash: rgba(79, 107, 51, 0.12);
+  --herb-line: rgba(79, 107, 51, 0.32);
+  --berry: #A83424;
+  --berry-wash: rgba(168, 52, 36, 0.10);
+  --berry-line: rgba(168, 52, 36, 0.30);
+  --honey: #7E5A12;
+  --honey-wash: rgba(126, 90, 18, 0.12);
+  --plum: #6F4059;
+  --plum-wash: rgba(111, 64, 89, 0.11);
 
-  /* Type */
-  --ink: #3A2E23;
-  --ink-dim: #6B5A48;
-  --ink-faint: #8C7B67;
+  /* Ink. Darker than the old brown, because printed type is crisp. */
+  --ink: #2A211A;
+  --ink-dim: #5C5044;
+  --ink-faint: #8B7E6E;
 
-  /* Lines */
-  --line: rgba(58, 46, 35, 0.12);
-  --line-strong: rgba(58, 46, 35, 0.22);
+  /* Rules. These carry the structure now, so there are two real weights. */
+  --line: rgba(42, 33, 26, 0.14);
+  --line-strong: rgba(42, 33, 26, 0.30);
 
-  /* Washes & furniture */
-  --hover-wash: rgba(58, 46, 35, 0.04);
-  --backdrop: rgba(74, 52, 30, 0.42);   /* behind drawers and modals */
-  --frame: #D9C7A8;                     /* the phone bezel on desktop */
-  --bg-glow: #F5E7CE;                   /* warmth pooled at the top of the page */
-  --cook-glow: #FDF3E0;
-  --sheen: rgba(255, 255, 255, 0.75);   /* inset top highlight on raised things */
-  --shadow-berry: 0 8px 28px -10px rgba(178, 58, 40, 0.40);
+  --hover-wash: rgba(42, 33, 26, 0.04);
+  --backdrop: rgba(58, 42, 26, 0.44);
+  --frame: #DCCFB6;
+  --bg-glow: #F6EEDE;
+  --cook-glow: #FCF6EA;
+  --sheen: rgba(255, 255, 255, 0.6);
+  --shadow-berry: 0 10px 30px -14px rgba(168, 52, 36, 0.42);
 
-  /* Elevation — brown-tinted and soft; black shadows look like dirt on cream */
-  --shadow-1: 0 1px 2px rgba(90, 62, 32, 0.10);
-  --shadow-2: 0 8px 24px -8px rgba(90, 62, 32, 0.20);
-  --shadow-3: 0 22px 56px -16px rgba(90, 62, 32, 0.30);
-  --shadow-accent: 0 8px 28px -10px rgba(166, 76, 27, 0.40);
+  /* Elevation is almost gone. 1 is a printed hairline rather than a shadow;
+     2 and 3 exist only for the drawer and the modal, which really do lift. */
+  --shadow-1: 0 1px 0 rgba(42, 33, 26, 0.07);
+  --shadow-2: 0 10px 30px -18px rgba(58, 42, 26, 0.30);
+  --shadow-3: 0 28px 64px -24px rgba(58, 42, 26, 0.42);
+  --shadow-accent: 0 10px 30px -14px rgba(163, 57, 29, 0.40);
 }
 
 /* --------------------------------------------------------------------------
-   1b. Dark — cocoa and amber, for cooking at night
+   1b. Dark — the same page under a lamp
    -------------------------------------------------------------------------- */
 :root[data-theme="dark"] {
   color-scheme: dark;
 
-  /* Surfaces — warm brown-black, each step slightly lighter */
-  --bg-deep: #0E0A07;
-  --bg: #17110C;
-  --surface-1: #1D1610;
-  --surface-2: #241C14;
-  --surface-3: #2E241A;
-  --surface-4: #3B2E21;
+  --bg-deep: #0D0A07;
+  --bg: #16110C;
+  --surface-1: #1C1610;
+  --surface-2: #241D15;
+  --surface-3: #2C2419;
+  --surface-4: #3A3022;
 
-  /* Terracotta, lifted so it carries on a dark ground */
   --accent: #E08A57;
-  --accent-hi: #F2B183;
-  --accent-lo: #8A4E28;
-  --accent-wash: rgba(224, 138, 87, 0.12);
-  --accent-line: rgba(224, 138, 87, 0.30);
-  --on-accent: #2A1408;
+  --accent-hi: #F0A87B;
+  --accent-lo: #8A4C28;
+  --accent-wash: rgba(224, 138, 87, 0.13);
+  --accent-line: rgba(224, 138, 87, 0.32);
+  --on-accent: #23180F;
 
-  --herb: #9DB36A;
-  --herb-wash: rgba(157, 179, 106, 0.14);
-  --herb-line: rgba(157, 179, 106, 0.32);
-  --berry: #E8756A;
-  --berry-wash: rgba(232, 117, 106, 0.13);
-  --berry-line: rgba(232, 117, 106, 0.32);
-  --honey: #EBBB6B;
-  --honey-wash: rgba(235, 187, 107, 0.13);
-  --plum: #C795AE;
-  --plum-wash: rgba(199, 149, 174, 0.13);
+  --herb: #A8C077;
+  --herb-wash: rgba(168, 192, 119, 0.14);
+  --herb-line: rgba(168, 192, 119, 0.34);
+  --berry: #F08878;
+  --berry-wash: rgba(240, 136, 120, 0.13);
+  --berry-line: rgba(240, 136, 120, 0.32);
+  --honey: #DDB463;
+  --honey-wash: rgba(221, 180, 99, 0.14);
+  --plum: #D096B4;
+  --plum-wash: rgba(208, 150, 180, 0.13);
 
-  --ink: #F5EDE0;
-  --ink-dim: #C0AE99;
-  --ink-faint: #94836F;
+  --ink: #F2E8D8;
+  --ink-dim: #C0B29C;
+  --ink-faint: #978973;
 
-  --line: rgba(245, 237, 224, 0.09);
-  --line-strong: rgba(245, 237, 224, 0.18);
+  --line: rgba(242, 232, 216, 0.14);
+  --line-strong: rgba(242, 232, 216, 0.28);
 
-  --hover-wash: rgba(245, 237, 224, 0.03);
-  --backdrop: rgba(6, 4, 2, 0.72);
-  --frame: #0D0B08;
+  --hover-wash: rgba(242, 232, 216, 0.04);
+  --backdrop: rgba(6, 4, 2, 0.74);
+  --frame: #0B0806;
   --bg-glow: #241A0E;
   --cook-glow: #2A2010;
   --sheen: rgba(255, 255, 255, 0.05);
-  --shadow-berry: 0 8px 28px -10px rgba(232, 117, 106, 0.45);
+  --shadow-berry: 0 10px 30px -14px rgba(240, 136, 120, 0.40);
 
-  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.45);
-  --shadow-2: 0 8px 24px -8px rgba(0, 0, 0, 0.7);
-  --shadow-3: 0 22px 56px -16px rgba(0, 0, 0, 0.82);
-  --shadow-accent: 0 8px 28px -10px rgba(224, 138, 87, 0.45);
+  --shadow-1: 0 1px 0 rgba(0, 0, 0, 0.40);
+  --shadow-2: 0 10px 30px -18px rgba(0, 0, 0, 0.72);
+  --shadow-3: 0 28px 64px -24px rgba(0, 0, 0, 0.84);
+  --shadow-accent: 0 10px 30px -14px rgba(224, 138, 87, 0.42);
 }
 
 /* --------------------------------------------------------------------------
@@ -176,16 +195,37 @@
   --on-photo-accent: #F2B183;
   --photo-line: rgba(255, 246, 234, 0.26);
 
-  /* Type scale */
-  --font-display: 'Fraunces', Georgia, serif;
-  --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
-  --t-display: 26px;
+  /* ------------------------------------------------------------------------
+     Type
+
+     Two faces, both serifs, both bundled in fonts/ so the app reads the same
+     offline. Fraunces sets anything that names something — titles, section
+     heads, the numbers on a step. Literata sets everything meant to be read.
+
+     Both are variable, so the weights below are real interpolations rather
+     than a browser smearing one master. Fraunces also carries an optical size
+     axis, which is why the display sizes below set font-variation-settings:
+     at 34px it wants the high-contrast cut, at 13px the sturdy one.
+     ------------------------------------------------------------------------ */
+  --font-display: 'Fraunces', 'Iowan Old Style', Palatino, Georgia, serif;
+  --font-body: 'Literata', Charter, Georgia, 'Times New Roman', serif;
+
+  --t-hero: 34px;   /* a recipe title in the drawer */
+  --t-display: 27px;
   --t-h1: 21px;
   --t-h2: 17px;
-  --t-body: 14px;
+  --t-body: 15px;   /* up from 14 — this is reading text now */
   --t-sm: 13px;
   --t-xs: 12px;
   --t-2xs: 11px;
+
+  /* Leading. Prose gets room; labels and chrome stay tight. */
+  --lh-prose: 1.7;
+  --lh-tight: 1.25;
+
+  /* The letterspacing that makes a small capital label look set rather than
+     shouted. Used everywhere a label is uppercased. */
+  --tracking-label: 0.14em;
 
   /* Spacing */
   --sp-1: 4px;
@@ -197,10 +237,12 @@
   --sp-7: 32px;
   --sp-8: 40px;
 
-  /* Shape */
-  --r-sm: 10px;
-  --r-md: 16px;
-  --r-lg: 24px;
+  /* Shape — print has no border radius. Two pixels keeps an edge from
+     looking chipped on a screen; the pill survives only for the things that
+     are genuinely round, like the theme switch. */
+  --r-sm: 2px;
+  --r-md: 3px;
+  --r-lg: 4px;
   --r-pill: 999px;
 
   /* Motion */
@@ -212,7 +254,7 @@
 
   /* Layout */
   --tabbar-h: 66px;
-  --gutter: 20px;
+  --gutter: 22px;
 }
 
 /* ==========================================================================
@@ -238,21 +280,58 @@ body {
   color: var(--ink);
   font-family: var(--font-body);
   font-size: var(--t-body);
-  line-height: 1.5;
+  line-height: var(--lh-prose);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
-  -webkit-font-smoothing: antialiased;
+  /* Left alone on purpose. Antialiasing thins a serif until it looks grey,
+     and this type is meant to sit on the page like ink. */
+  text-rendering: optimizeLegibility;
+  font-variant-numeric: oldstyle-nums;
 }
 
+/*
+  Headings are Fraunces, and every one of them asks for the same two things:
+  the optical size that suits the size it is set at, and the SOFT axis wound
+  up so the terminals stay rounded. WONK is the axis that tilts the odd
+  serif off square — a little of it is what stops a page of titles looking
+  machine-set, and a lot of it looks like a mistake.
+*/
 h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  line-height: var(--lh-tight);
+  letter-spacing: -0.005em;
   font-optical-sizing: auto;
+  font-variation-settings: 'SOFT' 40, 'WONK' 1;
+}
+
+/*
+  A label set in capitals. Small, tracked out, and never in the full ink —
+  the point is to name the block below it and then get out of the way, the
+  way INGREDIËNTEN does on a printed page.
+*/
+.panel-subtitle,
+.section-link,
+.filter-group-title,
+.drawer-section-title,
+.settings-group-title,
+.settings-group-title-danger,
+.list-controls-label,
+.staples-header,
+.meta-badge-title,
+.category-header,
+.batch-panel-title,
+.progress-header {
+  font-family: var(--font-body);
+  font-size: var(--t-2xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  line-height: var(--lh-tight);
+  font-variant-numeric: normal;
 }
 
 button, input, select, textarea {
@@ -405,22 +484,40 @@ header::after {
 }
 
 .panel-title {
-  font-size: var(--t-h1);
-  margin-bottom: var(--sp-1);
+  font-size: var(--t-display);
+  margin-bottom: var(--sp-2);
+  letter-spacing: -0.015em;
 }
 
 .panel-subtitle {
-  font-size: var(--t-xs);
-  color: var(--ink-dim);
+  color: var(--ink-faint);
 }
 
 /* --- Section headings --- */
+/*
+   A section head is a title with a rule running out of it to the far margin,
+   the way a chapter opening is set. The rule is drawn by the flex row rather
+   than by a border, so it always ends exactly where the text ends.
+*/
 .section-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: var(--sp-3);
-  margin-bottom: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+
+.section-header::after {
+  content: "";
+  flex: 1;
+  height: 0;
+  border-bottom: 1px solid var(--line);
+  transform: translateY(-0.34em);
+  order: 1;
+}
+
+.section-header .section-link {
+  order: 2;
 }
 
 .section-header-spaced {
@@ -429,21 +526,21 @@ header::after {
 
 .section-title {
   font-family: var(--font-display);
-  font-size: var(--t-h2);
-  font-style: italic;
-  font-weight: 500;
-  color: var(--accent);
+  font-size: var(--t-h1);
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  font-variation-settings: "SOFT" 40, "WONK" 1;
+  white-space: nowrap;
 }
 
 .section-link {
   background: none;
   border: none;
   padding: 0;
-  font-family: var(--font-body);
-  font-size: var(--t-xs);
-  color: var(--ink-dim);
+  color: var(--accent);
   cursor: pointer;
-  border-bottom: 1px dotted var(--line-strong);
+  white-space: nowrap;
   transition: color var(--fast) var(--ease);
 }
 
@@ -483,15 +580,18 @@ header::after {
   z-index: 2;
 }
 
+/* A ruled line to write on rather than a filled field. */
 .search-input {
   width: 100%;
   height: 46px;
-  padding: 0 var(--sp-4) 0 38px;
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
+  padding: 0 var(--sp-2) 0 32px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line-strong);
+  border-radius: 0;
   color: var(--ink);
-  font-size: var(--t-sm);
+  font-size: var(--t-body);
+  font-style: italic;
   outline: none;
   transition: border-color var(--fast) var(--ease), background var(--fast) var(--ease);
 }
@@ -621,14 +721,18 @@ header::after {
   display: none;
 }
 
+/* Category chips are set as small capitals in a squared-off keyline — an
+   index tab, not a lozenge. */
 .cat-pill {
   flex-shrink: 0;
-  padding: 8px 16px;
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-pill);
-  font-size: var(--t-xs);
-  font-weight: 500;
+  padding: 7px 14px;
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-sm);
+  font-size: var(--t-2xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
   color: var(--ink-dim);
   cursor: pointer;
   white-space: nowrap;
@@ -661,15 +765,17 @@ header::after {
    ========================================================================== */
 
 /* --- Featured: a full-bleed plate with the title laid over it --- */
+/* The one full-bleed plate in the book: a photograph with the dish name set
+   over it. Keylined like the smaller photographs, but no drop shadow. */
 .featured-card {
   position: relative;
-  border-radius: var(--r-lg);
+  border-radius: var(--r-sm);
   overflow: hidden;
   cursor: pointer;
   background: var(--surface-2);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow-2);
-  transition: transform var(--base) var(--ease), box-shadow var(--base) var(--ease);
+  border: none;
+  box-shadow: inset 0 0 0 1px var(--line);
+  transition: transform var(--base) var(--ease);
 }
 
 .featured-card:active {
@@ -709,14 +815,16 @@ header::after {
 }
 
 .featured-title {
-  font-size: var(--t-h1);
+  font-size: var(--t-display);
+  letter-spacing: -0.015em;
   color: var(--on-photo);
   margin-bottom: var(--sp-1);
   text-shadow: 0 2px 12px rgba(20, 12, 6, 0.7);
 }
 
 .featured-desc {
-  font-size: var(--t-xs);
+  font-size: var(--t-sm);
+  font-style: italic;
   line-height: 1.5;
   color: var(--on-photo-dim);
   display: -webkit-box;
@@ -730,7 +838,9 @@ header::after {
 .recipe-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--sp-3);
+  /* Wide gutters between entries, the way a two-column page is set. */
+  column-gap: var(--sp-5);
+  row-gap: var(--sp-6);
 }
 
 .recipe-grid-tab {
@@ -738,33 +848,41 @@ header::after {
   padding-bottom: 84px;
 }
 
+/*
+   A card is an entry on a page, not a tile floating above one. No fill, no
+   shadow and no frame: the photograph provides the edge, and a hairline under
+   the whole entry separates it from the next the way a rule does in a book.
+   The only thing that moves on press is the photograph.
+*/
 .recipe-card {
   position: relative;
   display: flex;
   flex-direction: column;
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
-  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding-bottom: var(--sp-3);
   cursor: pointer;
-  box-shadow: var(--shadow-1);
-  transition: transform var(--base) var(--ease),
-              border-color var(--base) var(--ease),
-              box-shadow var(--base) var(--ease);
+  transition: border-color var(--base) var(--ease);
 }
 
 .recipe-card:hover {
   border-color: var(--line-strong);
-  box-shadow: var(--shadow-2);
 }
 
-.recipe-card:active {
-  transform: scale(0.975);
+.recipe-card:active .recipe-card-img-wrapper {
+  transform: scale(0.985);
 }
 
+/*
+   Chosen for the list. A card with no fill of its own cannot glow, so the
+   mark is a rule down the left margin in the second colour — the way a
+   reader marks a page they mean to come back to.
+*/
 .recipe-card.selected-for-list {
-  border-color: var(--accent);
-  box-shadow: var(--shadow-accent);
+  border-bottom-color: var(--accent-line);
+  box-shadow: -10px 0 0 -9px var(--accent);
 }
 
 .recipe-card-img-wrapper {
@@ -772,7 +890,11 @@ header::after {
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
+  border-radius: var(--r-sm);
   background: var(--surface-3);
+  /* A plate rule: printed photographs in a cookbook sit inside a thin keyline
+     rather than bleeding straight into the paper. */
+  box-shadow: inset 0 0 0 1px var(--line);
 }
 
 .recipe-card-img {
@@ -780,6 +902,10 @@ header::after {
   height: 100%;
   object-fit: cover;
   transition: transform var(--slow) var(--ease);
+}
+
+.recipe-card-img-wrapper {
+  transition: transform var(--fast) var(--ease);
 }
 
 /* --- Recipes with no photograph we may reuse --- */
@@ -865,15 +991,19 @@ header::after {
   display: flex;
   flex-direction: column;
   gap: var(--sp-1);
-  padding: var(--sp-3);
+  padding: var(--sp-3) 0 0;
   flex: 1;
 }
 
 .recipe-card-title {
-  font-size: var(--t-sm);
+  font-family: var(--font-display);
+  font-size: var(--t-h2);
   font-weight: 600;
   color: var(--ink);
-  line-height: 1.3;
+  line-height: var(--lh-tight);
+  letter-spacing: -0.01em;
+  font-optical-sizing: auto;
+  font-variation-settings: 'SOFT' 40, 'WONK' 1;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
@@ -881,10 +1011,13 @@ header::after {
   overflow: hidden;
 }
 
+/* The subtitle is the one line of description a cookbook prints under a dish
+   name, so it is set in italic like a caption rather than as more UI text. */
 .recipe-card-sub {
-  font-size: var(--t-2xs);
-  color: var(--ink-faint);
-  line-height: 1.4;
+  font-size: var(--t-sm);
+  font-style: italic;
+  color: var(--ink-dim);
+  line-height: 1.45;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
@@ -898,7 +1031,10 @@ header::after {
   margin-top: auto;
   padding-top: var(--sp-2);
   font-size: var(--t-2xs);
-  color: var(--ink-dim);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  color: var(--ink-faint);
+  font-variant-numeric: normal;
 }
 
 /* --- Select-for-list toggle --- */
@@ -1103,24 +1239,49 @@ header::after {
   margin-bottom: var(--sp-5);
 }
 
+/* The standfirst — the line under the title in a magazine recipe. */
 .drawer-subtitle {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-style: italic;
-  font-size: var(--t-xs);
+  font-size: var(--t-body);
+  line-height: 1.45;
   color: var(--accent);
 }
 
+/* The dish name, set as a chapter opening. */
 .drawer-title {
   font-family: var(--font-display);
-  font-size: var(--t-display);
+  font-size: var(--t-hero);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
   color: var(--ink);
-  margin: var(--sp-1) 0 var(--sp-2);
+  margin: var(--sp-2) 0 var(--sp-3);
+  font-optical-sizing: auto;
+  font-variation-settings: 'SOFT' 30, 'WONK' 1;
 }
 
+/*
+   The description is the only real paragraph in the app, so it gets the one
+   piece of book typography that has nowhere else to go: a drop cap. Three
+   lines deep, in the display face, in the second colour. It needs no markup —
+   ::first-letter is enough — which is why it survives any change to app.js.
+*/
 .drawer-description {
-  font-size: var(--t-sm);
-  line-height: 1.6;
-  color: var(--ink-dim);
+  font-size: var(--t-body);
+  line-height: var(--lh-prose);
+  color: var(--ink);
+}
+
+.drawer-description::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 3.1em;
+  line-height: 0.84;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 0.06em var(--sp-2) 0 0;
+  font-variation-settings: 'SOFT' 20, 'WONK' 0;
 }
 
 .drawer-meta-badges {
@@ -1219,15 +1380,19 @@ header::after {
 }
 
 /* --- Ingredients & steps --- */
+/*
+   INGREDIËNTEN, BEREIDING. A small capital label sitting on a rule that runs
+   the width of the sheet — the base styles supply the caps and the tracking,
+   this supplies the rule.
+*/
 .drawer-section-title {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
-  margin-bottom: var(--sp-3);
-  font-family: var(--font-display);
-  font-size: var(--t-h2);
-  font-style: italic;
-  color: var(--accent);
+  margin-bottom: var(--sp-4);
+  padding-bottom: var(--sp-2);
+  border-bottom: 2px solid var(--ink);
+  color: var(--ink);
 }
 
 .drawer-section-title::after {
@@ -1245,21 +1410,40 @@ header::after {
   display: none;
 }
 
+/* No frame — the dotted leaders already hold the list together. */
 .drawer-ingredient-list {
-  margin-bottom: var(--sp-4);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
-  overflow: hidden;
+  margin-bottom: var(--sp-6);
+  border: none;
+  border-radius: 0;
 }
 
+/*
+   An ingredient line, set the way a printed recipe sets one: the name at the
+   left margin, the amount at the right, and a row of dots leading the eye
+   between them. The dots are a flex child that simply takes up whatever space
+   is left, so they stretch and shrink with the name and never wrap.
+*/
 .ingredient-row {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  background: var(--surface-2);
-  border-bottom: 1px solid var(--line);
+  gap: var(--sp-2);
+  padding: var(--sp-2) 0;
+  background: transparent;
+  border-bottom: none;
+}
+
+.ingredient-row::after {
+  content: "";
+  order: 1;
+  flex: 1 1 auto;
+  min-width: var(--sp-5);
+  align-self: baseline;
+  border-bottom: 1px dotted var(--line-strong);
+  transform: translateY(-0.28em);
+}
+
+.ingredient-row .ingredient-qty {
+  order: 2;
 }
 
 .ingredient-row:last-child {
@@ -1267,15 +1451,17 @@ header::after {
 }
 
 .ingredient-name {
-  font-size: var(--t-sm);
+  font-size: var(--t-body);
   color: var(--ink);
 }
 
 .ingredient-qty {
   flex-shrink: 0;
-  font-family: var(--font-display);
-  font-size: var(--t-xs);
-  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  font-weight: 600;
+  color: var(--ink);
+  font-variant-numeric: oldstyle-nums;
 }
 
 /* A dot marks what the checklist will leave out as a staple */
@@ -1321,47 +1507,64 @@ header::after {
 .instructions-list {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-2);
+  gap: var(--sp-5);
 }
 
+/*
+   A method step is a numbered paragraph, not a card. The number hangs in the
+   left margin the way a printed list does, and the prose runs on underneath
+   itself rather than being boxed in.
+*/
 .step-card {
   display: flex;
-  gap: var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-sm);
+  gap: var(--sp-4);
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
   cursor: pointer;
-  transition: all var(--fast) var(--ease);
+  transition: opacity var(--fast) var(--ease);
 }
 
-.step-card:hover {
-  border-color: var(--line-strong);
+.step-card:hover .step-num {
+  color: var(--accent-hi);
 }
 
+/* A hanging figure in the display face — no disc, no border, just the number. */
 .step-num {
   flex-shrink: 0;
-  width: 22px;
-  height: 22px;
-  display: grid;
-  place-items: center;
-  border-radius: var(--r-pill);
-  background: var(--accent-wash);
-  border: 1px solid var(--accent-line);
+  width: 1.6em;
+  display: block;
+  text-align: right;
+  background: none;
+  border: none;
+  border-radius: 0;
   font-family: var(--font-display);
-  font-size: var(--t-2xs);
+  font-size: var(--t-h1);
+  font-weight: 600;
+  line-height: 1.35;
   color: var(--accent);
+  font-variant-numeric: oldstyle-nums;
+  font-variation-settings: 'SOFT' 20, 'WONK' 1;
 }
 
 .step-text {
-  font-size: var(--t-sm);
-  line-height: 1.55;
-  color: var(--ink-dim);
+  font-size: var(--t-body);
+  line-height: var(--lh-prose);
+  color: var(--ink);
 }
 
+/* A step already done is struck through and faded, the way you would pencil
+   one off, rather than filled in with a colour. */
 .step-card.completed {
-  background: var(--herb-wash);
-  border-color: var(--herb-line);
+  background: none;
+  opacity: 0.5;
+}
+
+.step-card.completed .step-text {
+  text-decoration: line-through;
+  text-decoration-color: var(--line-strong);
+  text-decoration-thickness: 1px;
 }
 
 .step-card.completed .step-num {
@@ -1459,17 +1662,21 @@ header::after {
   cursor: pointer;
 }
 
+/* Cook mode is the one screen read from across the room, so the step is set
+   large on bare paper with nothing else competing for attention. */
 .cook-mode-step-card {
   min-height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: var(--sp-4);
-  padding: var(--sp-6);
-  background: var(--surface-2);
-  border: 1px solid var(--accent-line);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-2);
+  gap: var(--sp-5);
+  padding: var(--sp-6) var(--sp-4);
+  background: transparent;
+  border: none;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .cook-mode-step-number {

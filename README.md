@@ -65,7 +65,9 @@ Wi-Fi, then "Add to home screen".
 | `scripts/convert_measures.js` | Rewrites the imperial left in instructions; run by `apply_voice.js` |
 | `scripts/wikimedia.js` | Commons API access: search, licence checking, throttled download |
 | `recipes.js` | The recipe database (`window.initialRecipes`) |
-| `style.css` | The design system: two warm palettes (light and dark) behind one set of semantic tokens |
+| `style.css` | The design system: two palettes behind one set of semantic tokens |
+| `fonts/` | Fraunces and Literata, bundled under the SIL OFL, with the licence beside them |
+| `scripts/fetch_fonts.js` | Re-downloads those typefaces and rewrites `fonts/fonts.css` |
 | `scripts/voice/` | The rewritten recipe prose, one batch file per six recipes, applied by `apply_voice.js` |
 | `sw.js` / `manifest.json` | Offline caching + home screen installation |
 | `images/` | Recipe photos and app icons, all local |

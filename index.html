@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
   <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
-  <meta name="theme-color" content="#FBF6EC">
+  <meta name="theme-color" content="#FAF6EE">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="manifest.json">
@@ -25,14 +25,25 @@
           window.matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
         var meta = document.querySelector('meta[name="theme-color"]');
-        if (meta) meta.setAttribute('content', dark ? '#17110C' : '#FBF6EC');
+        if (meta) meta.setAttribute('content', dark ? '#16110C' : '#FAF6EE');
       } catch (e) { /* light it is */ }
     })();
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=DM+Sans:opsz,wght@9..40,400..700&display=swap">
-  <link rel="stylesheet" href="style.css?v=21">
+  <!--
+    The typefaces are served from this repo, not from a CDN. An app whose whole
+    point is working in a kitchen with no signal cannot hold its own design
+    behind a network request: linked from Google, every page fell back to
+    Georgia and the system UI font the moment the connection went, which is
+    most of what made it read as software rather than as a book.
+
+    The two latin faces are preloaded because they set the first paint; the
+    latin-ext pair is only reached by titles like Šúĺlance and Rømmegrøt, so
+    they are left to load on demand.
+  -->
+  <link rel="preload" href="fonts/fraunces-400700-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/literata-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css?v=22">
+  <link rel="stylesheet" href="style.css?v=22">
 </head>
 <body>
 
@@ -659,9 +670,9 @@
 
   </div>
 
-  <script src="ingredients.js?v=21"></script>
-  <script src="recipes.js?v=21"></script>
-  <script src="app.js?v=21"></script>
+  <script src="ingredients.js?v=22"></script>
+  <script src="recipes.js?v=22"></script>
+  <script src="app.js?v=22"></script>
   <script>
     // Live update of the simulated phone status bar clock
     function updateClock() {
