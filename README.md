@@ -9,7 +9,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 ## What it does
 
 **Recipes**
-- 147 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
+- 295 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
 - Every recipe is **written the way a person would tell you it**, in all three languages — not "Peel potatoes and cut carrots and leeks" but why the pieces should match, what the pan should sound like, and which step you must not hurry. See "The voice" below.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category, by diet (vegetarian, vegan, candida, keto), by allergen (gluten, nuts, dairy, eggs) and by **favourites** — the pills stack, so "my favourite desserts" works.
@@ -59,7 +59,9 @@ Wi-Fi, then "Add to home screen".
 | `index.html` | The whole UI — four tabs, recipe drawer, cook mode, recipe editor |
 | `app.js` | State, rendering, grocery logic, translations |
 | `ingredients.js` | Canonical ingredient dictionary: names, aisles, units, staples, diet flags. Shared by the browser and the node scripts |
-| `scripts/recipe_db.js` | Shared load/save for `recipes.js` plus duplicate detection, used by all three importers |
+| `scripts/recipe_db.js` | Shared load/save for `recipes.js` plus duplicate detection, used by every importer |
+| `scripts/measure.js` | Parses free-text measures — mixed numbers, unicode fractions, ranges, sized tins — into an amount and a unit |
+| `scripts/wikimedia.js` | Commons API access: search, licence checking, throttled download |
 | `recipes.js` | The recipe database (`window.initialRecipes`) |
 | `style.css` | The design system: two warm palettes (light and dark) behind one set of semantic tokens |
 | `scripts/voice/` | The rewritten recipe prose, one batch file per six recipes, applied by `apply_voice.js` |
@@ -79,6 +81,9 @@ node scripts/normalize_recipes.js # re-canonicalise every ingredient in recipes.
 node scripts/download_images.js   # pull any remote recipe image into images/
 pwsh scripts/resize_images.ps1    # downscale photos to the size actually shown
 node scripts/make_icons.js        # regenerate the PWA icons
+
+node scripts/import_mealdb.js     # quality-gate TheMealDB and pick a balanced mix
+node scripts/fetch_photos.js      # licensed Wikimedia photos for anything without one
 
 node scripts/add_belgian_recipes.js          # add the hand-written classics
 node scripts/set_recipe_photo.js --search "waterzooi"   # find a Commons photo
@@ -109,7 +114,30 @@ node scripts/import_random.js --count 50
 
 Everything imported goes through `ingredients.js`, so imported recipes get the
 same canonical names, metric units, aisles and staple flags as the hand-written
-Belgian ones.
+Belgian ones. Free-text measures ("1 1/2 cups", "½ tsp", "2-3 tbsp", "1 (12 oz.)
+tin") are read by `scripts/measure.js`, which is shared by every importer — before
+it existed, anything it could not parse silently became "pieces".
+
+The 148 recipes added on top of the Belgian classics came in through a separate
+bulk pipeline, which is kept because it is the one to reuse next time:
+
+```bash
+node scripts/import_mealdb.js    # quality-gate TheMealDB and pick a balanced mix
+node scripts/fetch_photos.js     # look each dish up on Wikimedia Commons
+```
+
+`import_mealdb.js` fetches the whole free catalogue once, caches it, and then
+*rejects*: no method, fewer than three steps, an ingredient list that does not
+match the method, a title already in the book. What survives is selected against
+a target mix so the book does not become all desserts.
+
+`fetch_photos.js` is resumable and only takes photos under a licence that permits
+reuse, crediting the photographer in the drawer. It also refuses images that do
+not look like the dish — an early run gave "Beef Dumpling Stew" a photograph of a
+Hong Kong restaurant front, so a relevance check now compares the article title
+against the dish and rejects words like "raw", "dried", "plant" or "market".
+Anything it cannot license is left without a photo, and the app draws a placeholder
+tile rather than a broken image.
 
 ---
 
@@ -144,7 +172,7 @@ has cooked the dish is stood next to you — what to look for, what not to hurry
 and which mistake is the one that cannot be undone. The interface talks the same
 way: no "configure", no "generate", no "invalid input".
 
-Rewriting 147 recipes across three languages by hand is exactly the kind of job
+Rewriting 295 recipes across three languages by hand is exactly the kind of job
 where a temperature quietly moves by ten degrees, so the prose lives in
 `scripts/voice/batch-*.js` and is applied by `apply_voice.js`, which refuses the
 change unless every instruction step still carries the same numbers, the same

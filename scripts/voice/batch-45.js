@@ -1,6 +1,7 @@
 module.exports = {
   "mealdb-52812": {
     en: {
+      fixes: [1, 4, 7, 9, 12, 13, 14, 16],
       subtitle: "Four hours in a low oven, sliced across the grain",
       description: "Brisket is a hard-working muscle, and only long slow heat softens it. Score the fat, brown it fat side down, and slice across the grain at the end — that last step does as much for tenderness as the four hours.",
       instructions: [
@@ -24,6 +25,7 @@ module.exports = {
       ]
     },
     nl: {
+      fixes: [1, 4, 7, 9, 12, 13, 14, 16],
       subtitle: "Vier uur in een lage oven, tegen de draad in gesneden",
       description: "Borststuk is een hardwerkende spier, en alleen lange trage hitte maakt het zacht. Kerf het vet in, bruin het met de vetkant naar beneden, en snijd het op het einde tegen de draad in — die laatste stap doet net zoveel voor de malsheid als de vier uur.",
       instructions: [
@@ -47,6 +49,7 @@ module.exports = {
       ]
     },
     fr: {
+      fixes: [1, 4, 7, 9, 12, 13, 14, 16],
       subtitle: "Quatre heures dans un four doux, tranchée en travers du grain",
       description: "La poitrine est un muscle qui travaille dur, et seule une chaleur longue et douce l'attendrit. Quadrille le gras, colore côté gras dessous, et tranche en travers du grain à la fin — cette dernière étape fait autant pour la tendreté que les quatre heures.",
       instructions: [
