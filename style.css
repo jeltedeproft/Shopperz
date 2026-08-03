@@ -1,28 +1,34 @@
 /* ==========================================================================
-   Mijn Kookpot — an illustrated cookbook
+   Mijn Kookpot — two Belgiums, one app
    ==========================================================================
-   The page of a printed cookbook, not an interface. Ivory stock, dark brown
-   ink, one madder-red second colour, and almost nothing else: the warmth is
-   carried by the paper, the type and the space around it rather than by
-   rounded boxes and drop shadows.
+   The theme does not just change the colours here. It changes the whole
+   visual language, because the two halves are drawn from two different
+   Belgian traditions and neither survives being recoloured into the other.
 
-   The rules it is built on, in case a later change is tempted to break one:
+     Light   Ligne claire. The comic page — Hergé, Spirou. Flat colour,
+             heavy black keylines, poster capitals, a step number in a flat
+             blue square. Not a gradient or a drop shadow anywhere; in this
+             world an outline *is* the shadow.
 
-     Type does the work.       Fraunces sets every title — an old-style face
-                               with soft, slightly irregular terminals. Nothing
-                               here is set in a UI grotesque, because that is
-                               exactly what made the old design feel like
-                               software rather than a book.
-     Ink, not elevation.       Panels are separated by hairline rules, the way
-                               a page is. Shadows are reserved for the two
-                               things that genuinely lift off the page — the
-                               drawer and the modal.
-     Corners are nearly square. Print has no border radius. A couple of pixels
-                               keeps it from looking brutal; more than that and
-                               it reads as an app again.
-     Labels are set in caps.   Small, letterspaced, in the dim ink — the way a
-                               recipe book labels INGREDIËNTEN and BEREIDING.
-     Air is the ornament.      Long measures, generous leading, wide margins.
+     Dark    Brasserie. The same kitchen after closing — bottle green that
+             reads as black, brass, candlelight. Hairline rules, an engraved
+             serif set wide, no fills at all. Where the day shouts, this
+             whispers.
+
+   That means the palette blocks below carry more than colour: the display
+   face, the body face, the casing of a heading, the weight of a keyline and
+   the shape of a step number all live in the theme. Sections 2-12 never test
+   which theme is on — they read tokens, and the tokens do the flipping.
+
+   The four that carry most of the difference:
+     --font-display / --font-body   Archivo Black + Work Sans, or
+                                    Cormorant Garamond + Literata
+     --display-transform            uppercase by day, none by night
+     --frame-w / --rule-w           2-3px of black, or a brass hairline
+     --label-fill / --num-fill      a solid chip, or nothing at all
+
+   Both palettes define exactly the same token names, which check_contrast.js
+   enforces along with the contrast of every text pair in both themes.
 
    Colour is semantic, and there are six accents rather than one, so a page
    can be warm without being loud:
@@ -74,110 +80,165 @@
 :root[data-theme="light"] {
   color-scheme: light;
 
-  /* Paper. Uncoated ivory stock, and the steps between are deliberately
-     small — a printed page does not have five distinct greys on it. */
-  --bg-deep: #E7DECD;   /* the desk the book is lying on */
-  --bg: #FAF6EE;        /* the page */
-  --surface-1: #F5F0E5; /* a tinted panel, like a sidebar box */
-  --surface-2: #FFFCF6; /* the printed area — cards, groups */
-  --surface-3: #F1EADD; /* recessed: inputs, chips */
-  --surface-4: #E3D9C7; /* pressed, tracks, rules that need weight */
+  /* ------------------------------------------------------------------------
+     Ligne claire — the Belgian comic page.
 
-  /* Madder red — the second colour a cookbook is printed in */
-  --accent: #A3391D;
-  --accent-hi: #7F2A11;   /* higher emphasis = darker on a light page */
-  --accent-lo: #E0A184;   /* decorative only, never text */
-  --accent-wash: rgba(163, 57, 29, 0.09);
-  --accent-line: rgba(163, 57, 29, 0.28);
-  --on-accent: #FFF7EE;   /* type sitting on a filled accent */
+     Flat colour and heavy black keylines, which is the whole grammar: there
+     is not a gradient or a drop shadow anywhere in this theme. Hergé's rule
+     was that every object gets the same weight of outline whatever its
+     distance, and that is what the --frame-w / --rule-w pair does here.
+     ------------------------------------------------------------------------ */
+  --bg-deep: #E2D6BE;
+  --bg: #F2E9D8;        /* aged newsprint */
+  --surface-1: #EDE2CD;
+  --surface-2: #FFFDF7; /* the flat white panel a panel is drawn on */
+  --surface-3: #EAE0CB;
+  --surface-4: #DCCFB2;
 
-  /* The rest of the family */
-  --herb: #4F6B33;
-  --herb-wash: rgba(79, 107, 51, 0.12);
-  --herb-line: rgba(79, 107, 51, 0.32);
-  --berry: #A83424;
-  --berry-wash: rgba(168, 52, 36, 0.10);
-  --berry-line: rgba(168, 52, 36, 0.30);
-  --honey: #7E5A12;
-  --honey-wash: rgba(126, 90, 18, 0.12);
-  --plum: #6F4059;
-  --plum-wash: rgba(111, 64, 89, 0.11);
+  --accent: #B82818;    /* the red */
+  --accent-hi: #97200F;
+  --accent-lo: #E8A42B; /* mustard, decorative fills only */
+  --accent-wash: rgba(184, 40, 24, 0.10);
+  --accent-line: rgba(18, 16, 14, 0.9);
+  --on-accent: #FFFDF7;
 
-  /* Ink. Darker than the old brown, because printed type is crisp. */
-  --ink: #2A211A;
-  --ink-dim: #5C5044;
-  --ink-faint: #8B7E6E;
+  --herb: #2F7A54;
+  --herb-wash: rgba(47, 122, 84, 0.13);
+  --herb-line: rgba(18, 16, 14, 0.9);
+  --berry: #B82818;
+  --berry-wash: rgba(184, 40, 24, 0.11);
+  --berry-line: rgba(18, 16, 14, 0.9);
+  --honey: #8A6410;
+  --honey-wash: rgba(232, 164, 43, 0.22);
+  --plum: #6B3A78;
+  --plum-wash: rgba(107, 58, 120, 0.12);
 
-  /* Rules. These carry the structure now, so there are two real weights. */
-  --line: rgba(42, 33, 26, 0.14);
-  --line-strong: rgba(42, 33, 26, 0.30);
+  --ink: #12100E;       /* comic black, and it is used heavily */
+  --ink-dim: #4A4640;
+  --ink-faint: #6E675C;
 
-  --hover-wash: rgba(42, 33, 26, 0.04);
-  --backdrop: rgba(58, 42, 26, 0.44);
-  --frame: #DCCFB6;
-  --bg-glow: #F6EEDE;
-  --cook-glow: #FCF6EA;
-  --sheen: rgba(255, 255, 255, 0.6);
-  --shadow-berry: 0 10px 30px -14px rgba(168, 52, 36, 0.42);
+  --line: #12100E;
+  --line-strong: #12100E;
 
-  /* Elevation is almost gone. 1 is a printed hairline rather than a shadow;
-     2 and 3 exist only for the drawer and the modal, which really do lift. */
-  --shadow-1: 0 1px 0 rgba(42, 33, 26, 0.07);
-  --shadow-2: 0 10px 30px -18px rgba(58, 42, 26, 0.30);
-  --shadow-3: 0 28px 64px -24px rgba(58, 42, 26, 0.42);
-  --shadow-accent: 0 10px 30px -14px rgba(163, 57, 29, 0.40);
+  --hover-wash: rgba(18, 16, 14, 0.06);
+  --backdrop: rgba(18, 16, 14, 0.55);
+  --frame: #12100E;
+  --bg-glow: #F7F0E2;
+  --cook-glow: #FFFDF7;
+  --sheen: rgba(255, 255, 255, 0.5);
+  --shadow-berry: none;
+
+  /* Elevation does not exist in ligne claire. An outline is the shadow. */
+  --shadow-1: none;
+  --shadow-2: 3px 3px 0 var(--ink);
+  --shadow-3: 5px 5px 0 var(--ink);
+  --shadow-accent: 3px 3px 0 var(--ink);
+
+  /* ---- structure, which flips with the theme in this design ---- */
+  --font-display: 'Archivo Black', 'Haettenschweiler', Impact, sans-serif;
+  --font-body: 'Work Sans', system-ui, -apple-system, sans-serif;
+  --display-transform: uppercase;
+  --display-tracking: 0.005em;
+  --display-weight: 400;
+  --display-italic: normal;
+
+  --frame-w: 2px;       /* the keyline round a card or a photograph */
+  --rule-w: 3px;        /* the heavy divider under a section head */
+  --input-w: 2px;
+
+  --label-fill: var(--ink);
+  --label-ink: var(--bg);
+  --label-pad: 3px 7px;
+
+  --num-fill: #2C6BAA;  /* the step number sits in a flat blue square */
+  --num-ink: #FFFDF7;
+  --num-size: 22px;
+
+  --r-sm: 0px;
+  --r-md: 0px;
+  --r-lg: 0px;
+  --r-pill: 999px;
 }
 
 /* --------------------------------------------------------------------------
-   1b. Dark — the same page under a lamp
+   1b. Brasserie — the same kitchen after dark
+   --------------------------------------------------------------------------
+   Bottle green so deep it reads black, brass, and candlelight. Where the day
+   theme shouts in flat capitals behind a thick outline, this one whispers:
+   hairline rules, an engraved face, wide letterspacing, and no fills at all.
    -------------------------------------------------------------------------- */
 :root[data-theme="dark"] {
   color-scheme: dark;
 
-  --bg-deep: #0D0A07;
-  --bg: #16110C;
-  --surface-1: #1C1610;
-  --surface-2: #241D15;
-  --surface-3: #2C2419;
-  --surface-4: #3A3022;
+  --bg-deep: #0A100D;
+  --bg: #101A15;
+  --surface-1: #14201A;
+  --surface-2: #17251E;
+  --surface-3: #1C2C24;
+  --surface-4: #26382E;
 
-  --accent: #E08A57;
-  --accent-hi: #F0A87B;
-  --accent-lo: #8A4C28;
-  --accent-wash: rgba(224, 138, 87, 0.13);
-  --accent-line: rgba(224, 138, 87, 0.32);
-  --on-accent: #23180F;
+  --accent: #C9A24B;    /* brass */
+  --accent-hi: #E0BC6C;
+  --accent-lo: #6E5624;
+  --accent-wash: rgba(201, 162, 75, 0.12);
+  --accent-line: rgba(201, 162, 75, 0.32);
+  --on-accent: #101A15;
 
-  --herb: #A8C077;
-  --herb-wash: rgba(168, 192, 119, 0.14);
-  --herb-line: rgba(168, 192, 119, 0.34);
-  --berry: #F08878;
-  --berry-wash: rgba(240, 136, 120, 0.13);
-  --berry-line: rgba(240, 136, 120, 0.32);
-  --honey: #DDB463;
-  --honey-wash: rgba(221, 180, 99, 0.14);
-  --plum: #D096B4;
-  --plum-wash: rgba(208, 150, 180, 0.13);
+  --herb: #8FBF87;
+  --herb-wash: rgba(143, 191, 135, 0.13);
+  --herb-line: rgba(143, 191, 135, 0.30);
+  --berry: #D9695F;
+  --berry-wash: rgba(217, 105, 95, 0.13);
+  --berry-line: rgba(217, 105, 95, 0.30);
+  --honey: #D7B265;
+  --honey-wash: rgba(215, 178, 101, 0.14);
+  --plum: #C89AC0;
+  --plum-wash: rgba(200, 154, 192, 0.13);
 
-  --ink: #F2E8D8;
-  --ink-dim: #C0B29C;
-  --ink-faint: #978973;
+  --ink: #EDE6D6;       /* bone */
+  --ink-dim: #B3AB97;
+  --ink-faint: #948B77;
 
-  --line: rgba(242, 232, 216, 0.14);
-  --line-strong: rgba(242, 232, 216, 0.28);
+  --line: rgba(201, 162, 75, 0.20);
+  --line-strong: rgba(201, 162, 75, 0.38);
 
-  --hover-wash: rgba(242, 232, 216, 0.04);
-  --backdrop: rgba(6, 4, 2, 0.74);
-  --frame: #0B0806;
-  --bg-glow: #241A0E;
-  --cook-glow: #2A2010;
+  --hover-wash: rgba(237, 230, 214, 0.05);
+  --backdrop: rgba(4, 8, 6, 0.76);
+  --frame: #070C09;
+  --bg-glow: #16241C;
+  --cook-glow: #1B2C22;
   --sheen: rgba(255, 255, 255, 0.05);
-  --shadow-berry: 0 10px 30px -14px rgba(240, 136, 120, 0.40);
+  --shadow-berry: 0 10px 30px -14px rgba(217, 105, 95, 0.40);
 
   --shadow-1: 0 1px 0 rgba(0, 0, 0, 0.40);
-  --shadow-2: 0 10px 30px -18px rgba(0, 0, 0, 0.72);
-  --shadow-3: 0 28px 64px -24px rgba(0, 0, 0, 0.84);
-  --shadow-accent: 0 10px 30px -14px rgba(224, 138, 87, 0.42);
+  --shadow-2: 0 12px 34px -20px rgba(0, 0, 0, 0.80);
+  --shadow-3: 0 30px 68px -26px rgba(0, 0, 0, 0.88);
+  --shadow-accent: 0 10px 30px -14px rgba(201, 162, 75, 0.35);
+
+  /* ---- structure ---- */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Palatino, serif;
+  --font-body: 'Literata', Charter, Georgia, serif;
+  --display-transform: none;
+  --display-tracking: 0.02em;
+  --display-weight: 600;
+  --display-italic: normal;
+
+  --frame-w: 1px;
+  --rule-w: 1px;
+  --input-w: 1px;
+
+  --label-fill: transparent;
+  --label-ink: var(--accent);
+  --label-pad: 0 0 4px;
+
+  --num-fill: transparent;
+  --num-ink: var(--accent);
+  --num-size: auto;
+
+  --r-sm: 2px;
+  --r-md: 2px;
+  --r-lg: 3px;
+  --r-pill: 999px;
 }
 
 /* --------------------------------------------------------------------------
@@ -207,8 +268,6 @@
      axis, which is why the display sizes below set font-variation-settings:
      at 34px it wants the high-contrast cut, at 13px the sturdy one.
      ------------------------------------------------------------------------ */
-  --font-display: 'Fraunces', 'Iowan Old Style', Palatino, Georgia, serif;
-  --font-body: 'Literata', Charter, Georgia, 'Times New Roman', serif;
 
   --t-hero: 34px;   /* a recipe title in the drawer */
   --t-display: 27px;
@@ -236,14 +295,6 @@
   --sp-6: 24px;
   --sp-7: 32px;
   --sp-8: 40px;
-
-  /* Shape — print has no border radius. Two pixels keeps an edge from
-     looking chipped on a screen; the pill survives only for the things that
-     are genuinely round, like the theme switch. */
-  --r-sm: 2px;
-  --r-md: 3px;
-  --r-lg: 4px;
-  --r-pill: 999px;
 
   /* Motion */
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -299,13 +350,19 @@ body {
   serif off square — a little of it is what stops a page of titles looking
   machine-set, and a lot of it looks like a mistake.
 */
+/*
+  Headings take the whole treatment from the theme, not just the colour: by
+  day a poster-weight grotesque shouting in capitals, by night an engraved
+  serif set quietly and letterspaced. Everything below reads the tokens, so
+  no component rule ever has to know which theme is on.
+*/
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: var(--display-weight);
+  font-style: var(--display-italic);
+  text-transform: var(--display-transform);
+  letter-spacing: var(--display-tracking);
   line-height: var(--lh-tight);
-  letter-spacing: -0.005em;
-  font-optical-sizing: auto;
-  font-variation-settings: 'SOFT' 40, 'WONK' 1;
 }
 
 /*
@@ -313,8 +370,11 @@ h1, h2, h3, h4 {
   the point is to name the block below it and then get out of the way, the
   way INGREDIËNTEN does on a printed page.
 */
-.panel-subtitle,
-.section-link,
+/*
+  A section label. Both themes set it small and in capitals; what changes is
+  how it is mounted — a solid black chip in the comic, a brass rule under the
+  words in the café. --label-fill and --label-pad carry that difference.
+*/
 .filter-group-title,
 .drawer-section-title,
 .settings-group-title,
@@ -327,6 +387,21 @@ h1, h2, h3, h4 {
 .progress-header {
   font-family: var(--font-body);
   font-size: var(--t-2xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  line-height: var(--lh-tight);
+  font-variant-numeric: normal;
+  background: var(--label-fill);
+  color: var(--label-ink);
+  padding: var(--label-pad);
+  border-bottom: var(--rule-w) solid var(--line-strong);
+}
+
+.panel-subtitle,
+.section-link {
+  font-family: var(--font-body);
+  font-size: var(--t-xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: var(--tracking-label);
@@ -511,7 +586,7 @@ header::after {
   content: "";
   flex: 1;
   height: 0;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--rule-w) solid var(--line);
   transform: translateY(-0.34em);
   order: 1;
 }
@@ -587,11 +662,10 @@ header::after {
   padding: 0 var(--sp-2) 0 32px;
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--line-strong);
+  border-bottom: var(--input-w) solid var(--line-strong);
   border-radius: 0;
   color: var(--ink);
   font-size: var(--t-body);
-  font-style: italic;
   outline: none;
   transition: border-color var(--fast) var(--ease), background var(--fast) var(--ease);
 }
@@ -727,7 +801,7 @@ header::after {
   flex-shrink: 0;
   padding: 7px 14px;
   background: transparent;
-  border: 1px solid var(--line-strong);
+  border: var(--frame-w) solid var(--line-strong);
   border-radius: var(--r-sm);
   font-size: var(--t-2xs);
   font-weight: 600;
@@ -860,7 +934,7 @@ header::after {
   flex-direction: column;
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--frame-w) solid var(--line);
   border-radius: 0;
   padding-bottom: var(--sp-3);
   cursor: pointer;
@@ -885,6 +959,8 @@ header::after {
   box-shadow: -10px 0 0 -9px var(--accent);
 }
 
+/* Hergé outlined every object at the same weight whatever its distance; the
+   café outlines almost nothing. One token covers both. */
 .recipe-card-img-wrapper {
   position: relative;
   width: 100%;
@@ -892,9 +968,7 @@ header::after {
   overflow: hidden;
   border-radius: var(--r-sm);
   background: var(--surface-3);
-  /* A plate rule: printed photographs in a cookbook sit inside a thin keyline
-     rather than bleeding straight into the paper. */
-  box-shadow: inset 0 0 0 1px var(--line);
+  box-shadow: inset 0 0 0 var(--frame-w) var(--line);
 }
 
 .recipe-card-img {
@@ -1278,10 +1352,9 @@ header::after {
   font-family: var(--font-display);
   font-size: 3.1em;
   line-height: 0.84;
-  font-weight: 600;
+  font-weight: var(--display-weight);
   color: var(--accent);
   padding: 0.06em var(--sp-2) 0 0;
-  font-variation-settings: 'SOFT' 20, 'WONK' 0;
 }
 
 .drawer-meta-badges {
@@ -1390,9 +1463,7 @@ header::after {
   align-items: center;
   gap: var(--sp-3);
   margin-bottom: var(--sp-4);
-  padding-bottom: var(--sp-2);
-  border-bottom: 2px solid var(--ink);
-  color: var(--ink);
+  align-self: flex-start;
 }
 
 .drawer-section-title::after {
@@ -1438,7 +1509,7 @@ header::after {
   flex: 1 1 auto;
   min-width: var(--sp-5);
   align-self: baseline;
-  border-bottom: 1px dotted var(--line-strong);
+  border-bottom: var(--frame-w) dotted var(--line-strong);
   transform: translateY(-0.28em);
 }
 
@@ -1530,22 +1601,26 @@ header::after {
   color: var(--accent-hi);
 }
 
-/* A hanging figure in the display face — no disc, no border, just the number. */
+/*
+  By day the step number sits in a flat blue square, the way a panel is
+  numbered in a comic. By night --num-fill goes transparent and --num-size
+  goes auto, and the same element becomes a bare hanging figure in brass.
+*/
 .step-num {
   flex-shrink: 0;
-  width: 1.6em;
-  display: block;
-  text-align: right;
-  background: none;
+  display: grid;
+  place-items: center;
+  min-width: var(--num-size, 1.6em);
+  height: var(--num-size, auto);
+  padding: 0 0.28em;
+  background: var(--num-fill);
+  color: var(--num-ink);
   border: none;
   border-radius: 0;
   font-family: var(--font-display);
-  font-size: var(--t-h1);
-  font-weight: 600;
+  font-size: var(--t-h2);
+  font-weight: var(--display-weight);
   line-height: 1.35;
-  color: var(--accent);
-  font-variant-numeric: oldstyle-nums;
-  font-variation-settings: 'SOFT' 20, 'WONK' 1;
 }
 
 .step-text {
@@ -1673,8 +1748,8 @@ header::after {
   padding: var(--sp-6) var(--sp-4);
   background: transparent;
   border: none;
-  border-top: 2px solid var(--ink);
-  border-bottom: 1px solid var(--line);
+  border-top: var(--rule-w) solid var(--line-strong);
+  border-bottom: var(--frame-w) solid var(--line);
   border-radius: 0;
   box-shadow: none;
 }

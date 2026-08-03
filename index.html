@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Mijn Kookpot - Belgian Grocery & Recipe Companion</title>
   <meta name="description" content="Collect classic Belgian dishes, scale ingredients in metric units, and generate supermarket-aisle sorted grocery checklists.">
-  <meta name="theme-color" content="#FAF6EE">
+  <meta name="theme-color" content="#F2E9D8">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="manifest.json">
@@ -25,7 +25,7 @@
           window.matchMedia('(prefers-color-scheme: dark)').matches);
         document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
         var meta = document.querySelector('meta[name="theme-color"]');
-        if (meta) meta.setAttribute('content', dark ? '#16110C' : '#FAF6EE');
+        if (meta) meta.setAttribute('content', dark ? '#101A15' : '#F2E9D8');
       } catch (e) { /* light it is */ }
     })();
   </script>
@@ -40,10 +40,10 @@
     latin-ext pair is only reached by titles like Šúĺlance and Rømmegrøt, so
     they are left to load on demand.
   -->
-  <link rel="preload" href="fonts/fraunces-400700-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/literata-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="fonts/fonts.css?v=22">
-  <link rel="stylesheet" href="style.css?v=22">
+  <link rel="preload" href="fonts/archivo-black-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/work-sans-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css?v=23">
+  <link rel="stylesheet" href="style.css?v=23">
 </head>
 <body>
 
@@ -670,9 +670,9 @@
 
   </div>
 
-  <script src="ingredients.js?v=22"></script>
-  <script src="recipes.js?v=22"></script>
-  <script src="app.js?v=22"></script>
+  <script src="ingredients.js?v=23"></script>
+  <script src="recipes.js?v=23"></script>
+  <script src="app.js?v=23"></script>
   <script>
     // Live update of the simulated phone status bar clock
     function updateClock() {

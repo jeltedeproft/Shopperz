@@ -25,11 +25,19 @@ function blockTokens(selector) {
   const open = css.indexOf('{', at);
   const body = css.slice(open, css.indexOf('}', open));
   const found = {};
-  [...body.matchAll(/(--[a-z0-9-]+):\s*(#[0-9a-fA-F]{3,8})\s*;/g)].forEach(m => {
-    found[m[1]] = m[2];
+  // Every declaration, not only the hex ones. Contrast can only be measured on
+  // a hex, but *parity* has to cover the whole set: while this only recorded
+  // hexes, a token written as rgba() in both themes was never parity-checked at
+  // all, and one written as a hex in one theme and rgba() in the other read as
+  // missing. Both matter now that the themes also carry structural tokens.
+  [...body.matchAll(/(--[a-z0-9-]+):\s*([^;]+);/g)].forEach(m => {
+    found[m[1]] = m[2].trim();
   });
   return found;
 }
+
+/** Only a hex can be measured; everything else is carried for parity alone. */
+const measurable = v => typeof v === 'string' && /^#[0-9a-fA-F]{3,8}$/.test(v);
 
 /** Tokens shared by both themes (the over-photo pair lives here). */
 const shared = blockTokens('1c. Shared by both themes');
@@ -124,6 +132,11 @@ Object.keys(themes).forEach(name => {
       console.log(`     ❌ ${label} — missing ${!fg ? fgKey : bgKey}`);
       return;
     }
+    if (!measurable(fg) || !measurable(bg)) {
+      failures++;
+      console.log(`     ❌ ${label} — ${!measurable(fg) ? fgKey : bgKey} is not a hex, so it cannot be measured`);
+      return;
+    }
     const ratio = contrast(fg, bg);
     const ok = ratio >= min;
     if (!ok) failures++;
@@ -143,7 +156,7 @@ if (onlyLight.length || onlyDark.length) {
   if (onlyLight.length) console.log(`     ❌ light only: ${onlyLight.join(', ')}`);
   if (onlyDark.length) console.log(`     ❌ dark only:  ${onlyDark.join(', ')}`);
 } else {
-  console.log(`     ✅ both themes define the same ${lightKeys.length} colour tokens`);
+  console.log(`     ✅ both themes define the same ${lightKeys.length} tokens`);
 }
 
 // Nothing should be smaller than 10px, and only sparingly below 12px.

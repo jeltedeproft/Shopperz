@@ -792,7 +792,7 @@ const THEME_CHOICES = ['system', 'light', 'dark'];
 /** The colour the phone paints its status bar with — must track the theme. */
 // Must match --bg in each palette in style.css, and the inline pre-paint
 // script in index.html, which sets the same thing before this file loads.
-const THEME_META = { light: '#FAF6EE', dark: '#16110C' };
+const THEME_META = { light: '#F2E9D8', dark: '#101A15' };
 
 function prefersDark() {
   return typeof window.matchMedia === 'function' &&

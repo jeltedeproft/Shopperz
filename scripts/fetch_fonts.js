@@ -26,14 +26,23 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 const FAMILIES = [
   {
-    // The display face. Fraunces is an old-style serif with soft, slightly
-    // wonky terminals — it is the opposite of a grotesque UI face, which is
-    // the whole point.
-    name: 'Fraunces',
-    query: 'Fraunces:opsz,wght@9..144,400..700'
+    // Light: ligne claire. A poster-weight grotesque for anything shouted in
+    // capitals — dish names, section heads, the numbers on a step.
+    name: 'Archivo Black',
+    query: 'Archivo+Black'
   },
   {
-    // The reading face, drawn for long text on screen.
+    // Light: the humanist sans that carries the prose beside it.
+    name: 'Work Sans',
+    query: 'Work+Sans:wght@400..600'
+  },
+  {
+    // Dark: brasserie. An engraved old-style face, set letterspaced.
+    name: 'Cormorant Garamond',
+    query: 'Cormorant+Garamond:wght@500..600'
+  },
+  {
+    // Dark: the reading face, drawn for long text on screen.
     name: 'Literata',
     query: 'Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400..600'
   }
@@ -81,7 +90,10 @@ function parseFaces(css) {
 
     for (const face of faces) {
       const italic = face.style === 'italic' ? 'i' : '';
-      const file = `${family.name.toLowerCase()}-${face.weight.replace(/\s+/g, '')}${italic}-${face.subset}.woff2`;
+      // "Archivo Black" -> "archivo-black". A space in a filename survives on
+      // disk and then quietly fails to load over HTTP.
+      const slug = family.name.toLowerCase().replace(/\s+/g, '-');
+      const file = `${slug}-${face.weight.replace(/\s+/g, '')}${italic}-${face.subset}.woff2`;
       const data = await get(face.url, true);
       fs.writeFileSync(path.join(OUT, file), data);
       bytes += data.length;

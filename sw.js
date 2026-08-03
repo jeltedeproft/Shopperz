@@ -7,7 +7,7 @@
  */
 // Must match the ?v= query strings in index.html exactly, or the precached
 // URLs never match what the page actually requests.
-const ASSET_VERSION = '22';
+const ASSET_VERSION = '23';
 const SHELL_CACHE = `kookpot-shell-${ASSET_VERSION}`;
 const IMAGE_CACHE = 'kookpot-images';
 
@@ -26,8 +26,12 @@ const SHELL_ASSETS = [
   // from Google's CDN, which meant that offline — the one situation this app
   // is built for — the whole book fell back to whatever serif the device had.
   `./fonts/fonts.css?v=${ASSET_VERSION}`,
-  './fonts/fraunces-400700-latin.woff2',
-  './fonts/fraunces-400700-latin-ext.woff2',
+  './fonts/archivo-black-400-latin.woff2',
+  './fonts/archivo-black-400-latin-ext.woff2',
+  './fonts/work-sans-400600-latin.woff2',
+  './fonts/work-sans-400600-latin-ext.woff2',
+  './fonts/cormorant-garamond-500600-latin.woff2',
+  './fonts/cormorant-garamond-500600-latin-ext.woff2',
   './fonts/literata-400600-latin.woff2',
   './fonts/literata-400600-latin-ext.woff2',
   './fonts/literata-400600i-latin.woff2',
