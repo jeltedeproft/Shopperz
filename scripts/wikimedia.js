@@ -56,7 +56,27 @@ async function findArticleImage(candidates) {
       );
       const page = Object.values(data.query.pages)[0];
       if (page && page.original && page.original.source) {
-        return { url: page.original.source, article: `${wiki}.wikipedia.org/wiki/${title}` };
+        // The API appends its own tracking parameters to the image URL
+        // ("?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original").
+        // They are dropped here, at the one point the URL enters this module,
+        // because everything downstream reads the URL as a file path: the
+        // licence lookup takes the last segment as the Commons file name, and
+        // the extension is matched against the end of the string. Left on, the
+        // lookup asks Commons for a file whose name ends in "&utm_content=
+        // original", is told no such file exists, and reports the photo as not
+        // reusable — which is every photo, silently.
+        const url = page.original.source.split('?')[0];
+        // An article's lead image is not always a photograph. Where a dish has
+        // no picture, the page often leads with a national symbol or a map
+        // instead — a coat of arms for the Bulgarian salad, a map of Colombia
+        // for the buñuelos — and those are drawings, served as SVG. They are
+        // never what we want, and the extension is the reliable tell, so they
+        // are refused here rather than downloaded under a .jpg name.
+        if (/\.svgz?$/i.test(url)) {
+          console.log(`   ⚠️  ${candidate}: lead image is an SVG, not a photograph`);
+          continue;
+        }
+        return { url, article: `${wiki}.wikipedia.org/wiki/${title}` };
       }
     } catch (err) {
       console.log(`   ⚠️  ${candidate}: ${err.message}`);
@@ -115,6 +135,13 @@ async function downloadImage(url, targetPath) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const buffer = Buffer.from(await res.arrayBuffer());
   if (buffer.length < 2000) throw new Error('suspiciously small');
+  // Size alone does not say it is an image: an SVG or an error page can be
+  // any length. The first bytes do — JPEG opens FF D8, PNG has its own
+  // signature — and anything else is refused rather than written out under a
+  // photograph's name.
+  const isJpeg = buffer[0] === 0xFF && buffer[1] === 0xD8;
+  const isPng = buffer.subarray(0, 8).toString('hex') === '89504e470d0a1a0a';
+  if (!isJpeg && !isPng) throw new Error('not a JPEG or PNG');
   fs.writeFileSync(targetPath, buffer);
   return buffer.length;
 }

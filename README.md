@@ -9,7 +9,7 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 ## What it does
 
 **Recipes**
-- 295 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
+- 414 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
 - Every recipe is **written the way a person would tell you it**, in all three languages — not "Peel potatoes and cut carrots and leeks" but why the pieces should match, what the pan should sound like, and which step you must not hurry. See "The voice" below.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category, by diet (vegetarian, vegan, candida, keto), by allergen (gluten, nuts, dairy, eggs) and by **favourites** — the pills stack, so "my favourite desserts" works.
@@ -124,7 +124,7 @@ Belgian ones. Free-text measures ("1 1/2 cups", "½ tsp", "2-3 tbsp", "1 (12 oz.
 tin") are read by `scripts/measure.js`, which is shared by every importer — before
 it existed, anything it could not parse silently became "pieces".
 
-The 148 recipes added on top of the Belgian classics came in through a separate
+The 267 recipes added on top of the Belgian classics came in through a separate
 bulk pipeline, which is kept because it is the one to reuse next time:
 
 ```bash
@@ -178,7 +178,7 @@ has cooked the dish is stood next to you — what to look for, what not to hurry
 and which mistake is the one that cannot be undone. The interface talks the same
 way: no "configure", no "generate", no "invalid input".
 
-Rewriting 295 recipes across three languages by hand is exactly the kind of job
+Rewriting 414 recipes across three languages by hand is exactly the kind of job
 where a temperature quietly moves by ten degrees, so the prose lives in
 `scripts/voice/batch-*.js` and is applied by `apply_voice.js`, which refuses the
 change unless every instruction step still carries the same numbers, the same
@@ -222,6 +222,16 @@ itself, because the British recipes that arrived carrying both scales spell out
 have made a British recipe and an American one disagree about the same oven.
 Temperatures between the marks — an oil bath, a meat probe — are arithmetic to
 the nearest 5 °C.
+
+**A bare "degrees" over 200 is Fahrenheit; 200 and under is already Celsius.**
+The sources are unanimous above the line — 225 is a smoker, 300, 325, 350, 375,
+400 and 425 are all American ovens — while "in a preheated oven 180 degrees" is
+a European writing Celsius. Reading every bare number as Fahrenheit turned three
+recipes' ovens down to 80 °C, which bakes nothing, so the cut is taken at 200 and
+anything at or under it only has its unit spelled out. The number alone does not
+settle it, though: a leg of lamb roasted "until a thermometer shows 130 degrees"
+really is Fahrenheit, so a sentence naming a thermometer converts whatever the
+number says.
 
 **A cup is 240 ml or 125 g depending on what is in it**, and that factor of two
 is the one number in the job worth being slow about. The decision is taken from

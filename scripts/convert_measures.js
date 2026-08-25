@@ -44,10 +44,16 @@ const NUM = '\\d+(?:[.,]\\d+)?(?:\\s*\\d*\\s*\\/\\s*\\d+)?|[½⅓⅔¼¾⅛⅜�
 // here, or "180C/350F/Gas 4" reads as having no Celsius in it at all, the
 // strip declines to fire, and the 350F is converted alongside the 180C that
 // was already the same temperature: "180C/180 °C/Gas 4".
-const C_UNIT = '(?:°\\s*C\\b|℃|degrees?\\s*C\\b|degrees\\s+Celsius|graden\\s*C\\b|graden\\s+Celsius|degrés\\s*C\\b|degrés\\s+Celsius|C\\b)';
+// The degree sign is written two ways in the imported prose: the real one (°)
+// and the ring above (˚, U+02DA), which a couple of sources use and which looks
+// identical on the page. Both are accepted, and the letter after it may be
+// lower case — "325°f (160°c)" is one recipe's own spelling. Only the forms
+// carrying a degree sign are case-relaxed; the bare "C" below stays upper case,
+// because a lower-case one would match the "c" of "c'est".
+const C_UNIT = '(?:[°˚]\\s*[Cc]\\b|℃|degrees?\\s*C\\b|degrees\\s+Celsius|graden\\s*C\\b|graden\\s+Celsius|degrés\\s*C\\b|degrés\\s+Celsius|C\\b)';
 // The bare "F" of "Heat the oven to 350F" comes last, so the fuller spellings
 // win the alternation when they are present.
-const F_UNIT = '(?:°\\s*F\\b|℉|degrees?\\s*F\\b|degrees\\s+Fahrenheit|graden\\s*F\\b|graden\\s+Fahrenheit|degrés\\s*F\\b|degrés\\s+Fahrenheit|F\\b)';
+const F_UNIT = '(?:[°˚]\\s*[Ff]\\b|℉|degrees?\\s*F\\b|degrees\\s+Fahrenheit|graden\\s*F\\b|graden\\s+Fahrenheit|degrés\\s*F\\b|degrés\\s+Fahrenheit|F\\b)';
 // The brackets of "180C (fan)" have to be allowed, or the run of oven settings
 // ends at the 180C, the gas mark trailing it is never part of the match, and it
 // survives a strip that was supposed to remove it.
@@ -155,6 +161,19 @@ function stripBracketedCelsius(text) {
   return text.replace(re, (whole, c) => record('strip oven setting', whole, c + ' °C'));
 }
 
+/**
+ * The same thing written the other way round: "170°C (340°F)".
+ *
+ * Without this the bracketed Fahrenheit is left for the convert pass below,
+ * which turns it into a second Celsius reading and leaves the step saying
+ * "170°C (170 °C)". The Celsius is already there, so the brackets are dropped
+ * whole rather than converted.
+ */
+function stripBracketedFahrenheit(text) {
+  const re = new RegExp('(\\d+)\\s*(?:' + C_UNIT + ')\\s*\\(\\s*\\d+\\s*(?:' + F_UNIT + ')\\s*\\)', 'g');
+  return text.replace(re, (whole, c) => record('strip oven setting', whole, c + ' °C'));
+}
+
 function stripDualTemperature(text) {
   // The whole run of oven settings: any mix of C, F, fan and gas joined by
   // slashes or commas. Rebuilt keeping only the Celsius parts.
@@ -238,13 +257,41 @@ function convertTemperature(text) {
   // A bare "350 degrees". Every source that writes this is American.
   // "a 300 degree oven" is singular, and "a preheated 400 oven" names no unit
   // at all — both are still Fahrenheit, and both are how these sources write.
+  //
+  // But not every bare number is: "in a preheated oven 180 degrees" is a
+  // European writing Celsius, and reading it as Fahrenheit turned three
+  // recipes' ovens down to 80 °C, which bakes nothing. Above 200 the sources
+  // are unanimous — 225 is a smoker, 300, 325, 350, 375, 400 and 425 are all
+  // American ovens — while 180 and 200 are the two commonest marks on a
+  // European dial and never appear as Fahrenheit oven settings. So the cut is
+  // taken there: over 200 converts, 200 and under is already Celsius and only
+  // gets its unit spelled out.
+  //
+  // The number is not enough on its own, though. A leg of lamb is roasted
+  // "until an instant-read thermometer shows 130 degrees", and that one really
+  // is Fahrenheit — a probe reading, not an oven dial. So a sentence naming a
+  // thermometer is converted whatever the number says.
+  const FAHRENHEIT_FLOOR = 200;
+  const PROBE = /thermometer|thermomètre|kernthermometer|internal\s+temperature|kerntemperatuur|à\s+cœur/i;
+  const sentenceAround = (whole, at) => {
+    const start = whole.lastIndexOf('.', at) + 1;
+    const end = whole.indexOf('.', at);
+    return whole.slice(start, end === -1 ? whole.length : end);
+  };
   const bare = new RegExp(
     '(\\d{2,3})\\s*(?:degrees?|graden|degrés)\\b(?!\\s*(?:C|Celsius))' +
     '|(?<=\\bpreheated\\s)(\\d{3})(?=\\s+oven\\b)' +
     '|(?<=\\bpréchauffé\\s+à\\s)(\\d{3})\\b(?!\\s*°)' +
     '|(?<=\\bvoorverwarmde\\s+oven\\s+van\\s)(\\d{3})\\b(?!\\s*°)', 'gi');
   text = text.replace(bare, (whole, ...groups) => {
+    const source = groups.pop();
+    const at = groups.pop();
     const n = groups.find(g => typeof g === 'string' && g);
+    if (Number(n) <= FAHRENHEIT_FLOOR && !PROBE.test(sentenceAround(source, at))) {
+      // Already Celsius: say so, rather than convert. Naming the unit is what
+      // keeps this idempotent — a second pass sees "180 °C" and leaves it.
+      return record('name bare degrees', whole, n + ' °C');
+    }
     return record('convert bare degrees', whole, U.fahrenheitToCelsius(Number(n)) + ' °C');
   });
 
@@ -357,6 +404,7 @@ function convert(text, cups, vessels) {
   if (typeof text !== 'string') return text;
   let out = text;
   out = stripBracketedCelsius(out);
+  out = stripBracketedFahrenheit(out);
   out = stripDualTemperature(out);
   out = stripDualMeasure(out);
   out = convertTemperature(out);
