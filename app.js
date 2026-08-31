@@ -15,6 +15,16 @@ const uiTranslations = {
     suggestedTitle: "Tonight, may I suggest…",
     exploreTitle: "Have a look through",
     seeAll: "See all",
+    randomPicksTitle: "A few random ideas",
+    shuffleBtn: "New ideas",
+    randomizerTitle: "Surprise me",
+    randomizerDesc: "Choose a type and get one completely random recipe.",
+    randomizerBtn: "Give me a recipe",
+    savedRecipesTitle: "Recipes for after shopping",
+    savedRecipesDesc: "The dishes whose ingredients you added",
+    clearRecipesBtn: "Clear",
+    confirmClearSavedRecipes: "Clear your saved recipe list?",
+    toastSavedRecipesCleared: "Recipe list cleared",
     recipeBookTitle: "The Recipe Book",
     recipeBookDesc: "Everything in here is worth cooking twice",
     recipeCategoryAll: "Everything",
@@ -169,6 +179,16 @@ const uiTranslations = {
     suggestedTitle: "Vanavond, mag ik voorstellen…",
     exploreTitle: "Blader er eens door",
     seeAll: "Alles bekijken",
+    randomPicksTitle: "Een paar willekeurige ideeën",
+    shuffleBtn: "Nieuwe ideeën",
+    randomizerTitle: "Verras me",
+    randomizerDesc: "Kies een soort en krijg een volledig willekeurig recept.",
+    randomizerBtn: "Geef me een recept",
+    savedRecipesTitle: "Recepten voor na het winkelen",
+    savedRecipesDesc: "De gerechten waarvan je de ingrediënten toevoegde",
+    clearRecipesBtn: "Wissen",
+    confirmClearSavedRecipes: "Je bewaarde receptenlijst wissen?",
+    toastSavedRecipesCleared: "Receptenlijst gewist",
     recipeBookTitle: "Het kookboek",
     recipeBookDesc: "Alles hierin is een tweede keer waard",
     recipeCategoryAll: "Alles",
@@ -323,6 +343,16 @@ const uiTranslations = {
     suggestedTitle: "Ce soir, je te propose…",
     exploreTitle: "Feuillette un peu",
     seeAll: "Tout voir",
+    randomPicksTitle: "Quelques idées au hasard",
+    shuffleBtn: "D'autres idées",
+    randomizerTitle: "Surprends-moi",
+    randomizerDesc: "Choisis un type et reçois une recette totalement aléatoire.",
+    randomizerBtn: "Donne-moi une recette",
+    savedRecipesTitle: "Recettes pour après les courses",
+    savedRecipesDesc: "Les plats dont tu as ajouté les ingrédients",
+    clearRecipesBtn: "Effacer",
+    confirmClearSavedRecipes: "Effacer ta liste de recettes sauvegardées ?",
+    toastSavedRecipesCleared: "Liste de recettes effacée",
     recipeBookTitle: "Le livre de recettes",
     recipeBookDesc: "Tout ici mérite d'être refait une deuxième fois",
     recipeCategoryAll: "Tout",
@@ -478,6 +508,7 @@ const STORAGE = {
   groceryList: 'belgian_grocery_list',
   skippedStaples: 'belgian_skipped_staples',
   selection: 'belgian_selected_recipes',
+  savedRecipes: 'belgian_saved_recipes',
   legacyRecipes: 'belgian_recipes',
   legacyDbVersion: 'belgian_db_version'
 };
@@ -546,6 +577,7 @@ let state = {
   groceryList: [],
   skippedStaples: [],
   selectedRecipes: [],
+  savedRecipes: [],
   selectedServings: {},
   batchPanelOpen: false,
   favorites: [],
@@ -562,6 +594,8 @@ let state = {
     diets: [],
     intolerances: []
   },
+  homeRecipes: [],
+  randomizerCategory: 'main',
   activeTab: 'home',
   selectedRecipe: null,
   recipeServings: 4,
@@ -753,7 +787,9 @@ function initApp() {
   state.favorites = readJson(STORAGE.favorites, []);
   state.groceryList = readJson(STORAGE.groceryList, []);
   state.skippedStaples = readJson(STORAGE.skippedStaples, []);
+  state.savedRecipes = readJson(STORAGE.savedRecipes, []).filter(id => state.recipes.some(r => r.id === id));
   loadSelection();
+  shuffleHomeRecipes();
 
   setupEventListeners();
   applyLanguage(state.settings.language);
@@ -883,6 +919,10 @@ function saveFavorites() {
   localStorage.setItem(STORAGE.favorites, JSON.stringify(state.favorites));
 }
 
+function saveSavedRecipes() {
+  localStorage.setItem(STORAGE.savedRecipes, JSON.stringify(state.savedRecipes));
+}
+
 // Ticking six recipes and then locking your phone used to lose the lot.
 function saveSelection() {
   localStorage.setItem(STORAGE.selection, JSON.stringify({
@@ -986,14 +1026,6 @@ function setupEventListeners() {
     langSelect.addEventListener('change', e => applyLanguage(e.target.value));
   }
 
-  const skipStaplesToggle = document.getElementById('skip-staples-toggle');
-  if (skipStaplesToggle) {
-    skipStaplesToggle.addEventListener('change', e => {
-      state.settings.skipStaples = e.target.checked;
-      saveSettings();
-    });
-  }
-
   const themeOptions = Array.from(document.querySelectorAll('[data-theme-choice]'));
   themeOptions.forEach((btn, i) => {
     btn.addEventListener('click', () => setTheme(btn.dataset.themeChoice));
@@ -1009,14 +1041,12 @@ function setupEventListeners() {
     });
   });
 
-  // Searching re-renders a whole grid, so wait for a pause in typing.
-  const homeSearch = document.getElementById('home-search');
-  if (homeSearch) {
-    homeSearch.addEventListener('input', debounce(e => {
-      state.filters.homeQuery = fold(e.target.value).trim();
-      renderHomeTab();
-    }, 150));
-  }
+  document.getElementById('refresh-home-recipes').addEventListener('click', () => {
+    shuffleHomeRecipes();
+    renderHomeTab();
+  });
+  document.getElementById('random-recipe-btn').addEventListener('click', openRandomRecipe);
+  document.getElementById('clear-saved-recipes').addEventListener('click', clearSavedRecipes);
 
   const recipeSearch = document.getElementById('recipe-search');
   if (recipeSearch) {
@@ -1287,55 +1317,81 @@ function matchesQuery(recipe, query) {
 }
 
 function renderHomeTab() {
-  const featuredContainer = document.getElementById('featured-recipe-container');
-  const featuredRecipe = state.recipes.find(r => r.id === 'carbonnade-flamande') || state.recipes[0];
-
-  if (featuredContainer && featuredRecipe) {
-    const isSelected = state.selectedRecipes.includes(featuredRecipe.id);
-    const trans = recipeText(featuredRecipe);
-
-    featuredContainer.innerHTML = `
-      <div class="featured-card ${isSelected ? 'selected-for-list' : ''}" data-id="${escapeHtml(featuredRecipe.id)}"
-           role="button" tabindex="0" aria-label="${escapeHtml(trans.title)}">
-        <div class="recipe-card-select-btn" data-id="${escapeHtml(featuredRecipe.id)}"
-             role="checkbox" tabindex="0" aria-checked="${isSelected}"
-             aria-label="${escapeHtml(t('selectForList'))}">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-        </div>
-        ${photoMarkup(featuredRecipe, trans.title, 'featured-img', false)}
-        <div class="featured-overlay">
-          <span class="featured-tag">${escapeHtml(t('suggestedTitle'))}</span>
-          <h3 class="featured-title">${escapeHtml(trans.title)}</h3>
-          <p class="featured-desc">${escapeHtml(trans.description)}</p>
-        </div>
-      </div>
-    `;
-
-    onActivate(featuredContainer.querySelector('.recipe-card-select-btn'), e => {
-      e.stopPropagation();
-      toggleRecipeSelection(featuredRecipe.id);
-    });
-    onActivate(featuredContainer.querySelector('.featured-card'), e => {
-      if (e.target && e.target.closest && e.target.closest('.recipe-card-select-btn')) return;
-      openRecipeDrawer(featuredRecipe.id);
-    });
-  }
-
   const homeGrid = document.getElementById('home-recipe-grid');
   if (!homeGrid) return;
-
-  const query = state.filters.homeQuery;
-  const filtered = state.recipes.filter(r => matchesQuery(r, query)).slice(0, 6);
-
-  if (filtered.length === 0) {
-    homeGrid.innerHTML = `<div class="grid-empty">${escapeHtml(t('noResultsFor', { query: query }))}</div>`;
-    return;
-  }
-
-  homeGrid.innerHTML = filtered.map(r => recipeCardHtml(r)).join('');
+  if (!state.homeRecipes.length) shuffleHomeRecipes();
+  const recipes = state.homeRecipes.map(id => state.recipes.find(r => r.id === id)).filter(Boolean);
+  homeGrid.innerHTML = recipes.map(r => recipeCardHtml(r)).join('');
   bindRecipeCards(homeGrid);
+
+  const categories = document.getElementById('randomizer-categories');
+  categories.innerHTML = RECIPE_CATEGORIES.filter(c => c !== 'all').map(cat => `
+    <button type="button" class="randomizer-pill ${cat === state.randomizerCategory ? 'active' : ''}" data-category="${cat}">
+      ${escapeHtml(t(RECIPE_CATEGORY_KEYS[cat]))}
+    </button>
+  `).join('');
+  categories.querySelectorAll('.randomizer-pill').forEach(button => {
+    button.addEventListener('click', () => {
+      state.randomizerCategory = button.dataset.category;
+      renderHomeTab();
+    });
+  });
+
+  renderSavedRecipes();
+}
+
+function randomIndex(length) {
+  if (length < 1) return -1;
+  if (window.crypto && window.crypto.getRandomValues) {
+    const max = Math.floor(0x100000000 / length) * length;
+    const value = new Uint32Array(1);
+    do { window.crypto.getRandomValues(value); } while (value[0] >= max);
+    return value[0] % length;
+  }
+  return Math.floor(Math.random() * length);
+}
+
+function shuffledRecipeIds(recipes, count) {
+  const pool = recipes.map(r => r.id);
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = randomIndex(i + 1);
+    const tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+  }
+  return pool.slice(0, count);
+}
+
+function shuffleHomeRecipes() {
+  state.homeRecipes = shuffledRecipeIds(state.recipes, 4);
+}
+
+function openRandomRecipe() {
+  const matches = state.recipes.filter(recipe => recipeCategories(recipe).includes(state.randomizerCategory));
+  const index = randomIndex(matches.length);
+  if (index >= 0) openRecipeDrawer(matches[index].id);
+}
+
+function renderSavedRecipes() {
+  const section = document.getElementById('saved-recipes-section');
+  const grid = document.getElementById('saved-recipe-grid');
+  const recipes = state.savedRecipes.map(id => state.recipes.find(r => r.id === id)).filter(Boolean);
+  section.hidden = recipes.length === 0;
+  grid.innerHTML = recipes.map(r => recipeCardHtml(r)).join('');
+  bindRecipeCards(grid);
+}
+
+function rememberRecipe(recipe) {
+  if (!state.savedRecipes.includes(recipe.id)) {
+    state.savedRecipes.unshift(recipe.id);
+    saveSavedRecipes();
+  }
+}
+
+function clearSavedRecipes() {
+  if (!state.savedRecipes.length || !confirm(t('confirmClearSavedRecipes'))) return;
+  state.savedRecipes = [];
+  saveSavedRecipes();
+  renderHomeTab();
+  showToast(t('toastSavedRecipesCleared'), 'info');
 }
 
 function renderRecipesList() {
@@ -1423,9 +1479,6 @@ function renderRecipeGrid() {
 function renderSettingsTab() {
   const langSelect = document.getElementById('language-select');
   if (langSelect) langSelect.value = state.settings.language;
-
-  const skipStaples = document.getElementById('skip-staples-toggle');
-  if (skipStaples) skipStaples.checked = state.settings.skipStaples;
 
   applyTheme();
 }
@@ -1555,12 +1608,6 @@ function addItemsToGroceryList(ingredients, sourceTitle) {
     const key = ing.key || Ing.keyOf(ingredientName(ing));
     const staple = typeof ing.staple === 'boolean' ? ing.staple : Ing.isStaple(ingredientName(ing), ing.category);
 
-    if (staple && state.settings.skipStaples) {
-      registerSkippedStaple(ing, key, sourceTitle);
-      skippedStaples++;
-      return;
-    }
-
     const existing = state.groceryList.find(item => item.key === key && item.unit === ing.unit);
 
     if (existing) {
@@ -1627,8 +1674,10 @@ function scaledIngredients(recipe, servings) {
 
 function addRecipeIngredientsToGroceryList(recipe, servings) {
   const result = addItemsToGroceryList(scaledIngredients(recipe, servings), recipeText(recipe).title);
+  rememberRecipe(recipe);
   showToast(t('toastAddedSingle'), 'success');
   closeRecipeDrawer();
+  if (state.activeTab === 'home') renderHomeTab();
   if (state.activeTab === 'grocery') renderGroceryList();
   return result;
 }
@@ -1640,6 +1689,7 @@ function convertSelectedRecipesToGroceryList() {
     const recipe = state.recipes.find(r => r.id === recipeId);
     if (!recipe) return;
     addItemsToGroceryList(scaledIngredients(recipe, servingsFor(recipeId)), recipeText(recipe).title);
+    rememberRecipe(recipe);
   });
 
   state.selectedRecipes = [];
@@ -1802,8 +1852,6 @@ function renderGroceryList() {
   const container = document.getElementById('grocery-list-container');
   if (!container) return;
 
-  renderSkippedStaples();
-
   if (state.groceryList.length === 0) {
     container.innerHTML = `
       <div class="list-empty">
@@ -1855,31 +1903,11 @@ function renderGroceryList() {
     });
   });
 
-  container.querySelectorAll('.item-delete-btn').forEach(btn => {
-    btn.addEventListener('click', e => deleteGroceryItem(e.currentTarget.dataset.id));
-  });
-
-  container.querySelectorAll('.item-qty.editable').forEach(el => {
-    // Sits inside .item-details, which ticks the item — don't do both.
-    el.addEventListener('click', e => {
-      e.stopPropagation();
-      beginQuantityEdit(e.currentTarget.dataset.id);
-    });
-    el.addEventListener('keydown', e => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        e.stopPropagation();
-        beginQuantityEdit(e.currentTarget.dataset.id);
-      }
-    });
-  });
-
   updateProgressHeader();
 }
 
 function groceryItemHtml(item) {
   const qty = formatQuantity(item.amount, item.unit);
-  const sources = (item.sources || []).filter(Boolean);
   return `
     <div class="grocery-item" data-id="${escapeHtml(item.id)}">
       <div class="checkbox-wrapper ${item.checked ? 'checked' : ''}">
@@ -1889,16 +1917,8 @@ function groceryItemHtml(item) {
       </div>
       <div class="item-details ${item.checked ? 'checked' : ''}">
         <span class="item-name">${escapeHtml(item.name)}</span>
-        <span class="item-qty editable" data-id="${escapeHtml(item.id)}" role="button" tabindex="0"
-              title="${escapeHtml(t('editQuantityHint'))}">${escapeHtml(qty || t('addQuantity'))}</span>
-        ${sources.length ? `<span class="item-source">${escapeHtml(t('fromRecipes'))} ${escapeHtml(sources.join(', '))}</span>` : ''}
+        ${qty ? `<span class="item-qty">${escapeHtml(qty)}</span>` : ''}
       </div>
-      <button class="item-delete-btn" data-id="${escapeHtml(item.id)}" aria-label="delete">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="3 6 5 6 21 6"></polyline>
-          <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-        </svg>
-      </button>
     </div>
   `;
 }
@@ -2044,32 +2064,17 @@ function deleteGroceryItem(id) {
 function handleAddCustomGroceryItem(e) {
   e.preventDefault();
   const input = document.getElementById('new-grocery-item-input');
-  const qtyInput = document.getElementById('new-grocery-item-qty');
-  const catSelect = document.getElementById('new-grocery-item-cat');
 
   if (!input.value.trim()) return;
 
   let name = input.value.trim();
-  const qtyText = qtyInput ? qtyInput.value.trim() : '';
   let amount = null;
   let unit = '';
-
-  if (qtyText) {
-    const match = qtyText.match(/^(\d+(?:[.,]\d+)?)\s*(.*)$/);
-    if (match) {
-      amount = parseFloat(match[1].replace(',', '.'));
-      unit = match[2] || 'st.';
-    } else {
-      unit = qtyText;
-    }
-  } else {
-    // Fall back to parsing an amount out of the name itself ("500g witloof").
-    const match = name.match(/^(\d+(?:[.,]\d+)?)\s*([a-z.]+)?\s+(.+)$/i);
-    if (match) {
-      amount = parseFloat(match[1].replace(',', '.'));
-      unit = match[2] || 'st.';
-      name = match[3];
-    }
+  const match = name.match(/^(\d+(?:[.,]\d+)?)\s*([a-z.]+)?\s+(.+)$/i);
+  if (match) {
+    amount = parseFloat(match[1].replace(',', '.'));
+    unit = match[2] || 'st.';
+    name = match[3];
   }
 
   // No quantity given at all: leave it blank rather than inventing "to taste".
@@ -2083,7 +2088,7 @@ function handleAddCustomGroceryItem(e) {
     name: name,
     amount: normalized.amount,
     unit: normalized.unit,
-    category: catSelect.value,
+    category: window.Ingredients.aisleFor(name),
     staple: false,
     sources: [],
     checked: false
@@ -2093,7 +2098,6 @@ function handleAddCustomGroceryItem(e) {
   renderGroceryList();
 
   input.value = '';
-  if (qtyInput) qtyInput.value = '';
   showToast(t('toastItemAdded', { name: name }), 'success');
 }
 
@@ -2200,7 +2204,8 @@ function buildBackup() {
     skippedStaples: state.skippedStaples,
     favorites: state.favorites,
     selectedRecipes: state.selectedRecipes,
-    selectedServings: state.selectedServings
+    selectedServings: state.selectedServings,
+    savedRecipes: state.savedRecipes
   };
 }
 
@@ -2238,6 +2243,7 @@ function applyBackup(data) {
   state.favorites = Array.isArray(data.favorites) ? data.favorites : [];
   state.selectedRecipes = Array.isArray(data.selectedRecipes) ? data.selectedRecipes : [];
   state.selectedServings = (data.selectedServings && typeof data.selectedServings === 'object') ? data.selectedServings : {};
+  state.savedRecipes = Array.isArray(data.savedRecipes) ? data.savedRecipes : [];
   if (data.settings && typeof data.settings === 'object') {
     state.settings = Object.assign({}, state.settings, data.settings);
   }
@@ -2246,6 +2252,7 @@ function applyBackup(data) {
   saveGroceryList();
   saveFavorites();
   saveSelection();
+  saveSavedRecipes();
   saveSettings();
   return true;
 }
@@ -2348,10 +2355,12 @@ function deleteSelectedRecipe() {
   state.userRecipes = state.userRecipes.filter(r => r.id !== id);
   state.favorites = state.favorites.filter(f => f !== id);
   state.selectedRecipes = state.selectedRecipes.filter(s => s !== id);
+  state.savedRecipes = state.savedRecipes.filter(s => s !== id);
   delete state.selectedServings[id];
   saveUserRecipes();
   saveFavorites();
   saveSelection();
+  saveSavedRecipes();
 
   closeRecipeDrawer();
   showToast(t('toastRecipeDeleted'), 'info');

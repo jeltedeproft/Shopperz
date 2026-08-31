@@ -917,6 +917,63 @@ header::after {
   row-gap: var(--sp-6);
 }
 
+.randomizer-card {
+  margin-top: var(--sp-7);
+  padding: var(--sp-5);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+
+.randomizer-card > p,
+.section-caption {
+  margin-top: var(--sp-1);
+  color: var(--ink-dim);
+  font-size: var(--t-xs);
+}
+
+.randomizer-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: var(--sp-4) 0;
+}
+
+.randomizer-pill {
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  background: var(--surface-1);
+  color: var(--ink-dim);
+  cursor: pointer;
+}
+
+.randomizer-pill.active {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.random-recipe-btn {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  border-radius: var(--r-sm);
+  background: var(--accent);
+  color: var(--on-accent);
+  font: 700 var(--t-sm) var(--font-body);
+  cursor: pointer;
+}
+
+.saved-recipes-section {
+  margin-top: var(--sp-7);
+}
+
+.section-link-danger {
+  color: var(--berry);
+}
+
 .recipe-grid-tab {
   margin-top: var(--sp-1);
   padding-bottom: 84px;

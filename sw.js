@@ -7,7 +7,7 @@
  */
 // Must match the ?v= query strings in index.html exactly, or the precached
 // URLs never match what the page actually requests.
-const ASSET_VERSION = '24';
+const ASSET_VERSION = '25';
 const SHELL_CACHE = `kookpot-shell-${ASSET_VERSION}`;
 const IMAGE_CACHE = 'kookpot-images';
 

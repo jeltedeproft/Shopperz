@@ -42,8 +42,8 @@
   -->
   <link rel="preload" href="fonts/archivo-black-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/work-sans-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="fonts/fonts.css?v=24">
-  <link rel="stylesheet" href="style.css?v=24">
+  <link rel="stylesheet" href="fonts/fonts.css?v=25">
+  <link rel="stylesheet" href="style.css?v=25">
 </head>
 <body>
 
@@ -79,27 +79,31 @@
           </div>
         </header>
 
-        <!-- Search Bar -->
-        <div class="search-container">
-          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-          <input type="text" id="home-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="What do you feel like cooking?">
-        </div>
-
-        <!-- Featured Suggestion -->
+        <!-- Fresh random suggestions on every app visit -->
         <div class="section-header">
-          <h2 class="section-title" data-translate="suggestedTitle">Tonight, may I suggest…</h2>
-        </div>
-        <div id="featured-recipe-container"></div>
-
-        <!-- Explore Recipes Section -->
-        <div class="section-header section-header-spaced">
-          <h2 class="section-title" data-translate="exploreTitle">Have a look through</h2>
-          <button type="button" class="section-link" data-translate="seeAll" onclick="switchTab('recipes')">See all</button>
+          <h2 class="section-title" data-translate="randomPicksTitle">A few ideas</h2>
+          <button type="button" id="refresh-home-recipes" class="section-link" data-translate="shuffleBtn">New ideas</button>
         </div>
         <div class="recipe-grid" id="home-recipe-grid"></div>
+
+        <!-- Category randomizer -->
+        <section class="randomizer-card" aria-labelledby="randomizer-title">
+          <h2 id="randomizer-title" class="section-title" data-translate="randomizerTitle">Surprise me</h2>
+          <p data-translate="randomizerDesc">Pick a moment and get one completely random recipe.</p>
+          <div id="randomizer-categories" class="randomizer-categories"></div>
+          <button type="button" id="random-recipe-btn" class="random-recipe-btn" data-translate="randomizerBtn">Give me a recipe</button>
+        </section>
+
+        <section id="saved-recipes-section" class="saved-recipes-section" hidden>
+          <div class="section-header">
+            <div>
+              <h2 class="section-title" data-translate="savedRecipesTitle">Recipes for after shopping</h2>
+              <p class="section-caption" data-translate="savedRecipesDesc">The dishes whose ingredients you added</p>
+            </div>
+            <button type="button" id="clear-saved-recipes" class="section-link section-link-danger" data-translate="clearRecipesBtn">Clear</button>
+          </div>
+          <div class="recipe-grid" id="saved-recipe-grid"></div>
+        </section>
       </section>
 
       <!-- ================= RECIPES TAB ================= -->
@@ -227,25 +231,9 @@
             </div>
           </div>
 
-          <!-- Progress Bar Box -->
-          <div id="grocery-progress-box" class="progress-container">
-            <div class="progress-header">
-              <span id="grocery-progress-text">0 of 0 items checked</span>
-              <span>🔋 Checklist</span>
-            </div>
-            <div class="progress-bar-bg" role="progressbar" id="grocery-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-              <div id="grocery-progress-fill" class="progress-bar-fill"></div>
-            </div>
-          </div>
-
-          <!-- Pantry staples that were left out of the list -->
-          <div id="skipped-staples-box" class="staples-box" style="display: none;"></div>
-
           <!-- Add custom item form -->
           <form id="add-grocery-item-form" class="add-item-form">
             <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="Something else? Witloof, say…">
-            <input type="text" id="new-grocery-item-qty" class="add-item-qty-input" data-translate-placeholder="qtyPlaceholder" placeholder="How much? (500g, 2…)">
-            <select id="new-grocery-item-cat" class="add-item-cat"></select>
             <button type="submit" class="add-item-btn" aria-label="Add item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -304,21 +292,6 @@
                 <span data-translate="themeDark">Always dark</span>
               </button>
             </div>
-          </div>
-        </div>
-
-        <!-- Shopping preferences -->
-        <div class="settings-group">
-          <div class="settings-group-title" data-translate="shoppingGroupTitle">At the shop</div>
-          <div class="settings-row">
-            <div>
-              <div class="settings-label" data-translate="skipStaplesLabel">Leave out the cupboard basics</div>
-              <div class="settings-desc" data-translate="skipStaplesDesc">You've salt, pepper and oil at home — no sense writing them down</div>
-            </div>
-            <label class="switch">
-              <input type="checkbox" id="skip-staples-toggle" checked>
-              <span class="switch-slider"></span>
-            </label>
           </div>
         </div>
 
@@ -670,9 +643,9 @@
 
   </div>
 
-  <script src="ingredients.js?v=24"></script>
-  <script src="recipes.js?v=24"></script>
-  <script src="app.js?v=24"></script>
+  <script src="ingredients.js?v=25"></script>
+  <script src="recipes.js?v=25"></script>
+  <script src="app.js?v=25"></script>
   <script>
     // Live update of the simulated phone status bar clock
     function updateClock() {
