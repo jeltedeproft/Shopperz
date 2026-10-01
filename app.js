@@ -7,24 +7,71 @@ const uiTranslations = {
   en: {
     appTitle: "Mijn Kookpot",
     appSubtitle: "Belgian home cooking, and the shopping to go with it",
-    discover: "Today",
+    weekTab: "Week",
     recipes: "Recipes",
     checklist: "Shopping",
     settings: "Settings",
     searchPlaceholder: "What do you feel like cooking?",
-    suggestedTitle: "Tonight, may I suggest…",
-    exploreTitle: "Have a look through",
-    seeAll: "See all",
-    randomPicksTitle: "A few random ideas",
-    shuffleBtn: "New ideas",
-    randomizerTitle: "Surprise me",
-    randomizerDesc: "Choose a type and get one completely random recipe.",
-    randomizerBtn: "Give me a recipe",
-    savedRecipesTitle: "Recipes for after shopping",
-    savedRecipesDesc: "The dishes whose ingredients you added",
-    clearRecipesBtn: "Clear",
-    confirmClearSavedRecipes: "Clear your saved recipe list?",
-    toastSavedRecipesCleared: "Recipe list cleared",
+    // The week
+    weekdays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    weekdaysShort: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    weekTitle: "This week",
+    todayLabel: "Today",
+    weekSummary: "{planned} of 7 days planned",
+    weekSummaryNone: "Nothing planned yet — start with any day",
+    fillWeekBtn: "🎲 Fill the empty days",
+    toastWeekFilled: "{count} days filled — swap any you don't fancy",
+    toastWeekFull: "Every day from today on already has a dish",
+    toastNothingFits: "Nothing in the book fits your table's allergies and diet, I'm afraid",
+    clearWeekBtn: "Clear the week",
+    confirmClearWeek: "Take every dish off this week?",
+    toastWeekCleared: "A clean week",
+    staleWeekText: "This is still last week's menu.",
+    staleWeekFresh: "Start a fresh week",
+    staleWeekKeep: "Keep these dishes",
+    pickDishBtn: "+ Choose a dish",
+    surpriseDayBtn: "Surprise me",
+    addAnotherBtn: "+ Another dish",
+    removeMeal: "Take {name} off {day}",
+    mealServings: "Plates",
+    pickingFor: "Choosing a dish for {day} — tap + on the one you want",
+    toastPlanned: "{name} — on {day}",
+    toastUnplanned: "Taken off {day}",
+    toastPlannedCareful: "{name} — on {day}. Careful: it has {list}",
+    planOnLabel: "Cook it on…",
+    planStatusOn: "On {days}",
+    planStatusNone: "Not on the week yet — tap a day",
+    addToWeek: "Put {name} on the week",
+    plannedFor: "On {day} — tap to see it",
+    toListBtn: "Shopping list · {count} to buy",
+    toListEmpty: "Shopping list",
+    // The household
+    tableGroupTitle: "At your table",
+    householdLabel: "How many of you eat?",
+    householdDesc: "Every dish you plan starts at this many plates",
+    avoidLabel: "Keep off the plate",
+    avoidDesc: "Dishes with these are left out of the book and the suggestions, and flagged if you look anyway",
+    dietDesc: "Only show dishes that fit",
+    profilePromptTitle: "Before we start: does anyone at your table avoid something?",
+    profilePromptDesc: "Tap what to keep off the plate. I'll leave those dishes out everywhere — you can change it later in Settings.",
+    profilePromptDone: "That's everyone",
+    profileStrip: "Leaving out: {list}",
+    profileStripNone: "No allergies set — tap to add some",
+    allergenGluten: "Gluten",
+    allergenNuts: "Nuts",
+    allergenDairy: "Milk",
+    allergenEggs: "Eggs",
+    allergenFish: "Fish & shellfish",
+    allergenSoy: "Soy",
+    allergenSesame: "Sesame",
+    allergenCelery: "Celery",
+    allergenMustard: "Mustard",
+    safetyHidden: "{count} dishes left out for your table ({list})",
+    safetyShowAnyway: "Show them anyway",
+    safetyHideAgain: "Hide them again",
+    containsLabel: "Contains {list}",
+    containsNone: "None of the common allergens, as far as I can tell",
+    allergyWarning: "Careful — this has {list}, and someone at your table avoids that.",
     recipeBookTitle: "The Recipe Book",
     recipeBookDesc: "Everything in here is worth cooking twice",
     recipeCategoryAll: "Everything",
@@ -40,9 +87,15 @@ const uiTranslations = {
     checklistTitle: "The shopping list",
     checklistDesc: "In the order you walk the shop, so you never double back",
     clearCheckedBtn: "Clear the ticked",
-    customItemPlaceholder: "Something else? Witloof, say…",
+    groceryFromWeek: "For {count} dishes this week, in the order you walk the shop",
+    customItemPlaceholder: "Something else? 2 witloof, say…",
     emptyListHeader: "Nothing on the list yet",
-    emptyListDesc: "Pick a few dishes, or just jot something down yourself",
+    emptyListDesc: "Put a few dinners on the week and everything they need lands here",
+    planWeekBtn: "Plan my week",
+    cupboardGroup: "🏠 Probably at home already",
+    cupboardHint: "Only buy these if you've run out",
+    progressText: "{checked} of {total} in the basket",
+    removeItem: "Take {name} off the list",
     prefTitle: "Settings",
     prefDesc: "Set things up the way you like them",
     langGroupTitle: "Language",
@@ -60,17 +113,8 @@ const uiTranslations = {
     diffLabel: "How tricky",
     servingsLabel: "How many at the table?",
     servingsDesc: "Everything below adjusts itself",
-    addIngredientsBtn: "Put this on my shopping list",
     instructionsTitle: "How it's done",
     ingredientsTitle: "What you'll need",
-    toastDeselected: "Taken off the plan",
-    toastSelected: "Added to the plan",
-    toastAddedSingle: "On your list — happy shopping!",
-    toastAddedBatch: "There you go, one list for the lot",
-    batchSelectedText: "{count} dishes planned",
-    batchGenerateBtn: "Make my list",
-    selectForList: "Plan this one for the shopping list",
-    batchServingsTitle: "How many are you feeding?",
     difficultyEasy: "Easy",
     difficultyMedium: "A bit of work",
     difficultyHard: "Takes patience",
@@ -171,24 +215,71 @@ const uiTranslations = {
   nl: {
     appTitle: "Mijn Kookpot",
     appSubtitle: "Belgisch thuiskoken, met de boodschappen erbij",
-    discover: "Vandaag",
+    weekTab: "Week",
     recipes: "Recepten",
     checklist: "Boodschappen",
     settings: "Instellingen",
     searchPlaceholder: "Waar heb je zin in?",
-    suggestedTitle: "Vanavond, mag ik voorstellen…",
-    exploreTitle: "Blader er eens door",
-    seeAll: "Alles bekijken",
-    randomPicksTitle: "Een paar willekeurige ideeën",
-    shuffleBtn: "Nieuwe ideeën",
-    randomizerTitle: "Verras me",
-    randomizerDesc: "Kies een soort en krijg een volledig willekeurig recept.",
-    randomizerBtn: "Geef me een recept",
-    savedRecipesTitle: "Recepten voor na het winkelen",
-    savedRecipesDesc: "De gerechten waarvan je de ingrediënten toevoegde",
-    clearRecipesBtn: "Wissen",
-    confirmClearSavedRecipes: "Je bewaarde receptenlijst wissen?",
-    toastSavedRecipesCleared: "Receptenlijst gewist",
+    // De week
+    weekdays: ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"],
+    weekdaysShort: ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"],
+    weekTitle: "Deze week",
+    todayLabel: "Vandaag",
+    weekSummary: "{planned} van de 7 dagen gepland",
+    weekSummaryNone: "Nog niets gepland — begin met eender welke dag",
+    fillWeekBtn: "🎲 Vul de lege dagen",
+    toastWeekFilled: "{count} dagen gevuld — wissel gerust wat je niet ziet zitten",
+    toastWeekFull: "Elke dag vanaf vandaag heeft al een gerecht",
+    toastNothingFits: "Niets in het boek past bij de allergieën en het dieet van je tafel, vrees ik",
+    clearWeekBtn: "Week leegmaken",
+    confirmClearWeek: "Alle gerechten van deze week halen?",
+    toastWeekCleared: "Een propere week",
+    staleWeekText: "Dit is nog het menu van vorige week.",
+    staleWeekFresh: "Begin een nieuwe week",
+    staleWeekKeep: "Deze gerechten houden",
+    pickDishBtn: "+ Kies een gerecht",
+    surpriseDayBtn: "Verras me",
+    addAnotherBtn: "+ Nog een gerecht",
+    removeMeal: "{name} van {day} halen",
+    mealServings: "Borden",
+    pickingFor: "Je kiest een gerecht voor {day} — tik op + bij het gerecht dat je wil",
+    toastPlanned: "{name} — op {day}",
+    toastUnplanned: "Van {day} gehaald",
+    toastPlannedCareful: "{name} — op {day}. Opgelet: er zit {list} in",
+    planOnLabel: "Klaarmaken op…",
+    planStatusOn: "Op {days}",
+    planStatusNone: "Nog niet ingepland — tik op een dag",
+    addToWeek: "{name} op de week zetten",
+    plannedFor: "Op {day} — tik om te bekijken",
+    toListBtn: "Boodschappenlijstje · {count} te kopen",
+    toListEmpty: "Boodschappenlijstje",
+    // Het gezin
+    tableGroupTitle: "Aan jouw tafel",
+    householdLabel: "Met hoeveel eten jullie?",
+    householdDesc: "Elk gerecht dat je plant begint met zoveel borden",
+    avoidLabel: "Niet op het bord",
+    avoidDesc: "Gerechten hiermee blijven uit het boek en de suggesties, en krijgen een waarschuwing als je toch kijkt",
+    dietDesc: "Toon alleen gerechten die passen",
+    profilePromptTitle: "Eerst even: moet iemand aan je tafel iets vermijden?",
+    profilePromptDesc: "Tik aan wat niet op het bord mag. Ik laat die gerechten overal weg — je kan het later nog aanpassen bij Instellingen.",
+    profilePromptDone: "Dat is iedereen",
+    profileStrip: "Weggelaten: {list}",
+    profileStripNone: "Geen allergieën ingesteld — tik om toe te voegen",
+    allergenGluten: "Gluten",
+    allergenNuts: "Noten",
+    allergenDairy: "Melk",
+    allergenEggs: "Eieren",
+    allergenFish: "Vis & schaaldieren",
+    allergenSoy: "Soja",
+    allergenSesame: "Sesam",
+    allergenCelery: "Selder",
+    allergenMustard: "Mosterd",
+    safetyHidden: "{count} gerechten weggelaten voor je tafel ({list})",
+    safetyShowAnyway: "Toch tonen",
+    safetyHideAgain: "Weer verbergen",
+    containsLabel: "Bevat {list}",
+    containsNone: "Geen van de gekende allergenen, voor zover ik zie",
+    allergyWarning: "Opgelet — hier zit {list} in, en iemand aan je tafel vermijdt dat.",
     recipeBookTitle: "Het kookboek",
     recipeBookDesc: "Alles hierin is een tweede keer waard",
     recipeCategoryAll: "Alles",
@@ -204,9 +295,15 @@ const uiTranslations = {
     checklistTitle: "Het boodschappenlijstje",
     checklistDesc: "In de volgorde dat je door de winkel loopt, zo moet je nooit terug",
     clearCheckedBtn: "Wis het afgevinkte",
-    customItemPlaceholder: "Nog iets? Witloof bijvoorbeeld…",
+    groceryFromWeek: "Voor {count} gerechten deze week, in de volgorde van de winkel",
+    customItemPlaceholder: "Nog iets? 2 witloof bijvoorbeeld…",
     emptyListHeader: "Nog niets op het lijstje",
-    emptyListDesc: "Kies een paar gerechten, of schrijf gewoon zelf iets op",
+    emptyListDesc: "Zet een paar avondmalen op de week en alles wat ze nodig hebben komt hier",
+    planWeekBtn: "Plan mijn week",
+    cupboardGroup: "🏠 Heb je waarschijnlijk al",
+    cupboardHint: "Koop deze alleen als ze op zijn",
+    progressText: "{checked} van {total} in de kar",
+    removeItem: "{name} van het lijstje halen",
     prefTitle: "Instellingen",
     prefDesc: "Zet alles zoals jij het graag hebt",
     langGroupTitle: "Taal",
@@ -224,17 +321,8 @@ const uiTranslations = {
     diffLabel: "Hoe lastig",
     servingsLabel: "Met hoeveel aan tafel?",
     servingsDesc: "Alles hieronder past zich vanzelf aan",
-    addIngredientsBtn: "Zet dit op mijn lijstje",
     instructionsTitle: "Zo doe je het",
     ingredientsTitle: "Wat je nodig hebt",
-    toastDeselected: "Van het plan gehaald",
-    toastSelected: "Bij het plan gezet",
-    toastAddedSingle: "Staat op je lijstje — veel plezier in de winkel!",
-    toastAddedBatch: "Alsjeblieft, één lijstje voor alles samen",
-    batchSelectedText: "{count} gerechten gepland",
-    batchGenerateBtn: "Maak mijn lijstje",
-    selectForList: "Dit gerecht mee op het lijstje",
-    batchServingsTitle: "Voor hoeveel man kook je?",
     difficultyEasy: "Makkelijk",
     difficultyMedium: "Iets van werk",
     difficultyHard: "Wat geduld",
@@ -335,24 +423,71 @@ const uiTranslations = {
   fr: {
     appTitle: "Mijn Kookpot",
     appSubtitle: "La cuisine belge de la maison, et les courses qui vont avec",
-    discover: "Aujourd'hui",
+    weekTab: "Semaine",
     recipes: "Recettes",
     checklist: "Courses",
     settings: "Réglages",
     searchPlaceholder: "Tu as envie de quoi ?",
-    suggestedTitle: "Ce soir, je te propose…",
-    exploreTitle: "Feuillette un peu",
-    seeAll: "Tout voir",
-    randomPicksTitle: "Quelques idées au hasard",
-    shuffleBtn: "D'autres idées",
-    randomizerTitle: "Surprends-moi",
-    randomizerDesc: "Choisis un type et reçois une recette totalement aléatoire.",
-    randomizerBtn: "Donne-moi une recette",
-    savedRecipesTitle: "Recettes pour après les courses",
-    savedRecipesDesc: "Les plats dont tu as ajouté les ingrédients",
-    clearRecipesBtn: "Effacer",
-    confirmClearSavedRecipes: "Effacer ta liste de recettes sauvegardées ?",
-    toastSavedRecipesCleared: "Liste de recettes effacée",
+    // La semaine
+    weekdays: ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    weekdaysShort: ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"],
+    weekTitle: "Cette semaine",
+    todayLabel: "Aujourd'hui",
+    weekSummary: "{planned} jours sur 7 au menu",
+    weekSummaryNone: "Rien au menu pour l'instant — commence par n'importe quel jour",
+    fillWeekBtn: "🎲 Remplir les jours vides",
+    toastWeekFilled: "{count} jours remplis — change ceux qui ne te disent rien",
+    toastWeekFull: "Chaque jour à partir d'aujourd'hui a déjà un plat",
+    toastNothingFits: "Rien dans le livre ne convient aux allergies et au régime de ta table, j'en ai peur",
+    clearWeekBtn: "Vider la semaine",
+    confirmClearWeek: "Retirer tous les plats de cette semaine ?",
+    toastWeekCleared: "Une semaine toute propre",
+    staleWeekText: "C'est encore le menu de la semaine passée.",
+    staleWeekFresh: "Commencer une nouvelle semaine",
+    staleWeekKeep: "Garder ces plats",
+    pickDishBtn: "+ Choisir un plat",
+    surpriseDayBtn: "Surprends-moi",
+    addAnotherBtn: "+ Un autre plat",
+    removeMeal: "Retirer {name} du {day}",
+    mealServings: "Assiettes",
+    pickingFor: "Tu choisis un plat pour {day} — touche le + de celui que tu veux",
+    toastPlanned: "{name} — le {day}",
+    toastUnplanned: "Retiré du {day}",
+    toastPlannedCareful: "{name} — le {day}. Attention : il y a {list}",
+    planOnLabel: "À cuisiner le…",
+    planStatusOn: "Le {days}",
+    planStatusNone: "Pas encore au menu — touche un jour",
+    addToWeek: "Mettre {name} au menu",
+    plannedFor: "Le {day} — touche pour voir",
+    toListBtn: "Liste de courses · {count} à acheter",
+    toListEmpty: "Liste de courses",
+    // La maisonnée
+    tableGroupTitle: "À ta table",
+    householdLabel: "Vous êtes combien à manger ?",
+    householdDesc: "Chaque plat que tu prévois commence avec autant d'assiettes",
+    avoidLabel: "Pas dans l'assiette",
+    avoidDesc: "Les plats qui en contiennent restent hors du livre et des suggestions, et sont signalés si tu regardes quand même",
+    dietDesc: "Ne montrer que les plats qui conviennent",
+    profilePromptTitle: "Avant de commencer : quelqu'un à ta table doit-il éviter quelque chose ?",
+    profilePromptDesc: "Touche ce qui ne doit pas finir dans l'assiette. Je laisse ces plats de côté partout — tu pourras changer ça plus tard dans les Réglages.",
+    profilePromptDone: "C'est tout le monde",
+    profileStrip: "Laissé de côté : {list}",
+    profileStripNone: "Aucune allergie indiquée — touche pour en ajouter",
+    allergenGluten: "Gluten",
+    allergenNuts: "Fruits à coque",
+    allergenDairy: "Lait",
+    allergenEggs: "Œufs",
+    allergenFish: "Poisson & crustacés",
+    allergenSoy: "Soja",
+    allergenSesame: "Sésame",
+    allergenCelery: "Céleri",
+    allergenMustard: "Moutarde",
+    safetyHidden: "{count} plats laissés de côté pour ta table ({list})",
+    safetyShowAnyway: "Les montrer quand même",
+    safetyHideAgain: "Les cacher à nouveau",
+    containsLabel: "Contient : {list}",
+    containsNone: "Aucun des allergènes courants, pour autant que je sache",
+    allergyWarning: "Attention — il y a {list}, et quelqu'un à ta table l'évite.",
     recipeBookTitle: "Le livre de recettes",
     recipeBookDesc: "Tout ici mérite d'être refait une deuxième fois",
     recipeCategoryAll: "Tout",
@@ -368,9 +503,15 @@ const uiTranslations = {
     checklistTitle: "La liste de courses",
     checklistDesc: "Dans l'ordre où tu traverses le magasin, tu ne reviens jamais sur tes pas",
     clearCheckedBtn: "Effacer les cochés",
-    customItemPlaceholder: "Autre chose ? Des chicons, tiens…",
+    groceryFromWeek: "Pour {count} plats cette semaine, dans l'ordre du magasin",
+    customItemPlaceholder: "Autre chose ? 2 chicons, tiens…",
     emptyListHeader: "Rien sur la liste pour l'instant",
-    emptyListDesc: "Choisis quelques plats, ou note simplement quelque chose toi-même",
+    emptyListDesc: "Mets quelques dîners au menu de la semaine et tout ce qu'il leur faut arrive ici",
+    planWeekBtn: "Planifier ma semaine",
+    cupboardGroup: "🏠 Sans doute déjà à la maison",
+    cupboardHint: "À n'acheter que s'il n'y en a plus",
+    progressText: "{checked} sur {total} dans le panier",
+    removeItem: "Retirer {name} de la liste",
     prefTitle: "Réglages",
     prefDesc: "Arrange tout comme tu l'aimes",
     langGroupTitle: "Langue",
@@ -388,17 +529,8 @@ const uiTranslations = {
     diffLabel: "Difficulté",
     servingsLabel: "Vous êtes combien à table ?",
     servingsDesc: "Tout se recalcule en dessous",
-    addIngredientsBtn: "Mets ça sur ma liste",
     instructionsTitle: "Comment on fait",
     ingredientsTitle: "Ce qu'il te faut",
-    toastDeselected: "Retiré du menu",
-    toastSelected: "Ajouté au menu",
-    toastAddedSingle: "C'est sur ta liste — bonnes courses !",
-    toastAddedBatch: "Voilà, une seule liste pour le tout",
-    batchSelectedText: "{count} plats au menu",
-    batchGenerateBtn: "Fais ma liste",
-    selectForList: "Mettre ce plat au menu",
-    batchServingsTitle: "Tu nourris combien de personnes ?",
     difficultyEasy: "Facile",
     difficultyMedium: "Un peu de travail",
     difficultyHard: "De la patience",
@@ -506,12 +638,42 @@ const STORAGE = {
   userRecipes: 'belgian_user_recipes',
   favorites: 'belgian_favorites',
   groceryList: 'belgian_grocery_list',
-  skippedStaples: 'belgian_skipped_staples',
-  selection: 'belgian_selected_recipes',
-  savedRecipes: 'belgian_saved_recipes',
+  weekPlan: 'belgian_week_plan',
+  checkedLines: 'belgian_checked_lines',
+  // Superseded by the week plan; read once to migrate, then removed.
+  legacySelection: 'belgian_selected_recipes',
+  legacySavedRecipes: 'belgian_saved_recipes',
+  legacySkippedStaples: 'belgian_skipped_staples',
   legacyRecipes: 'belgian_recipes',
   legacyDbVersion: 'belgian_db_version'
 };
+
+/*
+ * The allergens a household can keep off the plate. Ids are the group names
+ * ingredients.js detects; the list follows the EU's fourteen declared
+ * allergens, minus the ones this book's ingredient names cannot tell apart
+ * (sulphites, lupin, molluscs — the last is folded into fish).
+ */
+const ALLERGENS = [
+  { id: 'gluten', key: 'allergenGluten' },
+  { id: 'nuts', key: 'allergenNuts' },
+  { id: 'dairy', key: 'allergenDairy' },
+  { id: 'eggs', key: 'allergenEggs' },
+  { id: 'fish', key: 'allergenFish' },
+  { id: 'soy', key: 'allergenSoy' },
+  { id: 'sesame', key: 'allergenSesame' },
+  { id: 'celery', key: 'allergenCelery' },
+  { id: 'mustard', key: 'allergenMustard' }
+];
+
+const DIETS = [
+  { id: 'vegetarian', key: 'dietVegetarian', flag: 'isVegetarian' },
+  { id: 'vegan', key: 'dietVegan', flag: 'isVegan' },
+  { id: 'keto', key: 'dietKeto', flag: 'isKeto' },
+  { id: 'candida', key: 'dietCandida', flag: 'isCandidaFriendly' }
+];
+
+const DAYS_IN_WEEK = 7;
 
 // Aisle -> translation key. Aisle order comes from ingredients.js.
 const AISLE_LABEL_KEYS = {
@@ -574,29 +736,26 @@ let state = {
   builtInRecipes: [],
   userRecipes: [],
   recipes: [],
-  groceryList: [],
-  skippedStaples: [],
-  selectedRecipes: [],
-  savedRecipes: [],
-  selectedServings: {},
-  batchPanelOpen: false,
+  groceryList: [],      // things you added by hand; the rest comes from the week
+  checkedLines: [],     // ticked lines that come from the week, by line id
+  weekPlan: { weekStart: '', meals: [] },
+  pickingDay: null,     // set while choosing a dish for one day of the week
   favorites: [],
   settings: {
     language: 'en',
-    skipStaples: true,
-    theme: 'system'
+    theme: 'system',
+    householdSize: 4,
+    avoid: [],          // allergen ids nobody at the table may eat
+    diets: [],          // diet ids every dish must fit
+    profileAsked: false
   },
   filters: {
-    homeQuery: '',
     query: '',
     category: 'all',
     favoritesOnly: false,
-    diets: [],
-    intolerances: []
+    showUnsafe: false   // deliberately not saved: hiding is the safe default
   },
-  homeRecipes: [],
-  randomizerCategory: 'main',
-  activeTab: 'home',
+  activeTab: 'week',
   selectedRecipe: null,
   recipeServings: 4,
   customRecipeIngredients: [],
@@ -786,10 +945,9 @@ function initApp() {
 
   state.favorites = readJson(STORAGE.favorites, []);
   state.groceryList = readJson(STORAGE.groceryList, []);
-  state.skippedStaples = readJson(STORAGE.skippedStaples, []);
-  state.savedRecipes = readJson(STORAGE.savedRecipes, []).filter(id => state.recipes.some(r => r.id === id));
-  loadSelection();
-  shuffleHomeRecipes();
+  state.checkedLines = readJson(STORAGE.checkedLines, []);
+  loadWeekPlan();
+  state.pickingDay = null;
 
   setupEventListeners();
   applyLanguage(state.settings.language);
@@ -816,9 +974,21 @@ function loadSettings() {
     state.settings.language = ['en', 'nl', 'fr'].includes(sysLang) ? sysLang : 'en';
   }
   if (!uiTranslations[state.settings.language]) state.settings.language = 'en';
-  if (typeof state.settings.skipStaples !== 'boolean') state.settings.skipStaples = true;
   if (THEME_CHOICES.indexOf(state.settings.theme) === -1) state.settings.theme = 'system';
+  delete state.settings.skipStaples; // staples now sit in their own group instead
+  sanitizeProfile();
   saveSettings();
+}
+
+/** Keep the household profile to known ids and a sane head count. */
+function sanitizeProfile() {
+  const s = state.settings;
+  const allergenIds = ALLERGENS.map(a => a.id);
+  const dietIds = DIETS.map(d => d.id);
+  s.avoid = Array.isArray(s.avoid) ? s.avoid.filter(id => allergenIds.includes(id)) : [];
+  s.diets = Array.isArray(s.diets) ? s.diets.filter(id => dietIds.includes(id)) : [];
+  s.householdSize = Math.min(20, Math.max(1, parseInt(s.householdSize, 10) || 4));
+  s.profileAsked = s.profileAsked === true || s.avoid.length > 0 || s.diets.length > 0;
 }
 
 // --- Appearance ---
@@ -912,36 +1082,62 @@ function saveUserRecipes() {
 
 function saveGroceryList() {
   localStorage.setItem(STORAGE.groceryList, JSON.stringify(state.groceryList));
-  localStorage.setItem(STORAGE.skippedStaples, JSON.stringify(state.skippedStaples));
+  localStorage.setItem(STORAGE.checkedLines, JSON.stringify(state.checkedLines));
 }
 
 function saveFavorites() {
   localStorage.setItem(STORAGE.favorites, JSON.stringify(state.favorites));
 }
 
-function saveSavedRecipes() {
-  localStorage.setItem(STORAGE.savedRecipes, JSON.stringify(state.savedRecipes));
+function saveWeekPlan() {
+  localStorage.setItem(STORAGE.weekPlan, JSON.stringify(state.weekPlan));
 }
 
-// Ticking six recipes and then locking your phone used to lose the lot.
-function saveSelection() {
-  localStorage.setItem(STORAGE.selection, JSON.stringify({
-    ids: state.selectedRecipes,
-    servings: state.selectedServings
-  }));
+/**
+ * Read the week, dropping any dish whose recipe has since been deleted.
+ *
+ * Before the week existed, "plan these" was a loose selection of recipes with
+ * a servings count each. A selection still sitting in storage is laid out
+ * over the coming days rather than thrown away.
+ */
+function loadWeekPlan() {
+  const stored = readJson(STORAGE.weekPlan, null);
+  state.weekPlan = normalizeWeekPlan(stored);
+
+  const legacy = readJson(STORAGE.legacySelection, null);
+  if (!stored && legacy) {
+    const ids = Array.isArray(legacy) ? legacy : (Array.isArray(legacy.ids) ? legacy.ids : []);
+    const servings = (!Array.isArray(legacy) && legacy.servings) || {};
+    ids.filter(id => findRecipe(id)).forEach(id => {
+      state.weekPlan.meals.push(newMeal(id, nextFreeDay(), servings[id]));
+    });
+    saveWeekPlan();
+  }
+  [STORAGE.legacySelection, STORAGE.legacySavedRecipes, STORAGE.legacySkippedStaples]
+    .forEach(key => localStorage.removeItem(key));
+
+  // An empty plan simply follows the calendar; a full one waits to be asked.
+  if (state.weekPlan.meals.length === 0) state.weekPlan.weekStart = currentWeekStart();
 }
 
-function loadSelection() {
-  const stored = readJson(STORAGE.selection, null);
-  // v1 stored a bare array of ids; v2 adds the per-recipe servings.
-  const ids = Array.isArray(stored) ? stored : (stored && Array.isArray(stored.ids) ? stored.ids : []);
-  const servings = (stored && !Array.isArray(stored) && stored.servings) || {};
-
-  state.selectedRecipes = ids.filter(id => state.recipes.some(r => r.id === id));
-  state.selectedServings = {};
-  state.selectedRecipes.forEach(id => {
-    if (typeof servings[id] === 'number') state.selectedServings[id] = servings[id];
-  });
+function normalizeWeekPlan(raw) {
+  const plan = { weekStart: currentWeekStart(), meals: [] };
+  if (!raw || typeof raw !== 'object') return plan;
+  if (typeof raw.weekStart === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.weekStart)) {
+    plan.weekStart = raw.weekStart;
+  }
+  if (Array.isArray(raw.meals)) {
+    plan.meals = raw.meals.filter(m =>
+      m && typeof m.recipeId === 'string' && findRecipe(m.recipeId) &&
+      Number.isInteger(m.day) && m.day >= 0 && m.day < DAYS_IN_WEEK
+    ).map(m => ({
+      id: typeof m.id === 'string' ? m.id : newItemId(),
+      recipeId: m.recipeId,
+      day: m.day,
+      servings: Math.max(1, parseInt(m.servings, 10) || state.settings.householdSize)
+    }));
+  }
+  return plan;
 }
 
 // --- Language Switching Engine ---
@@ -968,7 +1164,6 @@ function applyLanguage(lang) {
   document.title = `${dict.appTitle} - ${dict.appSubtitle}`;
 
   populateAisleSelect(document.getElementById('form-ing-cat-visible'));
-  populateAisleSelect(document.getElementById('new-grocery-item-cat'), 'Kruidenier');
   populateRecipeCategorySelect();
 
   renderApp();
@@ -997,6 +1192,8 @@ function populateRecipeCategorySelect() {
 // --- Navigation ---
 function switchTab(tabId) {
   state.activeTab = tabId;
+  // Choosing a dish for one day ends the moment you go somewhere else.
+  if (tabId !== 'recipes') state.pickingDay = null;
 
   document.querySelectorAll('.tab-item').forEach(item => {
     const current = item.dataset.tab === tabId;
@@ -1009,9 +1206,12 @@ function switchTab(tabId) {
     panel.classList.toggle('active-panel', panel.id === `${tabId}-panel`);
   });
 
+  const content = document.querySelector('.app-content');
+  if (content) content.scrollTop = 0;
+
   if (tabId === 'grocery') renderGroceryList();
   else if (tabId === 'recipes') renderRecipesList();
-  else if (tabId === 'home') renderHomeTab();
+  else if (tabId === 'week') renderWeekTab();
   else if (tabId === 'settings') renderSettingsTab();
 }
 
@@ -1041,12 +1241,32 @@ function setupEventListeners() {
     });
   });
 
-  document.getElementById('refresh-home-recipes').addEventListener('click', () => {
-    shuffleHomeRecipes();
-    renderHomeTab();
+  // The week
+  document.getElementById('profile-prompt-done').addEventListener('click', () => {
+    state.settings.profileAsked = true;
+    saveSettings();
+    renderWeekTab();
   });
-  document.getElementById('random-recipe-btn').addEventListener('click', openRandomRecipe);
-  document.getElementById('clear-saved-recipes').addEventListener('click', clearSavedRecipes);
+  document.getElementById('week-profile-strip').addEventListener('click', () => switchTab('settings'));
+  document.getElementById('week-start-fresh').addEventListener('click', startFreshWeek);
+  document.getElementById('week-keep').addEventListener('click', keepLastWeek);
+  document.getElementById('week-fill-btn').addEventListener('click', fillEmptyDays);
+  document.getElementById('week-to-list-btn').addEventListener('click', () => switchTab('grocery'));
+  document.getElementById('week-clear-btn').addEventListener('click', clearWeek);
+
+  // The household
+  document.getElementById('household-minus').addEventListener('click', () => setHouseholdSize(state.settings.householdSize - 1));
+  document.getElementById('household-plus').addEventListener('click', () => setHouseholdSize(state.settings.householdSize + 1));
+
+  // The recipe book
+  document.getElementById('picking-cancel-btn').addEventListener('click', () => {
+    stopPicking();
+    switchTab('week');
+  });
+  document.getElementById('safety-toggle-btn').addEventListener('click', () => {
+    state.filters.showUnsafe = !state.filters.showUnsafe;
+    renderRecipeGrid();
+  });
 
   const recipeSearch = document.getElementById('recipe-search');
   if (recipeSearch) {
@@ -1060,31 +1280,15 @@ function setupEventListeners() {
   document.getElementById('drawer-backdrop').addEventListener('click', closeRecipeDrawer);
 
   document.getElementById('servings-minus').addEventListener('click', () => {
-    if (state.recipeServings > 1) {
-      state.recipeServings--;
-      updateScaledIngredients();
-    }
+    if (state.recipeServings > 1) setDrawerServings(state.recipeServings - 1);
   });
   document.getElementById('servings-plus').addEventListener('click', () => {
-    state.recipeServings++;
-    updateScaledIngredients();
-  });
-
-  document.getElementById('add-ing-to-list-btn').addEventListener('click', () => {
-    if (state.selectedRecipe) {
-      addRecipeIngredientsToGroceryList(state.selectedRecipe, state.recipeServings);
-    }
+    setDrawerServings(state.recipeServings + 1);
   });
 
   document.getElementById('recipe-fav-btn').addEventListener('click', toggleRecipeFavorite);
   document.getElementById('recipe-edit-btn').addEventListener('click', startEditingSelectedRecipe);
   document.getElementById('recipe-delete-btn').addEventListener('click', deleteSelectedRecipe);
-
-  document.getElementById('batch-convert-btn').addEventListener('click', convertSelectedRecipesToGroceryList);
-  document.getElementById('batch-bar-toggle').addEventListener('click', () => {
-    state.batchPanelOpen = !state.batchPanelOpen;
-    renderBatchServingsPanel();
-  });
 
   document.getElementById('add-recipe-fab').addEventListener('click', () => openRecipeModal(null));
   document.getElementById('modal-close-btn').addEventListener('click', closeRecipeModal);
@@ -1093,17 +1297,16 @@ function setupEventListeners() {
   document.getElementById('add-custom-ing-btn').addEventListener('click', addCustomIngredientToBuffer);
 
   document.getElementById('add-grocery-item-form').addEventListener('submit', handleAddCustomGroceryItem);
-  document.getElementById('clear-grocery-btn').addEventListener('click', clearCompletedGroceryItems);
   document.getElementById('export-grocery-btn').addEventListener('click', exportGroceryList);
 
   document.getElementById('reset-data-btn').addEventListener('click', () => {
     if (state.userRecipes.length === 0) return;
     if (confirm(t('confirmResetRecipes'))) {
+      const own = state.userRecipes.map(r => r.id);
       state.userRecipes = [];
       saveUserRecipes();
-      state.selectedRecipes = [];
-      state.selectedServings = {};
-      saveSelection();
+      state.weekPlan.meals = state.weekPlan.meals.filter(m => own.indexOf(m.recipeId) === -1);
+      saveWeekPlan();
       showToast(t('toastRecipesReset'), 'info');
       renderApp();
     }
@@ -1112,7 +1315,7 @@ function setupEventListeners() {
   document.getElementById('reset-list-btn').addEventListener('click', () => {
     if (confirm(t('confirmWipeList'))) {
       state.groceryList = [];
-      state.skippedStaples = [];
+      state.checkedLines = [];
       saveGroceryList();
       renderGroceryList();
       showToast(t('toastListWiped'), 'info');
@@ -1123,20 +1326,12 @@ function setupEventListeners() {
   if (filterToggle) {
     filterToggle.addEventListener('click', () => {
       const tray = document.getElementById('recipe-filter-tray');
-      const isHidden = tray.style.display === 'none' || !tray.style.display;
-      tray.style.display = isHidden ? 'block' : 'none';
-      filterToggle.classList.toggle('active', isHidden);
-      filterToggle.setAttribute('aria-expanded', String(isHidden));
+      const open = tray.hidden;
+      tray.hidden = !open;
+      filterToggle.classList.toggle('active', open);
+      filterToggle.setAttribute('aria-expanded', String(open));
     });
   }
-
-  document.querySelectorAll('.diet-filter-cb, .intol-filter-cb').forEach(cb => {
-    cb.addEventListener('change', () => {
-      state.filters.diets = Array.from(document.querySelectorAll('.diet-filter-cb:checked')).map(c => c.value);
-      state.filters.intolerances = Array.from(document.querySelectorAll('.intol-filter-cb:checked')).map(c => c.value);
-      renderRecipeGrid();
-    });
-  });
 
   document.getElementById('backup-btn').addEventListener('click', downloadBackup);
 
@@ -1249,39 +1444,483 @@ function updateCookModeStep() {
 
 // --- Render Controllers ---
 function renderApp() {
-  renderHomeTab();
+  renderWeekTab();
   renderRecipesList();
   renderGroceryList();
   renderSettingsTab();
 }
 
-/** One card template, used by both grids. */
-function recipeCardHtml(recipe, options) {
-  const opts = options || {};
+// --- Allergies & diets ---
+//
+// The household profile lives in settings, and everything that shows a dish
+// reads it: the book hides what someone cannot eat, suggestions never offer
+// it, and the drawer says so in so many words if you open one anyway.
+
+// Keyed by the recipe object, so an edited recipe (a new object) is re-read.
+const allergenCache = new WeakMap();
+
+/** Allergen ids found in a recipe's ingredients, in ALLERGENS order. */
+function recipeAllergens(recipe) {
+  let found = allergenCache.get(recipe);
+  if (!found) {
+    const groups = window.Ingredients.detectGroups(recipe.ingredients);
+    found = ALLERGENS.map(a => a.id).filter(id => groups[id]);
+    allergenCache.set(recipe, found);
+  }
+  return found;
+}
+
+/** The allergens in this dish that someone at the table avoids. */
+function clashingAllergens(recipe) {
+  return recipeAllergens(recipe).filter(id => state.settings.avoid.includes(id));
+}
+
+function fitsDiets(recipe) {
+  return state.settings.diets.every(id => {
+    const diet = DIETS.find(d => d.id === id);
+    return !diet || recipe[diet.flag] === true;
+  });
+}
+
+/** Safe for everyone at the table, as far as the ingredient list can tell. */
+function suitsTable(recipe) {
+  return clashingAllergens(recipe).length === 0 && fitsDiets(recipe);
+}
+
+function allergenLabel(id) {
+  const a = ALLERGENS.find(x => x.id === id);
+  return a ? t(a.key) : id;
+}
+
+function allergenList(ids) {
+  return ids.map(allergenLabel).join(', ').toLowerCase();
+}
+
+/** "gluten, nuts · vegetarian" — what the profile is filtering on. */
+function profileSummary() {
+  const parts = state.settings.avoid.map(allergenLabel)
+    .concat(state.settings.diets.map(id => t(DIETS.find(d => d.id === id).key)));
+  return parts.join(', ').toLowerCase();
+}
+
+function toggleProfileValue(kind, value) {
+  const list = kind === 'diets' ? state.settings.diets : state.settings.avoid;
+  const at = list.indexOf(value);
+  if (at > -1) list.splice(at, 1);
+  else list.push(value);
+  saveSettings();
+  onProfileChanged();
+}
+
+function setHouseholdSize(n) {
+  state.settings.householdSize = Math.min(20, Math.max(1, n));
+  saveSettings();
+  const el = document.getElementById('household-count');
+  if (el) el.textContent = state.settings.householdSize;
+}
+
+function onProfileChanged() {
+  renderProfilePills();
+  renderRecipesList();
+  renderWeekTab();
+  if (state.selectedRecipe) renderDrawerAllergens(state.selectedRecipe);
+}
+
+/** The allergy and diet pills appear in three places; all edit one profile. */
+function renderProfilePills() {
+  document.querySelectorAll('.allergen-pills').forEach(box => {
+    const kind = box.dataset.profilePills;
+    const options = kind === 'diets' ? DIETS : ALLERGENS;
+    const chosen = kind === 'diets' ? state.settings.diets : state.settings.avoid;
+    box.innerHTML = options.map(o => {
+      const on = chosen.includes(o.id);
+      return `<button type="button" class="allergen-pill ${on ? 'active' : ''}" data-kind="${kind}"
+                data-value="${o.id}" aria-pressed="${on}">${escapeHtml(t(o.key))}</button>`;
+    }).join('');
+    box.querySelectorAll('.allergen-pill').forEach(pill => {
+      pill.addEventListener('click', () => toggleProfileValue(pill.dataset.kind, pill.dataset.value));
+    });
+  });
+
+  const count = state.settings.avoid.length + state.settings.diets.length;
+  const badge = document.getElementById('filter-count');
+  if (badge) {
+    badge.hidden = count === 0;
+    badge.textContent = String(count);
+  }
+}
+
+// --- The week ---
+//
+// A week runs Monday to Sunday, the way a Belgian calendar prints it. Each
+// planned dish is a meal: a recipe, a day, and how many plates. A day can
+// hold more than one dish — soup and a main, say.
+
+function pad2(n) {
+  return String(n).padStart(2, '0');
+}
+
+function isoDate(d) {
+  return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+}
+
+function parseIsoDate(s) {
+  const parts = String(s).split('-').map(Number);
+  return new Date(parts[0], parts[1] - 1, parts[2]);
+}
+
+function mondayOf(date) {
+  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  d.setDate(d.getDate() - (d.getDay() + 6) % 7);
+  return d;
+}
+
+function currentWeekStart() {
+  return isoDate(mondayOf(new Date()));
+}
+
+/** The plan is for a week that has already ended. */
+function isStaleWeek() {
+  return state.weekPlan.meals.length > 0 && state.weekPlan.weekStart < currentWeekStart();
+}
+
+/** Index of today within the planned week, or -1 if it is another week. */
+function todayIndex() {
+  if (state.weekPlan.weekStart !== currentWeekStart()) return -1;
+  return (new Date().getDay() + 6) % 7;
+}
+
+function dayDate(day) {
+  const d = parseIsoDate(state.weekPlan.weekStart);
+  d.setDate(d.getDate() + day);
+  return d;
+}
+
+const DATE_LOCALES = { en: 'en-GB', nl: 'nl-BE', fr: 'fr-BE' };
+
+function shortDate(date) {
+  try {
+    return date.toLocaleDateString(DATE_LOCALES[state.settings.language] || 'en-GB',
+      { day: 'numeric', month: 'short' });
+  } catch (e) {
+    return `${date.getDate()}/${date.getMonth() + 1}`;
+  }
+}
+
+/** "Wednesday" as a heading, or "woensdag" inside a Dutch or French sentence. */
+function dayName(day, options) {
+  const dict = uiTranslations[state.settings.language] || uiTranslations.en;
+  const name = ((options && options.short) ? dict.weekdaysShort : dict.weekdays)[day];
+  return options && options.inSentence && state.settings.language !== 'en' ? name.toLowerCase() : name;
+}
+
+function findRecipe(id) {
+  return state.recipes.find(r => r.id === id) || null;
+}
+
+function newMeal(recipeId, day, servings) {
+  return {
+    id: newItemId(),
+    recipeId: recipeId,
+    day: day,
+    servings: Math.max(1, parseInt(servings, 10) || state.settings.householdSize)
+  };
+}
+
+function mealsOn(day) {
+  return state.weekPlan.meals.filter(m => m.day === day);
+}
+
+function plannedDays(recipeId) {
+  return state.weekPlan.meals.filter(m => m.recipeId === recipeId).map(m => m.day)
+    .sort((a, b) => a - b);
+}
+
+/** The first empty day from today on; failing that, today. */
+function nextFreeDay() {
+  const start = Math.max(0, todayIndex());
+  for (let d = start; d < DAYS_IN_WEEK; d++) {
+    if (mealsOn(d).length === 0) return d;
+  }
+  for (let d = 0; d < start; d++) {
+    if (mealsOn(d).length === 0) return d;
+  }
+  return start;
+}
+
+function planMeal(recipeId, day, servings) {
+  const recipe = findRecipe(recipeId);
+  if (!recipe) return null;
+  const meal = newMeal(recipeId, day, servings);
+  state.weekPlan.meals.push(meal);
+  saveWeekPlan();
+
+  const name = recipeText(recipe).title;
+  const clash = clashingAllergens(recipe);
+  if (clash.length) {
+    showToast(t('toastPlannedCareful', { name: name, day: dayName(day, { inSentence: true }), list: allergenList(clash) }), 'info');
+  } else {
+    showToast(t('toastPlanned', { name: name, day: dayName(day, { inSentence: true }) }), 'success');
+  }
+  onWeekChanged();
+  return meal;
+}
+
+function unplanMeal(mealId) {
+  const meal = state.weekPlan.meals.find(m => m.id === mealId);
+  if (!meal) return;
+  state.weekPlan.meals = state.weekPlan.meals.filter(m => m.id !== mealId);
+  saveWeekPlan();
+  showToast(t('toastUnplanned', { day: dayName(meal.day, { inSentence: true }) }), 'info');
+  onWeekChanged();
+}
+
+function setMealServings(mealId, servings) {
+  const meal = state.weekPlan.meals.find(m => m.id === mealId);
+  if (!meal) return;
+  meal.servings = Math.max(1, servings);
+  saveWeekPlan();
+  onWeekChanged();
+}
+
+/** Something for the table: safe, a main course, and not on the week yet. */
+function suggestRecipe(excludeIds) {
+  const exclude = excludeIds || [];
+  const candidates = state.recipes.filter(r =>
+    suitsTable(r) && recipeCategories(r).includes('main') &&
+    exclude.indexOf(r.id) === -1 && r.id.indexOf('bulk-') !== 0);
+  // A dish with a photograph makes a better first impression on the week.
+  const photographed = candidates.filter(hasPhoto);
+  const pool = photographed.length ? photographed : candidates;
+  const index = randomIndex(pool.length);
+  return index >= 0 ? pool[index] : null;
+}
+
+function surpriseDay(day) {
+  const recipe = suggestRecipe(state.weekPlan.meals.map(m => m.recipeId));
+  if (!recipe) {
+    showToast(t('toastNothingFits'), 'info');
+    return;
+  }
+  planMeal(recipe.id, day);
+}
+
+/** One random dish on every empty day from today to Sunday. */
+function fillEmptyDays() {
+  const start = Math.max(0, todayIndex());
+  let filled = 0;
+  for (let d = start; d < DAYS_IN_WEEK; d++) {
+    if (mealsOn(d).length > 0) continue;
+    const recipe = suggestRecipe(state.weekPlan.meals.map(m => m.recipeId));
+    if (!recipe) break;
+    state.weekPlan.meals.push(newMeal(recipe.id, d));
+    filled++;
+  }
+  saveWeekPlan();
+
+  if (filled > 0) showToast(t('toastWeekFilled', { count: filled }), 'success');
+  else if (suggestRecipe([])) showToast(t('toastWeekFull'), 'info');
+  else showToast(t('toastNothingFits'), 'info');
+  onWeekChanged();
+}
+
+function clearWeek() {
+  if (state.weekPlan.meals.length === 0 || !confirm(t('confirmClearWeek'))) return;
+  state.weekPlan.meals = [];
+  state.checkedLines = [];
+  saveWeekPlan();
+  saveGroceryList();
+  showToast(t('toastWeekCleared'), 'info');
+  onWeekChanged();
+}
+
+/**
+ * Last week's menu is still on screen. Starting fresh empties the week and
+ * the basket, but keeps anything you wrote on the list by hand and had not
+ * bought yet.
+ */
+function startFreshWeek() {
+  state.weekPlan = { weekStart: currentWeekStart(), meals: [] };
+  state.checkedLines = [];
+  state.groceryList = state.groceryList.filter(i => !i.checked);
+  saveWeekPlan();
+  saveGroceryList();
+  onWeekChanged();
+}
+
+function keepLastWeek() {
+  state.weekPlan.weekStart = currentWeekStart();
+  saveWeekPlan();
+  onWeekChanged();
+}
+
+/** Go and choose a dish for one day; the recipe book says which. */
+function startPicking(day) {
+  state.pickingDay = day;
+  switchTab('recipes');
+}
+
+function stopPicking() {
+  state.pickingDay = null;
+  renderPickingBanner();
+}
+
+function onWeekChanged() {
+  if (state.activeTab === 'week') renderWeekTab();
+  if (state.activeTab === 'grocery') renderGroceryList();
+  if (state.activeTab === 'recipes') renderRecipeGrid();
+  if (state.selectedRecipe) renderDrawerPlan();
+  updateTabBadges();
+}
+
+function updateTabBadges() {
+  const set = (id, n) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.hidden = n === 0;
+    el.textContent = String(n);
+  };
+  set('tab-badge-week', state.weekPlan.meals.length);
+  set('tab-badge-grocery', itemsToBuy().length);
+}
+
+function renderWeekTab() {
+  const list = document.getElementById('week-days');
+  if (!list) return;
+
+  const start = parseIsoDate(state.weekPlan.weekStart);
+  const end = dayDate(DAYS_IN_WEEK - 1);
+  document.getElementById('week-range').textContent = `${shortDate(start)} – ${shortDate(end)}`;
+
+  // Profile: ask once, then keep a one-line reminder of what is filtered.
+  const prompt = document.getElementById('profile-prompt');
+  const strip = document.getElementById('week-profile-strip');
+  prompt.hidden = state.settings.profileAsked;
+  strip.hidden = !state.settings.profileAsked;
+  const summary = profileSummary();
+  strip.textContent = summary ? `🛡 ${t('profileStrip', { list: summary })}` : t('profileStripNone');
+
+  document.getElementById('week-stale-banner').hidden = !isStaleWeek();
+
+  const plannedDayCount = new Set(state.weekPlan.meals.map(m => m.day)).size;
+  document.getElementById('week-summary-text').textContent = plannedDayCount === 0
+    ? t('weekSummaryNone')
+    : t('weekSummary', { planned: plannedDayCount });
+
+  const today = todayIndex();
+  let html = '';
+  for (let day = 0; day < DAYS_IN_WEEK; day++) {
+    const meals = mealsOn(day);
+    const past = today > -1 && day < today;
+
+    html += `
+      <li class="week-day ${day === today ? 'is-today' : ''} ${past ? 'is-past' : ''} ${meals.length === 0 ? 'is-empty' : ''}" data-day="${day}">
+        <div class="week-day-head">
+          <span class="week-day-name">${escapeHtml(dayName(day))}</span>
+          <span class="week-day-date">${escapeHtml(shortDate(dayDate(day)))}</span>
+          ${day === today ? `<span class="week-day-today">${escapeHtml(t('todayLabel'))}</span>` : ''}
+        </div>
+        ${meals.map(weekMealHtml).join('')}
+        ${meals.length === 0 && past ? '' : meals.length === 0 ? `
+          <div class="week-day-actions">
+            <button type="button" class="day-pick-btn" data-day="${day}">${escapeHtml(t('pickDishBtn'))}</button>
+            <button type="button" class="day-dice-btn" data-day="${day}" aria-label="${escapeHtml(t('surpriseDayBtn'))}" title="${escapeHtml(t('surpriseDayBtn'))}">🎲</button>
+          </div>
+        ` : `
+          <button type="button" class="day-add-more" data-day="${day}">${escapeHtml(t('addAnotherBtn'))}</button>
+        `}
+      </li>
+    `;
+  }
+  list.innerHTML = html;
+
+  list.querySelectorAll('.day-pick-btn, .day-add-more').forEach(btn => {
+    btn.addEventListener('click', () => startPicking(parseInt(btn.dataset.day, 10)));
+  });
+  list.querySelectorAll('.day-dice-btn').forEach(btn => {
+    btn.addEventListener('click', () => surpriseDay(parseInt(btn.dataset.day, 10)));
+  });
+  list.querySelectorAll('.week-meal-open').forEach(el => {
+    onActivate(el, () => openRecipeDrawer(el.dataset.recipeId));
+  });
+  list.querySelectorAll('.week-meal-remove').forEach(btn => {
+    btn.addEventListener('click', () => unplanMeal(btn.dataset.mealId));
+  });
+  list.querySelectorAll('.week-meal-servings button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const meal = state.weekPlan.meals.find(m => m.id === btn.dataset.mealId);
+      if (meal) setMealServings(meal.id, meal.servings + parseInt(btn.dataset.step, 10));
+    });
+  });
+
+  const toBuy = itemsToBuy().length;
+  const toList = document.getElementById('week-to-list-btn');
+  toList.textContent = toBuy > 0 ? t('toListBtn', { count: toBuy }) : t('toListEmpty');
+  document.getElementById('week-clear-btn').hidden = state.weekPlan.meals.length === 0;
+  updateTabBadges();
+}
+
+function weekMealHtml(meal) {
+  const recipe = findRecipe(meal.recipeId);
+  if (!recipe) return '';
+  const name = recipeText(recipe).title;
+  const clash = clashingAllergens(recipe);
+  const dayText = dayName(meal.day, { inSentence: true });
+  return `
+    <div class="week-meal ${clash.length ? 'has-clash' : ''}" data-meal-id="${escapeHtml(meal.id)}">
+      <div class="week-meal-open" data-recipe-id="${escapeHtml(recipe.id)}" role="button" tabindex="0">
+        ${photoMarkup(recipe, name, 'week-meal-img', true)}
+        <div class="week-meal-text">
+          <span class="week-meal-title">${escapeHtml(name)}</span>
+          ${clash.length ? `<span class="week-meal-warn">⚠ ${escapeHtml(allergenList(clash))}</span>` : ''}
+        </div>
+      </div>
+      <div class="week-meal-servings" aria-label="${escapeHtml(t('mealServings'))}">
+        <button type="button" class="servings-btn servings-btn-sm" data-meal-id="${escapeHtml(meal.id)}" data-step="-1" aria-label="${escapeHtml(t('mealServings'))} -">-</button>
+        <span class="week-meal-count">${meal.servings}</span>
+        <button type="button" class="servings-btn servings-btn-sm" data-meal-id="${escapeHtml(meal.id)}" data-step="1" aria-label="${escapeHtml(t('mealServings'))} +">+</button>
+      </div>
+      <button type="button" class="week-meal-remove" data-meal-id="${escapeHtml(meal.id)}"
+              aria-label="${escapeHtml(t('removeMeal', { name: name, day: dayText }))}">&times;</button>
+    </div>
+  `;
+}
+
+// --- Recipe book ---
+
+/** One card template for the book. */
+function recipeCardHtml(recipe) {
   const isFav = state.favorites.includes(recipe.id);
-  const isSelected = state.selectedRecipes.includes(recipe.id);
+  const days = plannedDays(recipe.id);
+  const planned = days.length > 0;
   const name = recipeText(recipe).title;
   const sub = recipeText(recipe).subtitle;
   const diffText = recipe.difficulty[state.settings.language] || recipe.difficulty.en;
+  const clash = clashingAllergens(recipe);
+  const picking = state.pickingDay !== null;
+
+  // "+" puts the dish on the week. Once it is there, the button shows the
+  // day instead — unless you are choosing for a particular day, when it is
+  // always a "+" for that day.
+  const planLabel = planned && !picking
+    ? t('plannedFor', { day: dayName(days[0], { inSentence: true }) })
+    : t('addToWeek', { name: name });
+  const planText = planned && !picking ? escapeHtml(dayName(days[0], { short: true })) : '+';
 
   return `
-    <div class="recipe-card ${isSelected ? 'selected-for-list' : ''}" data-id="${escapeHtml(recipe.id)}"
+    <div class="recipe-card ${planned ? 'is-planned' : ''}" data-id="${escapeHtml(recipe.id)}"
          role="button" tabindex="0" aria-label="${escapeHtml(name)}">
-      <div class="recipe-card-select-btn" data-id="${escapeHtml(recipe.id)}"
-           role="checkbox" tabindex="0" aria-checked="${isSelected}"
-           aria-label="${escapeHtml(t('selectForList'))}">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <polyline points="20 6 9 17 4 12"></polyline>
-        </svg>
-      </div>
+      <div class="card-plan-btn ${planned && !picking ? 'planned' : ''}" data-id="${escapeHtml(recipe.id)}"
+           role="button" tabindex="0" aria-label="${escapeHtml(planLabel)}">${planText}</div>
       <div class="recipe-card-img-wrapper">
         ${photoMarkup(recipe, name, 'recipe-card-img', true)}
         <span class="recipe-badge">${escapeHtml(diffText)}</span>
         ${isFav ? '<span class="recipe-fav-badge">❤️</span>' : ''}
+        ${clash.length ? `<span class="recipe-warn-badge">⚠ ${escapeHtml(allergenList(clash))}</span>` : ''}
       </div>
       <div class="recipe-card-content">
         <h4 class="recipe-card-title">${escapeHtml(name)}</h4>
-        ${opts.showSubtitle ? `<p class="recipe-card-sub">${escapeHtml(sub)}</p>` : ''}
+        <p class="recipe-card-sub">${escapeHtml(sub)}</p>
         <div class="recipe-card-meta">
           <span>⏱️ ${escapeHtml(recipe.prepTime)}</span>
           <span>🍽️ ${escapeHtml(recipe.servings)}p</span>
@@ -1293,19 +1932,35 @@ function recipeCardHtml(recipe, options) {
 
 function bindRecipeCards(container) {
   container.querySelectorAll('.recipe-card').forEach(card => {
-    const selectBtn = card.querySelector('.recipe-card-select-btn');
-    if (selectBtn) {
-      onActivate(selectBtn, e => {
+    const planBtn = card.querySelector('.card-plan-btn');
+    if (planBtn) {
+      onActivate(planBtn, e => {
         e.stopPropagation();
-        toggleRecipeSelection(card.dataset.id);
+        onCardPlanButton(card.dataset.id);
       });
     }
     onActivate(card, e => {
-      // Enter on the select checkbox must not also open the drawer.
-      if (e.target && e.target.closest && e.target.closest('.recipe-card-select-btn')) return;
+      // Enter on the plan button must not also open the drawer.
+      if (e.target && e.target.closest && e.target.closest('.card-plan-btn')) return;
       openRecipeDrawer(card.dataset.id);
     });
   });
+}
+
+function onCardPlanButton(recipeId) {
+  if (state.pickingDay !== null) {
+    const day = state.pickingDay;
+    stopPicking();
+    planMeal(recipeId, day);
+    switchTab('week');
+    return;
+  }
+  // Already on the week: show it, where the days can be changed.
+  if (plannedDays(recipeId).length > 0) {
+    openRecipeDrawer(recipeId);
+    return;
+  }
+  planMeal(recipeId, nextFreeDay());
 }
 
 function matchesQuery(recipe, query) {
@@ -1314,30 +1969,6 @@ function matchesQuery(recipe, query) {
   if (fold(tr.title).includes(query)) return true;
   if (tr.subtitle && fold(tr.subtitle).includes(query)) return true;
   return recipe.ingredients.some(i => fold(ingredientName(i)).includes(query));
-}
-
-function renderHomeTab() {
-  const homeGrid = document.getElementById('home-recipe-grid');
-  if (!homeGrid) return;
-  if (!state.homeRecipes.length) shuffleHomeRecipes();
-  const recipes = state.homeRecipes.map(id => state.recipes.find(r => r.id === id)).filter(Boolean);
-  homeGrid.innerHTML = recipes.map(r => recipeCardHtml(r)).join('');
-  bindRecipeCards(homeGrid);
-
-  const categories = document.getElementById('randomizer-categories');
-  categories.innerHTML = RECIPE_CATEGORIES.filter(c => c !== 'all').map(cat => `
-    <button type="button" class="randomizer-pill ${cat === state.randomizerCategory ? 'active' : ''}" data-category="${cat}">
-      ${escapeHtml(t(RECIPE_CATEGORY_KEYS[cat]))}
-    </button>
-  `).join('');
-  categories.querySelectorAll('.randomizer-pill').forEach(button => {
-    button.addEventListener('click', () => {
-      state.randomizerCategory = button.dataset.category;
-      renderHomeTab();
-    });
-  });
-
-  renderSavedRecipes();
 }
 
 function randomIndex(length) {
@@ -1351,47 +1982,15 @@ function randomIndex(length) {
   return Math.floor(Math.random() * length);
 }
 
-function shuffledRecipeIds(recipes, count) {
-  const pool = recipes.map(r => r.id);
-  for (let i = pool.length - 1; i > 0; i--) {
-    const j = randomIndex(i + 1);
-    const tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp;
+function renderPickingBanner() {
+  const banner = document.getElementById('picking-banner');
+  if (!banner) return;
+  const picking = state.pickingDay !== null;
+  banner.hidden = !picking;
+  if (picking) {
+    document.getElementById('picking-banner-text').textContent =
+      t('pickingFor', { day: dayName(state.pickingDay, { inSentence: true }) });
   }
-  return pool.slice(0, count);
-}
-
-function shuffleHomeRecipes() {
-  state.homeRecipes = shuffledRecipeIds(state.recipes, 4);
-}
-
-function openRandomRecipe() {
-  const matches = state.recipes.filter(recipe => recipeCategories(recipe).includes(state.randomizerCategory));
-  const index = randomIndex(matches.length);
-  if (index >= 0) openRecipeDrawer(matches[index].id);
-}
-
-function renderSavedRecipes() {
-  const section = document.getElementById('saved-recipes-section');
-  const grid = document.getElementById('saved-recipe-grid');
-  const recipes = state.savedRecipes.map(id => state.recipes.find(r => r.id === id)).filter(Boolean);
-  section.hidden = recipes.length === 0;
-  grid.innerHTML = recipes.map(r => recipeCardHtml(r)).join('');
-  bindRecipeCards(grid);
-}
-
-function rememberRecipe(recipe) {
-  if (!state.savedRecipes.includes(recipe.id)) {
-    state.savedRecipes.unshift(recipe.id);
-    saveSavedRecipes();
-  }
-}
-
-function clearSavedRecipes() {
-  if (!state.savedRecipes.length || !confirm(t('confirmClearSavedRecipes'))) return;
-  state.savedRecipes = [];
-  saveSavedRecipes();
-  renderHomeTab();
-  showToast(t('toastSavedRecipesCleared'), 'info');
 }
 
 function renderRecipesList() {
@@ -1414,7 +2013,7 @@ function renderRecipesList() {
     `).join('');
 
     catRow.querySelectorAll('.cat-pill').forEach(pill => {
-      pill.addEventListener('click', e => {
+      onActivate(pill, e => {
         const el = e.currentTarget;
         if (el.dataset.favorites) {
           state.filters.favoritesOnly = !state.filters.favoritesOnly;
@@ -1426,189 +2025,102 @@ function renderRecipesList() {
     });
   }
 
+  renderPickingBanner();
   renderRecipeGrid();
 }
 
-function filteredRecipes() {
+/** Recipes matching search, category and favourites — before the profile. */
+function browsableRecipes() {
   const f = state.filters;
   return state.recipes.filter(recipe => {
     if (f.favoritesOnly && !state.favorites.includes(recipe.id)) return false;
     if (f.category !== 'all' && !recipeCategories(recipe).includes(f.category)) return false;
-    if (!matchesQuery(recipe, f.query)) return false;
-
-    if (f.diets.includes('vegetarian') && !recipe.isVegetarian) return false;
-    if (f.diets.includes('vegan') && !recipe.isVegan) return false;
-    if (f.diets.includes('candida') && !recipe.isCandidaFriendly) return false;
-    if (f.diets.includes('keto') && !recipe.isKeto) return false;
-
-    if (f.intolerances.includes('gluten') && !recipe.isGlutenFree) return false;
-    if (f.intolerances.includes('nuts') && !recipe.isNutFree) return false;
-    if (f.intolerances.includes('dairy') && !recipe.isDairyFree) return false;
-    if (f.intolerances.includes('eggs') && !recipe.isEggFree) return false;
-
-    return true;
+    return matchesQuery(recipe, f.query);
   });
+}
+
+function filteredRecipes() {
+  const browsable = browsableRecipes();
+  return state.filters.showUnsafe ? browsable : browsable.filter(suitsTable);
+}
+
+function renderSafetyNote(browsable) {
+  const note = document.getElementById('safety-note');
+  if (!note) return;
+  const hidden = browsable.filter(r => !suitsTable(r)).length;
+  note.hidden = hidden === 0;
+  if (hidden === 0) return;
+  document.getElementById('safety-note-text').textContent =
+    `🛡 ${t('safetyHidden', { count: hidden, list: profileSummary() })}`;
+  document.getElementById('safety-toggle-btn').textContent =
+    state.filters.showUnsafe ? t('safetyHideAgain') : t('safetyShowAnyway');
 }
 
 function renderRecipeGrid() {
   const container = document.getElementById('recipes-tab-grid');
   if (!container) return;
 
-  const matches = filteredRecipes();
+  const browsable = browsableRecipes();
+  const matches = state.filters.showUnsafe ? browsable : browsable.filter(suitsTable);
+  renderSafetyNote(browsable);
 
   if (matches.length === 0) {
     const message = state.filters.favoritesOnly && state.favorites.length === 0
       ? t('noFavorites')
       : t('noResults');
     container.innerHTML = `<div class="grid-empty">${escapeHtml(message)}</div>`;
-    updateBatchActionBar();
     return;
   }
 
   const shown = matches.slice(0, MAX_RENDERED_CARDS);
-  let html = shown.map(r => recipeCardHtml(r, { showSubtitle: true })).join('');
+  let html = shown.map(r => recipeCardHtml(r)).join('');
   if (matches.length > shown.length) {
     html += `<div class="grid-empty">${escapeHtml(t('showingCount', { shown: shown.length, total: matches.length }))}</div>`;
   }
 
   container.innerHTML = html;
   bindRecipeCards(container);
-  updateBatchActionBar();
 }
 
 function renderSettingsTab() {
   const langSelect = document.getElementById('language-select');
   if (langSelect) langSelect.value = state.settings.language;
+  const household = document.getElementById('household-count');
+  if (household) household.textContent = state.settings.householdSize;
 
+  renderProfilePills();
   applyTheme();
-}
-
-// --- Batch Selection System ---
-function toggleRecipeSelection(recipeId) {
-  const idx = state.selectedRecipes.indexOf(recipeId);
-
-  if (idx > -1) {
-    state.selectedRecipes.splice(idx, 1);
-    delete state.selectedServings[recipeId];
-    showToast(t('toastDeselected'), 'info');
-  } else {
-    state.selectedRecipes.push(recipeId);
-    // Selecting from an open drawer keeps the servings you just dialled in.
-    if (state.selectedRecipe && state.selectedRecipe.id === recipeId) {
-      state.selectedServings[recipeId] = state.recipeServings;
-    }
-    showToast(t('toastSelected'), 'success');
-  }
-  saveSelection();
-
-  document.querySelectorAll(`.recipe-card[data-id="${recipeId}"], .featured-card[data-id="${recipeId}"]`)
-    .forEach(card => {
-      card.classList.toggle('selected-for-list', idx === -1);
-      const box = card.querySelector('.recipe-card-select-btn');
-      if (box) box.setAttribute('aria-checked', String(idx === -1));
-    });
-
-  updateBatchActionBar();
-}
-
-/** How many servings to cook a selected recipe for. Defaults to its own. */
-function servingsFor(recipeId) {
-  const stored = state.selectedServings[recipeId];
-  if (typeof stored === 'number' && stored > 0) return stored;
-  const recipe = state.recipes.find(r => r.id === recipeId);
-  return recipe ? recipe.servings : 4;
-}
-
-function setServingsFor(recipeId, servings) {
-  state.selectedServings[recipeId] = Math.max(1, servings);
-  saveSelection();
-  renderBatchServingsPanel();
-}
-
-function updateBatchActionBar() {
-  const bar = document.getElementById('recipe-batch-bar');
-  if (!bar) return;
-
-  const count = state.selectedRecipes.length;
-  // The bar animates in via the .visible class — toggling display alone leaves
-  // it translated off-screen at opacity 0.
-  bar.classList.toggle('visible', count > 0);
-  if (count > 0) {
-    document.getElementById('batch-bar-text').textContent = t('batchSelectedText', { count: count });
-    document.getElementById('batch-convert-btn').textContent = t('batchGenerateBtn');
-  } else {
-    state.batchPanelOpen = false;
-  }
-  renderBatchServingsPanel();
-}
-
-/**
- * The list of selected recipes with a servings stepper each. Without this the
- * batch flow always cooked every recipe for its default number of people,
- * quietly ignoring the servings you set in the drawer.
- */
-function renderBatchServingsPanel() {
-  const panel = document.getElementById('batch-servings-panel');
-  if (!panel) return;
-
-  const open = state.batchPanelOpen && state.selectedRecipes.length > 0;
-  panel.classList.toggle('visible', open);
-
-  const caret = document.querySelector('.batch-bar-caret');
-  if (caret) caret.textContent = open ? '▼' : '▲';
-
-  if (!open) {
-    panel.innerHTML = '';
-    return;
-  }
-
-  panel.innerHTML = `
-    <div class="batch-panel-title">${escapeHtml(t('batchServingsTitle'))}</div>
-    ${state.selectedRecipes.map(id => {
-      const recipe = state.recipes.find(r => r.id === id);
-      if (!recipe) return '';
-      return `
-        <div class="batch-panel-row" data-id="${escapeHtml(id)}">
-          <span class="batch-panel-name">${escapeHtml(recipeText(recipe).title)}</span>
-          <span class="batch-panel-controls">
-            <button type="button" class="servings-btn" data-step="-1" aria-label="-">-</button>
-            <span class="batch-panel-count">${servingsFor(id)}</span>
-            <button type="button" class="servings-btn" data-step="1" aria-label="+">+</button>
-          </span>
-        </div>
-      `;
-    }).join('')}
-  `;
-
-  panel.querySelectorAll('.batch-panel-row').forEach(row => {
-    row.querySelectorAll('button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const id = row.dataset.id;
-        setServingsFor(id, servingsFor(id) + parseInt(btn.dataset.step, 10));
-      });
-    });
-  });
 }
 
 // --- Grocery list building ---
 
+function newItemId() {
+  return 'item-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 7);
+}
+
+/** A week line is known by what it is, so its tick survives a re-merge. */
+function weekLineId(key, unit) {
+  return `w:${key}|${unit || ''}`;
+}
+
+function isWeekLine(id) {
+  return String(id).indexOf('w:') === 0;
+}
+
 /**
- * Merge a batch of scaled ingredients into the grocery list.
+ * Merge a batch of scaled ingredients into a list of lines.
  *
  * Matching is by canonical ingredient key, not by display name, so "garlic"
  * and "garlic cloves" land on one line. An ingredient that already exists in a
  * different unit is added as its own row instead of being silently dropped.
  */
-function addItemsToGroceryList(ingredients, sourceTitle) {
+function mergeIngredients(lines, ingredients, sourceTitle) {
   const Ing = window.Ingredients;
-  let addedCount = 0;
-  let skippedStaples = 0;
 
   ingredients.forEach(ing => {
     const key = ing.key || Ing.keyOf(ingredientName(ing));
     const staple = typeof ing.staple === 'boolean' ? ing.staple : Ing.isStaple(ingredientName(ing), ing.category);
-
-    const existing = state.groceryList.find(item => item.key === key && item.unit === ing.unit);
+    const existing = lines.find(item => item.key === key && item.unit === ing.unit);
 
     if (existing) {
       if (typeof existing.amount === 'number' && typeof ing.amount === 'number') {
@@ -1618,8 +2130,8 @@ function addItemsToGroceryList(ingredients, sourceTitle) {
       }
       if (sourceTitle && existing.sources.indexOf(sourceTitle) === -1) existing.sources.push(sourceTitle);
     } else {
-      state.groceryList.push({
-        id: newItemId(),
+      lines.push({
+        id: weekLineId(key, ing.unit),
         key: key,
         name: ingredientName(ing),
         amount: typeof ing.amount === 'number' ? ing.amount : null,
@@ -1629,32 +2141,22 @@ function addItemsToGroceryList(ingredients, sourceTitle) {
         sources: sourceTitle ? [sourceTitle] : [],
         checked: false
       });
-      addedCount++;
     }
   });
 
-  saveGroceryList();
-  return { added: addedCount, skippedStaples: skippedStaples };
+  return lines;
 }
 
-function newItemId() {
-  return 'item-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 7);
-}
-
-function registerSkippedStaple(ing, key, sourceTitle) {
-  const existing = state.skippedStaples.find(s => s.key === key);
-  if (existing) {
-    if (sourceTitle && existing.sources.indexOf(sourceTitle) === -1) existing.sources.push(sourceTitle);
-    return;
-  }
-  state.skippedStaples.push({
-    key: key,
-    name: ingredientName(ing),
-    amount: typeof ing.amount === 'number' ? ing.amount : null,
-    unit: ing.unit,
-    category: ing.category || window.Ingredients.DEFAULT_AISLE,
-    sources: sourceTitle ? [sourceTitle] : []
+/** Everything the week's dishes need, merged, scaled and ticked. */
+function weekShoppingLines() {
+  const lines = [];
+  state.weekPlan.meals.forEach(meal => {
+    const recipe = findRecipe(meal.recipeId);
+    if (!recipe) return;
+    mergeIngredients(lines, scaledIngredients(recipe, meal.servings), recipeText(recipe).title);
   });
+  lines.forEach(line => { line.checked = state.checkedLines.indexOf(line.id) > -1; });
+  return lines;
 }
 
 /** Ingredients of one recipe, scaled to the requested servings. */
@@ -1672,45 +2174,16 @@ function scaledIngredients(recipe, servings) {
   }));
 }
 
-function addRecipeIngredientsToGroceryList(recipe, servings) {
-  const result = addItemsToGroceryList(scaledIngredients(recipe, servings), recipeText(recipe).title);
-  rememberRecipe(recipe);
-  showToast(t('toastAddedSingle'), 'success');
-  closeRecipeDrawer();
-  if (state.activeTab === 'home') renderHomeTab();
-  if (state.activeTab === 'grocery') renderGroceryList();
-  return result;
-}
-
-function convertSelectedRecipesToGroceryList() {
-  if (state.selectedRecipes.length === 0) return;
-
-  state.selectedRecipes.forEach(recipeId => {
-    const recipe = state.recipes.find(r => r.id === recipeId);
-    if (!recipe) return;
-    addItemsToGroceryList(scaledIngredients(recipe, servingsFor(recipeId)), recipeText(recipe).title);
-    rememberRecipe(recipe);
-  });
-
-  state.selectedRecipes = [];
-  state.selectedServings = {};
-  state.batchPanelOpen = false;
-  saveSelection();
-  document.querySelectorAll('.recipe-card, .featured-card')
-    .forEach(card => card.classList.remove('selected-for-list'));
-  updateBatchActionBar();
-
-  showToast(t('toastAddedBatch'), 'success');
-  switchTab('grocery');
-}
-
 // --- Recipe Detail Drawer (Bottom sheet) ---
 function openRecipeDrawer(recipeId) {
-  const recipe = state.recipes.find(r => r.id === recipeId);
+  const recipe = findRecipe(recipeId);
   if (!recipe) return;
 
   state.selectedRecipe = recipe;
-  state.recipeServings = recipe.servings;
+  // A planned dish opens at the plates it is planned for; anything else at
+  // the size of the household.
+  const planned = state.weekPlan.meals.find(m => m.recipeId === recipeId);
+  state.recipeServings = planned ? planned.servings : state.settings.householdSize;
 
   const trans = recipeText(recipe);
   const own = isUserRecipe(recipe);
@@ -1747,6 +2220,8 @@ function openRecipeDrawer(recipeId) {
   document.getElementById('recipe-edit-btn').style.display = own ? 'flex' : 'none';
   document.getElementById('recipe-delete-btn').style.display = own ? 'flex' : 'none';
 
+  renderDrawerAllergens(recipe);
+  renderDrawerPlan();
   updateScaledIngredients();
   renderRecipeInstructions(trans.instructions);
 
@@ -1754,6 +2229,90 @@ function openRecipeDrawer(recipeId) {
   const drawer = document.getElementById('recipe-drawer');
   drawer.classList.add('active');
   trapFocus(drawer);
+}
+
+/** The warning for the table, then the plain facts for anyone else. */
+function renderDrawerAllergens(recipe) {
+  const warning = document.getElementById('drawer-allergy-warning');
+  const contains = document.getElementById('drawer-contains');
+  const clash = clashingAllergens(recipe);
+  const all = recipeAllergens(recipe);
+
+  warning.hidden = clash.length === 0;
+  warning.textContent = clash.length ? `⚠ ${t('allergyWarning', { list: allergenList(clash) })}` : '';
+  contains.textContent = all.length ? t('containsLabel', { list: allergenList(all) }) : t('containsNone');
+
+  if (state.selectedRecipe === recipe) updateScaledIngredients();
+}
+
+/** The seven day chips: which days this dish is on, and which are taken. */
+function renderDrawerPlan() {
+  const recipe = state.selectedRecipe;
+  const picker = document.getElementById('drawer-day-picker');
+  if (!recipe || !picker) return;
+
+  const days = plannedDays(recipe.id);
+  const today = todayIndex();
+
+  let html = '';
+  for (let day = 0; day < DAYS_IN_WEEK; day++) {
+    const on = days.includes(day);
+    const busy = !on && mealsOn(day).length > 0;
+    const picking = state.pickingDay === day;
+    html += `
+      <button type="button" class="day-chip ${on ? 'active' : ''} ${busy ? 'busy' : ''} ${day === today ? 'today' : ''} ${picking ? 'picking' : ''}" data-day="${day}" aria-pressed="${on}"
+              aria-label="${escapeHtml(dayName(day))}">
+        <span class="day-chip-name">${escapeHtml(dayName(day, { short: true }))}</span>
+        <span class="day-chip-date">${dayDate(day).getDate()}</span>
+      </button>
+    `;
+  }
+  picker.innerHTML = html;
+  picker.querySelectorAll('.day-chip').forEach(chip => {
+    chip.addEventListener('click', () => toggleDrawerDay(parseInt(chip.dataset.day, 10)));
+  });
+
+  document.getElementById('drawer-plan-status').textContent = days.length
+    ? t('planStatusOn', { days: days.map(d => dayName(d, { inSentence: true })).join(', ') })
+    : t('planStatusNone');
+}
+
+function toggleDrawerDay(day) {
+  const recipe = state.selectedRecipe;
+  if (!recipe) return;
+
+  const existing = state.weekPlan.meals.find(m => m.recipeId === recipe.id && m.day === day);
+  if (existing) {
+    unplanMeal(existing.id);
+    return;
+  }
+
+  planMeal(recipe.id, day, state.recipeServings);
+  // Came here to fill one day: that is done, so go back and look at it.
+  if (state.pickingDay !== null) {
+    stopPicking();
+    closeRecipeDrawer();
+    switchTab('week');
+  }
+}
+
+/** The drawer's servings stepper also resizes the dish wherever it is planned. */
+function setDrawerServings(n) {
+  state.recipeServings = Math.max(1, n);
+  updateScaledIngredients();
+  const recipe = state.selectedRecipe;
+  if (!recipe) return;
+  let changed = false;
+  state.weekPlan.meals.forEach(m => {
+    if (m.recipeId === recipe.id && m.servings !== state.recipeServings) {
+      m.servings = state.recipeServings;
+      changed = true;
+    }
+  });
+  if (changed) {
+    saveWeekPlan();
+    onWeekChanged();
+  }
 }
 
 /**
@@ -1790,14 +2349,20 @@ function updateScaledIngredients() {
   const container = document.getElementById('drawer-ingredients-list');
   document.getElementById('servings-count').textContent = state.recipeServings;
 
+  const avoid = state.settings.avoid;
   const items = scaledIngredients(state.selectedRecipe, state.recipeServings);
 
-  container.innerHTML = items.map(ing => `
-    <div class="ingredient-row ${ing.staple ? 'is-staple' : ''}">
-      <span class="ingredient-name">${escapeHtml(ingredientName(ing))}</span>
-      <span class="ingredient-qty">${escapeHtml(formatQuantity(ing.amount, ing.unit))}</span>
-    </div>
-  `).join('');
+  // Point at the exact line that someone at the table cannot eat.
+  container.innerHTML = items.map(ing => {
+    const groups = avoid.length ? window.Ingredients.detectGroups([ing]) : {};
+    const clash = avoid.filter(id => groups[id]);
+    return `
+      <div class="ingredient-row ${ing.staple ? 'is-staple' : ''} ${clash.length ? 'is-allergen' : ''}">
+        <span class="ingredient-name">${clash.length ? '⚠ ' : ''}${escapeHtml(ingredientName(ing))}</span>
+        <span class="ingredient-qty">${escapeHtml(formatQuantity(ing.amount, ing.unit))}</span>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderRecipeInstructions(steps) {
@@ -1844,51 +2409,85 @@ function toggleRecipeFavorite() {
 
   saveFavorites();
   renderRecipeGrid();
-  renderHomeTab();
 }
 
 // --- Grocery List Checklist ---
+//
+// The list is not a copy of the week, it is read off it. Plan a dish and its
+// ingredients are on the list; take it off the week and they are gone again.
+// Only two things are stored: what you typed in yourself (state.groceryList)
+// and which of the week's lines you have ticked (state.checkedLines). A line
+// is known by its ingredient and unit, so a tick survives the week changing
+// around it — adding a second dish with onions does not untick the onions.
+
+/** Every line on the list: the week's, merged, then your own. */
+function shoppingItems() {
+  return weekShoppingLines().concat(state.groceryList);
+}
+
+/** Lines still worth walking to: unticked, and not a cupboard basic. */
+function itemsToBuy(items) {
+  return (items || shoppingItems()).filter(i => !i.checked && !i.staple);
+}
+
 function renderGroceryList() {
   const container = document.getElementById('grocery-list-container');
   if (!container) return;
 
-  if (state.groceryList.length === 0) {
+  const items = shoppingItems();
+  const dishes = state.weekPlan.meals.length;
+  const subtitle = document.getElementById('grocery-subtitle');
+  if (subtitle) {
+    subtitle.textContent = dishes > 0 ? t('groceryFromWeek', { count: dishes }) : t('checklistDesc');
+  }
+
+  if (items.length === 0) {
     container.innerHTML = `
       <div class="list-empty">
         <span class="list-empty-icon">📋</span>
         <h4>${escapeHtml(t('emptyListHeader'))}</h4>
         <p>${escapeHtml(t('emptyListDesc'))}</p>
+        <button type="button" class="btn-small btn-primary list-empty-btn" data-goto="week">${escapeHtml(t('planWeekBtn'))}</button>
       </div>
     `;
-    updateProgressHeader();
+    container.querySelectorAll('[data-goto]').forEach(btn => {
+      btn.addEventListener('click', () => switchTab('week'));
+    });
+    updateProgressHeader(items);
+    updateTabBadges();
     return;
   }
 
+  // Cupboard basics get their own group at the very end, so salt and oil
+  // never sit between you and the onions.
+  const CUPBOARD = '__cupboard';
   const groups = {};
-  state.groceryList.forEach(item => {
-    const cat = item.category || window.Ingredients.DEFAULT_AISLE;
-    if (!groups[cat]) groups[cat] = [];
-    groups[cat].push(item);
+  items.forEach(item => {
+    const cat = item.staple ? CUPBOARD : (item.category || window.Ingredients.DEFAULT_AISLE);
+    (groups[cat] = groups[cat] || []).push(item);
   });
 
-  const order = window.Ingredients.AISLES;
-  const sortedCategories = Object.keys(groups).sort((a, b) => {
-    const idxA = order.indexOf(a) === -1 ? 999 : order.indexOf(a);
-    const idxB = order.indexOf(b) === -1 ? 999 : order.indexOf(b);
-    return idxA - idxB;
-  });
+  const order = window.Ingredients.AISLES.concat([CUPBOARD]);
+  const rank = cat => (order.indexOf(cat) === -1 ? order.length - 1.5 : order.indexOf(cat));
+  const sortedCategories = Object.keys(groups).sort((a, b) => rank(a) - rank(b));
 
-  container.innerHTML = sortedCategories.map(cat => `
-    <div class="grocery-category-block">
-      <h4 class="category-header" data-category="${escapeHtml(cat)}">
-        <span class="category-dot"></span>
-        <span>${escapeHtml(aisleLabel(cat))}</span>
-      </h4>
-      <div class="grocery-list-items">
-        ${groups[cat].map(groceryItemHtml).join('')}
+  container.innerHTML = sortedCategories.map(cat => {
+    const isCupboard = cat === CUPBOARD;
+    // What is already in the basket sinks to the bottom of its aisle.
+    const rows = groups[cat].slice().sort((a, b) => Number(a.checked) - Number(b.checked));
+    return `
+      <div class="grocery-category-block ${isCupboard ? 'grocery-cupboard' : ''}">
+        <h4 class="category-header" data-category="${escapeHtml(cat)}">
+          <span class="category-dot"></span>
+          <span>${escapeHtml(isCupboard ? t('cupboardGroup') : aisleLabel(cat))}</span>
+        </h4>
+        ${isCupboard ? `<p class="cupboard-hint">${escapeHtml(t('cupboardHint'))}</p>` : ''}
+        <div class="grocery-list-items">
+          ${rows.map(groceryItemHtml).join('')}
+        </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 
   container.querySelectorAll('.checkbox-wrapper input').forEach(checkbox => {
     checkbox.addEventListener('change', e => toggleGroceryItemCheck(e.target.dataset.id));
@@ -1903,11 +2502,18 @@ function renderGroceryList() {
     });
   });
 
-  updateProgressHeader();
+  container.querySelectorAll('.item-delete-btn').forEach(btn => {
+    btn.addEventListener('click', () => deleteGroceryItem(btn.dataset.id));
+  });
+
+  updateProgressHeader(items);
+  updateTabBadges();
 }
 
 function groceryItemHtml(item) {
   const qty = formatQuantity(item.amount, item.unit);
+  const fromWeek = isWeekLine(item.id);
+  const sources = (item.sources || []).join(', ');
   return `
     <div class="grocery-item" data-id="${escapeHtml(item.id)}">
       <div class="checkbox-wrapper ${item.checked ? 'checked' : ''}">
@@ -1918,63 +2524,13 @@ function groceryItemHtml(item) {
       <div class="item-details ${item.checked ? 'checked' : ''}">
         <span class="item-name">${escapeHtml(item.name)}</span>
         ${qty ? `<span class="item-qty">${escapeHtml(qty)}</span>` : ''}
+        ${sources ? `<span class="item-source">${escapeHtml(t('fromRecipes'))} ${escapeHtml(sources)}</span>` : ''}
       </div>
+      ${fromWeek ? '' : `
+        <button type="button" class="item-delete-btn" data-id="${escapeHtml(item.id)}"
+                aria-label="${escapeHtml(t('removeItem', { name: item.name }))}">&times;</button>`}
     </div>
   `;
-}
-
-/** Staples left out of the list, offered as one-tap additions. */
-function renderSkippedStaples() {
-  const box = document.getElementById('skipped-staples-box');
-  if (!box) return;
-
-  const pending = state.skippedStaples.filter(s => !state.groceryList.some(i => i.key === s.key));
-
-  if (pending.length === 0) {
-    box.style.display = 'none';
-    box.innerHTML = '';
-    return;
-  }
-
-  box.style.display = 'block';
-  box.innerHTML = `
-    <div class="staples-header">
-      <span>${escapeHtml(t('staplesSkipped', { count: pending.length }))}</span>
-      <span class="staples-hint">${escapeHtml(t('staplesHint'))}</span>
-    </div>
-    <div class="staples-chips">
-      ${pending.map(s => `
-        <button type="button" class="staple-chip" data-key="${escapeHtml(s.key)}">
-          + ${escapeHtml(s.name)}
-        </button>
-      `).join('')}
-    </div>
-  `;
-
-  box.querySelectorAll('.staple-chip').forEach(chip => {
-    chip.addEventListener('click', () => addSkippedStaple(chip.dataset.key));
-  });
-}
-
-function addSkippedStaple(key) {
-  const staple = state.skippedStaples.find(s => s.key === key);
-  if (!staple) return;
-
-  state.groceryList.push({
-    id: newItemId(),
-    key: staple.key,
-    name: staple.name,
-    amount: staple.amount,
-    unit: staple.unit,
-    category: staple.category,
-    staple: true,
-    sources: staple.sources || [],
-    checked: false
-  });
-
-  state.skippedStaples = state.skippedStaples.filter(s => s.key !== key);
-  saveGroceryList();
-  renderGroceryList();
 }
 
 /**
@@ -2041,18 +2597,29 @@ function commitQuantityEdit(id, raw) {
 }
 
 function toggleGroceryItemCheck(id) {
-  const item = state.groceryList.find(i => i.id === id);
-  if (!item) return;
-
-  item.checked = !item.checked;
+  let checked;
+  if (isWeekLine(id)) {
+    const at = state.checkedLines.indexOf(id);
+    if (at > -1) state.checkedLines.splice(at, 1);
+    else state.checkedLines.push(id);
+    checked = at === -1;
+  } else {
+    const item = state.groceryList.find(i => i.id === id);
+    if (!item) return;
+    item.checked = !item.checked;
+    checked = item.checked;
+  }
   saveGroceryList();
 
+  // Updated in place rather than re-rendered, so the line does not jump out
+  // from under your thumb in the middle of the shop.
   const itemEl = document.querySelector(`.grocery-item[data-id="${id}"]`);
   if (itemEl) {
-    itemEl.querySelector('.checkbox-wrapper').classList.toggle('checked', item.checked);
-    itemEl.querySelector('.item-details').classList.toggle('checked', item.checked);
+    itemEl.querySelector('.checkbox-wrapper').classList.toggle('checked', checked);
+    itemEl.querySelector('.item-details').classList.toggle('checked', checked);
   }
   updateProgressHeader();
+  updateTabBadges();
 }
 
 function deleteGroceryItem(id) {
@@ -2060,6 +2627,11 @@ function deleteGroceryItem(id) {
   saveGroceryList();
   renderGroceryList();
 }
+
+// Units you might type in front of a name: "500g bloem", "2 kg aardappelen".
+// Anything else in that position is part of the name — "2 rode uien" is two
+// red onions, not two of a unit called "rode".
+const TYPED_UNIT_RE = /^(\d+(?:[.,]\d+)?)\s*(kg|g|ml|cl|dl|l|st\.?|stuks?|pcs|x)?\s+(.+)$/i;
 
 function handleAddCustomGroceryItem(e) {
   e.preventDefault();
@@ -2070,10 +2642,10 @@ function handleAddCustomGroceryItem(e) {
   let name = input.value.trim();
   let amount = null;
   let unit = '';
-  const match = name.match(/^(\d+(?:[.,]\d+)?)\s*([a-z.]+)?\s+(.+)$/i);
+  const match = name.match(TYPED_UNIT_RE);
   if (match) {
     amount = parseFloat(match[1].replace(',', '.'));
-    unit = match[2] || 'st.';
+    unit = match[2] && !/^(st\.?|stuks?|pcs|x)$/i.test(match[2]) ? match[2].toLowerCase() : 'st.';
     name = match[3];
   }
 
@@ -2101,23 +2673,21 @@ function handleAddCustomGroceryItem(e) {
   showToast(t('toastItemAdded', { name: name }), 'success');
 }
 
-function clearCompletedGroceryItems() {
-  if (state.groceryList.filter(i => i.checked).length === 0) return;
-
-  state.groceryList = state.groceryList.filter(i => !i.checked);
-  saveGroceryList();
-  renderGroceryList();
-  showToast(t('toastClearedChecked'), 'success');
-}
-
 /** Plain-text list for the share sheet / clipboard. */
 function groceryListAsText() {
   const order = window.Ingredients.AISLES;
   const groups = {};
-  state.groceryList.forEach(item => {
+  const cupboard = [];
+  shoppingItems().forEach(item => {
+    if (item.staple) { cupboard.push(item); return; }
     const cat = item.category || window.Ingredients.DEFAULT_AISLE;
     (groups[cat] = groups[cat] || []).push(item);
   });
+
+  const line = item => {
+    const qty = formatQuantity(item.amount, item.unit);
+    return `${item.checked ? '[x]' : '[ ]'} ${item.name}${qty ? ' — ' + qty : ''}`;
+  };
 
   const lines = [t('checklistTitle')];
   Object.keys(groups)
@@ -2129,17 +2699,20 @@ function groceryListAsText() {
     .forEach(cat => {
       lines.push('');
       lines.push(aisleLabel(cat));
-      groups[cat].forEach(item => {
-        const qty = formatQuantity(item.amount, item.unit);
-        lines.push(`${item.checked ? '[x]' : '[ ]'} ${item.name}${qty ? ' — ' + qty : ''}`);
-      });
+      groups[cat].forEach(item => lines.push(line(item)));
     });
+
+  if (cupboard.length) {
+    lines.push('');
+    lines.push(`${t('cupboardGroup')} (${t('cupboardHint')})`);
+    cupboard.forEach(item => lines.push(line(item)));
+  }
 
   return lines.join('\n');
 }
 
 async function exportGroceryList() {
-  if (state.groceryList.length === 0) return;
+  if (shoppingItems().length === 0) return;
   const text = groceryListAsText();
 
   try {
@@ -2160,26 +2733,19 @@ async function exportGroceryList() {
   }
 }
 
-function updateProgressHeader() {
-  const total = state.groceryList.length;
-  const checked = state.groceryList.filter(i => i.checked).length;
+function updateProgressHeader(items) {
+  const all = items || shoppingItems();
+  const total = all.length;
+  const checked = all.filter(i => i.checked).length;
   const textEl = document.getElementById('grocery-progress-text');
   const barEl = document.getElementById('grocery-progress-fill');
-  const progressBox = document.getElementById('grocery-progress-box');
-
-  if (total === 0) {
-    if (progressBox) progressBox.style.display = 'none';
-    return;
-  }
-
-  if (progressBox) progressBox.style.display = 'block';
-
-  const percentage = Math.round((checked / total) * 100);
-  if (textEl) textEl.textContent = `${checked} / ${total} ${t('itemsChecked')} (${percentage}%)`;
-  if (barEl) barEl.style.width = `${percentage}%`;
-
   const bar = document.getElementById('grocery-progress-bar');
+
+  const percentage = total === 0 ? 0 : Math.round((checked / total) * 100);
+  if (textEl) textEl.textContent = total === 0 ? '' : t('progressText', { checked: checked, total: total });
+  if (barEl) barEl.style.width = `${percentage}%`;
   if (bar) {
+    bar.hidden = total === 0;
     bar.setAttribute('aria-valuenow', String(percentage));
     bar.setAttribute('aria-valuetext', `${checked} / ${total}`);
   }
@@ -2191,7 +2757,9 @@ function updateProgressHeader() {
 // switching phones or an OS storage eviction would take it all with no copy
 // anywhere, so it has to be exportable.
 
-const BACKUP_FORMAT = 1;
+// Format 2 carries the week instead of a loose selection; a format 1 file
+// still restores, its selection laid out over the week.
+const BACKUP_FORMAT = 2;
 
 function buildBackup() {
   return {
@@ -2201,11 +2769,9 @@ function buildBackup() {
     settings: state.settings,
     userRecipes: state.userRecipes,
     groceryList: state.groceryList,
-    skippedStaples: state.skippedStaples,
+    checkedLines: state.checkedLines,
     favorites: state.favorites,
-    selectedRecipes: state.selectedRecipes,
-    selectedServings: state.selectedServings,
-    savedRecipes: state.savedRecipes
+    weekPlan: state.weekPlan
   };
 }
 
@@ -2238,21 +2804,27 @@ function applyBackup(data) {
   }
 
   state.userRecipes = data.userRecipes;
+  rebuildRecipeIndex(); // the week below may point at restored recipes
   state.groceryList = Array.isArray(data.groceryList) ? data.groceryList : [];
-  state.skippedStaples = Array.isArray(data.skippedStaples) ? data.skippedStaples : [];
+  state.checkedLines = Array.isArray(data.checkedLines) ? data.checkedLines : [];
   state.favorites = Array.isArray(data.favorites) ? data.favorites : [];
-  state.selectedRecipes = Array.isArray(data.selectedRecipes) ? data.selectedRecipes : [];
-  state.selectedServings = (data.selectedServings && typeof data.selectedServings === 'object') ? data.selectedServings : {};
-  state.savedRecipes = Array.isArray(data.savedRecipes) ? data.savedRecipes : [];
   if (data.settings && typeof data.settings === 'object') {
     state.settings = Object.assign({}, state.settings, data.settings);
+    sanitizeProfile();
+  }
+
+  state.weekPlan = normalizeWeekPlan(data.weekPlan);
+  if (!data.weekPlan && Array.isArray(data.selectedRecipes)) {
+    data.selectedRecipes.filter(id => findRecipe(id)).forEach(id => {
+      const servings = data.selectedServings && data.selectedServings[id];
+      state.weekPlan.meals.push(newMeal(id, nextFreeDay(), servings));
+    });
   }
 
   saveUserRecipes();
   saveGroceryList();
   saveFavorites();
-  saveSelection();
-  saveSavedRecipes();
+  saveWeekPlan();
   saveSettings();
   return true;
 }
@@ -2354,13 +2926,10 @@ function deleteSelectedRecipe() {
   const id = state.selectedRecipe.id;
   state.userRecipes = state.userRecipes.filter(r => r.id !== id);
   state.favorites = state.favorites.filter(f => f !== id);
-  state.selectedRecipes = state.selectedRecipes.filter(s => s !== id);
-  state.savedRecipes = state.savedRecipes.filter(s => s !== id);
-  delete state.selectedServings[id];
+  state.weekPlan.meals = state.weekPlan.meals.filter(m => m.recipeId !== id);
   saveUserRecipes();
   saveFavorites();
-  saveSelection();
-  saveSavedRecipes();
+  saveWeekPlan();
 
   closeRecipeDrawer();
   showToast(t('toastRecipeDeleted'), 'info');
@@ -2508,7 +3077,7 @@ function handleCustomRecipeSubmit(e) {
   saveUserRecipes();
   closeRecipeModal();
   renderRecipesList();
-  renderHomeTab();
+  renderWeekTab(); // an edited dish may already be on the week
 }
 
 // --- Developer Tool: Bulk Recipe Simulator (Scale Testing) ---
@@ -2595,7 +3164,6 @@ function generateBulkRecipes() {
 
   showToast(t('toastBulkLoaded'), 'success');
   renderRecipeGrid();
-  renderHomeTab();
 }
 
 // --- Notification Banner ---

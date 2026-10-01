@@ -506,6 +506,12 @@
     eggs: /\beggs?\b|egg yolk|egg white|mayonnaise|mayo\b|meringue|aioli|custard|eieren|eidooier|eiwit|\boeufs?\b|jaune d'oeuf|blanc d'oeuf/i,
     meat: /\bbeef\b|\bpork\b|\blamb\b|chicken|turkey|\bduck\b|\bveal\b|bacon|\bham\b|sausage|salami|chorizo|prosciutto|pancetta|\bmince\b|minced|ground (beef|pork|turkey|lamb)|gehakt|oxtail|\bribs\b|brisket|lardon|gelatin|gelatine|\brund\b|varken|\bkip\b|kalkoen|worst|\bspek\b|\bhesp\b|\bvlees\b|stoofvlees|carbonnade|\bboeuf\b|\bporc\b|poulet|jambon|saucisse|viande|agneau|rasher|chuck|\bloin\b|cutlet|rabbit|konijn|lapin|venison|hert|gibier|game bird|goose|gans|\boie\b|pheasant|fazant|liver|lever|foie|kidney|nier|\brognon/i,
     fish: /\bfish\b|salmon|\btuna\b|\bcod\b|anchov|sardine|herring|mackerel|trout|shrimp|prawn|\bcrab\b|lobster|mussel|\bclam\b|oyster|squid|calamari|scallop|seafood|\bvis\b|\bzalm\b|tonijn|garnaal|garnalen|mossel|\bkrab\b|kabeljauw|haring|poisson|saumon|\bthon\b|crevette|moule|hu[iî]tre|\beel\b|\bpaling\b|anguille|pike|snoek|brochet|perch|baars|sole\b|tongschar|turbot|tarbot|whelk|wulk|shrimps/i,
+    // Four more of the EU's fourteen declared allergens. They only feed the
+    // household allergy profile in the app; no stored diet flag reads them.
+    soy: /\bsoy|\bsoja|tofu|tempeh|edamame|\bmiso\b|\btamari\b/i,
+    sesame: /sesame|\bsesam|tahin|s[eé]same|halva/i,
+    celery: /celery|celeriac|selder|c[eé]leri/i,
+    mustard: /mustard|mosterd|moutarde/i,
     honey: /\bhoney\b|honing|\bmiel\b/i,
     sugar: /sugar|syrup|molasses|maple|suiker|siroop|\bsucre\b|sirop|\bjam\b|jelly|confiture|chocolate|chocolade|chocolat|honey|honing|\bmiel\b/i,
     highCarb: /\bflour\b|bread|pasta|spaghetti|macaroni|noodle|\brice\b|potato|\bcorn\b|maize|sugar|\boats?\b|couscous|quinoa|tortilla|banana|\bbloem\b|brood|rijst|aardappel|suiker|\bma[iï]s\b|farine|\bpain\b|\briz\b|pomme de terre|\bsucre\b/i,

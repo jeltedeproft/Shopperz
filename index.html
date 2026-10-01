@@ -42,8 +42,8 @@
   -->
   <link rel="preload" href="fonts/archivo-black-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/work-sans-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="fonts/fonts.css?v=25">
-  <link rel="stylesheet" href="style.css?v=25">
+  <link rel="stylesheet" href="fonts/fonts.css?v=26">
+  <link rel="stylesheet" href="style.css?v=26">
 </head>
 <body>
 
@@ -65,45 +65,48 @@
     <!-- Scrollable Main App Content -->
     <main class="app-content">
 
-      <!-- ================= DISCOVER (HOME) TAB ================= -->
-      <section id="home-panel" class="tab-panel active-panel">
+      <!-- ================= THIS WEEK (HOME) TAB ================= -->
+      <!--
+        The front door of the app is the week, not a pile of suggestions:
+        plan the dinners, and the shopping list writes itself from them.
+      -->
+      <section id="week-panel" class="tab-panel active-panel">
         <header>
-          <div class="header-top">
-            <div class="app-logo">
-              <div class="app-logo-icon">🍳</div>
-              <div class="app-title-group">
-                <h1 data-translate="appTitle">Mijn Kookpot</h1>
-                <p data-translate="appSubtitle">Belgian home cooking, and the shopping to go with it</p>
-              </div>
-            </div>
-          </div>
+          <h1 class="panel-title" data-translate="weekTitle">This week</h1>
+          <p class="panel-subtitle" id="week-range"></p>
         </header>
 
-        <!-- Fresh random suggestions on every app visit -->
-        <div class="section-header">
-          <h2 class="section-title" data-translate="randomPicksTitle">A few ideas</h2>
-          <button type="button" id="refresh-home-recipes" class="section-link" data-translate="shuffleBtn">New ideas</button>
-        </div>
-        <div class="recipe-grid" id="home-recipe-grid"></div>
-
-        <!-- Category randomizer -->
-        <section class="randomizer-card" aria-labelledby="randomizer-title">
-          <h2 id="randomizer-title" class="section-title" data-translate="randomizerTitle">Surprise me</h2>
-          <p data-translate="randomizerDesc">Pick a moment and get one completely random recipe.</p>
-          <div id="randomizer-categories" class="randomizer-categories"></div>
-          <button type="button" id="random-recipe-btn" class="random-recipe-btn" data-translate="randomizerBtn">Give me a recipe</button>
+        <!-- First run: ask about allergies before suggesting a single dish -->
+        <section id="profile-prompt" class="profile-prompt" aria-labelledby="profile-prompt-title" hidden>
+          <h2 id="profile-prompt-title" class="profile-prompt-title" data-translate="profilePromptTitle">Before we start: does anyone at your table avoid something?</h2>
+          <p class="profile-prompt-desc" data-translate="profilePromptDesc">Tap what to keep off the plate. I'll leave those dishes out everywhere — you can change it later in Settings.</p>
+          <div class="allergen-pills" data-profile-pills="avoid"></div>
+          <button type="button" id="profile-prompt-done" class="btn-block btn-primary" data-translate="profilePromptDone">That's everyone</button>
         </section>
 
-        <section id="saved-recipes-section" class="saved-recipes-section" hidden>
-          <div class="section-header">
-            <div>
-              <h2 class="section-title" data-translate="savedRecipesTitle">Recipes for after shopping</h2>
-              <p class="section-caption" data-translate="savedRecipesDesc">The dishes whose ingredients you added</p>
-            </div>
-            <button type="button" id="clear-saved-recipes" class="section-link section-link-danger" data-translate="clearRecipesBtn">Clear</button>
+        <!-- Shown once the profile is set: a quiet reminder of what is filtered -->
+        <button type="button" id="week-profile-strip" class="profile-strip" data-translate="profileStripNone" hidden>No allergies set — tap to add some</button>
+
+        <!-- Last week's menu is still here -->
+        <div id="week-stale-banner" class="stale-banner" role="status" hidden>
+          <p data-translate="staleWeekText">This is still last week's menu.</p>
+          <div class="stale-banner-actions">
+            <button type="button" id="week-start-fresh" class="btn-small btn-primary" data-translate="staleWeekFresh">Start a fresh week</button>
+            <button type="button" id="week-keep" class="btn-small btn-secondary" data-translate="staleWeekKeep">Keep these dishes</button>
           </div>
-          <div class="recipe-grid" id="saved-recipe-grid"></div>
-        </section>
+        </div>
+
+        <div class="week-summary">
+          <span id="week-summary-text" class="week-summary-text"></span>
+          <button type="button" id="week-fill-btn" class="btn-small btn-gold" data-translate="fillWeekBtn">🎲 Fill the empty days</button>
+        </div>
+
+        <ol id="week-days" class="week-days"></ol>
+
+        <div class="week-footer">
+          <button type="button" id="week-to-list-btn" class="btn-block btn-primary" data-translate="toListEmpty">Shopping list</button>
+          <button type="button" id="week-clear-btn" class="section-link section-link-danger" data-translate="clearWeekBtn">Clear the week</button>
+        </div>
       </section>
 
       <!-- ================= RECIPES TAB ================= -->
@@ -113,6 +116,12 @@
           <p class="panel-subtitle" data-translate="recipeBookDesc">Everything in here is worth cooking twice</p>
         </header>
 
+        <!-- Arrived here from an empty day on the week: say which one -->
+        <div id="picking-banner" class="picking-banner" role="status" hidden>
+          <span id="picking-banner-text"></span>
+          <button type="button" id="picking-cancel-btn" class="section-link" data-translate="cancelBtn">Never mind</button>
+        </div>
+
         <!-- Search bar & Filter Trigger -->
         <div class="search-container search-with-filter">
           <div class="search-grow">
@@ -120,60 +129,37 @@
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
-            <input type="text" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="What do you feel like cooking?">
+            <input type="search" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="What do you feel like cooking?">
           </div>
-          <button type="button" id="recipe-filter-toggle-btn" class="filter-toggle-btn" title="Filters" aria-label="Filters" aria-expanded="false" aria-controls="recipe-filter-tray">
+          <button type="button" id="recipe-filter-toggle-btn" class="filter-toggle-btn" aria-label="Allergies and diets" aria-expanded="false" aria-controls="recipe-filter-tray">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
             </svg>
+            <span id="filter-count" class="filter-count" hidden></span>
           </button>
         </div>
 
-        <!-- Sliding Expandable Filter Tray -->
-        <div id="recipe-filter-tray" class="filter-tray" style="display: none;">
+        <!--
+          The tray edits the same household profile as Settings. There is one
+          list of allergies in the app, not a profile plus a second set of
+          filters that quietly forget themselves.
+        -->
+        <div id="recipe-filter-tray" class="filter-tray" hidden>
+          <div class="filter-group">
+            <span class="filter-group-title" data-translate="avoidLabel">Keep off the plate</span>
+            <div class="allergen-pills" data-profile-pills="avoid"></div>
+          </div>
           <div class="filter-group">
             <span class="filter-group-title" data-translate="dietFilterLabel">Eating habits</span>
-            <div class="filter-pill-row">
-              <label class="filter-pill-label">
-                <input type="checkbox" class="diet-filter-cb" value="vegetarian">
-                <span data-translate="dietVegetarian">Vegetarian</span>
-              </label>
-              <label class="filter-pill-label">
-                <input type="checkbox" class="diet-filter-cb" value="vegan">
-                <span data-translate="dietVegan">Vegan</span>
-              </label>
-              <label class="filter-pill-label">
-                <input type="checkbox" class="diet-filter-cb" value="candida">
-                <span data-translate="dietCandida">Candida</span>
-              </label>
-              <label class="filter-pill-label">
-                <input type="checkbox" class="diet-filter-cb" value="keto">
-                <span data-translate="dietKeto">Keto</span>
-              </label>
-            </div>
-          </div>
-          <div class="filter-group">
-            <span class="filter-group-title" data-translate="intoleranceFilterLabel">Things to leave out</span>
-            <div class="filter-pill-row">
-              <label class="filter-pill-label">
-                <input type="checkbox" class="intol-filter-cb" value="gluten">
-                <span data-translate="intolGluten">No gluten</span>
-              </label>
-              <label class="filter-pill-label">
-                <input type="checkbox" class="intol-filter-cb" value="nuts">
-                <span data-translate="intolNuts">No nuts</span>
-              </label>
-              <label class="filter-pill-label">
-                <input type="checkbox" class="intol-filter-cb" value="dairy">
-                <span data-translate="intolDairy">No dairy</span>
-              </label>
-              <label class="filter-pill-label">
-                <input type="checkbox" class="intol-filter-cb" value="eggs">
-                <span data-translate="intolEggs">No eggs</span>
-              </label>
-            </div>
+            <div class="allergen-pills" data-profile-pills="diets"></div>
             <p class="filter-disclaimer" data-translate="allergenDisclaimer">I work this out from the ingredient list, so do read the recipe over yourself if an allergy is a serious one. Better to have looked twice.</p>
           </div>
+        </div>
+
+        <!-- What the profile is hiding, and a way to see it anyway -->
+        <div id="safety-note" class="safety-note" hidden>
+          <span id="safety-note-text"></span>
+          <button type="button" id="safety-toggle-btn" class="section-link">Show them anyway</button>
         </div>
 
         <!-- Horizontal Categories Scroller -->
@@ -182,20 +168,8 @@
         <!-- Recipes Grid -->
         <div class="recipe-grid recipe-grid-tab" id="recipes-tab-grid"></div>
 
-        <!-- Servings per selected recipe, expanded from the batch bar -->
-        <div id="batch-servings-panel" class="batch-servings-panel"></div>
-
-        <!-- Floating Batch Action Bar -->
-        <div id="recipe-batch-bar" class="batch-action-bar">
-          <button type="button" id="batch-bar-toggle" class="batch-bar-toggle">
-            <span id="batch-bar-text">Selected: 0 recipes</span>
-            <span class="batch-bar-caret" aria-hidden="true">▲</span>
-          </button>
-          <button id="batch-convert-btn" class="btn-small btn-primary batch-btn" data-translate="batchGenerateBtn">Make my list</button>
-        </div>
-
         <!-- Floating Add Recipe Button (FAB) -->
-        <button class="fab-btn" id="add-recipe-fab" title="Create Custom Recipe" aria-label="Create Custom Recipe">
+        <button class="fab-btn" id="add-recipe-fab" aria-label="Write down your own recipe">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
             <line x1="12" y1="5" x2="12" y2="19"></line>
             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -207,14 +181,14 @@
       <section id="grocery-panel" class="tab-panel">
         <header>
           <h1 class="panel-title" data-translate="checklistTitle">The shopping list</h1>
-          <p class="panel-subtitle" data-translate="checklistDesc">In the order you walk the shop, so you never double back</p>
+          <p class="panel-subtitle" id="grocery-subtitle"></p>
         </header>
 
         <div id="grocery-panel-wrapper">
           <div class="list-controls">
-            <span class="list-controls-label" data-translate="allItems">Everything</span>
+            <span class="list-controls-label" id="grocery-progress-text"></span>
             <div class="list-controls-actions">
-              <button id="export-grocery-btn" class="clear-btn" title="Share list">
+              <button id="export-grocery-btn" class="clear-btn">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
                   <polyline points="16 6 12 2 8 6"></polyline>
@@ -222,18 +196,15 @@
                 </svg>
                 <span data-translate="exportBtn">Send the list</span>
               </button>
-              <button id="clear-grocery-btn" class="clear-btn" title="Remove checked items">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M3 6h18m-2 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-                </svg>
-                <span data-translate="clearCheckedBtn">Clear the ticked</span>
-              </button>
             </div>
+          </div>
+          <div class="progress-bar-bg" role="progressbar" id="grocery-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="grocery-progress-fill" class="progress-bar-fill"></div>
           </div>
 
           <!-- Add custom item form -->
           <form id="add-grocery-item-form" class="add-item-form">
-            <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="Something else? Witloof, say…">
+            <input type="text" id="new-grocery-item-input" class="add-item-input" data-translate-placeholder="customItemPlaceholder" placeholder="Something else? 2 witloof, say…">
             <button type="submit" class="add-item-btn" aria-label="Add item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -253,6 +224,37 @@
           <h1 class="panel-title" data-translate="prefTitle">Settings</h1>
           <p class="panel-subtitle" data-translate="prefDesc">Set things up the way you like them</p>
         </header>
+
+        <!-- The household: who eats, and what they cannot -->
+        <div class="settings-group" id="settings-table-group">
+          <div class="settings-group-title" data-translate="tableGroupTitle">At your table</div>
+          <div class="settings-row">
+            <div>
+              <div class="settings-label" data-translate="householdLabel">How many of you eat?</div>
+              <div class="settings-desc" data-translate="householdDesc">Every dish you plan starts at this many plates</div>
+            </div>
+            <div class="servings-controls">
+              <button type="button" id="household-minus" class="servings-btn" aria-label="Fewer people">-</button>
+              <div id="household-count" class="servings-count" aria-live="polite">4</div>
+              <button type="button" id="household-plus" class="servings-btn" aria-label="More people">+</button>
+            </div>
+          </div>
+          <div class="settings-row settings-row-stacked">
+            <div>
+              <div class="settings-label" data-translate="avoidLabel">Keep off the plate</div>
+              <div class="settings-desc" data-translate="avoidDesc">Dishes with these are left out of the book and the suggestions, and flagged if you look anyway</div>
+            </div>
+            <div class="allergen-pills" data-profile-pills="avoid"></div>
+          </div>
+          <div class="settings-row settings-row-stacked">
+            <div>
+              <div class="settings-label" data-translate="dietFilterLabel">Eating habits</div>
+              <div class="settings-desc" data-translate="dietDesc">Only show dishes that fit</div>
+            </div>
+            <div class="allergen-pills" data-profile-pills="diets"></div>
+          </div>
+          <p class="filter-disclaimer settings-disclaimer" data-translate="allergenDisclaimer">I work this out from the ingredient list, so do read the recipe over yourself if an allergy is a serious one. Better to have looked twice.</p>
+        </div>
 
         <!-- Language Preference -->
         <div class="settings-group">
@@ -393,8 +395,36 @@
         <div class="drawer-title-section">
           <span id="drawer-subtitle" class="drawer-subtitle">Category</span>
           <h2 id="drawer-title" class="drawer-title">Recipe Title</h2>
-          <div id="drawer-description" class="drawer-description">Description paragraph</div>
         </div>
+
+        <!-- Someone at the table cannot eat this: say so before anything else -->
+        <div id="drawer-allergy-warning" class="allergy-warning" role="alert" hidden></div>
+        <p id="drawer-contains" class="drawer-contains"></p>
+
+        <!--
+          The one thing to do with a recipe: put it on a day of the week. It
+          sits straight under the title so it is on screen without scrolling.
+        -->
+        <div class="plan-box">
+          <div class="plan-box-head">
+            <span class="plan-box-title" data-translate="planOnLabel">Cook it on…</span>
+            <span id="drawer-plan-status" class="plan-box-status"></span>
+          </div>
+          <div id="drawer-day-picker" class="day-picker" role="group" aria-label="Day of the week"></div>
+          <div class="servings-scale-box">
+            <div class="servings-scale-text">
+              <span data-translate="servingsLabel">How many at the table?</span>
+              <span data-translate="servingsDesc" class="servings-desc">Everything below adjusts itself</span>
+            </div>
+            <div class="servings-controls">
+              <button type="button" id="servings-minus" class="servings-btn" aria-label="Fewer servings">-</button>
+              <div id="servings-count" class="servings-count" aria-live="polite">4</div>
+              <button type="button" id="servings-plus" class="servings-btn" aria-label="More servings">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="drawer-description" class="drawer-description">Description paragraph</div>
 
         <div class="drawer-meta-badges">
           <div class="meta-badge-item">
@@ -411,29 +441,10 @@
           </div>
         </div>
 
-        <div class="servings-scale-box">
-          <div class="servings-scale-text">
-            <span data-translate="servingsLabel">How many at the table?</span>
-            <span data-translate="servingsDesc" class="servings-desc">Everything below adjusts itself</span>
-          </div>
-          <div class="servings-controls">
-            <button type="button" id="servings-minus" class="servings-btn" aria-label="Fewer servings">-</button>
-            <div id="servings-count" class="servings-count" aria-live="polite">4</div>
-            <button type="button" id="servings-plus" class="servings-btn" aria-label="More servings">+</button>
-          </div>
-        </div>
-
         <div class="drawer-section-title">
           <span data-translate="ingredientsTitle">What you'll need</span>
         </div>
         <div id="drawer-ingredients-list" class="drawer-ingredient-list"></div>
-
-        <button id="add-ing-to-list-btn" class="add-ingredients-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 5v14M5 12h14"></path>
-          </svg>
-          <span data-translate="addIngredientsBtn">Put this on my shopping list</span>
-        </button>
 
         <div class="drawer-section-title drawer-section-title-row">
           <span data-translate="instructionsTitle">How it's done</span>
@@ -607,13 +618,17 @@
     </div>
 
     <!-- ================= BOTTOM TAB NAVIGATION BAR ================= -->
+    <!-- Left to right is the order you use them in: plan, pick, shop. -->
     <nav class="tab-bar">
-      <button type="button" class="tab-item active" data-tab="home" aria-current="page">
+      <button type="button" class="tab-item active" data-tab="week" aria-current="page">
         <svg viewBox="0 0 24 24">
-          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        <span data-translate="discover">Today</span>
+        <span data-translate="weekTab">Week</span>
+        <span id="tab-badge-week" class="tab-badge" hidden></span>
       </button>
 
       <button type="button" class="tab-item" data-tab="recipes">
@@ -630,6 +645,7 @@
           <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
         </svg>
         <span data-translate="checklist">Shopping</span>
+        <span id="tab-badge-grocery" class="tab-badge" hidden></span>
       </button>
 
       <button type="button" class="tab-item" data-tab="settings">
@@ -643,18 +659,10 @@
 
   </div>
 
-  <script src="ingredients.js?v=25"></script>
-  <script src="recipes.js?v=25"></script>
-  <script src="app.js?v=25"></script>
+  <script src="ingredients.js?v=26"></script>
+  <script src="recipes.js?v=26"></script>
+  <script src="app.js?v=26"></script>
   <script>
-    // Live update of the simulated phone status bar clock
-    function updateClock() {
-      const now = new Date();
-      const minutes = String(now.getMinutes()).padStart(2, '0');
-      document.getElementById('phone-time').textContent = now.getHours() + ':' + minutes;
-    }
-    setInterval(updateClock, 30000);
-    updateClock();
 
     // Offline support: the whole app is cached so it works inside the shop.
     //

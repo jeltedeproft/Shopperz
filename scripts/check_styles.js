@@ -49,7 +49,7 @@ const defined = new Set();
 [...cssNoComments.matchAll(/\.([a-zA-Z][a-zA-Z0-9_-]*)/g)].forEach(m => defined.add(m[1]));
 
 // Hooks the code queries but that carry no styling of their own.
-const JS_ONLY = new Set(['diet-filter-cb', 'intol-filter-cb', 'recipe-diet-cb', 'toast-text']);
+const JS_ONLY = new Set(['recipe-diet-cb', 'toast-text']);
 JS_ONLY.forEach(c => defined.add(c));
 
 const ids = new Set([...html.matchAll(/id="([^"]+)"/g)].map(m => m[1]));

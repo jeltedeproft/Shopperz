@@ -2,9 +2,9 @@
  * Dependency-free smoke test.
  *
  * Runs app.js against a minimal DOM stand-in and exercises the real user
- * flows: boot, switch language, filter, open a recipe, scale servings, build a
- * grocery list, merge duplicates, skip staples, export, create/edit/delete a
- * custom recipe. It is not a browser — it catches crashes, bad data handling
+ * flows: boot, switch language, filter, open a recipe, scale servings, plan a
+ * week, read the shopping list off it, merge duplicates, keep allergens off
+ * the plate, export, create/edit/delete a custom recipe. It is not a browser — it catches crashes, bad data handling
  * and logic regressions, not layout.
  *
  *   node scripts/smoke_test.js
@@ -262,56 +262,137 @@ const odd = sandbox.scaledIngredients(recipe, recipe.servings + 1).find(i => i.k
 check('non-integer scaling rounds up', Number.isInteger(odd.amount), String(odd.amount));
 
 console.log('\nGrocery list merging');
-state.groceryList = [];
-state.skippedStaples = [];
-state.settings.skipStaples = true;
-sandbox.addItemsToGroceryList(sandbox.scaledIngredients(recipe, recipe.servings), 'Stoofvlees');
-const firstCount = state.groceryList.length;
+const onionRow = amount => ({ key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount, unit: 'st.', category: 'Groenten & Fruit', staple: false });
+let lines = sandbox.mergeIngredients([], sandbox.scaledIngredients(recipe, recipe.servings), 'Stoofvlees');
+const firstCount = lines.length;
 check('items added', firstCount > 0, String(firstCount));
-check('staples were skipped', state.skippedStaples.length >= 0);
-
-sandbox.addItemsToGroceryList(sandbox.scaledIngredients(recipe, recipe.servings), 'Stoofvlees round 2');
-check('same recipe twice does not duplicate rows', state.groceryList.length === firstCount,
-  `${firstCount} -> ${state.groceryList.length}`);
-const mergedOnion = state.groceryList.find(i => i.key === 'onion');
+sandbox.mergeIngredients(lines, sandbox.scaledIngredients(recipe, recipe.servings), 'Stoofvlees round 2');
+check('same recipe twice does not duplicate rows', lines.length === firstCount,
+  `${firstCount} -> ${lines.length}`);
+const mergedOnion = lines.find(i => i.key === 'onion');
 check('amounts summed on merge', mergedOnion && mergedOnion.amount === onion.amount * 2,
   mergedOnion ? String(mergedOnion.amount) : 'missing');
 check('provenance recorded', mergedOnion && mergedOnion.sources.length === 2,
   mergedOnion ? mergedOnion.sources.join(', ') : 'missing');
 
 console.log('\nUnit mismatch must never drop an ingredient');
-const before = state.groceryList.length;
-sandbox.addItemsToGroceryList([
+const before = lines.length;
+sandbox.mergeIngredients(lines, [
   { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 200, unit: 'g', category: 'Groenten & Fruit', staple: false }
 ], 'Soup');
-check('different unit becomes its own row', state.groceryList.length === before + 1,
-  `${before} -> ${state.groceryList.length}`);
+check('different unit becomes its own row', lines.length === before + 1,
+  `${before} -> ${lines.length}`);
+
+console.log('\nThe week');
+const resetWeek = () => {
+  state.weekPlan = { weekStart: ctx('currentWeekStart()'), meals: [] };
+  state.checkedLines = [];
+  state.groceryList = [];
+};
+resetWeek();
+check('a week starts on a Monday', ctx('parseIsoDate(currentWeekStart()).getDay()') === 1,
+  ctx('currentWeekStart()'));
+const meal = sandbox.planMeal('carbonnade-flamande', 2, recipe.servings);
+check('planning puts the dish on that day', state.weekPlan.meals.length === 1 && meal.day === 2);
+check('the planned dish lands on the shopping list',
+  sandbox.weekShoppingLines().some(l => l.key === 'onion'));
+sandbox.setMealServings(meal.id, recipe.servings * 2);
+const doubled = sandbox.weekShoppingLines().find(l => l.key === 'onion');
+check('the list follows the plates on the week', doubled && doubled.amount === onion.amount * 2,
+  doubled ? `${onion.amount} -> ${doubled.amount}` : 'missing');
+sandbox.planMeal('carbonnade-flamande', 4, recipe.servings);
+check('two planned dishes merge into one line',
+  sandbox.weekShoppingLines().filter(l => l.key === 'onion' && l.unit === onion.unit).length === 1);
+
+const onionLine = sandbox.weekShoppingLines().find(l => l.key === 'onion');
+sandbox.toggleGroceryItemCheck(onionLine.id);
+check('a week line can be ticked', sandbox.weekShoppingLines().find(l => l.id === onionLine.id).checked);
+sandbox.planMeal('moules-frites', 5);
+check('the tick survives the week changing around it',
+  sandbox.weekShoppingLines().find(l => l.id === onionLine.id).checked);
+
+sandbox.unplanMeal(state.weekPlan.meals.find(m => m.day === 4).id);
+sandbox.unplanMeal(meal.id);
+check('taking a dish off the week takes its ingredients off the list',
+  !sandbox.weekShoppingLines().some(l => (l.sources || []).includes(sandbox.recipeText(recipe).title)));
+
+resetWeek();
+state.settings.householdSize = 3;
+const defaultMeal = sandbox.planMeal('moules-frites', 0);
+check('a new dish starts at the household size', defaultMeal.servings === 3, String(defaultMeal.servings));
+state.settings.householdSize = 4;
+
+resetWeek();
+const today = ctx('todayIndex()');
+check('today is somewhere in the current week', today >= 0 && today < 7, String(today));
+sandbox.planMeal('moules-frites', today);
+check('the next free day skips a day that has a dish', ctx('nextFreeDay()') !== today);
+sandbox.fillEmptyDays();
+const daysFromToday = 7 - today;
+check('filling the week gives every day from today on a dish',
+  new Set(state.weekPlan.meals.map(m => m.day)).size === daysFromToday,
+  `${new Set(state.weekPlan.meals.map(m => m.day)).size} of ${daysFromToday}`);
+check('filling never repeats a dish',
+  new Set(state.weekPlan.meals.map(m => m.recipeId)).size === state.weekPlan.meals.length);
+
+resetWeek();
+state.weekPlan.weekStart = '2020-01-06';
+state.weekPlan.meals.push(ctx('newMeal("moules-frites", 1, 4)'));
+check('a menu from an earlier week is noticed', ctx('isStaleWeek()') === true);
+state.groceryList.push({ id: 'item-x', key: 'witloof', name: 'witloof', amount: null, unit: '', category: 'Groenten & Fruit', staple: false, sources: [], checked: false });
+state.groceryList.push({ id: 'item-y', key: 'bier', name: 'bier', amount: null, unit: '', category: 'Bieren & Dranken', staple: false, sources: [], checked: true });
+sandbox.startFreshWeek();
+check('starting fresh empties the week', state.weekPlan.meals.length === 0 && !ctx('isStaleWeek()'));
+check('starting fresh keeps what you wrote down and had not bought yet',
+  state.groceryList.length === 1 && state.groceryList[0].name === 'witloof');
+
+resetWeek();
+state.weekPlan.weekStart = '2020-01-06';
+state.weekPlan.meals.push(ctx('newMeal("moules-frites", 1, 4)'));
+sandbox.keepLastWeek();
+check('keeping last week moves its dishes into this one',
+  state.weekPlan.meals.length === 1 && state.weekPlan.weekStart === ctx('currentWeekStart()'));
+
+console.log('\nThe week survives a restart');
+resetWeek();
+sandbox.planMeal('moules-frites', 1);
+sandbox.planMeal('vol-au-vent', 3);
+state.weekPlan.meals.push({ id: 'ghost', recipeId: 'recipe-that-no-longer-exists', day: 2, servings: 4 });
+sandbox.saveWeekPlan();
+ctx('initApp()');
+check('the week is restored after a reload', state.weekPlan.meals.length === 2,
+  state.weekPlan.meals.map(m => m.recipeId).join(', '));
+check('a dish whose recipe is gone is dropped', !state.weekPlan.meals.some(m => m.id === 'ghost'));
+
+delete store.belgian_week_plan;
+store.belgian_selected_recipes = JSON.stringify({ ids: ['moules-frites', 'vol-au-vent'], servings: { 'vol-au-vent': 6 } });
+ctx('initApp()');
+check('an old selection is laid out over the week', state.weekPlan.meals.length === 2,
+  String(state.weekPlan.meals.length));
+check('its servings come along',
+  (state.weekPlan.meals.find(m => m.recipeId === 'vol-au-vent') || {}).servings === 6);
+check('the old selection key is gone', !('belgian_selected_recipes' in store));
 
 console.log('\nPantry staples');
-state.groceryList = [];
-state.skippedStaples = [];
+resetWeek();
 const withStaples = [
   { key: 'salt', name: { en: 'salt', nl: 'zout', fr: 'sel' }, amount: null, unit: 'to taste', category: 'Kruiden & Specerijen', staple: true },
-  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 2, unit: 'st.', category: 'Groenten & Fruit', staple: false }
+  onionRow(2)
 ];
-sandbox.addItemsToGroceryList(withStaples, 'Test');
-check('staple kept off the list', !state.groceryList.some(i => i.key === 'salt'));
-check('staple offered as a chip', state.skippedStaples.some(s => s.key === 'salt'));
-sandbox.addSkippedStaple('salt');
-check('staple can be added back', state.groceryList.some(i => i.key === 'salt'));
-
-state.groceryList = [];
-state.skippedStaples = [];
-state.settings.skipStaples = false;
-sandbox.addItemsToGroceryList(withStaples, 'Test');
-check('toggle off means staples are included', state.groceryList.some(i => i.key === 'salt'));
+lines = sandbox.mergeIngredients([], withStaples, 'Test');
+check('a staple stays on the list, marked as one', lines.some(i => i.key === 'salt' && i.staple));
+state.groceryList = lines.map((l, i) => Object.assign({}, l, { id: 'item-' + i }));
+const stapleText = sandbox.groceryListAsText();
+check('cupboard basics come last, after the shop itself',
+  stapleText.indexOf('zout') > stapleText.indexOf(' ui'), stapleText.split('\n').filter(Boolean).join(' / '));
+check('a cupboard basic is not counted as something to buy',
+  ctx('itemsToBuy()').length === 1, String(ctx('itemsToBuy()').length));
 
 console.log('\nAisle grouping');
-state.groceryList = [];
-sandbox.addItemsToGroceryList([
+state.groceryList = sandbox.mergeIngredients([], [
   { key: 'beer', name: { en: 'beer', nl: 'bier', fr: 'bière' }, amount: 1, unit: 'bottle', category: 'Bieren & Dranken', staple: false },
-  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 1, unit: 'st.', category: 'Groenten & Fruit', staple: false }
-], 'Order test');
+  onionRow(1)
+], 'Order test').map((l, i) => Object.assign({}, l, { id: 'item-' + i }));
 const grouped = sandbox.groceryListAsText();
 check('produce comes before drinks, whatever order they went in',
   grouped.indexOf('roenten') < grouped.indexOf('ranken') ||
@@ -322,6 +403,68 @@ console.log('\nExport');
 const text = sandbox.groceryListAsText();
 check('export lists items', text.includes('onion') || text.includes('ui'), text.split('\n')[2]);
 check('export groups by aisle', text.split('\n').length > 3);
+
+console.log('\nAllergies');
+resetWeek();
+state.settings.avoid = [];
+state.settings.diets = [];
+state.filters.category = 'all';
+state.filters.query = '';
+state.filters.favoritesOnly = false;
+state.filters.showUnsafe = false;
+const everything = sandbox.filteredRecipes().length;
+check('every recipe shows with no profile', everything === state.recipes.length,
+  `${everything} of ${state.recipes.length}`);
+const waffles = state.recipes.find(r => sandbox.recipeAllergens(r).includes('gluten'));
+check('gluten is found in a recipe that has flour in it', !!waffles);
+
+sandbox.toggleProfileValue('avoid', 'gluten');
+check('the profile remembers what to avoid', state.settings.avoid.includes('gluten'));
+check('the profile is saved', JSON.parse(store.belgian_app_settings).avoid.includes('gluten'));
+const glutenFree = sandbox.filteredRecipes();
+check('the book hides dishes with an avoided allergen',
+  glutenFree.length < everything && glutenFree.every(r => !sandbox.recipeAllergens(r).includes('gluten')),
+  `${glutenFree.length} left`);
+check('the stored gluten-free flag agrees with what is shown',
+  glutenFree.every(r => r.isGlutenFree));
+state.filters.showUnsafe = true;
+check('"show them anyway" brings them back', sandbox.filteredRecipes().length === everything);
+state.filters.showUnsafe = false;
+
+for (let i = 0; i < 10; i++) {
+  const suggestion = sandbox.suggestRecipe([]);
+  if (suggestion && sandbox.recipeAllergens(suggestion).includes('gluten')) {
+    check('a suggestion never has an avoided allergen', false, suggestion.id);
+    break;
+  }
+  if (i === 9) check('a suggestion never has an avoided allergen', true);
+}
+sandbox.fillEmptyDays();
+check('filling the week respects the profile', state.weekPlan.meals.length > 0 &&
+  state.weekPlan.meals.every(m => !sandbox.recipeAllergens(sandbox.findRecipe(m.recipeId)).includes('gluten')));
+
+sandbox.openRecipeDrawer(waffles.id);
+check('the drawer warns about a dish someone cannot eat',
+  elementsById['drawer-allergy-warning'].hidden === false &&
+  /gluten/i.test(elementsById['drawer-allergy-warning'].textContent),
+  elementsById['drawer-allergy-warning'].textContent);
+check('the drawer points at the offending ingredient',
+  elementsById['drawer-ingredients-list'].innerHTML.includes('is-allergen'));
+sandbox.closeRecipeDrawer();
+
+sandbox.toggleProfileValue('diets', 'vegetarian');
+check('a diet narrows the book to dishes that fit',
+  sandbox.filteredRecipes().every(r => r.isVegetarian));
+state.settings.diets = [];
+state.settings.avoid = [];
+
+state.settings.avoid = ['soy'];
+const tamarind = state.recipes.filter(r => r.ingredients.some(i => /tamarind/i.test(i.name.en)));
+check('tamarind is not mistaken for soy',
+  tamarind.every(r => !sandbox.recipeAllergens(r).includes('soy') ||
+    r.ingredients.some(i => /\bsoy|tofu|soja|miso/i.test(i.name.en + i.name.nl))));
+state.settings.avoid = [];
+sandbox.saveSettings();
 
 console.log('\nCustom recipes');
 const userCount = state.userRecipes.length;
@@ -367,65 +510,36 @@ check('own recipe still there after reload',
 console.log('\nBackup & restore');
 state.groceryList = [];
 state.favorites = ['carbonnade-flamande'];
-state.selectedRecipes = ['moules-frites'];
-sandbox.addItemsToGroceryList([
-  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 2, unit: 'st.', category: 'Groenten & Fruit', staple: false }
-], 'Backup test');
+state.weekPlan = { weekStart: ctx('currentWeekStart()'), meals: [] };
+sandbox.planMeal('moules-frites', 1);
+state.settings.avoid = ['nuts'];
+state.groceryList = sandbox.mergeIngredients([], [onionRow(2)], 'Backup test')
+  .map(l => Object.assign({}, l, { id: 'item-backup' }));
 const backup = JSON.parse(JSON.stringify(sandbox.buildBackup()));
 check('backup captures own recipes', Array.isArray(backup.userRecipes));
 check('backup captures the list', backup.groceryList.length === 1);
-check('backup captures favourites and selection',
-  backup.favorites.length === 1 && backup.selectedRecipes.length === 1);
+check('backup captures favourites and the week',
+  backup.favorites.length === 1 && backup.weekPlan.meals.length === 1);
+check('backup captures the allergy profile', backup.settings.avoid.includes('nuts'));
 
 state.groceryList = [];
 state.favorites = [];
-state.selectedRecipes = [];
+state.weekPlan.meals = [];
+state.settings.avoid = [];
 check('restore rejects a foreign file', sandbox.applyBackup({ foo: 'bar' }) === false);
 check('restore rejects a truncated backup',
   sandbox.applyBackup({ app: 'mijn-kookpot', format: 1 }) === false);
 check('restore puts everything back', sandbox.applyBackup(backup) === true &&
-  state.groceryList.length === 1 && state.favorites.length === 1);
+  state.groceryList.length === 1 && state.favorites.length === 1 &&
+  state.weekPlan.meals.length === 1 && state.settings.avoid.includes('nuts'));
 
-console.log('\nBatch servings');
-state.groceryList = [];
-state.selectedRecipes = [];
-state.selectedServings = {};
-const batchRecipe = state.recipes.find(r => r.id === 'carbonnade-flamande');
-sandbox.toggleRecipeSelection(batchRecipe.id);
-check('defaults to the recipe\'s own servings',
-  sandbox.servingsFor(batchRecipe.id) === batchRecipe.servings,
-  String(sandbox.servingsFor(batchRecipe.id)));
-sandbox.setServingsFor(batchRecipe.id, batchRecipe.servings * 2);
-state.settings.skipStaples = false;
-sandbox.convertSelectedRecipesToGroceryList();
-const doubledOnion = state.groceryList.find(i => i.key === 'onion');
-const baseOnion = batchRecipe.ingredients.find(i => i.key === 'onion');
-check('batch respects the adjusted servings',
-  doubledOnion && doubledOnion.amount === baseOnion.amount * 2,
-  doubledOnion ? `${baseOnion.amount} -> ${doubledOnion.amount}` : 'missing');
-check('selection cleared after generating', state.selectedRecipes.length === 0);
-
-state.selectedRecipes = [];
-state.selectedServings = {};
-state.groceryList = [];
-state.selectedRecipe = batchRecipe;
-state.recipeServings = 12;
-sandbox.toggleRecipeSelection(batchRecipe.id);
-check('selecting from the open drawer keeps its servings',
-  sandbox.servingsFor(batchRecipe.id) === 12, String(sandbox.servingsFor(batchRecipe.id)));
-state.selectedRecipe = null;
-
-console.log('\nSelection survives a restart');
-state.selectedRecipes = [];
-sandbox.toggleRecipeSelection('moules-frites');
-sandbox.toggleRecipeSelection('vol-au-vent');
-ctx('initApp()');
-check('selection restored after reload', state.selectedRecipes.length === 2,
-  state.selectedRecipes.join(', '));
-state.selectedRecipes.push('recipe-that-no-longer-exists');
-sandbox.saveSelection();
-ctx('initApp()');
-check('stale ids dropped from the selection', state.selectedRecipes.length === 2);
+state.weekPlan.meals = [];
+sandbox.applyBackup({ app: 'mijn-kookpot', format: 1, userRecipes: [],
+  selectedRecipes: ['moules-frites', 'vol-au-vent'], selectedServings: { 'moules-frites': 2 } });
+check('an old backup\'s selection is laid out over the week', state.weekPlan.meals.length === 2 &&
+  state.weekPlan.meals.find(m => m.recipeId === 'moules-frites').servings === 2);
+state.settings.avoid = [];
+sandbox.saveSettings();
 
 console.log('\nFiltering & search');
 state.filters.category = 'dessert';
@@ -486,24 +600,28 @@ console.log('\nLanguage switching');
 console.log('\nManual grocery items');
 state.groceryList = [];
 elementsById['new-grocery-item-input'].value = 'witloof';
-elementsById['new-grocery-item-qty'].value = '';
-elementsById['new-grocery-item-cat'].value = 'Groenten & Fruit';
 sandbox.handleAddCustomGroceryItem({ preventDefault() {} });
 check('manual item added', state.groceryList.length === 1);
 check('no quantity means no invented unit', state.groceryList[0].unit === '', state.groceryList[0].unit);
 
-elementsById['new-grocery-item-input'].value = 'witloof';
-elementsById['new-grocery-item-qty'].value = '500g';
+elementsById['new-grocery-item-input'].value = '500g witloof';
 sandbox.handleAddCustomGroceryItem({ preventDefault() {} });
 const withQty = state.groceryList.find(i => i.unit === 'g');
-check('quantity parsed from the qty field', withQty && withQty.amount === 500,
-  withQty ? `${withQty.amount} ${withQty.unit}` : 'missing');
+check('a typed amount and unit are read off the front', withQty && withQty.amount === 500 && withQty.name === 'witloof',
+  withQty ? `${withQty.amount} ${withQty.unit} ${withQty.name}` : 'missing');
+
+elementsById['new-grocery-item-input'].value = '2 rode uien';
+sandbox.handleAddCustomGroceryItem({ preventDefault() {} });
+const redOnions = state.groceryList.slice(-1)[0];
+check('a word after the number is part of the name, not a unit',
+  redOnions.amount === 2 && redOnions.name === 'rode uien', `${redOnions.amount} ${redOnions.unit} ${redOnions.name}`);
+
+sandbox.deleteGroceryItem(redOnions.id);
+check('a hand-written item can be taken off again', !state.groceryList.some(i => i.id === redOnions.id));
 
 console.log('\nEditing quantities');
-state.groceryList = [];
-sandbox.addItemsToGroceryList([
-  { key: 'onion', name: { en: 'onion', nl: 'ui', fr: 'oignon' }, amount: 2, unit: 'st.', category: 'Groenten & Fruit', staple: false }
-], 'Edit test');
+state.groceryList = sandbox.mergeIngredients([], [onionRow(2)], 'Edit test')
+  .map(l => Object.assign({}, l, { id: 'item-edit' }));
 const editable = state.groceryList[0];
 sandbox.commitQuantityEdit(editable.id, '5');
 check('plain number keeps the unit', editable.amount === 5 && editable.unit === 'st.',
@@ -521,7 +639,7 @@ sandbox.commitQuantityEdit(editable.id, '');
 check('empty clears the quantity', editable.amount === null && editable.unit === '');
 
 console.log('\nNavigation & cook mode');
-['home', 'recipes', 'grocery', 'settings'].forEach(tab => {
+['week', 'recipes', 'grocery', 'settings'].forEach(tab => {
   sandbox.switchTab(tab);
   check(`switch to ${tab}`, state.activeTab === tab);
 });
@@ -566,8 +684,8 @@ check('progress bar exposes its value', /role="progressbar"/.test(html));
 sandbox.renderRecipeGrid();
 const cardHtml = elementsById['recipes-tab-grid'].innerHTML;
 check('recipe cards are keyboard reachable', /class="recipe-card[^"]*"[^>]*tabindex="0"/.test(cardHtml));
-check('select toggle exposes checked state', /role="checkbox"[^>]*aria-checked/.test(cardHtml) ||
-  /aria-checked="[^"]*"[^>]*role="checkbox"/.test(cardHtml));
+check('the plan button on a card is named and keyboard reachable',
+  /class="card-plan-btn[^"]*"[^>]*role="button"[^>]*tabindex="0"[^>]*aria-label="[^"]+"/.test(cardHtml));
 
 sandbox.openRecipeDrawer('carbonnade-flamande');
 check('drawer marks the favourite button state',
