@@ -216,7 +216,7 @@ ctx('initApp()');
 const state = ctx('state');
 
 console.log('Boot');
-check('recipes loaded', state.recipes.length > 100, `got ${state.recipes.length}`);
+check('recipes loaded', state.recipes.length >= 50, `got ${state.recipes.length}`);
 check('language detected from navigator', state.settings.language === 'nl', state.settings.language);
 check('no leftover legacy storage key', !('belgian_recipes' in store));
 

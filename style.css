@@ -932,20 +932,6 @@ header::after {
   overflow: hidden;
 }
 
-/* The subtitle is the one line of description a cookbook prints under a dish
-   name, so it is set in italic like a caption rather than as more UI text. */
-.recipe-card-sub {
-  font-size: var(--t-sm);
-  font-style: italic;
-  color: var(--ink-dim);
-  line-height: 1.45;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 .recipe-card-meta {
   display: flex;
   gap: var(--sp-3);
@@ -1205,12 +1191,6 @@ header::after {
   gap: 2px;
   font-size: var(--t-sm);
   font-weight: 600;
-}
-
-.servings-desc {
-  font-size: var(--t-2xs);
-  font-weight: 400;
-  color: var(--ink-dim);
 }
 
 .servings-controls {
@@ -1960,13 +1940,6 @@ header::after {
   font-size: var(--t-sm);
   font-weight: 600;
   color: var(--ink);
-}
-
-.settings-desc {
-  margin-top: 2px;
-  font-size: var(--t-2xs);
-  line-height: 1.45;
-  color: var(--ink-dim);
 }
 
 /* The theme picker needs the full width, so it drops below its label. */

@@ -6,7 +6,6 @@
 const uiTranslations = {
   en: {
     appTitle: "Mijn Kookpot",
-    appSubtitle: "Belgian home cooking, and the shopping to go with it",
     weekTab: "Week",
     recipes: "Recipes",
     checklist: "Shopping",
@@ -48,15 +47,11 @@ const uiTranslations = {
     // The household
     tableGroupTitle: "At your table",
     householdLabel: "How many of you eat?",
-    householdDesc: "Every dish you plan starts at this many plates",
     avoidLabel: "Keep off the plate",
-    avoidDesc: "Dishes with these are left out of the book and the suggestions, and flagged if you look anyway",
-    dietDesc: "Only show dishes that fit",
     profilePromptTitle: "Before we start: does anyone at your table avoid something?",
     profilePromptDesc: "Tap what to keep off the plate. I'll leave those dishes out everywhere — you can change it later in Settings.",
     profilePromptDone: "That's everyone",
     profileStrip: "Leaving out: {list}",
-    profileStripNone: "No allergies set — tap to add some",
     allergenGluten: "Gluten",
     allergenNuts: "Nuts",
     allergenDairy: "Milk",
@@ -73,7 +68,6 @@ const uiTranslations = {
     containsNone: "None of the common allergens, as far as I can tell",
     allergyWarning: "Careful — this has {list}, and someone at your table avoids that.",
     recipeBookTitle: "The Recipe Book",
-    recipeBookDesc: "Everything in here is worth cooking twice",
     recipeCategoryAll: "Everything",
     favoritesFilter: "Favourites",
     noFavorites: "No favourites yet — tap the little heart on a dish you love",
@@ -85,9 +79,7 @@ const uiTranslations = {
     createRecipeHeader: "Write down a recipe",
     editRecipeHeader: "Tidy up this recipe",
     checklistTitle: "The shopping list",
-    checklistDesc: "In the order you walk the shop, so you never double back",
     clearCheckedBtn: "Clear the ticked",
-    groceryFromWeek: "For {count} dishes this week, in the order you walk the shop",
     customItemPlaceholder: "Something else? 2 witloof, say…",
     emptyListHeader: "Nothing on the list yet",
     emptyListDesc: "Put a few dinners on the week and everything they need lands here",
@@ -97,22 +89,17 @@ const uiTranslations = {
     progressText: "{checked} of {total} in the basket",
     removeItem: "Take {name} off the list",
     prefTitle: "Settings",
-    prefDesc: "Set things up the way you like them",
     langGroupTitle: "Language",
     langSelectLabel: "Talk to me in",
-    langSelectDesc: "The recipes change over too, not just the buttons",
     dangerZoneTitle: "Careful now",
     resetDbLabel: "Throw away my recipes",
-    resetDbDesc: "Only the ones you wrote yourself — the Belgian classics stay",
     resetBtnText: "Throw away",
     resetListLabel: "Empty the shopping list",
-    resetListDesc: "Wipes everything on it right now",
     resetListBtnText: "Empty it",
     prepTimeLabel: "Getting ready",
     cookTimeLabel: "On the stove",
     diffLabel: "How tricky",
     servingsLabel: "How many at the table?",
-    servingsDesc: "Everything below adjusts itself",
     instructionsTitle: "How it's done",
     ingredientsTitle: "What you'll need",
     difficultyEasy: "Easy",
@@ -137,19 +124,13 @@ const uiTranslations = {
     intolNuts: "No nuts",
     intolDairy: "No dairy",
     intolEggs: "No eggs",
-    allergenDisclaimer: "I work this out from the ingredient list, so do read the recipe over yourself if an allergy is a serious one. Better to have looked twice.",
-    scaleTestTitle: "A little stress test",
-    scaleTestLabel: "Load 2,000 pretend recipes",
-    scaleTestDesc: "Only useful for checking the search stays quick",
-    generateBtnText: "Load them",
+    allergenDisclaimer: "Worked out from the ingredients — check the recipe yourself for serious allergies.",
     dataGroupTitle: "Your own things",
     updateAvailable: "There's a fresher version waiting",
     updateReloadBtn: "Fetch it",
     backupLabel: "Keep a copy somewhere safe",
-    backupDesc: "Your recipes, list, favourites and settings, all in one file",
     backupBtn: "Save a copy",
     restoreLabel: "Bring a copy back",
-    restoreDesc: "Careful — this replaces everything in the app right now",
     restoreBtn: "Bring it back",
     toastBackupSaved: "Saved as {name} — keep it somewhere safe",
     toastBackupFailed: "That didn't work, sorry. Shall we try again?",
@@ -163,7 +144,6 @@ const uiTranslations = {
     // Appearance
     appearanceGroupTitle: "How it looks",
     themeLabel: "Light or dark",
-    themeDesc: "Dark is kinder on the eyes when you're baking late",
     themeSystem: "My phone decides",
     themeLight: "Always light",
     themeDark: "Always dark",
@@ -172,8 +152,6 @@ const uiTranslations = {
     itemsChecked: "in the basket",
     exportBtn: "Send the list",
     exportCopied: "Copied — paste it wherever you like",
-    staplesSkipped: "{count} cupboard basics left off",
-    staplesHint: "Run out of one? Tap it and it goes on anyway",
     fromRecipes: "for",
     qtyPlaceholder: "How much? (500g, 2…)",
     editQuantityHint: "Tap to change the amount",
@@ -205,7 +183,6 @@ const uiTranslations = {
     toastClearedChecked: "Cleared what was already in the basket",
     toastFavAdded: "One of your favourites now",
     toastFavRemoved: "Off the favourites",
-    toastBulkLoaded: "⚡ 2,000 pretend recipes loaded",
     cookModeStep: "Step {current} of {total}",
     cookModeNext: "Next →",
     cookModeFinish: "That's it!",
@@ -214,7 +191,6 @@ const uiTranslations = {
   },
   nl: {
     appTitle: "Mijn Kookpot",
-    appSubtitle: "Belgisch thuiskoken, met de boodschappen erbij",
     weekTab: "Week",
     recipes: "Recepten",
     checklist: "Boodschappen",
@@ -256,15 +232,11 @@ const uiTranslations = {
     // Het gezin
     tableGroupTitle: "Aan jouw tafel",
     householdLabel: "Met hoeveel eten jullie?",
-    householdDesc: "Elk gerecht dat je plant begint met zoveel borden",
     avoidLabel: "Niet op het bord",
-    avoidDesc: "Gerechten hiermee blijven uit het boek en de suggesties, en krijgen een waarschuwing als je toch kijkt",
-    dietDesc: "Toon alleen gerechten die passen",
     profilePromptTitle: "Eerst even: moet iemand aan je tafel iets vermijden?",
     profilePromptDesc: "Tik aan wat niet op het bord mag. Ik laat die gerechten overal weg — je kan het later nog aanpassen bij Instellingen.",
     profilePromptDone: "Dat is iedereen",
     profileStrip: "Weggelaten: {list}",
-    profileStripNone: "Geen allergieën ingesteld — tik om toe te voegen",
     allergenGluten: "Gluten",
     allergenNuts: "Noten",
     allergenDairy: "Melk",
@@ -281,7 +253,6 @@ const uiTranslations = {
     containsNone: "Geen van de gekende allergenen, voor zover ik zie",
     allergyWarning: "Opgelet — hier zit {list} in, en iemand aan je tafel vermijdt dat.",
     recipeBookTitle: "Het kookboek",
-    recipeBookDesc: "Alles hierin is een tweede keer waard",
     recipeCategoryAll: "Alles",
     favoritesFilter: "Favorieten",
     noFavorites: "Nog geen favorieten — tik op het hartje bij een gerecht dat je graag lust",
@@ -293,9 +264,7 @@ const uiTranslations = {
     createRecipeHeader: "Een recept opschrijven",
     editRecipeHeader: "Dit recept bijwerken",
     checklistTitle: "Het boodschappenlijstje",
-    checklistDesc: "In de volgorde dat je door de winkel loopt, zo moet je nooit terug",
     clearCheckedBtn: "Wis het afgevinkte",
-    groceryFromWeek: "Voor {count} gerechten deze week, in de volgorde van de winkel",
     customItemPlaceholder: "Nog iets? 2 witloof bijvoorbeeld…",
     emptyListHeader: "Nog niets op het lijstje",
     emptyListDesc: "Zet een paar avondmalen op de week en alles wat ze nodig hebben komt hier",
@@ -305,22 +274,17 @@ const uiTranslations = {
     progressText: "{checked} van {total} in de kar",
     removeItem: "{name} van het lijstje halen",
     prefTitle: "Instellingen",
-    prefDesc: "Zet alles zoals jij het graag hebt",
     langGroupTitle: "Taal",
     langSelectLabel: "Spreek me aan in",
-    langSelectDesc: "De recepten gaan mee over, niet alleen de knopjes",
     dangerZoneTitle: "Even opletten",
     resetDbLabel: "Mijn eigen recepten weggooien",
-    resetDbDesc: "Alleen die je zelf schreef — de Belgische klassiekers blijven",
     resetBtnText: "Weggooien",
     resetListLabel: "Het lijstje leegmaken",
-    resetListDesc: "Veegt alles weg wat er nu op staat",
     resetListBtnText: "Leegmaken",
     prepTimeLabel: "Voorbereiden",
     cookTimeLabel: "Op het vuur",
     diffLabel: "Hoe lastig",
     servingsLabel: "Met hoeveel aan tafel?",
-    servingsDesc: "Alles hieronder past zich vanzelf aan",
     instructionsTitle: "Zo doe je het",
     ingredientsTitle: "Wat je nodig hebt",
     difficultyEasy: "Makkelijk",
@@ -345,19 +309,13 @@ const uiTranslations = {
     intolNuts: "Zonder noten",
     intolDairy: "Zonder lactose",
     intolEggs: "Zonder ei",
-    allergenDisclaimer: "Ik leid dit af uit de ingrediëntenlijst, dus lees het recept zelf nog eens na als een allergie ernstig is. Liever tweemaal gekeken.",
-    scaleTestTitle: "Een kleine stresstest",
-    scaleTestLabel: "Laad 2.000 nep-recepten",
-    scaleTestDesc: "Alleen handig om te zien of het zoeken vlot blijft",
-    generateBtnText: "Laden maar",
+    allergenDisclaimer: "Afgeleid uit de ingrediënten — controleer het recept zelf bij ernstige allergieën.",
     dataGroupTitle: "Jouw eigen spullen",
     updateAvailable: "Er staat een verse versie klaar",
     updateReloadBtn: "Ophalen",
     backupLabel: "Bewaar een kopie op een veilige plek",
-    backupDesc: "Je recepten, lijstje, favorieten en instellingen, in één bestand",
     backupBtn: "Kopie bewaren",
     restoreLabel: "Een kopie terugzetten",
-    restoreDesc: "Opgelet — dit vervangt alles wat er nu in de app staat",
     restoreBtn: "Terugzetten",
     toastBackupSaved: "Bewaard als {name} — hou het goed bij",
     toastBackupFailed: "Dat lukte niet, sorry. Nog eens proberen?",
@@ -371,7 +329,6 @@ const uiTranslations = {
     // Uitzicht
     appearanceGroupTitle: "Hoe het eruitziet",
     themeLabel: "Licht of donker",
-    themeDesc: "Donker is zachter voor de ogen als je 's avonds laat nog staat te bakken",
     themeSystem: "Mijn gsm kiest",
     themeLight: "Altijd licht",
     themeDark: "Altijd donker",
@@ -380,8 +337,6 @@ const uiTranslations = {
     itemsChecked: "in de kar",
     exportBtn: "Lijstje doorsturen",
     exportCopied: "Gekopieerd — plak het waar je wil",
-    staplesSkipped: "{count} kastbasics weggelaten",
-    staplesHint: "Toch iets op? Tik erop en het gaat er alsnog bij",
     fromRecipes: "voor",
     qtyPlaceholder: "Hoeveel? (500g, 2…)",
     editQuantityHint: "Tik om de hoeveelheid aan te passen",
@@ -413,7 +368,6 @@ const uiTranslations = {
     toastClearedChecked: "Gewist wat al in de kar zat",
     toastFavAdded: "Vanaf nu een favoriet",
     toastFavRemoved: "Van de favorieten af",
-    toastBulkLoaded: "⚡ 2.000 nep-recepten ingeladen",
     cookModeStep: "Stap {current} van {total}",
     cookModeNext: "Verder →",
     cookModeFinish: "Klaar!",
@@ -422,7 +376,6 @@ const uiTranslations = {
   },
   fr: {
     appTitle: "Mijn Kookpot",
-    appSubtitle: "La cuisine belge de la maison, et les courses qui vont avec",
     weekTab: "Semaine",
     recipes: "Recettes",
     checklist: "Courses",
@@ -464,15 +417,11 @@ const uiTranslations = {
     // La maisonnée
     tableGroupTitle: "À ta table",
     householdLabel: "Vous êtes combien à manger ?",
-    householdDesc: "Chaque plat que tu prévois commence avec autant d'assiettes",
     avoidLabel: "Pas dans l'assiette",
-    avoidDesc: "Les plats qui en contiennent restent hors du livre et des suggestions, et sont signalés si tu regardes quand même",
-    dietDesc: "Ne montrer que les plats qui conviennent",
     profilePromptTitle: "Avant de commencer : quelqu'un à ta table doit-il éviter quelque chose ?",
     profilePromptDesc: "Touche ce qui ne doit pas finir dans l'assiette. Je laisse ces plats de côté partout — tu pourras changer ça plus tard dans les Réglages.",
     profilePromptDone: "C'est tout le monde",
     profileStrip: "Laissé de côté : {list}",
-    profileStripNone: "Aucune allergie indiquée — touche pour en ajouter",
     allergenGluten: "Gluten",
     allergenNuts: "Fruits à coque",
     allergenDairy: "Lait",
@@ -489,7 +438,6 @@ const uiTranslations = {
     containsNone: "Aucun des allergènes courants, pour autant que je sache",
     allergyWarning: "Attention — il y a {list}, et quelqu'un à ta table l'évite.",
     recipeBookTitle: "Le livre de recettes",
-    recipeBookDesc: "Tout ici mérite d'être refait une deuxième fois",
     recipeCategoryAll: "Tout",
     favoritesFilter: "Favoris",
     noFavorites: "Pas encore de favoris — touche le petit cœur d'un plat que tu aimes",
@@ -501,9 +449,7 @@ const uiTranslations = {
     createRecipeHeader: "Noter une recette",
     editRecipeHeader: "Retoucher cette recette",
     checklistTitle: "La liste de courses",
-    checklistDesc: "Dans l'ordre où tu traverses le magasin, tu ne reviens jamais sur tes pas",
     clearCheckedBtn: "Effacer les cochés",
-    groceryFromWeek: "Pour {count} plats cette semaine, dans l'ordre du magasin",
     customItemPlaceholder: "Autre chose ? 2 chicons, tiens…",
     emptyListHeader: "Rien sur la liste pour l'instant",
     emptyListDesc: "Mets quelques dîners au menu de la semaine et tout ce qu'il leur faut arrive ici",
@@ -513,22 +459,17 @@ const uiTranslations = {
     progressText: "{checked} sur {total} dans le panier",
     removeItem: "Retirer {name} de la liste",
     prefTitle: "Réglages",
-    prefDesc: "Arrange tout comme tu l'aimes",
     langGroupTitle: "Langue",
     langSelectLabel: "Parle-moi en",
-    langSelectDesc: "Les recettes changent aussi, pas seulement les boutons",
     dangerZoneTitle: "Attention",
     resetDbLabel: "Jeter mes recettes",
-    resetDbDesc: "Seulement celles que tu as écrites — les classiques belges restent",
     resetBtnText: "Jeter",
     resetListLabel: "Vider la liste de courses",
-    resetListDesc: "Efface tout ce qui s'y trouve maintenant",
     resetListBtnText: "Vider",
     prepTimeLabel: "Préparation",
     cookTimeLabel: "Sur le feu",
     diffLabel: "Difficulté",
     servingsLabel: "Vous êtes combien à table ?",
-    servingsDesc: "Tout se recalcule en dessous",
     instructionsTitle: "Comment on fait",
     ingredientsTitle: "Ce qu'il te faut",
     difficultyEasy: "Facile",
@@ -553,19 +494,13 @@ const uiTranslations = {
     intolNuts: "Sans noix",
     intolDairy: "Sans lactose",
     intolEggs: "Sans œufs",
-    allergenDisclaimer: "Je le déduis de la liste d'ingrédients, alors relis la recette toi-même si une allergie est sérieuse. Mieux vaut avoir regardé deux fois.",
-    scaleTestTitle: "Un petit test de charge",
-    scaleTestLabel: "Charger 2 000 fausses recettes",
-    scaleTestDesc: "Utile seulement pour voir si la recherche reste rapide",
-    generateBtnText: "Charger",
+    allergenDisclaimer: "Déduit des ingrédients — vérifie la recette toi-même en cas d'allergie sérieuse.",
     dataGroupTitle: "Tes affaires à toi",
     updateAvailable: "Une version plus fraîche t'attend",
     updateReloadBtn: "La chercher",
     backupLabel: "Garde une copie au chaud",
-    backupDesc: "Tes recettes, ta liste, tes favoris et tes réglages, dans un seul fichier",
     backupBtn: "Garder une copie",
     restoreLabel: "Remettre une copie",
-    restoreDesc: "Attention — ça remplace tout ce qu'il y a dans l'app en ce moment",
     restoreBtn: "Remettre",
     toastBackupSaved: "Gardé sous {name} — range-le bien",
     toastBackupFailed: "Ça n'a pas marché, désolée. On réessaie ?",
@@ -579,7 +514,6 @@ const uiTranslations = {
     // Allure
     appearanceGroupTitle: "L'allure",
     themeLabel: "Clair ou sombre",
-    themeDesc: "Le sombre repose les yeux quand tu pâtisses tard le soir",
     themeSystem: "Mon téléphone choisit",
     themeLight: "Toujours clair",
     themeDark: "Toujours sombre",
@@ -588,8 +522,6 @@ const uiTranslations = {
     itemsChecked: "dans le panier",
     exportBtn: "Envoyer la liste",
     exportCopied: "Copié — colle-le où tu veux",
-    staplesSkipped: "{count} basiques laissés de côté",
-    staplesHint: "Tu n'en as plus ? Touche et il y va quand même",
     fromRecipes: "pour",
     qtyPlaceholder: "Combien ? (500g, 2…)",
     editQuantityHint: "Touche pour changer la quantité",
@@ -621,7 +553,6 @@ const uiTranslations = {
     toastClearedChecked: "Effacé ce qui était déjà dans le panier",
     toastFavAdded: "Un favori, désormais",
     toastFavRemoved: "Retiré des favoris",
-    toastBulkLoaded: "⚡ 2 000 fausses recettes chargées",
     cookModeStep: "Étape {current} sur {total}",
     cookModeNext: "Ensuite →",
     cookModeFinish: "Voilà !",
@@ -1161,7 +1092,7 @@ function applyLanguage(lang) {
   });
 
   document.documentElement.lang = lang;
-  document.title = `${dict.appTitle} - ${dict.appSubtitle}`;
+  document.title = dict.appTitle;
 
   populateAisleSelect(document.getElementById('form-ing-cat-visible'));
   populateRecipeCategorySelect();
@@ -1341,9 +1272,6 @@ function setupEventListeners() {
     handleRestoreFile(e.target.files && e.target.files[0]);
     e.target.value = ''; // let the same file be picked twice
   });
-
-  const bulkGenBtn = document.getElementById('generate-bulk-btn');
-  if (bulkGenBtn) bulkGenBtn.addEventListener('click', generateBulkRecipes);
 
   // Escape closes whatever is on top; arrow keys page through cook mode.
   document.addEventListener('keydown', e => {
@@ -1688,7 +1616,7 @@ function suggestRecipe(excludeIds) {
   const exclude = excludeIds || [];
   const candidates = state.recipes.filter(r =>
     suitsTable(r) && recipeCategories(r).includes('main') &&
-    exclude.indexOf(r.id) === -1 && r.id.indexOf('bulk-') !== 0);
+    exclude.indexOf(r.id) === -1);
   // A dish with a photograph makes a better first impression on the week.
   const photographed = candidates.filter(hasPhoto);
   const pool = photographed.length ? photographed : candidates;
@@ -1796,9 +1724,9 @@ function renderWeekTab() {
   const prompt = document.getElementById('profile-prompt');
   const strip = document.getElementById('week-profile-strip');
   prompt.hidden = state.settings.profileAsked;
-  strip.hidden = !state.settings.profileAsked;
   const summary = profileSummary();
-  strip.textContent = summary ? `🛡 ${t('profileStrip', { list: summary })}` : t('profileStripNone');
+  strip.hidden = !state.settings.profileAsked || !summary;
+  strip.textContent = summary ? `🛡 ${t('profileStrip', { list: summary })}` : '';
 
   document.getElementById('week-stale-banner').hidden = !isStaleWeek();
 
@@ -1894,7 +1822,6 @@ function recipeCardHtml(recipe) {
   const days = plannedDays(recipe.id);
   const planned = days.length > 0;
   const name = recipeText(recipe).title;
-  const sub = recipeText(recipe).subtitle;
   const diffText = recipe.difficulty[state.settings.language] || recipe.difficulty.en;
   const clash = clashingAllergens(recipe);
   const picking = state.pickingDay !== null;
@@ -1920,7 +1847,6 @@ function recipeCardHtml(recipe) {
       </div>
       <div class="recipe-card-content">
         <h4 class="recipe-card-title">${escapeHtml(name)}</h4>
-        <p class="recipe-card-sub">${escapeHtml(sub)}</p>
         <div class="recipe-card-meta">
           <span>⏱️ ${escapeHtml(recipe.prepTime)}</span>
           <span>🍽️ ${escapeHtml(recipe.servings)}p</span>
@@ -2436,10 +2362,6 @@ function renderGroceryList() {
 
   const items = shoppingItems();
   const dishes = state.weekPlan.meals.length;
-  const subtitle = document.getElementById('grocery-subtitle');
-  if (subtitle) {
-    subtitle.textContent = dishes > 0 ? t('groceryFromWeek', { count: dishes }) : t('checklistDesc');
-  }
 
   if (items.length === 0) {
     container.innerHTML = `
@@ -3078,92 +3000,6 @@ function handleCustomRecipeSubmit(e) {
   closeRecipeModal();
   renderRecipesList();
   renderWeekTab(); // an edited dish may already be on the week
-}
-
-// --- Developer Tool: Bulk Recipe Simulator (Scale Testing) ---
-function generateBulkRecipes() {
-  const diffs = [
-    { en: "Easy", nl: "Gemakkelijk", fr: "Facile" },
-    { en: "Medium", nl: "Gemiddeld", fr: "Moyen" },
-    { en: "Hard", nl: "Moeilijk", fr: "Difficile" }
-  ];
-  const names = [
-    { en: "Stoemp with", nl: "Stoemp met", fr: "Stoemp aux" },
-    { en: "Flemish", nl: "Vlaamse", fr: "Marmite" },
-    { en: "Ghent Style", nl: "Gentse", fr: "Gantoise" },
-    { en: "Brussels Special", nl: "Brusselse", fr: "Spécialité Bruxelloise" }
-  ];
-  const foods = [
-    { en: "Leeks", nl: "prei", fr: "poireaux" },
-    { en: "Apples", nl: "appels", fr: "pommes" },
-    { en: "Endives", nl: "witloof", fr: "chicons" },
-    { en: "Mushrooms", nl: "champignons", fr: "champignons" },
-    { en: "Beer sauce", nl: "biersaus", fr: "sauce à la bière" },
-    { en: "Cheese gratin", nl: "kaasgratin", fr: "gratin au fromage" }
-  ];
-  const cats = ['main', 'soup', 'snack', 'dessert', 'breakfast'];
-
-  const rawRecipes = [];
-  for (let i = 1; i <= 2000; i++) {
-    const nameTemplate = names[Math.floor(Math.random() * names.length)];
-    const foodTemplate = foods[Math.floor(Math.random() * foods.length)];
-    const isGF = Math.random() > 0.5;
-    const isDF = Math.random() > 0.5;
-    const isVeg = Math.random() > 0.4;
-
-    rawRecipes.push({
-      id: `bulk-${i}`,
-      prepTime: (10 + Math.floor(Math.random() * 40)) + " mins",
-      cookTime: (15 + Math.floor(Math.random() * 90)) + " mins",
-      difficulty: diffs[Math.floor(Math.random() * diffs.length)],
-      servings: 2 + Math.floor(Math.random() * 6),
-      category: [cats[Math.floor(Math.random() * cats.length)]],
-      image: "images/witloof_gratin.jpg",
-      isGlutenFree: isGF,
-      isNutFree: Math.random() > 0.3,
-      isDairyFree: isDF,
-      isEggFree: Math.random() > 0.3,
-      isVegetarian: isVeg,
-      isVegan: isVeg && Math.random() > 0.5,
-      isCandidaFriendly: isGF && isDF && Math.random() > 0.5,
-      isKeto: Math.random() > 0.6,
-      translations: {
-        en: {
-          title: `${nameTemplate.en} ${foodTemplate.en} #${i}`,
-          subtitle: "Simulated Scale Test Recipe",
-          description: "A simulated Belgian recipe for performance testing.",
-          instructions: ["Clean ingredients.", "Heat through.", "Serve hot."]
-        },
-        nl: {
-          title: `${nameTemplate.nl} ${foodTemplate.nl} #${i}`,
-          subtitle: "Gesimuleerd testrecept",
-          description: "Een gesimuleerd Belgisch recept om laadsnelheden te testen.",
-          instructions: ["Maak ingrediënten schoon.", "Warm alles goed door.", "Serveer warm."]
-        },
-        fr: {
-          title: `${nameTemplate.fr} ${foodTemplate.fr} #${i}`,
-          subtitle: "Recette de test simulée",
-          description: "Une recette belge simulée pour tester les performances.",
-          instructions: ["Nettoyer les ingrédients.", "Faire chauffer le tout.", "Servir chaud."]
-        }
-      },
-      ingredients: [{
-        key: 'simulated ingredient',
-        name: { en: "Simulated Ingredient", nl: "Gesimuleerd ingrediënt", fr: "Ingrédient simulé" },
-        amount: 200,
-        unit: "g",
-        category: "Kruidenier",
-        staple: false
-      }]
-    });
-  }
-
-  // In memory only — never written to localStorage.
-  state.builtInRecipes = state.builtInRecipes.filter(r => r.id.indexOf('bulk-') !== 0).concat(rawRecipes);
-  rebuildRecipeIndex();
-
-  showToast(t('toastBulkLoaded'), 'success');
-  renderRecipeGrid();
 }
 
 // --- Notification Banner ---

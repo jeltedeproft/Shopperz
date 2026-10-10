@@ -23,7 +23,8 @@ The app is built around one loop: **plan the week → the shopping list writes i
 - Allergens are **derived from the ingredient list**, not asserted. They are a shopping aid, not a medical guarantee: an ingredient the dictionary does not recognise is assumed harmless, and the app says so.
 
 **Recipes**
-- 414 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units — including 44 Belgian classics written by hand: waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest.
+- 53 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units: 44 Belgian classics written by hand — waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest — plus nine everyday dishes (fried rice, dal, katsu curry, poffertjes, Dutch apple pie…).
+- **Every ingredient list is checked by hand against its method.** If a step uses it, it is on the list with an amount. The only things left off are water and dishes that have their own recipe in the book (the frites beside the boulets). The book used to hold 414 recipes, most of them imported with lists that did not match their methods, and it was cut to these on purpose: fifty right beats five thousand half-right. Anything added from now on gets the same check before it goes in.
 - Every recipe is **written the way a person would tell you it**, in all three languages — not "Peel potatoes and cut carrots and leeks" but why the pieces should match, what the pan should sound like, and which step you must not hurry. See "The voice" below.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category and by **favourites**. The pills stack, so "my favourite desserts" works.
@@ -138,8 +139,9 @@ Belgian ones. Free-text measures ("1 1/2 cups", "½ tsp", "2-3 tbsp", "1 (12 oz.
 tin") are read by `scripts/measure.js`, which is shared by every importer — before
 it existed, anything it could not parse silently became "pieces".
 
-The 267 recipes added on top of the Belgian classics came in through a separate
-bulk pipeline, which is kept because it is the one to reuse next time:
+The imported recipes came in through a separate bulk pipeline, which is kept
+because it is the one to reuse next time — but read every ingredient list against
+its method before keeping anything it brings in:
 
 ```bash
 node scripts/import_mealdb.js    # quality-gate TheMealDB and pick a balanced mix
@@ -192,7 +194,7 @@ has cooked the dish is stood next to you — what to look for, what not to hurry
 and which mistake is the one that cannot be undone. The interface talks the same
 way: no "configure", no "generate", no "invalid input".
 
-Rewriting 414 recipes across three languages by hand is exactly the kind of job
+Rewriting a few hundred recipes across three languages by hand is exactly the kind of job
 where a temperature quietly moves by ten degrees, so the prose lives in
 `scripts/voice/batch-*.js` and is applied by `apply_voice.js`, which refuses the
 change unless every instruction step still carries the same numbers, the same

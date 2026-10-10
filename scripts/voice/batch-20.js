@@ -1,49 +1,4 @@
 module.exports = {
-  "spoonacular-636131": {
-    en: {
-      subtitle: "Stale brioche, saved by cream and eggs",
-      description: "Brioche cubes left to drink up a custard of cream, eggs and Frangelico, then baked under crumbs made from the crusts you cut off. Nothing is wasted and the result is far better than the bread deserved.",
-      instructions: [
-        "Place the bread cubes in a 13- by 9- by 2-inch baking pan.",
-        "Whisk the eggs, whipping cream, milk, sugar, Frangelico, vanilla extract and almond extract together in a large bowl.",
-        "Pour it over the bread cubes.",
-        "Let it stand 30 minutes, pressing the bread down into the custard now and then so every cube drinks. You can do this up to 2 hours ahead, covered, in the fridge. Heat the oven to 350 degrees. Spread the crusts you cut off on a baking sheet and bake until dry, about 10 minutes, then cool them. Leave the oven on.",
-        "Tip the dried crusts into a food processor and grind them to fine crumbs.",
-        "Sprinkle 1 cup of the crumbs over the top of the pudding.",
-        "Bake until the pudding is set in the centre, about 40 minutes. Let it cool slightly.",
-        "Serve warm. This makes 8 to 10 servings."
-      ]
-    },
-    nl: {
-      subtitle: "Oude brioche, gered door room en eieren",
-      description: "Blokjes brioche die zich volzuigen met een vla van room, eieren en Frangelico, en dan gebakken onder kruim van de korstjes die je eraf sneed. Er gaat niets verloren en het resultaat is veel beter dan het brood verdiende.",
-      instructions: [
-        "Leg de broodblokjes in een bakvorm van 13 bij 9 bij 2 inch.",
-        "Klop de eieren, de slagroom, de melk, de suiker, de Frangelico, het vanille-extract en het amandelextract samen in een grote kom.",
-        "Giet het over de broodblokjes.",
-        "Laat 30 minuten staan en duw het brood af en toe onder de vla zodat elk blokje drinkt. Je mag dit tot 2 uur op voorhand doen, afgedekt in de koelkast. Verwarm de oven op 350 graden. Leg de korstjes die je eraf sneed op een bakplaat en bak ze droog, ongeveer 10 minuten, en laat ze afkoelen. Laat de oven aanstaan.",
-        "Doe de gedroogde korstjes in de keukenmachine en maal ze tot fijne kruimels.",
-        "Strooi 1 kopje van die kruimels over de pudding.",
-        "Bak tot de pudding in het midden gestold is, ongeveer 40 minuten. Laat hem een beetje afkoelen.",
-        "Warm opdienen. Dit is goed voor 8 tot 10 porties."
-      ]
-    },
-    fr: {
-      subtitle: "De la brioche rassise, sauvée par la crème et les œufs",
-      description: "Des cubes de brioche qu'on laisse boire une crème aux œufs et au Frangelico, puis cuits sous une chapelure faite des croûtes que tu as ôtées. Rien ne se perd et le résultat est bien meilleur que ce que ce pain méritait.",
-      instructions: [
-        "Dispose les cubes de pain dans un plat de 13 x 9 x 2 pouces.",
-        "Fouette ensemble les œufs, la crème fleurette, le lait, le sucre, le Frangelico, l'extrait de vanille et l'extrait d'amande dans un grand bol.",
-        "Verse sur les cubes de pain.",
-        "Laisse reposer 30 minutes, en enfonçant le pain dans la crème de temps en temps pour que chaque cube boive. Tu peux le faire jusqu'à 2 heures à l'avance, couvert, au frigo. Chauffe le four à 350 degrés. Étale les croûtes que tu as retirées sur une plaque et fais-les sécher au four, environ 10 minutes, puis laisse-les refroidir. Laisse le four allumé.",
-        "Verse les croûtes sèches dans un robot et broie-les en chapelure fine.",
-        "Saupoudre 1 tasse de cette chapelure sur le pouding.",
-        "Cuis jusqu'à ce que le pouding soit pris au centre, environ 40 minutes. Laisse tiédir un peu.",
-        "Sers chaud. Cela fait 8 à 10 portions."
-      ]
-    }
-  },
-
   "gentse-waterzooi": {
     en: {
       subtitle: "Ghent's gentlest supper",

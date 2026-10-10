@@ -42,8 +42,8 @@
   -->
   <link rel="preload" href="fonts/archivo-black-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/work-sans-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="fonts/fonts.css?v=26">
-  <link rel="stylesheet" href="style.css?v=26">
+  <link rel="stylesheet" href="fonts/fonts.css?v=28">
+  <link rel="stylesheet" href="style.css?v=28">
 </head>
 <body>
 
@@ -85,7 +85,7 @@
         </section>
 
         <!-- Shown once the profile is set: a quiet reminder of what is filtered -->
-        <button type="button" id="week-profile-strip" class="profile-strip" data-translate="profileStripNone" hidden>No allergies set — tap to add some</button>
+        <button type="button" id="week-profile-strip" class="profile-strip" data-translate="avoidLabel" hidden>Keep off the plate</button>
 
         <!-- Last week's menu is still here -->
         <div id="week-stale-banner" class="stale-banner" role="status" hidden>
@@ -113,7 +113,6 @@
       <section id="recipes-panel" class="tab-panel recipes-panel">
         <header>
           <h1 class="panel-title" data-translate="recipeBookTitle">The Recipe Book</h1>
-          <p class="panel-subtitle" data-translate="recipeBookDesc">Everything in here is worth cooking twice</p>
         </header>
 
         <!-- Arrived here from an empty day on the week: say which one -->
@@ -152,7 +151,6 @@
           <div class="filter-group">
             <span class="filter-group-title" data-translate="dietFilterLabel">Eating habits</span>
             <div class="allergen-pills" data-profile-pills="diets"></div>
-            <p class="filter-disclaimer" data-translate="allergenDisclaimer">I work this out from the ingredient list, so do read the recipe over yourself if an allergy is a serious one. Better to have looked twice.</p>
           </div>
         </div>
 
@@ -181,7 +179,6 @@
       <section id="grocery-panel" class="tab-panel">
         <header>
           <h1 class="panel-title" data-translate="checklistTitle">The shopping list</h1>
-          <p class="panel-subtitle" id="grocery-subtitle"></p>
         </header>
 
         <div id="grocery-panel-wrapper">
@@ -222,7 +219,6 @@
       <section id="settings-panel" class="tab-panel">
         <header>
           <h1 class="panel-title" data-translate="prefTitle">Settings</h1>
-          <p class="panel-subtitle" data-translate="prefDesc">Set things up the way you like them</p>
         </header>
 
         <!-- The household: who eats, and what they cannot -->
@@ -231,7 +227,6 @@
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="householdLabel">How many of you eat?</div>
-              <div class="settings-desc" data-translate="householdDesc">Every dish you plan starts at this many plates</div>
             </div>
             <div class="servings-controls">
               <button type="button" id="household-minus" class="servings-btn" aria-label="Fewer people">-</button>
@@ -242,18 +237,16 @@
           <div class="settings-row settings-row-stacked">
             <div>
               <div class="settings-label" data-translate="avoidLabel">Keep off the plate</div>
-              <div class="settings-desc" data-translate="avoidDesc">Dishes with these are left out of the book and the suggestions, and flagged if you look anyway</div>
             </div>
             <div class="allergen-pills" data-profile-pills="avoid"></div>
           </div>
           <div class="settings-row settings-row-stacked">
             <div>
               <div class="settings-label" data-translate="dietFilterLabel">Eating habits</div>
-              <div class="settings-desc" data-translate="dietDesc">Only show dishes that fit</div>
             </div>
             <div class="allergen-pills" data-profile-pills="diets"></div>
           </div>
-          <p class="filter-disclaimer settings-disclaimer" data-translate="allergenDisclaimer">I work this out from the ingredient list, so do read the recipe over yourself if an allergy is a serious one. Better to have looked twice.</p>
+          <p class="filter-disclaimer settings-disclaimer" data-translate="allergenDisclaimer">Worked out from the ingredients — check the recipe yourself for serious allergies.</p>
         </div>
 
         <!-- Language Preference -->
@@ -262,7 +255,6 @@
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="langSelectLabel">Talk to me in</div>
-              <div class="settings-desc" data-translate="langSelectDesc">The recipes change over too, not just the buttons</div>
             </div>
             <select id="language-select" class="settings-select">
               <option value="en">English</option>
@@ -278,7 +270,6 @@
           <div class="settings-row settings-row-stacked">
             <div>
               <div class="settings-label" id="theme-choice-label" data-translate="themeLabel">Light or dark</div>
-              <div class="settings-desc" data-translate="themeDesc">Dark is kinder on the eyes when you're baking late</div>
             </div>
             <div class="theme-choice" role="radiogroup" aria-labelledby="theme-choice-label">
               <button type="button" class="theme-option" data-theme-choice="system" role="radio" aria-checked="true">
@@ -303,29 +294,15 @@
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="backupLabel">Keep a copy somewhere safe</div>
-              <div class="settings-desc" data-translate="backupDesc">Your recipes, list, favourites and settings, all in one file</div>
             </div>
             <button id="backup-btn" class="btn-small btn-gold" data-translate="backupBtn">Save a copy</button>
           </div>
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="restoreLabel">Bring a copy back</div>
-              <div class="settings-desc" data-translate="restoreDesc">Careful — this replaces everything in the app right now</div>
             </div>
             <button id="restore-btn" class="btn-small btn-gold" data-translate="restoreBtn">Bring it back</button>
             <input type="file" id="restore-file-input" accept="application/json,.json" hidden>
-          </div>
-        </div>
-
-        <!-- Database Scale Testing -->
-        <div class="settings-group">
-          <div class="settings-group-title" data-translate="scaleTestTitle">A little stress test</div>
-          <div class="settings-row">
-            <div>
-              <div class="settings-label" data-translate="scaleTestLabel">Load 2,000 pretend recipes</div>
-              <div class="settings-desc" data-translate="scaleTestDesc">Only useful for checking the search stays quick</div>
-            </div>
-            <button id="generate-bulk-btn" class="btn-small btn-gold" data-translate="generateBtnText">Load them</button>
           </div>
         </div>
 
@@ -335,14 +312,12 @@
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="resetDbLabel">Throw away my recipes</div>
-              <div class="settings-desc" data-translate="resetDbDesc">Only the ones you wrote yourself — the Belgian classics stay</div>
             </div>
             <button id="reset-data-btn" class="btn-small btn-danger" data-translate="resetBtnText">Throw away</button>
           </div>
           <div class="settings-row">
             <div>
               <div class="settings-label" data-translate="resetListLabel">Empty the shopping list</div>
-              <div class="settings-desc" data-translate="resetListDesc">Wipes everything on it right now</div>
             </div>
             <button id="reset-list-btn" class="btn-small btn-danger" data-translate="resetListBtnText">Empty it</button>
           </div>
@@ -414,7 +389,6 @@
           <div class="servings-scale-box">
             <div class="servings-scale-text">
               <span data-translate="servingsLabel">How many at the table?</span>
-              <span data-translate="servingsDesc" class="servings-desc">Everything below adjusts itself</span>
             </div>
             <div class="servings-controls">
               <button type="button" id="servings-minus" class="servings-btn" aria-label="Fewer servings">-</button>
@@ -659,9 +633,9 @@
 
   </div>
 
-  <script src="ingredients.js?v=26"></script>
-  <script src="recipes.js?v=26"></script>
-  <script src="app.js?v=26"></script>
+  <script src="ingredients.js?v=28"></script>
+  <script src="recipes.js?v=28"></script>
+  <script src="app.js?v=28"></script>
   <script>
 
     // Offline support: the whole app is cached so it works inside the shop.

@@ -128,7 +128,7 @@ module.exports = {
         "Boil the lot together in salted water for 20 minutes, until a knife slides into a potato without any argument.",
         "While that's going, fry the bacon until it's properly crisp, then cook the sausages in the same pan — all that bacon fat is not there to be wasted.",
         "Drain the vegetables well and mash them coarsely with butter and milk. Coarsely is the point; a smooth stoemp is just purée and nobody wanted that.",
-        "Stir the crisp bacon through at the last moment so it stays crunchy, and serve with the sausages and the gravy."
+        "Stir the crisp bacon through at the last moment so it stays crunchy, and serve with the sausages and the juices from their pan."
       ]
     },
     nl: {

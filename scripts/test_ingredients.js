@@ -107,6 +107,17 @@ const aisleCases = [
   ['vegetable stock', 'Kruidenier'],
   ['baking powder', 'Kruidenier'],
   ['walnuts', 'Kruidenier'],
+  ['dark chocolate', 'Kruidenier'],           // "chocolate" contains "cola"
+  ['black pudding', 'Slagerij & Gevogelte'],  // not dairy
+  ['pudding rice', 'Kruidenier'],
+  ['oyster sauce', 'Kruidenier'],             // not the fish counter
+  ['chopped tomatoes', 'Kruidenier'],         // a tin, not produce
+  ['cornflour', 'Kruidenier'],                // not corn
+  ['apple sauce', 'Kruidenier'],
+  ['prunes', 'Kruidenier'],
+  ['green chilli', 'Groenten & Fruit'],
+  ['chilli powder', 'Kruiden & Specerijen'],
+  ['juniper berries', 'Kruiden & Specerijen'],
   ['dark abbey beer', 'Bieren & Dranken'],
   ['orange juice', 'Bieren & Dranken'],       // a drink, not produce
   ['water', 'Bieren & Dranken']
@@ -232,11 +243,11 @@ const book = RecipeDb.load();
 
 const dupeCases = [
   ['same id', { id: 'carbonnade-flamande', title: 'Totally different name' }, 'carbonnade-flamande'],
-  ['identical title', { id: 'fresh', title: 'Chinese Potstickers' }, 'spoonacular-638693'],
-  ['title in another case', { id: 'fresh', title: 'COLCANNON' }, 'spoonacular-639900'],
+  ['identical title', { id: 'fresh', title: 'Chicken Fried Rice' }, 'mealdb-53367'],
+  ['title in another case', { id: 'fresh', title: 'BANANA BREAD' }, 'spoonacular-634006'],
   ['half of a bilingual title', { id: 'fresh', title: 'Gaufres de Liège' }, 'gaufre-liege'],
   ['same but unaccented', { id: 'fresh', title: 'gaufres de liege' }, 'gaufre-liege'],
-  ['matched via translations', { id: 'fresh', translations: { en: { title: 'Colcannon' } } }, 'spoonacular-639900'],
+  ['matched via translations', { id: 'fresh', translations: { en: { title: 'Banana Bread' } } }, 'spoonacular-634006'],
   ['genuinely new dish', { id: 'fresh', title: 'Mattentaart van Geraardsbergen' }, null]
 ];
 

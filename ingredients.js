@@ -136,9 +136,21 @@
     [/dried (herb|oregano|thyme|basil|parsley|rosemary|sage|mint|dill)/i, 'Kruiden & Specerijen'],
     [/vanilla extract|almond extract|lemon extract|vanille-extract|extrait/i, 'Kruidenier'],
     [/baking powder|baking soda|bakpoeder|zuiveringszout|levure/i, 'Kruidenier'],
-    [/(garlic|onion|chili|curry|cumin|paprika|ginger|mustard) powder/i, 'Kruiden & Specerijen'],
-    [/tomato (sauce|paste|puree)|tomatenpuree|passata|canned tomato/i, 'Kruidenier'],
+    [/(garlic|onion|chil+i|curry|cumin|paprika|ginger|mustard) powder|chilipoeder|piment en poudre/i, 'Kruiden & Specerijen'],
+    [/tomato (sauce|paste|puree)|tomatenpuree|passata|canned tomato|chopped tomato|tomatenblokjes|tomates concass/i, 'Kruidenier'],
     [/pearl sugar|parelsuiker|sucre perl/i, 'Kruidenier'],
+    // "chocolate" contains "cola", which would otherwise make it a drink.
+    [/chocola/i, 'Kruidenier'],
+    // Sausages, not dairy, whatever the English calls them.
+    [/black pudding|white pudding|bloedworst|witte pens|boudin/i, 'Slagerij & Gevogelte'],
+    [/pudding rice|rijstpaprijst|riz rond/i, 'Kruidenier'],
+    [/oyster sauce|oestersaus|fish sauce|vissaus/i, 'Kruidenier'],
+    [/cornflour|cornstarch|ma[iï]zena/i, 'Kruidenier'],
+    [/apple ?sauce|appelmoes|compote/i, 'Kruidenier'],
+    [/candied|gekonfijt|confit/i, 'Kruidenier'],
+    [/prunes|gedroogde pruim|pruneaux/i, 'Kruidenier'],
+    [/green chil+i|fresh chil+i|groene peper|piment vert/i, 'Groenten & Fruit'],
+    [/juniper|jeneverbes|geni[eè]vre en baies|baies de geni/i, 'Kruiden & Specerijen'],
     [/puff pastry|bladerdeeg|videekop|p[aâ]te feuillet/i, 'Diepvries']
   ];
 
