@@ -6,44 +6,29 @@
 const uiTranslations = {
   en: {
     appTitle: "Mijn Kookpot",
-    weekTab: "Week",
     recipes: "Recipes",
     checklist: "Shopping",
     settings: "Settings",
+    dishesTab: "My dishes",
+    dishesEmpty: "No dishes yet",
+    dishesEmptyDesc: "Tap + on a dish to add it",
+    browseBtn: "Browse recipes",
+    makeListBtn: "🛒 Make shopping list",
+    updateListBtn: "🛒 Update shopping list",
+    clearDishesBtn: "Remove all",
+    confirmClearDishes: "Remove all dishes?",
+    addDish: "Add {name}",
+    removeDish: "Remove {name}",
+    toastDishAdded: "{name} added",
+    toastDishAddedCareful: "{name} added. Careful: it has {list}",
+    toastDishRemoved: "{name} removed",
+    drawerAddBtn: "+ Add to my dishes",
+    drawerAddedBtn: "✓ In my dishes",
+    toastListMade: "List ready: {count} to buy",
+    clearListBtn: "Clear all",
     searchPlaceholder: "What do you feel like cooking?",
     // The week
-    weekdays: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    weekdaysShort: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-    weekTitle: "This week",
-    todayLabel: "Today",
-    weekSummary: "{planned} of 7 days planned",
-    weekSummaryNone: "Nothing planned yet — start with any day",
-    fillWeekBtn: "🎲 Fill the empty days",
-    toastWeekFilled: "{count} days filled — swap any you don't fancy",
-    toastWeekFull: "Every day from today on already has a dish",
-    toastNothingFits: "Nothing in the book fits your table's allergies and diet, I'm afraid",
-    clearWeekBtn: "Clear the week",
-    confirmClearWeek: "Take every dish off this week?",
-    toastWeekCleared: "A clean week",
-    staleWeekText: "This is still last week's menu.",
-    staleWeekFresh: "Start a fresh week",
-    staleWeekKeep: "Keep these dishes",
-    pickDishBtn: "+ Choose a dish",
-    surpriseDayBtn: "Surprise me",
-    addAnotherBtn: "+ Another dish",
-    removeMeal: "Take {name} off {day}",
     mealServings: "Plates",
-    pickingFor: "Choosing a dish for {day} — tap + on the one you want",
-    toastPlanned: "{name} — on {day}",
-    toastUnplanned: "Taken off {day}",
-    toastPlannedCareful: "{name} — on {day}. Careful: it has {list}",
-    planOnLabel: "Cook it on…",
-    planStatusOn: "On {days}",
-    planStatusNone: "Not on the week yet — tap a day",
-    addToWeek: "Put {name} on the week",
-    plannedFor: "On {day} — tap to see it",
-    toListBtn: "Shopping list · {count} to buy",
-    toListEmpty: "Shopping list",
     // The household
     tableGroupTitle: "At your table",
     householdLabel: "How many of you eat?",
@@ -51,7 +36,6 @@ const uiTranslations = {
     profilePromptTitle: "Before we start: does anyone at your table avoid something?",
     profilePromptDesc: "Tap what to keep off the plate. I'll leave those dishes out everywhere — you can change it later in Settings.",
     profilePromptDone: "That's everyone",
-    profileStrip: "Leaving out: {list}",
     allergenGluten: "Gluten",
     allergenNuts: "Nuts",
     allergenDairy: "Milk",
@@ -79,11 +63,10 @@ const uiTranslations = {
     createRecipeHeader: "Write down a recipe",
     editRecipeHeader: "Tidy up this recipe",
     checklistTitle: "The shopping list",
-    clearCheckedBtn: "Clear the ticked",
+    clearCheckedBtn: "Clear ticked",
     customItemPlaceholder: "Something else? 2 witloof, say…",
     emptyListHeader: "Nothing on the list yet",
-    emptyListDesc: "Put a few dinners on the week and everything they need lands here",
-    planWeekBtn: "Plan my week",
+    emptyListDesc: "Add some dishes, then make your list",
     cupboardGroup: "🏠 Probably at home already",
     cupboardHint: "Only buy these if you've run out",
     progressText: "{checked} of {total} in the basket",
@@ -94,8 +77,6 @@ const uiTranslations = {
     dangerZoneTitle: "Careful now",
     resetDbLabel: "Throw away my recipes",
     resetBtnText: "Throw away",
-    resetListLabel: "Empty the shopping list",
-    resetListBtnText: "Empty it",
     prepTimeLabel: "Getting ready",
     cookTimeLabel: "On the stove",
     diffLabel: "How tricky",
@@ -191,44 +172,29 @@ const uiTranslations = {
   },
   nl: {
     appTitle: "Mijn Kookpot",
-    weekTab: "Week",
     recipes: "Recepten",
     checklist: "Boodschappen",
     settings: "Instellingen",
+    dishesTab: "Mijn gerechten",
+    dishesEmpty: "Nog geen gerechten",
+    dishesEmptyDesc: "Tik op + bij een gerecht om het toe te voegen",
+    browseBtn: "Recepten bekijken",
+    makeListBtn: "🛒 Maak boodschappenlijst",
+    updateListBtn: "🛒 Boodschappenlijst bijwerken",
+    clearDishesBtn: "Alles weghalen",
+    confirmClearDishes: "Alle gerechten weghalen?",
+    addDish: "{name} toevoegen",
+    removeDish: "{name} weghalen",
+    toastDishAdded: "{name} toegevoegd",
+    toastDishAddedCareful: "{name} toegevoegd. Let op: er zit {list} in",
+    toastDishRemoved: "{name} weggehaald",
+    drawerAddBtn: "+ Bij mijn gerechten",
+    drawerAddedBtn: "✓ In mijn gerechten",
+    toastListMade: "Lijst klaar: {count} te kopen",
+    clearListBtn: "Alles wissen",
     searchPlaceholder: "Waar heb je zin in?",
     // De week
-    weekdays: ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"],
-    weekdaysShort: ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"],
-    weekTitle: "Deze week",
-    todayLabel: "Vandaag",
-    weekSummary: "{planned} van de 7 dagen gepland",
-    weekSummaryNone: "Nog niets gepland — begin met eender welke dag",
-    fillWeekBtn: "🎲 Vul de lege dagen",
-    toastWeekFilled: "{count} dagen gevuld — wissel gerust wat je niet ziet zitten",
-    toastWeekFull: "Elke dag vanaf vandaag heeft al een gerecht",
-    toastNothingFits: "Niets in het boek past bij de allergieën en het dieet van je tafel, vrees ik",
-    clearWeekBtn: "Week leegmaken",
-    confirmClearWeek: "Alle gerechten van deze week halen?",
-    toastWeekCleared: "Een propere week",
-    staleWeekText: "Dit is nog het menu van vorige week.",
-    staleWeekFresh: "Begin een nieuwe week",
-    staleWeekKeep: "Deze gerechten houden",
-    pickDishBtn: "+ Kies een gerecht",
-    surpriseDayBtn: "Verras me",
-    addAnotherBtn: "+ Nog een gerecht",
-    removeMeal: "{name} van {day} halen",
     mealServings: "Borden",
-    pickingFor: "Je kiest een gerecht voor {day} — tik op + bij het gerecht dat je wil",
-    toastPlanned: "{name} — op {day}",
-    toastUnplanned: "Van {day} gehaald",
-    toastPlannedCareful: "{name} — op {day}. Opgelet: er zit {list} in",
-    planOnLabel: "Klaarmaken op…",
-    planStatusOn: "Op {days}",
-    planStatusNone: "Nog niet ingepland — tik op een dag",
-    addToWeek: "{name} op de week zetten",
-    plannedFor: "Op {day} — tik om te bekijken",
-    toListBtn: "Boodschappenlijstje · {count} te kopen",
-    toListEmpty: "Boodschappenlijstje",
     // Het gezin
     tableGroupTitle: "Aan jouw tafel",
     householdLabel: "Met hoeveel eten jullie?",
@@ -236,7 +202,6 @@ const uiTranslations = {
     profilePromptTitle: "Eerst even: moet iemand aan je tafel iets vermijden?",
     profilePromptDesc: "Tik aan wat niet op het bord mag. Ik laat die gerechten overal weg — je kan het later nog aanpassen bij Instellingen.",
     profilePromptDone: "Dat is iedereen",
-    profileStrip: "Weggelaten: {list}",
     allergenGluten: "Gluten",
     allergenNuts: "Noten",
     allergenDairy: "Melk",
@@ -264,11 +229,10 @@ const uiTranslations = {
     createRecipeHeader: "Een recept opschrijven",
     editRecipeHeader: "Dit recept bijwerken",
     checklistTitle: "Het boodschappenlijstje",
-    clearCheckedBtn: "Wis het afgevinkte",
+    clearCheckedBtn: "Afgevinkte wissen",
     customItemPlaceholder: "Nog iets? 2 witloof bijvoorbeeld…",
     emptyListHeader: "Nog niets op het lijstje",
-    emptyListDesc: "Zet een paar avondmalen op de week en alles wat ze nodig hebben komt hier",
-    planWeekBtn: "Plan mijn week",
+    emptyListDesc: "Kies een paar gerechten en maak dan je lijst",
     cupboardGroup: "🏠 Heb je waarschijnlijk al",
     cupboardHint: "Koop deze alleen als ze op zijn",
     progressText: "{checked} van {total} in de kar",
@@ -279,8 +243,6 @@ const uiTranslations = {
     dangerZoneTitle: "Even opletten",
     resetDbLabel: "Mijn eigen recepten weggooien",
     resetBtnText: "Weggooien",
-    resetListLabel: "Het lijstje leegmaken",
-    resetListBtnText: "Leegmaken",
     prepTimeLabel: "Voorbereiden",
     cookTimeLabel: "Op het vuur",
     diffLabel: "Hoe lastig",
@@ -376,44 +338,29 @@ const uiTranslations = {
   },
   fr: {
     appTitle: "Mijn Kookpot",
-    weekTab: "Semaine",
     recipes: "Recettes",
     checklist: "Courses",
     settings: "Réglages",
+    dishesTab: "Mes plats",
+    dishesEmpty: "Pas encore de plats",
+    dishesEmptyDesc: "Touche + sur un plat pour l'ajouter",
+    browseBtn: "Voir les recettes",
+    makeListBtn: "🛒 Faire la liste de courses",
+    updateListBtn: "🛒 Mettre la liste à jour",
+    clearDishesBtn: "Tout retirer",
+    confirmClearDishes: "Retirer tous les plats ?",
+    addDish: "Ajouter {name}",
+    removeDish: "Retirer {name}",
+    toastDishAdded: "{name} ajouté",
+    toastDishAddedCareful: "{name} ajouté. Attention : contient {list}",
+    toastDishRemoved: "{name} retiré",
+    drawerAddBtn: "+ Ajouter à mes plats",
+    drawerAddedBtn: "✓ Dans mes plats",
+    toastListMade: "Liste prête : {count} à acheter",
+    clearListBtn: "Tout effacer",
     searchPlaceholder: "Tu as envie de quoi ?",
     // La semaine
-    weekdays: ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
-    weekdaysShort: ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"],
-    weekTitle: "Cette semaine",
-    todayLabel: "Aujourd'hui",
-    weekSummary: "{planned} jours sur 7 au menu",
-    weekSummaryNone: "Rien au menu pour l'instant — commence par n'importe quel jour",
-    fillWeekBtn: "🎲 Remplir les jours vides",
-    toastWeekFilled: "{count} jours remplis — change ceux qui ne te disent rien",
-    toastWeekFull: "Chaque jour à partir d'aujourd'hui a déjà un plat",
-    toastNothingFits: "Rien dans le livre ne convient aux allergies et au régime de ta table, j'en ai peur",
-    clearWeekBtn: "Vider la semaine",
-    confirmClearWeek: "Retirer tous les plats de cette semaine ?",
-    toastWeekCleared: "Une semaine toute propre",
-    staleWeekText: "C'est encore le menu de la semaine passée.",
-    staleWeekFresh: "Commencer une nouvelle semaine",
-    staleWeekKeep: "Garder ces plats",
-    pickDishBtn: "+ Choisir un plat",
-    surpriseDayBtn: "Surprends-moi",
-    addAnotherBtn: "+ Un autre plat",
-    removeMeal: "Retirer {name} du {day}",
     mealServings: "Assiettes",
-    pickingFor: "Tu choisis un plat pour {day} — touche le + de celui que tu veux",
-    toastPlanned: "{name} — le {day}",
-    toastUnplanned: "Retiré du {day}",
-    toastPlannedCareful: "{name} — le {day}. Attention : il y a {list}",
-    planOnLabel: "À cuisiner le…",
-    planStatusOn: "Le {days}",
-    planStatusNone: "Pas encore au menu — touche un jour",
-    addToWeek: "Mettre {name} au menu",
-    plannedFor: "Le {day} — touche pour voir",
-    toListBtn: "Liste de courses · {count} à acheter",
-    toListEmpty: "Liste de courses",
     // La maisonnée
     tableGroupTitle: "À ta table",
     householdLabel: "Vous êtes combien à manger ?",
@@ -421,7 +368,6 @@ const uiTranslations = {
     profilePromptTitle: "Avant de commencer : quelqu'un à ta table doit-il éviter quelque chose ?",
     profilePromptDesc: "Touche ce qui ne doit pas finir dans l'assiette. Je laisse ces plats de côté partout — tu pourras changer ça plus tard dans les Réglages.",
     profilePromptDone: "C'est tout le monde",
-    profileStrip: "Laissé de côté : {list}",
     allergenGluten: "Gluten",
     allergenNuts: "Fruits à coque",
     allergenDairy: "Lait",
@@ -452,8 +398,7 @@ const uiTranslations = {
     clearCheckedBtn: "Effacer les cochés",
     customItemPlaceholder: "Autre chose ? 2 chicons, tiens…",
     emptyListHeader: "Rien sur la liste pour l'instant",
-    emptyListDesc: "Mets quelques dîners au menu de la semaine et tout ce qu'il leur faut arrive ici",
-    planWeekBtn: "Planifier ma semaine",
+    emptyListDesc: "Choisis quelques plats, puis fais ta liste",
     cupboardGroup: "🏠 Sans doute déjà à la maison",
     cupboardHint: "À n'acheter que s'il n'y en a plus",
     progressText: "{checked} sur {total} dans le panier",
@@ -464,8 +409,6 @@ const uiTranslations = {
     dangerZoneTitle: "Attention",
     resetDbLabel: "Jeter mes recettes",
     resetBtnText: "Jeter",
-    resetListLabel: "Vider la liste de courses",
-    resetListBtnText: "Vider",
     prepTimeLabel: "Préparation",
     cookTimeLabel: "Sur le feu",
     diffLabel: "Difficulté",
@@ -569,9 +512,10 @@ const STORAGE = {
   userRecipes: 'belgian_user_recipes',
   favorites: 'belgian_favorites',
   groceryList: 'belgian_grocery_list',
-  weekPlan: 'belgian_week_plan',
-  checkedLines: 'belgian_checked_lines',
-  // Superseded by the week plan; read once to migrate, then removed.
+  dishes: 'belgian_dishes',
+  // Superseded by my dishes; read once to migrate, then removed.
+  legacyWeekPlan: 'belgian_week_plan',
+  legacyCheckedLines: 'belgian_checked_lines',
   legacySelection: 'belgian_selected_recipes',
   legacySavedRecipes: 'belgian_saved_recipes',
   legacySkippedStaples: 'belgian_skipped_staples',
@@ -604,8 +548,6 @@ const DIETS = [
   { id: 'candida', key: 'dietCandida', flag: 'isCandidaFriendly' }
 ];
 
-const DAYS_IN_WEEK = 7;
-
 // Aisle -> translation key. Aisle order comes from ingredients.js.
 const AISLE_LABEL_KEYS = {
   'Groenten & Fruit': 'aisleProduce',
@@ -620,6 +562,7 @@ const AISLE_LABEL_KEYS = {
 };
 
 const RECIPE_CATEGORIES = ['all', 'breakfast', 'main', 'soup', 'snack', 'dessert'];
+const CATEGORY_ICONS = { all: '🍽️', breakfast: '🥐', main: '🍲', soup: '🥣', snack: '🥨', dessert: '🍰' };
 const RECIPE_CATEGORY_KEYS = {
   all: 'recipeCategoryAll',
   breakfast: 'recipeCategoryBreakfast',
@@ -667,10 +610,8 @@ let state = {
   builtInRecipes: [],
   userRecipes: [],
   recipes: [],
-  groceryList: [],      // things you added by hand; the rest comes from the week
-  checkedLines: [],     // ticked lines that come from the week, by line id
-  weekPlan: { weekStart: '', meals: [] },
-  pickingDay: null,     // set while choosing a dish for one day of the week
+  groceryList: [],      // the shopping list: lines made from my dishes, plus anything typed in
+  dishes: [],           // what you mean to cook: { recipeId, servings }
   favorites: [],
   settings: {
     language: 'en',
@@ -686,7 +627,7 @@ let state = {
     favoritesOnly: false,
     showUnsafe: false   // deliberately not saved: hiding is the safe default
   },
-  activeTab: 'week',
+  activeTab: 'recipes',
   selectedRecipe: null,
   recipeServings: 4,
   customRecipeIngredients: [],
@@ -876,9 +817,7 @@ function initApp() {
 
   state.favorites = readJson(STORAGE.favorites, []);
   state.groceryList = readJson(STORAGE.groceryList, []);
-  state.checkedLines = readJson(STORAGE.checkedLines, []);
-  loadWeekPlan();
-  state.pickingDay = null;
+  loadDishes();
 
   setupEventListeners();
   applyLanguage(state.settings.language);
@@ -1013,62 +952,63 @@ function saveUserRecipes() {
 
 function saveGroceryList() {
   localStorage.setItem(STORAGE.groceryList, JSON.stringify(state.groceryList));
-  localStorage.setItem(STORAGE.checkedLines, JSON.stringify(state.checkedLines));
 }
 
 function saveFavorites() {
   localStorage.setItem(STORAGE.favorites, JSON.stringify(state.favorites));
 }
 
-function saveWeekPlan() {
-  localStorage.setItem(STORAGE.weekPlan, JSON.stringify(state.weekPlan));
+function saveDishes() {
+  localStorage.setItem(STORAGE.dishes, JSON.stringify(state.dishes));
 }
 
 /**
- * Read the week, dropping any dish whose recipe has since been deleted.
+ * Read my dishes, dropping any whose recipe has since been deleted.
  *
- * Before the week existed, "plan these" was a loose selection of recipes with
- * a servings count each. A selection still sitting in storage is laid out
- * over the coming days rather than thrown away.
+ * Before this the app planned a week, and before that it kept a loose
+ * selection. Either one still in storage becomes my dishes. The week's list
+ * was read live off the week, so it is made into a real list here, with the
+ * ticks it had.
  */
-function loadWeekPlan() {
-  const stored = readJson(STORAGE.weekPlan, null);
-  state.weekPlan = normalizeWeekPlan(stored);
-
-  const legacy = readJson(STORAGE.legacySelection, null);
-  if (!stored && legacy) {
-    const ids = Array.isArray(legacy) ? legacy : (Array.isArray(legacy.ids) ? legacy.ids : []);
-    const servings = (!Array.isArray(legacy) && legacy.servings) || {};
-    ids.filter(id => findRecipe(id)).forEach(id => {
-      state.weekPlan.meals.push(newMeal(id, nextFreeDay(), servings[id]));
-    });
-    saveWeekPlan();
+function loadDishes() {
+  const stored = readJson(STORAGE.dishes, null);
+  if (stored) {
+    state.dishes = normalizeDishes(stored);
+  } else {
+    const week = readJson(STORAGE.legacyWeekPlan, null);
+    const selection = readJson(STORAGE.legacySelection, null);
+    state.dishes = normalizeDishes(week && Array.isArray(week.meals) ? week.meals : selectionToDishes(selection));
+    if (week && state.dishes.length) {
+      const ticks = readJson(STORAGE.legacyCheckedLines, []);
+      buildShoppingList(Array.isArray(ticks) ? ticks.map(id => String(id).replace(/^w:/, 'd:')) : []);
+    }
+    saveDishes();
   }
-  [STORAGE.legacySelection, STORAGE.legacySavedRecipes, STORAGE.legacySkippedStaples]
+  [STORAGE.legacyWeekPlan, STORAGE.legacyCheckedLines, STORAGE.legacySelection,
+    STORAGE.legacySavedRecipes, STORAGE.legacySkippedStaples]
     .forEach(key => localStorage.removeItem(key));
-
-  // An empty plan simply follows the calendar; a full one waits to be asked.
-  if (state.weekPlan.meals.length === 0) state.weekPlan.weekStart = currentWeekStart();
 }
 
-function normalizeWeekPlan(raw) {
-  const plan = { weekStart: currentWeekStart(), meals: [] };
-  if (!raw || typeof raw !== 'object') return plan;
-  if (typeof raw.weekStart === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(raw.weekStart)) {
-    plan.weekStart = raw.weekStart;
-  }
-  if (Array.isArray(raw.meals)) {
-    plan.meals = raw.meals.filter(m =>
-      m && typeof m.recipeId === 'string' && findRecipe(m.recipeId) &&
-      Number.isInteger(m.day) && m.day >= 0 && m.day < DAYS_IN_WEEK
-    ).map(m => ({
-      id: typeof m.id === 'string' ? m.id : newItemId(),
-      recipeId: m.recipeId,
-      day: m.day,
-      servings: Math.max(1, parseInt(m.servings, 10) || state.settings.householdSize)
-    }));
-  }
-  return plan;
+/** The oldest format: { ids: [...], servings: { id: n } }, or a bare id list. */
+function selectionToDishes(legacy) {
+  if (!legacy) return [];
+  const ids = Array.isArray(legacy) ? legacy : (Array.isArray(legacy.ids) ? legacy.ids : []);
+  const servings = (!Array.isArray(legacy) && legacy.servings) || {};
+  return ids.map(id => ({ recipeId: id, servings: servings[id] }));
+}
+
+/** One entry per recipe that still exists, with a sane plate count. */
+function normalizeDishes(raw) {
+  const out = [];
+  (Array.isArray(raw) ? raw : []).forEach(d => {
+    if (!d || typeof d.recipeId !== 'string' || !findRecipe(d.recipeId)) return;
+    if (out.some(o => o.recipeId === d.recipeId)) return;
+    out.push({
+      recipeId: d.recipeId,
+      servings: Math.max(1, parseInt(d.servings, 10) || state.settings.householdSize)
+    });
+  });
+  return out;
 }
 
 // --- Language Switching Engine ---
@@ -1123,8 +1063,6 @@ function populateRecipeCategorySelect() {
 // --- Navigation ---
 function switchTab(tabId) {
   state.activeTab = tabId;
-  // Choosing a dish for one day ends the moment you go somewhere else.
-  if (tabId !== 'recipes') state.pickingDay = null;
 
   document.querySelectorAll('.tab-item').forEach(item => {
     const current = item.dataset.tab === tabId;
@@ -1142,7 +1080,7 @@ function switchTab(tabId) {
 
   if (tabId === 'grocery') renderGroceryList();
   else if (tabId === 'recipes') renderRecipesList();
-  else if (tabId === 'week') renderWeekTab();
+  else if (tabId === 'dishes') renderDishesTab();
   else if (tabId === 'settings') renderSettingsTab();
 }
 
@@ -1172,28 +1110,24 @@ function setupEventListeners() {
     });
   });
 
-  // The week
+  // First run, and my dishes
   document.getElementById('profile-prompt-done').addEventListener('click', () => {
     state.settings.profileAsked = true;
     saveSettings();
-    renderWeekTab();
+    renderRecipesList();
   });
-  document.getElementById('week-profile-strip').addEventListener('click', () => switchTab('settings'));
-  document.getElementById('week-start-fresh').addEventListener('click', startFreshWeek);
-  document.getElementById('week-keep').addEventListener('click', keepLastWeek);
-  document.getElementById('week-fill-btn').addEventListener('click', fillEmptyDays);
-  document.getElementById('week-to-list-btn').addEventListener('click', () => switchTab('grocery'));
-  document.getElementById('week-clear-btn').addEventListener('click', clearWeek);
+  document.getElementById('dishes-browse-btn').addEventListener('click', () => switchTab('recipes'));
+  document.getElementById('dishes-to-list-btn').addEventListener('click', makeShoppingList);
+  document.getElementById('dishes-clear-btn').addEventListener('click', clearDishes);
+  document.getElementById('drawer-dish-btn').addEventListener('click', () => {
+    if (state.selectedRecipe) toggleDish(state.selectedRecipe.id, state.recipeServings);
+  });
 
   // The household
   document.getElementById('household-minus').addEventListener('click', () => setHouseholdSize(state.settings.householdSize - 1));
   document.getElementById('household-plus').addEventListener('click', () => setHouseholdSize(state.settings.householdSize + 1));
 
   // The recipe book
-  document.getElementById('picking-cancel-btn').addEventListener('click', () => {
-    stopPicking();
-    switchTab('week');
-  });
   document.getElementById('safety-toggle-btn').addEventListener('click', () => {
     state.filters.showUnsafe = !state.filters.showUnsafe;
     renderRecipeGrid();
@@ -1236,21 +1170,20 @@ function setupEventListeners() {
       const own = state.userRecipes.map(r => r.id);
       state.userRecipes = [];
       saveUserRecipes();
-      state.weekPlan.meals = state.weekPlan.meals.filter(m => own.indexOf(m.recipeId) === -1);
-      saveWeekPlan();
+      state.dishes = state.dishes.filter(d => own.indexOf(d.recipeId) === -1);
+      saveDishes();
       showToast(t('toastRecipesReset'), 'info');
       renderApp();
     }
   });
 
-  document.getElementById('reset-list-btn').addEventListener('click', () => {
-    if (confirm(t('confirmWipeList'))) {
-      state.groceryList = [];
-      state.checkedLines = [];
-      saveGroceryList();
-      renderGroceryList();
-      showToast(t('toastListWiped'), 'info');
-    }
+  document.getElementById('clear-checked-btn').addEventListener('click', clearCheckedItems);
+  document.getElementById('clear-list-btn').addEventListener('click', () => {
+    if (state.groceryList.length === 0 || !confirm(t('confirmWipeList'))) return;
+    state.groceryList = [];
+    saveGroceryList();
+    renderGroceryList();
+    showToast(t('toastListWiped'), 'info');
   });
 
   const filterToggle = document.getElementById('recipe-filter-toggle-btn');
@@ -1372,7 +1305,7 @@ function updateCookModeStep() {
 
 // --- Render Controllers ---
 function renderApp() {
-  renderWeekTab();
+  renderDishesTab();
   renderRecipesList();
   renderGroceryList();
   renderSettingsTab();
@@ -1450,7 +1383,7 @@ function setHouseholdSize(n) {
 function onProfileChanged() {
   renderProfilePills();
   renderRecipesList();
-  renderWeekTab();
+  renderDishesTab();
   if (state.selectedRecipe) renderDrawerAllergens(state.selectedRecipe);
 }
 
@@ -1478,226 +1411,68 @@ function renderProfilePills() {
   }
 }
 
-// --- The week ---
+// --- My dishes ---
 //
-// A week runs Monday to Sunday, the way a Belgian calendar prints it. Each
-// planned dish is a meal: a recipe, a day, and how many plates. A day can
-// hold more than one dish — soup and a main, say.
-
-function pad2(n) {
-  return String(n).padStart(2, '0');
-}
-
-function isoDate(d) {
-  return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
-}
-
-function parseIsoDate(s) {
-  const parts = String(s).split('-').map(Number);
-  return new Date(parts[0], parts[1] - 1, parts[2]);
-}
-
-function mondayOf(date) {
-  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-  d.setDate(d.getDate() - (d.getDay() + 6) % 7);
-  return d;
-}
-
-function currentWeekStart() {
-  return isoDate(mondayOf(new Date()));
-}
-
-/** The plan is for a week that has already ended. */
-function isStaleWeek() {
-  return state.weekPlan.meals.length > 0 && state.weekPlan.weekStart < currentWeekStart();
-}
-
-/** Index of today within the planned week, or -1 if it is another week. */
-function todayIndex() {
-  if (state.weekPlan.weekStart !== currentWeekStart()) return -1;
-  return (new Date().getDay() + 6) % 7;
-}
-
-function dayDate(day) {
-  const d = parseIsoDate(state.weekPlan.weekStart);
-  d.setDate(d.getDate() + day);
-  return d;
-}
-
-const DATE_LOCALES = { en: 'en-GB', nl: 'nl-BE', fr: 'fr-BE' };
-
-function shortDate(date) {
-  try {
-    return date.toLocaleDateString(DATE_LOCALES[state.settings.language] || 'en-GB',
-      { day: 'numeric', month: 'short' });
-  } catch (e) {
-    return `${date.getDate()}/${date.getMonth() + 1}`;
-  }
-}
-
-/** "Wednesday" as a heading, or "woensdag" inside a Dutch or French sentence. */
-function dayName(day, options) {
-  const dict = uiTranslations[state.settings.language] || uiTranslations.en;
-  const name = ((options && options.short) ? dict.weekdaysShort : dict.weekdays)[day];
-  return options && options.inSentence && state.settings.language !== 'en' ? name.toLowerCase() : name;
-}
+// What you mean to cook, each with how many plates. Nothing is tied to a day:
+// add from the book, take off when cooked, and make the shopping list from
+// whatever is here.
 
 function findRecipe(id) {
   return state.recipes.find(r => r.id === id) || null;
 }
 
-function newMeal(recipeId, day, servings) {
-  return {
-    id: newItemId(),
-    recipeId: recipeId,
-    day: day,
-    servings: Math.max(1, parseInt(servings, 10) || state.settings.householdSize)
-  };
+function dishFor(recipeId) {
+  return state.dishes.find(d => d.recipeId === recipeId) || null;
 }
 
-function mealsOn(day) {
-  return state.weekPlan.meals.filter(m => m.day === day);
-}
-
-function plannedDays(recipeId) {
-  return state.weekPlan.meals.filter(m => m.recipeId === recipeId).map(m => m.day)
-    .sort((a, b) => a - b);
-}
-
-/** The first empty day from today on; failing that, today. */
-function nextFreeDay() {
-  const start = Math.max(0, todayIndex());
-  for (let d = start; d < DAYS_IN_WEEK; d++) {
-    if (mealsOn(d).length === 0) return d;
-  }
-  for (let d = 0; d < start; d++) {
-    if (mealsOn(d).length === 0) return d;
-  }
-  return start;
-}
-
-function planMeal(recipeId, day, servings) {
+function addDish(recipeId, servings) {
   const recipe = findRecipe(recipeId);
-  if (!recipe) return null;
-  const meal = newMeal(recipeId, day, servings);
-  state.weekPlan.meals.push(meal);
-  saveWeekPlan();
+  if (!recipe || dishFor(recipeId)) return null;
+  const dish = { recipeId: recipeId, servings: Math.max(1, parseInt(servings, 10) || state.settings.householdSize) };
+  state.dishes.push(dish);
+  saveDishes();
 
   const name = recipeText(recipe).title;
   const clash = clashingAllergens(recipe);
-  if (clash.length) {
-    showToast(t('toastPlannedCareful', { name: name, day: dayName(day, { inSentence: true }), list: allergenList(clash) }), 'info');
-  } else {
-    showToast(t('toastPlanned', { name: name, day: dayName(day, { inSentence: true }) }), 'success');
-  }
-  onWeekChanged();
-  return meal;
+  if (clash.length) showToast(t('toastDishAddedCareful', { name: name, list: allergenList(clash) }), 'info');
+  else showToast(t('toastDishAdded', { name: name }), 'success');
+  onDishesChanged();
+  return dish;
 }
 
-function unplanMeal(mealId) {
-  const meal = state.weekPlan.meals.find(m => m.id === mealId);
-  if (!meal) return;
-  state.weekPlan.meals = state.weekPlan.meals.filter(m => m.id !== mealId);
-  saveWeekPlan();
-  showToast(t('toastUnplanned', { day: dayName(meal.day, { inSentence: true }) }), 'info');
-  onWeekChanged();
+function removeDish(recipeId) {
+  const recipe = findRecipe(recipeId);
+  if (!dishFor(recipeId)) return;
+  state.dishes = state.dishes.filter(d => d.recipeId !== recipeId);
+  saveDishes();
+  if (recipe) showToast(t('toastDishRemoved', { name: recipeText(recipe).title }), 'info');
+  onDishesChanged();
 }
 
-function setMealServings(mealId, servings) {
-  const meal = state.weekPlan.meals.find(m => m.id === mealId);
-  if (!meal) return;
-  meal.servings = Math.max(1, servings);
-  saveWeekPlan();
-  onWeekChanged();
+function toggleDish(recipeId, servings) {
+  if (dishFor(recipeId)) removeDish(recipeId);
+  else addDish(recipeId, servings);
 }
 
-/** Something for the table: safe, a main course, and not on the week yet. */
-function suggestRecipe(excludeIds) {
-  const exclude = excludeIds || [];
-  const candidates = state.recipes.filter(r =>
-    suitsTable(r) && recipeCategories(r).includes('main') &&
-    exclude.indexOf(r.id) === -1);
-  // A dish with a photograph makes a better first impression on the week.
-  const photographed = candidates.filter(hasPhoto);
-  const pool = photographed.length ? photographed : candidates;
-  const index = randomIndex(pool.length);
-  return index >= 0 ? pool[index] : null;
+function setDishServings(recipeId, servings) {
+  const dish = dishFor(recipeId);
+  if (!dish) return;
+  dish.servings = Math.max(1, servings);
+  saveDishes();
+  onDishesChanged();
 }
 
-function surpriseDay(day) {
-  const recipe = suggestRecipe(state.weekPlan.meals.map(m => m.recipeId));
-  if (!recipe) {
-    showToast(t('toastNothingFits'), 'info');
-    return;
-  }
-  planMeal(recipe.id, day);
+function clearDishes() {
+  if (state.dishes.length === 0 || !confirm(t('confirmClearDishes'))) return;
+  state.dishes = [];
+  saveDishes();
+  onDishesChanged();
 }
 
-/** One random dish on every empty day from today to Sunday. */
-function fillEmptyDays() {
-  const start = Math.max(0, todayIndex());
-  let filled = 0;
-  for (let d = start; d < DAYS_IN_WEEK; d++) {
-    if (mealsOn(d).length > 0) continue;
-    const recipe = suggestRecipe(state.weekPlan.meals.map(m => m.recipeId));
-    if (!recipe) break;
-    state.weekPlan.meals.push(newMeal(recipe.id, d));
-    filled++;
-  }
-  saveWeekPlan();
-
-  if (filled > 0) showToast(t('toastWeekFilled', { count: filled }), 'success');
-  else if (suggestRecipe([])) showToast(t('toastWeekFull'), 'info');
-  else showToast(t('toastNothingFits'), 'info');
-  onWeekChanged();
-}
-
-function clearWeek() {
-  if (state.weekPlan.meals.length === 0 || !confirm(t('confirmClearWeek'))) return;
-  state.weekPlan.meals = [];
-  state.checkedLines = [];
-  saveWeekPlan();
-  saveGroceryList();
-  showToast(t('toastWeekCleared'), 'info');
-  onWeekChanged();
-}
-
-/**
- * Last week's menu is still on screen. Starting fresh empties the week and
- * the basket, but keeps anything you wrote on the list by hand and had not
- * bought yet.
- */
-function startFreshWeek() {
-  state.weekPlan = { weekStart: currentWeekStart(), meals: [] };
-  state.checkedLines = [];
-  state.groceryList = state.groceryList.filter(i => !i.checked);
-  saveWeekPlan();
-  saveGroceryList();
-  onWeekChanged();
-}
-
-function keepLastWeek() {
-  state.weekPlan.weekStart = currentWeekStart();
-  saveWeekPlan();
-  onWeekChanged();
-}
-
-/** Go and choose a dish for one day; the recipe book says which. */
-function startPicking(day) {
-  state.pickingDay = day;
-  switchTab('recipes');
-}
-
-function stopPicking() {
-  state.pickingDay = null;
-  renderPickingBanner();
-}
-
-function onWeekChanged() {
-  if (state.activeTab === 'week') renderWeekTab();
-  if (state.activeTab === 'grocery') renderGroceryList();
+function onDishesChanged() {
+  if (state.activeTab === 'dishes') renderDishesTab();
   if (state.activeTab === 'recipes') renderRecipeGrid();
-  if (state.selectedRecipe) renderDrawerPlan();
+  if (state.selectedRecipe) renderDrawerDishButton();
   updateTabBadges();
 }
 
@@ -1708,149 +1483,85 @@ function updateTabBadges() {
     el.hidden = n === 0;
     el.textContent = String(n);
   };
-  set('tab-badge-week', state.weekPlan.meals.length);
+  set('tab-badge-dishes', state.dishes.length);
   set('tab-badge-grocery', itemsToBuy().length);
 }
 
-function renderWeekTab() {
-  const list = document.getElementById('week-days');
+function renderDishesTab() {
+  const list = document.getElementById('dish-list');
   if (!list) return;
 
-  const start = parseIsoDate(state.weekPlan.weekStart);
-  const end = dayDate(DAYS_IN_WEEK - 1);
-  document.getElementById('week-range').textContent = `${shortDate(start)} – ${shortDate(end)}`;
+  const empty = state.dishes.length === 0;
+  document.getElementById('dishes-empty').hidden = !empty;
+  document.getElementById('dishes-footer').hidden = empty;
+  list.hidden = empty;
+  list.innerHTML = state.dishes.map(dishRowHtml).join('');
 
-  // Profile: ask once, then keep a one-line reminder of what is filtered.
-  const prompt = document.getElementById('profile-prompt');
-  const strip = document.getElementById('week-profile-strip');
-  prompt.hidden = state.settings.profileAsked;
-  const summary = profileSummary();
-  strip.hidden = !state.settings.profileAsked || !summary;
-  strip.textContent = summary ? `🛡 ${t('profileStrip', { list: summary })}` : '';
-
-  document.getElementById('week-stale-banner').hidden = !isStaleWeek();
-
-  const plannedDayCount = new Set(state.weekPlan.meals.map(m => m.day)).size;
-  document.getElementById('week-summary-text').textContent = plannedDayCount === 0
-    ? t('weekSummaryNone')
-    : t('weekSummary', { planned: plannedDayCount });
-
-  const today = todayIndex();
-  let html = '';
-  for (let day = 0; day < DAYS_IN_WEEK; day++) {
-    const meals = mealsOn(day);
-    const past = today > -1 && day < today;
-
-    html += `
-      <li class="week-day ${day === today ? 'is-today' : ''} ${past ? 'is-past' : ''} ${meals.length === 0 ? 'is-empty' : ''}" data-day="${day}">
-        <div class="week-day-head">
-          <span class="week-day-name">${escapeHtml(dayName(day))}</span>
-          <span class="week-day-date">${escapeHtml(shortDate(dayDate(day)))}</span>
-          ${day === today ? `<span class="week-day-today">${escapeHtml(t('todayLabel'))}</span>` : ''}
-        </div>
-        ${meals.map(weekMealHtml).join('')}
-        ${meals.length === 0 && past ? '' : meals.length === 0 ? `
-          <div class="week-day-actions">
-            <button type="button" class="day-pick-btn" data-day="${day}">${escapeHtml(t('pickDishBtn'))}</button>
-            <button type="button" class="day-dice-btn" data-day="${day}" aria-label="${escapeHtml(t('surpriseDayBtn'))}" title="${escapeHtml(t('surpriseDayBtn'))}">🎲</button>
-          </div>
-        ` : `
-          <button type="button" class="day-add-more" data-day="${day}">${escapeHtml(t('addAnotherBtn'))}</button>
-        `}
-      </li>
-    `;
-  }
-  list.innerHTML = html;
-
-  list.querySelectorAll('.day-pick-btn, .day-add-more').forEach(btn => {
-    btn.addEventListener('click', () => startPicking(parseInt(btn.dataset.day, 10)));
-  });
-  list.querySelectorAll('.day-dice-btn').forEach(btn => {
-    btn.addEventListener('click', () => surpriseDay(parseInt(btn.dataset.day, 10)));
-  });
-  list.querySelectorAll('.week-meal-open').forEach(el => {
+  list.querySelectorAll('.dish-open').forEach(el => {
     onActivate(el, () => openRecipeDrawer(el.dataset.recipeId));
   });
-  list.querySelectorAll('.week-meal-remove').forEach(btn => {
-    btn.addEventListener('click', () => unplanMeal(btn.dataset.mealId));
+  list.querySelectorAll('.dish-remove').forEach(btn => {
+    btn.addEventListener('click', () => removeDish(btn.dataset.recipeId));
   });
-  list.querySelectorAll('.week-meal-servings button').forEach(btn => {
+  list.querySelectorAll('.dish-servings button').forEach(btn => {
     btn.addEventListener('click', () => {
-      const meal = state.weekPlan.meals.find(m => m.id === btn.dataset.mealId);
-      if (meal) setMealServings(meal.id, meal.servings + parseInt(btn.dataset.step, 10));
+      const dish = dishFor(btn.dataset.recipeId);
+      if (dish) setDishServings(dish.recipeId, dish.servings + parseInt(btn.dataset.step, 10));
     });
   });
 
-  const toBuy = itemsToBuy().length;
-  const toList = document.getElementById('week-to-list-btn');
-  toList.textContent = toBuy > 0 ? t('toListBtn', { count: toBuy }) : t('toListEmpty');
-  document.getElementById('week-clear-btn').hidden = state.weekPlan.meals.length === 0;
+  // Once a list exists, the same button brings it up to date.
+  const hasList = state.groceryList.some(i => isDishLine(i.id));
+  document.getElementById('dishes-to-list-btn').textContent = hasList ? t('updateListBtn') : t('makeListBtn');
   updateTabBadges();
 }
 
-function weekMealHtml(meal) {
-  const recipe = findRecipe(meal.recipeId);
+function dishRowHtml(dish) {
+  const recipe = findRecipe(dish.recipeId);
   if (!recipe) return '';
   const name = recipeText(recipe).title;
   const clash = clashingAllergens(recipe);
-  const dayText = dayName(meal.day, { inSentence: true });
+  const id = escapeHtml(recipe.id);
   return `
-    <div class="week-meal ${clash.length ? 'has-clash' : ''}" data-meal-id="${escapeHtml(meal.id)}">
-      <div class="week-meal-open" data-recipe-id="${escapeHtml(recipe.id)}" role="button" tabindex="0">
-        ${photoMarkup(recipe, name, 'week-meal-img', true)}
-        <div class="week-meal-text">
-          <span class="week-meal-title">${escapeHtml(name)}</span>
-          ${clash.length ? `<span class="week-meal-warn">⚠ ${escapeHtml(allergenList(clash))}</span>` : ''}
+    <li class="dish-row ${clash.length ? 'has-clash' : ''}">
+      <div class="dish-open" data-recipe-id="${id}" role="button" tabindex="0">
+        ${photoMarkup(recipe, name, 'dish-img', true)}
+        <div class="dish-text">
+          <span class="dish-title">${escapeHtml(name)}</span>
+          ${clash.length ? `<span class="dish-warn">⚠ ${escapeHtml(allergenList(clash))}</span>` : ''}
         </div>
       </div>
-      <div class="week-meal-servings" aria-label="${escapeHtml(t('mealServings'))}">
-        <button type="button" class="servings-btn servings-btn-sm" data-meal-id="${escapeHtml(meal.id)}" data-step="-1" aria-label="${escapeHtml(t('mealServings'))} -">-</button>
-        <span class="week-meal-count">${meal.servings}</span>
-        <button type="button" class="servings-btn servings-btn-sm" data-meal-id="${escapeHtml(meal.id)}" data-step="1" aria-label="${escapeHtml(t('mealServings'))} +">+</button>
+      <div class="dish-servings" aria-label="${escapeHtml(t('mealServings'))}">
+        <button type="button" class="servings-btn servings-btn-sm" data-recipe-id="${id}" data-step="-1" aria-label="${escapeHtml(t('mealServings'))} -">-</button>
+        <span class="dish-count">${dish.servings}</span>
+        <button type="button" class="servings-btn servings-btn-sm" data-recipe-id="${id}" data-step="1" aria-label="${escapeHtml(t('mealServings'))} +">+</button>
       </div>
-      <button type="button" class="week-meal-remove" data-meal-id="${escapeHtml(meal.id)}"
-              aria-label="${escapeHtml(t('removeMeal', { name: name, day: dayText }))}">&times;</button>
-    </div>
+      <button type="button" class="dish-remove" data-recipe-id="${id}"
+              aria-label="${escapeHtml(t('removeDish', { name: name }))}">&times;</button>
+    </li>
   `;
 }
 
 // --- Recipe book ---
 
-/** One card template for the book. */
+/** One card template for the book: the photo, its name, and a + to add it. */
 function recipeCardHtml(recipe) {
   const isFav = state.favorites.includes(recipe.id);
-  const days = plannedDays(recipe.id);
-  const planned = days.length > 0;
+  const added = !!dishFor(recipe.id);
   const name = recipeText(recipe).title;
-  const diffText = recipe.difficulty[state.settings.language] || recipe.difficulty.en;
   const clash = clashingAllergens(recipe);
-  const picking = state.pickingDay !== null;
-
-  // "+" puts the dish on the week. Once it is there, the button shows the
-  // day instead — unless you are choosing for a particular day, when it is
-  // always a "+" for that day.
-  const planLabel = planned && !picking
-    ? t('plannedFor', { day: dayName(days[0], { inSentence: true }) })
-    : t('addToWeek', { name: name });
-  const planText = planned && !picking ? escapeHtml(dayName(days[0], { short: true })) : '+';
+  const label = added ? t('removeDish', { name: name }) : t('addDish', { name: name });
 
   return `
-    <div class="recipe-card ${planned ? 'is-planned' : ''}" data-id="${escapeHtml(recipe.id)}"
+    <div class="recipe-card ${added ? 'is-added' : ''}" data-id="${escapeHtml(recipe.id)}"
          role="button" tabindex="0" aria-label="${escapeHtml(name)}">
-      <div class="card-plan-btn ${planned && !picking ? 'planned' : ''}" data-id="${escapeHtml(recipe.id)}"
-           role="button" tabindex="0" aria-label="${escapeHtml(planLabel)}">${planText}</div>
+      <div class="card-plan-btn ${added ? 'added' : ''}" data-id="${escapeHtml(recipe.id)}"
+           role="button" tabindex="0" aria-label="${escapeHtml(label)}" aria-pressed="${added}">${added ? '✓' : '+'}</div>
       <div class="recipe-card-img-wrapper">
         ${photoMarkup(recipe, name, 'recipe-card-img', true)}
-        <span class="recipe-badge">${escapeHtml(diffText)}</span>
         ${isFav ? '<span class="recipe-fav-badge">❤️</span>' : ''}
         ${clash.length ? `<span class="recipe-warn-badge">⚠ ${escapeHtml(allergenList(clash))}</span>` : ''}
-      </div>
-      <div class="recipe-card-content">
         <h4 class="recipe-card-title">${escapeHtml(name)}</h4>
-        <div class="recipe-card-meta">
-          <span>⏱️ ${escapeHtml(recipe.prepTime)}</span>
-          <span>🍽️ ${escapeHtml(recipe.servings)}p</span>
-        </div>
       </div>
     </div>
   `;
@@ -1862,31 +1573,15 @@ function bindRecipeCards(container) {
     if (planBtn) {
       onActivate(planBtn, e => {
         e.stopPropagation();
-        onCardPlanButton(card.dataset.id);
+        toggleDish(card.dataset.id);
       });
     }
     onActivate(card, e => {
-      // Enter on the plan button must not also open the drawer.
+      // Enter on the + must not also open the drawer.
       if (e.target && e.target.closest && e.target.closest('.card-plan-btn')) return;
       openRecipeDrawer(card.dataset.id);
     });
   });
-}
-
-function onCardPlanButton(recipeId) {
-  if (state.pickingDay !== null) {
-    const day = state.pickingDay;
-    stopPicking();
-    planMeal(recipeId, day);
-    switchTab('week');
-    return;
-  }
-  // Already on the week: show it, where the days can be changed.
-  if (plannedDays(recipeId).length > 0) {
-    openRecipeDrawer(recipeId);
-    return;
-  }
-  planMeal(recipeId, nextFreeDay());
 }
 
 function matchesQuery(recipe, query) {
@@ -1895,28 +1590,6 @@ function matchesQuery(recipe, query) {
   if (fold(tr.title).includes(query)) return true;
   if (tr.subtitle && fold(tr.subtitle).includes(query)) return true;
   return recipe.ingredients.some(i => fold(ingredientName(i)).includes(query));
-}
-
-function randomIndex(length) {
-  if (length < 1) return -1;
-  if (window.crypto && window.crypto.getRandomValues) {
-    const max = Math.floor(0x100000000 / length) * length;
-    const value = new Uint32Array(1);
-    do { window.crypto.getRandomValues(value); } while (value[0] >= max);
-    return value[0] % length;
-  }
-  return Math.floor(Math.random() * length);
-}
-
-function renderPickingBanner() {
-  const banner = document.getElementById('picking-banner');
-  if (!banner) return;
-  const picking = state.pickingDay !== null;
-  banner.hidden = !picking;
-  if (picking) {
-    document.getElementById('picking-banner-text').textContent =
-      t('pickingFor', { day: dayName(state.pickingDay, { inSentence: true }) });
-  }
 }
 
 function renderRecipesList() {
@@ -1934,7 +1607,7 @@ function renderRecipesList() {
     catRow.innerHTML = favPill + RECIPE_CATEGORIES.map(cat => `
       <div class="cat-pill ${cat === state.filters.category ? 'active' : ''}" data-category="${cat}"
            role="button" tabindex="0" aria-pressed="${cat === state.filters.category}">
-        ${escapeHtml(t(RECIPE_CATEGORY_KEYS[cat]))}
+        ${CATEGORY_ICONS[cat]} ${escapeHtml(t(RECIPE_CATEGORY_KEYS[cat]))}
       </div>
     `).join('');
 
@@ -1951,7 +1624,9 @@ function renderRecipesList() {
     });
   }
 
-  renderPickingBanner();
+  // First run: ask about allergies before showing a single dish.
+  const prompt = document.getElementById('profile-prompt');
+  if (prompt) prompt.hidden = state.settings.profileAsked;
   renderRecipeGrid();
 }
 
@@ -2024,13 +1699,13 @@ function newItemId() {
   return 'item-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 7);
 }
 
-/** A week line is known by what it is, so its tick survives a re-merge. */
-function weekLineId(key, unit) {
-  return `w:${key}|${unit || ''}`;
+/** A line made from my dishes is known by what it is, so its tick survives a remake. */
+function dishLineId(key, unit) {
+  return `d:${key}|${unit || ''}`;
 }
 
-function isWeekLine(id) {
-  return String(id).indexOf('w:') === 0;
+function isDishLine(id) {
+  return String(id).indexOf('d:') === 0;
 }
 
 /**
@@ -2057,7 +1732,7 @@ function mergeIngredients(lines, ingredients, sourceTitle) {
       if (sourceTitle && existing.sources.indexOf(sourceTitle) === -1) existing.sources.push(sourceTitle);
     } else {
       lines.push({
-        id: weekLineId(key, ing.unit),
+        id: dishLineId(key, ing.unit),
         key: key,
         name: ingredientName(ing),
         amount: typeof ing.amount === 'number' ? ing.amount : null,
@@ -2073,16 +1748,36 @@ function mergeIngredients(lines, ingredients, sourceTitle) {
   return lines;
 }
 
-/** Everything the week's dishes need, merged, scaled and ticked. */
-function weekShoppingLines() {
+/**
+ * Make the list from my dishes: everything they need, merged and scaled.
+ * Lines already ticked stay ticked, and anything typed in by hand stays put.
+ */
+function buildShoppingList(ticked) {
+  const keepTicked = ticked || state.groceryList.filter(i => i.checked).map(i => i.id);
   const lines = [];
-  state.weekPlan.meals.forEach(meal => {
-    const recipe = findRecipe(meal.recipeId);
+  state.dishes.forEach(dish => {
+    const recipe = findRecipe(dish.recipeId);
     if (!recipe) return;
-    mergeIngredients(lines, scaledIngredients(recipe, meal.servings), recipeText(recipe).title);
+    mergeIngredients(lines, scaledIngredients(recipe, dish.servings), recipeText(recipe).title);
   });
-  lines.forEach(line => { line.checked = state.checkedLines.indexOf(line.id) > -1; });
-  return lines;
+  lines.forEach(line => { line.checked = keepTicked.indexOf(line.id) > -1; });
+  state.groceryList = lines.concat(state.groceryList.filter(i => !isDishLine(i.id)));
+  saveGroceryList();
+}
+
+function makeShoppingList() {
+  if (state.dishes.length === 0) return;
+  buildShoppingList();
+  showToast(t('toastListMade', { count: itemsToBuy().length }), 'success');
+  switchTab('grocery');
+}
+
+function clearCheckedItems() {
+  if (!state.groceryList.some(i => i.checked)) return;
+  state.groceryList = state.groceryList.filter(i => !i.checked);
+  saveGroceryList();
+  renderGroceryList();
+  showToast(t('toastClearedChecked'), 'info');
 }
 
 /** Ingredients of one recipe, scaled to the requested servings. */
@@ -2106,10 +1801,10 @@ function openRecipeDrawer(recipeId) {
   if (!recipe) return;
 
   state.selectedRecipe = recipe;
-  // A planned dish opens at the plates it is planned for; anything else at
-  // the size of the household.
-  const planned = state.weekPlan.meals.find(m => m.recipeId === recipeId);
-  state.recipeServings = planned ? planned.servings : state.settings.householdSize;
+  // A dish already in my dishes opens at its plates; anything else at the
+  // size of the household.
+  const dish = dishFor(recipeId);
+  state.recipeServings = dish ? dish.servings : state.settings.householdSize;
 
   const trans = recipeText(recipe);
   const own = isUserRecipe(recipe);
@@ -2147,7 +1842,7 @@ function openRecipeDrawer(recipeId) {
   document.getElementById('recipe-delete-btn').style.display = own ? 'flex' : 'none';
 
   renderDrawerAllergens(recipe);
-  renderDrawerPlan();
+  renderDrawerDishButton();
   updateScaledIngredients();
   renderRecipeInstructions(trans.instructions);
 
@@ -2171,74 +1866,24 @@ function renderDrawerAllergens(recipe) {
   if (state.selectedRecipe === recipe) updateScaledIngredients();
 }
 
-/** The seven day chips: which days this dish is on, and which are taken. */
-function renderDrawerPlan() {
+/** The drawer's one button: add this dish, or show that it is already in. */
+function renderDrawerDishButton() {
+  const btn = document.getElementById('drawer-dish-btn');
   const recipe = state.selectedRecipe;
-  const picker = document.getElementById('drawer-day-picker');
-  if (!recipe || !picker) return;
-
-  const days = plannedDays(recipe.id);
-  const today = todayIndex();
-
-  let html = '';
-  for (let day = 0; day < DAYS_IN_WEEK; day++) {
-    const on = days.includes(day);
-    const busy = !on && mealsOn(day).length > 0;
-    const picking = state.pickingDay === day;
-    html += `
-      <button type="button" class="day-chip ${on ? 'active' : ''} ${busy ? 'busy' : ''} ${day === today ? 'today' : ''} ${picking ? 'picking' : ''}" data-day="${day}" aria-pressed="${on}"
-              aria-label="${escapeHtml(dayName(day))}">
-        <span class="day-chip-name">${escapeHtml(dayName(day, { short: true }))}</span>
-        <span class="day-chip-date">${dayDate(day).getDate()}</span>
-      </button>
-    `;
-  }
-  picker.innerHTML = html;
-  picker.querySelectorAll('.day-chip').forEach(chip => {
-    chip.addEventListener('click', () => toggleDrawerDay(parseInt(chip.dataset.day, 10)));
-  });
-
-  document.getElementById('drawer-plan-status').textContent = days.length
-    ? t('planStatusOn', { days: days.map(d => dayName(d, { inSentence: true })).join(', ') })
-    : t('planStatusNone');
+  if (!btn || !recipe) return;
+  const added = !!dishFor(recipe.id);
+  btn.textContent = added ? t('drawerAddedBtn') : t('drawerAddBtn');
+  btn.classList.toggle('added', added);
+  btn.setAttribute('aria-pressed', String(added));
 }
 
-function toggleDrawerDay(day) {
-  const recipe = state.selectedRecipe;
-  if (!recipe) return;
-
-  const existing = state.weekPlan.meals.find(m => m.recipeId === recipe.id && m.day === day);
-  if (existing) {
-    unplanMeal(existing.id);
-    return;
-  }
-
-  planMeal(recipe.id, day, state.recipeServings);
-  // Came here to fill one day: that is done, so go back and look at it.
-  if (state.pickingDay !== null) {
-    stopPicking();
-    closeRecipeDrawer();
-    switchTab('week');
-  }
-}
-
-/** The drawer's servings stepper also resizes the dish wherever it is planned. */
+/** The drawer's servings stepper also resizes the dish if it is in my dishes. */
 function setDrawerServings(n) {
   state.recipeServings = Math.max(1, n);
   updateScaledIngredients();
   const recipe = state.selectedRecipe;
-  if (!recipe) return;
-  let changed = false;
-  state.weekPlan.meals.forEach(m => {
-    if (m.recipeId === recipe.id && m.servings !== state.recipeServings) {
-      m.servings = state.recipeServings;
-      changed = true;
-    }
-  });
-  if (changed) {
-    saveWeekPlan();
-    onWeekChanged();
-  }
+  const dish = recipe && dishFor(recipe.id);
+  if (dish && dish.servings !== state.recipeServings) setDishServings(recipe.id, state.recipeServings);
 }
 
 /**
@@ -2339,16 +1984,12 @@ function toggleRecipeFavorite() {
 
 // --- Grocery List Checklist ---
 //
-// The list is not a copy of the week, it is read off it. Plan a dish and its
-// ingredients are on the list; take it off the week and they are gone again.
-// Only two things are stored: what you typed in yourself (state.groceryList)
-// and which of the week's lines you have ticked (state.checkedLines). A line
-// is known by its ingredient and unit, so a tick survives the week changing
-// around it — adding a second dish with onions does not untick the onions.
+// The list is made from my dishes with one button, then it is yours: tick
+// lines off, delete them, clear what is in the basket. Making it again picks
+// up changed dishes and keeps the ticks and anything you typed in.
 
-/** Every line on the list: the week's, merged, then your own. */
 function shoppingItems() {
-  return weekShoppingLines().concat(state.groceryList);
+  return state.groceryList;
 }
 
 /** Lines still worth walking to: unticked, and not a cupboard basic. */
@@ -2361,7 +2002,8 @@ function renderGroceryList() {
   if (!container) return;
 
   const items = shoppingItems();
-  const dishes = state.weekPlan.meals.length;
+  const footer = document.getElementById('grocery-list-footer');
+  if (footer) footer.hidden = items.length === 0;
 
   if (items.length === 0) {
     container.innerHTML = `
@@ -2369,11 +2011,11 @@ function renderGroceryList() {
         <span class="list-empty-icon">📋</span>
         <h4>${escapeHtml(t('emptyListHeader'))}</h4>
         <p>${escapeHtml(t('emptyListDesc'))}</p>
-        <button type="button" class="btn-small btn-primary list-empty-btn" data-goto="week">${escapeHtml(t('planWeekBtn'))}</button>
+        <button type="button" class="btn-small btn-primary list-empty-btn" data-goto="dishes">${escapeHtml(t('dishesTab'))}</button>
       </div>
     `;
     container.querySelectorAll('[data-goto]').forEach(btn => {
-      btn.addEventListener('click', () => switchTab('week'));
+      btn.addEventListener('click', () => switchTab('dishes'));
     });
     updateProgressHeader(items);
     updateTabBadges();
@@ -2403,7 +2045,6 @@ function renderGroceryList() {
           <span class="category-dot"></span>
           <span>${escapeHtml(isCupboard ? t('cupboardGroup') : aisleLabel(cat))}</span>
         </h4>
-        ${isCupboard ? `<p class="cupboard-hint">${escapeHtml(t('cupboardHint'))}</p>` : ''}
         <div class="grocery-list-items">
           ${rows.map(groceryItemHtml).join('')}
         </div>
@@ -2434,7 +2075,6 @@ function renderGroceryList() {
 
 function groceryItemHtml(item) {
   const qty = formatQuantity(item.amount, item.unit);
-  const fromWeek = isWeekLine(item.id);
   const sources = (item.sources || []).join(', ');
   return `
     <div class="grocery-item" data-id="${escapeHtml(item.id)}">
@@ -2448,9 +2088,8 @@ function groceryItemHtml(item) {
         ${qty ? `<span class="item-qty">${escapeHtml(qty)}</span>` : ''}
         ${sources ? `<span class="item-source">${escapeHtml(t('fromRecipes'))} ${escapeHtml(sources)}</span>` : ''}
       </div>
-      ${fromWeek ? '' : `
-        <button type="button" class="item-delete-btn" data-id="${escapeHtml(item.id)}"
-                aria-label="${escapeHtml(t('removeItem', { name: item.name }))}">&times;</button>`}
+      <button type="button" class="item-delete-btn" data-id="${escapeHtml(item.id)}"
+              aria-label="${escapeHtml(t('removeItem', { name: item.name }))}">&times;</button>
     </div>
   `;
 }
@@ -2519,18 +2158,10 @@ function commitQuantityEdit(id, raw) {
 }
 
 function toggleGroceryItemCheck(id) {
-  let checked;
-  if (isWeekLine(id)) {
-    const at = state.checkedLines.indexOf(id);
-    if (at > -1) state.checkedLines.splice(at, 1);
-    else state.checkedLines.push(id);
-    checked = at === -1;
-  } else {
-    const item = state.groceryList.find(i => i.id === id);
-    if (!item) return;
-    item.checked = !item.checked;
-    checked = item.checked;
-  }
+  const item = state.groceryList.find(i => i.id === id);
+  if (!item) return;
+  item.checked = !item.checked;
+  const checked = item.checked;
   saveGroceryList();
 
   // Updated in place rather than re-rendered, so the line does not jump out
@@ -2679,9 +2310,9 @@ function updateProgressHeader(items) {
 // switching phones or an OS storage eviction would take it all with no copy
 // anywhere, so it has to be exportable.
 
-// Format 2 carries the week instead of a loose selection; a format 1 file
-// still restores, its selection laid out over the week.
-const BACKUP_FORMAT = 2;
+// Format 3 carries my dishes and the whole list. Older files still restore:
+// a format 2 week or a format 1 selection becomes my dishes.
+const BACKUP_FORMAT = 3;
 
 function buildBackup() {
   return {
@@ -2691,9 +2322,8 @@ function buildBackup() {
     settings: state.settings,
     userRecipes: state.userRecipes,
     groceryList: state.groceryList,
-    checkedLines: state.checkedLines,
     favorites: state.favorites,
-    weekPlan: state.weekPlan
+    dishes: state.dishes
   };
 }
 
@@ -2726,27 +2356,29 @@ function applyBackup(data) {
   }
 
   state.userRecipes = data.userRecipes;
-  rebuildRecipeIndex(); // the week below may point at restored recipes
+  rebuildRecipeIndex(); // my dishes below may point at restored recipes
   state.groceryList = Array.isArray(data.groceryList) ? data.groceryList : [];
-  state.checkedLines = Array.isArray(data.checkedLines) ? data.checkedLines : [];
   state.favorites = Array.isArray(data.favorites) ? data.favorites : [];
   if (data.settings && typeof data.settings === 'object') {
     state.settings = Object.assign({}, state.settings, data.settings);
     sanitizeProfile();
   }
 
-  state.weekPlan = normalizeWeekPlan(data.weekPlan);
-  if (!data.weekPlan && Array.isArray(data.selectedRecipes)) {
-    data.selectedRecipes.filter(id => findRecipe(id)).forEach(id => {
-      const servings = data.selectedServings && data.selectedServings[id];
-      state.weekPlan.meals.push(newMeal(id, nextFreeDay(), servings));
-    });
+  if (Array.isArray(data.dishes)) {
+    state.dishes = normalizeDishes(data.dishes);
+  } else if (data.weekPlan && Array.isArray(data.weekPlan.meals)) {
+    // A format 2 list held only typed-in items; the rest was read off the week.
+    state.dishes = normalizeDishes(data.weekPlan.meals);
+    const ticks = Array.isArray(data.checkedLines) ? data.checkedLines : [];
+    buildShoppingList(ticks.map(id => String(id).replace(/^w:/, 'd:')));
+  } else {
+    state.dishes = normalizeDishes(selectionToDishes({ ids: data.selectedRecipes, servings: data.selectedServings }));
   }
 
   saveUserRecipes();
   saveGroceryList();
   saveFavorites();
-  saveWeekPlan();
+  saveDishes();
   saveSettings();
   return true;
 }
@@ -2848,10 +2480,10 @@ function deleteSelectedRecipe() {
   const id = state.selectedRecipe.id;
   state.userRecipes = state.userRecipes.filter(r => r.id !== id);
   state.favorites = state.favorites.filter(f => f !== id);
-  state.weekPlan.meals = state.weekPlan.meals.filter(m => m.recipeId !== id);
+  state.dishes = state.dishes.filter(d => d.recipeId !== id);
   saveUserRecipes();
   saveFavorites();
-  saveWeekPlan();
+  saveDishes();
 
   closeRecipeDrawer();
   showToast(t('toastRecipeDeleted'), 'info');
@@ -2999,7 +2631,7 @@ function handleCustomRecipeSubmit(e) {
   saveUserRecipes();
   closeRecipeModal();
   renderRecipesList();
-  renderWeekTab(); // an edited dish may already be on the week
+  renderDishesTab(); // an edited dish may already be in my dishes
 }
 
 // --- Notification Banner ---

@@ -8,17 +8,16 @@ Vanilla HTML/CSS/JS. No build step, no framework, no runtime dependencies.
 
 ## What it does
 
-The app is built around one loop: **plan the week → the shopping list writes itself → shop**. The tabs run left to right in that order: Week, Recipes, Shopping, Settings.
+The app is built around one loop: **pick dishes → make the list → shop**. The tabs run left to right in that order: Recipes, My dishes, Shopping, Settings.
 
-**The week**
-- Monday to Sunday, one card per day. An empty day offers **Choose a dish** (opens the recipe book in "choosing for Wednesday" mode, where one tap on **+** puts the dish on that day and takes you back) and a 🎲 that picks something for that day.
-- **Fill the empty days** puts a random main course on every free day from today to Sunday. Swap any you don't fancy.
-- Each planned dish has its own plates stepper, which starts at your household size (Settings → *At your table*).
-- When a new week starts, last week's menu stays until you choose **Start a fresh week** or **Keep these dishes**. Nothing is thrown away on its own.
+**My dishes**
+- Whatever you mean to cook, with no calendar attached. **+** on any recipe card puts it here; the card then shows a ✓ and a green frame, and tapping it again takes it off.
+- Each dish has its own plates stepper, which starts at your household size (Settings → *At your table*), and an × to take it off once it is cooked.
+- **Make shopping list** turns them into one list and opens it. Change the dishes later and the same button reads **Update shopping list**.
 
 **Allergies, for the whole table**
 - On first launch the app asks once whether anyone at the table avoids something: gluten, nuts, milk, eggs, fish & shellfish, soy, sesame, celery or mustard, plus diets (vegetarian, vegan, keto, candida). You can change this any time in Settings or from the filter button in the recipe book. All three places edit the same profile.
-- Dishes with an avoided allergen are **left out of the book and never suggested**. The book says how many it is hiding, and **Show them anyway** brings them back with a red warning on each card.
+- Dishes with an avoided allergen are **left out of the book**. The book says how many it is hiding, and **Show them anyway** brings them back with a red warning on each card.
 - A recipe's drawer always says what it contains. If someone at the table avoids one of those allergens, a warning sits right under the title and the offending ingredient lines are marked.
 - Allergens are **derived from the ingredient list**, not asserted. They are a shopping aid, not a medical guarantee: an ingredient the dictionary does not recognise is assumed harmless, and the app says so.
 
@@ -28,19 +27,19 @@ The app is built around one loop: **plan the week → the shopping list writes i
 - Every recipe is **written the way a person would tell you it**, in all three languages — not "Peel potatoes and cut carrots and leeks" but why the pieces should match, what the pan should sound like, and which step you must not hurry. See "The voice" below.
 - Search by title, subtitle or ingredient. Accents are folded, so "gaufres de liege" finds *Gaufres de Liège*.
 - Filter by category and by **favourites**. The pills stack, so "my favourite desserts" works.
-- **+** on a card puts the dish on the next free day. Once it is planned, the button shows the day instead.
-- The drawer opens on **Cook it on…**: tap a day to plan the dish, tap it again to take it off. Changing the servings there rescales every quantity, and the planned dish too. Countable things stay whole — you get 5 onions, never 4.3 — and "to taste" never scales.
+- The book is photographs first: each card is the dish's photo with its name on it, and a **+** to add it to my dishes.
+- The drawer opens on one button, **Add to my dishes**. Changing the servings there rescales every quantity, and the dish in my dishes too. Countable things stay whole — you get 5 onions, never 4.3 — and "to taste" never scales.
 - **Cook Mode**: full-screen, one step at a time, for when your hands are covered in flour. Arrow keys page through it.
 - Create, **edit** and **delete** your own recipes. They are stored separately from the shipped ones, so updating the app can never wipe them.
 
 **Shopping list**
-- **Read live off the week.** Plan a dish and its ingredients are on the list; take it off and they are gone. There is no "generate" step to forget.
+- **Made from my dishes with one button**, then it is a real list: tick lines off, delete any line, **Clear ticked** to drop what is in the basket, **Clear all** to start over.
 - Merging happens on a canonical ingredient key, so "garlic" and "garlic cloves" become one line and the amounts add up. An ingredient that shows up in an incompatible unit gets its own line instead of being dropped.
 - Sorted by supermarket aisle: produce → fish → butcher → dairy → bakery → frozen → herbs & spices → grocery → drinks.
 - Each line says which dishes it is for ("for Stoofvlees, Waterzooi").
 - **Cupboard basics** (salt, pepper, oil, flour, spices) go in their own group at the end, *Probably at home already*, so they never sit between you and the onions.
 - Add anything else by typing it, amount first if you like: "2 witloof", "500g gehakt".
-- Ticks survive the week changing. Adding another dish with onions does not untick the onions.
+- Making the list again keeps your ticks and anything you typed in. Adding another dish with onions does not untick the onions.
 - Share the list as plain text (share sheet on mobile, clipboard on desktop).
 
 **Your data**
@@ -71,7 +70,7 @@ Wi-Fi, then "Add to home screen".
 
 | File | What it is |
 | --- | --- |
-| `index.html` | The whole UI — four tabs (week, recipes, shopping, settings), recipe drawer, cook mode, recipe editor |
+| `index.html` | The whole UI — four tabs (recipes, my dishes, shopping, settings), recipe drawer, cook mode, recipe editor |
 | `app.js` | State, rendering, grocery logic, translations |
 | `ingredients.js` | Canonical ingredient dictionary: names, aisles, units, staples, diet flags. Shared by the browser and the node scripts |
 | `scripts/recipe_db.js` | Shared load/save for `recipes.js` plus duplicate detection, used by every importer |
@@ -291,8 +290,7 @@ A recipe:
 }
 ```
 
-Storage keys in `localStorage`: `belgian_user_recipes` (yours), `belgian_week_plan`
-(`{ weekStart, meals: [{ id, recipeId, day, servings }] }`), `belgian_grocery_list` (only
-what you typed in), `belgian_checked_lines` (ticked lines from the week), `belgian_favorites`,
+Storage keys in `localStorage`: `belgian_user_recipes` (yours), `belgian_dishes`
+(`[{ recipeId, servings }]`), `belgian_grocery_list` (every line on the list, ticks included), `belgian_favorites`,
 `belgian_app_settings` (including the household profile: `householdSize`, `avoid`, `diets`). The shipped
 recipe database is never copied into `localStorage`.

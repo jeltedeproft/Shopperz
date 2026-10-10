@@ -396,7 +396,6 @@ h1, h2, h3, h4 {
   border-bottom: var(--rule-w) solid var(--line-strong);
 }
 
-.panel-subtitle,
 .section-link {
   font-family: var(--font-body);
   font-size: var(--t-xs);
@@ -524,10 +523,6 @@ header::after {
   font-size: var(--t-display);
   margin-bottom: var(--sp-2);
   letter-spacing: -0.015em;
-}
-
-.panel-subtitle {
-  color: var(--ink-faint);
 }
 
 /* --- Section headings --- */
@@ -765,9 +760,7 @@ header::after {
 .recipe-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  /* Wide gutters between entries, the way a two-column page is set. */
-  column-gap: var(--sp-5);
-  row-gap: var(--sp-6);
+  gap: var(--sp-3);
 }
 
 .section-link-danger {
@@ -780,42 +773,34 @@ header::after {
 }
 
 /*
-   A card is an entry on a page, not a tile floating above one. No fill, no
-   shadow and no frame: the photograph provides the edge, and a hairline under
-   the whole entry separates it from the next the way a rule does in a book.
-   The only thing that moves on press is the photograph.
+   A card is the photograph. The title is laid over its lower edge on a dark
+   fade, so the grid reads as a wall of dishes rather than a list of words.
 */
 .recipe-card {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  background: transparent;
-  border: none;
-  border-bottom: var(--frame-w) solid var(--line);
-  border-radius: 0;
-  padding-bottom: var(--sp-3);
   cursor: pointer;
-  transition: border-color var(--base) var(--ease);
-}
-
-.recipe-card:hover {
-  border-color: var(--line-strong);
 }
 
 .recipe-card:active .recipe-card-img-wrapper {
   transform: scale(0.985);
 }
 
-/* Hergé outlined every object at the same weight whatever its distance; the
-   café outlines almost nothing. One token covers both. */
 .recipe-card-img-wrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
-  border-radius: var(--r-sm);
+  border-radius: var(--r-md);
   background: var(--surface-3);
-  box-shadow: inset 0 0 0 var(--frame-w) var(--line);
+  transition: transform var(--fast) var(--ease);
+}
+
+.recipe-card-img-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 40% 0 0 0;
+  background: linear-gradient(to bottom, transparent, rgba(12, 9, 6, 0.82));
+  pointer-events: none;
 }
 
 .recipe-card-img {
@@ -823,10 +808,6 @@ header::after {
   height: 100%;
   object-fit: cover;
   transition: transform var(--slow) var(--ease);
-}
-
-.recipe-card-img-wrapper {
-  transition: transform var(--fast) var(--ease);
 }
 
 /* --- Recipes with no photograph we may reuse --- */
@@ -885,21 +866,6 @@ header::after {
   transform: scale(1.05);
 }
 
-.recipe-badge {
-  position: absolute;
-  left: var(--sp-2);
-  bottom: var(--sp-2);
-  padding: 3px 9px;
-  border-radius: var(--r-pill);
-  background: var(--scrim);
-  backdrop-filter: blur(6px);
-  border: 1px solid var(--photo-line);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--on-photo);
-}
-
 .recipe-fav-badge {
   position: absolute;
   top: var(--sp-2);
@@ -908,40 +874,30 @@ header::after {
   filter: drop-shadow(0 2px 6px rgba(20, 12, 6, 0.75));
 }
 
-.recipe-card-content {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-1);
-  padding: var(--sp-3) 0 0;
-  flex: 1;
-}
-
 .recipe-card-title {
+  overflow-wrap: anywhere;
+  position: absolute;
+  left: var(--sp-3);
+  right: var(--sp-3);
+  bottom: var(--sp-3);
+  z-index: 2;
   font-family: var(--font-display);
-  font-size: var(--t-h2);
+  font-size: var(--t-sm);
   font-weight: 600;
-  color: var(--ink);
+  color: var(--on-photo);
   line-height: var(--lh-tight);
-  letter-spacing: -0.01em;
-  font-optical-sizing: auto;
-  font-variation-settings: 'SOFT' 40, 'WONK' 1;
+  text-shadow: 0 1px 4px rgba(12, 9, 6, 0.6);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.recipe-card-meta {
-  display: flex;
-  gap: var(--sp-3);
-  margin-top: auto;
-  padding-top: var(--sp-2);
-  font-size: var(--t-2xs);
-  text-transform: uppercase;
-  letter-spacing: var(--tracking-label);
-  color: var(--ink-faint);
-  font-variant-numeric: normal;
+/* In my dishes: a green frame round the photo, the + turned into a tick. */
+.recipe-card.is-added .recipe-card-img-wrapper {
+  outline: 3px solid var(--herb);
+  outline-offset: -3px;
 }
 
 .grid-empty {
@@ -1109,6 +1065,7 @@ header::after {
 
 /* The dish name, set as a chapter opening. */
 .drawer-title {
+  overflow-wrap: anywhere;
   font-family: var(--font-display);
   font-size: var(--t-hero);
   font-weight: 600;
@@ -2636,145 +2593,27 @@ textarea.form-control {
   padding-bottom: var(--sp-3);
 }
 
-/* --- The reminder of what is being left out --- */
-.profile-strip {
-  display: block;
-  width: 100%;
-  padding: var(--sp-2) var(--sp-3);
-  margin-bottom: var(--sp-4);
-  background: var(--herb-wash);
-  border: 1px solid var(--herb-line);
-  border-radius: var(--r-md);
-  font-family: var(--font-body);
-  font-size: var(--t-xs);
-  text-align: left;
-  color: var(--ink);
-  cursor: pointer;
-}
-
-.stale-banner {
-  padding: var(--sp-4);
-  margin-bottom: var(--sp-4);
-  background: var(--honey-wash);
-  border: 1px solid var(--honey);
-  border-radius: var(--r-md);
-  font-size: var(--t-sm);
-  color: var(--ink);
-}
-
-.stale-banner-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-2);
-  margin-top: var(--sp-3);
-}
-
-/* --- The week itself --- */
-.week-summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-3);
-  margin-bottom: var(--sp-4);
-}
-
-.week-summary-text {
-  font-size: var(--t-xs);
-  color: var(--ink-dim);
-}
-
-.week-summary .btn-small {
-  flex-shrink: 0;
-}
-
-.week-days {
+/* --- My dishes --- */
+.dish-list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: var(--sp-3);
+  margin: 0 0 var(--sp-5);
+  padding: 0;
 }
 
-/* A day is a line in a diary: the name on the left margin, the dishes
-   under it, and a rule to close it off. */
-.week-day {
-  padding: var(--sp-3) var(--sp-4);
+.dish-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2);
   background: var(--surface-2);
   border: var(--frame-w) solid var(--line);
   border-radius: var(--r-md);
 }
 
-.week-day.is-today {
-  border-color: var(--accent);
-  box-shadow: var(--shadow-accent);
-}
-
-.week-day.is-past {
-  opacity: 0.62;
-}
-
-/* A day that has gone by with nothing on it is one quiet line, not a box
-   asking you to plan the past. */
-.week-day.is-past.is-empty {
-  padding-top: var(--sp-1);
-  padding-bottom: var(--sp-1);
-  border: none;
-  opacity: 0.45;
-}
-
-.week-day.is-past.is-empty .week-day-head {
-  margin-bottom: 0;
-}
-
-.week-day.is-empty {
-  background: transparent;
-  border-style: dashed;
-}
-
-.week-day-head {
-  display: flex;
-  align-items: baseline;
-  gap: var(--sp-2);
-  margin-bottom: var(--sp-2);
-}
-
-.week-day-name {
-  font-family: var(--font-display);
-  font-size: var(--t-h2);
-  font-weight: var(--display-weight);
-  text-transform: var(--display-transform);
-  letter-spacing: var(--display-tracking);
-  color: var(--ink);
-}
-
-.week-day-date {
-  font-size: var(--t-xs);
-  color: var(--ink-faint);
-}
-
-.week-day-today {
-  margin-left: auto;
-  padding: 2px 8px;
-  border-radius: var(--r-pill);
-  background: var(--accent);
-  color: var(--on-accent);
-  font-size: var(--t-2xs);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: var(--tracking-label);
-}
-
-.week-meal {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-2);
-  padding: var(--sp-2) 0;
-}
-
-.week-meal + .week-meal {
-  border-top: 1px solid var(--line);
-}
-
-.week-meal-open {
+.dish-open {
   flex: 1;
   min-width: 0;
   display: flex;
@@ -2783,27 +2622,26 @@ textarea.form-control {
   cursor: pointer;
 }
 
-.week-meal-img {
+.dish-img {
   flex-shrink: 0;
-  width: 52px;
-  height: 52px;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
   border-radius: var(--r-sm);
-  box-shadow: inset 0 0 0 var(--frame-w) var(--line);
 }
 
-.week-meal-img.photo-placeholder {
-  font-size: 20px;
+.dish-img.photo-placeholder {
+  font-size: 24px;
 }
 
-.week-meal-text {
+.dish-text {
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-.week-meal-title {
+.dish-title {
   font-size: var(--t-sm);
   font-weight: 600;
   line-height: var(--lh-tight);
@@ -2815,17 +2653,18 @@ textarea.form-control {
   overflow: hidden;
 }
 
-.week-meal-warn {
+.dish-warn {
   font-size: var(--t-2xs);
   font-weight: 700;
   color: var(--berry);
 }
 
-.week-meal.has-clash .week-meal-img {
-  box-shadow: inset 0 0 0 2px var(--berry);
+.dish-row.has-clash .dish-img {
+  outline: 2px solid var(--berry);
+  outline-offset: -2px;
 }
 
-.week-meal-servings {
+.dish-servings {
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -2833,12 +2672,12 @@ textarea.form-control {
 }
 
 .servings-btn.servings-btn-sm {
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   font-size: var(--t-sm);
 }
 
-.week-meal-count {
+.dish-count {
   min-width: 18px;
   text-align: center;
   font-size: var(--t-sm);
@@ -2846,7 +2685,7 @@ textarea.form-control {
   color: var(--ink);
 }
 
-.week-meal-remove {
+.dish-remove {
   flex-shrink: 0;
   width: 32px;
   height: 32px;
@@ -2861,96 +2700,20 @@ textarea.form-control {
   cursor: pointer;
 }
 
-.week-meal-remove:hover {
+.dish-remove:hover {
   color: var(--berry);
   background: var(--berry-wash);
 }
 
-.week-day-actions {
-  display: flex;
-  gap: var(--sp-2);
-}
-
-/* The big target on an empty day is "choose", the small one is the dice. */
-.day-pick-btn {
-  flex: 1;
-  min-height: 44px;
-  padding: var(--sp-2) var(--sp-3);
-  background: var(--accent-wash);
-  border: 1px solid var(--accent-line);
-  border-radius: var(--r-md);
-  font-family: var(--font-body);
-  font-size: var(--t-sm);
-  font-weight: 600;
-  color: var(--accent);
-  cursor: pointer;
-}
-
-.day-pick-btn:hover {
-  background: var(--accent);
-  color: var(--on-accent);
-}
-
-.day-dice-btn {
-  flex-shrink: 0;
-  width: 44px;
-  min-height: 44px;
-  background: var(--surface-3);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.day-dice-btn:hover {
-  border-color: var(--accent);
-}
-
-.day-add-more {
-  margin-top: var(--sp-1);
-  padding: var(--sp-1) 0;
-  background: none;
-  border: none;
-  font-family: var(--font-body);
-  font-size: var(--t-xs);
-  font-weight: 600;
-  color: var(--accent);
-  cursor: pointer;
-}
-
-.week-footer {
+.dishes-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--sp-4);
-  margin-top: var(--sp-6);
 }
 
-.week-footer .btn-block {
+.dishes-footer .btn-block {
   width: 100%;
-}
-
-/* --- Choosing a dish for one day --- */
-.picking-banner {
-  position: sticky;
-  top: calc(-1 * var(--sp-6));
-  z-index: 20;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  margin-bottom: var(--sp-4);
-  background: var(--accent);
-  border-radius: var(--r-md);
-  font-size: var(--t-sm);
-  font-weight: 600;
-  color: var(--on-accent);
-}
-
-.picking-banner .section-link {
-  color: var(--on-accent);
-  text-decoration: underline;
 }
 
 /* --- What the profile is hiding --- */
@@ -2985,7 +2748,7 @@ textarea.form-control {
   color: var(--ink-dim);
 }
 
-/* --- On a recipe card: put it on the week --- */
+/* --- On a recipe card: add it to my dishes --- */
 .card-plan-btn {
   position: absolute;
   top: var(--sp-2);
@@ -3012,16 +2775,8 @@ textarea.form-control {
   transform: scale(0.9);
 }
 
-/* Planned: the day it is on, set small, on the herb green of "done". */
-.card-plan-btn.planned {
+.card-plan-btn.added {
   background: var(--herb);
-  font-size: var(--t-2xs);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.recipe-card.is-planned {
-  box-shadow: -10px 0 0 -9px var(--herb);
 }
 
 .recipe-warn-badge {
@@ -3078,81 +2833,11 @@ textarea.form-control {
   border: none;
 }
 
-.plan-box-head {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  margin-bottom: var(--sp-3);
+.dish-toggle-btn {
+  width: 100%;
 }
 
-.plan-box-title {
-  font-family: var(--font-display);
-  font-size: var(--t-h2);
-  font-weight: var(--display-weight);
-  color: var(--ink);
-}
-
-.plan-box-status {
-  font-size: var(--t-xs);
-  color: var(--ink-dim);
-}
-
-.day-picker {
-  display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: var(--sp-1);
-}
-
-.day-chip {
-  position: relative;
-  min-height: 52px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  padding: var(--sp-1) 0;
-  background: var(--surface-3);
-  border: 1px solid var(--line);
-  border-radius: var(--r-md);
-  font-family: var(--font-body);
-  color: var(--ink-dim);
-  cursor: pointer;
-  transition: all var(--fast) var(--ease);
-}
-
-.day-chip-name {
-  font-size: var(--t-2xs);
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.day-chip-date {
-  font-size: var(--t-sm);
-}
-
-.day-chip.today {
-  border-color: var(--accent);
-}
-
-.day-chip.picking {
-  outline: 2px dashed var(--accent);
-  outline-offset: 1px;
-}
-
-/* Something else is already cooking that day: a dot, not a "no". */
-.day-chip.busy::after {
-  content: '';
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  width: 6px;
-  height: 6px;
-  border-radius: var(--r-pill);
-  background: var(--ink-faint);
-}
-
-.day-chip.active {
+.dish-toggle-btn.added {
   background: var(--herb);
   border-color: var(--herb);
   color: var(--on-accent);
@@ -3161,13 +2846,6 @@ textarea.form-control {
 /* --- Shopping list extras --- */
 .grocery-cupboard {
   opacity: 0.85;
-}
-
-.cupboard-hint {
-  margin: var(--sp-1) 0 var(--sp-2);
-  font-size: var(--t-2xs);
-  font-style: italic;
-  color: var(--ink-faint);
 }
 
 .list-empty-btn {
@@ -3194,4 +2872,9 @@ textarea.form-control {
   font-size: 10px;
   font-weight: 700;
   line-height: 1;
+}
+
+/* Clear ticked / clear all sit under the list, out of the way while shopping. */
+.list-footer {
+  margin-top: var(--sp-6);
 }

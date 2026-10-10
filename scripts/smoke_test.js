@@ -283,98 +283,105 @@ sandbox.mergeIngredients(lines, [
 check('different unit becomes its own row', lines.length === before + 1,
   `${before} -> ${lines.length}`);
 
-console.log('\nThe week');
-const resetWeek = () => {
-  state.weekPlan = { weekStart: ctx('currentWeekStart()'), meals: [] };
-  state.checkedLines = [];
+console.log('\nMy dishes');
+const resetDishes = () => {
+  state.dishes = [];
   state.groceryList = [];
 };
-resetWeek();
-check('a week starts on a Monday', ctx('parseIsoDate(currentWeekStart()).getDay()') === 1,
-  ctx('currentWeekStart()'));
-const meal = sandbox.planMeal('carbonnade-flamande', 2, recipe.servings);
-check('planning puts the dish on that day', state.weekPlan.meals.length === 1 && meal.day === 2);
-check('the planned dish lands on the shopping list',
-  sandbox.weekShoppingLines().some(l => l.key === 'onion'));
-sandbox.setMealServings(meal.id, recipe.servings * 2);
-const doubled = sandbox.weekShoppingLines().find(l => l.key === 'onion');
-check('the list follows the plates on the week', doubled && doubled.amount === onion.amount * 2,
+resetDishes();
+const dish = sandbox.addDish('carbonnade-flamande', recipe.servings);
+check('adding puts the dish in my dishes', state.dishes.length === 1 && dish.recipeId === 'carbonnade-flamande');
+sandbox.addDish('carbonnade-flamande', 2);
+check('a dish is only in there once', state.dishes.length === 1);
+sandbox.renderRecipeGrid();
+check('its card shows a tick instead of a +',
+  /class="card-plan-btn added"[^>]*>✓</.test(elementsById['recipes-tab-grid'].innerHTML));
+check('nothing lands on the list until you ask for it', state.groceryList.length === 0);
+
+sandbox.buildShoppingList();
+check('making the list puts the dish\'s ingredients on it', state.groceryList.some(l => l.key === 'onion'));
+sandbox.setDishServings('carbonnade-flamande', recipe.servings * 2);
+sandbox.buildShoppingList();
+const doubled = state.groceryList.find(l => l.key === 'onion');
+check('the list follows the plates', doubled && doubled.amount === onion.amount * 2,
   doubled ? `${onion.amount} -> ${doubled.amount}` : 'missing');
-sandbox.planMeal('carbonnade-flamande', 4, recipe.servings);
-check('two planned dishes merge into one line',
-  sandbox.weekShoppingLines().filter(l => l.key === 'onion' && l.unit === onion.unit).length === 1);
+check('remaking the list does not duplicate lines',
+  state.groceryList.filter(l => l.key === 'onion' && l.unit === onion.unit).length === 1);
 
-const onionLine = sandbox.weekShoppingLines().find(l => l.key === 'onion');
+const onionLine = state.groceryList.find(l => l.key === 'onion');
 sandbox.toggleGroceryItemCheck(onionLine.id);
-check('a week line can be ticked', sandbox.weekShoppingLines().find(l => l.id === onionLine.id).checked);
-sandbox.planMeal('moules-frites', 5);
-check('the tick survives the week changing around it',
-  sandbox.weekShoppingLines().find(l => l.id === onionLine.id).checked);
+check('a line can be ticked', state.groceryList.find(l => l.id === onionLine.id).checked);
+state.groceryList.push({ id: 'item-typed', key: 'witloof', name: 'witloof', amount: null, unit: '', category: 'Groenten & Fruit', staple: false, sources: [], checked: false });
+sandbox.addDish('moules-frites', 2);
+sandbox.buildShoppingList();
+check('the tick survives remaking the list',
+  state.groceryList.find(l => l.id === onionLine.id).checked);
+check('a typed-in item survives remaking the list', state.groceryList.some(l => l.id === 'item-typed'));
 
-sandbox.unplanMeal(state.weekPlan.meals.find(m => m.day === 4).id);
-sandbox.unplanMeal(meal.id);
-check('taking a dish off the week takes its ingredients off the list',
-  !sandbox.weekShoppingLines().some(l => (l.sources || []).includes(sandbox.recipeText(recipe).title)));
+sandbox.removeDish('carbonnade-flamande');
+sandbox.buildShoppingList();
+check('a removed dish leaves the list on the next remake',
+  !state.groceryList.some(l => (l.sources || []).includes(sandbox.recipeText(recipe).title)));
 
-resetWeek();
+const anyLine = state.groceryList.find(l => l.id !== 'item-typed');
+sandbox.deleteGroceryItem(anyLine.id);
+check('any line can be deleted, not only typed ones', !state.groceryList.some(l => l.id === anyLine.id));
+state.groceryList.forEach(l => { l.checked = false; });
+sandbox.toggleGroceryItemCheck('item-typed');
+const beforeClear = state.groceryList.length;
+sandbox.clearCheckedItems();
+check('clearing ticked removes only what was ticked',
+  state.groceryList.length === beforeClear - 1 && !state.groceryList.some(l => l.id === 'item-typed'));
+
+resetDishes();
 state.settings.householdSize = 3;
-const defaultMeal = sandbox.planMeal('moules-frites', 0);
-check('a new dish starts at the household size', defaultMeal.servings === 3, String(defaultMeal.servings));
+const defaultDish = sandbox.addDish('moules-frites');
+check('a new dish starts at the household size', defaultDish.servings === 3, String(defaultDish.servings));
 state.settings.householdSize = 4;
 
-resetWeek();
-const today = ctx('todayIndex()');
-check('today is somewhere in the current week', today >= 0 && today < 7, String(today));
-sandbox.planMeal('moules-frites', today);
-check('the next free day skips a day that has a dish', ctx('nextFreeDay()') !== today);
-sandbox.fillEmptyDays();
-const daysFromToday = 7 - today;
-check('filling the week gives every day from today on a dish',
-  new Set(state.weekPlan.meals.map(m => m.day)).size === daysFromToday,
-  `${new Set(state.weekPlan.meals.map(m => m.day)).size} of ${daysFromToday}`);
-check('filling never repeats a dish',
-  new Set(state.weekPlan.meals.map(m => m.recipeId)).size === state.weekPlan.meals.length);
+sandbox.openRecipeDrawer('moules-frites');
+check('the drawer says the dish is already in', elementsById['drawer-dish-btn'].classList.contains('added'));
+sandbox.toggleDish(state.selectedRecipe.id, state.recipeServings);
+check('the drawer button takes it out again', state.dishes.length === 0);
+check('and says so', !elementsById['drawer-dish-btn'].classList.contains('added'));
+sandbox.closeRecipeDrawer();
 
-resetWeek();
-state.weekPlan.weekStart = '2020-01-06';
-state.weekPlan.meals.push(ctx('newMeal("moules-frites", 1, 4)'));
-check('a menu from an earlier week is noticed', ctx('isStaleWeek()') === true);
-state.groceryList.push({ id: 'item-x', key: 'witloof', name: 'witloof', amount: null, unit: '', category: 'Groenten & Fruit', staple: false, sources: [], checked: false });
-state.groceryList.push({ id: 'item-y', key: 'bier', name: 'bier', amount: null, unit: '', category: 'Bieren & Dranken', staple: false, sources: [], checked: true });
-sandbox.startFreshWeek();
-check('starting fresh empties the week', state.weekPlan.meals.length === 0 && !ctx('isStaleWeek()'));
-check('starting fresh keeps what you wrote down and had not bought yet',
-  state.groceryList.length === 1 && state.groceryList[0].name === 'witloof');
-
-resetWeek();
-state.weekPlan.weekStart = '2020-01-06';
-state.weekPlan.meals.push(ctx('newMeal("moules-frites", 1, 4)'));
-sandbox.keepLastWeek();
-check('keeping last week moves its dishes into this one',
-  state.weekPlan.meals.length === 1 && state.weekPlan.weekStart === ctx('currentWeekStart()'));
-
-console.log('\nThe week survives a restart');
-resetWeek();
-sandbox.planMeal('moules-frites', 1);
-sandbox.planMeal('vol-au-vent', 3);
-state.weekPlan.meals.push({ id: 'ghost', recipeId: 'recipe-that-no-longer-exists', day: 2, servings: 4 });
-sandbox.saveWeekPlan();
+console.log('\nMy dishes survive a restart');
+resetDishes();
+sandbox.addDish('moules-frites', 2);
+sandbox.addDish('vol-au-vent', 6);
+state.dishes.push({ recipeId: 'recipe-that-no-longer-exists', servings: 4 });
+sandbox.saveDishes();
 ctx('initApp()');
-check('the week is restored after a reload', state.weekPlan.meals.length === 2,
-  state.weekPlan.meals.map(m => m.recipeId).join(', '));
-check('a dish whose recipe is gone is dropped', !state.weekPlan.meals.some(m => m.id === 'ghost'));
+check('my dishes are restored after a reload', state.dishes.length === 2,
+  state.dishes.map(d => d.recipeId).join(', '));
+check('a dish whose recipe is gone is dropped', !state.dishes.some(d => d.recipeId === 'recipe-that-no-longer-exists'));
 
-delete store.belgian_week_plan;
+delete store.belgian_dishes;
+store.belgian_grocery_list = JSON.stringify([{ id: 'item-old', key: 'bier', name: 'bier', amount: null, unit: '', category: 'Bieren & Dranken', staple: false, sources: [], checked: false }]);
+store.belgian_week_plan = JSON.stringify({ weekStart: '2026-10-05', meals: [
+  { id: 'm1', recipeId: 'moules-frites', day: 1, servings: 2 },
+  { id: 'm2', recipeId: 'moules-frites', day: 4, servings: 2 },
+  { id: 'm3', recipeId: 'vol-au-vent', day: 3, servings: 6 }
+] });
+store.belgian_checked_lines = JSON.stringify(['w:mussels|g']);
+ctx('initApp()');
+check('a planned week becomes my dishes, once per dish', state.dishes.length === 2,
+  state.dishes.map(d => d.recipeId).join(', '));
+check('its plates come along', (sandbox.dishFor('vol-au-vent') || {}).servings === 6);
+check('its live list becomes a real one', state.groceryList.some(l => l.key === 'mussels'));
+check('with its ticks', (state.groceryList.find(l => l.key === 'mussels') || {}).checked === true);
+check('and what you had typed in', state.groceryList.some(l => l.id === 'item-old'));
+check('the week keys are gone', !('belgian_week_plan' in store) && !('belgian_checked_lines' in store));
+
+delete store.belgian_dishes;
 store.belgian_selected_recipes = JSON.stringify({ ids: ['moules-frites', 'vol-au-vent'], servings: { 'vol-au-vent': 6 } });
 ctx('initApp()');
-check('an old selection is laid out over the week', state.weekPlan.meals.length === 2,
-  String(state.weekPlan.meals.length));
-check('its servings come along',
-  (state.weekPlan.meals.find(m => m.recipeId === 'vol-au-vent') || {}).servings === 6);
+check('an old selection becomes my dishes', state.dishes.length === 2, String(state.dishes.length));
 check('the old selection key is gone', !('belgian_selected_recipes' in store));
 
 console.log('\nPantry staples');
-resetWeek();
+resetDishes();
 const withStaples = [
   { key: 'salt', name: { en: 'salt', nl: 'zout', fr: 'sel' }, amount: null, unit: 'to taste', category: 'Kruiden & Specerijen', staple: true },
   onionRow(2)
@@ -405,7 +412,7 @@ check('export lists items', text.includes('onion') || text.includes('ui'), text.
 check('export groups by aisle', text.split('\n').length > 3);
 
 console.log('\nAllergies');
-resetWeek();
+resetDishes();
 state.settings.avoid = [];
 state.settings.diets = [];
 state.filters.category = 'all';
@@ -430,18 +437,6 @@ check('the stored gluten-free flag agrees with what is shown',
 state.filters.showUnsafe = true;
 check('"show them anyway" brings them back', sandbox.filteredRecipes().length === everything);
 state.filters.showUnsafe = false;
-
-for (let i = 0; i < 10; i++) {
-  const suggestion = sandbox.suggestRecipe([]);
-  if (suggestion && sandbox.recipeAllergens(suggestion).includes('gluten')) {
-    check('a suggestion never has an avoided allergen', false, suggestion.id);
-    break;
-  }
-  if (i === 9) check('a suggestion never has an avoided allergen', true);
-}
-sandbox.fillEmptyDays();
-check('filling the week respects the profile', state.weekPlan.meals.length > 0 &&
-  state.weekPlan.meals.every(m => !sandbox.recipeAllergens(sandbox.findRecipe(m.recipeId)).includes('gluten')));
 
 sandbox.openRecipeDrawer(waffles.id);
 check('the drawer warns about a dish someone cannot eat',
@@ -510,34 +505,41 @@ check('own recipe still there after reload',
 console.log('\nBackup & restore');
 state.groceryList = [];
 state.favorites = ['carbonnade-flamande'];
-state.weekPlan = { weekStart: ctx('currentWeekStart()'), meals: [] };
-sandbox.planMeal('moules-frites', 1);
+state.dishes = [];
+sandbox.addDish('moules-frites', 2);
 state.settings.avoid = ['nuts'];
 state.groceryList = sandbox.mergeIngredients([], [onionRow(2)], 'Backup test')
   .map(l => Object.assign({}, l, { id: 'item-backup' }));
 const backup = JSON.parse(JSON.stringify(sandbox.buildBackup()));
 check('backup captures own recipes', Array.isArray(backup.userRecipes));
 check('backup captures the list', backup.groceryList.length === 1);
-check('backup captures favourites and the week',
-  backup.favorites.length === 1 && backup.weekPlan.meals.length === 1);
+check('backup captures favourites and my dishes',
+  backup.favorites.length === 1 && backup.dishes.length === 1);
 check('backup captures the allergy profile', backup.settings.avoid.includes('nuts'));
 
 state.groceryList = [];
 state.favorites = [];
-state.weekPlan.meals = [];
+state.dishes = [];
 state.settings.avoid = [];
 check('restore rejects a foreign file', sandbox.applyBackup({ foo: 'bar' }) === false);
 check('restore rejects a truncated backup',
   sandbox.applyBackup({ app: 'mijn-kookpot', format: 1 }) === false);
 check('restore puts everything back', sandbox.applyBackup(backup) === true &&
   state.groceryList.length === 1 && state.favorites.length === 1 &&
-  state.weekPlan.meals.length === 1 && state.settings.avoid.includes('nuts'));
+  state.dishes.length === 1 && state.settings.avoid.includes('nuts'));
 
-state.weekPlan.meals = [];
+state.dishes = [];
 sandbox.applyBackup({ app: 'mijn-kookpot', format: 1, userRecipes: [],
   selectedRecipes: ['moules-frites', 'vol-au-vent'], selectedServings: { 'moules-frites': 2 } });
-check('an old backup\'s selection is laid out over the week', state.weekPlan.meals.length === 2 &&
-  state.weekPlan.meals.find(m => m.recipeId === 'moules-frites').servings === 2);
+check('an old backup\'s selection becomes my dishes', state.dishes.length === 2 &&
+  sandbox.dishFor('moules-frites').servings === 2);
+
+state.dishes = [];
+sandbox.applyBackup({ app: 'mijn-kookpot', format: 2, userRecipes: [], groceryList: [],
+  weekPlan: { weekStart: '2026-10-05', meals: [{ id: 'a', recipeId: 'vol-au-vent', day: 0, servings: 4 }] },
+  checkedLines: [] });
+check('a week backup becomes my dishes and a real list',
+  state.dishes.length === 1 && state.groceryList.length > 0);
 state.settings.avoid = [];
 sandbox.saveSettings();
 
@@ -639,7 +641,7 @@ sandbox.commitQuantityEdit(editable.id, '');
 check('empty clears the quantity', editable.amount === null && editable.unit === '');
 
 console.log('\nNavigation & cook mode');
-['week', 'recipes', 'grocery', 'settings'].forEach(tab => {
+['recipes', 'dishes', 'grocery', 'settings'].forEach(tab => {
   sandbox.switchTab(tab);
   check(`switch to ${tab}`, state.activeTab === tab);
 });
@@ -684,7 +686,7 @@ check('progress bar exposes its value', /role="progressbar"/.test(html));
 sandbox.renderRecipeGrid();
 const cardHtml = elementsById['recipes-tab-grid'].innerHTML;
 check('recipe cards are keyboard reachable', /class="recipe-card[^"]*"[^>]*tabindex="0"/.test(cardHtml));
-check('the plan button on a card is named and keyboard reachable',
+check('the add button on a card is named and keyboard reachable',
   /class="card-plan-btn[^"]*"[^>]*role="button"[^>]*tabindex="0"[^>]*aria-label="[^"]+"/.test(cardHtml));
 
 sandbox.openRecipeDrawer('carbonnade-flamande');
