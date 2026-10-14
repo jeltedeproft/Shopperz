@@ -60,6 +60,7 @@ const uiTranslations = {
     recipeCategorySoup: "Soup",
     recipeCategorySnack: "Something small",
     recipeCategoryDessert: "Dessert",
+    recipeCategoryDrink: "Drinks",
     createRecipeHeader: "Write down a recipe",
     editRecipeHeader: "Tidy up this recipe",
     checklistTitle: "The shopping list",
@@ -101,6 +102,12 @@ const uiTranslations = {
     dietVegan: "Vegan",
     dietCandida: "Candida",
     dietKeto: "Keto",
+    dietPaleo: "Paleo",
+    dietPescatarian: "Pescatarian",
+    dietRowLabel: "Diets",
+    dietChipLabel: "{diet}: {count} dishes",
+    dietsFit: "Fits: {list}",
+    sourceCredit: "After a recipe from {site}",
     intolGluten: "No gluten",
     intolNuts: "No nuts",
     intolDairy: "No dairy",
@@ -118,6 +125,11 @@ const uiTranslations = {
     confirmRestore: "Bring this copy back? There are {recipes} of your own recipes and {items} things on the list in it, and it replaces everything in the app right now.",
     toastRestored: "All back where it was",
     toastRestoreFailed: "That's not a Mijn Kookpot copy, I'm afraid",
+    seeMyLifeLabel: "Send to SeeMyLife",
+    seeMyLifeDesc: "Fill in its address and every change goes there by itself",
+    seeMyLifeBtn: "Send now",
+    toastSeeMyLifeSent: "Sent to SeeMyLife",
+    toastSeeMyLifeFailed: "SeeMyLife didn't answer. Is it running?",
     // Shopping preferences
     shoppingGroupTitle: "At the shop",
     skipStaplesLabel: "Leave out the cupboard basics",
@@ -226,6 +238,7 @@ const uiTranslations = {
     recipeCategorySoup: "Soep",
     recipeCategorySnack: "Iets kleins",
     recipeCategoryDessert: "Dessert",
+    recipeCategoryDrink: "Drankjes",
     createRecipeHeader: "Een recept opschrijven",
     editRecipeHeader: "Dit recept bijwerken",
     checklistTitle: "Het boodschappenlijstje",
@@ -267,6 +280,12 @@ const uiTranslations = {
     dietVegan: "Vegan",
     dietCandida: "Candida",
     dietKeto: "Keto",
+    dietPaleo: "Paleo",
+    dietPescatarian: "Pescotariër",
+    dietRowLabel: "Diëten",
+    dietChipLabel: "{diet}: {count} gerechten",
+    dietsFit: "Past bij: {list}",
+    sourceCredit: "Naar een recept van {site}",
     intolGluten: "Zonder gluten",
     intolNuts: "Zonder noten",
     intolDairy: "Zonder lactose",
@@ -284,6 +303,11 @@ const uiTranslations = {
     confirmRestore: "Deze kopie terugzetten? Er zitten {recipes} eigen recepten en {items} boodschappen in, en ze vervangt alles wat er nu in de app staat.",
     toastRestored: "Alles staat weer waar het hoorde",
     toastRestoreFailed: "Dat is geen Mijn Kookpot-kopie, vrees ik",
+    seeMyLifeLabel: "Naar SeeMyLife sturen",
+    seeMyLifeDesc: "Vul het adres in en elke wijziging gaat er vanzelf naartoe",
+    seeMyLifeBtn: "Nu sturen",
+    toastSeeMyLifeSent: "Naar SeeMyLife gestuurd",
+    toastSeeMyLifeFailed: "SeeMyLife antwoordt niet. Draait het wel?",
     // Winkelvoorkeuren
     shoppingGroupTitle: "In de winkel",
     skipStaplesLabel: "Laat de kastbasics weg",
@@ -392,6 +416,7 @@ const uiTranslations = {
     recipeCategorySoup: "Soupe",
     recipeCategorySnack: "Quelque chose de petit",
     recipeCategoryDessert: "Dessert",
+    recipeCategoryDrink: "Boissons",
     createRecipeHeader: "Noter une recette",
     editRecipeHeader: "Retoucher cette recette",
     checklistTitle: "La liste de courses",
@@ -433,6 +458,12 @@ const uiTranslations = {
     dietVegan: "Végétalien",
     dietCandida: "Candida",
     dietKeto: "Cétogène",
+    dietPaleo: "Paléo",
+    dietPescatarian: "Pescétarien",
+    dietRowLabel: "Régimes",
+    dietChipLabel: "{diet} : {count} plats",
+    dietsFit: "Convient : {list}",
+    sourceCredit: "D'après une recette de {site}",
     intolGluten: "Sans gluten",
     intolNuts: "Sans noix",
     intolDairy: "Sans lactose",
@@ -450,6 +481,11 @@ const uiTranslations = {
     confirmRestore: "Remettre cette copie ? Elle contient {recipes} de tes propres recettes et {items} articles, et elle remplace tout ce qu'il y a dans l'app en ce moment.",
     toastRestored: "Tout est revenu à sa place",
     toastRestoreFailed: "Ce n'est pas une copie Mijn Kookpot, j'en ai peur",
+    seeMyLifeLabel: "Envoyer à SeeMyLife",
+    seeMyLifeDesc: "Indique son adresse et chaque changement y part tout seul",
+    seeMyLifeBtn: "Envoyer",
+    toastSeeMyLifeSent: "Envoyé à SeeMyLife",
+    toastSeeMyLifeFailed: "SeeMyLife ne répond pas. Il tourne bien ?",
     // Préférences de courses
     shoppingGroupTitle: "Au magasin",
     skipStaplesLabel: "Laisse de côté les basiques",
@@ -541,11 +577,15 @@ const ALLERGENS = [
   { id: 'mustard', key: 'allergenMustard' }
 ];
 
+// In the order the chips stand on the recipe book: the medical and low-carb
+// diets first, then the ones about what you will not eat.
 const DIETS = [
-  { id: 'vegetarian', key: 'dietVegetarian', flag: 'isVegetarian' },
-  { id: 'vegan', key: 'dietVegan', flag: 'isVegan' },
-  { id: 'keto', key: 'dietKeto', flag: 'isKeto' },
-  { id: 'candida', key: 'dietCandida', flag: 'isCandidaFriendly' }
+  { id: 'candida', key: 'dietCandida', flag: 'isCandidaFriendly', icon: '🍋' },
+  { id: 'keto', key: 'dietKeto', flag: 'isKeto', icon: '🥑' },
+  { id: 'paleo', key: 'dietPaleo', flag: 'isPaleo', icon: '🍖' },
+  { id: 'vegetarian', key: 'dietVegetarian', flag: 'isVegetarian', icon: '🥕' },
+  { id: 'vegan', key: 'dietVegan', flag: 'isVegan', icon: '🌱' },
+  { id: 'pescatarian', key: 'dietPescatarian', flag: 'isPescatarian', icon: '🐟' }
 ];
 
 // Aisle -> translation key. Aisle order comes from ingredients.js.
@@ -561,15 +601,16 @@ const AISLE_LABEL_KEYS = {
   'Bieren & Dranken': 'aisleDrinks'
 };
 
-const RECIPE_CATEGORIES = ['all', 'breakfast', 'main', 'soup', 'snack', 'dessert'];
-const CATEGORY_ICONS = { all: '🍽️', breakfast: '🥐', main: '🍲', soup: '🥣', snack: '🥨', dessert: '🍰' };
+const RECIPE_CATEGORIES = ['all', 'breakfast', 'main', 'soup', 'snack', 'dessert', 'drink'];
+const CATEGORY_ICONS = { all: '🍽️', breakfast: '🥐', main: '🍲', soup: '🥣', snack: '🥨', dessert: '🍰', drink: '🥤' };
 const RECIPE_CATEGORY_KEYS = {
   all: 'recipeCategoryAll',
   breakfast: 'recipeCategoryBreakfast',
   main: 'recipeCategoryMain',
   soup: 'recipeCategorySoup',
   snack: 'recipeCategorySnack',
-  dessert: 'recipeCategoryDessert'
+  dessert: 'recipeCategoryDessert',
+  drink: 'recipeCategoryDrink'
 };
 
 // Rendering more cards than this at once makes scrolling janky on a phone.
@@ -619,7 +660,8 @@ let state = {
     householdSize: 4,
     avoid: [],          // allergen ids nobody at the table may eat
     diets: [],          // diet ids every dish must fit
-    profileAsked: false
+    profileAsked: false,
+    seeMyLifeUrl: ''    // e.g. http://localhost:4321; empty = don't send anything
   },
   filters: {
     query: '',
@@ -845,6 +887,7 @@ function loadSettings() {
   }
   if (!uiTranslations[state.settings.language]) state.settings.language = 'en';
   if (THEME_CHOICES.indexOf(state.settings.theme) === -1) state.settings.theme = 'system';
+  if (typeof state.settings.seeMyLifeUrl !== 'string') state.settings.seeMyLifeUrl = '';
   delete state.settings.skipStaples; // staples now sit in their own group instead
   sanitizeProfile();
   saveSettings();
@@ -948,18 +991,22 @@ function saveSettings() {
 function saveUserRecipes() {
   localStorage.setItem(STORAGE.userRecipes, JSON.stringify(state.userRecipes));
   rebuildRecipeIndex();
+  scheduleSeeMyLifePush();
 }
 
 function saveGroceryList() {
   localStorage.setItem(STORAGE.groceryList, JSON.stringify(state.groceryList));
+  scheduleSeeMyLifePush();
 }
 
 function saveFavorites() {
   localStorage.setItem(STORAGE.favorites, JSON.stringify(state.favorites));
+  scheduleSeeMyLifePush();
 }
 
 function saveDishes() {
   localStorage.setItem(STORAGE.dishes, JSON.stringify(state.dishes));
+  scheduleSeeMyLifePush();
 }
 
 /**
@@ -1199,6 +1246,15 @@ function setupEventListeners() {
 
   document.getElementById('backup-btn').addEventListener('click', downloadBackup);
 
+  const seeMyLifeInput = document.getElementById('seemylife-url-input');
+  seeMyLifeInput.value = state.settings.seeMyLifeUrl;
+  seeMyLifeInput.addEventListener('change', () => {
+    state.settings.seeMyLifeUrl = seeMyLifeInput.value.trim().replace(/\/+$/, '');
+    seeMyLifeInput.value = state.settings.seeMyLifeUrl;
+    saveSettings();
+  });
+  document.getElementById('seemylife-send-btn').addEventListener('click', () => pushToSeeMyLife(true));
+
   const restoreInput = document.getElementById('restore-file-input');
   document.getElementById('restore-btn').addEventListener('click', () => restoreInput.click());
   restoreInput.addEventListener('change', e => {
@@ -1337,10 +1393,19 @@ function clashingAllergens(recipe) {
 }
 
 function fitsDiets(recipe) {
-  return state.settings.diets.every(id => {
+  return fitsDietIds(recipe, state.settings.diets);
+}
+
+function fitsDietIds(recipe, ids) {
+  return ids.every(id => {
     const diet = DIETS.find(d => d.id === id);
     return !diet || recipe[diet.flag] === true;
   });
+}
+
+/** The diets a dish fits, as "🍋 Candida · 🥑 Keto". */
+function dietsOf(recipe) {
+  return DIETS.filter(d => recipe[d.flag] === true);
 }
 
 /** Safe for everyone at the table, as far as the ingredient list can tell. */
@@ -1382,12 +1447,15 @@ function setHouseholdSize(n) {
 
 function onProfileChanged() {
   renderProfilePills();
-  renderRecipesList();
+  renderRecipesList(); // redraws the diet chips too
   renderDishesTab();
   if (state.selectedRecipe) renderDrawerAllergens(state.selectedRecipe);
 }
 
-/** The allergy and diet pills appear in three places; all edit one profile. */
+/**
+ * The allergy pills appear in three places and the diet pills in Settings;
+ * they and the diet chips on the recipe book all edit one profile.
+ */
 function renderProfilePills() {
   document.querySelectorAll('.allergen-pills').forEach(box => {
     const kind = box.dataset.profilePills;
@@ -1403,7 +1471,8 @@ function renderProfilePills() {
     });
   });
 
-  const count = state.settings.avoid.length + state.settings.diets.length;
+  // The funnel only holds the allergies; the diets have their own row.
+  const count = state.settings.avoid.length;
   const badge = document.getElementById('filter-count');
   if (badge) {
     badge.hidden = count === 0;
@@ -1657,11 +1726,46 @@ function renderSafetyNote(browsable) {
     state.filters.showUnsafe ? t('safetyHideAgain') : t('safetyShowAnyway');
 }
 
+/**
+ * The diets sit in plain sight above the categories. Each chip says how many
+ * dishes you would see with it on, given the search, the category and the
+ * allergies — so a tap never lands you on an empty book by surprise.
+ */
+function renderDietRow(browsable) {
+  const row = document.getElementById('diet-row');
+  if (!row) return;
+  const allergySafe = browsable.filter(r => clashingAllergens(r).length === 0);
+  const chosen = state.settings.diets;
+  row.setAttribute('aria-label', t('dietRowLabel'));
+
+  row.innerHTML = DIETS.map(d => {
+    const on = chosen.includes(d.id);
+    const count = allergySafe.filter(r => fitsDietIds(r, on ? chosen : chosen.concat(d.id))).length;
+    const name = t(d.key);
+    return `<button type="button" class="diet-chip ${on ? 'active' : ''}" data-diet="${d.id}" aria-pressed="${on}"
+              aria-label="${escapeHtml(t('dietChipLabel', { diet: name, count: count }))}">
+              <span aria-hidden="true">${d.icon}</span> ${escapeHtml(name)}
+              <span class="diet-chip-count" aria-hidden="true">${count}</span>
+            </button>`;
+  }).join('');
+
+  row.querySelectorAll('.diet-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const id = chip.dataset.diet;
+      toggleProfileValue('diets', id);
+      // The row has just been redrawn: keyboard users keep their place.
+      const again = row.querySelector(`[data-diet="${id}"]`);
+      if (again) again.focus();
+    });
+  });
+}
+
 function renderRecipeGrid() {
   const container = document.getElementById('recipes-tab-grid');
   if (!container) return;
 
   const browsable = browsableRecipes();
+  renderDietRow(browsable);
   const matches = state.filters.showUnsafe ? browsable : browsable.filter(suitsTable);
   renderSafetyNote(browsable);
 
@@ -1820,6 +1924,7 @@ function openRecipeDrawer(recipeId) {
   }
   if (heroWrap) heroWrap.classList.toggle('drawer-hero-empty', !hasPhoto(recipe));
   renderImageCredit(recipe);
+  renderSourceCredit(recipe);
   document.getElementById('drawer-subtitle').textContent =
     own ? `${recipeCategoryLabel(recipe)} · ${t('customBadge')}` : recipeCategoryLabel(recipe);
   document.getElementById('drawer-title').textContent = trans.title;
@@ -1863,6 +1968,13 @@ function renderDrawerAllergens(recipe) {
   warning.textContent = clash.length ? `⚠ ${t('allergyWarning', { list: allergenList(clash) })}` : '';
   contains.textContent = all.length ? t('containsLabel', { list: allergenList(all) }) : t('containsNone');
 
+  const diets = document.getElementById('drawer-diets');
+  if (diets) {
+    const fits = dietsOf(recipe);
+    diets.hidden = fits.length === 0;
+    diets.textContent = fits.length ? t('dietsFit', { list: fits.map(d => `${d.icon} ${t(d.key)}`).join(' · ') }) : '';
+  }
+
   if (state.selectedRecipe === recipe) updateScaledIngredients();
 }
 
@@ -1903,6 +2015,22 @@ function renderImageCredit(recipe) {
 
   el.style.display = 'block';
   el.innerHTML = `📷 ${escapeHtml(credit.author)} · <a href="${escapeHtml(credit.licenceUrl || credit.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(credit.licence)}</a>`;
+}
+
+/** Where a recipe came from, linked: the candida dishes are written after thecandidadiet.com's. */
+function renderSourceCredit(recipe) {
+  const el = document.getElementById('drawer-source');
+  if (!el) return;
+  const match = /^https?:\/\/(?:www\.)?([^/?#]+)/i.exec(recipe.sourceUrl || '');
+  const site = match ? match[1] : '';
+  el.hidden = !site;
+  if (!site) {
+    el.innerHTML = '';
+    return;
+  }
+  // The site name sits wherever the translation puts {site}, as a link.
+  const [before, after] = t('sourceCredit', { site: '|' }).split('|');
+  el.innerHTML = `${escapeHtml(before)}<a href="${escapeHtml(recipe.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(site)}</a>${escapeHtml(after || '')}`;
 }
 
 function closeRecipeDrawer() {
@@ -2346,6 +2474,41 @@ function downloadBackup() {
   } catch (err) {
     console.error('Backup failed', err);
     showToast(t('toastBackupFailed'), 'info');
+  }
+}
+
+// --- SeeMyLife ---
+//
+// SeeMyLife (a dashboard on the PC) shows the list and my dishes. With its
+// address filled in, every change is posted there a moment later; nothing is
+// sent while the field is empty, so the family's phones never send anything.
+
+let seeMyLifeTimer = null;
+
+function scheduleSeeMyLifePush() {
+  if (!state.settings.seeMyLifeUrl) return;
+  clearTimeout(seeMyLifeTimer);
+  seeMyLifeTimer = setTimeout(() => pushToSeeMyLife(false), 2000);
+}
+
+/** Loud when tapped by hand; quiet in the background, where the PC may simply be off. */
+async function pushToSeeMyLife(loud) {
+  const base = state.settings.seeMyLifeUrl;
+  if (!base) {
+    if (loud) document.getElementById('seemylife-url-input').focus();
+    return;
+  }
+  try {
+    const response = await fetch(`${base}/api/push/shopperz`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(buildBackup())
+    });
+    if (!response.ok) throw new Error(`SeeMyLife answered ${response.status}`);
+    if (loud) showToast(t('toastSeeMyLifeSent'), 'success');
+  } catch (err) {
+    console.warn('Sending to SeeMyLife failed', err);
+    if (loud) showToast(t('toastSeeMyLifeFailed'), 'info');
   }
 }
 

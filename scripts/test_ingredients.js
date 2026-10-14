@@ -225,7 +225,48 @@ const dietCases = [
   ['honey is not vegan', [ing('carrot'), ing('honey')], 'isVegan', false],
   ['plain vegetables are vegan', [ing('carrot'), ing('leek')], 'isVegan', true],
   ['potatoes are not keto', [ing('potato')], 'isKeto', false],
-  ['steak and butter are keto', [ing('beef chuck'), ing('butter')], 'isKeto', true]
+  ['steak and butter are keto', [ing('beef chuck'), ing('butter')], 'isKeto', true],
+  ['almond flour is keto', [ing('almond flour'), ing('eggs')], 'isKeto', true],
+  ['buckwheat is not keto', [ing('buckwheat groats')], 'isKeto', false],
+
+  // Flours that are not wheat, and butters that are not dairy.
+  ['buckwheat is gluten-free', [ing('buckwheat flour')], 'isGlutenFree', true],
+  ['almond and coconut flour are gluten-free', [ing('almond flour'), ing('coconut flour')], 'isGlutenFree', true],
+  ['oats are not gluten-free', [ing('rolled oats')], 'isGlutenFree', false],
+  ['almond butter is dairy-free', [ing('almond butter')], 'isDairyFree', true],
+  ['Dutch amandelpasta is not pasta', [{ name: { en: 'Almond butter', nl: 'Amandelpasta', fr: 'Beurre d\'amande' } }], 'isGlutenFree', true],
+  ['French levure chimique is baking powder, not yeast', [{ name: { en: 'Baking powder', nl: 'Bakpoeder', fr: 'Levure chimique' } }], 'isCandidaFriendly', true],
+
+  ['fish is pescatarian', [ing('salmon fillet'), ing('lemon')], 'isPescatarian', true],
+  ['chicken is not pescatarian', [ing('chicken breast')], 'isPescatarian', false],
+  ['meat and vegetables are paleo', [ing('beef chuck'), ing('carrot'), ing('olive oil')], 'isPaleo', true],
+  ['quinoa is not paleo', [ing('quinoa')], 'isPaleo', false],
+  ['chickpeas are not paleo', [ing('chickpeas')], 'isPaleo', false],
+  ['green beans are paleo', [ing('green beans')], 'isPaleo', true],
+  ['honey is paleo, sugar is not', [ing('honey')], 'isPaleo', true],
+  ['sugar is not paleo', [ing('sugar')], 'isPaleo', false],
+
+  // The candida diet as thecandidadiet.com draws it.
+  ['apple cider vinegar is candida-friendly', [ing('apple cider vinegar'), ing('olive oil')], 'isCandidaFriendly', true],
+  ['wine vinegar is not', [ing('red wine vinegar')], 'isCandidaFriendly', false],
+  ['quinoa and buckwheat are candida-friendly', [ing('quinoa'), ing('buckwheat groats')], 'isCandidaFriendly', true],
+  ['butter, ghee and yogurt are candida-friendly', [ing('butter'), ing('ghee'), ing('plain yogurt')], 'isCandidaFriendly', true],
+  ['milk and cheddar are not', [ing('milk'), ing('cheddar')], 'isCandidaFriendly', false],
+  ['goat cheese is candida-friendly', [ing('goat cheese')], 'isCandidaFriendly', true],
+  ['stevia is candida-friendly', [ing('stevia'), ing('coconut milk')], 'isCandidaFriendly', true],
+  ['honey is not candida-friendly', [ing('honey')], 'isCandidaFriendly', false],
+  ['unsweetened applesauce is not sugar', [{ name: { en: 'Unsweetened applesauce', nl: 'Appelmoes zonder suiker', fr: 'Compote de pommes sans sucre' } }], 'isCandidaFriendly', true],
+  ['shrimp is not candida-friendly', [ing('shrimp')], 'isCandidaFriendly', false],
+  ['bacon is not candida-friendly', [ing('bacon')], 'isCandidaFriendly', false],
+  ['tuna is not candida-friendly', [ing('tuna')], 'isCandidaFriendly', false],
+  ['peanuts are not candida-friendly', [ing('peanuts')], 'isCandidaFriendly', false],
+  ['potatoes are not candida-friendly', [ing('potato')], 'isCandidaFriendly', false],
+  ['banana is not candida-friendly', [ing('banana')], 'isCandidaFriendly', false],
+  ['beer is not candida-friendly', [ing('beer')], 'isCandidaFriendly', false],
+  ['brown rice is candida-friendly, white rice is not', [ing('brown rice')], 'isCandidaFriendly', true],
+  ['white rice is not candida-friendly', [ing('white rice')], 'isCandidaFriendly', false],
+  ['lemon juice is not fruit juice', [ing('lemon juice'), ing('salmon fillet')], 'isCandidaFriendly', true],
+  ['orange juice is fruit juice', [ing('orange juice')], 'isCandidaFriendly', false]
 ];
 
 dietCases.forEach(([label, ingredients, flag, wanted]) => {

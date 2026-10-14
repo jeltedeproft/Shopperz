@@ -697,6 +697,74 @@ header::after {
   font-style: italic;
 }
 
+/* --- Diet chips ---
+   Rounded and green, so they read as "yes, this" — the opposite of the
+   allergy pills, which are a red "no". The categories below are square tabs. */
+.diet-row {
+  display: flex;
+  gap: var(--sp-2);
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 2px 2px var(--sp-1);
+  margin-bottom: var(--sp-3);
+  scroll-snap-type: x proximity;
+}
+
+.diet-row::-webkit-scrollbar {
+  display: none;
+}
+
+.diet-chip {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 6px 8px 6px 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  font-family: var(--font-body);
+  font-size: var(--t-xs);
+  color: var(--ink-dim);
+  white-space: nowrap;
+  cursor: pointer;
+  scroll-snap-align: start;
+  transition: all var(--fast) var(--ease);
+}
+
+.diet-chip:hover {
+  color: var(--ink);
+  background: var(--herb-wash);
+}
+
+.diet-chip:focus-visible {
+  outline: 2px solid var(--herb);
+  outline-offset: 2px;
+}
+
+.diet-chip.active {
+  background: var(--herb);
+  border-color: var(--herb);
+  color: var(--on-accent);
+  font-weight: 700;
+}
+
+.diet-chip-count {
+  min-width: 22px;
+  padding: 1px 6px;
+  border-radius: var(--r-pill);
+  background: var(--hover-wash);
+  font-size: var(--t-2xs);
+  font-weight: 700;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.diet-chip.active .diet-chip-count {
+  background: rgba(255, 255, 255, 0.22);
+}
+
 /* --- Category pills --- */
 .category-row {
   display: flex;
@@ -1904,6 +1972,25 @@ header::after {
   display: block;
 }
 
+.settings-desc {
+  margin-top: var(--sp-1);
+  font-size: var(--t-2xs);
+  color: var(--ink-dim);
+}
+
+/* The address field takes the room, the button sits beside it. */
+.seemylife-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+
+.seemylife-row .form-control {
+  flex: 1;
+  min-width: 0;
+}
+
 .theme-choice {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2746,6 +2833,25 @@ textarea.form-control {
   margin-bottom: var(--sp-4);
   font-size: var(--t-xs);
   color: var(--ink-dim);
+}
+
+/* --- In the drawer: which diets a dish fits, and where it came from --- */
+.drawer-diets {
+  margin-top: var(--sp-1);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  color: var(--herb);
+}
+
+.drawer-source {
+  margin-top: var(--sp-5);
+  font-size: var(--t-2xs);
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.drawer-source a {
+  color: inherit;
 }
 
 /* --- On a recipe card: add it to my dishes --- */

@@ -509,7 +509,40 @@
   // Plant milks and creams must not count as dairy. Global flag matters: an
   // ingredient carries its English, Dutch and French name in one string, so
   // every one of them has to be neutralised, not just the first.
-  var NON_DAIRY_RE = /coconut milk|coconut cream|almond milk|almond cream|soy milk|soya milk|soy cream|oat milk|oat cream|rice milk|plant milk|plant cream|kokosmelk|kokosroom|amandelmelk|sojamelk|sojaroom|havermelk|haverroom|plantaardige room|lait de coco|cr[eè]me de coco|lait d'amande|cr[eè]me d'amande|lait de soja|cr[eè]me de soja|lait d'avoine|cr[eè]me d'avoine/gi;
+  var NON_DAIRY_RE = /(?:almond|peanut|cashew|hazelnut|nut|seed|sunflower seed|pumpkin seed|coconut|cocoa|cacao|shea) butter|coconut yog(?:h)?urt|coconut kefir|cream of tartar|notenpasta|amandelpasta|amandelboter|kokosboter|cacaoboter|hazelnootpasta|kokosyoghurt|beurre d'amande|beurre de cacahu[eè]te|beurre de coco|beurre de cacao|beurre de graines(?: de \w+)?|beurre de noix|beurre de noisette|yaourt de coco|cr[eè]me de tartre|wijnsteen|coconut milk|coconut cream|almond milk|almond cream|soy milk|soya milk|soy cream|oat milk|oat cream|rice milk|plant milk|plant cream|kokosmelk|kokosroom|amandelmelk|sojamelk|sojaroom|havermelk|haverroom|plantaardige room|lait de coco|cr[eè]me de coco|lait d'amande|cr[eè]me d'amande|lait de soja|cr[eè]me de soja|lait d'avoine|cr[eè]me d'avoine/gi;
+
+  // Flours and grains that are not wheat. Longer phrases come first, so
+  // "buckwheat flour" is cleared as a whole instead of leaving "flour" behind,
+  // and "buckwheat" itself never matches "wheat". Dutch "-pasta" (amandelpasta,
+  // tomatenpasta) is a paste.
+  var NON_GLUTEN_RE = /[a-z]+pasta\b|coconut bread|kokosbrood|pain (?:[aà] la noix )?de coco|buckwheat (?:soba )?noodles|buckwheat pasta|p[aâ]tes de sarrasin|buckwheat flour|buckwheat groats|buckwheat flakes|buckwheat|(?:almond|coconut|chickpea|rice|quinoa|millet|teff|tapioca|cassava|arrowroot|sorghum|amaranth|hazelnut|tigernut) flour|gluten[- ]free \w+|boekweitmeel|boekweit|amandelmeel|kokosmeel|kikkererwtenmeel|rijstmeel|quinoameel|gierstmeel|teffmeel|tapiocameel|glutenvrij\w*|farine de sarrasin|sarrasin|farine d'amande|farine de coco|farine de pois chiche|farine de riz|farine de quinoa|farine de millet|farine de teff|farine de noisettes?|sans gluten/gi;
+
+  // Nut and coconut flours barely count as carbohydrate; wheat and buckwheat do.
+  var LOW_CARB_FLOUR_RE = /(?:almond|coconut|hazelnut) flour|flaxseed meal|amandelmeel|kokosmeel|gemalen lijnzaad|farine d'amande|farine de coco|graines de lin moulues/gi;
+
+  // "Levure chimique" is baking powder, not yeast.
+  var BAKING_POWDER_RE = /levure chimique/gi;
+
+  /*
+   * The candida diet, after thecandidadiet.com's lists of foods to eat and to
+   * avoid. It allows what a blanket "no vinegar, no grains, no dairy" rule would
+   * wrongly forbid — apple cider vinegar, quinoa, buckwheat, millet, butter,
+   * ghee, plain yogurt, kefir, goat and sheep cheese, brown rice and
+   * mushrooms (the site cooks with both) — and forbids what that rule missed: processed meat,
+   * shellfish and tuna, mouldy nuts, starchy vegetables, high-sugar fruit and
+   * the seed oils.
+   */
+  var CANDIDA_OK_RE = /apple cider vinegar|cider vinegar|appelciderazijn|appelazijn|(?:brown|wild) rice|zilvervliesrijst|wilde rijst|riz (?:complet|sauvage)|vinaigre de cidre|(?:lemon|lime|sauerkraut) juice|citroensap|limoensap|zuurkoolsap|jus de citron(?: vert)?|jus de choucroute|coconut aminos|kokosaminos|aminos de coco|levure chimique/gi;
+  var CANDIDA_DAIRY_OK_RE = /goat(?:'s)? (?:milk )?mozzarella|geitenmozzarella|mozzarella de ch[eè]vre|\bbutter\b|\bghee\b|\bboter\b|\bbeurre\b|yog(?:h)?urt|yaourt|k[eé]fir|goat(?:'s)? cheese|geitenkaas|fromage de ch[eè]vre|sheep(?:'s)? cheese|schapenkaas|fromage de brebis|\bfeta\b|pecorino|manchego/gi;
+  var CANDIDA_AVOID_RE = /vinegar|azijn|vinaigre|\byeast\b|\bgist\b|levure|\bbeer\b|\bwine\b|\bbier\b|\bwijn\b|bi[eè]re|\bvin\b|\brum\b|whisk|vodka|brandy|cognac|liqueur|likeur|\bcider\b|\bcidre\b|soy sauce|sojasaus|sauce soja|ketchup|mayonnaise|\bmayo\b|barbecue sauce|bbq sauce|horseradish|mierikswortel|raifort|worcestershire|peanut|pinda|cacahu|cashew|pistach|bacon|\bham\b|salami|sausage|chorizo|prosciutto|pancetta|lardon|\bspek\b|\bhesp\b|worst|jambon|saucisse|saucisson|\btuna\b|tonijn|\bthon\b|swordfish|zwaardvis|espadon|shrimp|prawn|garna|crevette|\bcrab|\bkrab|lobster|kreeft|homard|mussel|mossel|moule|\bclams?\b|oyster|oester|hu[iî]tre|scallop|sint-jakobs|saint-jacques|squid|calamar|inktvis|seafood|zeevruchten|fruits de mer|potato|aardappel|pomme de terre|patate|\bcorn\b|cornstarch|cornflour|maizena|ma[iï]s|\brice\b|rijst\b|\briz\b|banana|banaan|banane|\bgrapes?\b|druif|druiven|\braisin|rozijn|\bdates?\b|dadel|datte|mango|mangue|\bfigs?\b|vijg|figue|dried fruit|gedroogd fruit|fruits secs|dried cranberr|juice|sap\b|\bjus\b|canola|rapeseed|koolzaad|colza|sunflower oil|zonnebloemolie|huile de tournesol|soybean oil|vegetable oil|plantaardige olie|huile v[eé]g[eé]tale|margarine/i;
+
+  // Paleo: no grains or pseudo-grains, no legumes, no dairy but ghee, and
+  // only unrefined sweeteners.
+  var PALEO_GRAIN_RE = /\brice\b|rijst\b|\briz\b|\bcorn\b|cornstarch|maizena|ma[iï]s|\boats?\b|havermout|avoine|quinoa|buckwheat|boekweit|sarrasin|millet|gierst|\bteff\b|amaranth|amarant|sorghum|potato|aardappel|pomme de terre/i;
+  var LEGUME_RE = /\bbeans?\b|bonen|haricots?|lentil|linzen|lentille|chickpea|kikkererwt|pois chiche|hummus|houmous|\bpeas\b|erwten|petits pois|peanut|pinda|cacahu|\bsoy|\bsoja|tofu|tempeh|edamame|\bmiso\b/i;
+  var LEGUME_OK_RE = /green beans?|french beans?|sperziebonen|boontjes|haricots verts|snow peas|sugar snap peas|peultjes|pois gourmands|vanilla beans?|vanillestokje|gousse de vanille|cocoa beans?|coffee beans?/gi;
+  var PALEO_DAIRY_OK_RE = /\bghee\b/gi;
+  var PALEO_SWEET_OK_RE = /\bhoney\b|honing|\bmiel\b|maple syrup|ahornsiroop|sirop d'[eé]rable|coconut sugar|kokosbloesemsuiker|sucre de coco/gi;
 
   var ALLERGEN_PATTERNS = {
     nuts: /walnut|almond|peanut|pecan|hazelnut|cashew|pistachio|macadamia|brazil nut|pine nut|praline|marzipan|nougat|amaretto|frangelico|nutella|noten|noot|amandel|pinda|hazelnoot|cashew|walnoot|pecannoot|noix|noisette|amande|cacahu|pralin/i,
@@ -525,8 +558,8 @@
     celery: /celery|celeriac|selder|c[eé]leri/i,
     mustard: /mustard|mosterd|moutarde/i,
     honey: /\bhoney\b|honing|\bmiel\b/i,
-    sugar: /sugar|syrup|molasses|maple|suiker|siroop|\bsucre\b|sirop|\bjam\b|jelly|confiture|chocolate|chocolade|chocolat|honey|honing|\bmiel\b/i,
-    highCarb: /\bflour\b|bread|pasta|spaghetti|macaroni|noodle|\brice\b|potato|\bcorn\b|maize|sugar|\boats?\b|couscous|quinoa|tortilla|banana|\bbloem\b|brood|rijst|aardappel|suiker|\bma[iï]s\b|farine|\bpain\b|\briz\b|pomme de terre|\bsucre\b/i,
+    sugar: /sugar|syrup|molasses|maple|agave|dextrose|fructose|glucose|aspartame|suiker|siroop|\bsucre\b|sirop|\bjam\b|jelly|confiture|chocolate|chocolade|chocolat|honey|honing|\bmiel\b/i,
+    highCarb: /\bflour\b|bread|pasta|spaghetti|macaroni|noodle|\brice\b|potato|\bcorn\b|maize|sugar|\boats?\b|couscous|quinoa|buckwheat|millet|\bteff\b|amaranth|chickpea|lentil|tortilla|banana|\bbloem\b|meel\b|brood|rijst|aardappel|suiker|boekweit|gierst|kikkererwt|linzen|\bma[iï]s\b|farine|\bpain\b|\briz\b|pomme de terre|\bsucre\b|sarrasin|pois chiche|lentille/i,
     fermented: /\byeast\b|vinegar|\bbeer\b|\bwine\b|mushroom|soy sauce|\bgist\b|azijn|\bbier\b|\bwijn\b|champignon|paddenstoel|levure|vinaigre|\bvin\b|\brum\b|whisk|vodka|liqueur|likeur/i
   };
 
@@ -534,6 +567,7 @@
   function detectGroups(ingredients) {
     var found = {};
     Object.keys(ALLERGEN_PATTERNS).forEach(function (group) { found[group] = false; });
+    ['candidaAvoid', 'candidaGluten', 'candidaDairy', 'paleoDairy', 'refinedSugar', 'grain', 'legume'].forEach(function (group) { found[group] = false; });
 
     (ingredients || []).forEach(function (ing) {
       var names = [];
@@ -547,22 +581,41 @@
       var text = names.join(' ');
       if (!text) return;
 
-      // "eggplant" is a vegetable, "almond milk" is not dairy.
+      // "eggplant" is a vegetable, "almond milk" is not dairy, "buckwheat" is not wheat.
       var eggSafe = text.replace(/eggplant|aubergine/gi, '');
       var dairySafe = text.replace(NON_DAIRY_RE, '');
+      var subjects = {
+        eggs: eggSafe,
+        dairy: dairySafe,
+        gluten: text.replace(NON_GLUTEN_RE, ''),
+        highCarb: text.replace(LOW_CARB_FLOUR_RE, ''),
+        // "appelmoes zonder suiker" is the absence of sugar, not sugar
+        sugar: text.replace(/sugar[- ]free|no added sugar|without sugar|zonder (?:toegevoegde )?suiker|suikervrij|sans sucre(?: ajouté)?/gi, ''),
+        fermented: text.replace(BAKING_POWDER_RE, '')
+      };
 
       Object.keys(ALLERGEN_PATTERNS).forEach(function (group) {
         if (found[group]) return;
-        var subject = group === 'eggs' ? eggSafe : (group === 'dairy' ? dairySafe : text);
+        var subject = subjects[group] !== undefined ? subjects[group] : text;
         if (ALLERGEN_PATTERNS[group].test(subject)) found[group] = true;
       });
+
+      // Diet-only groups: each tests the text with what that diet allows taken out.
+      if (CANDIDA_AVOID_RE.test(text.replace(CANDIDA_OK_RE, ''))) found.candidaAvoid = true;
+      // The site eats oat bran (not oats in general); the allergy profile still counts it as gluten.
+      if (ALLERGEN_PATTERNS.gluten.test(subjects.gluten.replace(/oat bran|haverzemelen|son d'avoine/gi, ''))) found.candidaGluten = true;
+      if (ALLERGEN_PATTERNS.dairy.test(dairySafe.replace(CANDIDA_DAIRY_OK_RE, ''))) found.candidaDairy = true;
+      if (ALLERGEN_PATTERNS.dairy.test(dairySafe.replace(PALEO_DAIRY_OK_RE, ''))) found.paleoDairy = true;
+      if (ALLERGEN_PATTERNS.sugar.test(subjects.sugar.replace(PALEO_SWEET_OK_RE, ''))) found.refinedSugar = true;
+      if (PALEO_GRAIN_RE.test(text)) found.grain = true;
+      if (LEGUME_RE.test(text.replace(LEGUME_OK_RE, ''))) found.legume = true;
     });
 
     return found;
   }
 
   /**
-   * Work out the eight diet flags from the ingredients.
+   * Work out the ten diet flags from the ingredients.
    *
    * `hints` are flags from the original source (Spoonacular knows whether a
    * recipe is vegetarian). They can only make a claim stricter, never looser:
@@ -590,9 +643,11 @@
       isEggFree: eggFree,
       isVegetarian: vegetarian,
       isVegan: vegan,
+      isPescatarian: !g.meat,
       // Heuristics, deliberately conservative.
-      isCandidaFriendly: glutenFree && dairyFree && !g.sugar && !g.fermented && !g.highCarb,
-      isKeto: !g.highCarb && !g.sugar
+      isCandidaFriendly: !g.candidaGluten && !g.candidaDairy && !g.sugar && !g.candidaAvoid,
+      isKeto: !g.highCarb && !g.sugar,
+      isPaleo: glutenFree && !g.grain && !g.legume && !g.paleoDairy && !g.refinedSugar
     };
   }
 
@@ -875,8 +930,8 @@
     scaleAmount: scaleAmount,
     detectGroups: detectGroups,
     deriveDietFlags: deriveDietFlags,
-    DIET_FLAGS: ['isVegetarian', 'isVegan', 'isCandidaFriendly', 'isKeto',
-      'isGlutenFree', 'isNutFree', 'isDairyFree', 'isEggFree']
+    DIET_FLAGS: ['isVegetarian', 'isVegan', 'isPescatarian', 'isCandidaFriendly', 'isKeto',
+      'isPaleo', 'isGlutenFree', 'isNutFree', 'isDairyFree', 'isEggFree']
   };
 
   if (typeof module === 'object' && module.exports) {

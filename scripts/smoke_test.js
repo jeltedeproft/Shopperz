@@ -453,6 +453,31 @@ check('a diet narrows the book to dishes that fit',
 state.settings.diets = [];
 state.settings.avoid = [];
 
+// The diet chips on the recipe book: one per diet, each with the count it would leave.
+sandbox.renderRecipeGrid();
+const dietRow = elementsById['diet-row'].innerHTML;
+check('every diet has a chip on the recipe book',
+  ctx('DIETS').every(d => dietRow.includes(`data-diet="${d.id}"`)));
+const candidaCount = state.recipes.filter(r => r.isCandidaFriendly).length;
+check('a diet chip says how many dishes it would leave',
+  dietRow.includes(`>${candidaCount}</span>`), `expected ${candidaCount}`);
+sandbox.toggleProfileValue('diets', 'candida');
+check('a diet chip edits the same profile as Settings',
+  state.settings.diets.includes('candida') && sandbox.filteredRecipes().every(r => r.isCandidaFriendly) &&
+  elementsById['diet-row'].innerHTML.includes('aria-pressed="true"'));
+state.settings.diets = [];
+check('the book holds the candida recipes', candidaCount >= 140, `got ${candidaCount}`);
+
+const candidaDish = state.recipes.find(r => r.id === 'candida-lemon-chicken');
+sandbox.openRecipeDrawer(candidaDish.id);
+check('the drawer says which diets a dish fits',
+  elementsById['drawer-diets'].hidden === false && /Candida/.test(elementsById['drawer-diets'].textContent),
+  elementsById['drawer-diets'].textContent);
+check('the drawer links back to where a recipe came from',
+  elementsById['drawer-source'].innerHTML.includes('href="https://www.thecandidadiet.com/recipe/lemon-chicken/"'),
+  elementsById['drawer-source'].innerHTML);
+sandbox.closeRecipeDrawer();
+
 state.settings.avoid = ['soy'];
 const tamarind = state.recipes.filter(r => r.ingredients.some(i => /tamarind/i.test(i.name.en)));
 check('tamarind is not mistaken for soy',

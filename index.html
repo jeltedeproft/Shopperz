@@ -42,8 +42,8 @@
   -->
   <link rel="preload" href="fonts/archivo-black-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/work-sans-400600-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="fonts/fonts.css?v=29">
-  <link rel="stylesheet" href="style.css?v=29">
+  <link rel="stylesheet" href="fonts/fonts.css?v=31">
+  <link rel="stylesheet" href="style.css?v=31">
 </head>
 <body>
 
@@ -88,7 +88,7 @@
             </svg>
             <input type="search" id="recipe-search" class="search-input" data-translate-placeholder="searchPlaceholder" placeholder="What do you feel like cooking?">
           </div>
-          <button type="button" id="recipe-filter-toggle-btn" class="filter-toggle-btn" aria-label="Allergies and diets" aria-expanded="false" aria-controls="recipe-filter-tray">
+          <button type="button" id="recipe-filter-toggle-btn" class="filter-toggle-btn" aria-label="Allergies" aria-expanded="false" aria-controls="recipe-filter-tray">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
             </svg>
@@ -99,18 +99,18 @@
         <!--
           The tray edits the same household profile as Settings. There is one
           list of allergies in the app, not a profile plus a second set of
-          filters that quietly forget themselves.
+          filters that quietly forget themselves. The diets live in the row
+          below it, where you can see them without opening anything.
         -->
         <div id="recipe-filter-tray" class="filter-tray" hidden>
           <div class="filter-group">
             <span class="filter-group-title" data-translate="avoidLabel">Keep off the plate</span>
             <div class="allergen-pills" data-profile-pills="avoid"></div>
           </div>
-          <div class="filter-group">
-            <span class="filter-group-title" data-translate="dietFilterLabel">Eating habits</span>
-            <div class="allergen-pills" data-profile-pills="diets"></div>
-          </div>
         </div>
+
+        <!-- Diets: always in view, each chip with how many dishes it leaves -->
+        <div class="diet-row" id="diet-row" role="group" aria-label="Diets"></div>
 
         <!-- What the profile is hiding, and a way to see it anyway -->
         <div id="safety-note" class="safety-note" hidden>
@@ -289,6 +289,14 @@
             <button id="restore-btn" class="btn-small btn-gold" data-translate="restoreBtn">Bring it back</button>
             <input type="file" id="restore-file-input" accept="application/json,.json" hidden>
           </div>
+          <div class="settings-row settings-row-stacked">
+            <div class="settings-label" data-translate="seeMyLifeLabel">Send to SeeMyLife</div>
+            <div class="settings-desc" data-translate="seeMyLifeDesc">Fill in its address and every change goes there by itself</div>
+            <div class="seemylife-row">
+              <input type="url" id="seemylife-url-input" class="form-control" placeholder="http://localhost:4321" autocomplete="off" spellcheck="false">
+              <button id="seemylife-send-btn" class="btn-small btn-gold" data-translate="seeMyLifeBtn">Send now</button>
+            </div>
+          </div>
         </div>
 
         <!-- System controls -->
@@ -354,6 +362,7 @@
         <!-- Someone at the table cannot eat this: say so before anything else -->
         <div id="drawer-allergy-warning" class="allergy-warning" role="alert" hidden></div>
         <p id="drawer-contains" class="drawer-contains"></p>
+        <p id="drawer-diets" class="drawer-diets" hidden></p>
 
         <!-- The one thing to do with a recipe: add it. Straight under the title. -->
         <div class="plan-box">
@@ -397,6 +406,7 @@
           <button id="cook-mode-trigger-btn" class="cook-mode-btn">🍳 Cook Mode</button>
         </div>
         <div id="drawer-instructions-list" class="instructions-list"></div>
+        <p id="drawer-source" class="drawer-source" hidden></p>
       </div>
     </div>
 
@@ -496,6 +506,14 @@
                 <label class="filter-pill-label">
                   <input type="checkbox" class="recipe-diet-cb" data-flag="isKeto">
                   <span data-translate="dietKeto">Keto</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isPaleo">
+                  <span data-translate="dietPaleo">Paleo</span>
+                </label>
+                <label class="filter-pill-label">
+                  <input type="checkbox" class="recipe-diet-cb" data-flag="isPescatarian">
+                  <span data-translate="dietPescatarian">Pescatarian</span>
                 </label>
                 <label class="filter-pill-label">
                   <input type="checkbox" class="recipe-diet-cb" data-flag="isGlutenFree">
@@ -604,9 +622,9 @@
 
   </div>
 
-  <script src="ingredients.js?v=29"></script>
-  <script src="recipes.js?v=29"></script>
-  <script src="app.js?v=29"></script>
+  <script src="ingredients.js?v=31"></script>
+  <script src="recipes.js?v=31"></script>
+  <script src="app.js?v=31"></script>
   <script>
 
     // Offline support: the whole app is cached so it works inside the shop.

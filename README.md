@@ -16,12 +16,18 @@ The app is built around one loop: **pick dishes → make the list → shop**. Th
 - **Make shopping list** turns them into one list and opens it. Change the dishes later and the same button reads **Update shopping list**.
 
 **Allergies, for the whole table**
-- On first launch the app asks once whether anyone at the table avoids something: gluten, nuts, milk, eggs, fish & shellfish, soy, sesame, celery or mustard, plus diets (vegetarian, vegan, keto, candida). You can change this any time in Settings or from the filter button in the recipe book. All three places edit the same profile.
+- On first launch the app asks once whether anyone at the table avoids something: gluten, nuts, milk, eggs, fish & shellfish, soy, sesame, celery or mustard. You can change this any time in Settings or from the filter button in the recipe book. All three places edit the same profile.
 - Dishes with an avoided allergen are **left out of the book**. The book says how many it is hiding, and **Show them anyway** brings them back with a red warning on each card.
 - A recipe's drawer always says what it contains. If someone at the table avoids one of those allergens, a warning sits right under the title and the offending ingredient lines are marked.
 - Allergens are **derived from the ingredient list**, not asserted. They are a shopping aid, not a medical guarantee: an ingredient the dictionary does not recognise is assumed harmless, and the app says so.
 
+**Diets**
+- Six diets sit as green chips right under the search bar: candida, keto, paleo, vegetarian, vegan and pescatarian. Each chip says how many dishes you would see with it switched on (given the search, the category and the allergies), so a tap never lands on an empty book. Chips combine: candida + keto shows what fits both. They are part of the same household profile as the allergies, and Settings → *Eating habits* edits them too.
+- A recipe's drawer says which diets it fits ("Fits: 🍋 Candida · 🥑 Keto").
+- Like the allergens, diets are **derived from the ingredient list** by `ingredients.js`. The candida rules follow thecandidadiet.com's lists of foods to eat and to avoid: apple cider vinegar, quinoa, buckwheat, millet, brown rice, butter, ghee, plain yogurt, kefir and goat's cheese are in; sugar in any form, gluten grains, milk and most cheese, yeast, alcohol, other vinegars, processed meat, shellfish, tuna, peanuts, cashews, pistachios, potatoes, corn, white rice, high-sugar fruit, fruit juice and seed oils are out.
+
 **Recipes**
+- 148 candida-diet dishes after the recipes on thecandidadiet.com (breakfast, mains, soups, snacks, desserts and drinks). Only the facts — the dish, its ingredients and amounts — come from there; the descriptions and methods are written fresh in all three languages, metric throughout, and each drawer links back to the original. 15 have a licensed Wikimedia photo; the rest show the drawn placeholder.
 - 53 recipes in three languages (EN / NL / FR), all the way down to ingredient names and units: 44 Belgian classics written by hand — waterzooi, boulets à la liégeoise, konijn met pruimen, hutsepot, garnaalkroketten, kaaskroketten, blinde vinken, paling in 't groen, filet américain, croque monsieur, witloofsoep, rijsttaart, speculoos, peperkoek, dame blanche and the rest — plus nine everyday dishes (fried rice, dal, katsu curry, poffertjes, Dutch apple pie…).
 - **Every ingredient list is checked by hand against its method.** If a step uses it, it is on the list with an amount. The only things left off are water and dishes that have their own recipe in the book (the frites beside the boulets). The book used to hold 414 recipes, most of them imported with lists that did not match their methods, and it was cut to these on purpose: fifty right beats five thousand half-right. Anything added from now on gets the same check before it goes in.
 - Every recipe is **written the way a person would tell you it**, in all three languages — not "Peel potatoes and cut carrots and leeks" but why the pieces should match, what the pan should sound like, and which step you must not hurry. See "The voice" below.
@@ -44,6 +50,7 @@ The app is built around one loop: **pick dishes → make the list → shop**. Th
 
 **Your data**
 - Everything lives in this browser's `localStorage`, so Settings has **Download a backup** and **Restore a backup** — one JSON file with your recipes, list, favourites and settings.
+- **Send to SeeMyLife** (Settings): fill in SeeMyLife's address (`http://localhost:4321` on the PC, the Tailscale address on the phone) and every change posts that same backup to `/api/push/shopperz` two seconds later. Empty = nothing is ever sent.
 - The app works fully offline and installs to the home screen. When a new version is cached, a banner offers a reload rather than swapping files under a running session.
 - Keyboard and screen-reader usable throughout: real buttons, focus trapping in dialogs, Escape to close, visible focus rings, and `prefers-reduced-motion` honoured.
 - **Light by default, dark when you want it.** Settings → *How it looks* offers "my phone decides", "always light" and "always dark". The choice is stamped on `<html>` by a tiny inline script in `index.html` before the stylesheet paints, so there is no flash of the wrong theme on load.
@@ -106,6 +113,8 @@ node scripts/import_mealdb.js     # quality-gate TheMealDB and pick a balanced m
 node scripts/fetch_photos.js      # licensed Wikimedia photos for anything without one
 
 node scripts/add_belgian_recipes.js          # add the hand-written classics
+node scripts/add_candida_recipes.js          # add the candida dishes (scripts/candida_recipes*.js)
+node scripts/add_candida_recipes.js --replace   # ...rewriting ones already in the book after an edit
 node scripts/set_recipe_photo.js --search "waterzooi"   # find a Commons photo
 node scripts/set_recipe_photo.js <id> "File:X.jpg"      # and pin it to a recipe
 ```

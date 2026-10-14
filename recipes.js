@@ -210,7 +210,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "witloof-oven",
@@ -360,7 +362,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "vol-au-vent",
@@ -546,7 +550,9 @@ window.initialRecipes = [
         "category": "Diepvries",
         "staple": false
       }
-    ]
+    ],
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "stoemp-worst",
@@ -705,7 +711,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "moules-frites",
@@ -891,7 +899,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "asperges-flamande",
@@ -913,7 +923,7 @@ window.initialRecipes = [
     "isEggFree": false,
     "isVegetarian": true,
     "isVegan": false,
-    "isCandidaFriendly": false,
+    "isCandidaFriendly": true,
     "isKeto": true,
     "translations": {
       "en": {
@@ -1029,7 +1039,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "tomate-crevettes",
@@ -1051,7 +1063,7 @@ window.initialRecipes = [
     "isEggFree": false,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": true,
     "translations": {
       "en": {
@@ -1188,7 +1200,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": true
   },
   {
     "id": "vegan-waterzooi",
@@ -1410,7 +1424,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "chicoree-salade",
@@ -1545,7 +1561,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": true
   },
   {
     "id": "keto-stoofvlees",
@@ -1567,7 +1585,7 @@ window.initialRecipes = [
     "isEggFree": true,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": false,
+    "isCandidaFriendly": true,
     "isKeto": true,
     "translations": {
       "en": {
@@ -1758,7 +1776,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": false,
+    "isPaleo": true
   },
   {
     "id": "gaufre-liege",
@@ -1921,7 +1941,9 @@ window.initialRecipes = [
         "category": "Kruidenier",
         "staple": false
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "vegan-stoemp",
@@ -2056,7 +2078,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "spoonacular-654959",
@@ -2266,7 +2290,9 @@ window.initialRecipes = [
         "category": "Kruiden & Specerijen",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "spoonacular-634006",
@@ -2416,7 +2442,9 @@ window.initialRecipes = [
         "category": "Kruidenier",
         "staple": true
       }
-    ]
+    ],
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "gentse-waterzooi",
@@ -2675,7 +2703,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Waterzooi%20at%20De%20Vlaamsche%20Pot%20(2175547879).jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "konijn-met-pruimen",
@@ -2897,7 +2927,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Civet_de_lapin_aux_USA.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "vlaamse-hutsepot",
@@ -3153,7 +3185,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Vlaamse_Hutsepot.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "garnaalkroketten",
@@ -3388,7 +3422,9 @@ window.initialRecipes = [
       "licence": "Public domain",
       "licenceUrl": "",
       "source": "https://commons.wikimedia.org/wiki/File:GarnaalKrokette1.JPG"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "balletjes-tomatensaus",
@@ -3646,7 +3682,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Liat%20Portal%20for%20Foodie%20Disorder%20-%20Meatballs%20in%20tomato%20sauce.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "brusselse-wafels",
@@ -3834,7 +3872,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Waffle_with_strawberries_and_confectioner's_sugar.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "rijsttaart",
@@ -4020,7 +4060,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Tarte_au_riz.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "spruitjes-met-spek",
@@ -4192,7 +4234,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Making%20Brussels%20sprouts%20with%20bacon%20(1%20of%20125).jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "croque-monsieur",
@@ -4388,7 +4432,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 2.5",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
       "source": "https://commons.wikimedia.org/wiki/File:Croque_monsieur.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "tomatensoep-balletjes",
@@ -4655,7 +4701,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Tomato_soup%2C_plant-based_(44040252791).jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "luikse-salade",
@@ -4827,7 +4875,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Salade_li%C3%A9geoise.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "speculoos",
@@ -5011,7 +5061,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Saint_Nicholas_Speculaas_(6465422349).jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "dame-blanche",
@@ -5146,7 +5198,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Coupe_D%C3%A4nemark_2.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "erwtensoep",
@@ -5369,7 +5423,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Hernekeitto.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "paling-in-het-groen",
@@ -5627,7 +5683,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Anguille_au_vert_P1320209.JPG"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "belgische-frieten",
@@ -5754,7 +5812,9 @@ window.initialRecipes = [
       "licence": "CC0",
       "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:French_Fries.JPG"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "boulets-liegeois",
@@ -6024,7 +6084,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Boulets_%C3%A0_la_li%C3%A9geoise_1.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "kaaskroketten",
@@ -6271,7 +6333,9 @@ window.initialRecipes = [
       "licence": "CC BY 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Corn_and_Cheese_Croquettes_-_Rajarhat_-_North_24_Parganas_2013-06-15_0619.JPG"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "blinde-vinken",
@@ -6517,7 +6581,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Blinde_vink.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "coq-a-la-biere",
@@ -6739,7 +6805,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Gourmet_coq_au_vin.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "boudin-appelmoes",
@@ -6934,7 +7002,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Boudin_cr%C3%A9ole.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "bloemkool-gratin",
@@ -7132,7 +7202,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Cauliflower_cheese_side_dish.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "filet-americain",
@@ -7364,7 +7436,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Filet_americain_on_bread.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "ostendse-vissoep",
@@ -7647,7 +7721,9 @@ window.initialRecipes = [
       "licence": "CC0",
       "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Bouillabaisse%20dieppoise%20-%20Le%20Petit%20L%C3%A9on%202026-05-08.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "preisoep",
@@ -7830,7 +7906,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Mon_Plaisir%2C_Covent_Garden%2C_London_(3717184145).jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "witloofsoep",
@@ -7989,7 +8067,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Witlofsoep%20met%20spekjes%202025.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "kervelsoep",
@@ -8184,7 +8264,9 @@ window.initialRecipes = [
       "licence": "Public domain",
       "licenceUrl": "",
       "source": "https://commons.wikimedia.org/wiki/File:Illustration_Anthriscus_cerefolium0.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "rijstpap",
@@ -8347,7 +8429,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Kheer_with_condensed_milk..JPG"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "verloren-brood",
@@ -8519,7 +8603,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:FrenchToast.JPG"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "suikertaart",
@@ -8705,7 +8791,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_tarte_au_sucre_2011.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "peperkoek",
@@ -8904,7 +8992,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "source": "https://commons.wikimedia.org/wiki/File:Pain_depices_p1050128.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "ardense-pastei",
@@ -8926,7 +9016,7 @@ window.initialRecipes = [
     "isEggFree": false,
     "isVegetarian": false,
     "isVegan": false,
-    "isCandidaFriendly": true,
+    "isCandidaFriendly": false,
     "isKeto": true,
     "translations": {
       "en": {
@@ -9114,7 +9204,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 3.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:%C3%89tal_de_charcutier-traiteur.JPG"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": true
   },
   {
     "id": "mealdb-53379",
@@ -9287,7 +9379,9 @@ window.initialRecipes = [
       }
     ],
     "sourceName": "TheMealDB",
-    "sourceUrl": "https://www.themealdb.com/meal/53379"
+    "sourceUrl": "https://www.themealdb.com/meal/53379",
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "mealdb-53367",
@@ -9544,7 +9638,9 @@ window.initialRecipes = [
       "licence": "CC BY 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Koh_Mak%2C_Thailand%2C_Fried_rice_with_seafood%2C_Thai_fried_rice.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "mealdb-53366",
@@ -9756,7 +9852,9 @@ window.initialRecipes = [
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Beef_and_broccoli_stir_fry.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "mealdb-53386",
@@ -9950,7 +10048,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Lattice_apple_pie.png"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "mealdb-53014",
@@ -10162,7 +10262,9 @@ window.initialRecipes = [
       "licence": "CC0",
       "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source": "https://commons.wikimedia.org/wiki/File:Pizza-3007395.jpg"
-    }
+    },
+    "isPescatarian": true,
+    "isPaleo": false
   },
   {
     "id": "mealdb-52820",
@@ -10452,7 +10554,9 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Matsunoya_W_Mega_Chicken_Katsu_Set_20200923-04.jpg"
-    }
+    },
+    "isPescatarian": false,
+    "isPaleo": false
   },
   {
     "id": "mealdb-52785",
@@ -10706,6 +10810,28461 @@ window.initialRecipes = [
       "licence": "CC BY-SA 4.0",
       "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "source": "https://commons.wikimedia.org/wiki/File:Bhindi_Masala.jpg"
+    },
+    "isPescatarian": true,
+    "isPaleo": false
+  },
+  {
+    "id": "candida-quick-and-easy-avocado-mousse",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Avocado Mousse",
+        "subtitle": "Five minutes, one blender, no sugar",
+        "description": "Avocado and yogurt blitzed with lime until it turns silky. Good at breakfast, just as good as a dessert.",
+        "instructions": [
+          "Put the avocado flesh, yogurt, coconut milk, lime juice and zest in a blender or food processor.",
+          "Blend until completely smooth, scraping down the sides once.",
+          "Taste and sweeten with a little stevia if you like.",
+          "Spoon it into a glass and scatter over the blueberries, almonds, pumpkin seeds and coconut."
+        ]
+      },
+      "nl": {
+        "title": "Avocadomousse",
+        "subtitle": "Vijf minuten, één blender, geen suiker",
+        "description": "Avocado en yoghurt met limoen gemixt tot het zijdezacht is. Lekker als ontbijt, even lekker als dessert.",
+        "instructions": [
+          "Doe het vruchtvlees van de avocado, de yoghurt, de kokosmelk, het limoensap en de zeste in een blender of keukenrobot.",
+          "Mix tot alles helemaal glad is en schraap de wanden één keer af.",
+          "Proef en zoet naar smaak bij met wat stevia.",
+          "Schep het in een glas en strooi er de blauwe bessen, amandelen, pompoenpitten en kokos over."
+        ]
+      },
+      "fr": {
+        "title": "Mousse d'avocat",
+        "subtitle": "Cinq minutes, un mixeur, pas de sucre",
+        "description": "De l'avocat et du yaourt mixés au citron vert jusqu'à devenir soyeux. Parfait au petit-déjeuner, tout aussi bon en dessert.",
+        "instructions": [
+          "Mets la chair de l'avocat, le yaourt, le lait de coco, le jus et le zeste de citron vert dans un mixeur.",
+          "Mixe jusqu'à ce que ce soit parfaitement lisse, en raclant les parois une fois.",
+          "Goûte et sucre avec un peu de stévia si tu veux.",
+          "Verse dans un verre et parsème de myrtilles, d'amandes, de graines de courge et de coco."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime zest",
+        "name": {
+          "en": "Lime zest",
+          "nl": "Limoenzeste",
+          "fr": "Zeste de citron vert"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "nl": "Blauwe bessen",
+          "fr": "Myrtilles"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/quick-and-easy-avocado-mousse/"
+  },
+  {
+    "id": "candida-happy-gut-bowl",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Happy Gut Bowl",
+        "subtitle": "Greens, quinoa, a fried egg and sauerkraut",
+        "description": "A warm bowl built in one pan: sautéed broccoli and courgette, a fried egg, quinoa and a sharp sauerkraut dressing that does the work vinegar usually does.",
+        "instructions": [
+          "Shake the olive oil, sauerkraut juice, onion powder, dried herbs, salt, pepper and a pinch of stevia together in a jar. That's the dressing.",
+          "Heat 1 tablespoon of oil in a frying pan over medium heat and fry the broccoli and courgette with salt and pepper for 5–6 minutes. Tip them onto a plate.",
+          "Add the rest of the oil, crack in the egg, cover and fry for 2–3 minutes, until the white is set.",
+          "Warm the quinoa in the same pan for a minute or two.",
+          "Build the bowl: greens, quinoa, vegetables and the egg on top. Finish with avocado, sauerkraut, grated radish and spring onion, and drizzle over some dressing."
+        ]
+      },
+      "nl": {
+        "title": "Happy Gut Bowl",
+        "subtitle": "Groen, quinoa, een spiegelei en zuurkool",
+        "description": "Een warme bowl uit één pan: gebakken broccoli en courgette, een spiegelei, quinoa en een frisse zuurkooldressing die het werk van azijn overneemt.",
+        "instructions": [
+          "Schud de olijfolie, het zuurkoolsap, het uienpoeder, de gedroogde kruiden, peper, zout en een snuifje stevia samen in een potje. Dat is de dressing.",
+          "Verhit 1 eetlepel olie in een pan op middelhoog vuur en bak de broccoli en courgette 5–6 minuten met peper en zout. Leg ze op een bord.",
+          "Doe de rest van de olie in de pan, breek het ei erin, leg er een deksel op en bak 2–3 minuten tot het wit gestold is.",
+          "Warm de quinoa een minuutje of twee op in dezelfde pan.",
+          "Stel de bowl samen: groen, quinoa, groenten en het ei erbovenop. Werk af met avocado, zuurkool, geraspte radijs en lente-ui, en sprenkel er wat dressing over."
+        ]
+      },
+      "fr": {
+        "title": "Bol « ventre heureux »",
+        "subtitle": "Verdure, quinoa, œuf au plat et choucroute",
+        "description": "Un bol chaud fait dans une seule poêle : brocoli et courgette sautés, un œuf au plat, du quinoa et une vinaigrette à la choucroute qui remplace le vinaigre.",
+        "instructions": [
+          "Secoue l'huile d'olive, le jus de choucroute, la poudre d'oignon, les herbes séchées, le sel, le poivre et une pincée de stévia dans un bocal. Voilà la vinaigrette.",
+          "Chauffe 1 cuillère à soupe d'huile à feu moyen et fais sauter le brocoli et la courgette avec sel et poivre 5–6 minutes. Réserve-les sur une assiette.",
+          "Ajoute le reste de l'huile, casse l'œuf, couvre et cuis 2–3 minutes jusqu'à ce que le blanc soit pris.",
+          "Réchauffe le quinoa une minute ou deux dans la même poêle.",
+          "Monte le bol : verdure, quinoa, légumes et l'œuf par-dessus. Termine avec l'avocat, la choucroute, le radis râpé et l'oignon nouveau, et arrose d'un peu de vinaigrette."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "broccoli",
+        "name": {
+          "en": "Broccoli",
+          "nl": "Broccoli",
+          "fr": "Brocoli"
+        },
+        "amount": 50,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sauerkraut",
+        "name": {
+          "en": "Sauerkraut",
+          "nl": "Zuurkool",
+          "fr": "Choucroute"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "sauerkraut juice",
+        "name": {
+          "en": "Sauerkraut juice",
+          "nl": "Zuurkoolsap",
+          "fr": "Jus de choucroute"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Bieren & Dranken",
+        "staple": false
+      },
+      {
+        "key": "radish",
+        "name": {
+          "en": "Radish",
+          "nl": "Radijs",
+          "fr": "Radis"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried herbs",
+        "name": {
+          "en": "Dried herbs",
+          "nl": "Gedroogde kruiden",
+          "fr": "Herbes séchées"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/happy-gut-bowl/"
+  },
+  {
+    "id": "candida-rhubarb-muffins",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 12,
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Rhubarb Muffins",
+        "subtitle": "Quinoa and buckwheat, sharp with rhubarb",
+        "description": "Gluten-free muffins with tart pieces of rhubarb all through them. Psyllium holds the crumb together where wheat normally would.",
+        "instructions": [
+          "Heat the oven to 180 °C and line a 12-hole muffin tin.",
+          "Whisk the quinoa flour, buckwheat flour, psyllium, cinnamon, salt, baking powder and baking soda together in a large bowl.",
+          "In another bowl, whisk the eggs, yogurt, melted oil, almond milk, vanilla and stevia.",
+          "Stir the wet into the dry until just combined, then fold in the rhubarb.",
+          "Divide over the tin and bake for about 20 minutes, until the tops spring back when pressed. Let them cool before you dig in."
+        ]
+      },
+      "nl": {
+        "title": "Rabarbermuffins",
+        "subtitle": "Quinoa en boekweit, fris van de rabarber",
+        "description": "Glutenvrije muffins vol zure stukjes rabarber. Psyllium houdt het kruim samen waar dat normaal tarwe doet.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bekleed een muffinvorm met 12 holtes.",
+          "Klop de quinoameel, boekweitmeel, psyllium, kaneel, zout, bakpoeder en zuiveringszout samen in een grote kom.",
+          "Klop in een andere kom de eieren, yoghurt, gesmolten olie, amandelmelk, vanille en stevia los.",
+          "Roer het natte door het droge tot het net gemengd is en spatel dan de rabarber erdoor.",
+          "Verdeel over de vorm en bak ongeveer 20 minuten, tot de bovenkant terugveert als je erop drukt. Laat ze afkoelen voor je erin bijt."
+        ]
+      },
+      "fr": {
+        "title": "Muffins à la rhubarbe",
+        "subtitle": "Quinoa et sarrasin, acidulés à la rhubarbe",
+        "description": "Des muffins sans gluten pleins de morceaux de rhubarbe acidulée. Le psyllium tient la mie là où le blé le ferait d'habitude.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et garnis un moule à 12 muffins.",
+          "Fouette la farine de quinoa, la farine de sarrasin, le psyllium, la cannelle, le sel, la levure chimique et le bicarbonate dans un grand bol.",
+          "Dans un autre bol, fouette les œufs, le yaourt, l'huile fondue, le lait d'amande, la vanille et la stévia.",
+          "Mélange le liquide au sec juste assez pour l'incorporer, puis ajoute la rhubarbe délicatement.",
+          "Répartis dans le moule et enfourne environ 20 minutes, jusqu'à ce que le dessus rebondisse sous le doigt. Laisse refroidir avant de croquer."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "quinoa flour",
+        "name": {
+          "en": "Quinoa flour",
+          "nl": "Quinoameel",
+          "fr": "Farine de quinoa"
+        },
+        "amount": 110,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 120,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "psyllium husk powder",
+        "name": {
+          "en": "Psyllium husk powder",
+          "nl": "Psylliumvezels",
+          "fr": "Psyllium en poudre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "baking powder",
+        "name": {
+          "en": "baking powder",
+          "nl": "bakpoeder",
+          "fr": "levure chimique"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 180,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "rhubarb",
+        "name": {
+          "en": "Rhubarb",
+          "nl": "Rabarber",
+          "fr": "Rhubarbe"
+        },
+        "amount": 180,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/rhubarb-muffins/"
+  },
+  {
+    "id": "candida-savory-zucchini-and-pesto-bread",
+    "prepTime": "20 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 8,
+    "category": [
+      "breakfast",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Courgette & Pesto Loaf",
+        "subtitle": "A savoury gluten-free loaf with a green swirl",
+        "description": "Millet, almond and buckwheat flour make a moist loaf, grated courgette keeps it that way, and homemade pesto runs through the middle.",
+        "instructions": [
+          "Make the pesto: blitz the basil, nuts, garlic, salt and lemon juice in a food processor, then pour in the olive oil while it runs.",
+          "Heat the oven to 180 °C. Oil a 20 × 10 cm loaf tin and line it with baking paper.",
+          "Squeeze as much water as you can out of the grated courgette with your hands or a clean tea towel.",
+          "Whisk the millet, almond and buckwheat flours with the psyllium, baking powder, baking soda, salt and pepper. Stir the vinegar into the almond milk.",
+          "Beat the eggs until frothy, whisk in the almond milk and the light olive oil, then stir in the dry mix. Fold in the courgette and the chopped nuts.",
+          "Pour into the tin, dot the pesto over the top and swirl it in with a knife.",
+          "Bake for 40–45 minutes, until a skewer comes out clean. Leave it 10 minutes in the tin, then let it cool fully on a rack before slicing."
+        ]
+      },
+      "nl": {
+        "title": "Courgette-pestobrood",
+        "subtitle": "Een hartig glutenvrij brood met een groene swirl",
+        "description": "Gierst-, amandel- en boekweitmeel maken een smeuïg brood, geraspte courgette houdt het zo, en er loopt zelfgemaakte pesto door het midden.",
+        "instructions": [
+          "Maak de pesto: mix basilicum, noten, look, zout en citroensap in de keukenrobot en giet de olijfolie erbij terwijl hij draait.",
+          "Verwarm de oven voor op 180 °C. Vet een cakevorm van 20 × 10 cm in en bekleed hem met bakpapier.",
+          "Knijp zoveel mogelijk vocht uit de geraspte courgette, met je handen of in een schone keukenhanddoek.",
+          "Klop het gierst-, amandel- en boekweitmeel met de psyllium, het bakpoeder, zuiveringszout, zout en peper door elkaar. Roer de azijn door de amandelmelk.",
+          "Klop de eieren schuimig, klop de amandelmelk en de lichte olijfolie erdoor en roer dan het droge mengsel erbij. Spatel de courgette en de gehakte noten erdoor.",
+          "Giet in de vorm, verdeel de pesto in klodders over de bovenkant en trek er met een mes een swirl door.",
+          "Bak 40–45 minuten, tot een prikker er droog uitkomt. Laat 10 minuten in de vorm staan en dan volledig afkoelen op een rooster voor je snijdt."
+        ]
+      },
+      "fr": {
+        "title": "Pain courgette et pesto",
+        "subtitle": "Un pain salé sans gluten, marbré de vert",
+        "description": "Les farines de millet, d'amande et de sarrasin donnent un pain moelleux, la courgette râpée le garde ainsi, et un pesto maison le traverse.",
+        "instructions": [
+          "Fais le pesto : mixe le basilic, les noix, l'ail, le sel et le jus de citron, puis verse l'huile d'olive en filet, robot en marche.",
+          "Préchauffe le four à 180 °C. Huile un moule à cake de 20 × 10 cm et chemise-le de papier cuisson.",
+          "Presse la courgette râpée pour en retirer un maximum d'eau, à la main ou dans un torchon propre.",
+          "Fouette les farines de millet, d'amande et de sarrasin avec le psyllium, la levure, le bicarbonate, le sel et le poivre. Mélange le vinaigre au lait d'amande.",
+          "Bats les œufs jusqu'à ce qu'ils moussent, ajoute le lait d'amande et l'huile d'olive légère, puis le mélange sec. Incorpore la courgette et les noix hachées.",
+          "Verse dans le moule, dépose le pesto en petits tas sur le dessus et marbre-le avec un couteau.",
+          "Enfourne 40–45 minutes, jusqu'à ce qu'une pique ressorte sèche. Laisse 10 minutes dans le moule, puis refroidir complètement sur une grille avant de trancher."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "millet flour",
+        "name": {
+          "en": "Millet flour",
+          "nl": "Gierstmeel",
+          "fr": "Farine de millet"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 75,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "psyllium husk powder",
+        "name": {
+          "en": "Psyllium husk powder",
+          "nl": "Psylliumvezels",
+          "fr": "Psyllium en poudre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking powder",
+        "name": {
+          "en": "baking powder",
+          "nl": "bakpoeder",
+          "fr": "levure chimique"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.75,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 140,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "pine nuts",
+        "name": {
+          "en": "Pine nuts",
+          "nl": "Pijnboompitten",
+          "fr": "Pignons de pin"
+        },
+        "amount": 75,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/savory-zucchini-and-pesto-bread/"
+  },
+  {
+    "id": "candida-avocado-baked-eggs-vegetable-hash",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Avocado Baked Eggs",
+        "subtitle": "Eggs baked in avocado on a bed of vegetables",
+        "description": "Each avocado half becomes a little cup for an egg, nestled into diced vegetables that roast underneath. A weekend breakfast that cooks itself.",
+        "instructions": [
+          "Heat the oven to 220 °C.",
+          "Spread the diced tomato, courgette, pepper and onion in a small ovenproof dish, season, and drizzle with 1 tablespoon of oil.",
+          "Push two hollows into the vegetables and sit an avocado half, cut side up, in each one.",
+          "Crack an egg into each avocado, season, and drizzle over the rest of the oil.",
+          "Bake for 15–20 minutes, until the whites are set and the yolks are just starting to firm. Scatter over parsley."
+        ]
+      },
+      "nl": {
+        "title": "Gebakken eitjes in avocado",
+        "subtitle": "Eieren in avocado op een bedje groenten",
+        "description": "Elke avocadohelft wordt een kommetje voor een ei, op een bed blokjes groenten die eronder mee roosteren. Een weekendontbijt dat zichzelf bakt.",
+        "instructions": [
+          "Verwarm de oven voor op 220 °C.",
+          "Verdeel de blokjes tomaat, courgette, paprika en ui over een kleine ovenschaal, kruid en besprenkel met 1 eetlepel olie.",
+          "Druk twee kuiltjes in de groenten en zet in elk een avocadohelft, met de snijkant naar boven.",
+          "Breek een ei in elke avocado, kruid en sprenkel de rest van de olie erover.",
+          "Bak 15–20 minuten, tot het wit gestold is en de dooier net begint op te stijven. Strooi er peterselie over."
+        ]
+      },
+      "fr": {
+        "title": "Œufs cuits dans l'avocat",
+        "subtitle": "Des œufs dans l'avocat sur un lit de légumes",
+        "description": "Chaque demi-avocat devient une petite coupe pour un œuf, posé sur des légumes en dés qui rôtissent en dessous. Un petit-déjeuner du week-end qui cuit tout seul.",
+        "instructions": [
+          "Préchauffe le four à 220 °C.",
+          "Étale les dés de tomate, de courgette, de poivron et d'oignon dans un petit plat allant au four, assaisonne et arrose d'1 cuillère à soupe d'huile.",
+          "Creuse deux nids dans les légumes et pose un demi-avocat dans chacun, face coupée vers le haut.",
+          "Casse un œuf dans chaque avocat, assaisonne et arrose du reste de l'huile.",
+          "Enfourne 15–20 minutes, jusqu'à ce que les blancs soient pris et les jaunes commencent à épaissir. Parsème de persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/avocado-baked-eggs-vegetable-hash/"
+  },
+  {
+    "id": "candida-smoky-rutabaga-hash",
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "breakfast",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Smoky Swede Hash",
+        "subtitle": "The potato-free answer to hash browns",
+        "description": "Swede cubes fried until golden, then tossed with onion, red pepper and smoked paprika. All the comfort of a fry-up without the potatoes.",
+        "instructions": [
+          "Heat the oil in a large frying pan over medium heat and add the swede. Fry for about 4 minutes, stirring.",
+          "Put a lid on and let it cook for about 15 minutes, stirring once or twice, until a fork goes through easily. Turn the heat down if it browns too fast.",
+          "Take the lid off, add the onion, red pepper, salt, pepper and smoked paprika, and fry for another 10 minutes.",
+          "Finish with chives or dill."
+        ]
+      },
+      "nl": {
+        "title": "Gerookte koolraaphash",
+        "subtitle": "Het antwoord zonder aardappel op rösti",
+        "description": "Blokjes koolraap goudbruin gebakken en dan omgeschept met ui, rode paprika en gerookte paprikapoeder. Al de troost van een gebakken ontbijt, zonder aardappelen.",
+        "instructions": [
+          "Verhit de olie in een grote pan op middelhoog vuur en doe de koolraap erin. Bak ongeveer 4 minuten al roerend.",
+          "Leg er een deksel op en laat zo'n 15 minuten garen, en roer een keer of twee, tot een vork er makkelijk door gaat. Zet het vuur lager als het te snel kleurt.",
+          "Haal het deksel eraf, voeg ui, rode paprika, zout, peper en gerookte paprikapoeder toe en bak nog 10 minuten.",
+          "Werk af met bieslook of dille."
+        ]
+      },
+      "fr": {
+        "title": "Poêlée fumée de rutabaga",
+        "subtitle": "La réponse sans pomme de terre aux galettes rissolées",
+        "description": "Des dés de rutabaga dorés à la poêle, puis mêlés à l'oignon, au poivron rouge et au paprika fumé. Tout le réconfort d'une poêlée, sans pommes de terre.",
+        "instructions": [
+          "Chauffe l'huile dans une grande poêle à feu moyen et ajoute le rutabaga. Fais-le revenir environ 4 minutes en remuant.",
+          "Couvre et laisse cuire une quinzaine de minutes en remuant une ou deux fois, jusqu'à ce qu'une fourchette le traverse facilement. Baisse le feu s'il dore trop vite.",
+          "Retire le couvercle, ajoute l'oignon, le poivron rouge, le sel, le poivre et le paprika fumé, et poursuis 10 minutes.",
+          "Termine avec de la ciboulette ou de l'aneth."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 700,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "smoked paprika",
+        "name": {
+          "en": "Smoked paprika",
+          "nl": "Gerookte paprikapoeder",
+          "fr": "Paprika fumé"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/smoky-rutabaga-hash/"
+  },
+  {
+    "id": "candida-turkey-sage-breakfast-patties",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Turkey & Sage Patties",
+        "subtitle": "Breakfast sausage, without the sausage",
+        "description": "Minced turkey seasoned like a good breakfast sausage, with sage, thyme and a pinch of chilli. No fillers, no sugar, nothing cured.",
+        "instructions": [
+          "Mix the turkey with the sage, spring onion, thyme, garlic, salt, pepper and chilli flakes until just combined. Don't overwork it.",
+          "Shape into 8 patties, about 1 cm thick.",
+          "Heat 1 tablespoon of oil in a large frying pan over medium heat and fry 4 patties at a time, 3–4 minutes a side, until browned and cooked right through.",
+          "Add the rest of the oil and fry the second batch."
+        ]
+      },
+      "nl": {
+        "title": "Kalkoenburgertjes met salie",
+        "subtitle": "Ontbijtworstjes, zonder worst",
+        "description": "Kalkoengehakt gekruid zoals een goed ontbijtworstje, met salie, tijm en een snuifje chili. Geen vulmiddel, geen suiker, niets gepekeld.",
+        "instructions": [
+          "Meng het kalkoengehakt met de salie, lente-ui, tijm, look, zout, peper en chilivlokken tot het net gemengd is. Niet te lang kneden.",
+          "Vorm er 8 burgertjes van, zo'n 1 cm dik.",
+          "Verhit 1 eetlepel olie in een grote pan op middelhoog vuur en bak 4 burgertjes tegelijk, 3–4 minuten per kant, tot ze bruin en helemaal gaar zijn.",
+          "Doe de rest van de olie erbij en bak de tweede lading."
+        ]
+      },
+      "fr": {
+        "title": "Galettes de dinde à la sauge",
+        "subtitle": "De la saucisse du matin, sans saucisse",
+        "description": "De la dinde hachée assaisonnée comme une bonne saucisse de petit-déjeuner, avec sauge, thym et une pincée de piment. Sans liant, sans sucre, rien de salaison.",
+        "instructions": [
+          "Mélange la dinde avec la sauge, l'oignon nouveau, le thym, l'ail, le sel, le poivre et le piment juste assez pour lier. Ne travaille pas trop.",
+          "Forme 8 galettes d'environ 1 cm d'épaisseur.",
+          "Chauffe 1 cuillère à soupe d'huile dans une grande poêle à feu moyen et cuis 4 galettes à la fois, 3–4 minutes par face, jusqu'à ce qu'elles soient dorées et cuites à cœur.",
+          "Ajoute le reste de l'huile et cuis la deuxième fournée."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground turkey",
+        "name": {
+          "en": "ground turkey",
+          "nl": "kalkoengehakt",
+          "fr": "dinde hachée"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "sage",
+        "name": {
+          "en": "Sage",
+          "nl": "Salie",
+          "fr": "Sauge"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dried thyme",
+        "name": {
+          "en": "Dried thyme",
+          "nl": "Gedroogde tijm",
+          "fr": "Thym séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/turkey-sage-breakfast-patties/"
+  },
+  {
+    "id": "candida-cinnamon-coconut-crisp",
+    "prepTime": "20 mins",
+    "cookTime": "12 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Cinnamon Coconut Crisp",
+        "subtitle": "Homemade cereal squares, no sugar",
+        "description": "An almond-and-coconut dough rolled thin, baked and cut into crunchy little squares. Pour over almond or coconut milk and it tastes like the cereal you're not supposed to have.",
+        "instructions": [
+          "Heat the oven to 180 °C.",
+          "Whisk the almond flour, coconut, cinnamon, salt and baking soda together.",
+          "In another bowl, whisk the vanilla, stevia and melted coconut oil, then whisk in the egg white until frothy.",
+          "Stir the wet into the dry until it comes together as a dough.",
+          "Roll it out between two sheets of baking paper to about 25 × 38 cm. Peel off the top sheet, slide it onto a tray and bake for 12 minutes.",
+          "Cut straight away into 2–3 cm squares with a sharp knife and let them cool completely — they crisp up as they cool."
+        ]
+      },
+      "nl": {
+        "title": "Kaneel-kokoscrunch",
+        "subtitle": "Zelfgemaakte ontbijtgranen, zonder suiker",
+        "description": "Een deeg van amandel en kokos dun uitgerold, gebakken en in knapperige vierkantjes gesneden. Giet er amandel- of kokosmelk over en het smaakt naar de granen die je niet mag.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C.",
+          "Klop het amandelmeel, de kokos, kaneel, zout en het zuiveringszout door elkaar.",
+          "Klop in een andere kom de vanille, stevia en gesmolten kokosolie, en klop dan het eiwit erdoor tot het schuimt.",
+          "Roer het natte door het droge tot het een deeg wordt.",
+          "Rol het tussen twee vellen bakpapier uit tot ongeveer 25 × 38 cm. Trek het bovenste vel eraf, schuif het op een bakplaat en bak 12 minuten.",
+          "Snijd meteen in vierkantjes van 2–3 cm met een scherp mes en laat helemaal afkoelen — ze worden knapperig terwijl ze afkoelen."
+        ]
+      },
+      "fr": {
+        "title": "Croustillants cannelle-coco",
+        "subtitle": "Des céréales maison, sans sucre",
+        "description": "Une pâte d'amande et de coco étalée finement, cuite et coupée en petits carrés croquants. Avec du lait d'amande ou de coco, on dirait les céréales interdites.",
+        "instructions": [
+          "Préchauffe le four à 180 °C.",
+          "Fouette la farine d'amande, la coco, la cannelle, le sel et le bicarbonate.",
+          "Dans un autre bol, fouette la vanille, la stévia et l'huile de coco fondue, puis ajoute le blanc d'œuf et fouette jusqu'à ce que ça mousse.",
+          "Mélange le liquide au sec jusqu'à obtenir une pâte.",
+          "Étale-la entre deux feuilles de papier cuisson sur environ 25 × 38 cm. Retire la feuille du dessus, glisse sur une plaque et enfourne 12 minutes.",
+          "Coupe aussitôt en carrés de 2–3 cm avec un couteau bien aiguisé et laisse refroidir complètement — ils deviennent croustillants en refroidissant."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "egg whites",
+        "name": {
+          "en": "egg whites",
+          "nl": "eiwitten",
+          "fr": "blancs d'oeuf"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cinnamon-coconut-crisp/"
+  },
+  {
+    "id": "candida-baked-eggs-skillet-with-red-peppers-onions",
+    "prepTime": "5 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "breakfast",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Baked Eggs with Peppers & Onions",
+        "subtitle": "A pan of soft peppers with eggs set on top",
+        "description": "Red peppers and onion cooked down with tomato, smoked paprika and fresh chilli, then four eggs cracked into the pan and finished under the grill.",
+        "instructions": [
+          "Heat the oil in a large ovenproof frying pan over medium heat. Cook the onion and peppers, stirring, for 6–8 minutes until soft.",
+          "Stir in the smoked paprika, chilli and tomatoes and cook for another 3–4 minutes. Season with salt and pepper.",
+          "Make four hollows in the mixture and crack an egg into each one.",
+          "Slide the pan under a medium grill for about 5 minutes, until the eggs are cooked the way you like them. Scatter over parsley."
+        ]
+      },
+      "nl": {
+        "title": "Eieren uit de pan met paprika en ui",
+        "subtitle": "Een pan zachte paprika met eieren erbovenop",
+        "description": "Rode paprika en ui zacht gestoofd met tomaat, gerookte paprikapoeder en verse chili, en dan vier eieren in de pan gebroken en afgewerkt onder de grill.",
+        "instructions": [
+          "Verhit de olie in een grote ovenvaste pan op middelhoog vuur. Bak de ui en paprika 6–8 minuten al roerend tot ze zacht zijn.",
+          "Roer de gerookte paprikapoeder, chili en tomaten erdoor en bak nog 3–4 minuten. Kruid met peper en zout.",
+          "Maak vier kuiltjes in het mengsel en breek in elk een ei.",
+          "Schuif de pan zo'n 5 minuten onder een middelhete grill, tot de eieren gaar zijn zoals jij ze graag hebt. Strooi er peterselie over."
+        ]
+      },
+      "fr": {
+        "title": "Œufs cocotte aux poivrons et oignons",
+        "subtitle": "Une poêle de poivrons fondants, des œufs par-dessus",
+        "description": "Des poivrons rouges et de l'oignon fondus avec de la tomate, du paprika fumé et du piment frais, puis quatre œufs cassés dans la poêle et finis sous le gril.",
+        "instructions": [
+          "Chauffe l'huile dans une grande poêle allant au four à feu moyen. Fais fondre l'oignon et les poivrons 6–8 minutes en remuant.",
+          "Ajoute le paprika fumé, le piment et les tomates et poursuis 3–4 minutes. Sale et poivre.",
+          "Creuse quatre nids dans le mélange et casse un œuf dans chacun.",
+          "Glisse la poêle sous le gril à puissance moyenne environ 5 minutes, jusqu'à ce que les œufs soient cuits à ton goût. Parsème de persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "smoked paprika",
+        "name": {
+          "en": "Smoked paprika",
+          "nl": "Gerookte paprikapoeder",
+          "fr": "Paprika fumé"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 180,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red chili",
+        "name": {
+          "en": "Red chili",
+          "nl": "Rode chilipeper",
+          "fr": "Piment rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/baked-eggs-skillet-with-red-peppers-onions/"
+  },
+  {
+    "id": "candida-bircher-muesli",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Grain-Free Bircher Muesli",
+        "subtitle": "Coconut, nuts and seeds, soaked overnight",
+        "description": "No oats here: a jar of coconut flakes, nuts, chia and spices that keeps for months. Soak a portion in coconut milk the night before and breakfast is waiting for you.",
+        "instructions": [
+          "Mix the coconut flakes, nuts, chia, pumpkin seeds, cinnamon, ginger, nutmeg and salt in an airtight jar. It's better after a day or two, and keeps for up to two months.",
+          "For each serving, stir the coconut milk with a dash of vanilla, a few drops of stevia and a squeeze of lemon.",
+          "Stir in about 45 g of the muesli. Push it under the liquid if you like it soft.",
+          "Leave it in the fridge overnight and top with yogurt in the morning."
+        ]
+      },
+      "nl": {
+        "title": "Graanvrije birchermuesli",
+        "subtitle": "Kokos, noten en zaden, een nacht geweekt",
+        "description": "Geen havermout hier: een pot kokosschilfers, noten, chia en specerijen die maanden goed blijft. Week de avond ervoor een portie in kokosmelk en je ontbijt staat klaar.",
+        "instructions": [
+          "Meng de kokosschilfers, noten, chia, pompoenpitten, kaneel, gember, nootmuskaat en zout in een luchtdichte pot. Na een dag of twee is het lekkerder, en het blijft tot twee maanden goed.",
+          "Roer per portie de kokosmelk met een scheutje vanille, een paar druppels stevia en een kneepje citroen.",
+          "Roer er zo'n 45 g muesli door. Duw het onder het vocht als je het zacht wilt.",
+          "Zet het een nacht in de koelkast en schep er 's ochtends yoghurt op."
+        ]
+      },
+      "fr": {
+        "title": "Bircher muesli sans céréales",
+        "subtitle": "Coco, noix et graines, trempés une nuit",
+        "description": "Pas d'avoine ici : un bocal de copeaux de coco, de noix, de chia et d'épices qui se garde des mois. Fais tremper une portion dans du lait de coco la veille et le petit-déjeuner t'attend.",
+        "instructions": [
+          "Mélange les copeaux de coco, les noix, le chia, les graines de courge, la cannelle, le gingembre, la muscade et le sel dans un bocal hermétique. C'est meilleur après un jour ou deux, et ça se garde jusqu'à deux mois.",
+          "Pour chaque portion, mélange le lait de coco avec un trait de vanille, quelques gouttes de stévia et un filet de citron.",
+          "Ajoute environ 45 g de muesli. Enfonce-le dans le liquide si tu l'aimes moelleux.",
+          "Laisse une nuit au frigo et ajoute du yaourt le matin."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "hazelnuts",
+        "name": {
+          "en": "Hazelnuts",
+          "nl": "Hazelnoten",
+          "fr": "Noisettes"
+        },
+        "amount": 70,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "ginger",
+        "name": {
+          "en": "ginger",
+          "nl": "gember",
+          "fr": "gingembre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "nutmeg",
+        "name": {
+          "en": "nutmeg",
+          "nl": "nootmuskaat",
+          "fr": "noix de muscade"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 150,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/bircher-muesli/"
+  },
+  {
+    "id": "candida-southwestern-souffle",
+    "prepTime": "20 mins",
+    "cookTime": "35 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "breakfast",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Southwestern Egg Bake",
+        "subtitle": "Green chilli, chicken and avocado under a soft egg custard",
+        "description": "Layers of roasted green chilli, avocado and chicken with an egg mixture poured over and baked until just set. Brunch for four, made ahead.",
+        "instructions": [
+          "Heat the oven to 160 °C and oil a 20 cm baking dish.",
+          "Scatter the chillies over the bottom, then layer on the avocado, chicken and spring onion.",
+          "Whisk the eggs with the almond milk, coconut flour, salt and pepper until frothy.",
+          "Pour it slowly over the layers so they stay in place.",
+          "Bake for 30–40 minutes, until the edges are set and the middle still wobbles a little. Let it rest for 20 minutes, then serve with coriander and a spoon of yogurt."
+        ]
+      },
+      "nl": {
+        "title": "Mexicaanse eierschotel",
+        "subtitle": "Groene chili, kip en avocado onder zachte eiervla",
+        "description": "Laagjes geroosterde groene chili, avocado en kip, met een eiermengsel overgoten en gebakken tot het net gestold is. Brunch voor vier, op voorhand gemaakt.",
+        "instructions": [
+          "Verwarm de oven voor op 160 °C en vet een ovenschaal van 20 cm in.",
+          "Strooi de chilipepers over de bodem en leg er laagjes avocado, kip en lente-ui op.",
+          "Klop de eieren met de amandelmelk, het kokosmeel, zout en peper schuimig.",
+          "Giet het langzaam over de laagjes zodat ze op hun plaats blijven.",
+          "Bak 30–40 minuten, tot de randen gestold zijn en het midden nog een beetje trilt. Laat 20 minuten rusten en dien op met koriander en een lepel yoghurt."
+        ]
+      },
+      "fr": {
+        "title": "Gratin d'œufs façon Sud-Ouest américain",
+        "subtitle": "Piment vert, poulet et avocat sous une crème d'œufs",
+        "description": "Des couches de piment vert grillé, d'avocat et de poulet, nappées d'un appareil aux œufs et cuites jusqu'à prendre tout juste. Un brunch pour quatre, préparé à l'avance.",
+        "instructions": [
+          "Préchauffe le four à 160 °C et huile un plat de 20 cm.",
+          "Répartis les piments au fond, puis superpose l'avocat, le poulet et l'oignon nouveau.",
+          "Fouette les œufs avec le lait d'amande, la farine de coco, le sel et le poivre jusqu'à ce que ça mousse.",
+          "Verse doucement sur les couches pour qu'elles restent en place.",
+          "Enfourne 30–40 minutes, jusqu'à ce que les bords soient pris et le centre tremble encore un peu. Laisse reposer 20 minutes et sers avec de la coriandre et une cuillère de yaourt."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "roasted green chilies",
+        "name": {
+          "en": "Roasted green chilies",
+          "nl": "Geroosterde groene chilipepers",
+          "fr": "Piments verts grillés"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked chicken",
+        "name": {
+          "en": "Cooked chicken",
+          "nl": "Gebakken kip",
+          "fr": "Poulet cuit"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 6,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 160,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/southwestern-souffle/"
+  },
+  {
+    "id": "candida-buckwheat-groat-breakfast-muffins",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 12,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buckwheat Breakfast Muffins",
+        "subtitle": "Soaked groats, seeds and coconut, baked in a tin",
+        "description": "Whole buckwheat soaked overnight and baked with nuts, seeds and almond butter into chewy, filling muffins. Breakfast you can grab on the way out.",
+        "instructions": [
+          "The night before, cover the buckwheat with water and a pinch of salt and leave it to soak for 6–7 hours. Drain and rinse.",
+          "Heat the oven to 190 °C and oil a 12-hole muffin tin.",
+          "Mix the soaked buckwheat with the coconut, walnuts, pumpkin seeds, chia, flaxseed, cinnamon and salt.",
+          "Whisk the eggs, almond milk, almond butter, stevia and vanilla until frothy, then stir into the dry mix.",
+          "Fill each hole with about 3 tablespoons of the mix and bake for 15–20 minutes, until the edges brown and the middles feel firm. Leave in the tin for 10 minutes before turning out."
+        ]
+      },
+      "nl": {
+        "title": "Boekweitmuffins voor het ontbijt",
+        "subtitle": "Geweekte boekweit, zaden en kokos, in een vorm gebakken",
+        "description": "Hele boekweit een nacht geweekt en gebakken met noten, zaden en amandelpasta tot stevige, vullende muffins. Een ontbijt dat je onderweg meeneemt.",
+        "instructions": [
+          "Zet de avond ervoor de boekweit onder water met een snuifje zout en laat 6–7 uur weken. Giet af en spoel.",
+          "Verwarm de oven voor op 190 °C en vet een muffinvorm met 12 holtes in.",
+          "Meng de geweekte boekweit met de kokos, walnoten, pompoenpitten, chia, lijnzaad, kaneel en zout.",
+          "Klop de eieren, amandelmelk, amandelpasta, stevia en vanille schuimig en roer het door het droge mengsel.",
+          "Vul elke holte met zo'n 3 eetlepels mengsel en bak 15–20 minuten, tot de randen bruin kleuren en het midden stevig aanvoelt. Laat 10 minuten in de vorm staan voor je ze eruit haalt."
+        ]
+      },
+      "fr": {
+        "title": "Muffins du matin au sarrasin",
+        "subtitle": "Sarrasin trempé, graines et coco, cuits au moule",
+        "description": "Du sarrasin entier trempé une nuit et cuit avec des noix, des graines et du beurre d'amande en muffins moelleux et rassasiants. Un petit-déjeuner à emporter.",
+        "instructions": [
+          "La veille, couvre le sarrasin d'eau avec une pincée de sel et laisse tremper 6–7 heures. Égoutte et rince.",
+          "Préchauffe le four à 190 °C et huile un moule à 12 muffins.",
+          "Mélange le sarrasin trempé avec la coco, les noix, les graines de courge, le chia, le lin, la cannelle et le sel.",
+          "Fouette les œufs, le lait d'amande, le beurre d'amande, la stévia et la vanille jusqu'à ce que ça mousse, puis incorpore au mélange sec.",
+          "Remplis chaque empreinte d'environ 3 cuillères à soupe de pâte et enfourne 15–20 minutes, jusqu'à ce que les bords dorent et le centre soit ferme. Laisse 10 minutes dans le moule avant de démouler."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "buckwheat groats",
+        "name": {
+          "en": "Buckwheat groats",
+          "nl": "Boekweitkorrels",
+          "fr": "Sarrasin en grains"
+        },
+        "amount": 170,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "walnuts",
+        "name": {
+          "en": "walnuts",
+          "nl": "walnoten",
+          "fr": "noix"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "almond butter",
+        "name": {
+          "en": "Almond butter",
+          "nl": "Amandelpasta",
+          "fr": "Beurre d'amande"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buckwheat-groat-breakfast-muffins/"
+  },
+  {
+    "id": "candida-avocado-pancakes-lemon-parsley-butter",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Avocado Pancakes with Lemon Butter",
+        "subtitle": "Savoury coconut-flour pancakes, green with avocado",
+        "description": "Small savoury pancakes with avocado and spring onion in the batter, finished with melted butter sharpened with lemon and parsley.",
+        "instructions": [
+          "Sift the coconut flour, baking soda and salt together.",
+          "Whisk the eggs, coconut milk, mashed avocado and spring onions, then stir in the dry mix.",
+          "Melt a little butter in a frying pan over medium heat. Spoon in about 4 tablespoons of batter per pancake and cook 2–3 minutes a side, until golden.",
+          "Stir the lemon juice and parsley into the melted butter and keep it warm.",
+          "Serve the pancakes with avocado slices and greens, with the lemon butter spooned over."
+        ]
+      },
+      "nl": {
+        "title": "Avocadopannenkoekjes met citroenboter",
+        "subtitle": "Hartige pannenkoekjes van kokosmeel, groen van de avocado",
+        "description": "Kleine hartige pannenkoekjes met avocado en lente-ui in het beslag, afgewerkt met gesmolten boter met citroen en peterselie.",
+        "instructions": [
+          "Zeef het kokosmeel, zuiveringszout en zout samen.",
+          "Klop de eieren, kokosmelk, geprakte avocado en lente-uitjes los en roer het droge mengsel erdoor.",
+          "Smelt wat boter in een pan op middelhoog vuur. Schep er per pannenkoekje zo'n 4 eetlepels beslag in en bak 2–3 minuten per kant, tot ze goudbruin zijn.",
+          "Roer het citroensap en de peterselie door de gesmolten boter en hou warm.",
+          "Dien de pannenkoekjes op met plakjes avocado en wat groen, met de citroenboter erover."
+        ]
+      },
+      "fr": {
+        "title": "Pancakes à l'avocat et beurre citronné",
+        "subtitle": "Des pancakes salés à la farine de coco, verts d'avocat",
+        "description": "De petits pancakes salés avec de l'avocat et de l'oignon nouveau dans la pâte, nappés de beurre fondu relevé de citron et de persil.",
+        "instructions": [
+          "Tamise ensemble la farine de coco, le bicarbonate et le sel.",
+          "Fouette les œufs, le lait de coco, l'avocat écrasé et les oignons nouveaux, puis ajoute le mélange sec.",
+          "Fais fondre un peu de beurre dans une poêle à feu moyen. Verse environ 4 cuillères à soupe de pâte par pancake et cuis 2–3 minutes par face, jusqu'à ce qu'ils soient dorés.",
+          "Mélange le jus de citron et le persil au beurre fondu et garde au chaud.",
+          "Sers les pancakes avec des tranches d'avocat et de la verdure, nappés de beurre citronné."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/avocado-pancakes-lemon-parsley-butter/"
+  },
+  {
+    "id": "candida-gluten-free-waffles",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Flour Waffles",
+        "subtitle": "Light, crisp and gluten-free",
+        "description": "Whipped egg whites make these waffles airy without any wheat. A Belgian kitchen deserves a waffle you can eat on a diet too.",
+        "instructions": [
+          "Heat your waffle iron.",
+          "Whisk the egg whites to soft peaks and set them aside.",
+          "Whisk the yolks with the coconut milk, melted coconut oil, vanilla and stevia. Mix the coconut flour, baking soda and salt in another bowl.",
+          "Stir the dry into the wet, then gently fold in the egg whites. Let the batter rest for a minute or two — coconut flour needs a moment to drink.",
+          "Bake half the batter at a time until golden. A knob of butter on top is all they need."
+        ]
+      },
+      "nl": {
+        "title": "Wafels van kokosmeel",
+        "subtitle": "Luchtig, krokant en glutenvrij",
+        "description": "Opgeklopt eiwit maakt deze wafels luchtig zonder één korrel tarwe. Een Belgische keuken verdient een wafel die je ook op dieet mag eten.",
+        "instructions": [
+          "Warm je wafelijzer op.",
+          "Klop de eiwitten tot zachte pieken en zet opzij.",
+          "Klop de dooiers met de kokosmelk, gesmolten kokosolie, vanille en stevia. Meng het kokosmeel, zuiveringszout en zout in een andere kom.",
+          "Roer het droge door het natte en spatel er dan voorzichtig het eiwit door. Laat het beslag een minuutje rusten — kokosmeel heeft even tijd nodig om te drinken.",
+          "Bak telkens de helft van het beslag goudbruin. Een klontje boter erop is alles wat ze nodig hebben."
+        ]
+      },
+      "fr": {
+        "title": "Gaufres à la farine de coco",
+        "subtitle": "Légères, croustillantes et sans gluten",
+        "description": "Les blancs montés rendent ces gaufres aériennes sans un grain de blé. Une cuisine belge mérite une gaufre qu'on peut manger même au régime.",
+        "instructions": [
+          "Fais chauffer ton gaufrier.",
+          "Monte les blancs en neige souple et réserve.",
+          "Fouette les jaunes avec le lait de coco, l'huile de coco fondue, la vanille et la stévia. Mélange la farine de coco, le bicarbonate et le sel dans un autre bol.",
+          "Incorpore le sec au liquide, puis les blancs délicatement. Laisse reposer une minute ou deux — la farine de coco a besoin d'un moment pour boire.",
+          "Cuis la moitié de la pâte à la fois jusqu'à ce qu'elle soit dorée. Une noisette de beurre dessus, c'est tout ce qu'il faut."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/gluten-free-waffles/"
+  },
+  {
+    "id": "candida-coconut-granola",
+    "prepTime": "10 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 8,
+    "category": [
+      "breakfast",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buckwheat Coconut Granola",
+        "subtitle": "Toasted groats, puffed millet, nuts and coconut",
+        "description": "A sugar-free granola that still crunches: cooked buckwheat toasted until crisp, then tossed with puffed millet, nuts, flax and coconut. Keeps a month in a jar.",
+        "instructions": [
+          "Heat the oven to 160 °C. Spread the cooked buckwheat on a baking tray and toast for 20 minutes, stirring halfway.",
+          "Tip it into a large bowl with the puffed millet, nuts, coconut and flax seeds.",
+          "Whisk the melted coconut oil with the coconut extract, stevia, cinnamon and salt, pour it over and toss until everything is coated.",
+          "Spread it back on the tray and bake for about 20 minutes more, stirring halfway, until golden.",
+          "Let it cool completely, then keep it in an airtight jar. Serve with plain yogurt."
+        ]
+      },
+      "nl": {
+        "title": "Boekweit-kokosgranola",
+        "subtitle": "Geroosterde boekweit, gepofte gierst, noten en kokos",
+        "description": "Een granola zonder suiker die toch kraakt: gekookte boekweit krokant geroosterd en dan gemengd met gepofte gierst, noten, lijnzaad en kokos. Blijft een maand goed in een pot.",
+        "instructions": [
+          "Verwarm de oven voor op 160 °C. Spreid de gekookte boekweit uit op een bakplaat en rooster 20 minuten, halverwege omroeren.",
+          "Doe ze in een grote kom met de gepofte gierst, noten, kokos en lijnzaad.",
+          "Klop de gesmolten kokosolie met het kokosextract, de stevia, kaneel en zout, giet het erover en meng tot alles bedekt is.",
+          "Spreid opnieuw uit op de plaat en bak nog zo'n 20 minuten, halverwege omroeren, tot het goudbruin is.",
+          "Laat volledig afkoelen en bewaar in een luchtdichte pot. Lekker met natuuryoghurt."
+        ]
+      },
+      "fr": {
+        "title": "Granola sarrasin et coco",
+        "subtitle": "Sarrasin grillé, millet soufflé, noix et coco",
+        "description": "Un granola sans sucre qui croque quand même : du sarrasin cuit, grillé jusqu'à être croustillant, puis mêlé au millet soufflé, aux noix, au lin et à la coco. Se garde un mois en bocal.",
+        "instructions": [
+          "Préchauffe le four à 160 °C. Étale le sarrasin cuit sur une plaque et fais-le griller 20 minutes en remuant à mi-cuisson.",
+          "Verse-le dans un grand bol avec le millet soufflé, les noix, la coco et les graines de lin.",
+          "Fouette l'huile de coco fondue avec l'extrait de coco, la stévia, la cannelle et le sel, verse sur le mélange et remue pour tout enrober.",
+          "Étale de nouveau sur la plaque et enfourne encore une vingtaine de minutes en remuant à mi-cuisson, jusqu'à ce que ce soit doré.",
+          "Laisse refroidir complètement et garde dans un bocal hermétique. Sers avec du yaourt nature."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cooked buckwheat groats",
+        "name": {
+          "en": "Cooked buckwheat groats",
+          "nl": "Gekookte boekweit",
+          "fr": "Sarrasin cuit"
+        },
+        "amount": 170,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "puffed millet",
+        "name": {
+          "en": "Puffed millet",
+          "nl": "Gepofte gierst",
+          "fr": "Millet soufflé"
+        },
+        "amount": 20,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "hazelnuts",
+        "name": {
+          "en": "Hazelnuts",
+          "nl": "Hazelnoten",
+          "fr": "Noisettes"
+        },
+        "amount": 130,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flax seeds",
+        "name": {
+          "en": "Flax seeds",
+          "nl": "Lijnzaad",
+          "fr": "Graines de lin"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free coconut extract",
+        "name": {
+          "en": "Alcohol-free coconut extract",
+          "nl": "Alcoholvrij kokosextract",
+          "fr": "Extrait de coco sans alcool"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 500,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-granola/"
+  },
+  {
+    "id": "candida-avocado-omelet",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Avocado Omelette",
+        "subtitle": "Shallots, garlic, olives and a lot of parsley",
+        "description": "A three-egg omelette with golden shallots spread over it and avocado and black olives folded inside.",
+        "instructions": [
+          "Whisk the eggs with most of the parsley.",
+          "Melt the butter in a frying pan over medium heat. Soften the garlic, then add the shallots and cook until they just start to colour. Scoop them out.",
+          "Pour the eggs into the pan and cook for 3–4 minutes, until nearly set.",
+          "Spread the shallots over the eggs, lay the avocado and olives on one half, and fold the other half over.",
+          "Slide it onto a plate and finish with the rest of the parsley."
+        ]
+      },
+      "nl": {
+        "title": "Omelet met avocado",
+        "subtitle": "Sjalot, look, olijven en veel peterselie",
+        "description": "Een omelet van drie eieren met goudgele sjalotjes erover en avocado en zwarte olijven erin gevouwen.",
+        "instructions": [
+          "Klop de eieren los met het grootste deel van de peterselie.",
+          "Smelt de boter in een pan op middelhoog vuur. Stoof de look zacht, voeg de sjalotten toe en bak tot ze net beginnen te kleuren. Schep ze eruit.",
+          "Giet de eieren in de pan en bak 3–4 minuten, tot ze bijna gestold zijn.",
+          "Verdeel de sjalotten over het ei, leg de avocado en olijven op één helft en vouw de andere helft erover.",
+          "Schuif op een bord en werk af met de rest van de peterselie."
+        ]
+      },
+      "fr": {
+        "title": "Omelette à l'avocat",
+        "subtitle": "Échalotes, ail, olives et beaucoup de persil",
+        "description": "Une omelette de trois œufs nappée d'échalotes dorées, avec de l'avocat et des olives noires pliés dedans.",
+        "instructions": [
+          "Bats les œufs avec la plus grande partie du persil.",
+          "Fais fondre le beurre dans une poêle à feu moyen. Fais revenir l'ail, ajoute les échalotes et cuis jusqu'à ce qu'elles commencent à dorer. Retire-les.",
+          "Verse les œufs dans la poêle et cuis 3–4 minutes, jusqu'à ce qu'ils soient presque pris.",
+          "Étale les échalotes sur l'omelette, dépose l'avocat et les olives sur une moitié et replie l'autre par-dessus.",
+          "Glisse sur une assiette et termine avec le reste du persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "black olives",
+        "name": {
+          "en": "Black olives",
+          "nl": "Zwarte olijven",
+          "fr": "Olives noires"
+        },
+        "amount": 7,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/avocado-omelet/"
+  },
+  {
+    "id": "candida-apple-walnut-yogurt-parfait",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast",
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Apple & Walnut Yogurt Pot",
+        "subtitle": "Three ingredients and some cinnamon",
+        "description": "Layers of yogurt, crisp apple and walnuts with cinnamon on top. Breakfast in five minutes.",
+        "instructions": [
+          "Chop the apple and the walnuts.",
+          "Layer them in a glass with the yogurt.",
+          "Dust with cinnamon and eat straight away."
+        ]
+      },
+      "nl": {
+        "title": "Yoghurtpotje met appel en walnoot",
+        "subtitle": "Drie ingrediënten en wat kaneel",
+        "description": "Laagjes yoghurt, frisse appel en walnoten met kaneel erop. Ontbijt in vijf minuten.",
+        "instructions": [
+          "Snijd de appel en de walnoten fijn.",
+          "Schik ze in laagjes met de yoghurt in een glas.",
+          "Bestuif met kaneel en eet meteen op."
+        ]
+      },
+      "fr": {
+        "title": "Verrine yaourt, pomme et noix",
+        "subtitle": "Trois ingrédients et un peu de cannelle",
+        "description": "Des couches de yaourt, de pomme croquante et de noix, avec de la cannelle par-dessus. Un petit-déjeuner en cinq minutes.",
+        "instructions": [
+          "Coupe la pomme et les noix en morceaux.",
+          "Superpose-les avec le yaourt dans un verre.",
+          "Saupoudre de cannelle et mange tout de suite."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "apple",
+        "name": {
+          "en": "apple",
+          "nl": "appel",
+          "fr": "pomme"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "walnuts",
+        "name": {
+          "en": "walnuts",
+          "nl": "walnoten",
+          "fr": "noix"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/apple-walnut-yogurt-parfait/"
+  },
+  {
+    "id": "candida-buckwheat-and-eggs",
+    "prepTime": "5 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buckwheat Scrambled Eggs",
+        "subtitle": "Nutty groats stirred through soft eggs",
+        "description": "Cooked buckwheat scrambled with eggs, spring onion and coriander, with a spoon of yogurt on top. Filling enough to see you through to lunch.",
+        "instructions": [
+          "Cook the buckwheat as the packet says and drain it.",
+          "Heat the coconut oil in a frying pan and fry the spring onions for a minute.",
+          "Add the eggs, the buckwheat and the coriander and stir until the eggs are as set as you like them.",
+          "Season with salt and top with the yogurt."
+        ]
+      },
+      "nl": {
+        "title": "Roerei met boekweit",
+        "subtitle": "Nootachtige boekweit door zacht roerei",
+        "description": "Gekookte boekweit door roerei met lente-ui en koriander, met een lepel yoghurt erop. Vullend genoeg om tot de middag te halen.",
+        "instructions": [
+          "Kook de boekweit zoals op de verpakking staat en giet af.",
+          "Verhit de kokosolie in een pan en bak de lente-ui een minuutje.",
+          "Voeg de eieren, de boekweit en de koriander toe en roer tot de eieren zo gestold zijn als jij ze graag hebt.",
+          "Kruid met zout en schep de yoghurt erop."
+        ]
+      },
+      "fr": {
+        "title": "Œufs brouillés au sarrasin",
+        "subtitle": "Du sarrasin au goût de noisette dans des œufs fondants",
+        "description": "Du sarrasin cuit brouillé avec des œufs, de l'oignon nouveau et de la coriandre, avec une cuillère de yaourt par-dessus. De quoi tenir jusqu'au déjeuner.",
+        "instructions": [
+          "Cuis le sarrasin comme indiqué sur le paquet et égoutte-le.",
+          "Chauffe l'huile de coco dans une poêle et fais revenir les oignons nouveaux une minute.",
+          "Ajoute les œufs, le sarrasin et la coriandre et remue jusqu'à ce que les œufs soient pris à ton goût.",
+          "Sale et termine avec le yaourt."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "buckwheat groats",
+        "name": {
+          "en": "Buckwheat groats",
+          "nl": "Boekweitkorrels",
+          "fr": "Sarrasin en grains"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buckwheat-and-eggs/"
+  },
+  {
+    "id": "candida-vegetable-omelet",
+    "prepTime": "5 mins",
+    "cookTime": "5 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Vegetable Omelette",
+        "subtitle": "Onion, red pepper and spinach, folded in",
+        "description": "The everyday omelette: soft vegetables tucked into a folded omelette, on the table in ten minutes.",
+        "instructions": [
+          "Heat the olive oil in a frying pan over medium-high heat. Fry the onion and pepper for a few minutes, then add the spinach.",
+          "Once the spinach has wilted, tip the vegetables into a bowl.",
+          "Beat the eggs with salt and pepper and pour them into the pan, swirling to spread them out.",
+          "After about a minute, spoon the vegetables over one half, fold the other half over and slide it onto a plate."
+        ]
+      },
+      "nl": {
+        "title": "Groenteomelet",
+        "subtitle": "Ui, rode paprika en spinazie, erin gevouwen",
+        "description": "De omelet voor elke dag: zachte groenten in een dichtgevouwen omelet, in tien minuten op tafel.",
+        "instructions": [
+          "Verhit de olijfolie in een pan op middelhoog tot hoog vuur. Bak de ui en de paprika een paar minuten en voeg dan de spinazie toe.",
+          "Als de spinazie geslonken is, schep je de groenten in een kom.",
+          "Klop de eieren met peper en zout, giet ze in de pan en draai de pan zodat ze zich verspreiden.",
+          "Schep na een minuutje de groenten op één helft, vouw de andere helft erover en schuif op een bord."
+        ]
+      },
+      "fr": {
+        "title": "Omelette aux légumes",
+        "subtitle": "Oignon, poivron rouge et épinards, pliés dedans",
+        "description": "L'omelette de tous les jours : des légumes fondants dans une omelette pliée, sur la table en dix minutes.",
+        "instructions": [
+          "Chauffe l'huile d'olive dans une poêle à feu moyen-vif. Fais revenir l'oignon et le poivron quelques minutes, puis ajoute les épinards.",
+          "Quand les épinards ont fondu, verse les légumes dans un bol.",
+          "Bats les œufs avec sel et poivre, verse-les dans la poêle et fais-la tourner pour les étaler.",
+          "Après environ une minute, dépose les légumes sur une moitié, replie l'autre et glisse sur une assiette."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "spinach",
+        "name": {
+          "en": "spinach",
+          "nl": "spinazie",
+          "fr": "épinards"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/vegetable-omelet/"
+  },
+  {
+    "id": "candida-buckwheat-porridge",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": false,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buckwheat Porridge",
+        "subtitle": "Warm, creamy and cinnamon-sweet",
+        "description": "Buckwheat and oat bran cooked soft and finished with coconut milk and cinnamon. A warm bowl for cold mornings, no sugar needed.",
+        "instructions": [
+          "Cook the buckwheat in water until soft, adding the oat bran for its last few minutes.",
+          "Drain off any water that's left.",
+          "Stir in the coconut oil and coconut milk, then the cinnamon.",
+          "Sweeten with a little stevia if you want it."
+        ]
+      },
+      "nl": {
+        "title": "Boekweitpap",
+        "subtitle": "Warm, romig en zoet van kaneel",
+        "description": "Boekweit en haverzemelen zacht gekookt en afgewerkt met kokosmelk en kaneel. Een warme kom voor koude ochtenden, zonder suiker.",
+        "instructions": [
+          "Kook de boekweit zacht in water en voeg de haverzemelen de laatste paar minuten toe.",
+          "Giet het water af dat nog over is.",
+          "Roer de kokosolie en kokosmelk erdoor, en dan de kaneel.",
+          "Zoet bij met wat stevia als je dat wilt."
+        ]
+      },
+      "fr": {
+        "title": "Porridge de sarrasin",
+        "subtitle": "Chaud, crémeux et doux de cannelle",
+        "description": "Du sarrasin et du son d'avoine cuits tendres, finis au lait de coco et à la cannelle. Un bol chaud pour les matins froids, sans sucre.",
+        "instructions": [
+          "Cuis le sarrasin dans l'eau jusqu'à ce qu'il soit tendre, en ajoutant le son d'avoine les dernières minutes.",
+          "Égoutte l'eau qui reste.",
+          "Incorpore l'huile de coco et le lait de coco, puis la cannelle.",
+          "Sucre avec un peu de stévia si tu en as envie."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "buckwheat groats",
+        "name": {
+          "en": "Buckwheat groats",
+          "nl": "Boekweitkorrels",
+          "fr": "Sarrasin en grains"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "oat bran",
+        "name": {
+          "en": "Oat bran",
+          "nl": "Haverzemelen",
+          "fr": "Son d'avoine"
+        },
+        "amount": 25,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buckwheat-porridge/"
+  },
+  {
+    "id": "candida-coconut-bread",
+    "prepTime": "5 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 10,
+    "category": [
+      "breakfast",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Coconut Bread",
+        "subtitle": "A yeast-free loaf for toast and sandwiches",
+        "description": "Coconut and buckwheat flour with five eggs make a soft, sliceable loaf without yeast or wheat. Toast it, butter it, build a sandwich on it.",
+        "instructions": [
+          "Heat the oven to 180 °C and grease a loaf tin with coconut oil.",
+          "Blend the eggs with the coconut oil, salt and a little stevia.",
+          "Add the coconut flour, coconut cream, buckwheat flour and baking powder and whisk until smooth.",
+          "Pour into the tin and bake for about 30 minutes, until the top is firm and lightly golden. Let it cool before slicing."
+        ]
+      },
+      "nl": {
+        "title": "Kokosbrood",
+        "subtitle": "Een brood zonder gist voor toast en boterhammen",
+        "description": "Kokos- en boekweitmeel met vijf eieren maken een zacht, snijbaar brood zonder gist of tarwe. Roosteren, smeren, beleggen.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en vet een cakevorm in met kokosolie.",
+          "Mix de eieren met de kokosolie, het zout en een beetje stevia.",
+          "Voeg het kokosmeel, de kokosroom, het boekweitmeel en het bakpoeder toe en klop tot het glad is.",
+          "Giet in de vorm en bak zo'n 30 minuten, tot de bovenkant stevig en lichtjes goudbruin is. Laat afkoelen voor je snijdt."
+        ]
+      },
+      "fr": {
+        "title": "Pain à la noix de coco",
+        "subtitle": "Un pain sans levure pour les toasts et les tartines",
+        "description": "Les farines de coco et de sarrasin avec cinq œufs donnent un pain moelleux qui se tranche, sans levure ni blé. À griller, à beurrer, à garnir.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et graisse un moule à cake à l'huile de coco.",
+          "Mixe les œufs avec l'huile de coco, le sel et un peu de stévia.",
+          "Ajoute la farine de coco, la crème de coco, la farine de sarrasin et la levure chimique et fouette jusqu'à ce que ce soit lisse.",
+          "Verse dans le moule et enfourne environ 30 minutes, jusqu'à ce que le dessus soit ferme et légèrement doré. Laisse refroidir avant de trancher."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut cream",
+        "name": {
+          "en": "Coconut cream",
+          "nl": "Kokosroom",
+          "fr": "Crème de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 5,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "baking powder",
+        "name": {
+          "en": "baking powder",
+          "nl": "bakpoeder",
+          "fr": "levure chimique"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-bread/"
+  },
+  {
+    "id": "candida-spicy-jalapeno-meatballs",
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Spicy Jalapeño Meatballs",
+        "subtitle": "Chicken, lime, coriander and a kick",
+        "description": "Twenty little chicken meatballs with jalapeño, cumin and lime, baked on a tray instead of fried. Serve them over a salad dressed with more lime.",
+        "instructions": [
+          "Heat the oven to 200 °C and brush a baking tray with the oil.",
+          "Mix the chicken with the coriander, jalapeño, lime juice, salt, pepper and cumin.",
+          "With wet hands, roll into 20 balls and set them a few centimetres apart on the tray.",
+          "Bake for 15–20 minutes, until cooked right through.",
+          "Toss the salad with the olive oil, the extra lime juice, salt and pepper, and pile the meatballs on top."
+        ]
+      },
+      "nl": {
+        "title": "Pittige jalapeñoballetjes",
+        "subtitle": "Kip, limoen, koriander en een kick",
+        "description": "Twintig kipballetjes met jalapeño, komijn en limoen, op een bakplaat gebakken in plaats van in de pan. Lekker op een slaatje met nog wat limoen.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en bestrijk een bakplaat met de olie.",
+          "Meng het kipgehakt met de koriander, jalapeño, het limoensap, zout, peper en komijn.",
+          "Rol er met natte handen 20 balletjes van en leg ze een paar centimeter uit elkaar op de plaat.",
+          "Bak 15–20 minuten, tot ze helemaal gaar zijn.",
+          "Meng de sla met de olijfolie, het extra limoensap, peper en zout, en leg de balletjes erop."
+        ]
+      },
+      "fr": {
+        "title": "Boulettes épicées au jalapeño",
+        "subtitle": "Poulet, citron vert, coriandre et du piquant",
+        "description": "Vingt petites boulettes de poulet au jalapeño, au cumin et au citron vert, cuites au four plutôt qu'à la poêle. À servir sur une salade relevée de citron vert.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et badigeonne une plaque avec l'huile.",
+          "Mélange le poulet avec la coriandre, le jalapeño, le jus de citron vert, le sel, le poivre et le cumin.",
+          "Les mains mouillées, forme 20 boulettes et espace-les de quelques centimètres sur la plaque.",
+          "Enfourne 15–20 minutes, jusqu'à ce qu'elles soient cuites à cœur.",
+          "Assaisonne la salade avec l'huile d'olive, le reste du jus de citron vert, sel et poivre, et dépose les boulettes dessus."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground chicken",
+        "name": {
+          "en": "Ground chicken",
+          "nl": "Kipgehakt",
+          "fr": "Poulet haché"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "jalapeño",
+        "name": {
+          "en": "Jalapeño",
+          "nl": "Jalapeño",
+          "fr": "Jalapeño"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/spicy-jalapeno-meatballs/"
+  },
+  {
+    "id": "candida-cauliflower-hummus",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Cauliflower Hummus",
+        "subtitle": "Hummus without the chickpeas",
+        "description": "Roasted cauliflower blended with tahini, lemon, garlic and cumin. It tastes like hummus, with a fraction of the starch.",
+        "instructions": [
+          "Heat the oven to 180 °C and line a baking tray.",
+          "Cut the cauliflower into evenly sized florets, toss them with the olive oil and roast for 20–25 minutes, until tender and lightly browned. Let them cool.",
+          "Blend the cauliflower with the tahini, salt, cumin, garlic, lemon juice and water until completely smooth.",
+          "Spoon into a bowl, drizzle with a little more oil and scatter over parsley."
+        ]
+      },
+      "nl": {
+        "title": "Bloemkoolhummus",
+        "subtitle": "Hummus zonder kikkererwten",
+        "description": "Geroosterde bloemkool gemixt met tahin, citroen, look en komijn. Smaakt naar hummus, met een fractie van het zetmeel.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bekleed een bakplaat.",
+          "Snijd de bloemkool in even grote roosjes, meng ze met de olijfolie en rooster 20–25 minuten, tot ze zacht en licht gekleurd zijn. Laat afkoelen.",
+          "Mix de bloemkool met de tahin, zout, komijn, look, het citroensap en het water tot alles helemaal glad is.",
+          "Schep in een kom, sprenkel er nog wat olie over en strooi er peterselie op."
+        ]
+      },
+      "fr": {
+        "title": "Houmous de chou-fleur",
+        "subtitle": "Du houmous sans pois chiches",
+        "description": "Du chou-fleur rôti mixé avec du tahini, du citron, de l'ail et du cumin. Le goût du houmous, avec une fraction de l'amidon.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et garnis une plaque.",
+          "Coupe le chou-fleur en bouquets de même taille, enrobe-les d'huile d'olive et rôtis 20–25 minutes, jusqu'à ce qu'ils soient tendres et légèrement dorés. Laisse refroidir.",
+          "Mixe le chou-fleur avec le tahini, le sel, le cumin, l'ail, le jus de citron et l'eau jusqu'à obtenir une texture parfaitement lisse.",
+          "Verse dans un bol, arrose d'un filet d'huile et parsème de persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "tahini",
+        "name": {
+          "en": "Tahini",
+          "nl": "Tahin",
+          "fr": "Tahini"
+        },
+        "amount": 120,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cauliflower-hummus/"
+  },
+  {
+    "id": "candida-lemon-chicken",
+    "prepTime": "10 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Lemon & Rosemary Chicken",
+        "subtitle": "Chicken breasts roasted under lemon slices",
+        "description": "Chicken breasts rubbed with paprika and oregano, covered in thin lemon rounds and rosemary, and roasted until the lemon goes soft and golden.",
+        "instructions": [
+          "Heat the oven to 190 °C and lay the chicken in a roasting dish.",
+          "Brush it with the olive oil and season with the pepper, salt, paprika, oregano and lemon thyme.",
+          "Cover the chicken with the lemon slices and tuck the rosemary around it.",
+          "Roast for 45–50 minutes, until cooked through and lightly browned. If the lemon or rosemary darken too fast, lay a sheet of foil over the top."
+        ]
+      },
+      "nl": {
+        "title": "Kip met citroen en rozemarijn",
+        "subtitle": "Kipfilets geroosterd onder schijfjes citroen",
+        "description": "Kipfilets ingewreven met paprikapoeder en oregano, bedekt met dunne schijfjes citroen en rozemarijn, en geroosterd tot de citroen zacht en goudbruin wordt.",
+        "instructions": [
+          "Verwarm de oven voor op 190 °C en leg de kip in een ovenschaal.",
+          "Bestrijk met de olijfolie en kruid met peper, zout, paprikapoeder, oregano en citroentijm.",
+          "Bedek de kip met de schijfjes citroen en leg de rozemarijn eromheen.",
+          "Rooster 45–50 minuten, tot ze gaar en licht gekleurd is. Als de citroen of rozemarijn te snel kleuren, leg je er een vel aluminiumfolie over."
+        ]
+      },
+      "fr": {
+        "title": "Poulet au citron et au romarin",
+        "subtitle": "Des blancs de poulet rôtis sous des rondelles de citron",
+        "description": "Des blancs de poulet frottés de paprika et d'origan, couverts de fines rondelles de citron et de romarin, rôtis jusqu'à ce que le citron devienne fondant et doré.",
+        "instructions": [
+          "Préchauffe le four à 190 °C et dispose le poulet dans un plat à rôtir.",
+          "Badigeonne-le d'huile d'olive et assaisonne avec le poivre, le sel, le paprika, l'origan et le thym citron.",
+          "Couvre le poulet des rondelles de citron et glisse le romarin autour.",
+          "Rôtis 45–50 minutes, jusqu'à ce qu'il soit cuit et légèrement doré. Si le citron ou le romarin brunissent trop vite, couvre d'une feuille d'aluminium."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried lemon thyme",
+        "name": {
+          "en": "Dried lemon thyme",
+          "nl": "Gedroogde citroentijm",
+          "fr": "Thym citron séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "rosemary",
+        "name": {
+          "en": "rosemary",
+          "nl": "rozemarijn",
+          "fr": "romarin"
+        },
+        "amount": 5,
+        "unit": "sprig",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/lemon-chicken/"
+  },
+  {
+    "id": "candida-curried-cauliflower-soup",
+    "prepTime": "10 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "soup"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Curried Cauliflower Soup",
+        "subtitle": "Roasted cauliflower, turmeric and coconut",
+        "description": "Roasting the cauliflower first gives this soup its depth; cumin, ginger and turmeric give it warmth, and coconut milk makes it velvety.",
+        "instructions": [
+          "Heat the oven to 200 °C. Toss the cauliflower with half the oil, salt and pepper, and roast for about 20 minutes until tender and browned. Keep a few pieces back for the top.",
+          "Soften the onion in the rest of the oil over medium heat for about 5 minutes. Add the garlic, cumin, ginger and turmeric and stir for a minute.",
+          "Add the stock, coconut milk and roasted cauliflower. Bring to the boil, then cover and simmer gently for 20 minutes.",
+          "Blend until smooth and season.",
+          "Serve with the saved cauliflower, a little diced tomato, basil or coriander, chilli flakes and a squeeze of lime."
+        ]
+      },
+      "nl": {
+        "title": "Bloemkoolsoep met curry",
+        "subtitle": "Geroosterde bloemkool, kurkuma en kokos",
+        "description": "Door de bloemkool eerst te roosteren krijgt deze soep diepgang; komijn, gember en kurkuma maken hem warm, en kokosmelk maakt hem fluweelzacht.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C. Meng de bloemkool met de helft van de olie, peper en zout en rooster zo'n 20 minuten tot hij zacht en gekleurd is. Hou een paar stukjes opzij voor bovenop.",
+          "Stoof de ui zo'n 5 minuten zacht in de rest van de olie op middelhoog vuur. Voeg de look, komijn, gember en kurkuma toe en roer een minuutje.",
+          "Voeg de bouillon, kokosmelk en geroosterde bloemkool toe. Breng aan de kook, leg er een deksel op en laat 20 minuten zachtjes pruttelen.",
+          "Mix glad en breng op smaak.",
+          "Dien op met de bewaarde bloemkool, wat blokjes tomaat, basilicum of koriander, chilivlokken en een scheutje limoen."
+        ]
+      },
+      "fr": {
+        "title": "Velouté de chou-fleur au curry",
+        "subtitle": "Chou-fleur rôti, curcuma et coco",
+        "description": "Rôtir d'abord le chou-fleur donne de la profondeur à cette soupe ; le cumin, le gingembre et le curcuma la réchauffent, et le lait de coco la rend veloutée.",
+        "instructions": [
+          "Préchauffe le four à 200 °C. Enrobe le chou-fleur de la moitié de l'huile, de sel et de poivre, et rôtis une vingtaine de minutes jusqu'à ce qu'il soit tendre et doré. Garde quelques morceaux pour le dessus.",
+          "Fais fondre l'oignon dans le reste de l'huile à feu moyen environ 5 minutes. Ajoute l'ail, le cumin, le gingembre et le curcuma et remue une minute.",
+          "Ajoute le bouillon, le lait de coco et le chou-fleur rôti. Porte à ébullition, couvre et laisse mijoter doucement 20 minutes.",
+          "Mixe jusqu'à ce que ce soit lisse et rectifie l'assaisonnement.",
+          "Sers avec le chou-fleur gardé, quelques dés de tomate, du basilic ou de la coriandre, du piment en flocons et un filet de citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "ginger",
+        "name": {
+          "en": "ginger",
+          "nl": "gember",
+          "fr": "gingembre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "vegetable broth",
+        "name": {
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/curried-cauliflower-soup/"
+  },
+  {
+    "id": "candida-toasted-coconut-and-lime-salmon",
+    "prepTime": "40 mins",
+    "cookTime": "8 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut & Lime Salmon",
+        "subtitle": "Marinated, roasted hot and topped with toasted coconut",
+        "description": "Salmon soaked for half an hour in lime and coconut aminos, roasted fast at high heat and finished with a crust of golden coconut.",
+        "instructions": [
+          "Whisk the lime juice, coconut aminos, chilli powder and salt in a shallow dish. Lay the salmon in it, skin side up, and leave for 30 minutes.",
+          "Heat the oven to 220 °C and brush a baking tray with the coconut oil.",
+          "Roast the salmon skin side up for 5 minutes.",
+          "Turn the fillets, sprinkle the coconut over them and roast for another 2–3 minutes, until the coconut is golden.",
+          "Serve with coriander and lime slices."
+        ]
+      },
+      "nl": {
+        "title": "Zalm met kokos en limoen",
+        "subtitle": "Gemarineerd, heet geroosterd en met geroosterde kokos erop",
+        "description": "Zalm een half uur gemarineerd in limoen en kokosaminos, snel geroosterd op hoge temperatuur en afgewerkt met een korstje goudbruine kokos.",
+        "instructions": [
+          "Klop het limoensap, de kokosaminos, het chilipoeder en zout los in een ondiepe schaal. Leg de zalm erin met het vel naar boven en laat 30 minuten staan.",
+          "Verwarm de oven voor op 220 °C en bestrijk een bakplaat met de kokosolie.",
+          "Rooster de zalm 5 minuten met het vel naar boven.",
+          "Draai de filets om, strooi de kokos erover en rooster nog 2–3 minuten, tot de kokos goudbruin is.",
+          "Dien op met koriander en schijfjes limoen."
+        ]
+      },
+      "fr": {
+        "title": "Saumon coco et citron vert",
+        "subtitle": "Mariné, rôti à four chaud et couvert de coco grillée",
+        "description": "Du saumon mariné une demi-heure dans le citron vert et les aminos de coco, rôti vite à haute température et fini d'une croûte de coco dorée.",
+        "instructions": [
+          "Fouette le jus de citron vert, les aminos de coco, le piment en poudre et le sel dans un plat creux. Pose le saumon dedans, peau vers le haut, et laisse 30 minutes.",
+          "Préchauffe le four à 220 °C et badigeonne une plaque d'huile de coco.",
+          "Rôtis le saumon 5 minutes, peau vers le haut.",
+          "Retourne les pavés, parsème de coco et enfourne encore 2–3 minutes, jusqu'à ce que la coco soit dorée.",
+          "Sers avec de la coriandre et des rondelles de citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salmon fillets",
+        "name": {
+          "en": "Salmon fillets",
+          "nl": "Zalmfilets",
+          "fr": "Pavés de saumon"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/toasted-coconut-and-lime-salmon/"
+  },
+  {
+    "id": "candida-arugula-and-tomato-vinaigrette",
+    "prepTime": "20 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Rocket Salad with Tomato Vinaigrette",
+        "subtitle": "A dressing blended from the tomatoes themselves",
+        "description": "Rocket, cucumber and cherry tomatoes with avocado on top, dressed with a vinaigrette that gets its body from blended tomato. The dressing keeps for five days.",
+        "instructions": [
+          "Blend the chopped cherry tomatoes, oil, apple cider vinegar, coconut aminos, garlic and oregano until smooth. Season with salt and pepper.",
+          "Toss the rocket with the cucumber and the halved tomatoes.",
+          "Drizzle over some vinaigrette and lay the avocado on top. Serve straight away.",
+          "Keep the rest of the dressing in the fridge for up to five days and shake it before using."
+        ]
+      },
+      "nl": {
+        "title": "Rucolasalade met tomatenvinaigrette",
+        "subtitle": "Een dressing gemixt van de tomaten zelf",
+        "description": "Rucola, komkommer en kerstomaatjes met avocado erop, met een vinaigrette die zijn body haalt uit gemixte tomaat. De dressing blijft vijf dagen goed.",
+        "instructions": [
+          "Mix de gehakte kerstomaatjes, olie, appelciderazijn, kokosaminos, look en oregano glad. Breng op smaak met peper en zout.",
+          "Meng de rucola met de komkommer en de gehalveerde tomaatjes.",
+          "Sprenkel er wat vinaigrette over en leg de avocado erop. Meteen opdienen.",
+          "Bewaar de rest van de dressing tot vijf dagen in de koelkast en schud voor gebruik."
+        ]
+      },
+      "fr": {
+        "title": "Salade de roquette, vinaigrette à la tomate",
+        "subtitle": "Une vinaigrette mixée avec les tomates elles-mêmes",
+        "description": "Roquette, concombre et tomates cerises avec de l'avocat par-dessus, assaisonnés d'une vinaigrette qui tire sa texture de la tomate mixée. La vinaigrette se garde cinq jours.",
+        "instructions": [
+          "Mixe les tomates cerises hachées, l'huile, le vinaigre de cidre, les aminos de coco, l'ail et l'origan jusqu'à ce que ce soit lisse. Sale et poivre.",
+          "Mélange la roquette avec le concombre et les tomates coupées en deux.",
+          "Arrose d'un peu de vinaigrette et dépose l'avocat par-dessus. Sers tout de suite.",
+          "Garde le reste de la vinaigrette jusqu'à cinq jours au frigo et secoue avant usage."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 230,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "arugula",
+        "name": {
+          "en": "Arugula",
+          "nl": "Rucola",
+          "fr": "Roquette"
+        },
+        "amount": 80,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/arugula-and-tomato-vinaigrette/"
+  },
+  {
+    "id": "candida-almond-crusted-chicken-fingers",
+    "prepTime": "15 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Almond-Crusted Chicken Fingers",
+        "subtitle": "Crisp from the oven, with a yogurt and chive dip",
+        "description": "Chicken strips in a crumb of ground almond, coconut, flax and paprika, baked until golden. The breadcrumb-free version that children happily eat too.",
+        "instructions": [
+          "Heat the oven to 190 °C and line a baking tray with baking paper.",
+          "Mix the ground almonds, cayenne, coconut, garlic powder, flaxseed and paprika, and season.",
+          "Dip each strip of chicken in the beaten egg, then roll it in the almond mix and shake off the excess. Lay them on the tray.",
+          "Bake for about 25 minutes, turning once, until golden and crisp.",
+          "Stir the yogurt with the garlic powder, chives, lime zest and juice, season, and serve alongside."
+        ]
+      },
+      "nl": {
+        "title": "Kipreepjes in amandelkorst",
+        "subtitle": "Krokant uit de oven, met een dip van yoghurt en bieslook",
+        "description": "Reepjes kip in een korst van gemalen amandel, kokos, lijnzaad en paprika, goudbruin gebakken. De versie zonder paneermeel die kinderen ook graag eten.",
+        "instructions": [
+          "Verwarm de oven voor op 190 °C en bekleed een bakplaat met bakpapier.",
+          "Meng de gemalen amandelen, cayennepeper, kokos, lookpoeder, lijnzaad en paprikapoeder, en kruid.",
+          "Haal elk reepje kip door het losgeklopte ei, rol het dan door het amandelmengsel en schud het teveel eraf. Leg ze op de plaat.",
+          "Bak zo'n 25 minuten, één keer omdraaien, tot ze goudbruin en krokant zijn.",
+          "Roer de yoghurt met het lookpoeder, de bieslook, limoenzeste en -sap, kruid en dien erbij op."
+        ]
+      },
+      "fr": {
+        "title": "Aiguillettes de poulet en croûte d'amande",
+        "subtitle": "Croustillantes au four, avec une sauce yaourt-ciboulette",
+        "description": "Des lanières de poulet dans une chapelure d'amande, de coco, de lin et de paprika, cuites jusqu'à être dorées. La version sans chapelure que les enfants mangent volontiers aussi.",
+        "instructions": [
+          "Préchauffe le four à 190 °C et garnis une plaque de papier cuisson.",
+          "Mélange la poudre d'amande, le cayenne, la coco, l'ail en poudre, le lin et le paprika, et assaisonne.",
+          "Trempe chaque lanière de poulet dans l'œuf battu, roule-la dans le mélange aux amandes et secoue l'excédent. Dispose-les sur la plaque.",
+          "Enfourne environ 25 minutes en les retournant une fois, jusqu'à ce qu'elles soient dorées et croustillantes.",
+          "Mélange le yaourt avec l'ail en poudre, la ciboulette, le zeste et le jus de citron vert, assaisonne et sers à côté."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "ground almonds",
+        "name": {
+          "en": "Ground almonds",
+          "nl": "Gemalen amandelen",
+          "fr": "Poudre d'amande"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 20,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/almond-crusted-chicken-fingers/"
+  },
+  {
+    "id": "candida-rutabaga-and-rosemary-bread",
+    "prepTime": "45 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 10,
+    "category": [
+      "snack",
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Swede & Rosemary Bread",
+        "subtitle": "A moist almond loaf with a secret vegetable",
+        "description": "Puréed swede keeps this almond-flour loaf soft for days, and fresh rosemary makes it smell like a bakery. Make the purée ahead and it comes together in minutes.",
+        "instructions": [
+          "For the purée, simmer the swede cubes in salted water for about 30 minutes, until a fork slides in. Drain, mash or blend until smooth and let it cool. You need about 240 g; the rest keeps in the fridge for a few days.",
+          "Heat the oven to 160 °C. Oil a loaf tin and line it with baking paper.",
+          "Whisk the almond flour, sifted coconut flour, baking soda, salt, pepper and rosemary.",
+          "Mix the swede purée with the oil, eggs and vinegar, then stir in the dry ingredients. Spread it in the tin.",
+          "Bake for 40–45 minutes, until a skewer comes out clean. Leave it 10 minutes in the tin, then cool completely on a rack before slicing."
+        ]
+      },
+      "nl": {
+        "title": "Koolraap-rozemarijnbrood",
+        "subtitle": "Een smeuïg amandelbrood met een geheime groente",
+        "description": "Koolraappuree houdt dit brood van amandelmeel dagenlang zacht, en verse rozemarijn laat het ruiken als bij de bakker. Maak de puree op voorhand en het staat in een paar minuten klaar.",
+        "instructions": [
+          "Voor de puree laat je de blokjes koolraap zo'n 30 minuten zachtjes koken in gezouten water, tot een vork er makkelijk in gaat. Giet af, stamp of mix glad en laat afkoelen. Je hebt er zo'n 240 g van nodig; de rest blijft een paar dagen goed in de koelkast.",
+          "Verwarm de oven voor op 160 °C. Vet een cakevorm in en bekleed met bakpapier.",
+          "Klop het amandelmeel, het gezeefde kokosmeel, zuiveringszout, zout, peper en rozemarijn door elkaar.",
+          "Meng de koolraappuree met de olie, eieren en azijn en roer dan het droge erdoor. Strijk uit in de vorm.",
+          "Bak 40–45 minuten, tot een prikker er droog uitkomt. Laat 10 minuten in de vorm staan en dan helemaal afkoelen op een rooster voor je snijdt."
+        ]
+      },
+      "fr": {
+        "title": "Pain au rutabaga et au romarin",
+        "subtitle": "Un pain moelleux aux amandes, avec un légume secret",
+        "description": "La purée de rutabaga garde ce pain à la farine d'amande moelleux pendant des jours, et le romarin frais lui donne une odeur de boulangerie. Prépare la purée à l'avance et il se monte en quelques minutes.",
+        "instructions": [
+          "Pour la purée, fais frémir les dés de rutabaga dans de l'eau salée environ 30 minutes, jusqu'à ce qu'une fourchette s'y enfonce. Égoutte, écrase ou mixe et laisse refroidir. Il t'en faut environ 240 g ; le reste se garde quelques jours au frigo.",
+          "Préchauffe le four à 160 °C. Huile un moule à cake et chemise-le de papier cuisson.",
+          "Fouette la farine d'amande, la farine de coco tamisée, le bicarbonate, le sel, le poivre et le romarin.",
+          "Mélange la purée de rutabaga avec l'huile, les œufs et le vinaigre, puis incorpore le sec. Étale dans le moule.",
+          "Enfourne 40–45 minutes, jusqu'à ce qu'une pique ressorte sèche. Laisse 10 minutes dans le moule, puis refroidir complètement sur une grille avant de trancher."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 0.5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 300,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "rosemary",
+        "name": {
+          "en": "rosemary",
+          "nl": "rozemarijn",
+          "fr": "romarin"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/rutabaga-and-rosemary-bread/"
+  },
+  {
+    "id": "candida-rutabaga-onion-gratin",
+    "prepTime": "15 mins",
+    "cookTime": "1 hr 30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Swede & Onion Gratin",
+        "subtitle": "Thin layers baked soft in coconut milk",
+        "description": "A gratin without potatoes or cheese: thin slices of swede and onion with thyme, baked slowly in coconut milk until tender and browned on top.",
+        "instructions": [
+          "Heat the oven to 180 °C and oil a 23 cm baking dish.",
+          "Halve the swede and the onion and slice both into thin half-moons.",
+          "Layer onion, then swede, seasoning each layer with salt, pepper and some of the thyme. Repeat until everything is used, then press it down.",
+          "Pour the coconut milk over, cover tightly with foil and bake for 1 hour.",
+          "Take the foil off and bake for 30 minutes more, until tender and browned."
+        ]
+      },
+      "nl": {
+        "title": "Gratin van koolraap en ui",
+        "subtitle": "Dunne laagjes zacht gebakken in kokosmelk",
+        "description": "Een gratin zonder aardappel of kaas: dunne plakjes koolraap en ui met tijm, langzaam gebakken in kokosmelk tot ze zacht zijn en bovenaan gekleurd.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en vet een ovenschaal van 23 cm in.",
+          "Halveer de koolraap en de ui en snijd beide in dunne halve maantjes.",
+          "Leg om beurten een laag ui en een laag koolraap en kruid elke laag met zout, peper en wat tijm. Herhaal tot alles op is en druk aan.",
+          "Giet de kokosmelk erover, dek goed af met aluminiumfolie en bak 1 uur.",
+          "Haal de folie eraf en bak nog 30 minuten, tot alles zacht en gekleurd is."
+        ]
+      },
+      "fr": {
+        "title": "Gratin de rutabaga et d'oignon",
+        "subtitle": "De fines couches fondantes au lait de coco",
+        "description": "Un gratin sans pommes de terre ni fromage : de fines tranches de rutabaga et d'oignon au thym, cuites lentement dans le lait de coco jusqu'à être tendres et dorées.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et huile un plat de 23 cm.",
+          "Coupe le rutabaga et l'oignon en deux et émince-les en fines demi-lunes.",
+          "Alterne une couche d'oignon et une de rutabaga, en assaisonnant chacune de sel, de poivre et d'un peu de thym. Recommence jusqu'à épuisement et tasse.",
+          "Verse le lait de coco, couvre hermétiquement d'aluminium et enfourne 1 heure.",
+          "Retire l'aluminium et poursuis 30 minutes, jusqu'à ce que ce soit tendre et doré."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/rutabaga-onion-gratin/"
+  },
+  {
+    "id": "candida-salmon-stew",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "soup",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Salmon Stew",
+        "subtitle": "Peppers and salmon poached in spiced coconut milk",
+        "description": "Onion and sweet peppers softened with paprika and coriander, then salmon gently poached in coconut milk and finished with lime. Ready in under half an hour.",
+        "instructions": [
+          "Heat the oil in a pan with a lid over medium heat and soften the onion with a pinch of salt for about 5 minutes.",
+          "Add the peppers and garlic and cook for 3 minutes, then stir in the paprika, coriander and chilli flakes for a minute.",
+          "Pour in the coconut milk and bring it to the boil.",
+          "Add the salmon, turn the heat to medium-low, cover and simmer for 6–8 minutes, until the fish is cooked.",
+          "Stir in the lime juice, season, and serve with tomato wedges, fresh coriander and lime."
+        ]
+      },
+      "nl": {
+        "title": "Zalmstoofpotje met kokos",
+        "subtitle": "Paprika en zalm gepocheerd in gekruide kokosmelk",
+        "description": "Ui en zoete paprika zacht gestoofd met paprikapoeder en koriander, en dan zalm zachtjes gepocheerd in kokosmelk en afgewerkt met limoen. Klaar in minder dan een half uur.",
+        "instructions": [
+          "Verhit de olie in een pan met deksel op middelhoog vuur en stoof de ui zo'n 5 minuten zacht met een snuifje zout.",
+          "Voeg de paprika en de look toe en bak 3 minuten, en roer dan het paprikapoeder, de koriander en de chilivlokken er een minuutje door.",
+          "Giet de kokosmelk erbij en breng aan de kook.",
+          "Leg de zalm erin, zet het vuur middellaag, leg het deksel erop en laat 6–8 minuten sudderen tot de vis gaar is.",
+          "Roer het limoensap erdoor, breng op smaak en dien op met partjes tomaat, verse koriander en limoen."
+        ]
+      },
+      "fr": {
+        "title": "Mijoté de saumon à la coco",
+        "subtitle": "Poivrons et saumon pochés dans un lait de coco épicé",
+        "description": "Oignon et poivrons fondus avec du paprika et de la coriandre, puis du saumon poché doucement dans le lait de coco et fini au citron vert. Prêt en moins d'une demi-heure.",
+        "instructions": [
+          "Chauffe l'huile dans une sauteuse avec couvercle à feu moyen et fais fondre l'oignon avec une pincée de sel environ 5 minutes.",
+          "Ajoute les poivrons et l'ail et cuis 3 minutes, puis le paprika, la coriandre et le piment une minute.",
+          "Verse le lait de coco et porte à ébullition.",
+          "Ajoute le saumon, baisse à feu moyen-doux, couvre et laisse mijoter 6–8 minutes, jusqu'à ce que le poisson soit cuit.",
+          "Ajoute le jus de citron vert, rectifie l'assaisonnement et sers avec des quartiers de tomate, de la coriandre fraîche et du citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 400,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salmon fillet",
+        "name": {
+          "en": "Salmon fillet",
+          "nl": "Zalmfilet",
+          "fr": "Filet de saumon"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/salmon-stew/"
+  },
+  {
+    "id": "candida-tandoori-chicken",
+    "prepTime": "10 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "images/candida-tandoori-chicken.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Tandoori Chicken with Raita",
+        "subtitle": "Yogurt-marinated thighs and a cool cucumber dip",
+        "description": "Chicken thighs marinated overnight in spiced yogurt, baked and then charred under the grill, with a mint and cucumber raita on the side.",
+        "instructions": [
+          "Mix half the yogurt with the olive oil, lemon juice, ginger, garlic, salt, turmeric, chilli powder, coriander and cumin. Coat the chicken in it and leave it in the fridge overnight.",
+          "Heat the oven to 180 °C. Set an oiled rack over a foil-lined tray and lay the chicken on it.",
+          "Bake for 30–35 minutes, turning and basting with the marinade halfway.",
+          "Turn once more, baste, and put it under a hot grill for 3–4 minutes until lightly charred.",
+          "For the raita, stir the rest of the yogurt with the grated cucumber, mint and salt, and finish with a pinch of cumin and chilli flakes."
+        ]
+      },
+      "nl": {
+        "title": "Tandoorikip met raita",
+        "subtitle": "In yoghurt gemarineerde dijen en een frisse komkommerdip",
+        "description": "Kippendijen een nacht gemarineerd in gekruide yoghurt, gebakken en dan geblakerd onder de grill, met een raita van munt en komkommer ernaast.",
+        "instructions": [
+          "Meng de helft van de yoghurt met de olijfolie, het citroensap, gember, look, zout, kurkuma, chilipoeder, koriander en komijn. Bedek de kip ermee en zet een nacht in de koelkast.",
+          "Verwarm de oven voor op 180 °C. Leg een ingevet rooster op een bakplaat met aluminiumfolie en leg de kip erop.",
+          "Bak 30–35 minuten, en draai halverwege om en bestrijk met de marinade.",
+          "Draai nog eens, bestrijk en zet 3–4 minuten onder een hete grill tot ze licht geblakerd zijn.",
+          "Voor de raita roer je de rest van de yoghurt met de geraspte komkommer, munt en zout, en werk je af met een snuifje komijn en chilivlokken."
+        ]
+      },
+      "fr": {
+        "title": "Poulet tandoori et raïta",
+        "subtitle": "Des hauts de cuisse marinés au yaourt et une sauce fraîche au concombre",
+        "description": "Des hauts de cuisse marinés une nuit dans un yaourt épicé, cuits au four puis grillés, avec une raïta à la menthe et au concombre à côté.",
+        "instructions": [
+          "Mélange la moitié du yaourt avec l'huile d'olive, le jus de citron, le gingembre, l'ail, le sel, le curcuma, le piment, la coriandre et le cumin. Enrobe le poulet et laisse une nuit au frigo.",
+          "Préchauffe le four à 180 °C. Pose une grille huilée sur une plaque tapissée d'aluminium et dispose le poulet dessus.",
+          "Enfourne 30–35 minutes, en retournant et en badigeonnant de marinade à mi-cuisson.",
+          "Retourne encore, badigeonne et passe 3–4 minutes sous le gril bien chaud pour le marquer légèrement.",
+          "Pour la raïta, mélange le reste du yaourt avec le concombre râpé, la menthe et le sel, et termine avec une pincée de cumin et de piment."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chicken thighs",
+        "name": {
+          "en": "Chicken thighs",
+          "nl": "Kippendijen",
+          "fr": "Hauts de cuisse de poulet"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/tandoori-chicken/",
+    "imageCredit": {
+      "author": "kspoddar",
+      "licence": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chickentandoori.jpg"
     }
+  },
+  {
+    "id": "candida-artichoke-salad-with-coconut-balsamic-vinaigrette",
+    "prepTime": "20 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Artichoke & Green Bean Salad",
+        "subtitle": "With a rosemary and mustard vinaigrette",
+        "description": "Artichoke hearts, crisp green beans and cherry tomatoes on mixed leaves, with a vinaigrette of apple cider vinegar, coconut aminos and mustard, and toasted almonds on top.",
+        "instructions": [
+          "Shake the olive oil, apple cider vinegar, coconut aminos, garlic and mustard powder together in a jar. Season, shake again, drop in the rosemary sprig and let it stand while you make the salad.",
+          "Put the leaves, artichokes, green beans and cherry tomatoes in a large bowl.",
+          "Pour over 4–6 tablespoons of the vinaigrette and toss gently.",
+          "Scatter the toasted almonds over the top and serve."
+        ]
+      },
+      "nl": {
+        "title": "Salade van artisjok en boontjes",
+        "subtitle": "Met een vinaigrette van rozemarijn en mosterd",
+        "description": "Artisjokharten, knapperige boontjes en kerstomaatjes op gemengde sla, met een vinaigrette van appelciderazijn, kokosaminos en mosterd, en geroosterde amandelen erop.",
+        "instructions": [
+          "Schud de olijfolie, appelciderazijn, kokosaminos, look en het mosterdpoeder samen in een potje. Kruid, schud nog eens, doe het takje rozemarijn erin en laat staan terwijl je de salade maakt.",
+          "Doe de sla, artisjokken, boontjes en kerstomaatjes in een grote kom.",
+          "Giet er 4–6 eetlepels vinaigrette over en meng voorzichtig.",
+          "Strooi de geroosterde amandelen erover en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Salade d'artichauts et de haricots verts",
+        "subtitle": "Avec une vinaigrette au romarin et à la moutarde",
+        "description": "Des cœurs d'artichaut, des haricots verts croquants et des tomates cerises sur un mélange de salades, avec une vinaigrette au vinaigre de cidre, aux aminos de coco et à la moutarde, et des amandes grillées par-dessus.",
+        "instructions": [
+          "Secoue l'huile d'olive, le vinaigre de cidre, les aminos de coco, l'ail et la moutarde en poudre dans un bocal. Assaisonne, secoue encore, ajoute le brin de romarin et laisse reposer pendant que tu fais la salade.",
+          "Mets la salade, les artichauts, les haricots verts et les tomates cerises dans un grand saladier.",
+          "Verse 4–6 cuillères à soupe de vinaigrette et mélange délicatement.",
+          "Parsème d'amandes grillées et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mustard powder",
+        "name": {
+          "en": "Mustard powder",
+          "nl": "Mosterdpoeder",
+          "fr": "Moutarde en poudre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "rosemary",
+        "name": {
+          "en": "rosemary",
+          "nl": "rozemarijn",
+          "fr": "romarin"
+        },
+        "amount": 1,
+        "unit": "sprig",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 120,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "artichoke hearts",
+        "name": {
+          "en": "Artichoke hearts",
+          "nl": "Artisjokharten",
+          "fr": "Cœurs d'artichaut"
+        },
+        "amount": 340,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "green beans",
+        "name": {
+          "en": "green beans",
+          "nl": "prinsessenbonen",
+          "fr": "haricots verts"
+        },
+        "amount": 200,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 12,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 25,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/artichoke-salad-with-coconut-balsamic-vinaigrette/"
+  },
+  {
+    "id": "candida-sheet-pan-chicken",
+    "prepTime": "10 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Sheet-Pan Chicken with Cabbage & Apple",
+        "subtitle": "One tray, a mustard coconut sauce, very little washing up",
+        "description": "Crisp-skinned chicken thighs roasted with wedges of cabbage, red onion and tart apple, then finished with a mustardy coconut sauce that browns the cabbage edges.",
+        "instructions": [
+          "Heat the oven to 220 °C. Oil a baking tray, lay the chicken on it, season with half the salt and some pepper and drizzle with a tablespoon of oil. Roast for 15 minutes.",
+          "Arrange the cabbage, onion and apple around the chicken, season with the rest of the salt and some pepper, drizzle with another tablespoon of oil and roast for 20 minutes.",
+          "Whisk the coconut milk with the mustard powder and a pinch of salt and pepper.",
+          "Toss the vegetables, pour the sauce over them only (not the chicken) and sprinkle the mustard seeds on top.",
+          "Roast for 10 more minutes, until the sauce has reduced and the cabbage edges are brown. Finish with parsley."
+        ]
+      },
+      "nl": {
+        "title": "Kip van de bakplaat met kool en appel",
+        "subtitle": "Eén plaat, een mosterd-kokossaus, weinig afwas",
+        "description": "Kippendijen met een krokant vel, geroosterd met partjes kool, rode ui en zure appel, en afgewerkt met een kokossaus met mosterd die de randjes van de kool bruin kleurt.",
+        "instructions": [
+          "Verwarm de oven voor op 220 °C. Vet een bakplaat in, leg de kip erop, kruid met de helft van het zout en wat peper en sprenkel er een eetlepel olie over. Rooster 15 minuten.",
+          "Leg de kool, ui en appel rond de kip, kruid met de rest van het zout en wat peper, sprenkel er nog een eetlepel olie over en rooster 20 minuten.",
+          "Klop de kokosmelk met het mosterdpoeder en een snuifje peper en zout.",
+          "Schep de groenten om, giet de saus alleen over de groenten (niet over de kip) en strooi de mosterdzaadjes erover.",
+          "Rooster nog 10 minuten, tot de saus ingedikt is en de randjes van de kool bruin zijn. Werk af met peterselie."
+        ]
+      },
+      "fr": {
+        "title": "Poulet sur plaque, chou et pomme",
+        "subtitle": "Une plaque, une sauce coco-moutarde, très peu de vaisselle",
+        "description": "Des hauts de cuisse à la peau croustillante rôtis avec des quartiers de chou, d'oignon rouge et de pomme acidulée, finis avec une sauce coco à la moutarde qui fait dorer les bords du chou.",
+        "instructions": [
+          "Préchauffe le four à 220 °C. Huile une plaque, pose le poulet dessus, assaisonne avec la moitié du sel et un peu de poivre et arrose d'une cuillère à soupe d'huile. Rôtis 15 minutes.",
+          "Dispose le chou, l'oignon et la pomme autour du poulet, assaisonne avec le reste du sel et du poivre, arrose d'une autre cuillère d'huile et rôtis 20 minutes.",
+          "Fouette le lait de coco avec la moutarde en poudre et une pincée de sel et de poivre.",
+          "Remue les légumes, verse la sauce uniquement sur eux (pas sur le poulet) et parsème de graines de moutarde.",
+          "Rôtis encore 10 minutes, jusqu'à ce que la sauce ait réduit et que les bords du chou soient dorés. Termine avec du persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "chicken thighs",
+        "name": {
+          "en": "Chicken thighs",
+          "nl": "Kippendijen",
+          "fr": "Hauts de cuisse de poulet"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cabbage",
+        "name": {
+          "en": "cabbage",
+          "nl": "kool",
+          "fr": "chou"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "granny smith apple",
+        "name": {
+          "en": "Granny Smith apple",
+          "nl": "Granny Smith-appel",
+          "fr": "Pomme Granny Smith"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "mustard powder",
+        "name": {
+          "en": "Mustard powder",
+          "nl": "Mosterdpoeder",
+          "fr": "Moutarde en poudre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "mustard seeds",
+        "name": {
+          "en": "Mustard seeds",
+          "nl": "Mosterdzaad",
+          "fr": "Graines de moutarde"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/sheet-pan-chicken/"
+  },
+  {
+    "id": "candida-golden-baked-chicken-and-leeks",
+    "prepTime": "10 mins",
+    "cookTime": "1 hr",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Golden Chicken with Leeks",
+        "subtitle": "Thighs baked over leeks in turmeric coconut milk",
+        "description": "Chicken thighs roasted on a bed of leek, red pepper and garlic in coconut milk coloured gold with turmeric. The leeks melt into the sauce underneath.",
+        "instructions": [
+          "Heat the oven to 190 °C.",
+          "Whisk the coconut milk with the coconut aminos, turmeric, salt and pepper.",
+          "Spread the leeks, red pepper and garlic in a 23 × 33 cm baking dish and sit the chicken on top, skin side up.",
+          "Pour the sauce over everything and bake uncovered for about an hour, basting halfway, until the skin is crisp and the juices run clear.",
+          "Good with cauliflower rice or quinoa."
+        ]
+      },
+      "nl": {
+        "title": "Goudgele kip met prei",
+        "subtitle": "Dijen gebakken op prei in kokosmelk met kurkuma",
+        "description": "Kippendijen geroosterd op een bedje van prei, rode paprika en look in kokosmelk die goudgeel kleurt van de kurkuma. De prei smelt in de saus eronder.",
+        "instructions": [
+          "Verwarm de oven voor op 190 °C.",
+          "Klop de kokosmelk met de kokosaminos, kurkuma, zout en peper.",
+          "Verdeel de prei, rode paprika en look over een ovenschaal van 23 × 33 cm en leg de kip erop, met het vel naar boven.",
+          "Giet de saus over alles en bak zonder deksel ongeveer een uur, halverwege overgieten, tot het vel krokant is en het vocht helder.",
+          "Lekker met bloemkoolrijst of quinoa."
+        ]
+      },
+      "fr": {
+        "title": "Poulet doré aux poireaux",
+        "subtitle": "Des hauts de cuisse cuits sur des poireaux au lait de coco et curcuma",
+        "description": "Des hauts de cuisse rôtis sur un lit de poireaux, de poivron rouge et d'ail dans un lait de coco doré au curcuma. Les poireaux fondent dans la sauce en dessous.",
+        "instructions": [
+          "Préchauffe le four à 190 °C.",
+          "Fouette le lait de coco avec les aminos de coco, le curcuma, le sel et le poivre.",
+          "Étale les poireaux, le poivron rouge et l'ail dans un plat de 23 × 33 cm et pose le poulet dessus, peau vers le haut.",
+          "Verse la sauce sur le tout et enfourne sans couvrir environ une heure, en arrosant à mi-cuisson, jusqu'à ce que la peau soit croustillante et le jus clair.",
+          "Délicieux avec du riz de chou-fleur ou du quinoa."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken thighs",
+        "name": {
+          "en": "Chicken thighs",
+          "nl": "Kippendijen",
+          "fr": "Hauts de cuisse de poulet"
+        },
+        "amount": 6,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/golden-baked-chicken-and-leeks/"
+  },
+  {
+    "id": "candida-skillet-fish-pie",
+    "prepTime": "35 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Salmon Pie with Cauliflower Mash",
+        "subtitle": "A one-pan fish pie, no potatoes",
+        "description": "Salmon, leek, celery and spinach in a lemony herb sauce, topped with smooth cauliflower purée and baked until golden. A visschotel the whole family knows, made candida-friendly.",
+        "instructions": [
+          "Steam the cauliflower for about 15 minutes, until very soft. Blend it with 2 tablespoons of olive oil until smooth and season.",
+          "Heat the oven to 200 °C.",
+          "In an ovenproof frying pan, soften the leek and celery in the rest of the oil for about 7 minutes.",
+          "Stir in the quinoa flour, then the warm water. Bring to the boil and simmer for 2–3 minutes until thick. Add the lemon zest, thyme and parsley and season.",
+          "Add the salmon, pour over the lemon juice, add the spinach and toss gently.",
+          "Spread the cauliflower purée over the top and bake for 40 minutes, until golden. Let it rest for 10 minutes before serving."
+        ]
+      },
+      "nl": {
+        "title": "Visschotel met zalm en bloemkoolpuree",
+        "subtitle": "Een visschotel uit één pan, zonder aardappel",
+        "description": "Zalm, prei, selder en spinazie in een frisse kruidensaus met citroen, met gladde bloemkoolpuree erop en goudbruin gebakken. De visschotel die iedereen kent, candidaproof gemaakt.",
+        "instructions": [
+          "Stoom de bloemkool zo'n 15 minuten, tot hij heel zacht is. Mix hem glad met 2 eetlepels olijfolie en breng op smaak.",
+          "Verwarm de oven voor op 200 °C.",
+          "Stoof in een ovenvaste pan de prei en selder zo'n 7 minuten zacht in de rest van de olie.",
+          "Roer het quinoameel erdoor en dan het warme water. Breng aan de kook en laat 2–3 minuten pruttelen tot het dik is. Voeg citroenzeste, tijm en peterselie toe en kruid.",
+          "Voeg de zalm toe, giet het citroensap erover, doe de spinazie erbij en schep voorzichtig om.",
+          "Strijk de bloemkoolpuree over de bovenkant en bak 40 minuten, tot hij goudbruin is. Laat 10 minuten rusten voor je opdient."
+        ]
+      },
+      "fr": {
+        "title": "Parmentier de saumon au chou-fleur",
+        "subtitle": "Un gratin de poisson en une poêle, sans pommes de terre",
+        "description": "Saumon, poireau, céleri et épinards dans une sauce citronnée aux herbes, recouverts d'une purée de chou-fleur lisse et gratinés. Le gratin de poisson que tout le monde connaît, version candida.",
+        "instructions": [
+          "Cuis le chou-fleur à la vapeur une quinzaine de minutes, jusqu'à ce qu'il soit très tendre. Mixe-le avec 2 cuillères à soupe d'huile d'olive et assaisonne.",
+          "Préchauffe le four à 200 °C.",
+          "Dans une poêle allant au four, fais fondre le poireau et le céleri dans le reste de l'huile environ 7 minutes.",
+          "Ajoute la farine de quinoa, puis l'eau tiède. Porte à ébullition et laisse épaissir 2–3 minutes. Ajoute le zeste de citron, le thym et le persil et assaisonne.",
+          "Ajoute le saumon, arrose de jus de citron, ajoute les épinards et mélange délicatement.",
+          "Étale la purée de chou-fleur sur le dessus et enfourne 40 minutes, jusqu'à ce que ce soit doré. Laisse reposer 10 minutes avant de servir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "quinoa flour",
+        "name": {
+          "en": "Quinoa flour",
+          "nl": "Quinoameel",
+          "fr": "Farine de quinoa"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salmon fillet",
+        "name": {
+          "en": "Salmon fillet",
+          "nl": "Zalmfilet",
+          "fr": "Filet de saumon"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "spinach",
+        "name": {
+          "en": "spinach",
+          "nl": "spinazie",
+          "fr": "épinards"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/skillet-fish-pie/"
+  },
+  {
+    "id": "candida-buffalo-turkey-meatballs",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buffalo Turkey Meatballs",
+        "subtitle": "Smoky-hot sauce and a kefir ranch dip",
+        "description": "Turkey meatballs tossed in a sugar-free buffalo sauce made from smoked paprika and vinegar, with a cool ranch dip of kefir, yogurt and herbs.",
+        "instructions": [
+          "Heat the oven to 200 °C and line a baking tray with baking paper.",
+          "Mix the turkey with the egg yolk, onion, coconut flour, ½ teaspoon paprika, salt, pepper and a pinch of cayenne. Shape into 18 balls and bake for 15 minutes.",
+          "Meanwhile, whisk the vinegar, 2 tablespoons paprika, salt, onion powder, garlic powder and a pinch of cayenne with 3 tablespoons of hot water, adding a little more water if it's too thick.",
+          "For the ranch, whisk the kefir, yogurt, a splash of vinegar, chives and parsley, and season.",
+          "Toss the hot meatballs in the sauce, scatter over spring onion and serve with the ranch. The dip keeps 2–3 days in the fridge."
+        ]
+      },
+      "nl": {
+        "title": "Buffalo-kalkoenballetjes",
+        "subtitle": "Rokerige pikante saus en een ranchdip van kefir",
+        "description": "Kalkoenballetjes in een buffalosaus zonder suiker van gerookte paprika en azijn, met een frisse ranchdip van kefir, yoghurt en kruiden.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en bekleed een bakplaat met bakpapier.",
+          "Meng het kalkoengehakt met de eidooier, ui, het kokosmeel, ½ theelepel paprikapoeder, zout, peper en een snuifje cayenne. Vorm er 18 balletjes van en bak 15 minuten.",
+          "Klop ondertussen de azijn, 2 eetlepels paprikapoeder, zout, uienpoeder, lookpoeder en een snuifje cayenne los met 3 eetlepels heet water, en doe er wat meer water bij als het te dik is.",
+          "Voor de ranch klop je de kefir, yoghurt, een scheutje azijn, bieslook en peterselie, en kruid je.",
+          "Meng de hete balletjes door de saus, strooi er lente-ui over en dien op met de ranch. De dip blijft 2–3 dagen goed in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Boulettes de dinde façon buffalo",
+        "subtitle": "Une sauce fumée et piquante, et une sauce ranch au kéfir",
+        "description": "Des boulettes de dinde enrobées d'une sauce buffalo sans sucre au paprika fumé et au vinaigre, avec une sauce ranch fraîche au kéfir, au yaourt et aux herbes.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et garnis une plaque de papier cuisson.",
+          "Mélange la dinde avec le jaune d'œuf, l'oignon, la farine de coco, ½ cuillère à café de paprika, le sel, le poivre et une pincée de cayenne. Forme 18 boulettes et enfourne 15 minutes.",
+          "Pendant ce temps, fouette le vinaigre, 2 cuillères à soupe de paprika, le sel, la poudre d'oignon, l'ail en poudre et une pincée de cayenne avec 3 cuillères à soupe d'eau chaude, et allonge un peu si c'est trop épais.",
+          "Pour la ranch, fouette le kéfir, le yaourt, un trait de vinaigre, la ciboulette et le persil, et assaisonne.",
+          "Enrobe les boulettes chaudes de sauce, parsème d'oignon nouveau et sers avec la ranch. La sauce se garde 2–3 jours au frigo."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground turkey",
+        "name": {
+          "en": "ground turkey",
+          "nl": "kalkoengehakt",
+          "fr": "dinde hachée"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "egg yolk",
+        "name": {
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "smoked paprika",
+        "name": {
+          "en": "Smoked paprika",
+          "nl": "Gerookte paprikapoeder",
+          "fr": "Paprika fumé"
+        },
+        "amount": 2.5,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 1.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "kefir",
+        "name": {
+          "en": "Kefir",
+          "nl": "Kefir",
+          "fr": "Kéfir"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buffalo-turkey-meatballs/"
+  },
+  {
+    "id": "candida-cauliflower-tortillas",
+    "prepTime": "20 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "snack",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Cauliflower Tortillas",
+        "subtitle": "Soft wraps from two ingredients",
+        "description": "Finely chopped cauliflower and egg, baked into thin rounds that bend like a tortilla. Fill them with anything you would put in a wrap.",
+        "instructions": [
+          "Heat the oven to 190 °C and line two baking trays with baking paper.",
+          "Pulse the cauliflower in a food processor until it is finer than rice. Steam it in a fine sieve over boiling water for 5 minutes.",
+          "Tip it into a clean tea towel and squeeze out every drop of water you can — this is what makes them hold together.",
+          "Put it back in the processor with the eggs, salt and coriander and pulse for about 30 seconds.",
+          "Spread into six rounds of 12–15 cm, three per tray. Bake for 10 minutes, flip, and bake 5 more. Serve warm with lime and a pinch of chilli salt."
+        ]
+      },
+      "nl": {
+        "title": "Bloemkooltortilla's",
+        "subtitle": "Zachte wraps van twee ingrediënten",
+        "description": "Fijngehakte bloemkool en ei, gebakken tot dunne rondjes die plooien als een tortilla. Vul ze met alles wat je in een wrap zou steken.",
+        "instructions": [
+          "Verwarm de oven voor op 190 °C en bekleed twee bakplaten met bakpapier.",
+          "Hak de bloemkool in de keukenrobot fijner dan rijst. Stoom hem 5 minuten in een fijne zeef boven kokend water.",
+          "Doe hem in een schone keukenhanddoek en knijp er zoveel mogelijk water uit — daardoor blijven ze samenhangen.",
+          "Doe hem terug in de keukenrobot met de eieren, het zout en de koriander en mix zo'n 30 seconden.",
+          "Strijk uit tot zes rondjes van 12–15 cm, drie per plaat. Bak 10 minuten, draai om en bak nog 5 minuten. Warm opdienen met limoen en een snuifje chilizout."
+        ]
+      },
+      "fr": {
+        "title": "Tortillas de chou-fleur",
+        "subtitle": "Des wraps souples avec deux ingrédients",
+        "description": "Du chou-fleur finement haché et des œufs, cuits en fines galettes qui se plient comme une tortilla. Garnis-les de tout ce que tu mettrais dans un wrap.",
+        "instructions": [
+          "Préchauffe le four à 190 °C et garnis deux plaques de papier cuisson.",
+          "Mixe le chou-fleur par à-coups jusqu'à ce qu'il soit plus fin que du riz. Cuis-le 5 minutes à la vapeur dans une passoire fine au-dessus d'eau bouillante.",
+          "Verse-le dans un torchon propre et presse pour en retirer toute l'eau possible — c'est ce qui les fait tenir.",
+          "Remets-le dans le robot avec les œufs, le sel et la coriandre et mixe une trentaine de secondes.",
+          "Étale en six disques de 12–15 cm, trois par plaque. Enfourne 10 minutes, retourne et poursuis 5 minutes. Sers chaud avec du citron vert et une pincée de sel pimenté."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cauliflower-tortillas/"
+  },
+  {
+    "id": "candida-vegan-low-carb-eggplant-curry",
+    "prepTime": "15 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Aubergine Curry",
+        "subtitle": "Vegan, spicy and ready in forty minutes",
+        "description": "Aubergine simmered with tomato, ginger, garlic and a handful of warm spices until it turns soft and silky. Serve it over quinoa or millet.",
+        "instructions": [
+          "Heat the oil in a large pan over medium-high heat and fry the onion for about 6 minutes.",
+          "Add the curry powder, turmeric, coriander, cumin, salt, garlic and ginger and stir for 2 minutes.",
+          "Add the tomatoes, aubergine and jalapeño and stir well.",
+          "Pour in the stock, bring to the boil, then cover and simmer on medium-low for 12–15 minutes, until the aubergine is tender.",
+          "Finish with chilli flakes and basil."
+        ]
+      },
+      "nl": {
+        "title": "Auberginecurry",
+        "subtitle": "Vegan, pittig en klaar in veertig minuten",
+        "description": "Aubergine gesudderd met tomaat, gember, look en een handvol warme specerijen tot ze zacht en zijdeachtig wordt. Lekker op quinoa of gierst.",
+        "instructions": [
+          "Verhit de olie in een grote pan op middelhoog tot hoog vuur en bak de ui zo'n 6 minuten.",
+          "Voeg de currypoeder, kurkuma, koriander, komijn, zout, look en gember toe en roer 2 minuten.",
+          "Voeg de tomaten, aubergine en jalapeño toe en roer goed.",
+          "Giet de bouillon erbij, breng aan de kook en laat dan met deksel 12–15 minuten sudderen op middellaag vuur, tot de aubergine zacht is.",
+          "Werk af met chilivlokken en basilicum."
+        ]
+      },
+      "fr": {
+        "title": "Curry d'aubergine",
+        "subtitle": "Vegan, épicé et prêt en quarante minutes",
+        "description": "De l'aubergine mijotée avec de la tomate, du gingembre, de l'ail et une poignée d'épices chaudes jusqu'à devenir fondante et soyeuse. À servir sur du quinoa ou du millet.",
+        "instructions": [
+          "Chauffe l'huile dans une grande sauteuse à feu moyen-vif et fais revenir l'oignon environ 6 minutes.",
+          "Ajoute le curry, le curcuma, la coriandre, le cumin, le sel, l'ail et le gingembre et remue 2 minutes.",
+          "Ajoute les tomates, l'aubergine et le jalapeño et mélange bien.",
+          "Verse le bouillon, porte à ébullition, puis couvre et laisse mijoter à feu moyen-doux 12–15 minutes, jusqu'à ce que l'aubergine soit tendre.",
+          "Termine avec du piment en flocons et du basilic."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "curry powder",
+        "name": {
+          "en": "curry powder",
+          "nl": "kerriepoeder",
+          "fr": "poudre de curry"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggplant",
+        "name": {
+          "en": "eggplant",
+          "nl": "aubergine",
+          "fr": "aubergine"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "jalapeño",
+        "name": {
+          "en": "Jalapeño",
+          "nl": "Jalapeño",
+          "fr": "Jalapeño"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "vegetable broth",
+        "name": {
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/vegan-low-carb-eggplant-curry/"
+  },
+  {
+    "id": "candida-millet-grilled-vegetable-salad",
+    "prepTime": "15 mins",
+    "cookTime": "35 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Millet & Grilled Vegetable Salad",
+        "subtitle": "Charred summer vegetables with a basil dressing",
+        "description": "Fluffy millet tossed with grilled courgette, squash, peppers and onion and a bright basil dressing, with seeds scattered on top. Good warm or cold, and better the next day.",
+        "instructions": [
+          "Bring the millet, water and a pinch of salt to the boil, then cover and cook on medium-low for about 15 minutes. Leave it covered for 10 minutes, fluff it with a fork and let it cool.",
+          "Blend the basil, lemon juice, vinegar, salt and olive oil into a smooth dressing and season with pepper.",
+          "Heat a grill or griddle pan to medium. Brush the vegetables with oil and season with dried herbs, salt and pepper.",
+          "Grill for 6–8 minutes, turning once, until charred and just tender, then cut into bite-sized pieces.",
+          "Toss the millet with the vegetables and the dressing and scatter the seeds on top."
+        ]
+      },
+      "nl": {
+        "title": "Gierstsalade met gegrilde groenten",
+        "subtitle": "Geblakerde zomergroenten met een basilicumdressing",
+        "description": "Luchtige gierst met gegrilde courgette, pompoen, paprika en ui en een frisse basilicumdressing, met zaadjes erover. Lekker warm of koud, en nog beter de dag erna.",
+        "instructions": [
+          "Breng de gierst met het water en een snuifje zout aan de kook en laat dan met deksel zo'n 15 minuten garen op middellaag vuur. Laat 10 minuten afgedekt staan, maak los met een vork en laat afkoelen.",
+          "Mix het basilicum, citroensap, de azijn, het zout en de olijfolie tot een gladde dressing en kruid met peper.",
+          "Verwarm een grill of grillpan op middelhoog vuur. Bestrijk de groenten met olie en kruid met gedroogde kruiden, peper en zout.",
+          "Grill 6–8 minuten, één keer omdraaien, tot ze geblakerd en net gaar zijn, en snijd ze in hapklare stukken.",
+          "Meng de gierst met de groenten en de dressing en strooi de zaadjes erover."
+        ]
+      },
+      "fr": {
+        "title": "Salade de millet et légumes grillés",
+        "subtitle": "Des légumes d'été grillés et une sauce au basilic",
+        "description": "Du millet aérien mêlé à de la courgette, de la courge, des poivrons et de l'oignon grillés et à une sauce vive au basilic, avec des graines par-dessus. Bon tiède ou froid, et encore meilleur le lendemain.",
+        "instructions": [
+          "Porte le millet, l'eau et une pincée de sel à ébullition, puis couvre et cuis à feu moyen-doux environ 15 minutes. Laisse 10 minutes à couvert, égrène à la fourchette et laisse refroidir.",
+          "Mixe le basilic, le jus de citron, le vinaigre, le sel et l'huile d'olive en une sauce lisse et poivre.",
+          "Chauffe un gril ou une poêle-gril à feu moyen. Badigeonne les légumes d'huile et assaisonne d'herbes séchées, de sel et de poivre.",
+          "Grille 6–8 minutes en retournant une fois, jusqu'à ce qu'ils soient marqués et juste tendres, puis coupe-les en bouchées.",
+          "Mélange le millet avec les légumes et la sauce et parsème de graines."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "millet",
+        "name": {
+          "en": "Millet",
+          "nl": "Gierst",
+          "fr": "Millet"
+        },
+        "amount": 200,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow squash",
+        "name": {
+          "en": "Yellow squash",
+          "nl": "Gele courgette",
+          "fr": "Courgette jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 90,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 25,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/millet-grilled-vegetable-salad/"
+  },
+  {
+    "id": "candida-asian-chicken-and-cabbage-salad",
+    "prepTime": "20 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Asian Chicken & Cabbage Salad",
+        "subtitle": "Crunchy cabbage, sesame dressing and crispy shallots",
+        "description": "Two kinds of cabbage, broccoli and shredded chicken in a sesame and coconut-aminos dressing, finished with shallots fried until golden. A good way to use leftover chicken.",
+        "instructions": [
+          "Whisk the olive and sesame oils, vinegar, coconut aminos, garlic powder, onion powder, ginger and stevia, and season. Set aside.",
+          "Slice the shallot into thin rings. Fry them in about 2 cm of oil over high heat until they bubble, then turn the heat to medium and fry for 8–10 minutes until golden. Drain on kitchen paper and let them cool.",
+          "Toss the chicken with both cabbages, the broccoli, spring onions, coriander and sesame seeds.",
+          "Add the dressing, toss lightly and pile the crispy shallots on top. Serve straight away."
+        ]
+      },
+      "nl": {
+        "title": "Aziatische salade met kip en kool",
+        "subtitle": "Knapperige kool, sesamdressing en krokante sjalotjes",
+        "description": "Twee soorten kool, broccoli en geplukte kip in een dressing van sesam en kokosaminos, afgewerkt met goudbruin gebakken sjalotjes. Een goede manier om restjes kip op te maken.",
+        "instructions": [
+          "Klop de olijf- en sesamolie, azijn, kokosaminos, lookpoeder, uienpoeder, gember en stevia los en kruid. Zet opzij.",
+          "Snijd de sjalot in dunne ringen. Bak ze in zo'n 2 cm olie op hoog vuur tot ze borrelen, zet dan het vuur middelhoog en bak 8–10 minuten tot ze goudbruin zijn. Laat uitlekken op keukenpapier en afkoelen.",
+          "Meng de kip met beide koolsoorten, de broccoli, lente-ui, koriander en sesamzaad.",
+          "Voeg de dressing toe, meng losjes en leg de krokante sjalotjes erop. Meteen opdienen."
+        ]
+      },
+      "fr": {
+        "title": "Salade asiatique au poulet et au chou",
+        "subtitle": "Chou croquant, sauce au sésame et échalotes croustillantes",
+        "description": "Deux sortes de chou, du brocoli et du poulet effiloché dans une sauce au sésame et aux aminos de coco, finis d'échalotes frites bien dorées. Une bonne façon d'utiliser un reste de poulet.",
+        "instructions": [
+          "Fouette les huiles d'olive et de sésame, le vinaigre, les aminos de coco, l'ail et l'oignon en poudre, le gingembre et la stévia, et assaisonne. Réserve.",
+          "Émince l'échalote en fines rondelles. Fais-les frire dans environ 2 cm d'huile à feu vif jusqu'à ce qu'elles grésillent, puis baisse à feu moyen et poursuis 8–10 minutes jusqu'à ce qu'elles soient dorées. Égoutte sur du papier absorbant et laisse refroidir.",
+          "Mélange le poulet avec les deux choux, le brocoli, les oignons nouveaux, la coriandre et le sésame.",
+          "Ajoute la sauce, mélange légèrement et dépose les échalotes croustillantes par-dessus. Sers tout de suite."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "sesame oil",
+        "name": {
+          "en": "sesame oil",
+          "nl": "sesamolie",
+          "fr": "huile de sésame"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "ginger",
+        "name": {
+          "en": "ginger",
+          "nl": "gember",
+          "fr": "gingembre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado oil",
+        "name": {
+          "en": "Avocado oil",
+          "nl": "Avocado-olie",
+          "fr": "Huile d'avocat"
+        },
+        "amount": 250,
+        "unit": "ml",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked chicken",
+        "name": {
+          "en": "Cooked chicken",
+          "nl": "Gebakken kip",
+          "fr": "Poulet cuit"
+        },
+        "amount": 280,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "green cabbage",
+        "name": {
+          "en": "Green cabbage",
+          "nl": "Groene kool",
+          "fr": "Chou vert"
+        },
+        "amount": 300,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red cabbage",
+        "name": {
+          "en": "Red cabbage",
+          "nl": "Rode kool",
+          "fr": "Chou rouge"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "broccoli",
+        "name": {
+          "en": "Broccoli",
+          "nl": "Broccoli",
+          "fr": "Brocoli"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 10,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sesame seeds",
+        "name": {
+          "en": "sesame seeds",
+          "nl": "sesamzaad",
+          "fr": "graines de sésame"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/asian-chicken-and-cabbage-salad/"
+  },
+  {
+    "id": "candida-mediterranean-buddha-bowl",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Mediterranean Buddha Bowl",
+        "subtitle": "Quinoa, soft courgette and a spiced tahini dressing",
+        "description": "A bowl in three parts — quinoa, oregano courgette and a crunchy salad of pepper, cucumber, olives and tomato — with a lemony tahini dressing over the top.",
+        "instructions": [
+          "Heat the oil in a frying pan over medium-low heat and cook the courgette with the oregano for about 15 minutes, until tender. Season and set aside.",
+          "Toss the greens with the red pepper, cucumber, olives and tomatoes.",
+          "Whisk the tahini, water and lemon juice, then whisk in a good pinch each of cumin, coriander, paprika, chilli powder and garlic powder. Season.",
+          "Arrange the quinoa, courgette and salad side by side in a bowl, scatter over parsley and chilli flakes, and serve the dressing alongside."
+        ]
+      },
+      "nl": {
+        "title": "Mediterrane buddha bowl",
+        "subtitle": "Quinoa, zachte courgette en een gekruide tahindressing",
+        "description": "Een bowl in drie delen — quinoa, courgette met oregano en een knapperige salade van paprika, komkommer, olijven en tomaat — met een frisse tahindressing erover.",
+        "instructions": [
+          "Verhit de olie in een pan op middellaag vuur en bak de courgette met de oregano zo'n 15 minuten, tot ze zacht is. Kruid en zet opzij.",
+          "Meng het groen met de rode paprika, komkommer, olijven en tomaatjes.",
+          "Klop de tahin, het water en citroensap los en klop er een flinke snuif komijn, koriander, paprikapoeder, chilipoeder en lookpoeder door. Kruid.",
+          "Schik de quinoa, courgette en salade naast elkaar in een kom, strooi er peterselie en chilivlokken over en zet de dressing erbij."
+        ]
+      },
+      "fr": {
+        "title": "Bowl méditerranéen",
+        "subtitle": "Quinoa, courgette fondante et sauce tahini épicée",
+        "description": "Un bol en trois parties — quinoa, courgette à l'origan et une salade croquante de poivron, concombre, olives et tomate — avec une sauce tahini citronnée par-dessus.",
+        "instructions": [
+          "Chauffe l'huile dans une poêle à feu moyen-doux et cuis la courgette avec l'origan une quinzaine de minutes, jusqu'à ce qu'elle soit tendre. Assaisonne et réserve.",
+          "Mélange la verdure avec le poivron rouge, le concombre, les olives et les tomates.",
+          "Fouette le tahini, l'eau et le jus de citron, puis ajoute une bonne pincée de cumin, de coriandre, de paprika, de piment et d'ail en poudre. Assaisonne.",
+          "Dispose le quinoa, la courgette et la salade côte à côte dans un bol, parsème de persil et de piment, et sers la sauce à côté."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 185,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "spinach",
+        "name": {
+          "en": "spinach",
+          "nl": "spinazie",
+          "fr": "épinards"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "black olives",
+        "name": {
+          "en": "Black olives",
+          "nl": "Zwarte olijven",
+          "fr": "Olives noires"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 6,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tahini",
+        "name": {
+          "en": "Tahini",
+          "nl": "Tahin",
+          "fr": "Tahini"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/mediterranean-buddha-bowl/"
+  },
+  {
+    "id": "candida-parchment-baked-lemon-salmon-and-vegetables",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Salmon en Papillote",
+        "subtitle": "Lemon salmon steamed in a paper parcel",
+        "description": "Salmon on a bed of courgette and spring onion, sealed in baking paper with lemon zest and olive oil, so it steams in its own juices. Open it at the table.",
+        "instructions": [
+          "Heat the oven to 200 °C. Fold a 30 × 38 cm sheet of baking paper in half and open it out again.",
+          "Pile the courgette and spring onion on one side of the fold, season, and add half the lemon zest and oil.",
+          "Lay the salmon on top and season it with the rest of the zest and oil.",
+          "Fold the paper over and crimp the edges tightly into a sealed half-moon.",
+          "Bake on a tray for 12–15 minutes, until the parcel puffs up. Open it, add lemon slices and dill, and eat straight away."
+        ]
+      },
+      "nl": {
+        "title": "Zalm in papillot",
+        "subtitle": "Citroenzalm gestoomd in een pakketje papier",
+        "description": "Zalm op een bedje van courgette en lente-ui, met citroenzeste en olijfolie dichtgevouwen in bakpapier, zodat hij in zijn eigen sap stoomt. Open het aan tafel.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C. Vouw een vel bakpapier van 30 × 38 cm dubbel en vouw het weer open.",
+          "Leg de courgette en lente-ui aan één kant van de vouw, kruid en voeg de helft van de citroenzeste en olie toe.",
+          "Leg de zalm erop en kruid met de rest van de zeste en olie.",
+          "Vouw het papier dicht en plooi de randen stevig tot een gesloten halve maan.",
+          "Bak 12–15 minuten op een bakplaat, tot het pakketje opbolt. Open het, leg er schijfjes citroen en dille op en eet meteen."
+        ]
+      },
+      "fr": {
+        "title": "Saumon en papillote",
+        "subtitle": "Un saumon au citron cuit dans un paquet de papier",
+        "description": "Du saumon sur un lit de courgette et d'oignon nouveau, enfermé dans du papier cuisson avec du zeste de citron et de l'huile d'olive, pour qu'il cuise dans son propre jus. À ouvrir à table.",
+        "instructions": [
+          "Préchauffe le four à 200 °C. Plie en deux une feuille de papier cuisson de 30 × 38 cm et rouvre-la.",
+          "Dépose la courgette et l'oignon nouveau d'un côté du pli, assaisonne et ajoute la moitié du zeste et de l'huile.",
+          "Pose le saumon dessus et assaisonne avec le reste du zeste et de l'huile.",
+          "Replie le papier et pince bien les bords pour fermer une demi-lune.",
+          "Enfourne sur une plaque 12–15 minutes, jusqu'à ce que la papillote gonfle. Ouvre-la, ajoute des rondelles de citron et de l'aneth, et mange aussitôt."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salmon fillet",
+        "name": {
+          "en": "Salmon fillet",
+          "nl": "Zalmfilet",
+          "fr": "Filet de saumon"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dill",
+        "name": {
+          "en": "Dill",
+          "nl": "Dille",
+          "fr": "Aneth"
+        },
+        "amount": 1,
+        "unit": "sprig",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/parchment-baked-lemon-salmon-and-vegetables/"
+  },
+  {
+    "id": "candida-vegan-cauliflower-curry",
+    "prepTime": "10 mins",
+    "cookTime": "35 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Cauliflower & Spinach Curry",
+        "subtitle": "A big vegan pot for the week",
+        "description": "Cauliflower, courgette and tomato simmered with ginger, cumin and turmeric, with spinach stirred in at the end and toasted almonds on top. Makes enough for six.",
+        "instructions": [
+          "Heat the oil over medium heat and soften the onion and celery for about 5 minutes. Add the garlic and cook 5 minutes more.",
+          "Stir in the coriander, cumin, ginger, turmeric and chilli flakes for a minute.",
+          "Add the cauliflower, courgette, tomatoes, salt and stock. Bring to the boil, then cover and simmer on medium-low for about 20 minutes.",
+          "Take the lid off, stir in the spinach and let it wilt for 3–4 minutes.",
+          "Serve with toasted almonds, coriander, lemon wedges and a spoon of yogurt if you like."
+        ]
+      },
+      "nl": {
+        "title": "Curry met bloemkool en spinazie",
+        "subtitle": "Een grote vegan pot voor de hele week",
+        "description": "Bloemkool, courgette en tomaat gesudderd met gember, komijn en kurkuma, met spinazie die er op het einde door gaat en geroosterde amandelen erop. Genoeg voor zes.",
+        "instructions": [
+          "Verhit de olie op middelhoog vuur en stoof de ui en selder zo'n 5 minuten zacht. Voeg de look toe en bak nog 5 minuten.",
+          "Roer de koriander, komijn, gember, kurkuma en chilivlokken er een minuutje door.",
+          "Voeg de bloemkool, courgette, tomaten, het zout en de bouillon toe. Breng aan de kook en laat dan met deksel zo'n 20 minuten sudderen op middellaag vuur.",
+          "Haal het deksel eraf, roer de spinazie erdoor en laat ze 3–4 minuten slinken.",
+          "Dien op met geroosterde amandelen, koriander, partjes citroen en eventueel een lepel yoghurt."
+        ]
+      },
+      "fr": {
+        "title": "Curry de chou-fleur aux épinards",
+        "subtitle": "Une grande marmite vegan pour la semaine",
+        "description": "Chou-fleur, courgette et tomate mijotés avec du gingembre, du cumin et du curcuma, des épinards ajoutés à la fin et des amandes grillées par-dessus. De quoi nourrir six personnes.",
+        "instructions": [
+          "Chauffe l'huile à feu moyen et fais fondre l'oignon et le céleri environ 5 minutes. Ajoute l'ail et poursuis 5 minutes.",
+          "Ajoute la coriandre, le cumin, le gingembre, le curcuma et le piment et remue une minute.",
+          "Ajoute le chou-fleur, la courgette, les tomates, le sel et le bouillon. Porte à ébullition, puis couvre et laisse mijoter à feu moyen-doux une vingtaine de minutes.",
+          "Retire le couvercle, ajoute les épinards et laisse-les tomber 3–4 minutes.",
+          "Sers avec des amandes grillées, de la coriandre, des quartiers de citron et une cuillère de yaourt si tu veux."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "ginger",
+        "name": {
+          "en": "ginger",
+          "nl": "gember",
+          "fr": "gingembre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "vegetable broth",
+        "name": {
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "baby spinach",
+        "name": {
+          "en": "Baby spinach",
+          "nl": "Jonge spinazie",
+          "fr": "Pousses d'épinards"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/vegan-cauliflower-curry/"
+  },
+  {
+    "id": "candida-chicken-and-zucchini-noodle-salad",
+    "prepTime": "20 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Lemon Chicken with Courgette Noodles",
+        "subtitle": "Raw courgetti, cherry tomatoes and pine nuts",
+        "description": "Pan-fried lemon and oregano chicken sliced over raw courgette noodles with cherry tomatoes, basil and pine nuts. Light, quick and no pasta in sight.",
+        "instructions": [
+          "Flatten the chicken to about 1 cm and season it with half the lemon juice, salt, pepper and the oregano.",
+          "Heat the oil over medium-high heat and fry the chicken 3–4 minutes a side, until cooked through. Keep it warm on a plate.",
+          "Spiralise the courgette into a large bowl and toss with the tomatoes, pine nuts and basil.",
+          "Slice the chicken into strips, add it with the rest of the lemon juice, season, toss and serve."
+        ]
+      },
+      "nl": {
+        "title": "Citroenkip met courgettinoedels",
+        "subtitle": "Rauwe courgetti, kerstomaatjes en pijnboompitten",
+        "description": "Gebakken kip met citroen en oregano in reepjes op rauwe courgettinoedels met kerstomaatjes, basilicum en pijnboompitten. Licht, snel en geen pasta te bekennen.",
+        "instructions": [
+          "Plet de kip tot zo'n 1 cm dik en kruid met de helft van het citroensap, zout, peper en de oregano.",
+          "Verhit de olie op middelhoog tot hoog vuur en bak de kip 3–4 minuten per kant, tot ze gaar is. Hou warm op een bord.",
+          "Spiraliseer de courgette in een grote kom en meng met de tomaatjes, pijnboompitten en basilicum.",
+          "Snijd de kip in reepjes, voeg toe met de rest van het citroensap, kruid, meng en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Poulet au citron et spaghettis de courgette",
+        "subtitle": "Courgette crue, tomates cerises et pignons",
+        "description": "Du poulet poêlé au citron et à l'origan, tranché sur des spaghettis de courgette crue avec des tomates cerises, du basilic et des pignons. Léger, rapide, et pas de pâtes en vue.",
+        "instructions": [
+          "Aplatis le poulet à environ 1 cm et assaisonne-le avec la moitié du jus de citron, du sel, du poivre et l'origan.",
+          "Chauffe l'huile à feu moyen-vif et cuis le poulet 3–4 minutes par face, jusqu'à ce qu'il soit cuit. Garde-le au chaud sur une assiette.",
+          "Taille la courgette en spirales dans un grand saladier et mélange avec les tomates, les pignons et le basilic.",
+          "Tranche le poulet en lanières, ajoute-le avec le reste du jus de citron, assaisonne, mélange et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 75,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pine nuts",
+        "name": {
+          "en": "Pine nuts",
+          "nl": "Pijnboompitten",
+          "fr": "Pignons de pin"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-and-zucchini-noodle-salad/"
+  },
+  {
+    "id": "candida-fish-tacos",
+    "prepTime": "10 mins",
+    "cookTime": "35 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Fish Tacos with Lime Crema",
+        "subtitle": "Grain-free tortillas, crispy fish, crunchy cabbage",
+        "description": "Oven-crisped white fish in soft coconut-and-arrowroot tortillas, piled with cabbage, avocado and coriander and a tangy lime yogurt. Taco night without the corn.",
+        "instructions": [
+          "Heat the oven to 200 °C and oil a baking tray with a tablespoon of oil. Mix the 2 tablespoons each of coconut flour and arrowroot with salt, pepper and paprika, coat the fish in it and lay it on the tray. Drizzle with the rest of the oil and bake for about 20 minutes, turning halfway.",
+          "For the tortillas, whisk the remaining coconut flour and arrowroot with the flaxseed and salt, then whisk in the milk and eggs. Let the batter rest for a few minutes.",
+          "Heat half a teaspoon of oil in a frying pan over medium heat, pour in about 4 tablespoons of batter and spread it to 15 cm. Cook for about 2 minutes a side. Repeat to make about eight.",
+          "Whisk the yogurt with the lime juice, salt, cumin and paprika.",
+          "Fill the tortillas with fish, cabbage, avocado, spring onion and coriander, spoon over the crema and serve with lime wedges."
+        ]
+      },
+      "nl": {
+        "title": "Vistaco's met limoencrème",
+        "subtitle": "Graanvrije tortilla's, krokante vis, knapperige kool",
+        "description": "Krokant gebakken witte vis in zachte tortilla's van kokos en pijlwortel, met kool, avocado en koriander en een frisse limoenyoghurt. Tacoavond zonder mais.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en vet een bakplaat in met een eetlepel olie. Meng de 2 eetlepels kokosmeel en pijlwortel met zout, peper en paprikapoeder, wentel de vis erin en leg hem op de plaat. Sprenkel de rest van de olie erover en bak zo'n 20 minuten, halverwege omdraaien.",
+          "Voor de tortilla's klop je de rest van het kokosmeel en de pijlwortel met het lijnzaad en zout, en dan de melk en eieren erdoor. Laat het beslag een paar minuten rusten.",
+          "Verhit een halve theelepel olie in een pan op middelhoog vuur, giet er zo'n 4 eetlepels beslag in en strijk uit tot 15 cm. Bak zo'n 2 minuten per kant. Herhaal tot je er een stuk of acht hebt.",
+          "Klop de yoghurt met het limoensap, zout, komijn en paprikapoeder.",
+          "Vul de tortilla's met vis, kool, avocado, lente-ui en koriander, schep er de crème over en dien op met partjes limoen."
+        ]
+      },
+      "fr": {
+        "title": "Tacos de poisson, crème au citron vert",
+        "subtitle": "Tortillas sans céréales, poisson croustillant, chou croquant",
+        "description": "Du poisson blanc croustillant au four dans des tortillas souples à la coco et à l'arrow-root, garni de chou, d'avocat et de coriandre et d'un yaourt acidulé au citron vert. Une soirée tacos sans maïs.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et huile une plaque avec une cuillère à soupe d'huile. Mélange les 2 cuillères à soupe de farine de coco et d'arrow-root avec le sel, le poivre et le paprika, enrobe le poisson et pose-le sur la plaque. Arrose du reste de l'huile et enfourne une vingtaine de minutes en retournant à mi-cuisson.",
+          "Pour les tortillas, fouette le reste de la farine de coco et de l'arrow-root avec le lin et le sel, puis ajoute le lait et les œufs. Laisse reposer la pâte quelques minutes.",
+          "Chauffe une demi-cuillère à café d'huile dans une poêle à feu moyen, verse environ 4 cuillères à soupe de pâte et étale sur 15 cm. Cuis environ 2 minutes par face. Recommence pour en faire environ huit.",
+          "Fouette le yaourt avec le jus de citron vert, le sel, le cumin et le paprika.",
+          "Garnis les tortillas de poisson, de chou, d'avocat, d'oignon nouveau et de coriandre, nappe de crème et sers avec des quartiers de citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "white fish fillets",
+        "name": {
+          "en": "White fish fillets",
+          "nl": "Witte visfilets",
+          "fr": "Filets de poisson blanc"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "arrowroot powder",
+        "name": {
+          "en": "Arrowroot powder",
+          "nl": "Pijlwortelpoeder",
+          "fr": "Arrow-root"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 300,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "red cabbage",
+        "name": {
+          "en": "Red cabbage",
+          "nl": "Rode kool",
+          "fr": "Chou rouge"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/fish-tacos/"
+  },
+  {
+    "id": "candida-curried-chicken-bowl",
+    "prepTime": "20 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Curried Chicken Salad Bowl",
+        "subtitle": "A turmeric coconut dressing over quinoa and spinach",
+        "description": "Leftover chicken turned into a crunchy curried salad with celery, apple, red onion and almonds, served on spinach and quinoa. Keeps 3–4 days for lunches.",
+        "instructions": [
+          "Whisk the olive oil, coconut milk, lemon juice, garlic, turmeric, ginger and stevia, and season.",
+          "Mix the chicken with the celery, apple, red onion and almonds.",
+          "Pour the dressing over and toss.",
+          "Make a bed of spinach and quinoa, pile the chicken salad on top and finish with coriander."
+        ]
+      },
+      "nl": {
+        "title": "Kipcurrysalade in een bowl",
+        "subtitle": "Een kokosdressing met kurkuma op quinoa en spinazie",
+        "description": "Restjes kip omgetoverd tot een knapperige currysalade met selder, appel, rode ui en amandelen, op spinazie en quinoa. Blijft 3–4 dagen goed voor de lunch.",
+        "instructions": [
+          "Klop de olijfolie, kokosmelk, het citroensap, de look, kurkuma, gember en stevia los en kruid.",
+          "Meng de kip met de selder, appel, rode ui en amandelen.",
+          "Giet de dressing erover en meng.",
+          "Maak een bedje van spinazie en quinoa, schep de kipsalade erop en werk af met koriander."
+        ]
+      },
+      "fr": {
+        "title": "Bol de salade de poulet au curry",
+        "subtitle": "Une sauce coco au curcuma sur quinoa et épinards",
+        "description": "Un reste de poulet transformé en salade croquante au curry avec céleri, pomme, oignon rouge et amandes, servie sur des épinards et du quinoa. Se garde 3–4 jours pour les lunchs.",
+        "instructions": [
+          "Fouette l'huile d'olive, le lait de coco, le jus de citron, l'ail, le curcuma, le gingembre et la stévia, et assaisonne.",
+          "Mélange le poulet avec le céleri, la pomme, l'oignon rouge et les amandes.",
+          "Verse la sauce et mélange.",
+          "Fais un lit d'épinards et de quinoa, pose la salade de poulet dessus et termine avec de la coriandre."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "ginger",
+        "name": {
+          "en": "ginger",
+          "nl": "gember",
+          "fr": "gingembre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cooked chicken",
+        "name": {
+          "en": "Cooked chicken",
+          "nl": "Gebakken kip",
+          "fr": "Poulet cuit"
+        },
+        "amount": 210,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "granny smith apple",
+        "name": {
+          "en": "Granny Smith apple",
+          "nl": "Granny Smith-appel",
+          "fr": "Pomme Granny Smith"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "spinach",
+        "name": {
+          "en": "spinach",
+          "nl": "spinazie",
+          "fr": "épinards"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 185,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/curried-chicken-bowl/"
+  },
+  {
+    "id": "candida-mashed-cauliflower-with-rosemary",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Rosemary Cauliflower Mash",
+        "subtitle": "The side dish that replaces puree",
+        "description": "Cauliflower simmered in stock until soft and blended with rosemary and garlic. Put it next to a stoofvlees or a piece of fish wherever you would serve mash.",
+        "instructions": [
+          "Put the cauliflower in a pan with the stock, cover and boil for about 15 minutes, until soft.",
+          "Tip it into a blender with the rosemary, garlic, salt and pepper.",
+          "Blend on full power, scraping down the sides, until completely smooth."
+        ]
+      },
+      "nl": {
+        "title": "Bloemkoolpuree met rozemarijn",
+        "subtitle": "Het bijgerecht dat puree vervangt",
+        "description": "Bloemkool zacht gekookt in bouillon en gemixt met rozemarijn en look. Zet het naast een stoofvlees of een stuk vis, overal waar je puree zou geven.",
+        "instructions": [
+          "Doe de bloemkool met de bouillon in een pan, leg er een deksel op en kook zo'n 15 minuten, tot hij zacht is.",
+          "Doe alles in een blender met de rozemarijn, look, peper en zout.",
+          "Mix op volle kracht en schraap de wanden af, tot het helemaal glad is."
+        ]
+      },
+      "fr": {
+        "title": "Purée de chou-fleur au romarin",
+        "subtitle": "L'accompagnement qui remplace la purée",
+        "description": "Du chou-fleur cuit dans du bouillon jusqu'à être tendre, mixé avec du romarin et de l'ail. À servir à côté d'une carbonade ou d'un poisson, partout où tu mettrais de la purée.",
+        "instructions": [
+          "Mets le chou-fleur dans une casserole avec le bouillon, couvre et fais bouillir une quinzaine de minutes, jusqu'à ce qu'il soit tendre.",
+          "Verse le tout dans un mixeur avec le romarin, l'ail, le sel et le poivre.",
+          "Mixe à pleine puissance en raclant les parois, jusqu'à ce que ce soit parfaitement lisse."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "rosemary",
+        "name": {
+          "en": "rosemary",
+          "nl": "rozemarijn",
+          "fr": "romarin"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/mashed-cauliflower-with-rosemary/"
+  },
+  {
+    "id": "candida-braised-brussels-sprouts",
+    "prepTime": "5 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Braised Brussels Sprouts",
+        "subtitle": "Browned, then softened in stock with thyme",
+        "description": "Sprouts fried until they catch a little colour, then braised in stock with shallot, garlic and thyme and topped with toasted pine nuts. Even sprout-doubters come round.",
+        "instructions": [
+          "Heat the olive oil in a medium pan over medium heat and soften the shallots for 2–3 minutes. Add the garlic and cook for 2 minutes more.",
+          "Add the sprouts and stir often until they start to brown in patches.",
+          "Pour in the stock, add the thyme and season.",
+          "Cover and cook on low heat for 10–15 minutes, until tender. Scatter the pine nuts on top."
+        ]
+      },
+      "nl": {
+        "title": "Gestoofde spruitjes",
+        "subtitle": "Eerst gekleurd, dan zacht gestoofd in bouillon met tijm",
+        "description": "Spruitjes gebakken tot ze een beetje kleur krijgen, dan gestoofd in bouillon met sjalot, look en tijm, en afgewerkt met geroosterde pijnboompitten. Zelfs spruitjestwijfelaars draaien bij.",
+        "instructions": [
+          "Verhit de olijfolie in een middelgrote pan op middelhoog vuur en stoof de sjalotten 2–3 minuten zacht. Voeg de look toe en bak nog 2 minuten.",
+          "Doe de spruitjes erbij en roer geregeld tot ze hier en daar bruin worden.",
+          "Giet de bouillon erbij, voeg de tijm toe en kruid.",
+          "Leg het deksel erop en laat 10–15 minuten op laag vuur garen tot ze zacht zijn. Strooi de pijnboompitten erover."
+        ]
+      },
+      "fr": {
+        "title": "Choux de Bruxelles braisés",
+        "subtitle": "Dorés, puis attendris dans un bouillon au thym",
+        "description": "Des choux de Bruxelles poêlés jusqu'à prendre un peu de couleur, puis braisés au bouillon avec échalote, ail et thym, et parsemés de pignons grillés. Même les sceptiques se laissent convaincre.",
+        "instructions": [
+          "Chauffe l'huile d'olive dans une casserole moyenne à feu moyen et fais fondre les échalotes 2–3 minutes. Ajoute l'ail et poursuis 2 minutes.",
+          "Ajoute les choux et remue souvent jusqu'à ce qu'ils dorent par endroits.",
+          "Verse le bouillon, ajoute le thym et assaisonne.",
+          "Couvre et cuis à feu doux 10–15 minutes, jusqu'à ce qu'ils soient tendres. Parsème de pignons."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "brussels sprouts",
+        "name": {
+          "en": "Brussels sprouts",
+          "nl": "Spruitjes",
+          "fr": "Choux de Bruxelles"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 4,
+        "unit": "sprig",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pine nuts",
+        "name": {
+          "en": "Pine nuts",
+          "nl": "Pijnboompitten",
+          "fr": "Pignons de pin"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/braised-brussels-sprouts/"
+  },
+  {
+    "id": "candida-coconut-bread-stuffing",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Bread Stuffing",
+        "subtitle": "A festive side made from the book's coconut bread",
+        "description": "Cubes of coconut bread baked with celery, onion, mushrooms, leek and thyme until crisp on top and soft underneath. Make the coconut bread from this book first.",
+        "instructions": [
+          "Heat the oven to 160 °C and grease a 20 × 20 cm dish with oil.",
+          "Cut the coconut bread into 2–3 cm cubes and put them in a large bowl.",
+          "Fry the celery, onion, mushrooms and leek in the oil over medium heat for about 8 minutes, and season with the thyme, salt and pepper.",
+          "Add the vegetables and the stock to the bread and mix well.",
+          "Spoon into the dish, cover and bake for 15 minutes, then uncover and bake about 15 minutes more, until golden."
+        ]
+      },
+      "nl": {
+        "title": "Vulling van kokosbrood",
+        "subtitle": "Een feestelijk bijgerecht van het kokosbrood uit dit boek",
+        "description": "Blokjes kokosbrood gebakken met selder, ui, champignons, prei en tijm, tot ze bovenaan krokant zijn en eronder zacht. Bak eerst het kokosbrood uit dit boek.",
+        "instructions": [
+          "Verwarm de oven voor op 160 °C en vet een schaal van 20 × 20 cm in.",
+          "Snijd het kokosbrood in blokjes van 2–3 cm en doe ze in een grote kom.",
+          "Bak de selder, ui, champignons en prei zo'n 8 minuten in de olie op middelhoog vuur en kruid met tijm, peper en zout.",
+          "Voeg de groenten en de bouillon bij het brood en meng goed.",
+          "Schep in de schaal, dek af en bak 15 minuten, en dan zonder afdekking nog zo'n 15 minuten, tot het goudbruin is."
+        ]
+      },
+      "fr": {
+        "title": "Farce au pain de coco",
+        "subtitle": "Un accompagnement de fête avec le pain de coco du livre",
+        "description": "Des cubes de pain de coco cuits avec du céleri, de l'oignon, des champignons, du poireau et du thym, croustillants dessus et moelleux dessous. Prépare d'abord le pain à la noix de coco de ce livre.",
+        "instructions": [
+          "Préchauffe le four à 160 °C et graisse un plat de 20 × 20 cm.",
+          "Coupe le pain de coco en cubes de 2–3 cm et mets-les dans un grand saladier.",
+          "Fais revenir le céleri, l'oignon, les champignons et le poireau dans l'huile à feu moyen environ 8 minutes, et assaisonne avec le thym, le sel et le poivre.",
+          "Ajoute les légumes et le bouillon au pain et mélange bien.",
+          "Verse dans le plat, couvre et enfourne 15 minutes, puis découvre et poursuis une quinzaine de minutes, jusqu'à ce que ce soit doré."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut bread",
+        "name": {
+          "en": "Coconut bread",
+          "nl": "Kokosbrood",
+          "fr": "Pain à la noix de coco"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Bakkerij",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mushroom",
+        "name": {
+          "en": "mushroom",
+          "nl": "champignon",
+          "fr": "champignon"
+        },
+        "amount": 50,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dried thyme",
+        "name": {
+          "en": "Dried thyme",
+          "nl": "Gedroogde tijm",
+          "fr": "Thym séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "vegetable broth",
+        "name": {
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-bread-stuffing/"
+  },
+  {
+    "id": "candida-roast-turkey-with-sage-pesto",
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Roast Turkey Breast with Sage Pesto",
+        "subtitle": "A hazelnut and sage paste tucked under the skin",
+        "description": "A half turkey breast roasted with a pesto of sage, hazelnut and lemon spread underneath the skin, so the meat stays juicy and smells of autumn.",
+        "instructions": [
+          "Blitz the sage, garlic, lemon juice, zest and hazelnuts to a paste, then blend in 3 tablespoons of oil and season.",
+          "Heat the oven to 200 °C.",
+          "Loosen the skin of the turkey with your fingers and spread the pesto underneath it. Rub the outside with the rest of the oil, salt and pepper.",
+          "Roast for about 30 minutes, until the thickest part reaches 60 °C on a thermometer.",
+          "Cover and let it rest for 15 minutes — it keeps cooking while it rests. Slice and spoon over the pan juices."
+        ]
+      },
+      "nl": {
+        "title": "Geroosterde kalkoenborst met saliepesto",
+        "subtitle": "Een pasta van hazelnoot en salie onder het vel",
+        "description": "Een halve kalkoenborst geroosterd met een pesto van salie, hazelnoot en citroen onder het vel gesmeerd, zodat het vlees sappig blijft en naar de herfst ruikt.",
+        "instructions": [
+          "Mix de salie, look, het citroensap, de zeste en hazelnoten tot een pasta, mix er dan 3 eetlepels olie door en kruid.",
+          "Verwarm de oven voor op 200 °C.",
+          "Maak het vel van de kalkoen los met je vingers en smeer de pesto eronder. Wrijf de buitenkant in met de rest van de olie, zout en peper.",
+          "Rooster zo'n 30 minuten, tot het dikste deel 60 °C haalt op een thermometer.",
+          "Dek af en laat 15 minuten rusten — tijdens het rusten gaart hij verder. Snijd in plakken en schep het braadvocht erover."
+        ]
+      },
+      "fr": {
+        "title": "Rôti de dinde au pesto de sauge",
+        "subtitle": "Une pâte de noisette et de sauge glissée sous la peau",
+        "description": "Une demi-poitrine de dinde rôtie avec un pesto de sauge, de noisette et de citron étalé sous la peau, pour une viande juteuse qui sent l'automne.",
+        "instructions": [
+          "Mixe la sauge, l'ail, le jus et le zeste de citron et les noisettes en pâte, puis ajoute 3 cuillères à soupe d'huile et assaisonne.",
+          "Préchauffe le four à 200 °C.",
+          "Décolle la peau de la dinde avec les doigts et étale le pesto dessous. Frotte l'extérieur avec le reste de l'huile, du sel et du poivre.",
+          "Rôtis environ 30 minutes, jusqu'à ce que la partie la plus épaisse atteigne 60 °C au thermomètre.",
+          "Couvre et laisse reposer 15 minutes — la cuisson se poursuit au repos. Tranche et arrose du jus de cuisson."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "sage",
+        "name": {
+          "en": "Sage",
+          "nl": "Salie",
+          "fr": "Sauge"
+        },
+        "amount": 25,
+        "unit": "g",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "hazelnuts",
+        "name": {
+          "en": "Hazelnuts",
+          "nl": "Hazelnoten",
+          "fr": "Noisettes"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "turkey breast",
+        "name": {
+          "en": "Turkey breast",
+          "nl": "Kalkoenborst",
+          "fr": "Poitrine de dinde"
+        },
+        "amount": 900,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/roast-turkey-with-sage-pesto/"
+  },
+  {
+    "id": "candida-moroccan-stir-fry",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Moroccan Turkey Stir-Fry",
+        "subtitle": "Cumin, allspice, chard and mint",
+        "description": "Minced turkey browned with cumin and allspice, then tossed with chard, cabbage and orange pepper and finished with lemon and fresh mint. Dinner in half an hour.",
+        "instructions": [
+          "Heat a little oil in a large frying pan over medium heat and fry the onion and garlic for 1–2 minutes, until fragrant.",
+          "Add the turkey, allspice, cumin, salt and pepper and fry for 7–8 minutes, breaking it up, until browned.",
+          "Add the chard, cabbage and pepper and stir-fry for about 3 minutes, until wilted.",
+          "Stir in the lemon juice, zest and chopped mint. Serve with a spoon of yogurt and a few mint leaves."
+        ]
+      },
+      "nl": {
+        "title": "Marokkaanse roerbak met kalkoen",
+        "subtitle": "Komijn, piment, snijbiet en munt",
+        "description": "Kalkoengehakt bruin gebakken met komijn en piment, dan omgeroerd met snijbiet, kool en oranje paprika, en afgewerkt met citroen en verse munt. Avondeten in een half uur.",
+        "instructions": [
+          "Verhit wat olie in een grote pan op middelhoog vuur en bak de ui en look 1–2 minuten tot ze geuren.",
+          "Voeg het gehakt, piment, komijn, zout en peper toe en bak 7–8 minuten al roerend los tot het bruin is.",
+          "Voeg de snijbiet, kool en paprika toe en roerbak zo'n 3 minuten, tot alles geslonken is.",
+          "Roer het citroensap, de zeste en de gehakte munt erdoor. Dien op met een lepel yoghurt en een paar muntblaadjes."
+        ]
+      },
+      "fr": {
+        "title": "Poêlée marocaine à la dinde",
+        "subtitle": "Cumin, piment de la Jamaïque, blettes et menthe",
+        "description": "De la dinde hachée dorée au cumin et au piment de la Jamaïque, puis sautée avec des blettes, du chou et du poivron orange, et finie au citron et à la menthe fraîche. Le dîner en une demi-heure.",
+        "instructions": [
+          "Chauffe un peu d'huile dans une grande poêle à feu moyen et fais revenir l'oignon et l'ail 1–2 minutes, jusqu'à ce qu'ils embaument.",
+          "Ajoute la dinde, le piment de la Jamaïque, le cumin, le sel et le poivre et fais dorer 7–8 minutes en émiettant.",
+          "Ajoute les blettes, le chou et le poivron et fais sauter environ 3 minutes, jusqu'à ce qu'ils tombent.",
+          "Incorpore le jus et le zeste de citron et la menthe hachée. Sers avec une cuillère de yaourt et quelques feuilles de menthe."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "ground turkey",
+        "name": {
+          "en": "ground turkey",
+          "nl": "kalkoengehakt",
+          "fr": "dinde hachée"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "allspice",
+        "name": {
+          "en": "Allspice",
+          "nl": "Piment",
+          "fr": "Piment de la Jamaïque"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "swiss chard",
+        "name": {
+          "en": "Swiss chard",
+          "nl": "Snijbiet",
+          "fr": "Blettes"
+        },
+        "amount": 70,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "green cabbage",
+        "name": {
+          "en": "Green cabbage",
+          "nl": "Groene kool",
+          "fr": "Chou vert"
+        },
+        "amount": 140,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "orange bell pepper",
+        "name": {
+          "en": "Orange bell pepper",
+          "nl": "Oranje paprika",
+          "fr": "Poivron orange"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/moroccan-stir-fry/"
+  },
+  {
+    "id": "candida-celeriac-soup",
+    "prepTime": "10 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "soup"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Celeriac Soup",
+        "subtitle": "Silky, gently sweet, and just six ingredients",
+        "description": "Celeriac and leek simmered soft and blended into a velvety soup, with a little tart apple for lift and thyme to finish. A winter staple from the Belgian vegetable patch.",
+        "instructions": [
+          "Heat the oil in a large pan over medium heat and cook the leek for about 5 minutes.",
+          "Add the celeriac and the apple and cook for 5 minutes more.",
+          "Pour in the water and add the salt. Bring to a simmer, cover and cook for about 30 minutes, until the celeriac is soft.",
+          "Blend until smooth, stir in the dried thyme and season with pepper and more salt if it needs it. Serve with fresh thyme on top."
+        ]
+      },
+      "nl": {
+        "title": "Knolseldersoep",
+        "subtitle": "Fluweelzacht, zacht zoet, en maar zes ingrediënten",
+        "description": "Knolselder en prei zacht gekookt en gemixt tot een fluweelzachte soep, met een beetje zure appel voor frisheid en tijm om af te werken. Een wintervaste waarde uit de Belgische moestuin.",
+        "instructions": [
+          "Verhit de olie in een grote pot op middelhoog vuur en stoof de prei zo'n 5 minuten.",
+          "Voeg de knolselder en de appel toe en stoof nog 5 minuten.",
+          "Giet het water erbij en voeg het zout toe. Breng aan de kook, leg het deksel erop en laat zo'n 30 minuten koken, tot de knolselder zacht is.",
+          "Mix glad, roer de gedroogde tijm erdoor en breng op smaak met peper en eventueel wat extra zout. Dien op met verse tijm."
+        ]
+      },
+      "fr": {
+        "title": "Soupe de céleri-rave",
+        "subtitle": "Veloutée, doucement sucrée, et six ingrédients à peine",
+        "description": "Du céleri-rave et du poireau cuits tendres et mixés en un velouté, avec un peu de pomme acidulée pour la fraîcheur et du thym pour finir. Un classique d'hiver du potager belge.",
+        "instructions": [
+          "Chauffe l'huile dans une grande casserole à feu moyen et fais fondre le poireau environ 5 minutes.",
+          "Ajoute le céleri-rave et la pomme et poursuis 5 minutes.",
+          "Verse l'eau et ajoute le sel. Porte à frémissement, couvre et cuis une trentaine de minutes, jusqu'à ce que le céleri soit tendre.",
+          "Mixe jusqu'à ce que ce soit lisse, ajoute le thym séché et rectifie avec du poivre et du sel si besoin. Sers avec du thym frais."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celeriac",
+        "name": {
+          "en": "Celeriac",
+          "nl": "Knolselder",
+          "fr": "Céleri-rave"
+        },
+        "amount": 680,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "granny smith apple",
+        "name": {
+          "en": "Granny Smith apple",
+          "nl": "Granny Smith-appel",
+          "fr": "Pomme Granny Smith"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 1200,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried thyme",
+        "name": {
+          "en": "Dried thyme",
+          "nl": "Gedroogde tijm",
+          "fr": "Thym séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 2,
+        "unit": "sprig",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/celeriac-soup/"
+  },
+  {
+    "id": "candida-tarragon-chicken-with-leeks",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Tarragon Chicken with Leeks",
+        "subtitle": "Braised leek halves and a creamy coconut sauce",
+        "description": "A thin chicken breast browned with tarragon, served with leek halves braised until meltingly soft and a quick coconut pan sauce. Classic French flavours, no cream.",
+        "instructions": [
+          "Flatten the chicken to about 1 cm and season it with the dried tarragon, salt and pepper.",
+          "Heat 1 tablespoon of oil over medium-high heat and fry the chicken for about 2 minutes a side. Set it aside, covered.",
+          "Trim the leek, split it lengthwise and rinse out any grit. Add the rest of the oil to the pan and lay the leek in, cut side down, for 5 minutes on medium heat.",
+          "Add the stock, cover and cook for about 15 minutes, until tender.",
+          "Pour in the coconut milk, scrape up the bits from the pan and simmer for 2 minutes. Season, pour the sauce over the chicken and leeks, and finish with fresh tarragon."
+        ]
+      },
+      "nl": {
+        "title": "Kip met dragon en prei",
+        "subtitle": "Gestoofde preihelften en een romige kokossaus",
+        "description": "Een dunne kipfilet gebakken met dragon, met preihelften die gestoofd worden tot ze smelten en een snelle kokossaus uit de pan. Klassieke Franse smaken, zonder room.",
+        "instructions": [
+          "Plet de kip tot zo'n 1 cm dik en kruid met de gedroogde dragon, zout en peper.",
+          "Verhit 1 eetlepel olie op middelhoog tot hoog vuur en bak de kip zo'n 2 minuten per kant. Zet afgedekt opzij.",
+          "Maak de prei schoon, snijd hem in de lengte doormidden en spoel het zand eruit. Doe de rest van de olie in de pan en leg de prei er met de snijkant naar onder in, 5 minuten op middelhoog vuur.",
+          "Voeg de bouillon toe, leg het deksel erop en laat zo'n 15 minuten garen tot hij zacht is.",
+          "Giet de kokosmelk erbij, schraap de aanbaksels los en laat 2 minuten pruttelen. Kruid, giet de saus over de kip en prei en werk af met verse dragon."
+        ]
+      },
+      "fr": {
+        "title": "Poulet à l'estragon et aux poireaux",
+        "subtitle": "Des demi-poireaux braisés et une sauce coco onctueuse",
+        "description": "Un blanc de poulet aplati doré à l'estragon, avec des demi-poireaux braisés jusqu'à être fondants et une sauce minute au lait de coco. Des saveurs françaises classiques, sans crème.",
+        "instructions": [
+          "Aplatis le poulet à environ 1 cm et assaisonne-le avec l'estragon séché, le sel et le poivre.",
+          "Chauffe 1 cuillère à soupe d'huile à feu moyen-vif et saisis le poulet environ 2 minutes par face. Réserve à couvert.",
+          "Pare le poireau, fends-le en deux dans la longueur et rince bien. Ajoute le reste de l'huile dans la poêle et pose le poireau face coupée vers le bas, 5 minutes à feu moyen.",
+          "Ajoute le bouillon, couvre et cuis une quinzaine de minutes, jusqu'à ce qu'il soit tendre.",
+          "Verse le lait de coco, déglace en grattant le fond et laisse frémir 2 minutes. Assaisonne, nappe le poulet et les poireaux de sauce et termine avec de l'estragon frais."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "dried tarragon",
+        "name": {
+          "en": "Dried tarragon",
+          "nl": "Gedroogde dragon",
+          "fr": "Estragon séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "tarragon",
+        "name": {
+          "en": "Tarragon",
+          "nl": "Dragon",
+          "fr": "Estragon"
+        },
+        "amount": 1,
+        "unit": "sprig",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/tarragon-chicken-with-leeks/"
+  },
+  {
+    "id": "candida-buffalo-cauliflower-florets",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buffalo Cauliflower",
+        "subtitle": "Smoky roasted florets with a kefir ranch",
+        "description": "Cauliflower tossed in smoked paprika and vinegar and roasted until the edges char, then drizzled with a cool, herby kefir ranch. Bar snack, candida-proof.",
+        "instructions": [
+          "Heat the oven to 200 °C and oil a baking tray with a tablespoon of oil.",
+          "Whisk the rest of the oil with a teaspoon of vinegar, the paprika, salt, onion powder and garlic powder in a large bowl. Toss the cauliflower in it for a minute or two.",
+          "Spread it on the tray and roast for about 25 minutes, turning once, until tender and browned at the edges.",
+          "Whisk the kefir, yogurt, the rest of the vinegar, chives and parsley into a ranch and season.",
+          "Pile the cauliflower on a plate, scatter over celery, spring onion, parsley and chilli flakes, and drizzle with the ranch."
+        ]
+      },
+      "nl": {
+        "title": "Buffalo-bloemkool",
+        "subtitle": "Rokerige geroosterde roosjes met een ranch van kefir",
+        "description": "Bloemkool gemengd met gerookte paprika en azijn en geroosterd tot de randjes blakeren, met een frisse kruidige ranch van kefir erover. Cafésnack, candidaproof.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en vet een bakplaat in met een eetlepel olie.",
+          "Klop de rest van de olie met een theelepel azijn, het paprikapoeder, zout, uienpoeder en lookpoeder in een grote kom. Meng de bloemkool er een minuutje of twee door.",
+          "Spreid uit op de plaat en rooster zo'n 25 minuten, één keer omdraaien, tot hij zacht is en bruin aan de randjes.",
+          "Klop de kefir, yoghurt, de rest van de azijn, bieslook en peterselie tot een ranch en kruid.",
+          "Leg de bloemkool op een bord, strooi er selder, lente-ui, peterselie en chilivlokken over en sprenkel de ranch erover."
+        ]
+      },
+      "fr": {
+        "title": "Chou-fleur façon buffalo",
+        "subtitle": "Des bouquets rôtis et fumés, sauce ranch au kéfir",
+        "description": "Du chou-fleur enrobé de paprika fumé et de vinaigre, rôti jusqu'à ce que les bords noircissent, puis arrosé d'une sauce ranch fraîche aux herbes et au kéfir. Un snack de bar, compatible candida.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et huile une plaque avec une cuillère à soupe d'huile.",
+          "Fouette le reste de l'huile avec une cuillère à café de vinaigre, le paprika, le sel, la poudre d'oignon et l'ail en poudre dans un grand saladier. Enrobe le chou-fleur une minute ou deux.",
+          "Étale-le sur la plaque et rôtis environ 25 minutes en retournant une fois, jusqu'à ce qu'il soit tendre et doré sur les bords.",
+          "Fouette le kéfir, le yaourt, le reste du vinaigre, la ciboulette et le persil pour faire la ranch et assaisonne.",
+          "Dresse le chou-fleur, parsème de céleri, d'oignon nouveau, de persil et de piment, et arrose de ranch."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 3,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "smoked paprika",
+        "name": {
+          "en": "Smoked paprika",
+          "nl": "Gerookte paprikapoeder",
+          "fr": "Paprika fumé"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "kefir",
+        "name": {
+          "en": "Kefir",
+          "nl": "Kefir",
+          "fr": "Kéfir"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buffalo-cauliflower-florets/"
+  },
+  {
+    "id": "candida-salmon-bowl-arugula-dressing",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Salmon Bowl with Rocket Dressing",
+        "subtitle": "Sage salmon, quinoa and a bright green sauce",
+        "description": "Roasted salmon with green beans, yellow pepper and quinoa on rocket, under a peppery dressing made by blending more rocket with garlic, lemon and olive oil.",
+        "instructions": [
+          "Heat the oven to 200 °C. Lay the salmon skin side down on an oiled tray, season with the sage, salt and pepper and roast for about 12 minutes.",
+          "Blanch the green beans in boiling salted water for 2 minutes, then cool them under cold water.",
+          "For the dressing, pulse the rocket and garlic in a food processor until fine, add the lemon juice and blend, then pour in the olive oil with the motor running. Thin with a little water if needed and season.",
+          "Layer rocket and quinoa in a bowl, add the salmon, beans and yellow pepper, drizzle with the dressing and finish with blueberries and pumpkin seeds."
+        ]
+      },
+      "nl": {
+        "title": "Zalmbowl met rucoladressing",
+        "subtitle": "Zalm met salie, quinoa en een felgroene saus",
+        "description": "Geroosterde zalm met sperziebonen, gele paprika en quinoa op rucola, onder een pittige dressing van nog meer rucola gemixt met look, citroen en olijfolie.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C. Leg de zalm met het vel naar onder op een ingevette bakplaat, kruid met salie, zout en peper en rooster zo'n 12 minuten.",
+          "Blancheer de boontjes 2 minuten in kokend gezouten water en laat ze afkoelen onder koud water.",
+          "Voor de dressing hak je de rucola en look fijn in de keukenrobot, voeg je het citroensap toe en mix je, en giet je de olijfolie erbij terwijl hij draait. Verdun met wat water als het nodig is en kruid.",
+          "Leg rucola en quinoa in een kom, voeg de zalm, boontjes en gele paprika toe, sprenkel de dressing erover en werk af met blauwe bessen en pompoenpitten."
+        ]
+      },
+      "fr": {
+        "title": "Bol de saumon, sauce à la roquette",
+        "subtitle": "Saumon à la sauge, quinoa et une sauce vert vif",
+        "description": "Du saumon rôti avec des haricots verts, du poivron jaune et du quinoa sur de la roquette, sous une sauce poivrée faite de roquette mixée avec ail, citron et huile d'olive.",
+        "instructions": [
+          "Préchauffe le four à 200 °C. Pose le saumon côté peau sur une plaque huilée, assaisonne avec la sauge, le sel et le poivre et rôtis une douzaine de minutes.",
+          "Blanchis les haricots 2 minutes dans de l'eau bouillante salée, puis refroidis-les sous l'eau froide.",
+          "Pour la sauce, hache finement la roquette et l'ail au robot, ajoute le jus de citron et mixe, puis verse l'huile d'olive moteur en marche. Allonge d'un peu d'eau si besoin et assaisonne.",
+          "Dispose roquette et quinoa dans un bol, ajoute le saumon, les haricots et le poivron jaune, arrose de sauce et termine avec des myrtilles et des graines de courge."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "salmon fillet",
+        "name": {
+          "en": "Salmon fillet",
+          "nl": "Zalmfilet",
+          "fr": "Filet de saumon"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "dried sage",
+        "name": {
+          "en": "Dried sage",
+          "nl": "Gedroogde salie",
+          "fr": "Sauge séchée"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "green beans",
+        "name": {
+          "en": "green beans",
+          "nl": "prinsessenbonen",
+          "fr": "haricots verts"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "arugula",
+        "name": {
+          "en": "Arugula",
+          "nl": "Rucola",
+          "fr": "Roquette"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "nl": "Blauwe bessen",
+          "fr": "Myrtilles"
+        },
+        "amount": 20,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1.5,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/salmon-bowl-arugula-dressing/"
+  },
+  {
+    "id": "candida-buckwheat-soba-noodle-bowl",
+    "prepTime": "15 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Soba Noodle Bowl",
+        "subtitle": "Buckwheat noodles under stir-fried vegetables",
+        "description": "Soba noodles with a touch of sesame oil, topped with courgette, squash, celery, pepper and shiitake fried until just browning. Check the packet: for candida you want 100% buckwheat soba.",
+        "instructions": [
+          "Cook the soba as the packet says, drain and toss with the sesame oil.",
+          "Heat the oil in a large frying pan over medium heat.",
+          "Add the shallot, squash, courgette, celery, pepper, shiitake and a pinch of salt and fry for 6–8 minutes, until softened and just starting to brown.",
+          "Divide the noodles over two bowls, pile the vegetables on top and finish with coriander, sesame seeds and a splash of coconut aminos."
+        ]
+      },
+      "nl": {
+        "title": "Sobanoedelbowl",
+        "subtitle": "Boekweitnoedels onder geroerbakte groenten",
+        "description": "Sobanoedels met een vleugje sesamolie, met courgette, gele courgette, selder, paprika en shiitake gebakken tot ze net kleuren. Kijk op de verpakking: voor candida wil je soba van 100% boekweit.",
+        "instructions": [
+          "Kook de soba zoals op de verpakking staat, giet af en meng met de sesamolie.",
+          "Verhit de olie in een grote pan op middelhoog vuur.",
+          "Voeg de sjalot, gele courgette, courgette, selder, paprika, shiitake en een snuifje zout toe en bak 6–8 minuten, tot alles zacht is en net begint te kleuren.",
+          "Verdeel de noedels over twee kommen, schep de groenten erop en werk af met koriander, sesamzaad en een scheutje kokosaminos."
+        ]
+      },
+      "fr": {
+        "title": "Bol de nouilles soba",
+        "subtitle": "Des nouilles de sarrasin sous des légumes sautés",
+        "description": "Des nouilles soba avec une touche d'huile de sésame, garnies de courgette, de courge, de céleri, de poivron et de shiitakés sautés jusqu'à dorer légèrement. Vérifie le paquet : pour le candida, il faut des soba 100 % sarrasin.",
+        "instructions": [
+          "Cuis les soba comme indiqué sur le paquet, égoutte et mélange avec l'huile de sésame.",
+          "Chauffe l'huile dans une grande poêle à feu moyen.",
+          "Ajoute l'échalote, la courge, la courgette, le céleri, le poivron, les shiitakés et une pincée de sel et fais sauter 6–8 minutes, jusqu'à ce que ce soit tendre et commence à dorer.",
+          "Répartis les nouilles dans deux bols, dépose les légumes dessus et termine avec de la coriandre, du sésame et un trait d'aminos de coco."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "buckwheat soba noodles",
+        "name": {
+          "en": "Buckwheat soba noodles",
+          "nl": "Boekweit-sobanoedels",
+          "fr": "Nouilles soba au sarrasin"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "sesame oil",
+        "name": {
+          "en": "sesame oil",
+          "nl": "sesamolie",
+          "fr": "huile de sésame"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow squash",
+        "name": {
+          "en": "Yellow squash",
+          "nl": "Gele courgette",
+          "fr": "Courgette jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "shiitake mushrooms",
+        "name": {
+          "en": "Shiitake mushrooms",
+          "nl": "Shiitakes",
+          "fr": "Champignons shiitake"
+        },
+        "amount": 5,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sesame seeds",
+        "name": {
+          "en": "sesame seeds",
+          "nl": "sesamzaad",
+          "fr": "graines de sésame"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buckwheat-soba-noodle-bowl/"
+  },
+  {
+    "id": "candida-asian-steak-kebabs",
+    "prepTime": "1 hr 15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Asian Steak Skewers",
+        "subtitle": "Coconut aminos, sesame and chilli, off the grill",
+        "description": "Cubes of steak marinated in coconut aminos, sesame, garlic and chilli, grilled on skewers and served in crisp lettuce leaves. Barbecue food without the sugary sauce.",
+        "instructions": [
+          "Whisk the coconut aminos, water, sesame oil, stevia, garlic, spring onion, sesame seeds and chilli flakes together.",
+          "Toss the steak in the marinade in a dish and leave it in the fridge for at least 2 hours, or up to a day. Soak the skewers in water for 30 minutes.",
+          "Heat a grill or griddle to medium-high. Thread the steak onto the skewers.",
+          "Grill on an oiled grate for 3–4 minutes a side.",
+          "Serve on lettuce leaves with sliced radicchio, spring onion and sesame seeds, with a little coconut aminos and chilli for dipping."
+        ]
+      },
+      "nl": {
+        "title": "Aziatische steakspiesjes",
+        "subtitle": "Kokosaminos, sesam en chili, van de grill",
+        "description": "Blokjes steak gemarineerd in kokosaminos, sesam, look en chili, aan spiesjes gegrild en opgediend in knapperige slablaadjes. Barbecue zonder suikerrijke saus.",
+        "instructions": [
+          "Klop de kokosaminos, het water, de sesamolie, stevia, look, lente-ui, sesamzaad en chilivlokken samen.",
+          "Meng de steak met de marinade in een schaal en laat minstens 2 uur, of tot een dag, in de koelkast staan. Week de spiesjes 30 minuten in water.",
+          "Verwarm een grill of grillpan op middelhoog tot hoog vuur. Rijg de steak aan de spiesjes.",
+          "Grill 3–4 minuten per kant op een ingevet rooster.",
+          "Dien op in slablaadjes met fijngesneden radicchio, lente-ui en sesamzaad, met wat kokosaminos en chili om in te dippen."
+        ]
+      },
+      "fr": {
+        "title": "Brochettes de bœuf à l'asiatique",
+        "subtitle": "Aminos de coco, sésame et piment, au gril",
+        "description": "Des cubes de bœuf marinés dans les aminos de coco, le sésame, l'ail et le piment, grillés en brochettes et servis dans des feuilles de laitue croquantes. Un barbecue sans sauce sucrée.",
+        "instructions": [
+          "Fouette ensemble les aminos de coco, l'eau, l'huile de sésame, la stévia, l'ail, l'oignon nouveau, le sésame et le piment.",
+          "Mélange le bœuf avec la marinade dans un plat et laisse au frigo au moins 2 heures, ou jusqu'à un jour. Fais tremper les brochettes 30 minutes dans l'eau.",
+          "Chauffe un gril ou une poêle-gril à feu moyen-vif. Enfile le bœuf sur les brochettes.",
+          "Grille 3–4 minutes par face sur une grille huilée.",
+          "Sers sur des feuilles de laitue avec du radicchio émincé, de l'oignon nouveau et du sésame, avec un peu d'aminos de coco et de piment pour tremper."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "sesame oil",
+        "name": {
+          "en": "sesame oil",
+          "nl": "sesamolie",
+          "fr": "huile de sésame"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "liquid stevia",
+        "name": {
+          "en": "Liquid stevia",
+          "nl": "Vloeibare stevia",
+          "fr": "Stévia liquide"
+        },
+        "amount": null,
+        "unit": "drop",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sesame seeds",
+        "name": {
+          "en": "sesame seeds",
+          "nl": "sesamzaad",
+          "fr": "graines de sésame"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "beef steak",
+        "name": {
+          "en": "Beef steak",
+          "nl": "Rundersteak",
+          "fr": "Steak de bœuf"
+        },
+        "amount": 900,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "romaine lettuce",
+        "name": {
+          "en": "Romaine lettuce",
+          "nl": "Romainesla",
+          "fr": "Laitue romaine"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "radicchio",
+        "name": {
+          "en": "Radicchio",
+          "nl": "Radicchio",
+          "fr": "Radicchio"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/asian-steak-kebabs/"
+  },
+  {
+    "id": "candida-mediterranean-zucchini-dip",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Courgette Yogurt Dip",
+        "subtitle": "Soft courgette blended with lemon, herbs and yogurt",
+        "description": "Grated courgette cooked down with onion and garlic, cooled and blended with Greek yogurt, coriander, lemon and fresh herbs. Lovely with crackers or raw vegetables.",
+        "instructions": [
+          "Heat the oil in a large frying pan over medium heat. Add the courgette, onion and salt, cover and cook for 10 minutes, stirring halfway.",
+          "Uncover, add the garlic and pepper and cook for 30 seconds more.",
+          "Take it off the heat and let it cool to room temperature, about an hour.",
+          "Blend the cooled vegetables with the ground coriander, lemon zest and juice, herbs and yogurt until smooth."
+        ]
+      },
+      "nl": {
+        "title": "Courgette-yoghurtdip",
+        "subtitle": "Zachte courgette gemixt met citroen, kruiden en yoghurt",
+        "description": "Geraspte courgette zacht gestoofd met ui en look, afgekoeld en gemixt met Griekse yoghurt, koriander, citroen en verse kruiden. Heerlijk met crackers of rauwe groenten.",
+        "instructions": [
+          "Verhit de olie in een grote pan op middelhoog vuur. Voeg de courgette, ui en zout toe, leg het deksel erop en laat 10 minuten stoven, halverwege omroeren.",
+          "Haal het deksel eraf, voeg de look en peper toe en bak nog 30 seconden.",
+          "Haal van het vuur en laat afkoelen tot kamertemperatuur, zo'n uur.",
+          "Mix de afgekoelde groenten met de korianderpoeder, citroenzeste en -sap, kruiden en yoghurt tot het glad is."
+        ]
+      },
+      "fr": {
+        "title": "Dip de courgette au yaourt",
+        "subtitle": "De la courgette fondante mixée avec citron, herbes et yaourt",
+        "description": "De la courgette râpée fondue avec de l'oignon et de l'ail, refroidie et mixée avec du yaourt grec, de la coriandre, du citron et des herbes fraîches. Délicieux avec des crackers ou des crudités.",
+        "instructions": [
+          "Chauffe l'huile dans une grande poêle à feu moyen. Ajoute la courgette, l'oignon et le sel, couvre et cuis 10 minutes en remuant à mi-cuisson.",
+          "Découvre, ajoute l'ail et le poivre et poursuis 30 secondes.",
+          "Retire du feu et laisse refroidir à température ambiante, environ une heure.",
+          "Mixe les légumes refroidis avec la coriandre moulue, le zeste et le jus de citron, les herbes et le yaourt jusqu'à ce que ce soit lisse."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/mediterranean-zucchini-dip/"
+  },
+  {
+    "id": "candida-kimchi-meatballs",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "snack",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Kimchi Meatball Bites",
+        "subtitle": "On cucumber and radish, with a sesame drizzle",
+        "description": "Turkey meatballs with kimchi, ginger and sesame, each one perched on a slice of cucumber and radish. A party bite that happens to be good for your gut.",
+        "instructions": [
+          "Heat the oven to 200 °C and oil a baking tray with the olive oil.",
+          "Mix the turkey with the spring onion, garlic, coriander, egg yolk, a teaspoon of sesame oil, ginger, salt, pepper and kimchi.",
+          "Roll into 24 meatballs and space them out on the tray. Bake for 20 minutes and let them cool a little.",
+          "Whisk the coconut aminos with the rest of the sesame oil.",
+          "Lay a radish slice on each cucumber slice, top with a meatball, drizzle with the sauce and finish with sesame seeds and coriander."
+        ]
+      },
+      "nl": {
+        "title": "Kimchiballetjes als hapje",
+        "subtitle": "Op komkommer en radijs, met een sesamsausje",
+        "description": "Kalkoenballetjes met kimchi, gember en sesam, elk op een schijfje komkommer en radijs. Een feesthapje dat toevallig goed is voor je darmen.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en vet een bakplaat in met de olijfolie.",
+          "Meng het kalkoengehakt met de lente-ui, look, koriander, eidooier, een theelepel sesamolie, gember, zout, peper en kimchi.",
+          "Rol er 24 balletjes van en leg ze verspreid op de plaat. Bak 20 minuten en laat ze een beetje afkoelen.",
+          "Klop de kokosaminos los met de rest van de sesamolie.",
+          "Leg een schijfje radijs op elk schijfje komkommer, zet er een balletje op, sprenkel er saus over en werk af met sesamzaad en koriander."
+        ]
+      },
+      "fr": {
+        "title": "Bouchées de boulettes au kimchi",
+        "subtitle": "Sur concombre et radis, avec un filet de sésame",
+        "description": "Des boulettes de dinde au kimchi, au gingembre et au sésame, posées chacune sur une rondelle de concombre et de radis. Une bouchée d'apéro qui fait aussi du bien au ventre.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et huile une plaque avec l'huile d'olive.",
+          "Mélange la dinde avec l'oignon nouveau, l'ail, la coriandre, le jaune d'œuf, une cuillère à café d'huile de sésame, le gingembre, le sel, le poivre et le kimchi.",
+          "Forme 24 boulettes et espace-les sur la plaque. Enfourne 20 minutes et laisse tiédir.",
+          "Fouette les aminos de coco avec le reste de l'huile de sésame.",
+          "Pose une rondelle de radis sur chaque rondelle de concombre, ajoute une boulette, arrose de sauce et termine avec du sésame et de la coriandre."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "ground turkey",
+        "name": {
+          "en": "ground turkey",
+          "nl": "kalkoengehakt",
+          "fr": "dinde hachée"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "egg yolk",
+        "name": {
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "sesame oil",
+        "name": {
+          "en": "sesame oil",
+          "nl": "sesamolie",
+          "fr": "huile de sésame"
+        },
+        "amount": 2.5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "kimchi",
+        "name": {
+          "en": "Kimchi",
+          "nl": "Kimchi",
+          "fr": "Kimchi"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "radishes",
+        "name": {
+          "en": "Radishes",
+          "nl": "Radijsjes",
+          "fr": "Radis"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sesame seeds",
+        "name": {
+          "en": "sesame seeds",
+          "nl": "sesamzaad",
+          "fr": "graines de sésame"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/kimchi-meatballs/"
+  },
+  {
+    "id": "candida-buckwheat-brussels-sprout-salad",
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buckwheat with Brussels Sprouts",
+        "subtitle": "Warm as a side, cold as a salad",
+        "description": "Nutty buckwheat stirred through browned sprouts, shallot, celery and chard braised with thyme, with toasted nuts on top. Eat it warm, or let it cool and dress it as a salad.",
+        "instructions": [
+          "Bring the water and a pinch of salt to the boil, add the buckwheat, cover and simmer for 15–20 minutes. Leave it off the heat for 5 minutes and fluff it with a fork.",
+          "Heat the oil in a large frying pan over medium heat and fry the shallots, celery, garlic and sprouts for about 5 minutes, until softened and browned.",
+          "Add the thyme and stock, season, cover and simmer on medium-low for about 10 minutes.",
+          "Stir in the chard and let it wilt for a minute or two, then fold in the buckwheat.",
+          "Serve with fresh herbs and crushed toasted nuts. For a salad, let it cool and toss with olive oil and lemon juice."
+        ]
+      },
+      "nl": {
+        "title": "Boekweit met spruitjes",
+        "subtitle": "Warm als bijgerecht, koud als salade",
+        "description": "Nootachtige boekweit door gekleurde spruitjes, sjalot, selder en snijbiet gestoofd met tijm, met geroosterde noten erop. Eet het warm, of laat het afkoelen en maak er een salade van.",
+        "instructions": [
+          "Breng het water met een snuifje zout aan de kook, doe de boekweit erbij, leg het deksel erop en laat 15–20 minuten zachtjes koken. Laat 5 minuten van het vuur staan en maak los met een vork.",
+          "Verhit de olie in een grote pan op middelhoog vuur en bak de sjalotten, selder, look en spruitjes zo'n 5 minuten, tot ze zacht en gekleurd zijn.",
+          "Voeg de tijm en bouillon toe, kruid, leg het deksel erop en laat zo'n 10 minuten sudderen op middellaag vuur.",
+          "Roer de snijbiet erdoor en laat een minuutje of twee slinken, en schep dan de boekweit erdoor.",
+          "Dien op met verse kruiden en gekneusde geroosterde noten. Voor een salade laat je het afkoelen en meng je het met olijfolie en citroensap."
+        ]
+      },
+      "fr": {
+        "title": "Sarrasin aux choux de Bruxelles",
+        "subtitle": "Chaud en accompagnement, froid en salade",
+        "description": "Du sarrasin au goût de noisette mêlé à des choux de Bruxelles dorés, de l'échalote, du céleri et des blettes braisés au thym, avec des noix grillées par-dessus. À manger chaud, ou froid en salade.",
+        "instructions": [
+          "Porte l'eau et une pincée de sel à ébullition, ajoute le sarrasin, couvre et laisse frémir 15–20 minutes. Laisse 5 minutes hors du feu et égrène à la fourchette.",
+          "Chauffe l'huile dans une grande poêle à feu moyen et fais revenir les échalotes, le céleri, l'ail et les choux environ 5 minutes, jusqu'à ce qu'ils soient tendres et dorés.",
+          "Ajoute le thym et le bouillon, assaisonne, couvre et laisse mijoter à feu moyen-doux une dizaine de minutes.",
+          "Ajoute les blettes et laisse-les tomber une minute ou deux, puis incorpore le sarrasin.",
+          "Sers avec des herbes fraîches et des noix grillées concassées. En salade, laisse refroidir et assaisonne d'huile d'olive et de jus de citron."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "buckwheat groats",
+        "name": {
+          "en": "Buckwheat groats",
+          "nl": "Boekweitkorrels",
+          "fr": "Sarrasin en grains"
+        },
+        "amount": 170,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "brussels sprouts",
+        "name": {
+          "en": "Brussels sprouts",
+          "nl": "Spruitjes",
+          "fr": "Choux de Bruxelles"
+        },
+        "amount": 8,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "vegetable broth",
+        "name": {
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "swiss chard",
+        "name": {
+          "en": "Swiss chard",
+          "nl": "Snijbiet",
+          "fr": "Blettes"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "hazelnuts",
+        "name": {
+          "en": "Hazelnuts",
+          "nl": "Hazelnoten",
+          "fr": "Noisettes"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buckwheat-brussels-sprout-salad/"
+  },
+  {
+    "id": "candida-satay-chicken-bowl",
+    "prepTime": "20 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Satay Chicken Bowl",
+        "subtitle": "An almond satay sauce instead of peanut",
+        "description": "Lime and ginger marinated chicken seared until golden, served in a bowl with quinoa and crunchy vegetables and a warm satay sauce made with almond butter — no peanuts, no sugar.",
+        "instructions": [
+          "Mix the chicken with the lime zest and juice, coconut aminos, garlic, ginger and turmeric. Leave it in the fridge for 8 hours or overnight.",
+          "Heat the olive oil in a frying pan over medium-high heat and sear the chicken for 7–10 minutes, until browned and cooked through. Season with salt.",
+          "Toss the red cabbage, spring onion, celery, cucumber, yellow pepper and almonds together.",
+          "For the sauce, whisk the almond butter, coconut milk, lime juice, coconut aminos, garlic, stevia and chilli flakes in a small pan over medium heat for 2–3 minutes until smooth. Thin with a spoon or two of water if needed.",
+          "Arrange the chicken, quinoa, greens and vegetable mix side by side in two bowls, add coriander, Thai basil and lime wedges, and serve the sauce alongside."
+        ]
+      },
+      "nl": {
+        "title": "Saté-kipbowl",
+        "subtitle": "Een satésaus van amandel in plaats van pinda",
+        "description": "Kip gemarineerd in limoen en gember en goudbruin gebakken, in een bowl met quinoa en knapperige groenten en een warme satésaus van amandelpasta — geen pinda's, geen suiker.",
+        "instructions": [
+          "Meng de kip met de limoenzeste en het -sap, de kokosaminos, look, gember en kurkuma. Laat 8 uur of een nacht in de koelkast staan.",
+          "Verhit de olijfolie in een pan op middelhoog tot hoog vuur en bak de kip 7–10 minuten, tot ze bruin en gaar is. Kruid met zout.",
+          "Meng de rode kool, lente-ui, selder, komkommer, gele paprika en amandelen.",
+          "Voor de saus klop je de amandelpasta, kokosmelk, het limoensap, de kokosaminos, look, stevia en chilivlokken 2–3 minuten in een pannetje op middelhoog vuur tot het glad is. Verdun met een lepel of twee water als het nodig is.",
+          "Schik de kip, quinoa, het groen en het groentemengsel naast elkaar in twee kommen, leg er koriander, Thaise basilicum en partjes limoen bij, en zet de saus erbij."
+        ]
+      },
+      "fr": {
+        "title": "Bol de poulet satay",
+        "subtitle": "Une sauce satay à l'amande au lieu de la cacahuète",
+        "description": "Du poulet mariné au citron vert et au gingembre, saisi jusqu'à être doré, servi dans un bol avec du quinoa et des légumes croquants et une sauce satay chaude au beurre d'amande — sans cacahuètes, sans sucre.",
+        "instructions": [
+          "Mélange le poulet avec le zeste et le jus de citron vert, les aminos de coco, l'ail, le gingembre et le curcuma. Laisse 8 heures ou une nuit au frigo.",
+          "Chauffe l'huile d'olive dans une poêle à feu moyen-vif et saisis le poulet 7–10 minutes, jusqu'à ce qu'il soit doré et cuit. Sale.",
+          "Mélange le chou rouge, l'oignon nouveau, le céleri, le concombre, le poivron jaune et les amandes.",
+          "Pour la sauce, fouette le beurre d'amande, le lait de coco, le jus de citron vert, les aminos de coco, l'ail, la stévia et le piment dans une petite casserole à feu moyen 2–3 minutes, jusqu'à ce que ce soit lisse. Allonge d'une cuillère ou deux d'eau si besoin.",
+          "Dispose le poulet, le quinoa, la verdure et les légumes côte à côte dans deux bols, ajoute coriandre, basilic thaï et quartiers de citron vert, et sers la sauce à côté."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 185,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red cabbage",
+        "name": {
+          "en": "Red cabbage",
+          "nl": "Rode kool",
+          "fr": "Chou rouge"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "thai basil",
+        "name": {
+          "en": "Thai basil",
+          "nl": "Thaise basilicum",
+          "fr": "Basilic thaï"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "almond butter",
+        "name": {
+          "en": "Almond butter",
+          "nl": "Amandelpasta",
+          "fr": "Beurre d'amande"
+        },
+        "amount": 65,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/satay-chicken-bowl/"
+  },
+  {
+    "id": "candida-thai-quinoa",
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Thai Coconut Quinoa",
+        "subtitle": "Cooked in coconut milk, dressed with lime and ginger",
+        "description": "Quinoa simmered in coconut milk, tossed with a ginger and lime dressing and piled with red onion, herbs, crushed macadamias and pink peppercorns. A side that steals the show.",
+        "instructions": [
+          "Bring the quinoa, coconut milk, water and a pinch of salt to the boil. Turn the heat to low, cover and cook for 15 minutes.",
+          "Leave it covered off the heat for 5 minutes, then fluff it up and let it cool a little.",
+          "Squeeze the juice from the grated ginger and whisk it with the coconut aminos and lime juice. Season.",
+          "Toss the quinoa with the dressing and spread it on a platter. Top with red onion, coriander, Thai basil, macadamias and crushed pink peppercorns, and serve with lime wedges."
+        ]
+      },
+      "nl": {
+        "title": "Thaise kokosquinoa",
+        "subtitle": "Gegaard in kokosmelk, met een dressing van limoen en gember",
+        "description": "Quinoa gegaard in kokosmelk, gemengd met een dressing van gember en limoen, met rode ui, kruiden, gekneusde macadamia's en roze peperbollen erop. Een bijgerecht dat de show steelt.",
+        "instructions": [
+          "Breng de quinoa, kokosmelk, het water en een snuifje zout aan de kook. Zet het vuur laag, leg het deksel erop en laat 15 minuten garen.",
+          "Laat 5 minuten afgedekt van het vuur staan, maak los en laat een beetje afkoelen.",
+          "Knijp het sap uit de geraspte gember en klop het met de kokosaminos en het limoensap. Kruid.",
+          "Meng de quinoa met de dressing en spreid uit op een schotel. Leg er rode ui, koriander, Thaise basilicum, macadamia's en gekneusde roze peper op, en dien op met partjes limoen."
+        ]
+      },
+      "fr": {
+        "title": "Quinoa thaï à la coco",
+        "subtitle": "Cuit au lait de coco, assaisonné citron vert et gingembre",
+        "description": "Du quinoa cuit au lait de coco, mêlé à une sauce gingembre-citron vert et garni d'oignon rouge, d'herbes, de noix de macadamia concassées et de baies roses. Un accompagnement qui vole la vedette.",
+        "instructions": [
+          "Porte à ébullition le quinoa, le lait de coco, l'eau et une pincée de sel. Baisse à feu doux, couvre et cuis 15 minutes.",
+          "Laisse 5 minutes à couvert hors du feu, égrène et laisse tiédir.",
+          "Presse le jus du gingembre râpé et fouette-le avec les aminos de coco et le jus de citron vert. Assaisonne.",
+          "Mélange le quinoa avec la sauce et étale-le sur un plat. Garnis d'oignon rouge, de coriandre, de basilic thaï, de macadamias et de baies roses concassées, et sers avec des quartiers de citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "quinoa",
+        "name": {
+          "en": "Quinoa",
+          "nl": "Quinoa",
+          "fr": "Quinoa"
+        },
+        "amount": 170,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "thai basil",
+        "name": {
+          "en": "Thai basil",
+          "nl": "Thaise basilicum",
+          "fr": "Basilic thaï"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "macadamia nuts",
+        "name": {
+          "en": "Macadamia nuts",
+          "nl": "Macadamianoten",
+          "fr": "Noix de macadamia"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pink peppercorns",
+        "name": {
+          "en": "Pink peppercorns",
+          "nl": "Roze peperbollen",
+          "fr": "Baies roses"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/thai-quinoa/"
+  },
+  {
+    "id": "candida-yellow-squash-noodles-with-meatballs",
+    "prepTime": "20 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Squash Noodles with Meatballs & Tapenade",
+        "subtitle": "Spaghetti and meatballs, without the spaghetti",
+        "description": "Little beef meatballs browned in a pan, served on yellow courgette noodles tossed with a quick black olive tapenade. Everything you love about the original, lighter.",
+        "instructions": [
+          "Make the tapenade: pulse the olives, olive oil, lemon juice, garlic and a pinch of salt to a coarse paste.",
+          "Heat the oven to 120 °C to keep things warm. Soften the onion in a little oil for 3 minutes, add the garlic for 1 minute, then let it cool.",
+          "Mix the beef with the onion and garlic, parsley, egg yolk, salt and pepper and roll into 8–10 balls.",
+          "Brown the meatballs in 2 tablespoons of oil for 8–10 minutes, turning, then keep them warm in the oven.",
+          "Wipe out the pan, heat a tablespoon of oil and cook the squash noodles for 2–3 minutes. Toss them with 2 tablespoons of tapenade, top with the meatballs and more tapenade, and finish with parsley or basil."
+        ]
+      },
+      "nl": {
+        "title": "Courgettinoedels met balletjes en tapenade",
+        "subtitle": "Spaghetti met balletjes, zonder de spaghetti",
+        "description": "Kleine rundsballetjes gebakken in de pan, op noedels van gele courgette gemengd met een snelle tapenade van zwarte olijven. Alles wat je aan het origineel lekker vindt, maar lichter.",
+        "instructions": [
+          "Maak de tapenade: hak de olijven, olijfolie, het citroensap, de look en een snuifje zout grof in de keukenrobot.",
+          "Verwarm de oven voor op 120 °C om alles warm te houden. Stoof de ui 3 minuten in wat olie, voeg de look toe voor 1 minuut en laat afkoelen.",
+          "Meng het rundsgehakt met de ui en look, peterselie, eidooier, zout en peper en rol er 8–10 balletjes van.",
+          "Bak de balletjes 8–10 minuten rondom bruin in 2 eetlepels olie en hou ze warm in de oven.",
+          "Veeg de pan uit, verhit een eetlepel olie en bak de courgettinoedels 2–3 minuten. Meng ze met 2 eetlepels tapenade, leg de balletjes en nog wat tapenade erop en werk af met peterselie of basilicum."
+        ]
+      },
+      "fr": {
+        "title": "Nouilles de courge, boulettes et tapenade",
+        "subtitle": "Des spaghettis aux boulettes, sans les spaghettis",
+        "description": "De petites boulettes de bœuf dorées à la poêle, servies sur des nouilles de courgette jaune mêlées à une tapenade minute d'olives noires. Tout ce qu'on aime dans l'original, en plus léger.",
+        "instructions": [
+          "Fais la tapenade : mixe grossièrement les olives, l'huile d'olive, le jus de citron, l'ail et une pincée de sel.",
+          "Préchauffe le four à 120 °C pour garder au chaud. Fais fondre l'oignon dans un peu d'huile 3 minutes, ajoute l'ail 1 minute, puis laisse refroidir.",
+          "Mélange le bœuf avec l'oignon et l'ail, le persil, le jaune d'œuf, le sel et le poivre et forme 8–10 boulettes.",
+          "Dore les boulettes dans 2 cuillères à soupe d'huile 8–10 minutes en les retournant, puis garde-les au chaud dans le four.",
+          "Essuie la poêle, chauffe une cuillère d'huile et cuis les nouilles de courge 2–3 minutes. Mélange-les avec 2 cuillères à soupe de tapenade, dépose les boulettes et encore un peu de tapenade, et termine avec du persil ou du basilic."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground beef",
+        "name": {
+          "en": "ground beef",
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "egg yolk",
+        "name": {
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 6,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "yellow squash",
+        "name": {
+          "en": "Yellow squash",
+          "nl": "Gele courgette",
+          "fr": "Courgette jaune"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "black olives",
+        "name": {
+          "en": "Black olives",
+          "nl": "Zwarte olijven",
+          "fr": "Olives noires"
+        },
+        "amount": 140,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/yellow-squash-noodles-with-meatballs/"
+  },
+  {
+    "id": "candida-sardine-nicoise-salad",
+    "prepTime": "20 mins",
+    "cookTime": "5 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Sardine Niçoise",
+        "subtitle": "The classic salad with sardines instead of tuna",
+        "description": "Green beans, egg, tomato, cucumber and olives arranged around a tin of sardines, with an anchovy and lemon vinaigrette. Tuna is off the candida menu; sardines are better anyway.",
+        "instructions": [
+          "Bring a small pan of salted water to the boil and blanch the green beans for about 2 minutes. Drain and cool under cold water.",
+          "Shake the lemon juice, olive oil and minced anchovy together and season.",
+          "Arrange the lettuce, tomato, beans, egg, cucumber and olives in separate heaps on a plate, with the sardines in the middle.",
+          "Scatter over the herbs, drizzle with the vinaigrette and season."
+        ]
+      },
+      "nl": {
+        "title": "Niçoise met sardines",
+        "subtitle": "De klassieke salade met sardines in plaats van tonijn",
+        "description": "Boontjes, ei, tomaat, komkommer en olijven rond een blikje sardines geschikt, met een vinaigrette van ansjovis en citroen. Tonijn staat niet op het candidamenu; sardines zijn trouwens lekkerder.",
+        "instructions": [
+          "Breng een pannetje gezouten water aan de kook en blancheer de boontjes zo'n 2 minuten. Giet af en laat afkoelen onder koud water.",
+          "Schud het citroensap, de olijfolie en de fijngehakte ansjovis samen en kruid.",
+          "Schik de sla, tomaat, boontjes, het ei, de komkommer en olijven in aparte hoopjes op een bord, met de sardines in het midden.",
+          "Strooi de kruiden erover, sprenkel de vinaigrette erover en kruid."
+        ]
+      },
+      "fr": {
+        "title": "Niçoise aux sardines",
+        "subtitle": "La salade classique, avec des sardines au lieu du thon",
+        "description": "Haricots verts, œuf, tomate, concombre et olives disposés autour d'une boîte de sardines, avec une vinaigrette aux anchois et au citron. Le thon n'est pas au menu candida ; les sardines sont meilleures de toute façon.",
+        "instructions": [
+          "Porte une petite casserole d'eau salée à ébullition et blanchis les haricots environ 2 minutes. Égoutte et refroidis sous l'eau froide.",
+          "Secoue le jus de citron, l'huile d'olive et l'anchois haché ensemble et assaisonne.",
+          "Dispose la laitue, la tomate, les haricots, l'œuf, le concombre et les olives en petits tas sur une assiette, avec les sardines au centre.",
+          "Parsème d'herbes, arrose de vinaigrette et assaisonne."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "green beans",
+        "name": {
+          "en": "green beans",
+          "nl": "prinsessenbonen",
+          "fr": "haricots verts"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sardines",
+        "name": {
+          "en": "Sardines",
+          "nl": "Sardines",
+          "fr": "Sardines"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "romaine lettuce",
+        "name": {
+          "en": "Romaine lettuce",
+          "nl": "Romainesla",
+          "fr": "Laitue romaine"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "hard-boiled egg",
+        "name": {
+          "en": "Hard-boiled egg",
+          "nl": "Hardgekookt ei",
+          "fr": "Oeuf dur"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "black olives",
+        "name": {
+          "en": "Black olives",
+          "nl": "Zwarte olijven",
+          "fr": "Olives noires"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 6,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "anchovy fillets",
+        "name": {
+          "en": "Anchovy fillets",
+          "nl": "Ansjovisfilets",
+          "fr": "Filets d'anchois"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/sardine-nicoise-salad/"
+  },
+  {
+    "id": "candida-oven-roasted-artichokes",
+    "prepTime": "15 mins",
+    "cookTime": "35 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Oven-Roasted Artichokes",
+        "subtitle": "With a lemon and olive oil dip",
+        "description": "Halved artichokes roasted face down with garlic and herbs until the hearts are tender. Pull the leaves off one by one and dip them in lemony olive oil.",
+        "instructions": [
+          "Heat the oven to 200 °C and line a baking tray with baking paper.",
+          "Trim the artichokes: cut 2–3 cm off the top and a little off the stem, peel the stem and pull off the tough dark outer leaves.",
+          "Halve them lengthwise, scoop out the hairy choke and dip the cut sides in the lemon juice straight away so they don't brown.",
+          "Lay them cut side up, drizzle each half with a teaspoon of oil and add salt, pepper, garlic and herbs. Turn them cut side down and roast for 30–35 minutes.",
+          "Whisk the leftover lemon juice with 3 tablespoons of oil, season, and serve it alongside for dipping."
+        ]
+      },
+      "nl": {
+        "title": "Artisjokken uit de oven",
+        "subtitle": "Met een dip van citroen en olijfolie",
+        "description": "Gehalveerde artisjokken met de snijkant naar onder geroosterd met look en kruiden tot het hart zacht is. Trek de blaadjes er een voor een af en dip ze in olijfolie met citroen.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en bekleed een bakplaat met bakpapier.",
+          "Maak de artisjokken schoon: snijd er 2–3 cm van de top en een stukje van de steel af, schil de steel en trek de harde donkere buitenste blaadjes eraf.",
+          "Halveer ze in de lengte, schep het harige hooi eruit en dop de snijkanten meteen in het citroensap zodat ze niet bruin worden.",
+          "Leg ze met de snijkant naar boven, sprenkel op elke helft een theelepel olie en voeg zout, peper, look en kruiden toe. Draai ze om met de snijkant naar onder en rooster 30–35 minuten.",
+          "Klop het overgebleven citroensap met 3 eetlepels olie, kruid en dien op als dip."
+        ]
+      },
+      "fr": {
+        "title": "Artichauts rôtis au four",
+        "subtitle": "Avec une sauce citron et huile d'olive",
+        "description": "Des artichauts coupés en deux, rôtis face contre la plaque avec de l'ail et des herbes jusqu'à ce que le cœur soit tendre. Effeuille-les un à un et trempe les feuilles dans une huile d'olive citronnée.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et garnis une plaque de papier cuisson.",
+          "Pare les artichauts : coupe 2–3 cm du haut et un peu de la tige, pèle la tige et retire les feuilles extérieures dures et foncées.",
+          "Coupe-les en deux dans la longueur, retire le foin et trempe aussitôt les faces coupées dans le jus de citron pour qu'elles ne noircissent pas.",
+          "Pose-les face coupée vers le haut, arrose chaque moitié d'une cuillère à café d'huile et ajoute sel, poivre, ail et herbes. Retourne-les face coupée vers le bas et rôtis 30–35 minutes.",
+          "Fouette le reste du jus de citron avec 3 cuillères à soupe d'huile, assaisonne et sers à côté pour tremper."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "artichokes",
+        "name": {
+          "en": "artichokes",
+          "nl": "artisjokken",
+          "fr": "artichauts"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/oven-roasted-artichokes/"
+  },
+  {
+    "id": "candida-cool-sardine-salad",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Sardine, Fennel & Avocado Salad",
+        "subtitle": "Ten minutes from tin to table",
+        "description": "Sardines broken up with crisp fennel, cucumber, red onion and avocado in a dill vinaigrette. A lunch that needs no cooking at all.",
+        "instructions": [
+          "Shake the olive oil, apple cider vinegar and dill together in a jar and season. Keep what you don't use in the fridge.",
+          "Break the drained sardines into pieces with a fork in a bowl.",
+          "Add the fennel, cucumber, red onion, avocado and 2 tablespoons of the vinaigrette and toss.",
+          "Season and finish with chopped dill."
+        ]
+      },
+      "nl": {
+        "title": "Salade van sardines, venkel en avocado",
+        "subtitle": "Tien minuten van blik tot bord",
+        "description": "Sardines in stukjes met knapperige venkel, komkommer, rode ui en avocado in een dillevinaigrette. Een lunch die helemaal niet gekookt hoeft te worden.",
+        "instructions": [
+          "Schud de olijfolie, appelciderazijn en dille samen in een potje en kruid. Bewaar wat je niet gebruikt in de koelkast.",
+          "Breek de uitgelekte sardines met een vork in stukjes in een kom.",
+          "Voeg de venkel, komkommer, rode ui, avocado en 2 eetlepels vinaigrette toe en meng.",
+          "Kruid en werk af met gehakte dille."
+        ]
+      },
+      "fr": {
+        "title": "Salade sardines, fenouil et avocat",
+        "subtitle": "Dix minutes de la boîte à l'assiette",
+        "description": "Des sardines émiettées avec du fenouil croquant, du concombre, de l'oignon rouge et de l'avocat dans une vinaigrette à l'aneth. Un déjeuner sans aucune cuisson.",
+        "instructions": [
+          "Secoue l'huile d'olive, le vinaigre de cidre et l'aneth dans un bocal et assaisonne. Garde le reste au frigo.",
+          "Émiette les sardines égouttées à la fourchette dans un bol.",
+          "Ajoute le fenouil, le concombre, l'oignon rouge, l'avocat et 2 cuillères à soupe de vinaigrette, et mélange.",
+          "Assaisonne et termine avec de l'aneth haché."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "sardines",
+        "name": {
+          "en": "Sardines",
+          "nl": "Sardines",
+          "fr": "Sardines"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "fennel",
+        "name": {
+          "en": "Fennel",
+          "nl": "Venkel",
+          "fr": "Fenouil"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 6,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "dill",
+        "name": {
+          "en": "Dill",
+          "nl": "Dille",
+          "fr": "Aneth"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cool-sardine-salad/"
+  },
+  {
+    "id": "candida-ajvar-dip",
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-ajvar-dip.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Ajvar",
+        "subtitle": "Smoky roasted pepper and aubergine spread",
+        "description": "The Balkan relish: peppers and aubergine roasted until their skins blacken, peeled and blended with garlic, parsley, lemon and olive oil. Keeps a week in the fridge.",
+        "instructions": [
+          "Heat the oven to 240 °C. Roast the aubergine and peppers on a tray for about 30 minutes, until the skins blacken.",
+          "Put them in a covered bowl for 10–15 minutes — the steam loosens the skins — then peel them.",
+          "Blend the flesh with the garlic, parsley, lemon juice and olive oil until smooth and season.",
+          "Finish with a little more parsley. It keeps in a closed jar in the fridge for up to a week."
+        ]
+      },
+      "nl": {
+        "title": "Ajvar",
+        "subtitle": "Rokerige spread van geroosterde paprika en aubergine",
+        "description": "De Balkanspread: paprika en aubergine geroosterd tot het vel zwart wordt, gepeld en gemixt met look, peterselie, citroen en olijfolie. Blijft een week goed in de koelkast.",
+        "instructions": [
+          "Verwarm de oven voor op 240 °C. Rooster de aubergine en paprika's zo'n 30 minuten op een bakplaat, tot het vel zwart wordt.",
+          "Doe ze 10–15 minuten in een afgedekte kom — de stoom maakt het vel los — en pel ze.",
+          "Mix het vruchtvlees met de look, peterselie, het citroensap en de olijfolie glad en kruid.",
+          "Werk af met nog wat peterselie. In een gesloten pot blijft het tot een week goed in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Ajvar",
+        "subtitle": "Une tartinade fumée de poivron et d'aubergine rôtis",
+        "description": "Le condiment des Balkans : poivrons et aubergine rôtis jusqu'à ce que la peau noircisse, pelés et mixés avec ail, persil, citron et huile d'olive. Se garde une semaine au frigo.",
+        "instructions": [
+          "Préchauffe le four à 240 °C. Rôtis l'aubergine et les poivrons sur une plaque environ 30 minutes, jusqu'à ce que la peau noircisse.",
+          "Mets-les 10–15 minutes dans un bol couvert — la vapeur décolle la peau — puis pèle-les.",
+          "Mixe la chair avec l'ail, le persil, le jus de citron et l'huile d'olive jusqu'à ce que ce soit lisse et assaisonne.",
+          "Termine avec un peu de persil. Se garde jusqu'à une semaine au frigo dans un bocal fermé."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggplant",
+        "name": {
+          "en": "eggplant",
+          "nl": "aubergine",
+          "fr": "aubergine"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/ajvar-dip/",
+    "imageCredit": {
+      "author": "Off-shell",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ajvar1_bright.jpg"
+    }
+  },
+  {
+    "id": "candida-buckwheat-ravioli",
+    "prepTime": "35 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Buckwheat Ravioli",
+        "subtitle": "Homemade, filled with meat and greens",
+        "description": "Ravioli made from a buckwheat and egg dough, filled with minced meat, chard and a little nutmeg. A weekend project, served with ajvar from this book.",
+        "instructions": [
+          "For the filling, soften the onion and garlic in the oil over medium heat for about 4 minutes. Brown the minced meat for 5 minutes, add the greens and cook until wilted. Season with nutmeg, salt and pepper and let it cool.",
+          "Whisk the buckwheat flour and salt, then work in the yolks, egg and oil with a fork, adding water a tablespoon at a time until it comes together. Knead briefly and let it rest for 30 minutes.",
+          "Roll the dough out to about 3 mm and cut out 7–8 cm circles. Put a spoon of filling on each, fold over and press the edges firmly to seal.",
+          "Cook in batches in boiling salted water for 5–7 minutes, until tender. Lift them out with a slotted spoon and serve with ajvar."
+        ]
+      },
+      "nl": {
+        "title": "Boekweitravioli",
+        "subtitle": "Zelfgemaakt, gevuld met vlees en groen",
+        "description": "Ravioli van een deeg van boekweit en ei, gevuld met gehakt, snijbiet en een beetje nootmuskaat. Een weekendproject, lekker met de ajvar uit dit boek.",
+        "instructions": [
+          "Voor de vulling stoof je de ui en look zo'n 4 minuten zacht in de olie op middelhoog vuur. Bak het gehakt 5 minuten bruin, voeg het groen toe en laat slinken. Kruid met nootmuskaat, zout en peper en laat afkoelen.",
+          "Klop het boekweitmeel en zout door elkaar en werk er met een vork de dooiers, het ei en de olie door, en voeg eetlepel per eetlepel water toe tot het samenkomt. Kneed kort en laat 30 minuten rusten.",
+          "Rol het deeg uit tot zo'n 3 mm en steek er rondjes van 7–8 cm uit. Leg op elk een lepel vulling, vouw dicht en druk de randen stevig aan.",
+          "Kook ze in porties 5–7 minuten in kokend gezouten water, tot ze zacht zijn. Schep ze eruit met een schuimspaan en dien op met ajvar."
+        ]
+      },
+      "fr": {
+        "title": "Raviolis au sarrasin",
+        "subtitle": "Faits maison, farcis de viande et de verdure",
+        "description": "Des raviolis à la pâte de sarrasin et d'œuf, farcis de viande hachée, de blettes et d'un soupçon de muscade. Un projet du week-end, à servir avec l'ajvar de ce livre.",
+        "instructions": [
+          "Pour la farce, fais fondre l'oignon et l'ail dans l'huile à feu moyen environ 4 minutes. Dore la viande hachée 5 minutes, ajoute la verdure et laisse-la tomber. Assaisonne de muscade, de sel et de poivre et laisse refroidir.",
+          "Fouette la farine de sarrasin et le sel, puis incorpore à la fourchette les jaunes, l'œuf et l'huile, en ajoutant de l'eau cuillère par cuillère jusqu'à ce que la pâte se forme. Pétris brièvement et laisse reposer 30 minutes.",
+          "Étale la pâte à environ 3 mm et découpe des disques de 7–8 cm. Dépose une cuillère de farce sur chacun, replie et presse fermement les bords.",
+          "Cuis-les par fournées 5–7 minutes dans de l'eau bouillante salée, jusqu'à ce qu'ils soient tendres. Retire-les à l'écumoire et sers avec de l'ajvar."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "ground chicken",
+        "name": {
+          "en": "Ground chicken",
+          "nl": "Kipgehakt",
+          "fr": "Poulet haché"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "swiss chard",
+        "name": {
+          "en": "Swiss chard",
+          "nl": "Snijbiet",
+          "fr": "Blettes"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "nutmeg",
+        "name": {
+          "en": "nutmeg",
+          "nl": "nootmuskaat",
+          "fr": "noix de muscade"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 240,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "egg yolk",
+        "name": {
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/buckwheat-ravioli/"
+  },
+  {
+    "id": "candida-rutabaga-nachos",
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Swede Nachos",
+        "subtitle": "Baked swede chips under spiced mince and guacamole",
+        "description": "Thin slices of swede baked into crisp chips, piled with taco-spiced mince, guacamole, yogurt and fresh toppings. A sharing plate for a film night.",
+        "instructions": [
+          "Heat the oven to 200 °C. Toss the swede slices with the oil, lay them in a single layer on oiled trays and salt them.",
+          "Bake for 25–30 minutes, turning halfway, in batches if needed. Drain on kitchen paper — they crisp up as they cool.",
+          "Brown the mince in half a tablespoon of oil over medium heat for about 5 minutes.",
+          "Add the chilli powder, onion powder, cumin, garlic powder, paprika, oregano and salt, pour in the water and simmer uncovered for 15–20 minutes, until the liquid has gone.",
+          "Layer the chips with the meat, guacamole and yogurt, and scatter over red pepper, red onion, spring onion and coriander."
+        ]
+      },
+      "nl": {
+        "title": "Koolraapnacho's",
+        "subtitle": "Gebakken koolraapchips onder gekruid gehakt en guacamole",
+        "description": "Dunne plakjes koolraap gebakken tot krokante chips, met taco-gekruid gehakt, guacamole, yoghurt en frisse toppings erop. Een deelschotel voor een filmavond.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C. Meng de plakjes koolraap met de olie, leg ze in één laag op ingevette bakplaten en bestrooi met zout.",
+          "Bak 25–30 minuten, halverwege omdraaien, in porties als het nodig is. Laat uitlekken op keukenpapier — ze worden krokant terwijl ze afkoelen.",
+          "Bak het gehakt zo'n 5 minuten bruin in een halve eetlepel olie op middelhoog vuur.",
+          "Voeg het chilipoeder, uienpoeder, de komijn, het lookpoeder, paprikapoeder, de oregano en het zout toe, giet het water erbij en laat 15–20 minuten zonder deksel pruttelen tot het vocht weg is.",
+          "Leg de chips in lagen met het vlees, guacamole en yoghurt, en strooi er rode paprika, rode ui, lente-ui en koriander over."
+        ]
+      },
+      "fr": {
+        "title": "Nachos de rutabaga",
+        "subtitle": "Des chips de rutabaga sous de la viande épicée et du guacamole",
+        "description": "De fines tranches de rutabaga cuites en chips croustillantes, garnies de viande hachée épicée façon taco, de guacamole, de yaourt et de garnitures fraîches. Un plat à partager pour une soirée film.",
+        "instructions": [
+          "Préchauffe le four à 200 °C. Enrobe les tranches de rutabaga d'huile, dispose-les en une couche sur des plaques huilées et sale-les.",
+          "Enfourne 25–30 minutes en retournant à mi-cuisson, par fournées si besoin. Égoutte sur du papier absorbant — elles croustillent en refroidissant.",
+          "Dore la viande hachée dans une demi-cuillère à soupe d'huile à feu moyen environ 5 minutes.",
+          "Ajoute le piment, la poudre d'oignon, le cumin, l'ail en poudre, le paprika, l'origan et le sel, verse l'eau et laisse mijoter à découvert 15–20 minutes, jusqu'à ce que le liquide ait disparu.",
+          "Superpose les chips, la viande, le guacamole et le yaourt, et parsème de poivron rouge, d'oignon rouge, d'oignon nouveau et de coriandre."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3.5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "ground beef",
+        "name": {
+          "en": "ground beef",
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/rutabaga-nachos/"
+  },
+  {
+    "id": "candida-chicken-piccata",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "images/candida-chicken-piccata.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Chicken Piccata",
+        "subtitle": "Thin chicken in a lemon, butter and olive sauce",
+        "description": "Flattened chicken seared in a minute, then sauced with stock, lemon, a knob of butter and green olives standing in for capers. Twenty minutes, start to finish.",
+        "instructions": [
+          "Heat the oven to 120 °C if you want to keep the chicken warm. Flatten the chicken to about 5 mm and season.",
+          "Sear it in a tablespoon of oil over medium-high heat, 1–2 minutes a side, in batches. Keep it warm.",
+          "In the same pan, heat another tablespoon of oil over medium heat and fry the onion and garlic for a minute.",
+          "Whisk in the stock and coconut flour and simmer for 2–3 minutes, until it thickens.",
+          "Off the heat, stir in the butter, lemon juice and olives. Pour the sauce over the chicken and finish with parsley and lemon slices."
+        ]
+      },
+      "nl": {
+        "title": "Kippiccata",
+        "subtitle": "Dunne kip in een saus van citroen, boter en olijven",
+        "description": "Platgeslagen kip in een minuutje dichtgeschroeid, en dan in een saus van bouillon, citroen, een klontje boter en groene olijven in plaats van kappertjes. Twintig minuten, van begin tot eind.",
+        "instructions": [
+          "Verwarm de oven voor op 120 °C als je de kip warm wilt houden. Plet de kip tot zo'n 5 mm en kruid.",
+          "Schroei ze in porties dicht in een eetlepel olie op middelhoog tot hoog vuur, 1–2 minuten per kant. Hou warm.",
+          "Verhit in dezelfde pan nog een eetlepel olie op middelhoog vuur en bak de ui en look een minuutje.",
+          "Klop de bouillon en het kokosmeel erdoor en laat 2–3 minuten pruttelen tot het indikt.",
+          "Roer van het vuur de boter, het citroensap en de olijven erdoor. Giet de saus over de kip en werk af met peterselie en schijfjes citroen."
+        ]
+      },
+      "fr": {
+        "title": "Poulet piccata",
+        "subtitle": "Du poulet fin dans une sauce citron, beurre et olives",
+        "description": "Du poulet aplati saisi en une minute, puis nappé d'une sauce au bouillon, au citron, d'une noisette de beurre et d'olives vertes à la place des câpres. Vingt minutes, du début à la fin.",
+        "instructions": [
+          "Préchauffe le four à 120 °C si tu veux garder le poulet au chaud. Aplatis le poulet à environ 5 mm et assaisonne.",
+          "Saisis-le dans une cuillère à soupe d'huile à feu moyen-vif, 1–2 minutes par face, en plusieurs fois. Garde au chaud.",
+          "Dans la même poêle, chauffe une autre cuillère d'huile à feu moyen et fais revenir l'oignon et l'ail une minute.",
+          "Fouette le bouillon et la farine de coco et laisse frémir 2–3 minutes, jusqu'à ce que ça épaississe.",
+          "Hors du feu, ajoute le beurre, le jus de citron et les olives. Nappe le poulet de sauce et termine avec du persil et des rondelles de citron."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken tenders",
+        "name": {
+          "en": "Chicken tenders",
+          "nl": "Kipreepjes",
+          "fr": "Aiguillettes de poulet"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "green olives",
+        "name": {
+          "en": "Green olives",
+          "nl": "Groene olijven",
+          "fr": "Olives vertes"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-piccata/",
+    "imageCredit": {
+      "author": "Jon Sullivan",
+      "licence": "Public domain",
+      "licenceUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken_piccata_dinner_cooking_food.jpg"
+    }
+  },
+  {
+    "id": "candida-green-chili-chicken-stew",
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "soup",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Green Chilli Chicken Stew",
+        "subtitle": "A brothy pot with courgette, squash and lime",
+        "description": "Courgette, squash, onion and celery simmered in chicken broth with shredded chicken, green chillies and oregano, finished with lime. Good for using up leftover roast chicken.",
+        "instructions": [
+          "Heat the oil in a large pot over medium heat and fry the courgette, squash, onion, celery and garlic for about 5 minutes, until they start to soften.",
+          "Pour in the broth and bring it to the boil.",
+          "Turn the heat down, add the chicken, chillies, oregano, salt and pepper, and simmer covered on medium-low for 15–20 minutes.",
+          "Stir in the lime juice just before serving and top with avocado, coriander and lime wedges."
+        ]
+      },
+      "nl": {
+        "title": "Kipstoofpot met groene chili",
+        "subtitle": "Een bouillonrijke pot met courgette, pompoen en limoen",
+        "description": "Courgette, gele courgette, ui en selder gesudderd in kippenbouillon met geplukte kip, groene chilipepers en oregano, afgewerkt met limoen. Ideaal voor restjes gebraden kip.",
+        "instructions": [
+          "Verhit de olie in een grote pot op middelhoog vuur en bak de courgette, gele courgette, ui, selder en look zo'n 5 minuten, tot ze beginnen te verzachten.",
+          "Giet de bouillon erbij en breng aan de kook.",
+          "Zet het vuur lager, voeg de kip, chilipepers, oregano, zout en peper toe en laat met deksel 15–20 minuten sudderen op middellaag vuur.",
+          "Roer vlak voor het opdienen het limoensap erdoor en werk af met avocado, koriander en partjes limoen."
+        ]
+      },
+      "fr": {
+        "title": "Mijoté de poulet au piment vert",
+        "subtitle": "Une marmite bien bouillonnante, courgette, courge et citron vert",
+        "description": "Courgette, courge, oignon et céleri mijotés dans un bouillon de volaille avec du poulet effiloché, des piments verts et de l'origan, fini au citron vert. Parfait pour un reste de poulet rôti.",
+        "instructions": [
+          "Chauffe l'huile dans une grande cocotte à feu moyen et fais revenir la courgette, la courge, l'oignon, le céleri et l'ail environ 5 minutes, jusqu'à ce qu'ils commencent à s'attendrir.",
+          "Verse le bouillon et porte à ébullition.",
+          "Baisse le feu, ajoute le poulet, les piments, l'origan, le sel et le poivre, et laisse mijoter à couvert à feu moyen-doux 15–20 minutes.",
+          "Ajoute le jus de citron vert juste avant de servir et garnis d'avocat, de coriandre et de quartiers de citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow squash",
+        "name": {
+          "en": "Yellow squash",
+          "nl": "Gele courgette",
+          "fr": "Courgette jaune"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 960,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "cooked chicken",
+        "name": {
+          "en": "Cooked chicken",
+          "nl": "Gebakken kip",
+          "fr": "Poulet cuit"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "green chilies",
+        "name": {
+          "en": "Green chilies",
+          "nl": "Groene chilipepers",
+          "fr": "Piments verts"
+        },
+        "amount": 70,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/green-chili-chicken-stew/"
+  },
+  {
+    "id": "candida-chicken-pot-pie",
+    "prepTime": "20 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Chicken Pot Pie",
+        "subtitle": "A creamy filling under coconut-flour biscuits",
+        "description": "Chicken, leek, squash and asparagus in a creamy herb sauce, topped with spoonfuls of coconut-flour batter that bake into golden biscuits. Kippenpasteitje's country cousin.",
+        "instructions": [
+          "Fry the onion, leek, squash and asparagus in the oil over medium heat for 5–6 minutes.",
+          "Add the stock and coconut milk and bring to a gentle boil. Mix the arrowroot with a tablespoon of cold water and stir it in bit by bit until the sauce thickens.",
+          "Season, stir in the chicken, parsley and tarragon, and pour into a 23 × 33 cm dish.",
+          "Heat the oven to 200 °C. Whisk the coconut flour, baking soda, salt and pepper. In another bowl whisk the eggs, melted coconut oil, coconut milk, vinegar and 2 teaspoons of water, then stir the two together.",
+          "Spoon the batter over the filling in 8 heaps and bake for 20–25 minutes, until bubbling and golden. Scatter over parsley."
+        ]
+      },
+      "nl": {
+        "title": "Kippenpastei uit de oven",
+        "subtitle": "Een romige vulling onder koekjes van kokosmeel",
+        "description": "Kip, prei, pompoen en asperges in een romige kruidensaus, met lepels beslag van kokosmeel erop die goudbruin bakken. Het landelijke neefje van het kippenpasteitje.",
+        "instructions": [
+          "Bak de ui, prei, gele courgette en asperges 5–6 minuten in de olie op middelhoog vuur.",
+          "Voeg de bouillon en kokosmelk toe en breng zachtjes aan de kook. Meng de pijlwortel met een eetlepel koud water en roer het beetje bij beetje erdoor tot de saus indikt.",
+          "Kruid, roer de kip, peterselie en dragon erdoor en giet in een ovenschaal van 23 × 33 cm.",
+          "Verwarm de oven voor op 200 °C. Klop het kokosmeel, zuiveringszout, zout en peper door elkaar. Klop in een andere kom de eieren, gesmolten kokosolie, kokosmelk, azijn en 2 theelepels water en meng beide.",
+          "Schep het beslag in 8 hoopjes over de vulling en bak 20–25 minuten, tot het borrelt en goudbruin is. Strooi er peterselie over."
+        ]
+      },
+      "fr": {
+        "title": "Tourte au poulet",
+        "subtitle": "Une garniture crémeuse sous des biscuits à la farine de coco",
+        "description": "Poulet, poireau, courge et asperges dans une sauce crémeuse aux herbes, couverts de cuillerées de pâte à la farine de coco qui dorent en biscuits. La cousine campagnarde du vol-au-vent.",
+        "instructions": [
+          "Fais revenir l'oignon, le poireau, la courge et les asperges dans l'huile à feu moyen 5–6 minutes.",
+          "Ajoute le bouillon et le lait de coco et porte doucement à ébullition. Délaye l'arrow-root dans une cuillère à soupe d'eau froide et ajoute-le petit à petit jusqu'à ce que la sauce épaississe.",
+          "Assaisonne, ajoute le poulet, le persil et l'estragon, et verse dans un plat de 23 × 33 cm.",
+          "Préchauffe le four à 200 °C. Fouette la farine de coco, le bicarbonate, le sel et le poivre. Dans un autre bol, fouette les œufs, l'huile de coco fondue, le lait de coco, le vinaigre et 2 cuillères à café d'eau, puis mélange les deux.",
+          "Dépose la pâte en 8 tas sur la garniture et enfourne 20–25 minutes, jusqu'à ce que ça bouillonne et soit doré. Parsème de persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 140,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow squash",
+        "name": {
+          "en": "Yellow squash",
+          "nl": "Gele courgette",
+          "fr": "Courgette jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "asparagus",
+        "name": {
+          "en": "Asparagus",
+          "nl": "Groene asperges",
+          "fr": "Asperges vertes"
+        },
+        "amount": 8,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "arrowroot powder",
+        "name": {
+          "en": "Arrowroot powder",
+          "nl": "Pijlwortelpoeder",
+          "fr": "Arrow-root"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cooked chicken",
+        "name": {
+          "en": "Cooked chicken",
+          "nl": "Gebakken kip",
+          "fr": "Poulet cuit"
+        },
+        "amount": 400,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tarragon",
+        "name": {
+          "en": "Tarragon",
+          "nl": "Dragon",
+          "fr": "Estragon"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-pot-pie/"
+  },
+  {
+    "id": "candida-quinoa-falafel-with-tzatziki-sauce",
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Quinoa Falafel with Tzatziki",
+        "subtitle": "Crisp herby balls, no chickpeas needed",
+        "description": "Falafel made from quinoa, onion, parsley and warm spices, bound with almond and coconut flour and fried until golden, with a cool homemade tzatziki.",
+        "instructions": [
+          "Mix the quinoa, onion, parsley, garlic, cumin, coriander, almond flour, coconut flour, salt, pepper and eggs in a large bowl.",
+          "Shape into 24 small balls.",
+          "Heat about 1 cm of olive oil in a frying pan and fry the falafel in batches, turning often, until browned all over. Drain on kitchen paper.",
+          "For the tzatziki, squeeze the grated cucumber dry and mix it with the yogurt, garlic, mint, salt, lemon juice and olive oil. It keeps 2–3 days in the fridge.",
+          "Serve the falafel warm with the tzatziki."
+        ]
+      },
+      "nl": {
+        "title": "Quinoafalafel met tzatziki",
+        "subtitle": "Krokante kruidige balletjes, zonder kikkererwten",
+        "description": "Falafel van quinoa, ui, peterselie en warme specerijen, gebonden met amandel- en kokosmeel en goudbruin gebakken, met een frisse zelfgemaakte tzatziki.",
+        "instructions": [
+          "Meng de quinoa, ui, peterselie, look, komijn, koriander, het amandelmeel, kokosmeel, zout, peper en de eieren in een grote kom.",
+          "Vorm er 24 kleine balletjes van.",
+          "Verhit zo'n 1 cm olijfolie in een pan en bak de falafel in porties, vaak keren, tot ze rondom bruin zijn. Laat uitlekken op keukenpapier.",
+          "Voor de tzatziki knijp je de geraspte komkommer droog en meng je hem met de yoghurt, look, munt, zout, het citroensap en de olijfolie. Blijft 2–3 dagen goed in de koelkast.",
+          "Dien de falafel warm op met de tzatziki."
+        ]
+      },
+      "fr": {
+        "title": "Falafels de quinoa et tzatziki",
+        "subtitle": "Des boulettes croustillantes aux herbes, sans pois chiches",
+        "description": "Des falafels de quinoa, d'oignon, de persil et d'épices chaudes, liés aux farines d'amande et de coco et frits jusqu'à être dorés, avec un tzatziki maison bien frais.",
+        "instructions": [
+          "Mélange le quinoa, l'oignon, le persil, l'ail, le cumin, la coriandre, la farine d'amande, la farine de coco, le sel, le poivre et les œufs dans un grand bol.",
+          "Forme 24 petites boulettes.",
+          "Chauffe environ 1 cm d'huile d'olive dans une poêle et fais frire les falafels par fournées, en les retournant souvent, jusqu'à ce qu'ils soient dorés partout. Égoutte sur du papier absorbant.",
+          "Pour le tzatziki, presse le concombre râpé et mélange-le avec le yaourt, l'ail, la menthe, le sel, le jus de citron et l'huile d'olive. Se garde 2–3 jours au frigo.",
+          "Sers les falafels chauds avec le tzatziki."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 370,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 80,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 25,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 200,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/quinoa-falafel-with-tzatziki-sauce/"
+  },
+  {
+    "id": "candida-rutabaga-latkes",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack",
+      "main"
+    ],
+    "image": "images/candida-rutabaga-latkes.jpg",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Swede Latkes",
+        "subtitle": "Crisp grated fritters, no potato",
+        "description": "Grated swede bound with egg, coconut flour and hemp seeds and fried into lacy golden fritters with a hint of nutmeg. Ten of them disappear fast.",
+        "instructions": [
+          "Mix the swede, spring onion, egg, coconut flour, hemp seeds, salt, pepper and a little grated nutmeg.",
+          "Heat a good tablespoon of olive oil in a frying pan over medium-low to medium heat.",
+          "Drop in about 2 tablespoons of the mix per latke, three at a time, and flatten them to 8–10 cm rounds.",
+          "Fry until the edges brown, flip, and fry until golden. Add another tablespoon of oil for each batch.",
+          "Keep the cooked latkes warm on a rack in a low oven while you fry the rest."
+        ]
+      },
+      "nl": {
+        "title": "Koolraaplatkes",
+        "subtitle": "Krokante geraspte koekjes, zonder aardappel",
+        "description": "Geraspte koolraap gebonden met ei, kokosmeel en hennepzaad en gebakken tot kanten goudbruine koekjes met een vleugje nootmuskaat. Tien stuks verdwijnen snel.",
+        "instructions": [
+          "Meng de koolraap, lente-ui, het ei, kokosmeel, hennepzaad, zout, peper en een beetje geraspte nootmuskaat.",
+          "Verhit een flinke eetlepel olijfolie in een pan op middellaag tot middelhoog vuur.",
+          "Schep er per latke zo'n 2 eetlepels mengsel in, drie tegelijk, en druk ze plat tot rondjes van 8–10 cm.",
+          "Bak tot de randjes bruin worden, draai om en bak goudbruin. Voeg voor elke lading een extra eetlepel olie toe.",
+          "Hou de gebakken latkes warm op een rooster in een lauwe oven terwijl je de rest bakt."
+        ]
+      },
+      "fr": {
+        "title": "Latkes de rutabaga",
+        "subtitle": "Des galettes râpées croustillantes, sans pomme de terre",
+        "description": "Du rutabaga râpé lié à l'œuf, à la farine de coco et aux graines de chanvre, frit en galettes dorées et dentelées avec une pointe de muscade. Les dix disparaissent vite.",
+        "instructions": [
+          "Mélange le rutabaga, l'oignon nouveau, l'œuf, la farine de coco, les graines de chanvre, le sel, le poivre et un peu de muscade râpée.",
+          "Chauffe une bonne cuillère à soupe d'huile d'olive dans une poêle à feu moyen-doux à moyen.",
+          "Dépose environ 2 cuillères à soupe de mélange par latke, trois à la fois, et aplatis-les en disques de 8–10 cm.",
+          "Fais frire jusqu'à ce que les bords dorent, retourne et dore l'autre face. Ajoute une cuillère d'huile à chaque fournée.",
+          "Garde les latkes cuits au chaud sur une grille dans un four doux pendant que tu fais le reste."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "hemp seeds",
+        "name": {
+          "en": "Hemp seeds",
+          "nl": "Hennepzaad",
+          "fr": "Graines de chanvre"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "nutmeg",
+        "name": {
+          "en": "nutmeg",
+          "nl": "nootmuskaat",
+          "fr": "noix de muscade"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/rutabaga-latkes/",
+    "imageCredit": {
+      "author": "Jonathunder",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:LatkeFry.JPG"
+    }
+  },
+  {
+    "id": "candida-chia-seed-fennel-crusted-salmon",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Chia & Fennel-Crusted Salmon",
+        "subtitle": "With soft fennel, red onion and lemon",
+        "description": "Salmon under a crunchy crust of ground chia, fennel seed and lemon zest, grilled in minutes, with a pan of softened fennel, onion and pepper alongside.",
+        "instructions": [
+          "Heat the grill.",
+          "Grind the chia and fennel seeds, then mix with the fennel fronds, lemon zest, salt, pepper and a teaspoon of oil.",
+          "Dip the salmon in the egg white, set it on an oiled tray and press the seed mix onto the top.",
+          "Grill about 15 cm under the heat for 6–8 minutes.",
+          "Meanwhile, fry the sliced fennel, red onion, yellow pepper and lemon slices in the rest of the oil over medium heat for 8–10 minutes, until soft and just browning. Serve with the salmon and lemon wedges."
+        ]
+      },
+      "nl": {
+        "title": "Zalm in een korst van chia en venkel",
+        "subtitle": "Met zachte venkel, rode ui en citroen",
+        "description": "Zalm onder een knapperige korst van gemalen chia, venkelzaad en citroenzeste, in een paar minuten gegrild, met een pan zachte venkel, ui en paprika ernaast.",
+        "instructions": [
+          "Verwarm de grill voor.",
+          "Maal de chia- en venkelzaadjes en meng ze met het venkelgroen, de citroenzeste, zout, peper en een theelepel olie.",
+          "Haal de zalm door het eiwit, leg hem op een ingevette bakplaat en druk het zadenmengsel op de bovenkant.",
+          "Grill zo'n 15 cm onder de warmtebron, 6–8 minuten.",
+          "Bak ondertussen de gesneden venkel, rode ui, gele paprika en schijfjes citroen 8–10 minuten in de rest van de olie op middelhoog vuur, tot ze zacht zijn en net kleuren. Dien op met de zalm en partjes citroen."
+        ]
+      },
+      "fr": {
+        "title": "Saumon en croûte de chia et fenouil",
+        "subtitle": "Avec fenouil fondant, oignon rouge et citron",
+        "description": "Du saumon sous une croûte croquante de chia moulu, de graines de fenouil et de zeste de citron, grillé en quelques minutes, avec une poêlée de fenouil, d'oignon et de poivron fondants.",
+        "instructions": [
+          "Préchauffe le gril.",
+          "Moud les graines de chia et de fenouil, puis mélange-les avec les pluches de fenouil, le zeste de citron, le sel, le poivre et une cuillère à café d'huile.",
+          "Trempe le saumon dans le blanc d'œuf, pose-le sur une plaque huilée et presse le mélange de graines sur le dessus.",
+          "Grille à environ 15 cm de la source de chaleur 6–8 minutes.",
+          "Pendant ce temps, fais revenir le fenouil émincé, l'oignon rouge, le poivron jaune et les rondelles de citron dans le reste de l'huile à feu moyen 8–10 minutes, jusqu'à ce qu'ils soient tendres et commencent à dorer. Sers avec le saumon et des quartiers de citron."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "fennel seeds",
+        "name": {
+          "en": "Fennel seeds",
+          "nl": "Venkelzaad",
+          "fr": "Graines de fenouil"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 4,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "egg whites",
+        "name": {
+          "en": "egg whites",
+          "nl": "eiwitten",
+          "fr": "blancs d'oeuf"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "salmon fillet",
+        "name": {
+          "en": "Salmon fillet",
+          "nl": "Zalmfilet",
+          "fr": "Filet de saumon"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "fennel",
+        "name": {
+          "en": "Fennel",
+          "nl": "Venkel",
+          "fr": "Fenouil"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chia-seed-fennel-crusted-salmon/"
+  },
+  {
+    "id": "candida-thai-red-curry-chicken",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Thai Red Curry Chicken",
+        "subtitle": "A weeknight curry in half an hour",
+        "description": "Chicken and sweet peppers simmered in coconut milk with red curry paste and finished with a handful of basil. Check the label: pick a curry paste without sugar or shrimp.",
+        "instructions": [
+          "Heat the coconut oil in a large frying pan over medium heat and fry the onion and peppers for about 5 minutes, until softening.",
+          "Stir in the curry paste for a minute, then add the chicken and fry for another minute.",
+          "Pour in the coconut milk and bring it to the boil.",
+          "Lower the heat and simmer for about 10 minutes, until the vegetables are tender and the chicken is cooked.",
+          "Stir in most of the basil and serve over quinoa with the rest on top. Lovely with the Thai cucumber salad."
+        ]
+      },
+      "nl": {
+        "title": "Thaise rode curry met kip",
+        "subtitle": "Een curry voor doordeweeks, in een half uur",
+        "description": "Kip en zoete paprika gesudderd in kokosmelk met rode currypasta en afgewerkt met een handvol basilicum. Kijk op het etiket: kies een currypasta zonder suiker of garnalen.",
+        "instructions": [
+          "Verhit de kokosolie in een grote pan op middelhoog vuur en bak de ui en paprika zo'n 5 minuten, tot ze zacht beginnen te worden.",
+          "Roer de currypasta er een minuutje door, voeg de kip toe en bak nog een minuut.",
+          "Giet de kokosmelk erbij en breng aan de kook.",
+          "Zet het vuur lager en laat zo'n 10 minuten sudderen, tot de groenten zacht zijn en de kip gaar.",
+          "Roer het grootste deel van de basilicum erdoor en dien op met quinoa, met de rest erbovenop. Heerlijk met de Thaise komkommersalade."
+        ]
+      },
+      "fr": {
+        "title": "Curry rouge thaï au poulet",
+        "subtitle": "Un curry de semaine en une demi-heure",
+        "description": "Du poulet et des poivrons mijotés dans le lait de coco avec de la pâte de curry rouge, finis d'une poignée de basilic. Vérifie l'étiquette : choisis une pâte de curry sans sucre ni crevette.",
+        "instructions": [
+          "Chauffe l'huile de coco dans une grande poêle à feu moyen et fais revenir l'oignon et les poivrons environ 5 minutes, jusqu'à ce qu'ils s'attendrissent.",
+          "Ajoute la pâte de curry une minute, puis le poulet et poursuis une minute.",
+          "Verse le lait de coco et porte à ébullition.",
+          "Baisse le feu et laisse mijoter une dizaine de minutes, jusqu'à ce que les légumes soient tendres et le poulet cuit.",
+          "Ajoute la majeure partie du basilic et sers sur du quinoa avec le reste par-dessus. Délicieux avec la salade de concombre thaïe."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red curry paste",
+        "name": {
+          "en": "Red curry paste",
+          "nl": "Rode currypasta",
+          "fr": "Pâte de curry rouge"
+        },
+        "amount": 2.5,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 10,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 370,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/thai-red-curry-chicken/"
+  },
+  {
+    "id": "candida-thai-cucumber-salad",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Thai Cucumber Salad",
+        "subtitle": "Sweet, sour and a little hot",
+        "description": "Thin cucumber and red onion in a quick sweet-sour dressing of apple cider vinegar and stevia, with chilli flakes on top. The cooling side for any curry.",
+        "instructions": [
+          "Slice the cucumber and red onion thinly and put them in a bowl.",
+          "Whisk the vinegar, stevia, salt and white pepper until dissolved.",
+          "Pour it over the vegetables and stir.",
+          "Sprinkle with chilli flakes. Serve straight away, or let it sit in the fridge for an hour or two."
+        ]
+      },
+      "nl": {
+        "title": "Thaise komkommersalade",
+        "subtitle": "Zoet, zuur en een beetje pittig",
+        "description": "Dunne komkommer en rode ui in een snelle zoetzure dressing van appelciderazijn en stevia, met chilivlokken erover. Het frisse bijgerecht bij elke curry.",
+        "instructions": [
+          "Snijd de komkommer en rode ui in dunne plakjes en doe ze in een kom.",
+          "Klop de azijn, stevia, zout en witte peper tot alles opgelost is.",
+          "Giet over de groenten en roer.",
+          "Strooi er chilivlokken over. Meteen opdienen, of een uurtje of twee in de koelkast laten trekken."
+        ]
+      },
+      "fr": {
+        "title": "Salade de concombre thaïe",
+        "subtitle": "Sucrée, acidulée et un peu piquante",
+        "description": "Du concombre et de l'oignon rouge émincés dans une sauce aigre-douce minute au vinaigre de cidre et à la stévia, avec du piment par-dessus. L'accompagnement rafraîchissant de tout curry.",
+        "instructions": [
+          "Émince finement le concombre et l'oignon rouge et mets-les dans un bol.",
+          "Fouette le vinaigre, la stévia, le sel et le poivre blanc jusqu'à dissolution.",
+          "Verse sur les légumes et mélange.",
+          "Parsème de piment. Sers aussitôt, ou laisse reposer une heure ou deux au frigo."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "white pepper",
+        "name": {
+          "en": "White pepper",
+          "nl": "Witte peper",
+          "fr": "Poivre blanc"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/thai-cucumber-salad/"
+  },
+  {
+    "id": "candida-chicken-fajita-bowl",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Chicken Fajita Bowl",
+        "subtitle": "Homemade fajita spice and an avocado crema",
+        "description": "Spiced chicken and charred peppers and onion over greens and quinoa, with avocado and a green crema blended from avocado, coriander and lemon. Mix a jar of the spice for next time.",
+        "instructions": [
+          "Shake the chilli powder, onion powder, cumin, garlic powder, paprika, oregano and salt together in a jar.",
+          "Heat a tablespoon of oil in a large frying pan over medium-high heat and fry the peppers and onion for about 5 minutes. Add the garlic for a minute, then the coconut aminos, salt and pepper. Tip out of the pan.",
+          "Toss the chicken in 1–2 tablespoons of the spice mix, add another tablespoon of oil to the pan and cook until no pink remains. Slice it.",
+          "Blend the avocado, coriander and lemon juice for the crema, thinning with water and seasoning with salt.",
+          "Build the bowls on the greens: chicken, peppers, quinoa and avocado, topped with spring onion, coriander and the crema."
+        ]
+      },
+      "nl": {
+        "title": "Kipfajitabowl",
+        "subtitle": "Zelfgemaakte fajitakruiden en een avocadocrème",
+        "description": "Gekruide kip en geblakerde paprika en ui op sla en quinoa, met avocado en een groene crème van avocado, koriander en citroen. Maak meteen een potje kruiden voor de volgende keer.",
+        "instructions": [
+          "Schud het chilipoeder, uienpoeder, de komijn, het lookpoeder, paprikapoeder, de oregano en het zout samen in een potje.",
+          "Verhit een eetlepel olie in een grote pan op middelhoog tot hoog vuur en bak de paprika en ui zo'n 5 minuten. Voeg de look toe voor een minuut, dan de kokosaminos, zout en peper. Schep uit de pan.",
+          "Wentel de kip in 1–2 eetlepels kruidenmix, doe nog een eetlepel olie in de pan en bak tot er geen roze meer te zien is. Snijd in reepjes.",
+          "Mix de avocado, koriander en het citroensap voor de crème, verdun met water en kruid met zout.",
+          "Bouw de bowls op het groen: kip, paprika, quinoa en avocado, met lente-ui, koriander en de crème erop."
+        ]
+      },
+      "fr": {
+        "title": "Bol fajitas au poulet",
+        "subtitle": "Épices fajitas maison et crème d'avocat",
+        "description": "Du poulet épicé, des poivrons et de l'oignon saisis sur de la verdure et du quinoa, avec de l'avocat et une crème verte mixée d'avocat, de coriandre et de citron. Prépare un bocal d'épices pour la prochaine fois.",
+        "instructions": [
+          "Secoue le piment, la poudre d'oignon, le cumin, l'ail en poudre, le paprika, l'origan et le sel dans un bocal.",
+          "Chauffe une cuillère à soupe d'huile dans une grande poêle à feu moyen-vif et fais sauter les poivrons et l'oignon environ 5 minutes. Ajoute l'ail une minute, puis les aminos de coco, le sel et le poivre. Réserve.",
+          "Enrobe le poulet d'1–2 cuillères à soupe d'épices, ajoute une autre cuillère d'huile dans la poêle et cuis jusqu'à ce qu'il n'y ait plus de rose. Tranche-le.",
+          "Mixe l'avocat, la coriandre et le jus de citron pour la crème, allonge d'eau et sale.",
+          "Monte les bols sur la verdure : poulet, poivrons, quinoa et avocat, garnis d'oignon nouveau, de coriandre et de crème."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 370,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-fajita-bowl/"
+  },
+  {
+    "id": "candida-quinoa-rutabaga-patties",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Quinoa & Swede Patties",
+        "subtitle": "Golden turmeric patties baked, not fried",
+        "description": "Quinoa and grated swede with shallot, garlic, herbs and turmeric, baked on a tray until golden on both sides. Eat them plain or with a dollop of yogurt.",
+        "instructions": [
+          "Heat the oven to 200 °C and brush a baking tray with the oil.",
+          "Mix the quinoa, swede, shallot, garlic, chives, parsley, eggs, turmeric, salt and pepper in a large bowl.",
+          "Scoop heaps of about 3 tablespoons onto the tray and flatten them with a fork to about 2–3 cm.",
+          "Bake for 10 minutes, flip carefully and bake 10 minutes more.",
+          "Serve with yogurt and fresh herbs."
+        ]
+      },
+      "nl": {
+        "title": "Burgertjes van quinoa en koolraap",
+        "subtitle": "Goudgele burgertjes met kurkuma, gebakken in de oven",
+        "description": "Quinoa en geraspte koolraap met sjalot, look, kruiden en kurkuma, op een bakplaat gebakken tot ze aan beide kanten goudbruin zijn. Lekker zo, of met een lepel yoghurt.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en bestrijk een bakplaat met de olie.",
+          "Meng de quinoa, koolraap, sjalot, look, bieslook, peterselie, eieren, kurkuma, zout en peper in een grote kom.",
+          "Schep er hoopjes van zo'n 3 eetlepels op de plaat en druk ze met een vork plat tot 2–3 cm.",
+          "Bak 10 minuten, draai voorzichtig om en bak nog 10 minuten.",
+          "Dien op met yoghurt en verse kruiden."
+        ]
+      },
+      "fr": {
+        "title": "Galettes de quinoa et rutabaga",
+        "subtitle": "Des galettes dorées au curcuma, cuites au four",
+        "description": "Du quinoa et du rutabaga râpé avec échalote, ail, herbes et curcuma, cuits sur une plaque jusqu'à être dorés des deux côtés. À manger nature ou avec une cuillère de yaourt.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et badigeonne une plaque d'huile.",
+          "Mélange le quinoa, le rutabaga, l'échalote, l'ail, la ciboulette, le persil, les œufs, le curcuma, le sel et le poivre dans un grand bol.",
+          "Dépose des tas d'environ 3 cuillères à soupe sur la plaque et aplatis-les à la fourchette à 2–3 cm.",
+          "Enfourne 10 minutes, retourne délicatement et poursuis 10 minutes.",
+          "Sers avec du yaourt et des herbes fraîches."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 185,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 140,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 10,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/quinoa-rutabaga-patties/"
+  },
+  {
+    "id": "candida-candida-coleslaw",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-candida-coleslaw.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Sugar-Free Coleslaw",
+        "subtitle": "A yogurt dressing instead of mayonnaise",
+        "description": "Red and green cabbage with grated radish and celery seed in a tangy yogurt dressing. All the crunch of coleslaw, none of the sugar or mayonnaise.",
+        "instructions": [
+          "Put the cabbage, radish and celery seed in a bowl.",
+          "Whisk the yogurt, vinegar, lemon juice, stevia, salt and pepper together.",
+          "Pour the dressing over the cabbage and toss well."
+        ]
+      },
+      "nl": {
+        "title": "Koolsla zonder suiker",
+        "subtitle": "Een yoghurtdressing in plaats van mayonaise",
+        "description": "Rode en groene kool met geraspte radijs en selderzaad in een frisse yoghurtdressing. Al het knapperige van koolsla, zonder de suiker of mayonaise.",
+        "instructions": [
+          "Doe de kool, radijs en het selderzaad in een kom.",
+          "Klop de yoghurt, azijn, het citroensap, stevia, zout en peper samen.",
+          "Giet de dressing over de kool en meng goed."
+        ]
+      },
+      "fr": {
+        "title": "Coleslaw sans sucre",
+        "subtitle": "Une sauce au yaourt au lieu de la mayonnaise",
+        "description": "Du chou rouge et vert avec du radis râpé et des graines de céleri dans une sauce acidulée au yaourt. Tout le croquant du coleslaw, sans sucre ni mayonnaise.",
+        "instructions": [
+          "Mets le chou, le radis et les graines de céleri dans un bol.",
+          "Fouette ensemble le yaourt, le vinaigre, le jus de citron, la stévia, le sel et le poivre.",
+          "Verse la sauce sur le chou et mélange bien."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "green cabbage",
+        "name": {
+          "en": "Green cabbage",
+          "nl": "Groene kool",
+          "fr": "Chou vert"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red cabbage",
+        "name": {
+          "en": "Red cabbage",
+          "nl": "Rode kool",
+          "fr": "Chou rouge"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "radish",
+        "name": {
+          "en": "Radish",
+          "nl": "Radijs",
+          "fr": "Radis"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery seed",
+        "name": {
+          "en": "Celery seed",
+          "nl": "Selderzaad",
+          "fr": "Graines de céleri"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/candida-coleslaw/",
+    "imageCredit": {
+      "author": "Anagoria",
+      "licence": "CC BY 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2015-12-20_Spitzkohlsalat_mit_M%C3%B6hren_anagoria.JPG"
+    }
+  },
+  {
+    "id": "candida-caraway-seed-hamburger-buns",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 3,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Caraway Burger Buns",
+        "subtitle": "Grain-light buns that hold a burger",
+        "description": "Light buns of almond and buckwheat flour lifted with whipped egg white and topped with caraway. Bake them in pastry rings so they keep a proper bun shape.",
+        "instructions": [
+          "Heat the oven to 180 °C. Oil three pastry rings and set them on a tray lined with baking paper.",
+          "Whisk the egg whites to soft peaks.",
+          "Whisk the yolks with the olive oil.",
+          "Mix the almond flour, buckwheat flour, flaxseed and salt, then fold in the yolk mixture and the whites until just combined.",
+          "Fill the rings, sprinkle with caraway and bake for 15–18 minutes, until firm. Let them cool, run a knife around the rings to release them, and slice in half."
+        ]
+      },
+      "nl": {
+        "title": "Hamburgerbroodjes met karwij",
+        "subtitle": "Broodjes met weinig graan die een burger houden",
+        "description": "Lichte broodjes van amandel- en boekweitmeel, luchtig door opgeklopt eiwit en met karwijzaad erop. Bak ze in bakringen, dan houden ze een echte broodjesvorm.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C. Vet drie bakringen in en zet ze op een bakplaat met bakpapier.",
+          "Klop de eiwitten tot zachte pieken.",
+          "Klop de dooiers met de olijfolie.",
+          "Meng het amandelmeel, boekweitmeel, lijnzaad en zout, en spatel er dan het dooiermengsel en het eiwit door tot het net gemengd is.",
+          "Vul de ringen, bestrooi met karwijzaad en bak 15–18 minuten, tot ze stevig zijn. Laat afkoelen, ga met een mes langs de ringen om ze los te maken en snijd doormidden."
+        ]
+      },
+      "fr": {
+        "title": "Pains à burger au carvi",
+        "subtitle": "Des pains pauvres en céréales qui tiennent un burger",
+        "description": "Des pains légers aux farines d'amande et de sarrasin, gonflés aux blancs montés et parsemés de carvi. Cuis-les dans des cercles à pâtisserie pour qu'ils gardent une vraie forme de pain.",
+        "instructions": [
+          "Préchauffe le four à 180 °C. Huile trois cercles à pâtisserie et pose-les sur une plaque garnie de papier cuisson.",
+          "Monte les blancs en neige souple.",
+          "Fouette les jaunes avec l'huile d'olive.",
+          "Mélange la farine d'amande, la farine de sarrasin, le lin et le sel, puis incorpore délicatement le mélange aux jaunes et les blancs.",
+          "Remplis les cercles, parsème de carvi et enfourne 15–18 minutes, jusqu'à ce qu'ils soient fermes. Laisse refroidir, passe un couteau le long des cercles pour démouler et coupe en deux."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "caraway seeds",
+        "name": {
+          "en": "Caraway seeds",
+          "nl": "Karwijzaad",
+          "fr": "Graines de carvi"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/caraway-seed-hamburger-buns/"
+  },
+  {
+    "id": "candida-walnut-sauce-grilled-chicken",
+    "prepTime": "20 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Chicken with Saffron Walnut Sauce",
+        "subtitle": "A Georgian-style nut sauce with warm spices",
+        "description": "Browned chicken sliced and spooned over with a rich sauce of ground walnuts simmered in stock with saffron, paprika, coriander and fenugreek and sharpened with vinegar.",
+        "instructions": [
+          "Grind the walnuts, garlic, chilli flakes, coriander leaves and salt coarsely in a food processor.",
+          "Heat the stock in a saucepan over medium heat, add the walnut mix, saffron, paprika, ground coriander and fenugreek and bring to a simmer.",
+          "Turn the heat to medium-low and simmer for 5 minutes. Take it off the heat and stir in the vinegar.",
+          "Heat a little oil in a frying pan over medium-high heat and cook the chicken for 7–10 minutes, until browned all over and cooked through.",
+          "Slice the chicken and spoon the sauce over. Leftover sauce keeps covered in the fridge."
+        ]
+      },
+      "nl": {
+        "title": "Kip met walnotensaus en saffraan",
+        "subtitle": "Een notensaus op Georgische wijze, met warme specerijen",
+        "description": "Gebakken kip in plakjes met een rijke saus van gemalen walnoten gesudderd in bouillon met saffraan, paprika, koriander en fenegriek en opgefrist met azijn.",
+        "instructions": [
+          "Maal de walnoten, look, chilivlokken, korianderblaadjes en het zout grof in de keukenrobot.",
+          "Verwarm de bouillon in een steelpan op middelhoog vuur, voeg het notenmengsel, de saffraan, het paprikapoeder, de gemalen koriander en fenegriek toe en breng aan de kook.",
+          "Zet het vuur middellaag en laat 5 minuten sudderen. Haal van het vuur en roer de azijn erdoor.",
+          "Verhit wat olie in een pan op middelhoog tot hoog vuur en bak de kip 7–10 minuten, tot ze rondom bruin en gaar is.",
+          "Snijd de kip in plakjes en schep de saus erover. Overgebleven saus blijft afgedekt goed in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Poulet sauce aux noix et au safran",
+        "subtitle": "Une sauce aux noix à la géorgienne, aux épices chaudes",
+        "description": "Du poulet doré tranché et nappé d'une sauce riche de noix moulues mijotées dans le bouillon avec safran, paprika, coriandre et fenugrec, relevée de vinaigre.",
+        "instructions": [
+          "Moud grossièrement les noix, l'ail, le piment, les feuilles de coriandre et le sel au robot.",
+          "Chauffe le bouillon dans une casserole à feu moyen, ajoute le mélange aux noix, le safran, le paprika, la coriandre moulue et le fenugrec et porte à frémissement.",
+          "Baisse à feu moyen-doux et laisse mijoter 5 minutes. Retire du feu et ajoute le vinaigre.",
+          "Chauffe un peu d'huile dans une poêle à feu moyen-vif et cuis le poulet 7–10 minutes, jusqu'à ce qu'il soit doré de tous côtés et cuit.",
+          "Tranche le poulet et nappe-le de sauce. Le reste de sauce se garde couvert au frigo."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "walnuts",
+        "name": {
+          "en": "walnuts",
+          "nl": "walnoten",
+          "fr": "noix"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 4,
+        "unit": "sprig",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 300,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "saffron",
+        "name": {
+          "en": "Saffron",
+          "nl": "Saffraan",
+          "fr": "Safran"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Ground coriander",
+          "nl": "Korianderpoeder",
+          "fr": "Coriandre moulue"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "ground fenugreek",
+        "name": {
+          "en": "Ground fenugreek",
+          "nl": "Fenegriekpoeder",
+          "fr": "Fenugrec moulu"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/walnut-sauce-grilled-chicken/"
+  },
+  {
+    "id": "candida-mindful-veggie-bowl",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Roasted Vegetable Bowl",
+        "subtitle": "Whatever's in the fridge, with a turmeric spice mix",
+        "description": "A tray of roasted vegetables seasoned with turmeric, cayenne and curry, tossed with fresh chard and almonds. The simplest dinner in the book, and endlessly variable.",
+        "instructions": [
+          "Heat the oven to 200 °C. Shake the salt, turmeric, cayenne and curry powder together in a jar.",
+          "Spread the vegetables and garlic on a baking tray, drizzle with the oil and sprinkle over a teaspoon of the spice mix.",
+          "Roast for 10–15 minutes, until the edges brown.",
+          "Toss with the chard and almonds and serve in deep bowls, with a drizzle of oil, coconut aminos or lemon juice and some chilli flakes."
+        ]
+      },
+      "nl": {
+        "title": "Bowl met geroosterde groenten",
+        "subtitle": "Wat er in de koelkast ligt, met een kruidenmix met kurkuma",
+        "description": "Een plaat geroosterde groenten gekruid met kurkuma, cayenne en curry, gemengd met verse snijbiet en amandelen. Het eenvoudigste avondeten uit het boek, en eindeloos te variëren.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C. Schud het zout, de kurkuma, cayenne en currypoeder samen in een potje.",
+          "Spreid de groenten en look uit op een bakplaat, sprenkel er de olie over en strooi er een theelepel kruidenmix over.",
+          "Rooster 10–15 minuten, tot de randjes bruin worden.",
+          "Meng met de snijbiet en amandelen en dien op in diepe kommen, met een scheutje olie, kokosaminos of citroensap en wat chilivlokken."
+        ]
+      },
+      "fr": {
+        "title": "Bol de légumes rôtis",
+        "subtitle": "Ce qu'il y a au frigo, avec un mélange d'épices au curcuma",
+        "description": "Une plaque de légumes rôtis assaisonnés de curcuma, de cayenne et de curry, mêlés à des blettes fraîches et des amandes. Le dîner le plus simple du livre, et infiniment variable.",
+        "instructions": [
+          "Préchauffe le four à 200 °C. Secoue le sel, le curcuma, le cayenne et le curry dans un bocal.",
+          "Étale les légumes et l'ail sur une plaque, arrose d'huile et saupoudre d'une cuillère à café du mélange d'épices.",
+          "Rôtis 10–15 minutes, jusqu'à ce que les bords dorent.",
+          "Mélange avec les blettes et les amandes et sers dans des bols creux, avec un filet d'huile, d'aminos de coco ou de jus de citron et un peu de piment."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 200,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "broccoli",
+        "name": {
+          "en": "Broccoli",
+          "nl": "Broccoli",
+          "fr": "Brocoli"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "celery stalks",
+        "name": {
+          "en": "Celery stalks",
+          "nl": "Bladselder",
+          "fr": "Céleri branche"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "curry powder",
+        "name": {
+          "en": "curry powder",
+          "nl": "kerriepoeder",
+          "fr": "poudre de curry"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "swiss chard",
+        "name": {
+          "en": "Swiss chard",
+          "nl": "Snijbiet",
+          "fr": "Blettes"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/mindful-veggie-bowl/"
+  },
+  {
+    "id": "candida-zucchini-noodle-salad-grilled-steak",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Courgette Noodle Salad with Steak",
+        "subtitle": "Cool noodles, warm steak, lots of herbs",
+        "description": "Raw courgette noodles tossed with spring onion and a handful of mint, coriander and parsley, dressed with olive oil and coconut aminos and topped with slices of grilled steak.",
+        "instructions": [
+          "Grill or pan-fry the steak to your liking, let it rest and slice it thinly.",
+          "Mix the courgette noodles, spring onions and most of the herbs in a large bowl. Cover and keep in the fridge until you eat.",
+          "Shake the olive oil, coconut aminos, salt and pepper together in a jar.",
+          "Just before serving, pour the dressing over the noodles and toss. Lay the steak on top and finish with the rest of the herbs."
+        ]
+      },
+      "nl": {
+        "title": "Courgettinoedelsalade met steak",
+        "subtitle": "Frisse noedels, warme steak, veel kruiden",
+        "description": "Rauwe courgettinoedels gemengd met lente-ui en een handvol munt, koriander en peterselie, aangemaakt met olijfolie en kokosaminos en met reepjes gegrilde steak erop.",
+        "instructions": [
+          "Grill of bak de steak zoals je hem graag hebt, laat rusten en snijd in dunne reepjes.",
+          "Meng de courgettinoedels, lente-ui en het grootste deel van de kruiden in een grote kom. Dek af en zet in de koelkast tot je eet.",
+          "Schud de olijfolie, kokosaminos, zout en peper samen in een potje.",
+          "Giet de dressing vlak voor het opdienen over de noedels en meng. Leg de steak erop en werk af met de rest van de kruiden."
+        ]
+      },
+      "fr": {
+        "title": "Salade de nouilles de courgette au steak",
+        "subtitle": "Nouilles fraîches, steak chaud, beaucoup d'herbes",
+        "description": "Des nouilles de courgette crue mêlées à l'oignon nouveau et à une poignée de menthe, de coriandre et de persil, assaisonnées d'huile d'olive et d'aminos de coco et garnies de tranches de steak grillé.",
+        "instructions": [
+          "Grille ou poêle le steak à ton goût, laisse-le reposer et tranche-le finement.",
+          "Mélange les nouilles de courgette, les oignons nouveaux et la plupart des herbes dans un grand saladier. Couvre et garde au frigo jusqu'au repas.",
+          "Secoue l'huile d'olive, les aminos de coco, le sel et le poivre dans un bocal.",
+          "Juste avant de servir, verse la sauce sur les nouilles et mélange. Pose le steak dessus et termine avec le reste des herbes."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "beef steak",
+        "name": {
+          "en": "Beef steak",
+          "nl": "Rundersteak",
+          "fr": "Steak de bœuf"
+        },
+        "amount": 250,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/zucchini-noodle-salad-grilled-steak/"
+  },
+  {
+    "id": "candida-spanish-cucumber-rolls",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 2,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Spanish Cucumber Rolls",
+        "subtitle": "Saffron yogurt, roasted pepper and olives, tied with chives",
+        "description": "Thin ribbons of cucumber rolled around a saffron-scented yogurt filling with roasted pepper, olives and toasted almonds, each one tied with a chive. An elegant little starter.",
+        "instructions": [
+          "Slice the cucumber lengthwise into thin strips with a mandoline and lay them on kitchen paper to drain.",
+          "Stir the yogurt with the roasted garlic, red pepper, olives, almonds, parsley, salt and a tiny pinch of saffron. Season with pepper.",
+          "Put a rounded teaspoon of filling at one end of each strip and roll it up.",
+          "Tie each roll with a chive and chill before serving."
+        ]
+      },
+      "nl": {
+        "title": "Spaanse komkommerrolletjes",
+        "subtitle": "Saffraanyoghurt, geroosterde paprika en olijven, dichtgebonden met bieslook",
+        "description": "Dunne linten komkommer opgerold rond een vulling van yoghurt met saffraan, geroosterde paprika, olijven en geroosterde amandelen, elk dichtgebonden met een sprietje bieslook. Een elegant voorgerechtje.",
+        "instructions": [
+          "Snijd de komkommer met een mandoline in de lengte in dunne linten en laat ze uitlekken op keukenpapier.",
+          "Roer de yoghurt met de geroosterde look, rode paprika, olijven, amandelen, peterselie, zout en een heel klein snuifje saffraan. Kruid met peper.",
+          "Leg een bolle theelepel vulling aan het ene uiteinde van elk lint en rol op.",
+          "Bind elk rolletje dicht met een sprietje bieslook en laat opstijven in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Roulés de concombre à l'espagnole",
+        "subtitle": "Yaourt au safran, poivron rôti et olives, noués à la ciboulette",
+        "description": "De fins rubans de concombre roulés autour d'une farce au yaourt parfumée au safran, avec poivron rôti, olives et amandes grillées, chacun noué d'un brin de ciboulette. Une petite entrée élégante.",
+        "instructions": [
+          "Taille le concombre en fines lanières dans la longueur à la mandoline et égoutte-les sur du papier absorbant.",
+          "Mélange le yaourt avec l'ail rôti, le poivron rouge, les olives, les amandes, le persil, le sel et une toute petite pincée de safran. Poivre.",
+          "Dépose une cuillère à café bombée de farce au bout de chaque lanière et roule.",
+          "Noue chaque roulé avec un brin de ciboulette et mets au frais avant de servir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "roasted red pepper",
+        "name": {
+          "en": "Roasted red pepper",
+          "nl": "Geroosterde rode paprika",
+          "fr": "Poivron rouge grillé"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "black olives",
+        "name": {
+          "en": "Black olives",
+          "nl": "Zwarte olijven",
+          "fr": "Olives noires"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "saffron",
+        "name": {
+          "en": "Saffron",
+          "nl": "Saffraan",
+          "fr": "Safran"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chives",
+        "name": {
+          "en": "Chives",
+          "nl": "Bieslook",
+          "fr": "Ciboulette"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/spanish-cucumber-rolls/"
+  },
+  {
+    "id": "candida-spring-salad-mustard-tarragon-dressing",
+    "prepTime": "15 mins",
+    "cookTime": "5 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Spring Salad with Mustard-Tarragon Dressing",
+        "subtitle": "Asparagus, radish and pumpkin seeds",
+        "description": "Tender asparagus, peppery radishes and young leaves in a sharp mustard and tarragon dressing, with toasted pumpkin seeds for crunch. Made for asparagus season.",
+        "instructions": [
+          "Peel the asparagus below the tips and cut it diagonally into 5 cm pieces.",
+          "Simmer them in salted water until a fork goes in easily, then let them cool.",
+          "Shake the mustard powder, shallot, tarragon, vinegar, olive oil, salt and pepper together in a jar.",
+          "Pour some dressing into a bowl, add the asparagus, leaves and sliced radishes and toss. Scatter over the pumpkin seeds."
+        ]
+      },
+      "nl": {
+        "title": "Lentesalade met mosterd-dragondressing",
+        "subtitle": "Asperges, radijsjes en pompoenpitten",
+        "description": "Malse asperges, pittige radijsjes en jonge blaadjes in een frisse dressing van mosterd en dragon, met geroosterde pompoenpitten voor de knapperigheid. Gemaakt voor het aspergeseizoen.",
+        "instructions": [
+          "Schil de asperges onder de kopjes en snijd ze schuin in stukken van 5 cm.",
+          "Laat ze zachtjes koken in gezouten water tot een vork er makkelijk in gaat en laat afkoelen.",
+          "Schud het mosterdpoeder, de sjalot, dragon, azijn, olijfolie, zout en peper samen in een potje.",
+          "Giet wat dressing in een kom, voeg de asperges, blaadjes en gesneden radijsjes toe en meng. Strooi de pompoenpitten erover."
+        ]
+      },
+      "fr": {
+        "title": "Salade de printemps, sauce moutarde-estragon",
+        "subtitle": "Asperges, radis et graines de courge",
+        "description": "Des asperges tendres, des radis piquants et de jeunes pousses dans une sauce vive à la moutarde et à l'estragon, avec des graines de courge grillées pour le croquant. Faite pour la saison des asperges.",
+        "instructions": [
+          "Pèle les asperges sous les pointes et coupe-les en biais en tronçons de 5 cm.",
+          "Fais-les frémir dans de l'eau salée jusqu'à ce qu'une fourchette s'y enfonce facilement, puis laisse refroidir.",
+          "Secoue la moutarde en poudre, l'échalote, l'estragon, le vinaigre, l'huile d'olive, le sel et le poivre dans un bocal.",
+          "Verse un peu de sauce dans un saladier, ajoute les asperges, les pousses et les radis émincés et mélange. Parsème de graines de courge."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "asparagus",
+        "name": {
+          "en": "Asparagus",
+          "nl": "Groene asperges",
+          "fr": "Asperges vertes"
+        },
+        "amount": 12,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "radishes",
+        "name": {
+          "en": "Radishes",
+          "nl": "Radijsjes",
+          "fr": "Radis"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mustard powder",
+        "name": {
+          "en": "Mustard powder",
+          "nl": "Mosterdpoeder",
+          "fr": "Moutarde en poudre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tarragon",
+        "name": {
+          "en": "Tarragon",
+          "nl": "Dragon",
+          "fr": "Estragon"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/spring-salad-mustard-tarragon-dressing/"
+  },
+  {
+    "id": "candida-roasted-chicken-with-vegetables",
+    "prepTime": "15 mins",
+    "cookTime": "1 hr 15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Roast Chicken with Fennel & Swede",
+        "subtitle": "A whole chicken in pieces, on a bed of vegetables",
+        "description": "Chicken pieces rubbed with a paprika herb mix and roasted on onion, fennel, pepper and swede with lemon, garlic, olives and thyme. Sunday dinner in one tin.",
+        "instructions": [
+          "Shake the paprika, garlic powder, onion powder, salt, pepper, rosemary, oregano and cayenne together in a jar.",
+          "Heat the oven to 220 °C. Spread the onion, fennel, pepper and swede in a roasting tin.",
+          "Lay the chicken on top and add 2 tablespoons of the spice mix, the olive oil, lemon, garlic, olives, thyme and stock.",
+          "Roast for 15 minutes and baste with the juices. Turn the oven down to 190 °C and roast for about an hour more, until the juices run clear (74 °C inside).",
+          "Let it rest for 10 minutes and finish with fresh thyme."
+        ]
+      },
+      "nl": {
+        "title": "Gebraden kip met venkel en koolraap",
+        "subtitle": "Een hele kip in stukken, op een bedje groenten",
+        "description": "Kippenstukken ingewreven met een kruidenmix van paprika en geroosterd op ui, venkel, paprika en koolraap met citroen, look, olijven en tijm. Zondagsmaal in één ovenschaal.",
+        "instructions": [
+          "Schud het paprikapoeder, lookpoeder, uienpoeder, zout, peper, rozemarijn, oregano en cayenne samen in een potje.",
+          "Verwarm de oven voor op 220 °C. Verdeel de ui, venkel, paprika en koolraap over een braadslede.",
+          "Leg de kip erop en voeg 2 eetlepels kruidenmix, de olijfolie, citroen, look, olijven, tijm en bouillon toe.",
+          "Rooster 15 minuten en overgiet met het braadvocht. Zet de oven lager op 190 °C en rooster nog zo'n uur, tot het vocht helder is (74 °C vanbinnen).",
+          "Laat 10 minuten rusten en werk af met verse tijm."
+        ]
+      },
+      "fr": {
+        "title": "Poulet rôti au fenouil et au rutabaga",
+        "subtitle": "Un poulet entier découpé, sur un lit de légumes",
+        "description": "Des morceaux de poulet frottés d'un mélange paprika-herbes et rôtis sur oignon, fenouil, poivron et rutabaga avec citron, ail, olives et thym. Le repas du dimanche dans un seul plat.",
+        "instructions": [
+          "Secoue le paprika, l'ail en poudre, la poudre d'oignon, le sel, le poivre, le romarin, l'origan et le cayenne dans un bocal.",
+          "Préchauffe le four à 220 °C. Étale l'oignon, le fenouil, le poivron et le rutabaga dans un plat à rôtir.",
+          "Pose le poulet dessus et ajoute 2 cuillères à soupe du mélange d'épices, l'huile d'olive, le citron, l'ail, les olives, le thym et le bouillon.",
+          "Rôtis 15 minutes et arrose avec le jus. Baisse le four à 190 °C et rôtis encore environ une heure, jusqu'à ce que le jus soit clair (74 °C à cœur).",
+          "Laisse reposer 10 minutes et termine avec du thym frais."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "fennel",
+        "name": {
+          "en": "Fennel",
+          "nl": "Venkel",
+          "fr": "Fenouil"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "rutabaga",
+        "name": {
+          "en": "Rutabaga",
+          "nl": "Koolraap",
+          "fr": "Rutabaga"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "whole chicken",
+        "name": {
+          "en": "Whole chicken",
+          "nl": "Hele kip",
+          "fr": "Poulet entier"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic powder",
+        "name": {
+          "en": "garlic powder",
+          "nl": "knoflookpoeder",
+          "fr": "poudre d'ail"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "onion powder",
+        "name": {
+          "en": "onion powder",
+          "nl": "uienpoeder",
+          "fr": "poudre d'oignon"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried rosemary",
+        "name": {
+          "en": "Dried rosemary",
+          "nl": "Gedroogde rozemarijn",
+          "fr": "Romarin séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 6,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "black olives",
+        "name": {
+          "en": "Black olives",
+          "nl": "Zwarte olijven",
+          "fr": "Olives noires"
+        },
+        "amount": 70,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/roasted-chicken-with-vegetables/"
+  },
+  {
+    "id": "candida-grilled-chicken-with-bok-choy-in-coconut-milk",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Grilled Chicken with Bok Choy in Coconut Milk",
+        "subtitle": "Turmeric broth, tender greens, charred chicken",
+        "description": "Baby bok choy and spring onions poached in coconut milk with ginger, garlic and turmeric, with sliced grilled chicken laid on top. Serve with quinoa to soak up the sauce.",
+        "instructions": [
+          "Heat the coconut oil in a large frying pan over medium heat and fry the garlic and ginger for 30 seconds.",
+          "Whisk in the coconut milk, turmeric and salt and bring to a gentle boil. Add the bok choy and spring onions, cover and simmer on medium-low for 5 minutes.",
+          "Stir in the coconut aminos and chilli flakes, add the basil and keep warm.",
+          "Cook the chicken in a hot griddle pan for about 5 minutes a side, until cooked through. Season and slice.",
+          "Lay the chicken over the bok choy and serve with quinoa."
+        ]
+      },
+      "nl": {
+        "title": "Gegrilde kip met paksoi in kokosmelk",
+        "subtitle": "Bouillon met kurkuma, zacht groen, geblakerde kip",
+        "description": "Mini-paksoi en lente-ui gepocheerd in kokosmelk met gember, look en kurkuma, met reepjes gegrilde kip erop. Lekker met quinoa om de saus op te nemen.",
+        "instructions": [
+          "Verhit de kokosolie in een grote pan op middelhoog vuur en bak de look en gember 30 seconden.",
+          "Klop de kokosmelk, kurkuma en het zout erdoor en breng zachtjes aan de kook. Voeg de paksoi en lente-ui toe, leg het deksel erop en laat 5 minuten sudderen op middellaag vuur.",
+          "Roer de kokosaminos en chilivlokken erdoor, voeg de basilicum toe en hou warm.",
+          "Bak de kip in een hete grillpan zo'n 5 minuten per kant, tot ze gaar is. Kruid en snijd in reepjes.",
+          "Leg de kip op de paksoi en dien op met quinoa."
+        ]
+      },
+      "fr": {
+        "title": "Poulet grillé et bok choy au lait de coco",
+        "subtitle": "Bouillon au curcuma, verdure tendre, poulet grillé",
+        "description": "Des mini bok choy et des oignons nouveaux pochés dans le lait de coco avec gingembre, ail et curcuma, avec du poulet grillé tranché par-dessus. Sers avec du quinoa pour saucer.",
+        "instructions": [
+          "Chauffe l'huile de coco dans une grande poêle à feu moyen et fais revenir l'ail et le gingembre 30 secondes.",
+          "Ajoute le lait de coco, le curcuma et le sel en fouettant et porte doucement à ébullition. Ajoute les bok choy et les oignons nouveaux, couvre et laisse mijoter à feu moyen-doux 5 minutes.",
+          "Ajoute les aminos de coco et le piment, puis le basilic, et garde au chaud.",
+          "Cuis le poulet dans une poêle-gril bien chaude environ 5 minutes par face, jusqu'à ce qu'il soit cuit. Assaisonne et tranche.",
+          "Pose le poulet sur les bok choy et sers avec du quinoa."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 3,
+        "unit": "slices",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 350,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "baby bok choy",
+        "name": {
+          "en": "Baby bok choy",
+          "nl": "Mini-paksoi",
+          "fr": "Mini bok choy"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 185,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/grilled-chicken-with-bok-choy-in-coconut-milk/"
+  },
+  {
+    "id": "candida-lamb-pasticcio",
+    "prepTime": "10 mins",
+    "cookTime": "1 hr",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 6,
+    "category": [
+      "main"
+    ],
+    "image": "images/candida-lamb-pasticcio.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Lamb Pasticcio",
+        "subtitle": "A Greek-style bake with buckwheat pasta and a yogurt top",
+        "description": "Lamb mince with spinach and cinnamon baked with buckwheat pasta under sliced tomato and a golden yogurt and egg topping. Comfort food that still fits the diet.",
+        "instructions": [
+          "Heat the oven to 190 °C. Soften the onion and garlic in a little olive oil for about 5 minutes.",
+          "Add the lamb and spinach and cook until the lamb has browned.",
+          "Tip it into a pot with the stock, cinnamon, salt and pepper. Bring to the boil, cover and simmer for 15 minutes.",
+          "Stir in the dry pasta and the buckwheat flour and spoon it all into an ovenproof dish. Lay the tomato slices on top.",
+          "Beat the eggs with the yogurt, spread it over the top and bake for 45 minutes, until set and golden."
+        ]
+      },
+      "nl": {
+        "title": "Pasticcio met lamsvlees",
+        "subtitle": "Een Griekse ovenschotel met boekweitpasta en een yoghurtlaag",
+        "description": "Lamsgehakt met spinazie en kaneel, gebakken met boekweitpasta onder plakjes tomaat en een goudbruine laag van yoghurt en ei. Troostvoer dat toch in het dieet past.",
+        "instructions": [
+          "Verwarm de oven voor op 190 °C. Stoof de ui en look zo'n 5 minuten zacht in wat olijfolie.",
+          "Voeg het lamsgehakt en de spinazie toe en bak tot het vlees bruin is.",
+          "Doe alles in een pot met de bouillon, kaneel, zout en peper. Breng aan de kook, leg het deksel erop en laat 15 minuten sudderen.",
+          "Roer de droge pasta en het boekweitmeel erdoor en schep alles in een ovenschaal. Leg de plakjes tomaat erop.",
+          "Klop de eieren met de yoghurt, strijk het over de bovenkant en bak 45 minuten, tot het gestold en goudbruin is."
+        ]
+      },
+      "fr": {
+        "title": "Pastitsio d'agneau",
+        "subtitle": "Un gratin à la grecque, pâtes de sarrasin et nappage au yaourt",
+        "description": "De l'agneau haché aux épinards et à la cannelle, cuit avec des pâtes de sarrasin sous des tranches de tomate et un nappage doré au yaourt et à l'œuf. Un plat réconfortant qui reste dans le régime.",
+        "instructions": [
+          "Préchauffe le four à 190 °C. Fais fondre l'oignon et l'ail dans un peu d'huile d'olive environ 5 minutes.",
+          "Ajoute l'agneau et les épinards et cuis jusqu'à ce que la viande soit dorée.",
+          "Verse dans une cocotte avec le bouillon, la cannelle, le sel et le poivre. Porte à ébullition, couvre et laisse mijoter 15 minutes.",
+          "Ajoute les pâtes crues et la farine de sarrasin et verse le tout dans un plat allant au four. Dispose les tranches de tomate dessus.",
+          "Bats les œufs avec le yaourt, étale sur le dessus et enfourne 45 minutes, jusqu'à ce que ce soit pris et doré."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground lamb",
+        "name": {
+          "en": "Ground lamb",
+          "nl": "Lamsgehakt",
+          "fr": "Agneau haché"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "buckwheat pasta",
+        "name": {
+          "en": "Buckwheat pasta",
+          "nl": "Boekweitpasta",
+          "fr": "Pâtes de sarrasin"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "vegetable broth",
+        "name": {
+          "en": "vegetable stock",
+          "nl": "groentebouillon",
+          "fr": "bouillon de légumes"
+        },
+        "amount": 180,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "baby spinach",
+        "name": {
+          "en": "Baby spinach",
+          "nl": "Jonge spinazie",
+          "fr": "Pousses d'épinards"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/lamb-pasticcio/",
+    "imageCredit": {
+      "author": "Sam Bailey",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pastitsio_homemade.jpg"
+    }
+  },
+  {
+    "id": "candida-veggie-nasi-goreng",
+    "prepTime": "10 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "images/candida-veggie-nasi-goreng.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Vegetable Nasi Goreng",
+        "subtitle": "Brown rice fried with a homemade chilli paste",
+        "description": "Brown or wild rice stir-fried with a fresh paste of onion, chilli and garlic, then tossed with peppers, carrot, scrambled egg and coriander. A family favourite, made without the sweet soy sauce.",
+        "instructions": [
+          "Cook the rice and set it aside.",
+          "Scramble the eggs in a wok or large frying pan and set them aside.",
+          "Blend one onion with half a chilli and the garlic into a paste, and fry it in the sesame oil for 3 minutes.",
+          "Add the other onion, sliced, the rest of the chillies, the yellow pepper and the carrot and stir-fry for 3 minutes.",
+          "Add the rice for 2 minutes, then the egg, spring onions and coriander for one more. Season with salt and serve."
+        ]
+      },
+      "nl": {
+        "title": "Vegetarische nasi goreng",
+        "subtitle": "Zilvervliesrijst gebakken met een zelfgemaakte chilipasta",
+        "description": "Zilvervlies- of wilde rijst geroerbakt met een verse pasta van ui, chili en look, en dan gemengd met paprika, wortel, roerei en koriander. Een gezinsfavoriet, zonder de zoete sojasaus.",
+        "instructions": [
+          "Kook de rijst en zet opzij.",
+          "Maak roerei van de eieren in een wok of grote pan en zet opzij.",
+          "Mix één ui met een halve chili en de look tot een pasta en bak die 3 minuten in de sesamolie.",
+          "Voeg de andere ui in ringen, de rest van de chilipepers, de gele paprika en de wortel toe en roerbak 3 minuten.",
+          "Voeg de rijst toe voor 2 minuten, en dan het ei, de lente-ui en koriander voor nog een minuut. Kruid met zout en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Nasi goreng aux légumes",
+        "subtitle": "Du riz complet sauté avec une pâte de piment maison",
+        "description": "Du riz complet ou sauvage sauté avec une pâte fraîche d'oignon, de piment et d'ail, puis mêlé aux poivrons, à la carotte, aux œufs brouillés et à la coriandre. Un favori de la famille, sans la sauce soja sucrée.",
+        "instructions": [
+          "Cuis le riz et réserve.",
+          "Brouille les œufs dans un wok ou une grande poêle et réserve.",
+          "Mixe un oignon avec un demi-piment et l'ail en pâte, et fais-la revenir 3 minutes dans l'huile de sésame.",
+          "Ajoute l'autre oignon émincé, le reste des piments, le poivron jaune et la carotte et fais sauter 3 minutes.",
+          "Ajoute le riz 2 minutes, puis l'œuf, les oignons nouveaux et la coriandre une minute de plus. Sale et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "brown rice",
+        "name": {
+          "en": "brown rice",
+          "nl": "zilvervliesrijst",
+          "fr": "riz complet"
+        },
+        "amount": 95,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "yellow bell pepper",
+        "name": {
+          "en": "Yellow bell pepper",
+          "nl": "Gele paprika",
+          "fr": "Poivron jaune"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onions",
+        "name": {
+          "en": "Red onions",
+          "nl": "Rode uien",
+          "fr": "Oignons rouges"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "carrot",
+        "name": {
+          "en": "carrot",
+          "nl": "wortel",
+          "fr": "carotte"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red chilies",
+        "name": {
+          "en": "Red chilies",
+          "nl": "Rode chilipepers",
+          "fr": "Piments rouges"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sesame oil",
+        "name": {
+          "en": "sesame oil",
+          "nl": "sesamolie",
+          "fr": "huile de sésame"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/veggie-nasi-goreng/",
+    "imageCredit": {
+      "author": "shankar s. from Dubai, united arab emirates",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Kampung_(11967588375).jpg"
+    }
+  },
+  {
+    "id": "candida-stuffed-peppers-beef-millet",
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Peppers Stuffed with Beef & Millet",
+        "subtitle": "Gevulde paprika, the millet way",
+        "description": "Red pepper halves packed with minced beef, millet, tomato, chilli and herbs and baked until soft. The stuffed peppers every Belgian knows, with millet standing in for rice.",
+        "instructions": [
+          "Cook the millet as the packet says.",
+          "Heat the oven to 180 °C.",
+          "Fry the onion, garlic, chilli and tomato in a tablespoon of olive oil for 3 minutes, then add the beef and cook until it is no longer pink.",
+          "Mix in the millet, egg, basil, parsley, salt and pepper and pack the filling into the pepper halves.",
+          "Set them in an oiled dish, drizzle with the rest of the oil and bake for about 30 minutes, until the peppers are tender."
+        ]
+      },
+      "nl": {
+        "title": "Gevulde paprika met rundsgehakt en gierst",
+        "subtitle": "Gevulde paprika, op de gierstmanier",
+        "description": "Halve rode paprika's gevuld met rundsgehakt, gierst, tomaat, chili en kruiden en zacht gebakken. De gevulde paprika die elke Belg kent, met gierst in plaats van rijst.",
+        "instructions": [
+          "Kook de gierst zoals op de verpakking staat.",
+          "Verwarm de oven voor op 180 °C.",
+          "Bak de ui, look, chili en tomaat 3 minuten in een eetlepel olijfolie, voeg dan het gehakt toe en bak tot het niet meer roze is.",
+          "Meng de gierst, het ei, basilicum, peterselie, zout en peper erdoor en vul de paprikahelften.",
+          "Zet ze in een ingevette schaal, sprenkel de rest van de olie erover en bak zo'n 30 minuten, tot de paprika zacht is."
+        ]
+      },
+      "fr": {
+        "title": "Poivrons farcis au bœuf et au millet",
+        "subtitle": "Les poivrons farcis, version millet",
+        "description": "Des demi-poivrons rouges garnis de bœuf haché, de millet, de tomate, de piment et d'herbes, cuits jusqu'à être fondants. Les poivrons farcis que tout Belge connaît, avec du millet à la place du riz.",
+        "instructions": [
+          "Cuis le millet comme indiqué sur le paquet.",
+          "Préchauffe le four à 180 °C.",
+          "Fais revenir l'oignon, l'ail, le piment et la tomate dans une cuillère à soupe d'huile d'olive 3 minutes, puis ajoute le bœuf et cuis jusqu'à ce qu'il ne soit plus rose.",
+          "Incorpore le millet, l'œuf, le basilic, le persil, le sel et le poivre et farcis les demi-poivrons.",
+          "Dispose-les dans un plat huilé, arrose du reste de l'huile et enfourne environ 30 minutes, jusqu'à ce que les poivrons soient tendres."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground beef",
+        "name": {
+          "en": "ground beef",
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
+        },
+        "amount": 225,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "millet",
+        "name": {
+          "en": "Millet",
+          "nl": "Gierst",
+          "fr": "Millet"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red chili",
+        "name": {
+          "en": "Red chili",
+          "nl": "Rode chilipeper",
+          "fr": "Piment rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "dried basil",
+        "name": {
+          "en": "Dried basil",
+          "nl": "Gedroogde basilicum",
+          "fr": "Basilic séché"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried parsley",
+        "name": {
+          "en": "Dried parsley",
+          "nl": "Gedroogde peterselie",
+          "fr": "Persil séché"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/stuffed-peppers-beef-millet/"
+  },
+  {
+    "id": "candida-grilled-asparagus-beef-rolls",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Beef & Asparagus Rolls",
+        "subtitle": "With goat's cheese, sun-dried tomato and basil",
+        "description": "Thin slices of beef spread with goat's cheese, rolled around asparagus spears with sun-dried tomato and basil, and seared in a hot pan. Ten minutes and very little effort.",
+        "instructions": [
+          "Steam or boil the asparagus until just soft and set aside.",
+          "Spread each slice of beef with 2 tablespoons of goat's cheese and top with a sun-dried tomato and a basil leaf or two.",
+          "Lay 2–3 asparagus spears on each slice, roll it up and secure with a cocktail stick.",
+          "Grill or pan-fry in the olive oil on a hot surface for 3–4 minutes a side."
+        ]
+      },
+      "nl": {
+        "title": "Rundsrolletjes met asperges",
+        "subtitle": "Met geitenkaas, zongedroogde tomaat en basilicum",
+        "description": "Dunne plakjes rundvlees besmeerd met geitenkaas, opgerold rond groene asperges met zongedroogde tomaat en basilicum, en dichtgeschroeid in een hete pan. Tien minuten en weinig moeite.",
+        "instructions": [
+          "Stoom of kook de asperges tot ze net zacht zijn en zet opzij.",
+          "Besmeer elk plakje vlees met 2 eetlepels geitenkaas en leg er een zongedroogde tomaat en een blaadje of twee basilicum op.",
+          "Leg 2–3 asperges op elk plakje, rol op en zet vast met een cocktailprikker.",
+          "Grill of bak 3–4 minuten per kant in de olijfolie op een hete plaat of pan."
+        ]
+      },
+      "fr": {
+        "title": "Roulés de bœuf aux asperges",
+        "subtitle": "Au chèvre, aux tomates séchées et au basilic",
+        "description": "De fines tranches de bœuf tartinées de chèvre, roulées autour d'asperges vertes avec tomate séchée et basilic, et saisies dans une poêle bien chaude. Dix minutes et très peu d'effort.",
+        "instructions": [
+          "Cuis les asperges à la vapeur ou à l'eau jusqu'à ce qu'elles soient juste tendres et réserve.",
+          "Tartine chaque tranche de bœuf de 2 cuillères à soupe de chèvre et ajoute une tomate séchée et une ou deux feuilles de basilic.",
+          "Pose 2–3 asperges sur chaque tranche, roule et fixe avec un pique.",
+          "Grille ou poêle dans l'huile d'olive sur une surface bien chaude 3–4 minutes par face."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "asparagus",
+        "name": {
+          "en": "Asparagus",
+          "nl": "Groene asperges",
+          "fr": "Asperges vertes"
+        },
+        "amount": 10,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "thinly sliced beef",
+        "name": {
+          "en": "Thinly sliced beef",
+          "nl": "Dungesneden rundvlees",
+          "fr": "Bœuf en fines tranches"
+        },
+        "amount": 4,
+        "unit": "slices",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "sun-dried tomatoes",
+        "name": {
+          "en": "Sun-dried tomatoes",
+          "nl": "Zongedroogde tomaten",
+          "fr": "Tomates séchées"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "goat cheese",
+        "name": {
+          "en": "Goat cheese",
+          "nl": "Geitenkaas",
+          "fr": "Fromage de chèvre"
+        },
+        "amount": 120,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 6,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/grilled-asparagus-beef-rolls/"
+  },
+  {
+    "id": "candida-vegetables-goat-cheese-quinoa",
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Roasted Vegetables, Goat's Cheese & Quinoa",
+        "subtitle": "Sweet roasted peppers, shallots and whole garlic",
+        "description": "Peppers, cherry tomatoes, whole shallots and garlic cloves roasted until sweet and soft, tossed with quinoa, lemon and a splash of vinegar, with goat's cheese crumbled on top.",
+        "instructions": [
+          "Heat the oven to 230 °C. Chop the peppers and peel the shallots and garlic.",
+          "Toss all the vegetables with olive oil, salt and pepper and spread them in a single layer in a roasting tin.",
+          "Roast for about 30 minutes, stirring now and then, until lightly browned and tender.",
+          "Meanwhile, cook the quinoa as the packet says.",
+          "Toss the quinoa with the vegetables, lemon juice, vinegar and torn basil, and crumble the goat's cheese over the top."
+        ]
+      },
+      "nl": {
+        "title": "Geroosterde groenten met geitenkaas en quinoa",
+        "subtitle": "Zoete geroosterde paprika, sjalotjes en hele look",
+        "description": "Paprika, kerstomaatjes, hele sjalotjes en teentjes look geroosterd tot ze zoet en zacht zijn, gemengd met quinoa, citroen en een scheutje azijn, met verkruimelde geitenkaas erop.",
+        "instructions": [
+          "Verwarm de oven voor op 230 °C. Snijd de paprika's en pel de sjalotjes en look.",
+          "Meng alle groenten met olijfolie, zout en peper en spreid ze in één laag uit in een braadslede.",
+          "Rooster zo'n 30 minuten, af en toe omroeren, tot ze licht gekleurd en zacht zijn.",
+          "Kook ondertussen de quinoa zoals op de verpakking staat.",
+          "Meng de quinoa met de groenten, het citroensap, de azijn en gescheurde basilicum, en verkruimel de geitenkaas erover."
+        ]
+      },
+      "fr": {
+        "title": "Légumes rôtis, chèvre et quinoa",
+        "subtitle": "Poivrons doux rôtis, échalotes et ail entier",
+        "description": "Des poivrons, des tomates cerises, des échalotes et des gousses d'ail entières rôtis jusqu'à être doux et fondants, mêlés au quinoa, au citron et à un trait de vinaigre, avec du chèvre émietté par-dessus.",
+        "instructions": [
+          "Préchauffe le four à 230 °C. Coupe les poivrons et épluche les échalotes et l'ail.",
+          "Enrobe tous les légumes d'huile d'olive, de sel et de poivre et étale-les en une couche dans un plat à rôtir.",
+          "Rôtis une trentaine de minutes en remuant de temps en temps, jusqu'à ce qu'ils soient légèrement dorés et tendres.",
+          "Pendant ce temps, cuis le quinoa comme indiqué sur le paquet.",
+          "Mélange le quinoa avec les légumes, le jus de citron, le vinaigre et le basilic déchiré, et émiette le chèvre par-dessus."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "quinoa",
+        "name": {
+          "en": "Quinoa",
+          "nl": "Quinoa",
+          "fr": "Quinoa"
+        },
+        "amount": 85,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 8,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 8,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 8,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "goat cheese",
+        "name": {
+          "en": "Goat cheese",
+          "nl": "Geitenkaas",
+          "fr": "Fromage de chèvre"
+        },
+        "amount": 50,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/vegetables-goat-cheese-quinoa/"
+  },
+  {
+    "id": "candida-beef-and-okra-stew",
+    "prepTime": "5 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "soup",
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Beef & Okra Stew",
+        "subtitle": "Cumin, cinnamon and a little heat",
+        "description": "Diced beef browned and simmered with tomato, onion and warm spices until tender, then thickened naturally with fresh okra. A Middle Eastern-style stoofpot.",
+        "instructions": [
+          "Heat half the oil in a large pan over medium heat and brown the beef on all sides. Lift it out.",
+          "Add the rest of the oil and cook the onion over medium-low heat for 3–4 minutes. Add the garlic, cumin, cayenne and cinnamon and stir for 1–2 minutes.",
+          "Add the tomatoes and 480 ml of stock, then put the beef back in.",
+          "Cover and simmer for about 20 minutes, until the beef is tender, adding more stock if it gets dry.",
+          "Take the lid off, add the okra and cook for 15 minutes more, until the stew thickens. Season and finish with parsley."
+        ]
+      },
+      "nl": {
+        "title": "Stoofpot van rundvlees en okra",
+        "subtitle": "Komijn, kaneel en een beetje pit",
+        "description": "Blokjes rundvlees bruin gebakken en met tomaat, ui en warme specerijen gestoofd tot ze mals zijn, en dan op natuurlijke wijze gebonden met verse okra. Een stoofpot op zijn Midden-Oosters.",
+        "instructions": [
+          "Verhit de helft van de olie in een grote pan op middelhoog vuur en bak het vlees rondom bruin. Schep het eruit.",
+          "Voeg de rest van de olie toe en stoof de ui 3–4 minuten op middellaag vuur. Voeg de look, komijn, cayenne en kaneel toe en roer 1–2 minuten.",
+          "Voeg de tomaten en 480 ml bouillon toe en doe het vlees terug in de pan.",
+          "Leg het deksel erop en laat zo'n 20 minuten sudderen tot het vlees mals is, en voeg wat bouillon toe als het te droog wordt.",
+          "Haal het deksel eraf, voeg de okra toe en laat nog 15 minuten koken tot de stoofpot indikt. Breng op smaak en werk af met peterselie."
+        ]
+      },
+      "fr": {
+        "title": "Ragoût de bœuf au gombo",
+        "subtitle": "Cumin, cannelle et un peu de piquant",
+        "description": "Des dés de bœuf dorés puis mijotés avec tomate, oignon et épices chaudes jusqu'à être tendres, liés naturellement par du gombo frais. Un mijoté à la mode du Moyen-Orient.",
+        "instructions": [
+          "Chauffe la moitié de l'huile dans une grande cocotte à feu moyen et dore le bœuf de tous côtés. Retire-le.",
+          "Ajoute le reste de l'huile et fais fondre l'oignon à feu moyen-doux 3–4 minutes. Ajoute l'ail, le cumin, le cayenne et la cannelle et remue 1–2 minutes.",
+          "Ajoute les tomates et 480 ml de bouillon, puis remets le bœuf.",
+          "Couvre et laisse mijoter une vingtaine de minutes, jusqu'à ce que le bœuf soit tendre, en ajoutant du bouillon si ça sèche.",
+          "Retire le couvercle, ajoute le gombo et poursuis 15 minutes, jusqu'à ce que le ragoût épaississe. Rectifie l'assaisonnement et termine avec du persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "beef chuck",
+        "name": {
+          "en": "stewing beef",
+          "nl": "rundstoofvlees",
+          "fr": "carbonnades de boeuf"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 180,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken broth",
+        "name": {
+          "en": "chicken stock",
+          "nl": "kippenbouillon",
+          "fr": "bouillon de poule"
+        },
+        "amount": 600,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "okra",
+        "name": {
+          "en": "Okra",
+          "nl": "Okra",
+          "fr": "Gombo"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/beef-and-okra-stew/"
+  },
+  {
+    "id": "candida-chicken-quinoa-salad",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Chicken Quinoa Salad",
+        "subtitle": "Garlic chicken, avocado, tomato and spinach",
+        "description": "Warm garlicky chicken tossed with quinoa, spinach, tomato, cucumber, avocado and shallot in lemon and olive oil. A filling salad for a packed lunch.",
+        "instructions": [
+          "Cook the quinoa as the packet says.",
+          "Cut the chicken into pieces and fry it with the garlic for about 5 minutes, until cooked through.",
+          "Chop the tomatoes, cucumber, avocado and shallots.",
+          "Toss everything in a bowl with the spinach, lemon juice, olive oil and sea salt."
+        ]
+      },
+      "nl": {
+        "title": "Quinoasalade met kip",
+        "subtitle": "Kip met look, avocado, tomaat en spinazie",
+        "description": "Warme kip met look gemengd met quinoa, spinazie, tomaat, komkommer, avocado en sjalot in citroen en olijfolie. Een vullende salade voor in de lunchbox.",
+        "instructions": [
+          "Kook de quinoa zoals op de verpakking staat.",
+          "Snijd de kip in stukjes en bak ze zo'n 5 minuten met de look tot ze gaar zijn.",
+          "Snijd de tomaten, komkommer, avocado en sjalotten.",
+          "Meng alles in een kom met de spinazie, het citroensap, de olijfolie en zeezout."
+        ]
+      },
+      "fr": {
+        "title": "Salade de quinoa au poulet",
+        "subtitle": "Poulet à l'ail, avocat, tomate et épinards",
+        "description": "Du poulet chaud à l'ail mêlé au quinoa, aux épinards, à la tomate, au concombre, à l'avocat et à l'échalote, au citron et à l'huile d'olive. Une salade rassasiante pour la boîte à lunch.",
+        "instructions": [
+          "Cuis le quinoa comme indiqué sur le paquet.",
+          "Coupe le poulet en morceaux et fais-le revenir avec l'ail environ 5 minutes, jusqu'à ce qu'il soit cuit.",
+          "Coupe les tomates, le concombre, l'avocat et les échalotes.",
+          "Mélange le tout dans un saladier avec les épinards, le jus de citron, l'huile d'olive et du sel de mer."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "quinoa",
+        "name": {
+          "en": "Quinoa",
+          "nl": "Quinoa",
+          "fr": "Quinoa"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "spinach",
+        "name": {
+          "en": "spinach",
+          "nl": "spinazie",
+          "fr": "épinards"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-quinoa-salad/"
+  },
+  {
+    "id": "candida-soba-seaweed-salad",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Soba & Seaweed Salad",
+        "subtitle": "Wakame, tomato and avocado with sesame",
+        "description": "Buckwheat noodles tossed with soaked wakame, tomato and avocado, dressed with nothing more than sesame oil and seeds. Use 100% buckwheat soba for candida.",
+        "instructions": [
+          "Soak the wakame in warm water for about 10 minutes and drain it.",
+          "Boil the soba for about 6 minutes, then drain and rinse under cold water.",
+          "Chop the tomatoes and avocado.",
+          "Mix everything in a bowl, drizzle with the sesame oil, season with salt and sprinkle with sesame seeds."
+        ]
+      },
+      "nl": {
+        "title": "Salade van soba en zeewier",
+        "subtitle": "Wakame, tomaat en avocado met sesam",
+        "description": "Boekweitnoedels gemengd met geweekte wakame, tomaat en avocado, met niet meer dan sesamolie en sesamzaad als dressing. Neem soba van 100% boekweit voor candida.",
+        "instructions": [
+          "Week de wakame zo'n 10 minuten in lauw water en laat uitlekken.",
+          "Kook de soba zo'n 6 minuten, giet af en spoel onder koud water.",
+          "Snijd de tomaten en avocado.",
+          "Meng alles in een kom, sprenkel de sesamolie erover, kruid met zout en strooi er sesamzaad over."
+        ]
+      },
+      "fr": {
+        "title": "Salade de soba aux algues",
+        "subtitle": "Wakamé, tomate et avocat au sésame",
+        "description": "Des nouilles de sarrasin mêlées à du wakamé trempé, de la tomate et de l'avocat, assaisonnées simplement d'huile et de graines de sésame. Prends des soba 100 % sarrasin pour le candida.",
+        "instructions": [
+          "Fais tremper le wakamé dans de l'eau tiède une dizaine de minutes et égoutte.",
+          "Cuis les soba environ 6 minutes, égoutte et rince à l'eau froide.",
+          "Coupe les tomates et l'avocat.",
+          "Mélange le tout dans un bol, arrose d'huile de sésame, sale et parsème de graines de sésame."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "buckwheat soba noodles",
+        "name": {
+          "en": "Buckwheat soba noodles",
+          "nl": "Boekweit-sobanoedels",
+          "fr": "Nouilles soba au sarrasin"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "dried wakame",
+        "name": {
+          "en": "Dried wakame",
+          "nl": "Gedroogde wakame",
+          "fr": "Wakamé séché"
+        },
+        "amount": 5,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "sesame oil",
+        "name": {
+          "en": "sesame oil",
+          "nl": "sesamolie",
+          "fr": "huile de sésame"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "sesame seeds",
+        "name": {
+          "en": "sesame seeds",
+          "nl": "sesamzaad",
+          "fr": "graines de sésame"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/soba-seaweed-salad/"
+  },
+  {
+    "id": "candida-cabbage-rolls",
+    "prepTime": "30 mins",
+    "cookTime": "1 hr",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "images/candida-cabbage-rolls.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Stuffed Cabbage Rolls",
+        "subtitle": "Gevulde koolrolletjes with buckwheat",
+        "description": "Cabbage leaves wrapped around minced meat and buckwheat, baked slowly in a garlicky tomato sauce. An old-fashioned dish that suits the diet perfectly.",
+        "instructions": [
+          "Boil or steam 6–8 large cabbage leaves until they are soft enough to fold, then let them cool.",
+          "Mix the minced meat with the raw buckwheat, half the onion, the egg, half the garlic and some salt.",
+          "Put a portion of filling on each leaf, roll it up tightly and lay the rolls seam side down in a baking dish.",
+          "Heat the oven to 180 °C. Soften the rest of the onion and garlic in the olive oil, add the chopped tomatoes and cook for a few minutes.",
+          "Spoon the sauce over the rolls, pour in 240 ml of water, cover and bake for 1 hour."
+        ]
+      },
+      "nl": {
+        "title": "Gevulde koolrolletjes",
+        "subtitle": "Koolrolletjes met boekweit",
+        "description": "Koolbladeren gerold rond gehakt en boekweit, langzaam gebakken in een tomatensaus met look. Een ouderwets gerecht dat perfect in het dieet past.",
+        "instructions": [
+          "Kook of stoom 6–8 grote koolbladeren tot ze soepel genoeg zijn om te plooien en laat afkoelen.",
+          "Meng het gehakt met de rauwe boekweit, de helft van de ui, het ei, de helft van de look en wat zout.",
+          "Leg een portie vulling op elk blad, rol stevig op en leg de rolletjes met de naad naar onder in een ovenschaal.",
+          "Verwarm de oven voor op 180 °C. Stoof de rest van de ui en look zacht in de olijfolie, voeg de gehakte tomaten toe en laat een paar minuten koken.",
+          "Schep de saus over de rolletjes, giet er 240 ml water bij, dek af en bak 1 uur."
+        ]
+      },
+      "fr": {
+        "title": "Choux farcis",
+        "subtitle": "Des roulés de chou au sarrasin",
+        "description": "Des feuilles de chou roulées autour de viande hachée et de sarrasin, cuites lentement dans une sauce tomate à l'ail. Un plat d'antan qui convient parfaitement au régime.",
+        "instructions": [
+          "Fais bouillir ou cuire à la vapeur 6–8 grandes feuilles de chou jusqu'à ce qu'elles soient assez souples pour être pliées, puis laisse refroidir.",
+          "Mélange la viande hachée avec le sarrasin cru, la moitié de l'oignon, l'œuf, la moitié de l'ail et un peu de sel.",
+          "Dépose une portion de farce sur chaque feuille, roule bien serré et range les roulés soudure vers le bas dans un plat.",
+          "Préchauffe le four à 180 °C. Fais fondre le reste de l'oignon et de l'ail dans l'huile d'olive, ajoute les tomates hachées et cuis quelques minutes.",
+          "Nappe les roulés de sauce, verse 240 ml d'eau, couvre et enfourne 1 heure."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground beef",
+        "name": {
+          "en": "ground beef",
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "buckwheat groats",
+        "name": {
+          "en": "Buckwheat groats",
+          "nl": "Boekweitkorrels",
+          "fr": "Sarrasin en grains"
+        },
+        "amount": 85,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "cabbage",
+        "name": {
+          "en": "cabbage",
+          "nl": "kool",
+          "fr": "chou"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cabbage-rolls/",
+    "imageCredit": {
+      "author": "Christo",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:T%C3%B6lt%C3%B6tt_k%C3%A1poszta%2C_2.jpg"
+    }
+  },
+  {
+    "id": "candida-coconut-lamb-curry",
+    "prepTime": "10 mins",
+    "cookTime": "35 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Lamb Curry",
+        "subtitle": "Minced lamb simmered in spiced coconut milk",
+        "description": "Lamb mince fried with onion, garlic and chilli, then simmered slowly with tomatoes, coconut milk, turmeric and curry powder. Serve it with quinoa.",
+        "instructions": [
+          "Chop the onion, garlic and chilli.",
+          "Fry them with the lamb in the coconut oil for about 5 minutes, breaking up the meat.",
+          "Add the tomatoes, coconut milk, cayenne, turmeric, curry powder and salt.",
+          "Simmer on low heat for 30 minutes and serve with quinoa."
+        ]
+      },
+      "nl": {
+        "title": "Lamscurry met kokos",
+        "subtitle": "Lamsgehakt gesudderd in gekruide kokosmelk",
+        "description": "Lamsgehakt gebakken met ui, look en chili, en dan langzaam gesudderd met tomaten, kokosmelk, kurkuma en currypoeder. Lekker met quinoa.",
+        "instructions": [
+          "Hak de ui, look en chili fijn.",
+          "Bak ze met het lamsgehakt zo'n 5 minuten in de kokosolie en maak het vlees los.",
+          "Voeg de tomaten, kokosmelk, cayenne, kurkuma, currypoeder en het zout toe.",
+          "Laat 30 minuten sudderen op laag vuur en dien op met quinoa."
+        ]
+      },
+      "fr": {
+        "title": "Curry d'agneau à la coco",
+        "subtitle": "De l'agneau haché mijoté dans un lait de coco épicé",
+        "description": "De l'agneau haché revenu avec oignon, ail et piment, puis mijoté lentement avec tomates, lait de coco, curcuma et curry. À servir avec du quinoa.",
+        "instructions": [
+          "Hache l'oignon, l'ail et le piment.",
+          "Fais-les revenir avec l'agneau dans l'huile de coco environ 5 minutes, en émiettant la viande.",
+          "Ajoute les tomates, le lait de coco, le cayenne, le curcuma, le curry et le sel.",
+          "Laisse mijoter à feu doux 30 minutes et sers avec du quinoa."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "ground lamb",
+        "name": {
+          "en": "Ground lamb",
+          "nl": "Lamsgehakt",
+          "fr": "Agneau haché"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 400,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "red chili",
+        "name": {
+          "en": "Red chili",
+          "nl": "Rode chilipeper",
+          "fr": "Piment rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "curry powder",
+        "name": {
+          "en": "curry powder",
+          "nl": "kerriepoeder",
+          "fr": "poudre de curry"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-lamb-curry/"
+  },
+  {
+    "id": "candida-chicken-zucchini-burgers",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Chicken & Courgette Burgers",
+        "subtitle": "Juicy patties straight from the food processor",
+        "description": "Chicken, courgette, spring onion and parsley blitzed together with ground almonds and smoked paprika, then pan-fried until golden. Pop them in a caraway bun from this book.",
+        "instructions": [
+          "Put everything except the oil in a food processor and blitz until it holds together.",
+          "With oiled hands, shape into 4 patties.",
+          "Heat the coconut oil in a large non-stick frying pan over medium heat.",
+          "Fry 2 patties at a time for 3–4 minutes a side, until golden and cooked through."
+        ]
+      },
+      "nl": {
+        "title": "Burgers van kip en courgette",
+        "subtitle": "Sappige burgers recht uit de keukenrobot",
+        "description": "Kip, courgette, lente-ui en peterselie gemixt met gemalen amandelen en gerookte paprika, en dan goudbruin gebakken. Leg ze in een karwijbroodje uit dit boek.",
+        "instructions": [
+          "Doe alles behalve de olie in de keukenrobot en mix tot het samenhangt.",
+          "Vorm er met ingeoliede handen 4 burgers van.",
+          "Verhit de kokosolie in een grote antikleefpan op middelhoog vuur.",
+          "Bak telkens 2 burgers 3–4 minuten per kant, tot ze goudbruin en gaar zijn."
+        ]
+      },
+      "fr": {
+        "title": "Burgers de poulet à la courgette",
+        "subtitle": "Des galettes juteuses tout droit du robot",
+        "description": "Du poulet, de la courgette, de l'oignon nouveau et du persil mixés avec de la poudre d'amande et du paprika fumé, puis poêlés jusqu'à être dorés. Glisse-les dans un pain au carvi de ce livre.",
+        "instructions": [
+          "Mets tout sauf l'huile dans le robot et mixe jusqu'à ce que ça se tienne.",
+          "Les mains huilées, forme 4 galettes.",
+          "Chauffe l'huile de coco dans une grande poêle antiadhésive à feu moyen.",
+          "Cuis 2 galettes à la fois 3–4 minutes par face, jusqu'à ce qu'elles soient dorées et cuites."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "ground almonds",
+        "name": {
+          "en": "Ground almonds",
+          "nl": "Gemalen amandelen",
+          "fr": "Poudre d'amande"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "smoked paprika",
+        "name": {
+          "en": "Smoked paprika",
+          "nl": "Gerookte paprikapoeder",
+          "fr": "Paprika fumé"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-zucchini-burgers/"
+  },
+  {
+    "id": "candida-asparagus-anchovies-soba-noodles",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Soba with Asparagus & Anchovies",
+        "subtitle": "Garlic, chilli and butter, done in ten minutes",
+        "description": "Asparagus softened in butter with anchovies, garlic and chilli, which melt into a savoury sauce, then tossed with buckwheat noodles. Few ingredients, big flavour.",
+        "instructions": [
+          "Melt a tablespoon of butter in a frying pan. Add the chopped garlic, chilli, anchovies and asparagus, cover and cook for 8–10 minutes.",
+          "Meanwhile, cook the soba in boiling water for 4–5 minutes and drain.",
+          "Add the noodles and the rest of the butter to the pan, toss well, season and serve."
+        ]
+      },
+      "nl": {
+        "title": "Soba met asperges en ansjovis",
+        "subtitle": "Look, chili en boter, klaar in tien minuten",
+        "description": "Asperges zacht gestoofd in boter met ansjovis, look en chili, die smelten tot een hartige saus, en dan gemengd met boekweitnoedels. Weinig ingrediënten, veel smaak.",
+        "instructions": [
+          "Smelt een eetlepel boter in een pan. Voeg de gehakte look, chili, ansjovis en asperges toe, leg het deksel erop en laat 8–10 minuten garen.",
+          "Kook ondertussen de soba 4–5 minuten in kokend water en giet af.",
+          "Voeg de noedels en de rest van de boter toe aan de pan, meng goed, kruid en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Soba aux asperges et aux anchois",
+        "subtitle": "Ail, piment et beurre, prêt en dix minutes",
+        "description": "Des asperges attendries au beurre avec des anchois, de l'ail et du piment, qui fondent en une sauce savoureuse, puis mêlées aux nouilles de sarrasin. Peu d'ingrédients, beaucoup de goût.",
+        "instructions": [
+          "Fais fondre une cuillère à soupe de beurre dans une poêle. Ajoute l'ail haché, le piment, les anchois et les asperges, couvre et cuis 8–10 minutes.",
+          "Pendant ce temps, cuis les soba 4–5 minutes dans l'eau bouillante et égoutte.",
+          "Ajoute les nouilles et le reste du beurre dans la poêle, mélange bien, assaisonne et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "buckwheat soba noodles",
+        "name": {
+          "en": "Buckwheat soba noodles",
+          "nl": "Boekweit-sobanoedels",
+          "fr": "Nouilles soba au sarrasin"
+        },
+        "amount": 140,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "asparagus",
+        "name": {
+          "en": "Asparagus",
+          "nl": "Groene asperges",
+          "fr": "Asperges vertes"
+        },
+        "amount": 10,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "anchovy fillets",
+        "name": {
+          "en": "Anchovy fillets",
+          "nl": "Ansjovisfilets",
+          "fr": "Filets d'anchois"
+        },
+        "amount": 50,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red chili",
+        "name": {
+          "en": "Red chili",
+          "nl": "Rode chilipeper",
+          "fr": "Piment rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/asparagus-anchovies-soba-noodles/"
+  },
+  {
+    "id": "candida-coconut-chicken-with-spinach",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Chicken with Spinach",
+        "subtitle": "Creamy spinach and toasted almond crumbs",
+        "description": "Chicken pieces and soft onion stirred into spinach wilted in coconut milk, with golden toasted almond crumbs scattered over. On the table in 25 minutes.",
+        "instructions": [
+          "Blitz the almonds in a food processor and toast them in a little coconut oil until lightly golden. Set aside.",
+          "Put the coconut milk and spinach in a pot, cover and let it simmer gently on low heat.",
+          "Soften the onion in coconut oil for 2 minutes.",
+          "Cut the chicken into cubes and cook it in the pan with the rest of the oil until cooked through.",
+          "Add the chicken and onion to the spinach, stir, cover for 2 minutes and serve with the almonds, salt and pepper."
+        ]
+      },
+      "nl": {
+        "title": "Kip met kokos en spinazie",
+        "subtitle": "Romige spinazie en geroosterde amandelkruimels",
+        "description": "Stukjes kip en zachte ui door spinazie geroerd die in kokosmelk geslonken is, met goudbruine geroosterde amandelkruimels erover. In 25 minuten op tafel.",
+        "instructions": [
+          "Hak de amandelen fijn in de keukenrobot en rooster ze in een beetje kokosolie tot ze licht goudbruin zijn. Zet opzij.",
+          "Doe de kokosmelk en spinazie in een pot, leg het deksel erop en laat zachtjes pruttelen op laag vuur.",
+          "Stoof de ui 2 minuten in kokosolie.",
+          "Snijd de kip in blokjes en bak ze in de pan met de rest van de olie tot ze gaar zijn.",
+          "Voeg de kip en ui bij de spinazie, roer, leg het deksel er 2 minuten op en dien op met de amandelen, zout en peper."
+        ]
+      },
+      "fr": {
+        "title": "Poulet coco aux épinards",
+        "subtitle": "Épinards crémeux et chapelure d'amandes grillées",
+        "description": "Des morceaux de poulet et de l'oignon fondant ajoutés à des épinards tombés dans le lait de coco, parsemés d'amandes grillées dorées. Sur la table en 25 minutes.",
+        "instructions": [
+          "Mixe les amandes au robot et fais-les griller dans un peu d'huile de coco jusqu'à ce qu'elles soient légèrement dorées. Réserve.",
+          "Mets le lait de coco et les épinards dans une casserole, couvre et laisse frémir doucement à feu doux.",
+          "Fais fondre l'oignon dans l'huile de coco 2 minutes.",
+          "Coupe le poulet en cubes et cuis-le dans la poêle avec le reste de l'huile jusqu'à ce qu'il soit cuit.",
+          "Ajoute le poulet et l'oignon aux épinards, mélange, couvre 2 minutes et sers avec les amandes, du sel et du poivre."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "baby spinach",
+        "name": {
+          "en": "Baby spinach",
+          "nl": "Jonge spinazie",
+          "fr": "Pousses d'épinards"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almonds",
+        "name": {
+          "en": "almonds",
+          "nl": "amandelen",
+          "fr": "amandes"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-chicken-with-spinach/"
+  },
+  {
+    "id": "candida-grilled-lime-chicken-salad",
+    "prepTime": "40 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Chilli-Lime Grilled Chicken",
+        "subtitle": "A punchy marinade and a green salad",
+        "description": "Chicken marinated for half an hour in lime, garlic and fresh chilli, then grilled until charred. Serve it over a simple green salad.",
+        "instructions": [
+          "Blend the lime juice, garlic, chillies and olive oil in a food processor.",
+          "Put the chicken in a bag with the marinade and leave it in the fridge for 30 minutes.",
+          "Heat a griddle pan or grill.",
+          "Cook the chicken for about 5 minutes a side, until cooked through. Season and serve with a green salad."
+        ]
+      },
+      "nl": {
+        "title": "Gegrilde kip met chili en limoen",
+        "subtitle": "Een pittige marinade en een groene salade",
+        "description": "Kip een half uur gemarineerd in limoen, look en verse chili, en dan gegrild tot ze geblakerd is. Lekker op een eenvoudige groene salade.",
+        "instructions": [
+          "Mix het limoensap, de look, chilipepers en olijfolie in de keukenrobot.",
+          "Doe de kip met de marinade in een zakje en leg 30 minuten in de koelkast.",
+          "Verwarm een grillpan of grill.",
+          "Bak de kip zo'n 5 minuten per kant, tot ze gaar is. Kruid en dien op met een groene salade."
+        ]
+      },
+      "fr": {
+        "title": "Poulet grillé piment-citron vert",
+        "subtitle": "Une marinade relevée et une salade verte",
+        "description": "Du poulet mariné une demi-heure dans le citron vert, l'ail et le piment frais, puis grillé jusqu'à être bien marqué. À servir sur une simple salade verte.",
+        "instructions": [
+          "Mixe le jus de citron vert, l'ail, les piments et l'huile d'olive au robot.",
+          "Mets le poulet dans un sachet avec la marinade et laisse 30 minutes au frigo.",
+          "Chauffe une poêle-gril ou un gril.",
+          "Cuis le poulet environ 5 minutes par face, jusqu'à ce qu'il soit cuit. Assaisonne et sers avec une salade verte."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "chicken breasts",
+        "name": {
+          "en": "chicken breasts",
+          "nl": "kipfilet",
+          "fr": "filet de poulet"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red chilies",
+        "name": {
+          "en": "Red chilies",
+          "nl": "Rode chilipepers",
+          "fr": "Piments rouges"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "mixed salad greens",
+        "name": {
+          "en": "Mixed salad greens",
+          "nl": "Gemengde sla",
+          "fr": "Mesclun"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/grilled-lime-chicken-salad/"
+  },
+  {
+    "id": "candida-quinoa-meatloaf",
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Quinoa Meatloaf with Tomato Sauce",
+        "subtitle": "Gehaktbrood, bound with quinoa instead of bread",
+        "description": "A herby beef meatloaf held together with quinoa and egg, baked until browned and served sliced under a smooth homemade tomato sauce. Gehaktbrood without the breadcrumbs.",
+        "instructions": [
+          "Cook the quinoa as the packet says. Soften the onion in the olive oil for 3–4 minutes, add the garlic and cook 1–2 minutes more.",
+          "Heat the oven to 180 °C. Mix half the onion and garlic with the beef, eggs, quinoa, thyme, oregano, chilli powder, salt and pepper and press it into a greased loaf tin.",
+          "Bake uncovered for 40–45 minutes, covering with foil if it browns too fast.",
+          "Meanwhile, simmer the tomatoes with the rest of the onion, the oregano and basil for 15 minutes and blend until smooth.",
+          "Let the meatloaf rest for 5 minutes, turn it out, pour the warm sauce over and finish with parsley."
+        ]
+      },
+      "nl": {
+        "title": "Gehaktbrood met quinoa en tomatensaus",
+        "subtitle": "Gehaktbrood, gebonden met quinoa in plaats van brood",
+        "description": "Een kruidig gehaktbrood van rundvlees, samengehouden met quinoa en ei, bruin gebakken en in plakken geserveerd onder een gladde zelfgemaakte tomatensaus. Gehaktbrood zonder paneermeel.",
+        "instructions": [
+          "Kook de quinoa zoals op de verpakking staat. Stoof de ui 3–4 minuten in de olijfolie, voeg de look toe en bak nog 1–2 minuten.",
+          "Verwarm de oven voor op 180 °C. Meng de helft van de ui en look met het gehakt, de eieren, quinoa, tijm, oregano, chilipoeder, zout en peper en druk aan in een ingevette cakevorm.",
+          "Bak zonder afdekking 40–45 minuten, en dek af met aluminiumfolie als het te snel kleurt.",
+          "Laat ondertussen de tomaten 15 minuten sudderen met de rest van de ui, de oregano en basilicum en mix glad.",
+          "Laat het gehaktbrood 5 minuten rusten, stort het, giet de warme saus erover en werk af met peterselie."
+        ]
+      },
+      "fr": {
+        "title": "Pain de viande au quinoa et sauce tomate",
+        "subtitle": "Un pain de viande lié au quinoa plutôt qu'au pain",
+        "description": "Un pain de viande de bœuf aux herbes tenu par le quinoa et l'œuf, cuit jusqu'à être doré et servi en tranches sous une sauce tomate maison bien lisse. Sans chapelure.",
+        "instructions": [
+          "Cuis le quinoa comme indiqué sur le paquet. Fais fondre l'oignon dans l'huile d'olive 3–4 minutes, ajoute l'ail et poursuis 1–2 minutes.",
+          "Préchauffe le four à 180 °C. Mélange la moitié de l'oignon et de l'ail avec le bœuf, les œufs, le quinoa, le thym, l'origan, le piment, le sel et le poivre et tasse dans un moule à cake graissé.",
+          "Enfourne à découvert 40–45 minutes, en couvrant d'aluminium si ça dore trop vite.",
+          "Pendant ce temps, fais mijoter les tomates avec le reste de l'oignon, l'origan et le basilic 15 minutes et mixe.",
+          "Laisse reposer le pain de viande 5 minutes, démoule, nappe de sauce chaude et termine avec du persil."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "quinoa",
+        "name": {
+          "en": "Quinoa",
+          "nl": "Quinoa",
+          "fr": "Quinoa"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "ground beef",
+        "name": {
+          "en": "ground beef",
+          "nl": "rundsgehakt",
+          "fr": "haché de boeuf"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "dried thyme",
+        "name": {
+          "en": "Dried thyme",
+          "nl": "Gedroogde tijm",
+          "fr": "Thym séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried oregano",
+        "name": {
+          "en": "Dried oregano",
+          "nl": "Gedroogde oregano",
+          "fr": "Origan séché"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "chili powder",
+        "name": {
+          "en": "chili powder",
+          "nl": "chilipoeder",
+          "fr": "poudre de chili"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "tomato passata",
+        "name": {
+          "en": "chopped tomatoes",
+          "nl": "tomatenblokjes",
+          "fr": "tomates concassées"
+        },
+        "amount": 400,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "dried basil",
+        "name": {
+          "en": "Dried basil",
+          "nl": "Gedroogde basilicum",
+          "fr": "Basilic séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/quinoa-meatloaf/"
+  },
+  {
+    "id": "candida-cabbage-masala",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Cabbage Masala",
+        "subtitle": "Popping mustard seeds, garam masala and okra",
+        "description": "Plain white cabbage turned into something special: cooked down with tomato and okra in coconut oil with popped mustard seeds, cumin, turmeric and garam masala.",
+        "instructions": [
+          "Finely slice the cabbage, onion, tomatoes, okra and garlic.",
+          "Heat the coconut oil and add the mustard seeds. Wait until they pop.",
+          "Add the garlic and cook until slightly soft, then the onion until soft.",
+          "Stir in the turmeric, garam masala and cumin for 2–3 minutes, then add the tomatoes, cover and cook for 5 minutes.",
+          "Add the cabbage, okra and salt and cook for 15 minutes, stirring now and then."
+        ]
+      },
+      "nl": {
+        "title": "Koolmasala",
+        "subtitle": "Poppende mosterdzaadjes, garam masala en okra",
+        "description": "Gewone witte kool omgetoverd tot iets bijzonders: zacht gestoofd met tomaat en okra in kokosolie met gepofte mosterdzaadjes, komijn, kurkuma en garam masala.",
+        "instructions": [
+          "Snijd de kool, ui, tomaten, okra en look fijn.",
+          "Verhit de kokosolie en doe de mosterdzaadjes erin. Wacht tot ze poppen.",
+          "Voeg de look toe en bak tot hij een beetje zacht is, en dan de ui tot die zacht is.",
+          "Roer de kurkuma, garam masala en komijn er 2–3 minuten door, voeg de tomaten toe, leg het deksel erop en laat 5 minuten garen.",
+          "Voeg de kool, okra en het zout toe en laat 15 minuten garen, af en toe omroeren."
+        ]
+      },
+      "fr": {
+        "title": "Chou masala",
+        "subtitle": "Graines de moutarde qui éclatent, garam masala et gombo",
+        "description": "Du simple chou blanc transformé en plat de fête : fondu avec tomate et gombo dans l'huile de coco avec des graines de moutarde éclatées, du cumin, du curcuma et du garam masala.",
+        "instructions": [
+          "Émince finement le chou, l'oignon, les tomates, le gombo et l'ail.",
+          "Chauffe l'huile de coco et ajoute les graines de moutarde. Attends qu'elles éclatent.",
+          "Ajoute l'ail et cuis jusqu'à ce qu'il s'attendrisse, puis l'oignon jusqu'à ce qu'il soit fondant.",
+          "Ajoute le curcuma, le garam masala et le cumin 2–3 minutes, puis les tomates, couvre et cuis 5 minutes.",
+          "Ajoute le chou, le gombo et le sel et cuis 15 minutes en remuant de temps en temps."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cabbage",
+        "name": {
+          "en": "cabbage",
+          "nl": "kool",
+          "fr": "chou"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "okra",
+        "name": {
+          "en": "Okra",
+          "nl": "Okra",
+          "fr": "Gombo"
+        },
+        "amount": 75,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 5,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "mustard seeds",
+        "name": {
+          "en": "Mustard seeds",
+          "nl": "Mosterdzaad",
+          "fr": "Graines de moutarde"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "garam masala",
+        "name": {
+          "en": "Garam masala",
+          "nl": "Garam masala",
+          "fr": "Garam masala"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "turmeric",
+        "name": {
+          "en": "Turmeric",
+          "nl": "Kurkuma",
+          "fr": "Curcuma"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cabbage-masala/"
+  },
+  {
+    "id": "candida-steak-with-ginger-sauce-and-tabbouleh",
+    "prepTime": "20 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Steak with Ginger Sauce & Quinoa Tabbouleh",
+        "subtitle": "A herb-packed tabbouleh with a punchy ginger dressing",
+        "description": "Steak cooked how you like it and sliced over a tabbouleh made with quinoa instead of bulgur and heaps of parsley and mint, with a ginger, chilli and lemon sauce spooned on top.",
+        "instructions": [
+          "Cook the quinoa as the packet says, rinse it and let it cool.",
+          "Chop the tomatoes and cucumber, finely chop the parsley, mint and red onion, and mix them in a bowl.",
+          "Stir the grated ginger, garlic, chilli, coconut aminos, a tablespoon of olive oil and a tablespoon of lemon juice into a sauce.",
+          "Season the steak and cook it to your liking. Let it rest, then slice it.",
+          "Mix the quinoa into the vegetables with the rest of the lemon juice and olive oil, season, and serve with the steak and the sauce drizzled over."
+        ]
+      },
+      "nl": {
+        "title": "Steak met gembersaus en quinoatabouleh",
+        "subtitle": "Een tabouleh vol kruiden met een pittige gemberdressing",
+        "description": "Steak gebakken zoals jij hem graag hebt, in plakjes op een tabouleh met quinoa in plaats van bulgur en bergen peterselie en munt, met een saus van gember, chili en citroen erover.",
+        "instructions": [
+          "Kook de quinoa zoals op de verpakking staat, spoel en laat afkoelen.",
+          "Snijd de tomaten en komkommer, hak de peterselie, munt en rode ui fijn en meng in een kom.",
+          "Roer de geraspte gember, look, chili, kokosaminos, een eetlepel olijfolie en een eetlepel citroensap tot een saus.",
+          "Kruid de steak en bak hem zoals je hem graag hebt. Laat rusten en snijd in plakjes.",
+          "Meng de quinoa door de groenten met de rest van het citroensap en de olijfolie, kruid, en dien op met de steak en de saus erover."
+        ]
+      },
+      "fr": {
+        "title": "Steak sauce gingembre et taboulé de quinoa",
+        "subtitle": "Un taboulé plein d'herbes et une sauce au gingembre bien relevée",
+        "description": "Un steak cuit à ton goût, tranché sur un taboulé au quinoa au lieu du boulgour avec des montagnes de persil et de menthe, nappé d'une sauce gingembre, piment et citron.",
+        "instructions": [
+          "Cuis le quinoa comme indiqué sur le paquet, rince-le et laisse refroidir.",
+          "Coupe les tomates et le concombre, hache finement le persil, la menthe et l'oignon rouge, et mélange dans un saladier.",
+          "Mélange le gingembre râpé, l'ail, le piment, les aminos de coco, une cuillère à soupe d'huile d'olive et une de jus de citron pour faire la sauce.",
+          "Assaisonne le steak et cuis-le à ton goût. Laisse reposer, puis tranche.",
+          "Incorpore le quinoa aux légumes avec le reste du jus de citron et de l'huile, assaisonne, et sers avec le steak nappé de sauce."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "beef steak",
+        "name": {
+          "en": "Beef steak",
+          "nl": "Rundersteak",
+          "fr": "Steak de bœuf"
+        },
+        "amount": 300,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red chili",
+        "name": {
+          "en": "Red chili",
+          "nl": "Rode chilipeper",
+          "fr": "Piment rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "quinoa",
+        "name": {
+          "en": "Quinoa",
+          "nl": "Quinoa",
+          "fr": "Quinoa"
+        },
+        "amount": 85,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 10,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/steak-with-ginger-sauce-and-tabbouleh/"
+  },
+  {
+    "id": "candida-baba-ganoush",
+    "prepTime": "10 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-baba-ganoush.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Baba Ganoush",
+        "subtitle": "Smoky aubergine, tahini and lemon",
+        "description": "A whole aubergine roasted until it collapses, then blended with tahini, garlic and lemon into a silky, smoky dip. Keeps several days in the fridge.",
+        "instructions": [
+          "Heat the oven to 230 °C. Prick the aubergine all over and roast it on a tray for 35–40 minutes, until collapsed and completely soft.",
+          "Let it cool, then remove the stem and skin.",
+          "Blend the flesh with the olive oil, garlic, lemon juice, tahini, salt and pepper for about a minute, until smooth.",
+          "Add the parsley and pulse for a few seconds.",
+          "Serve at room temperature with a drizzle of oil, more parsley and chilli flakes if you like."
+        ]
+      },
+      "nl": {
+        "title": "Baba ganoush",
+        "subtitle": "Rokerige aubergine, tahin en citroen",
+        "description": "Een hele aubergine geroosterd tot ze in elkaar zakt, en dan gemixt met tahin, look en citroen tot een zijdezachte, rokerige dip. Blijft een paar dagen goed in de koelkast.",
+        "instructions": [
+          "Verwarm de oven voor op 230 °C. Prik de aubergine overal in en rooster ze 35–40 minuten op een bakplaat, tot ze ingezakt en helemaal zacht is.",
+          "Laat afkoelen en verwijder het steeltje en het vel.",
+          "Mix het vruchtvlees met de olijfolie, look, het citroensap, de tahin, zout en peper zo'n minuut tot het glad is.",
+          "Voeg de peterselie toe en mix nog een paar seconden.",
+          "Dien op op kamertemperatuur met een scheutje olie, nog wat peterselie en eventueel chilivlokken."
+        ]
+      },
+      "fr": {
+        "title": "Baba ganoush",
+        "subtitle": "Aubergine fumée, tahini et citron",
+        "description": "Une aubergine entière rôtie jusqu'à s'effondrer, puis mixée avec du tahini, de l'ail et du citron en une purée soyeuse et fumée. Se garde plusieurs jours au frigo.",
+        "instructions": [
+          "Préchauffe le four à 230 °C. Pique l'aubergine de partout et rôtis-la sur une plaque 35–40 minutes, jusqu'à ce qu'elle s'affaisse et soit complètement tendre.",
+          "Laisse refroidir, puis retire le pédoncule et la peau.",
+          "Mixe la chair avec l'huile d'olive, l'ail, le jus de citron, le tahini, le sel et le poivre environ une minute, jusqu'à ce que ce soit lisse.",
+          "Ajoute le persil et mixe quelques secondes.",
+          "Sers à température ambiante avec un filet d'huile, encore du persil et du piment si tu veux."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggplant",
+        "name": {
+          "en": "eggplant",
+          "nl": "aubergine",
+          "fr": "aubergine"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tahini",
+        "name": {
+          "en": "Tahini",
+          "nl": "Tahin",
+          "fr": "Tahini"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/baba-ganoush/",
+    "imageCredit": {
+      "author": "Breville USA",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Baba_Ganoush_05of05_(8735238183).jpg"
+    }
+  },
+  {
+    "id": "candida-quinoa-buckwheat-crackers",
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Quinoa & Buckwheat Crackers",
+        "subtitle": "Thin, crisp and yeast-free",
+        "description": "A simple dough of quinoa and buckwheat flour rolled paper-thin and baked until crisp, with herbs if you like. Break them into shards for dips like the baba ganoush.",
+        "instructions": [
+          "Heat the oven to 220 °C, with a pizza stone in it if you have one.",
+          "Whisk the quinoa flour, buckwheat flour, psyllium and salt. Rub in the olive oil until crumbly, then add the water and mix to a dough.",
+          "Knead for about a minute until smooth, then divide into 4 pieces.",
+          "Flatten each piece, dust it with quinoa flour and roll it out very thin between two sheets of baking paper. Scatter over herbs if you like.",
+          "Bake one at a time for 7–8 minutes, until the edges brown. Let them cool for an hour before breaking into pieces."
+        ]
+      },
+      "nl": {
+        "title": "Crackers van quinoa en boekweit",
+        "subtitle": "Dun, krokant en zonder gist",
+        "description": "Een eenvoudig deeg van quinoa- en boekweitmeel, flinterdun uitgerold en krokant gebakken, met kruiden als je wilt. Breek ze in stukken voor dips zoals de baba ganoush.",
+        "instructions": [
+          "Verwarm de oven voor op 220 °C, met een pizzasteen erin als je die hebt.",
+          "Klop het quinoameel, boekweitmeel, de psyllium en het zout door elkaar. Wrijf de olijfolie erdoor tot het kruimelig is, voeg het water toe en meng tot een deeg.",
+          "Kneed zo'n minuut tot het glad is en verdeel in 4 stukken.",
+          "Druk elk stuk plat, bestuif met quinoameel en rol heel dun uit tussen twee vellen bakpapier. Strooi er kruiden over als je wilt.",
+          "Bak ze een voor een 7–8 minuten, tot de randen bruin worden. Laat een uur afkoelen voor je ze in stukken breekt."
+        ]
+      },
+      "fr": {
+        "title": "Crackers quinoa-sarrasin",
+        "subtitle": "Fins, croustillants et sans levure",
+        "description": "Une pâte simple aux farines de quinoa et de sarrasin, étalée très finement et cuite jusqu'à être croustillante, avec des herbes si tu veux. Casse-les en éclats pour les dips comme le baba ganoush.",
+        "instructions": [
+          "Préchauffe le four à 220 °C, avec une pierre à pizza dedans si tu en as une.",
+          "Fouette la farine de quinoa, la farine de sarrasin, le psyllium et le sel. Incorpore l'huile d'olive du bout des doigts jusqu'à obtenir un sable, puis ajoute l'eau et forme une pâte.",
+          "Pétris environ une minute jusqu'à ce qu'elle soit lisse, puis divise en 4.",
+          "Aplatis chaque morceau, farine-le de farine de quinoa et étale-le très finement entre deux feuilles de papier cuisson. Parsème d'herbes si tu veux.",
+          "Enfourne un à la fois 7–8 minutes, jusqu'à ce que les bords dorent. Laisse refroidir une heure avant de casser en morceaux."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "quinoa flour",
+        "name": {
+          "en": "Quinoa flour",
+          "nl": "Quinoameel",
+          "fr": "Farine de quinoa"
+        },
+        "amount": 130,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "psyllium husk powder",
+        "name": {
+          "en": "Psyllium husk powder",
+          "nl": "Psylliumvezels",
+          "fr": "Psyllium en poudre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "dried herbs",
+        "name": {
+          "en": "Dried herbs",
+          "nl": "Gedroogde kruiden",
+          "fr": "Herbes séchées"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/quinoa-buckwheat-crackers/"
+  },
+  {
+    "id": "candida-artichoke-hummus",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Artichoke Hummus",
+        "subtitle": "Ten minutes, one food processor",
+        "description": "Artichoke hearts blended with tahini, lemon, garlic and cumin into a creamy, chickpea-free hummus. Finish it with good olive oil and fresh herbs.",
+        "instructions": [
+          "Pulse the artichokes and garlic in a food processor until roughly chopped.",
+          "Add 2 tablespoons of olive oil, the lemon juice, tahini and cumin and blend until smooth.",
+          "Season with salt and pepper.",
+          "Just before serving, drizzle over the last tablespoon of oil and scatter with herbs."
+        ]
+      },
+      "nl": {
+        "title": "Artisjokhummus",
+        "subtitle": "Tien minuten, één keukenrobot",
+        "description": "Artisjokharten gemixt met tahin, citroen, look en komijn tot een romige hummus zonder kikkererwten. Werk af met goede olijfolie en verse kruiden.",
+        "instructions": [
+          "Hak de artisjokken en look grof in de keukenrobot.",
+          "Voeg 2 eetlepels olijfolie, het citroensap, de tahin en komijn toe en mix glad.",
+          "Breng op smaak met zout en peper.",
+          "Sprenkel vlak voor het opdienen de laatste eetlepel olie erover en strooi er kruiden op."
+        ]
+      },
+      "fr": {
+        "title": "Houmous d'artichaut",
+        "subtitle": "Dix minutes, un robot",
+        "description": "Des cœurs d'artichaut mixés avec du tahini, du citron, de l'ail et du cumin en un houmous crémeux sans pois chiches. À finir avec une bonne huile d'olive et des herbes fraîches.",
+        "instructions": [
+          "Hache grossièrement les artichauts et l'ail au robot.",
+          "Ajoute 2 cuillères à soupe d'huile d'olive, le jus de citron, le tahini et le cumin et mixe jusqu'à ce que ce soit lisse.",
+          "Sale et poivre.",
+          "Juste avant de servir, arrose de la dernière cuillère d'huile et parsème d'herbes."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "artichoke hearts",
+        "name": {
+          "en": "Artichoke hearts",
+          "nl": "Artisjokharten",
+          "fr": "Cœurs d'artichaut"
+        },
+        "amount": 400,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tahini",
+        "name": {
+          "en": "Tahini",
+          "nl": "Tahin",
+          "fr": "Tahini"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/artichoke-hummus/"
+  },
+  {
+    "id": "candida-coconut-flour-crackers-grissini",
+    "prepTime": "20 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 8,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Flour Crackers & Grissini",
+        "subtitle": "Five ingredients, seventy crackers",
+        "description": "A coconut and flax dough rolled out, cut into little squares and baked crisp, with the offcuts rolled into breadsticks so nothing goes to waste.",
+        "instructions": [
+          "Heat the oven to 180 °C.",
+          "Sift the coconut flour and whisk in the flaxseed and salt. Whisk the melted coconut oil with the coconut milk and stir it into the dry mix until it forms a dough.",
+          "Roll it out between two sheets of baking paper to about 5 mm thick and 33–35 cm square.",
+          "Cut into 4 cm squares and roll the scraps into thin grissini.",
+          "Bake for 10 minutes and take out the outer crackers that have browned. Bake about 10 minutes more, picking out the rest as they turn golden. Let them cool completely."
+        ]
+      },
+      "nl": {
+        "title": "Crackers en grissini van kokosmeel",
+        "subtitle": "Vijf ingrediënten, zeventig crackers",
+        "description": "Een deeg van kokos en lijnzaad uitgerold, in vierkantjes gesneden en krokant gebakken, met de restjes opgerold tot soepstengels zodat er niets verloren gaat.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C.",
+          "Zeef het kokosmeel en klop het lijnzaad en zout erdoor. Klop de gesmolten kokosolie met de kokosmelk en roer door het droge mengsel tot het een deeg wordt.",
+          "Rol uit tussen twee vellen bakpapier tot zo'n 5 mm dik en 33–35 cm in het vierkant.",
+          "Snijd in vierkantjes van 4 cm en rol de restjes tot dunne grissini.",
+          "Bak 10 minuten en haal de buitenste crackers eruit die al gekleurd zijn. Bak nog zo'n 10 minuten en haal de rest eruit zodra ze goudbruin worden. Laat volledig afkoelen."
+        ]
+      },
+      "fr": {
+        "title": "Crackers et gressins à la farine de coco",
+        "subtitle": "Cinq ingrédients, soixante-dix crackers",
+        "description": "Une pâte à la coco et au lin étalée, découpée en petits carrés et cuite croustillante, avec les chutes roulées en gressins pour ne rien perdre.",
+        "instructions": [
+          "Préchauffe le four à 180 °C.",
+          "Tamise la farine de coco et ajoute le lin et le sel en fouettant. Fouette l'huile de coco fondue avec le lait de coco et incorpore au sec jusqu'à obtenir une pâte.",
+          "Étale-la entre deux feuilles de papier cuisson sur environ 5 mm d'épaisseur et un carré de 33–35 cm.",
+          "Découpe en carrés de 4 cm et roule les chutes en fins gressins.",
+          "Enfourne 10 minutes et retire les crackers extérieurs déjà dorés. Poursuis une dizaine de minutes en retirant les autres au fur et à mesure qu'ils dorent. Laisse refroidir complètement."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-flour-crackers-grissini/"
+  },
+  {
+    "id": "candida-pumpkin-seed-oat-biscuits",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": false,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Pumpkin Seed & Oat Bran Biscuits",
+        "subtitle": "Savoury, with thyme and a pinch of cayenne",
+        "description": "Crumbly savoury biscuits of oat bran, ground pumpkin seeds and almond flour, seasoned with thyme and cayenne. Good with cheese, soup or just a cup of tea.",
+        "instructions": [
+          "Heat the oven to 200 °C and line a baking tray with baking paper.",
+          "Blitz the oat bran and all but a tablespoon of the pumpkin seeds in a food processor for about 30 seconds. Add the almond flour, arrowroot, salt, cayenne and thyme and blitz for 10 seconds more.",
+          "Rub in the cold butter until it looks like crumbs, then add the almond milk to make a dough. Mix in the last tablespoon of pumpkin seeds.",
+          "Roll it out between two sheets of baking paper to about 5 mm and cut out rounds.",
+          "Bake for about 15 minutes, until the edges just start to brown. Let them cool completely and keep them in an airtight tin."
+        ]
+      },
+      "nl": {
+        "title": "Hartige koekjes van haverzemelen en pompoenpitten",
+        "subtitle": "Hartig, met tijm en een snuifje cayenne",
+        "description": "Kruimelige hartige koekjes van haverzemelen, gemalen pompoenpitten en amandelmeel, gekruid met tijm en cayenne. Lekker bij kaas, soep of gewoon een kopje thee.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C en bekleed een bakplaat met bakpapier.",
+          "Mix de haverzemelen en alle pompoenpitten op een eetlepel na zo'n 30 seconden in de keukenrobot. Voeg het amandelmeel, de pijlwortel, het zout, de cayenne en tijm toe en mix nog 10 seconden.",
+          "Wrijf de koude boter erdoor tot het op kruimels lijkt en voeg dan de amandelmelk toe voor een deeg. Meng de laatste eetlepel pompoenpitten erdoor.",
+          "Rol uit tussen twee vellen bakpapier tot zo'n 5 mm en steek er rondjes uit.",
+          "Bak zo'n 15 minuten, tot de randjes net beginnen te kleuren. Laat helemaal afkoelen en bewaar in een luchtdichte doos."
+        ]
+      },
+      "fr": {
+        "title": "Biscuits au son d'avoine et aux graines de courge",
+        "subtitle": "Salés, au thym et à une pincée de cayenne",
+        "description": "Des biscuits salés et friables au son d'avoine, aux graines de courge moulues et à la farine d'amande, assaisonnés de thym et de cayenne. Parfaits avec du fromage, une soupe ou simplement un thé.",
+        "instructions": [
+          "Préchauffe le four à 200 °C et garnis une plaque de papier cuisson.",
+          "Mixe le son d'avoine et les graines de courge, sauf une cuillère à soupe, environ 30 secondes. Ajoute la farine d'amande, l'arrow-root, le sel, le cayenne et le thym et mixe encore 10 secondes.",
+          "Incorpore le beurre froid du bout des doigts jusqu'à obtenir un sable, puis ajoute le lait d'amande pour former une pâte. Ajoute la dernière cuillère de graines de courge.",
+          "Étale entre deux feuilles de papier cuisson sur environ 5 mm et découpe des ronds.",
+          "Enfourne environ 15 minutes, jusqu'à ce que les bords commencent à dorer. Laisse refroidir complètement et garde dans une boîte hermétique."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "oat bran",
+        "name": {
+          "en": "Oat bran",
+          "nl": "Haverzemelen",
+          "fr": "Son d'avoine"
+        },
+        "amount": 65,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pumpkin seeds",
+        "name": {
+          "en": "Pumpkin seeds",
+          "nl": "Pompoenpitten",
+          "fr": "Graines de courge"
+        },
+        "amount": 45,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 35,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "arrowroot powder",
+        "name": {
+          "en": "Arrowroot powder",
+          "nl": "Pijlwortelpoeder",
+          "fr": "Arrow-root"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried thyme",
+        "name": {
+          "en": "Dried thyme",
+          "nl": "Gedroogde tijm",
+          "fr": "Thym séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/pumpkin-seed-oat-biscuits/"
+  },
+  {
+    "id": "candida-hazelnut-butter-bars",
+    "prepTime": "30 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 9,
+    "category": [
+      "dessert",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Hazelnut Butter Bars",
+        "subtitle": "Fudgy, nutty and flourless",
+        "description": "Dense, moist bars made from homemade hazelnut butter, avocado and a little applesauce, sweetened with stevia and topped with toasted hazelnuts.",
+        "instructions": [
+          "For the hazelnut butter, roast the hazelnuts at 180 °C for 10–15 minutes, rub off the skins in a tea towel and blend for 6–8 minutes until smooth. You need about 250 g; keep the rest for toast.",
+          "Let all the ingredients come to room temperature. Heat the oven to 180 °C and oil and line a 20 × 20 cm tin.",
+          "Whisk the eggs with the stevia and vanilla until pale and frothy.",
+          "Blend the hazelnut butter, avocado, applesauce, coconut oil, baking soda and salt until smooth, then briefly blend in the egg mixture.",
+          "Pour into the tin, scatter with the chopped hazelnuts and bake for 20 minutes. Let it cool completely before cutting into 9 bars."
+        ]
+      },
+      "nl": {
+        "title": "Hazelnootrepen",
+        "subtitle": "Smeuïg, nootachtig en zonder bloem",
+        "description": "Dichte, smeuïge repen van zelfgemaakte hazelnootpasta, avocado en een beetje appelmoes, gezoet met stevia en met geroosterde hazelnoten erop.",
+        "instructions": [
+          "Voor de hazelnootpasta rooster je de hazelnoten 10–15 minuten op 180 °C, wrijf je de velletjes eraf in een keukenhanddoek en mix je 6–8 minuten tot het glad is. Je hebt er zo'n 250 g van nodig; de rest is voor op je boterham.",
+          "Laat alle ingrediënten op kamertemperatuur komen. Verwarm de oven voor op 180 °C en vet een vorm van 20 × 20 cm in en bekleed hem.",
+          "Klop de eieren met de stevia en vanille bleek en schuimig.",
+          "Mix de hazelnootpasta, avocado, appelmoes, kokosolie, het zuiveringszout en zout glad en mix er kort het eiermengsel door.",
+          "Giet in de vorm, strooi er de gehakte hazelnoten over en bak 20 minuten. Laat helemaal afkoelen voor je in 9 repen snijdt."
+        ]
+      },
+      "fr": {
+        "title": "Barres à la pâte de noisette",
+        "subtitle": "Fondantes, gourmandes et sans farine",
+        "description": "Des barres denses et moelleuses à base de purée de noisette maison, d'avocat et d'un peu de compote, sucrées à la stévia et couvertes de noisettes grillées.",
+        "instructions": [
+          "Pour la purée de noisette, grille les noisettes à 180 °C 10–15 minutes, frotte-les dans un torchon pour retirer les peaux et mixe 6–8 minutes jusqu'à ce que ce soit lisse. Il t'en faut environ 250 g ; garde le reste pour tes tartines.",
+          "Laisse tous les ingrédients venir à température ambiante. Préchauffe le four à 180 °C et huile et chemise un moule de 20 × 20 cm.",
+          "Fouette les œufs avec la stévia et la vanille jusqu'à ce qu'ils pâlissent et moussent.",
+          "Mixe la purée de noisette, l'avocat, la compote, l'huile de coco, le bicarbonate et le sel jusqu'à ce que ce soit lisse, puis ajoute brièvement le mélange aux œufs.",
+          "Verse dans le moule, parsème de noisettes hachées et enfourne 20 minutes. Laisse refroidir complètement avant de couper 9 barres."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "hazelnuts",
+        "name": {
+          "en": "Hazelnuts",
+          "nl": "Hazelnoten",
+          "fr": "Noisettes"
+        },
+        "amount": 400,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "unsweetened applesauce",
+        "name": {
+          "en": "Unsweetened applesauce",
+          "nl": "Appelmoes zonder suiker",
+          "fr": "Compote de pommes sans sucre"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/hazelnut-butter-bars/"
+  },
+  {
+    "id": "candida-sesame-cauliflower-rounds",
+    "prepTime": "15 mins",
+    "cookTime": "1 hr",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 10,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Sesame Cauliflower Crisps",
+        "subtitle": "Slow-baked rounds coated in sesame",
+        "description": "A dough of riced cauliflower, flax, chia and sesame, chilled, rolled in sesame seeds and slow-baked into crunchy little rounds. Plan ahead: the dough needs a few hours in the fridge.",
+        "instructions": [
+          "Pulse the cauliflower in a food processor until it looks like rice.",
+          "Add the flaxseed, chia, 50 g of the sesame seeds, salt, coconut oil and water and blend into a ball of dough. Chill it for 3–4 hours until firm.",
+          "Heat the oven to 150 °C and line a baking tray with baking paper.",
+          "Roll rounded teaspoons of dough into balls, roll them in the rest of the sesame seeds and space them well apart. Flatten each one to 5–8 cm.",
+          "Bake for 30 minutes, flip, and bake 30 minutes more, until dry in the middle. Let them cool completely."
+        ]
+      },
+      "nl": {
+        "title": "Krokante bloemkoolrondjes met sesam",
+        "subtitle": "Langzaam gebakken rondjes in een jasje van sesam",
+        "description": "Een deeg van fijngehakte bloemkool, lijnzaad, chia en sesam, opgesteven in de koelkast, door sesamzaad gerold en langzaam krokant gebakken. Plan op voorhand: het deeg moet een paar uur in de koelkast.",
+        "instructions": [
+          "Hak de bloemkool in de keukenrobot tot hij op rijst lijkt.",
+          "Voeg het lijnzaad, de chia, 50 g van het sesamzaad, het zout, de kokosolie en het water toe en mix tot een deegbal. Laat 3–4 uur opstijven in de koelkast.",
+          "Verwarm de oven voor op 150 °C en bekleed een bakplaat met bakpapier.",
+          "Rol bolle theelepels deeg tot balletjes, rol ze door de rest van het sesamzaad en leg ze ver uit elkaar. Druk elk balletje plat tot 5–8 cm.",
+          "Bak 30 minuten, draai om en bak nog 30 minuten, tot ze in het midden droog zijn. Laat helemaal afkoelen."
+        ]
+      },
+      "fr": {
+        "title": "Galettes croustillantes chou-fleur et sésame",
+        "subtitle": "Des ronds cuits lentement, enrobés de sésame",
+        "description": "Une pâte de chou-fleur haché, de lin, de chia et de sésame, raffermie au frais, roulée dans le sésame et cuite lentement en petits ronds croquants. Prévois à l'avance : la pâte doit passer quelques heures au frigo.",
+        "instructions": [
+          "Mixe le chou-fleur par à-coups jusqu'à ce qu'il ressemble à du riz.",
+          "Ajoute le lin, le chia, 50 g de sésame, le sel, l'huile de coco et l'eau et mixe en boule de pâte. Mets-la 3–4 heures au frais pour qu'elle raffermisse.",
+          "Préchauffe le four à 150 °C et garnis une plaque de papier cuisson.",
+          "Forme des boules d'une cuillère à café bombée, roule-les dans le reste du sésame et espace-les bien. Aplatis chacune à 5–8 cm.",
+          "Enfourne 30 minutes, retourne et poursuis 30 minutes, jusqu'à ce que le centre soit sec. Laisse refroidir complètement."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 400,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "sesame seeds",
+        "name": {
+          "en": "sesame seeds",
+          "nl": "sesamzaad",
+          "fr": "graines de sésame"
+        },
+        "amount": 190,
+        "unit": "g",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/sesame-cauliflower-rounds/"
+  },
+  {
+    "id": "candida-cauliflower-salmon-bites",
+    "prepTime": "20 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Cauliflower Salmon Bites",
+        "subtitle": "Little baked mouthfuls for a party",
+        "description": "Mini bites of roasted cauliflower purée, flaked salmon, fennel and shallot set with egg and baked in a mini-muffin tin. Serve them with a dot of yogurt and a fennel frond.",
+        "instructions": [
+          "Heat the oven to 180 °C and brush a mini-muffin tin with oil.",
+          "Soften the fennel and shallot in the oil with the salt and pepper over medium heat for 2–3 minutes.",
+          "Mix the cauliflower purée with the salmon, fennel fronds, the softened fennel and shallot, nutmeg and eggs.",
+          "Spoon a rounded tablespoon into each hole and bake for about 20 minutes, until golden.",
+          "Let them cool and serve with a little yogurt and a fennel frond on each."
+        ]
+      },
+      "nl": {
+        "title": "Hapjes van bloemkool en zalm",
+        "subtitle": "Kleine gebakken hapjes voor een feestje",
+        "description": "Mini-hapjes van geroosterde bloemkoolpuree, gevlokte zalm, venkel en sjalot, gebonden met ei en gebakken in een minimuffinvorm. Lekker met een toefje yoghurt en een sprietje venkelgroen.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bestrijk een minimuffinvorm met olie.",
+          "Stoof de venkel en sjalot 2–3 minuten in de olie met het zout en de peper op middelhoog vuur.",
+          "Meng de bloemkoolpuree met de zalm, het venkelgroen, de gestoofde venkel en sjalot, nootmuskaat en eieren.",
+          "Schep een bolle eetlepel in elke holte en bak zo'n 20 minuten, tot ze goudbruin zijn.",
+          "Laat afkoelen en dien op met een beetje yoghurt en een sprietje venkelgroen op elk."
+        ]
+      },
+      "fr": {
+        "title": "Bouchées chou-fleur et saumon",
+        "subtitle": "De petites bouchées au four pour l'apéro",
+        "description": "Des mini-bouchées de purée de chou-fleur rôti, de saumon émietté, de fenouil et d'échalote, liées à l'œuf et cuites dans un moule à mini-muffins. À servir avec un point de yaourt et une pluche de fenouil.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et badigeonne un moule à mini-muffins d'huile.",
+          "Fais fondre le fenouil et l'échalote dans l'huile avec le sel et le poivre à feu moyen 2–3 minutes.",
+          "Mélange la purée de chou-fleur avec le saumon, les pluches de fenouil, le fenouil et l'échalote fondus, la muscade et les œufs.",
+          "Dépose une cuillère à soupe bombée dans chaque empreinte et enfourne environ 20 minutes, jusqu'à ce que ce soit doré.",
+          "Laisse refroidir et sers avec un peu de yaourt et une pluche de fenouil sur chacune."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "fennel",
+        "name": {
+          "en": "Fennel",
+          "nl": "Venkel",
+          "fr": "Fenouil"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 400,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salmon fillet",
+        "name": {
+          "en": "Salmon fillet",
+          "nl": "Zalmfilet",
+          "fr": "Filet de saumon"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "nutmeg",
+        "name": {
+          "en": "nutmeg",
+          "nl": "nootmuskaat",
+          "fr": "noix de muscade"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cauliflower-salmon-bites/"
+  },
+  {
+    "id": "candida-chicken-liver-pate",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 8,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": false,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Chicken Liver Pâté",
+        "subtitle": "Smooth, buttery and ready in fifteen minutes",
+        "description": "Chicken livers fried with onion, shallot and thyme and blended with butter and a splash of coconut milk into a silky pâté. Keeps five days in the fridge.",
+        "instructions": [
+          "Melt half the butter in a frying pan over medium heat and soften the onion and shallot for about 5 minutes. Tip them out.",
+          "Heat the pan again and fry the chicken livers until just barely pink inside.",
+          "Put the livers, onion and shallot, salt, pepper, thyme, coconut milk and the rest of the butter in a food processor.",
+          "Blend until smooth, spoon into a dish and chill. It keeps for up to 5 days."
+        ]
+      },
+      "nl": {
+        "title": "Kippenleverpaté",
+        "subtitle": "Glad, boterig en klaar in een kwartier",
+        "description": "Kippenlevertjes gebakken met ui, sjalot en tijm en gemixt met boter en een scheutje kokosmelk tot een zijdezachte paté. Blijft vijf dagen goed in de koelkast.",
+        "instructions": [
+          "Smelt de helft van de boter in een pan op middelhoog vuur en stoof de ui en sjalot zo'n 5 minuten zacht. Schep ze eruit.",
+          "Verhit de pan opnieuw en bak de levertjes tot ze vanbinnen nog net een beetje roze zijn.",
+          "Doe de levertjes, ui en sjalot, het zout, de peper, tijm, kokosmelk en de rest van de boter in de keukenrobot.",
+          "Mix glad, schep in een schaaltje en laat opstijven in de koelkast. Blijft tot 5 dagen goed."
+        ]
+      },
+      "fr": {
+        "title": "Pâté de foies de volaille",
+        "subtitle": "Lisse, beurré et prêt en un quart d'heure",
+        "description": "Des foies de volaille poêlés avec oignon, échalote et thym, mixés avec du beurre et un trait de lait de coco en un pâté soyeux. Se garde cinq jours au frigo.",
+        "instructions": [
+          "Fais fondre la moitié du beurre dans une poêle à feu moyen et fais fondre l'oignon et l'échalote environ 5 minutes. Retire-les.",
+          "Réchauffe la poêle et saisis les foies jusqu'à ce qu'ils soient à peine rosés à cœur.",
+          "Mets les foies, l'oignon et l'échalote, le sel, le poivre, le thym, le lait de coco et le reste du beurre dans le robot.",
+          "Mixe jusqu'à ce que ce soit lisse, verse dans une terrine et mets au frais. Se garde jusqu'à 5 jours."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "chicken livers",
+        "name": {
+          "en": "Chicken livers",
+          "nl": "Kippenlevertjes",
+          "fr": "Foies de volaille"
+        },
+        "amount": 450,
+        "unit": "g",
+        "category": "Slagerij & Gevogelte",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "thyme",
+        "name": {
+          "en": "thyme",
+          "nl": "tijm",
+          "fr": "thym"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/chicken-liver-pate/"
+  },
+  {
+    "id": "candida-roasted-cauliflower-radicchio-salsa",
+    "prepTime": "10 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "main",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Cauliflower Steaks with Radicchio Salsa",
+        "subtitle": "Thick roasted slices under a bitter-sweet relish",
+        "description": "Cauliflower cut into thick slices and roasted until golden on both sides, topped with a chunky salsa of radicchio, shallot, parsley and almonds.",
+        "instructions": [
+          "Heat the oven to 200 °C.",
+          "Brush the cauliflower slices with oil on both sides and season with salt.",
+          "Roast for 10–15 minutes, until the undersides brown, then flip and roast 10 minutes more.",
+          "Pulse the radicchio, shallot, parsley, almonds, coconut aminos, salt, pepper and a pinch of stevia in a food processor until combined but still chunky.",
+          "Spoon the salsa over the cauliflower and serve."
+        ]
+      },
+      "nl": {
+        "title": "Bloemkoolsteaks met radicchiosalsa",
+        "subtitle": "Dikke geroosterde plakken onder een bitterzoete salsa",
+        "description": "Bloemkool in dikke plakken gesneden en aan beide kanten goudbruin geroosterd, met een grove salsa van radicchio, sjalot, peterselie en amandelen erop.",
+        "instructions": [
+          "Verwarm de oven voor op 200 °C.",
+          "Bestrijk de plakken bloemkool aan beide kanten met olie en bestrooi met zout.",
+          "Rooster 10–15 minuten, tot de onderkant bruin is, draai om en rooster nog 10 minuten.",
+          "Hak de radicchio, sjalot, peterselie, amandelen, kokosaminos, het zout, de peper en een snuifje stevia in de keukenrobot tot het gemengd maar nog grof is.",
+          "Schep de salsa over de bloemkool en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Steaks de chou-fleur, salsa de radicchio",
+        "subtitle": "D'épaisses tranches rôties sous une salsa douce-amère",
+        "description": "Du chou-fleur coupé en tranches épaisses et rôti jusqu'à être doré des deux côtés, garni d'une salsa rustique de radicchio, d'échalote, de persil et d'amandes.",
+        "instructions": [
+          "Préchauffe le four à 200 °C.",
+          "Badigeonne les tranches de chou-fleur d'huile des deux côtés et sale.",
+          "Rôtis 10–15 minutes, jusqu'à ce que le dessous dore, puis retourne et poursuis 10 minutes.",
+          "Mixe par à-coups le radicchio, l'échalote, le persil, les amandes, les aminos de coco, le sel, le poivre et une pincée de stévia, jusqu'à ce que ce soit mélangé mais encore rustique.",
+          "Nappe le chou-fleur de salsa et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cauliflower",
+        "name": {
+          "en": "cauliflower",
+          "nl": "bloemkool",
+          "fr": "chou-fleur"
+        },
+        "amount": 1,
+        "unit": "head",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "radicchio",
+        "name": {
+          "en": "Radicchio",
+          "nl": "Radicchio",
+          "fr": "Radicchio"
+        },
+        "amount": 70,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "flaked almonds",
+        "name": {
+          "en": "Flaked almonds",
+          "nl": "Amandelschilfers",
+          "fr": "Amandes effilées"
+        },
+        "amount": 25,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut aminos",
+        "name": {
+          "en": "Coconut aminos",
+          "nl": "Kokosaminos",
+          "fr": "Aminos de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/roasted-cauliflower-radicchio-salsa/"
+  },
+  {
+    "id": "candida-leek-roasted-garlic-focaccia-bread",
+    "prepTime": "1 hr 15 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 8,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Leek & Roasted Garlic Flatbread",
+        "subtitle": "A yeast-free focaccia with herbes de Provence",
+        "description": "A light coconut-flour flatbread raised with whipped egg whites, topped with soft leek and sweet roasted garlic and baked until golden. Roast the garlic ahead of time.",
+        "instructions": [
+          "Roast the garlic: wrap the cloves in foil and bake at 200 °C for about an hour, then mash them.",
+          "Soften the leek in a tablespoon of oil over medium-low heat for about 5 minutes and mix in the garlic.",
+          "Heat the oven to 180 °C and oil and line a 23 × 33 cm tin.",
+          "Whisk the egg whites to soft peaks. Whisk the yolks with the kefir. Mix the coconut flour, flaxseed, salt and baking soda, then fold in the yolks and the whites.",
+          "Spread the batter in the tin and bake for 10 minutes. Top with the leek and garlic, the rest of the oil, the herbs, salt and pepper, and bake 10 minutes more. Let it cool before slicing."
+        ]
+      },
+      "nl": {
+        "title": "Platbrood met prei en geroosterde look",
+        "subtitle": "Een focaccia zonder gist met Provençaalse kruiden",
+        "description": "Een licht platbrood van kokosmeel, luchtig door opgeklopt eiwit, met zachte prei en zoete geroosterde look erop en goudbruin gebakken. Rooster de look op voorhand.",
+        "instructions": [
+          "Rooster de look: wikkel de teentjes in aluminiumfolie, bak ze zo'n uur op 200 °C en prak ze fijn.",
+          "Stoof de prei zo'n 5 minuten zacht in een eetlepel olie op middellaag vuur en meng de look erdoor.",
+          "Verwarm de oven voor op 180 °C en vet een vorm van 23 × 33 cm in en bekleed hem.",
+          "Klop de eiwitten tot zachte pieken. Klop de dooiers met de kefir. Meng het kokosmeel, lijnzaad, zout en zuiveringszout en spatel er de dooiers en het eiwit door.",
+          "Strijk het beslag uit in de vorm en bak 10 minuten. Leg de prei en look erop met de rest van de olie, de kruiden, zout en peper, en bak nog 10 minuten. Laat afkoelen voor je snijdt."
+        ]
+      },
+      "fr": {
+        "title": "Pain plat poireau et ail rôti",
+        "subtitle": "Une focaccia sans levure aux herbes de Provence",
+        "description": "Un pain plat léger à la farine de coco, gonflé aux blancs montés, garni de poireau fondant et d'ail rôti tout doux et cuit jusqu'à être doré. Rôtis l'ail à l'avance.",
+        "instructions": [
+          "Rôtis l'ail : enveloppe les gousses dans de l'aluminium, enfourne à 200 °C environ une heure, puis écrase-les.",
+          "Fais fondre le poireau dans une cuillère à soupe d'huile à feu moyen-doux environ 5 minutes et ajoute l'ail.",
+          "Préchauffe le four à 180 °C et huile et chemise un moule de 23 × 33 cm.",
+          "Monte les blancs en neige souple. Fouette les jaunes avec le kéfir. Mélange la farine de coco, le lin, le sel et le bicarbonate, puis incorpore les jaunes et les blancs.",
+          "Étale la pâte dans le moule et enfourne 10 minutes. Garnis de poireau et d'ail, du reste de l'huile, des herbes, de sel et de poivre, et poursuis 10 minutes. Laisse refroidir avant de trancher."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "leek",
+        "name": {
+          "en": "leek",
+          "nl": "prei",
+          "fr": "poireau"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "kefir",
+        "name": {
+          "en": "Kefir",
+          "nl": "Kefir",
+          "fr": "Kéfir"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "herbes de provence",
+        "name": {
+          "en": "Herbes de Provence",
+          "nl": "Provençaalse kruiden",
+          "fr": "Herbes de Provence"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/leek-roasted-garlic-focaccia-bread/"
+  },
+  {
+    "id": "candida-red-pepper-dip-muhammara",
+    "prepTime": "10 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-red-pepper-dip-muhammara.jpg",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Muhammara",
+        "subtitle": "Roasted red pepper and walnut dip",
+        "description": "Charred red peppers blended with toasted walnuts, softened red onion, garlic, cumin and lemon into a smoky, nutty dip from Syria. Serve with crackers or raw vegetables.",
+        "instructions": [
+          "Char the whole peppers over a gas flame, turning with tongs, until blackened. Or roast them at 180 °C for 10–12 minutes on an oiled tray, turning every few minutes.",
+          "Peel the peppers and remove the stems and seeds.",
+          "Chop the onion and soften it in a little of the olive oil for 3–5 minutes.",
+          "Blend everything together until smooth and season with salt."
+        ]
+      },
+      "nl": {
+        "title": "Muhammara",
+        "subtitle": "Dip van geroosterde rode paprika en walnoot",
+        "description": "Geblakerde rode paprika's gemixt met geroosterde walnoten, gestoofde rode ui, look, komijn en citroen tot een rokerige, nootachtige dip uit Syrië. Lekker met crackers of rauwe groenten.",
+        "instructions": [
+          "Blaker de hele paprika's boven een gasvlam en draai ze met een tang tot ze zwart zijn. Of rooster ze 10–12 minuten op 180 °C op een ingevette bakplaat en draai ze om de paar minuten.",
+          "Pel de paprika's en verwijder de steeltjes en zaadjes.",
+          "Hak de ui fijn en stoof hem 3–5 minuten zacht in een beetje van de olijfolie.",
+          "Mix alles glad en breng op smaak met zout."
+        ]
+      },
+      "fr": {
+        "title": "Mouhammara",
+        "subtitle": "Dip de poivron rouge rôti et de noix",
+        "description": "Des poivrons rouges noircis mixés avec des noix grillées, de l'oignon rouge fondu, de l'ail, du cumin et du citron en un dip fumé et gourmand venu de Syrie. À servir avec des crackers ou des crudités.",
+        "instructions": [
+          "Noircis les poivrons entiers sur la flamme du gaz en les tournant avec une pince. Ou rôtis-les à 180 °C 10–12 minutes sur une plaque huilée en les retournant toutes les quelques minutes.",
+          "Pèle les poivrons et retire les pédoncules et les graines.",
+          "Hache l'oignon et fais-le fondre dans un peu d'huile d'olive 3–5 minutes.",
+          "Mixe le tout jusqu'à ce que ce soit lisse et sale."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "walnuts",
+        "name": {
+          "en": "walnuts",
+          "nl": "walnoten",
+          "fr": "noix"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cumin",
+        "name": {
+          "en": "cumin",
+          "nl": "komijn",
+          "fr": "cumin"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/red-pepper-dip-muhammara/",
+    "imageCredit": {
+      "author": "Krista",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tanoreen_muhammara.jpg"
+    }
+  },
+  {
+    "id": "candida-gazpacho-soup",
+    "prepTime": "10 mins",
+    "cookTime": "5 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "soup"
+    ],
+    "image": "images/candida-gazpacho-soup.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Gazpacho",
+        "subtitle": "Cold tomato soup with lime and chilli",
+        "description": "Peeled tomatoes blended with cucumber, pepper, shallot, garlic, coriander and lime into a cold soup for hot days, with crunchy diced vegetables stirred through at the end.",
+        "instructions": [
+          "Core the tomatoes, blanch them in boiling water for a minute and plunge them into iced water. Slip off the skins and dice them.",
+          "Set aside a third of the pepper and cucumber.",
+          "Blend the tomatoes with the rest of the pepper and cucumber, the shallot, garlic, coriander, lime juice, vinegar, olive oil, water and chilli flakes until smooth. Season.",
+          "Chop the reserved pepper and cucumber finely, stir them in and finish with a few more chilli flakes. Serve cold."
+        ]
+      },
+      "nl": {
+        "title": "Gazpacho",
+        "subtitle": "Koude tomatensoep met limoen en chili",
+        "description": "Gepelde tomaten gemixt met komkommer, paprika, sjalot, look, koriander en limoen tot een koude soep voor warme dagen, met knapperige blokjes groente erdoor op het einde.",
+        "instructions": [
+          "Verwijder het kroontje van de tomaten, blancheer ze een minuut in kokend water en dompel ze in ijswater. Trek het vel eraf en snijd ze in blokjes.",
+          "Hou een derde van de paprika en komkommer opzij.",
+          "Mix de tomaten met de rest van de paprika en komkommer, de sjalot, look, koriander, het limoensap, de azijn, olijfolie, het water en de chilivlokken glad. Kruid.",
+          "Snijd de opzijgehouden paprika en komkommer fijn, roer ze erdoor en werk af met nog wat chilivlokken. Koud opdienen."
+        ]
+      },
+      "fr": {
+        "title": "Gaspacho",
+        "subtitle": "Soupe froide de tomate au citron vert et au piment",
+        "description": "Des tomates pelées mixées avec du concombre, du poivron, de l'échalote, de l'ail, de la coriandre et du citron vert en une soupe froide pour les jours chauds, avec des dés de légumes croquants ajoutés à la fin.",
+        "instructions": [
+          "Retire le pédoncule des tomates, plonge-les une minute dans l'eau bouillante puis dans l'eau glacée. Pèle-les et coupe-les en dés.",
+          "Réserve un tiers du poivron et du concombre.",
+          "Mixe les tomates avec le reste du poivron et du concombre, l'échalote, l'ail, la coriandre, le jus de citron vert, le vinaigre, l'huile d'olive, l'eau et le piment jusqu'à ce que ce soit lisse. Assaisonne.",
+          "Coupe finement le poivron et le concombre réservés, ajoute-les et termine avec un peu de piment. Sers froid."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "bell pepper",
+        "name": {
+          "en": "bell pepper",
+          "nl": "paprika",
+          "fr": "poivron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "shallot",
+        "name": {
+          "en": "shallot",
+          "nl": "sjalot",
+          "fr": "échalote"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "chili flakes",
+        "name": {
+          "en": "chili flakes",
+          "nl": "chilivlokken",
+          "fr": "flocons de piment"
+        },
+        "amount": 0.5,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/gazpacho-soup/",
+    "imageCredit": {
+      "author": "Haydn Blackey",
+      "licence": "CC BY-SA 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gazpacho_Malague%C3%B1o_con_su_%E2%80%9Cpica%C3%ADto%E2%80%9D_-_Moreno%2C_Playa_Burriana_(cropped).jpg"
+    }
+  },
+  {
+    "id": "candida-tomato-onion-salsa",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Fresh Tomato Salsa",
+        "subtitle": "Chopped as small as you have patience for",
+        "description": "Roma tomatoes, red onion, cucumber, coriander and garlic chopped very fine and brightened with lime. Scoop it up with quinoa crackers.",
+        "instructions": [
+          "Peel the cucumber and scrape out the seeds.",
+          "Chop the tomatoes, onion, cucumber, coriander and garlic as small as you can.",
+          "Mix together with the lime juice and season with salt.",
+          "Serve with quinoa crackers."
+        ]
+      },
+      "nl": {
+        "title": "Verse tomatensalsa",
+        "subtitle": "Zo fijn gehakt als je geduld toelaat",
+        "description": "Romatomaten, rode ui, komkommer, koriander en look heel fijn gehakt en opgefrist met limoen. Schep het op met quinoacrackers.",
+        "instructions": [
+          "Schil de komkommer en schraap de zaadjes eruit.",
+          "Hak de tomaten, ui, komkommer, koriander en look zo fijn als je kunt.",
+          "Meng met het limoensap en breng op smaak met zout.",
+          "Dien op met quinoacrackers."
+        ]
+      },
+      "fr": {
+        "title": "Salsa fraîche à la tomate",
+        "subtitle": "Hachée aussi finement que ta patience le permet",
+        "description": "Des tomates Roma, de l'oignon rouge, du concombre, de la coriandre et de l'ail hachés très fin et relevés de citron vert. À ramasser avec des crackers au quinoa.",
+        "instructions": [
+          "Pèle le concombre et retire les graines.",
+          "Hache les tomates, l'oignon, le concombre, la coriandre et l'ail aussi finement que possible.",
+          "Mélange avec le jus de citron vert et sale.",
+          "Sers avec des crackers au quinoa."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "roma tomatoes",
+        "name": {
+          "en": "Roma tomatoes",
+          "nl": "Romatomaten",
+          "fr": "Tomates Roma"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "red onion",
+        "name": {
+          "en": "Red onion",
+          "nl": "Rode ui",
+          "fr": "Oignon rouge"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime juice",
+        "name": {
+          "en": "lime juice",
+          "nl": "limoensap",
+          "fr": "jus de citron vert"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/tomato-onion-salsa/"
+  },
+  {
+    "id": "candida-macadamia-nut-dip",
+    "prepTime": "2 hrs 5 mins",
+    "cookTime": "5 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Macadamia & Tomato Dip",
+        "subtitle": "Creamy without a drop of dairy",
+        "description": "Soaked macadamias blended with a softened tomato, basil, garlic, lemon and a little cayenne into a rich, creamy dip. Soak the nuts a couple of hours ahead.",
+        "instructions": [
+          "Soak the macadamias in water for about 2 hours and drain them.",
+          "Steam or roast the tomato until slightly soft.",
+          "Blend the tomato and nuts with the basil, garlic, cayenne, lemon juice and salt until smooth.",
+          "Serve with quinoa crackers or sliced peppers."
+        ]
+      },
+      "nl": {
+        "title": "Dip van macadamia en tomaat",
+        "subtitle": "Romig zonder een druppel zuivel",
+        "description": "Geweekte macadamianoten gemixt met een zachte tomaat, basilicum, look, citroen en een beetje cayenne tot een rijke, romige dip. Week de noten een paar uur op voorhand.",
+        "instructions": [
+          "Week de macadamianoten zo'n 2 uur in water en laat uitlekken.",
+          "Stoom of rooster de tomaat tot hij een beetje zacht is.",
+          "Mix de tomaat en noten met de basilicum, look, cayenne, het citroensap en zout tot het glad is.",
+          "Dien op met quinoacrackers of reepjes paprika."
+        ]
+      },
+      "fr": {
+        "title": "Dip macadamia et tomate",
+        "subtitle": "Crémeux sans une goutte de produit laitier",
+        "description": "Des noix de macadamia trempées mixées avec une tomate attendrie, du basilic, de l'ail, du citron et un peu de cayenne en un dip riche et crémeux. Fais tremper les noix quelques heures avant.",
+        "instructions": [
+          "Fais tremper les macadamias environ 2 heures dans l'eau et égoutte.",
+          "Cuis la tomate à la vapeur ou rôtis-la jusqu'à ce qu'elle s'attendrisse.",
+          "Mixe la tomate et les noix avec le basilic, l'ail, le cayenne, le jus de citron et le sel jusqu'à ce que ce soit lisse.",
+          "Sers avec des crackers au quinoa ou des lanières de poivron."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "macadamia nuts",
+        "name": {
+          "en": "Macadamia nuts",
+          "nl": "Macadamianoten",
+          "fr": "Noix de macadamia"
+        },
+        "amount": 135,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "tomato",
+        "name": {
+          "en": "tomato",
+          "nl": "tomaat",
+          "fr": "tomate"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 10,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cayenne pepper",
+        "name": {
+          "en": "cayenne pepper",
+          "nl": "cayennepeper",
+          "fr": "poivre de Cayenne"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/macadamia-nut-dip/"
+  },
+  {
+    "id": "candida-mozzarella-tomato-salad",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Goat Mozzarella & Tomato Salad",
+        "subtitle": "A caprese that fits the diet",
+        "description": "Cherry tomatoes and little balls of goat's milk mozzarella with basil and good olive oil. Goat's cheese is gentler on a candida diet than cow's.",
+        "instructions": [
+          "Halve the cherry tomatoes.",
+          "Toss them with the mozzarella and basil leaves.",
+          "Drizzle with the olive oil and season with salt and pepper."
+        ]
+      },
+      "nl": {
+        "title": "Salade van tomaat en geitenmozzarella",
+        "subtitle": "Een caprese die in het dieet past",
+        "description": "Kerstomaatjes en bolletjes mozzarella van geitenmelk met basilicum en goede olijfolie. Geitenkaas is milder voor een candidadieet dan koeienkaas.",
+        "instructions": [
+          "Halveer de kerstomaatjes.",
+          "Meng ze met de mozzarella en de basilicumblaadjes.",
+          "Sprenkel de olijfolie erover en kruid met zout en peper."
+        ]
+      },
+      "fr": {
+        "title": "Salade tomate et mozzarella de chèvre",
+        "subtitle": "Une caprese qui convient au régime",
+        "description": "Des tomates cerises et des billes de mozzarella au lait de chèvre avec du basilic et une bonne huile d'olive. Le chèvre est plus doux que la vache pour un régime candida.",
+        "instructions": [
+          "Coupe les tomates cerises en deux.",
+          "Mélange-les avec la mozzarella et les feuilles de basilic.",
+          "Arrose d'huile d'olive, sale et poivre."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "cherry tomatoes",
+        "name": {
+          "en": "Cherry tomatoes",
+          "nl": "Kerstomaatjes",
+          "fr": "Tomates cerises"
+        },
+        "amount": 10,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "goat mozzarella",
+        "name": {
+          "en": "Goat mozzarella",
+          "nl": "Geitenmozzarella",
+          "fr": "Mozzarella de chèvre"
+        },
+        "amount": 10,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "basil",
+        "name": {
+          "en": "basil",
+          "nl": "basilicum",
+          "fr": "basilic"
+        },
+        "amount": 1,
+        "unit": "bunch",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/mozzarella-tomato-salad/"
+  },
+  {
+    "id": "candida-sardine-pate",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Sardine Pâté",
+        "subtitle": "Five minutes and a food processor",
+        "description": "A tin of sardines blended with butter, garlic, parsley and lemon into a quick, savoury spread. Spread it on quinoa crackers.",
+        "instructions": [
+          "Put the sardines, garlic, butter, parsley, lemon juice and a dash of pepper in a food processor.",
+          "Blend until smooth.",
+          "Serve with quinoa crackers."
+        ]
+      },
+      "nl": {
+        "title": "Sardinepaté",
+        "subtitle": "Vijf minuten en een keukenrobot",
+        "description": "Een blikje sardines gemixt met boter, look, peterselie en citroen tot een snelle, hartige smeersel. Smeer het op quinoacrackers.",
+        "instructions": [
+          "Doe de sardines, look, boter, peterselie, het citroensap en een snuifje peper in de keukenrobot.",
+          "Mix glad.",
+          "Dien op met quinoacrackers."
+        ]
+      },
+      "fr": {
+        "title": "Pâté de sardines",
+        "subtitle": "Cinq minutes et un robot",
+        "description": "Une boîte de sardines mixée avec du beurre, de l'ail, du persil et du citron en une tartinade rapide et savoureuse. À tartiner sur des crackers au quinoa.",
+        "instructions": [
+          "Mets les sardines, l'ail, le beurre, le persil, le jus de citron et une pointe de poivre dans le robot.",
+          "Mixe jusqu'à ce que ce soit lisse.",
+          "Sers avec des crackers au quinoa."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "sardines",
+        "name": {
+          "en": "Sardines",
+          "nl": "Sardines",
+          "fr": "Sardines"
+        },
+        "amount": 120,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "parsley",
+        "name": {
+          "en": "parsley",
+          "nl": "peterselie",
+          "fr": "persil"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/sardine-pate/"
+  },
+  {
+    "id": "candida-tzatziki-dip",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-tzatziki-dip.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Tzatziki",
+        "subtitle": "Cool yogurt, cucumber, garlic and dill",
+        "description": "The Greek classic: yogurt with diced cucumber, garlic, dill and olive oil. An hour in the fridge lets the flavours come together.",
+        "instructions": [
+          "Mix the yogurt, cucumber, garlic, vinegar, dill and olive oil in a bowl.",
+          "Season with salt and pepper and stir well.",
+          "Chill for an hour before serving with quinoa crackers."
+        ]
+      },
+      "nl": {
+        "title": "Tzatziki",
+        "subtitle": "Frisse yoghurt, komkommer, look en dille",
+        "description": "De Griekse klassieker: yoghurt met blokjes komkommer, look, dille en olijfolie. Een uur in de koelkast laat de smaken samenkomen.",
+        "instructions": [
+          "Meng de yoghurt, komkommer, look, azijn, dille en olijfolie in een kom.",
+          "Kruid met zout en peper en roer goed.",
+          "Zet een uur in de koelkast voor je het opdient met quinoacrackers."
+        ]
+      },
+      "fr": {
+        "title": "Tzatziki",
+        "subtitle": "Yaourt frais, concombre, ail et aneth",
+        "description": "Le classique grec : du yaourt avec des dés de concombre, de l'ail, de l'aneth et de l'huile d'olive. Une heure au frigo laisse les saveurs se marier.",
+        "instructions": [
+          "Mélange le yaourt, le concombre, l'ail, le vinaigre, l'aneth et l'huile d'olive dans un bol.",
+          "Sale, poivre et mélange bien.",
+          "Mets une heure au frais avant de servir avec des crackers au quinoa."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 240,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "apple cider vinegar",
+        "name": {
+          "en": "cider vinegar",
+          "nl": "appelazijn",
+          "fr": "vinaigre de cidre"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "dill",
+        "name": {
+          "en": "Dill",
+          "nl": "Dille",
+          "fr": "Aneth"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/tzatziki-dip/",
+    "imageCredit": {
+      "author": "Rainer Zenz",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Cacik-1.jpg"
+    }
+  },
+  {
+    "id": "candida-deviled-eggs",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-deviled-eggs.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Deviled Eggs",
+        "subtitle": "Gevulde eitjes, made with yogurt",
+        "description": "Hard-boiled eggs filled with their yolks whipped up with Greek yogurt, lemon, mustard and tarragon instead of mayonnaise. A party favourite that needs no compromise.",
+        "instructions": [
+          "Boil the eggs, cool them in cold water, peel them and halve them lengthwise.",
+          "Scoop out the yolks.",
+          "Mash the yolks with the yogurt, lemon juice, mustard powder, tarragon, salt and pepper until smooth.",
+          "Spoon or pipe the filling back into the whites, dust with paprika and chill before serving."
+        ]
+      },
+      "nl": {
+        "title": "Gevulde eitjes",
+        "subtitle": "Met yoghurt in plaats van mayonaise",
+        "description": "Hardgekookte eitjes gevuld met hun dooiers, opgeklopt met Griekse yoghurt, citroen, mosterd en dragon in plaats van mayonaise. Een feestklassieker zonder compromis.",
+        "instructions": [
+          "Kook de eieren hard, laat ze afkoelen in koud water, pel ze en halveer ze in de lengte.",
+          "Schep de dooiers eruit.",
+          "Prak de dooiers met de yoghurt, het citroensap, mosterdpoeder, dragon, zout en peper tot het glad is.",
+          "Schep of spuit de vulling terug in de eiwitten, bestuif met paprikapoeder en laat afkoelen voor je opdient."
+        ]
+      },
+      "fr": {
+        "title": "Œufs mimosa",
+        "subtitle": "Au yaourt plutôt qu'à la mayonnaise",
+        "description": "Des œufs durs farcis de leurs jaunes fouettés avec du yaourt grec, du citron, de la moutarde et de l'estragon à la place de la mayonnaise. Un incontournable de fête, sans compromis.",
+        "instructions": [
+          "Fais durcir les œufs, refroidis-les dans l'eau froide, écale-les et coupe-les en deux dans la longueur.",
+          "Retire les jaunes.",
+          "Écrase les jaunes avec le yaourt, le jus de citron, la moutarde en poudre, l'estragon, le sel et le poivre jusqu'à ce que ce soit lisse.",
+          "Remplis les blancs à la cuillère ou à la poche, saupoudre de paprika et mets au frais avant de servir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mustard powder",
+        "name": {
+          "en": "Mustard powder",
+          "nl": "Mosterdpoeder",
+          "fr": "Moutarde en poudre"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "dried tarragon",
+        "name": {
+          "en": "Dried tarragon",
+          "nl": "Gedroogde dragon",
+          "fr": "Estragon séché"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "paprika",
+        "name": {
+          "en": "paprika powder",
+          "nl": "paprikapoeder",
+          "fr": "paprika"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/deviled-eggs/",
+    "imageCredit": {
+      "author": "Silar",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:0.2014_Ostereier_zum_Fr%C3%BChst%C3%BCck%2C_Beskiden%2C_Nowotaniec.jpg"
+    }
+  },
+  {
+    "id": "candida-zucchini-onion-soup",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "soup"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Courgette & Onion Soup",
+        "subtitle": "Five ingredients, fifteen minutes",
+        "description": "Steamed courgette and onion blended with raw garlic and olive oil into a light, green soup. Thin it with water until it's just how you like it.",
+        "instructions": [
+          "Steam the courgette and onion until soft.",
+          "Blend them with the garlic, olive oil and sea salt.",
+          "Add water until it's as thick or thin as you like, and serve."
+        ]
+      },
+      "nl": {
+        "title": "Courgette-uiensoep",
+        "subtitle": "Vijf ingrediënten, een kwartier",
+        "description": "Gestoomde courgette en ui gemixt met rauwe look en olijfolie tot een lichte, groene soep. Verdun met water tot hij precies is zoals jij hem wilt.",
+        "instructions": [
+          "Stoom de courgette en ui tot ze zacht zijn.",
+          "Mix ze met de look, olijfolie en zeezout.",
+          "Voeg water toe tot hij zo dik of dun is als je wilt en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Soupe courgette et oignon",
+        "subtitle": "Cinq ingrédients, un quart d'heure",
+        "description": "De la courgette et de l'oignon cuits à la vapeur, mixés avec de l'ail cru et de l'huile d'olive en une soupe verte et légère. Allonge-la d'eau jusqu'à la consistance qui te plaît.",
+        "instructions": [
+          "Cuis la courgette et l'oignon à la vapeur jusqu'à ce qu'ils soient tendres.",
+          "Mixe-les avec l'ail, l'huile d'olive et le sel de mer.",
+          "Ajoute de l'eau jusqu'à l'épaisseur voulue et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "zucchini",
+        "name": {
+          "en": "zucchini",
+          "nl": "courgette",
+          "fr": "courgette"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/zucchini-onion-soup/"
+  },
+  {
+    "id": "candida-avocado-cucumber-soup",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "soup"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Chilled Avocado & Cucumber Soup",
+        "subtitle": "No cooking, one blender",
+        "description": "Avocado, cucumber, onion, garlic and yogurt blended with cold water into a velvety raw soup. Just right for a warm summer evening.",
+        "instructions": [
+          "Scoop out the avocado and cut the cucumber and onion into large pieces.",
+          "Put everything in a blender.",
+          "Blend until smooth, season and serve cold."
+        ]
+      },
+      "nl": {
+        "title": "Koude avocado-komkommersoep",
+        "subtitle": "Niet koken, één blender",
+        "description": "Avocado, komkommer, ui, look en yoghurt gemixt met koud water tot een fluweelzachte rauwe soep. Precies goed voor een warme zomeravond.",
+        "instructions": [
+          "Schep de avocado uit en snijd de komkommer en ui in grote stukken.",
+          "Doe alles in een blender.",
+          "Mix glad, breng op smaak en dien koud op."
+        ]
+      },
+      "fr": {
+        "title": "Soupe froide avocat-concombre",
+        "subtitle": "Sans cuisson, un mixeur",
+        "description": "De l'avocat, du concombre, de l'oignon, de l'ail et du yaourt mixés avec de l'eau froide en une soupe crue veloutée. Parfaite pour une chaude soirée d'été.",
+        "instructions": [
+          "Récupère la chair des avocats et coupe le concombre et l'oignon en gros morceaux.",
+          "Mets le tout dans un mixeur.",
+          "Mixe jusqu'à ce que ce soit lisse, assaisonne et sers froid."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cucumber",
+        "name": {
+          "en": "Cucumber",
+          "nl": "Komkommer",
+          "fr": "Concombre"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "pepper",
+        "name": {
+          "en": "pepper",
+          "nl": "peper",
+          "fr": "poivre"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/avocado-cucumber-soup/"
+  },
+  {
+    "id": "candida-delicious-guacamole",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "snack"
+    ],
+    "image": "images/candida-delicious-guacamole.jpg",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Guacamole",
+        "subtitle": "Mashed by hand, the way it should be",
+        "description": "Ripe avocado mashed with onion, grated garlic, lemon, coriander and sea salt. The topping for the swede nachos, or a dip all by itself.",
+        "instructions": [
+          "Chop the onion and coriander and grate the garlic.",
+          "Put everything in a bowl with the avocado flesh and lemon juice and mash it thoroughly.",
+          "Season with sea salt and garnish with more coriander."
+        ]
+      },
+      "nl": {
+        "title": "Guacamole",
+        "subtitle": "Met de hand geprakt, zoals het hoort",
+        "description": "Rijpe avocado geprakt met ui, geraspte look, citroen, koriander en zeezout. De topping voor de koolraapnacho's, of gewoon een dip op zich.",
+        "instructions": [
+          "Hak de ui en koriander fijn en rasp de look.",
+          "Doe alles in een kom met het vruchtvlees van de avocado en het citroensap en prak het goed fijn.",
+          "Breng op smaak met zeezout en werk af met nog wat koriander."
+        ]
+      },
+      "fr": {
+        "title": "Guacamole",
+        "subtitle": "Écrasé à la main, comme il se doit",
+        "description": "De l'avocat bien mûr écrasé avec de l'oignon, de l'ail râpé, du citron, de la coriandre et du sel de mer. La garniture des nachos de rutabaga, ou un dip à lui seul.",
+        "instructions": [
+          "Hache l'oignon et la coriandre et râpe l'ail.",
+          "Mets le tout dans un bol avec la chair des avocats et le jus de citron et écrase bien.",
+          "Sale au sel de mer et garnis d'encore un peu de coriandre."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "onion",
+        "name": {
+          "en": "onion",
+          "nl": "ui",
+          "fr": "oignon"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "garlic",
+        "name": {
+          "en": "garlic",
+          "nl": "knoflook",
+          "fr": "ail"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coriander",
+        "name": {
+          "en": "Coriander",
+          "nl": "Koriander",
+          "fr": "Coriandre"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "to taste",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/delicious-guacamole/",
+    "imageCredit": {
+      "author": "Nikodem Nijaki",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Guacamole_IMGP1271.jpg"
+    }
+  },
+  {
+    "id": "candida-salmon-on-endive-spears",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": true,
+    "isVegetarian": false,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Salmon on Witloof Leaves",
+        "subtitle": "A Belgian aperitif bite",
+        "description": "Crisp witloof leaves filled with salmon mixed with Greek yogurt, lemon and tarragon, topped with spring onion. Belgian endive the way it was born to be eaten: as a little boat.",
+        "instructions": [
+          "Mix the salmon, yogurt, lemon juice, tarragon and a pinch of salt in a bowl.",
+          "Spoon the mixture onto the witloof leaves.",
+          "Scatter with spring onion and serve."
+        ]
+      },
+      "nl": {
+        "title": "Zalm op witloofblaadjes",
+        "subtitle": "Een Belgisch aperitiefhapje",
+        "description": "Knapperige witloofblaadjes gevuld met zalm gemengd met Griekse yoghurt, citroen en dragon, met lente-ui erop. Witloof zoals het geboren is om gegeten te worden: als scheepje.",
+        "instructions": [
+          "Meng de zalm, yoghurt, het citroensap, de dragon en een snuifje zout in een kom.",
+          "Schep het mengsel op de witloofblaadjes.",
+          "Strooi er lente-ui over en dien op."
+        ]
+      },
+      "fr": {
+        "title": "Saumon sur feuilles de chicon",
+        "subtitle": "Une bouchée apéritive belge",
+        "description": "Des feuilles de chicon croquantes garnies de saumon mélangé à du yaourt grec, du citron et de l'estragon, parsemées d'oignon nouveau. Le chicon comme il est né pour être mangé : en petite barque.",
+        "instructions": [
+          "Mélange le saumon, le yaourt, le jus de citron, l'estragon et une pincée de sel dans un bol.",
+          "Dépose le mélange à la cuillère sur les feuilles de chicon.",
+          "Parsème d'oignon nouveau et sers."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "canned salmon",
+        "name": {
+          "en": "Canned salmon",
+          "nl": "Zalm uit blik",
+          "fr": "Saumon en conserve"
+        },
+        "amount": 170,
+        "unit": "g",
+        "category": "Visafdeling",
+        "staple": false
+      },
+      {
+        "key": "belgian endive",
+        "name": {
+          "en": "Belgian endive",
+          "nl": "Witloof",
+          "fr": "Chicon"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "tarragon",
+        "name": {
+          "en": "Tarragon",
+          "nl": "Dragon",
+          "fr": "Estragon"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "scallion",
+        "name": {
+          "en": "spring onion",
+          "nl": "lente-ui",
+          "fr": "oignon de printemps"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/salmon-on-endive-spears/"
+  },
+  {
+    "id": "candida-blueberry-panna-cotta",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Blueberry Panna Cotta",
+        "subtitle": "Dairy-free, set with agar",
+        "description": "A soft, wobbly almond milk cream set with agar instead of gelatine, under a layer of blueberry jelly. Make it in the morning for the evening.",
+        "instructions": [
+          "Heat the almond milk with the stevia, agar and vanilla in a pan over medium heat, stirring, until it boils. Take it off the heat straight away.",
+          "Pour into four glasses or ramekins and chill for 2–4 hours, until firm.",
+          "Heat the blueberries with the water, stevia and agar, stirring, until it boils. Take it off the heat and let it cool for 10–15 minutes.",
+          "Spoon the blueberry mix over the set creams and chill for about an hour more.",
+          "Top with fresh blueberries and mint."
+        ]
+      },
+      "nl": {
+        "title": "Panna cotta met blauwe bessen",
+        "subtitle": "Zonder zuivel, opgesteven met agar",
+        "description": "Een zachte, trillende crème van amandelmelk, opgesteven met agar in plaats van gelatine, onder een laagje blauwebessengelei. Maak 's ochtends, eet 's avonds.",
+        "instructions": [
+          "Verwarm de amandelmelk met de stevia, agar en vanille al roerend in een pan op middelhoog vuur tot het kookt. Haal meteen van het vuur.",
+          "Giet in vier glaasjes of potjes en laat 2–4 uur opstijven in de koelkast.",
+          "Verwarm de blauwe bessen met het water, de stevia en agar al roerend tot het kookt. Haal van het vuur en laat 10–15 minuten afkoelen.",
+          "Schep het bessenmengsel over de opgesteven crèmes en zet nog zo'n uur in de koelkast.",
+          "Werk af met verse blauwe bessen en munt."
+        ]
+      },
+      "fr": {
+        "title": "Panna cotta aux myrtilles",
+        "subtitle": "Sans lactose, prise à l'agar-agar",
+        "description": "Une crème au lait d'amande douce et tremblotante, prise à l'agar-agar au lieu de la gélatine, sous une couche de gelée de myrtilles. Prépare-la le matin pour le soir.",
+        "instructions": [
+          "Chauffe le lait d'amande avec la stévia, l'agar-agar et la vanille dans une casserole à feu moyen, en remuant, jusqu'à ébullition. Retire aussitôt du feu.",
+          "Verse dans quatre verres ou ramequins et mets au frais 2–4 heures, jusqu'à ce que ce soit pris.",
+          "Chauffe les myrtilles avec l'eau, la stévia et l'agar-agar en remuant jusqu'à ébullition. Retire du feu et laisse tiédir 10–15 minutes.",
+          "Verse le mélange aux myrtilles sur les crèmes prises et remets au frais environ une heure.",
+          "Garnis de myrtilles fraîches et de menthe."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 720,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.75,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "agar agar",
+        "name": {
+          "en": "Agar agar",
+          "nl": "Agar-agar",
+          "fr": "Agar-agar"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "frozen blueberries",
+        "name": {
+          "en": "Frozen blueberries",
+          "nl": "Diepvries blauwe bessen",
+          "fr": "Myrtilles surgelées"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Diepvries",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "blueberries",
+        "name": {
+          "en": "Blueberries",
+          "nl": "Blauwe bessen",
+          "fr": "Myrtilles"
+        },
+        "amount": 50,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 4,
+        "unit": "sprig",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/blueberry-panna-cotta/"
+  },
+  {
+    "id": "candida-apple-galette",
+    "prepTime": "20 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Apple Galette",
+        "subtitle": "A rustic free-form tart with a gluten-free crust",
+        "description": "Tart Granny Smith slices softened with lemon, folded inside a buckwheat, millet and quinoa pastry and baked until golden. Dust with cinnamon and it smells like the appeltaart it replaces.",
+        "instructions": [
+          "Fry the apple slices in the oil over medium heat with the lemon juice and stevia for 4–5 minutes. Set aside.",
+          "Whisk one egg with a tablespoon of water for the egg wash.",
+          "Blitz the flours, psyllium and salt in a food processor. Add the olive oil, then the other egg, then the cold water a little at a time until the dough forms a ball.",
+          "Heat the oven to 200 °C. Roll the dough between two sheets of baking paper into a 35–38 cm round and slide it onto a tray.",
+          "Spread the apples over it, leaving a 5 cm border, fold and pleat the edges over the fruit and brush with egg wash. Bake for 15–20 minutes, until golden. Let it cool and dust with cinnamon."
+        ]
+      },
+      "nl": {
+        "title": "Appelgalette",
+        "subtitle": "Een rustieke taart in vrije vorm met een glutenvrije bodem",
+        "description": "Zure Granny Smith-schijfjes zacht gemaakt met citroen, ingevouwen in een deeg van boekweit, gierst en quinoa en goudbruin gebakken. Bestuif met kaneel en het ruikt naar de appeltaart die het vervangt.",
+        "instructions": [
+          "Bak de appelschijfjes 4–5 minuten in de olie op middelhoog vuur met het citroensap en de stevia. Zet opzij.",
+          "Klop één ei los met een eetlepel water om te bestrijken.",
+          "Mix het meel, de psyllium en het zout in de keukenrobot. Voeg de olijfolie toe, dan het andere ei, en dan beetje bij beetje het koude water tot het deeg een bal vormt.",
+          "Verwarm de oven voor op 200 °C. Rol het deeg tussen twee vellen bakpapier uit tot een cirkel van 35–38 cm en schuif het op een bakplaat.",
+          "Verdeel de appels erover met een rand van 5 cm vrij, vouw en plooi de randen over het fruit en bestrijk met ei. Bak 15–20 minuten, tot hij goudbruin is. Laat afkoelen en bestuif met kaneel."
+        ]
+      },
+      "fr": {
+        "title": "Galette aux pommes",
+        "subtitle": "Une tarte rustique sans moule, à la pâte sans gluten",
+        "description": "Des lamelles de Granny Smith acidulées attendries au citron, repliées dans une pâte au sarrasin, au millet et au quinoa et cuites jusqu'à être dorées. Saupoudrée de cannelle, elle sent la tarte aux pommes qu'elle remplace.",
+        "instructions": [
+          "Fais revenir les lamelles de pomme dans l'huile à feu moyen avec le jus de citron et la stévia 4–5 minutes. Réserve.",
+          "Bats un œuf avec une cuillère à soupe d'eau pour la dorure.",
+          "Mixe les farines, le psyllium et le sel au robot. Ajoute l'huile d'olive, puis l'autre œuf, puis l'eau froide petit à petit jusqu'à ce que la pâte forme une boule.",
+          "Préchauffe le four à 200 °C. Étale la pâte entre deux feuilles de papier cuisson en un disque de 35–38 cm et glisse-la sur une plaque.",
+          "Répartis les pommes en laissant une bordure de 5 cm, replie et plisse les bords sur les fruits et dore à l'œuf. Enfourne 15–20 minutes, jusqu'à ce que ce soit doré. Laisse refroidir et saupoudre de cannelle."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "granny smith apple",
+        "name": {
+          "en": "Granny Smith apple",
+          "nl": "Granny Smith-appel",
+          "fr": "Pomme Granny Smith"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "water",
+        "name": {
+          "en": "water",
+          "nl": "water",
+          "fr": "eau"
+        },
+        "amount": 90,
+        "unit": "ml",
+        "category": "Bieren & Dranken",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "millet flour",
+        "name": {
+          "en": "Millet flour",
+          "nl": "Gierstmeel",
+          "fr": "Farine de millet"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "quinoa flour",
+        "name": {
+          "en": "Quinoa flour",
+          "nl": "Quinoameel",
+          "fr": "Farine de quinoa"
+        },
+        "amount": 55,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "psyllium husk powder",
+        "name": {
+          "en": "Psyllium husk powder",
+          "nl": "Psylliumvezels",
+          "fr": "Psyllium en poudre"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "olive oil",
+        "name": {
+          "en": "olive oil",
+          "nl": "olijfolie",
+          "fr": "huile d'olive"
+        },
+        "amount": 5,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/apple-galette/"
+  },
+  {
+    "id": "candida-lemon-coconut-cookies",
+    "prepTime": "15 mins",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 18,
+    "category": [
+      "dessert",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Lemon Coconut Cookies",
+        "subtitle": "Soft almond cookies with a snowy coconut dusting",
+        "description": "Little almond and coconut cookies bright with lemon zest and juice, finished with a dusting of finely ground coconut that looks like icing sugar but isn't.",
+        "instructions": [
+          "Heat the oven to 180 °C and line a baking tray with baking paper.",
+          "Whisk the coconut milk, vanilla, stevia and lemon juice.",
+          "Mix the almond meal, coconut, chia, lemon zest and salt, then stir in the wet ingredients.",
+          "Roll tablespoons of dough into balls, space them 5 cm apart and flatten them to about 1 cm. Bake for about 15 minutes.",
+          "Blitz the coconut for the dusting with the stevia for 10–15 seconds into a fine powder and sprinkle it over the cookies. Let them cool before eating."
+        ]
+      },
+      "nl": {
+        "title": "Citroen-kokoskoekjes",
+        "subtitle": "Zachte amandelkoekjes met een sneeuwlaagje kokos",
+        "description": "Kleine koekjes van amandel en kokos, fris van citroenzeste en -sap, afgewerkt met een laagje fijngemalen kokos dat op bloemsuiker lijkt maar het niet is.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bekleed een bakplaat met bakpapier.",
+          "Klop de kokosmelk, vanille, stevia en het citroensap samen.",
+          "Meng het amandelmeel, de kokos, chia, citroenzeste en het zout, en roer de natte ingrediënten erdoor.",
+          "Rol eetlepels deeg tot balletjes, leg ze 5 cm uit elkaar en druk ze plat tot zo'n 1 cm. Bak zo'n 15 minuten.",
+          "Maal de kokos voor de toplaag 10–15 seconden met de stevia tot een fijn poeder en strooi het over de koekjes. Laat afkoelen voor je ze eet."
+        ]
+      },
+      "fr": {
+        "title": "Biscuits citron-coco",
+        "subtitle": "De tendres biscuits aux amandes sous une neige de coco",
+        "description": "De petits biscuits amande-coco pleins de zeste et de jus de citron, finis d'une poudre de coco très fine qui ressemble à du sucre glace sans en être.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et garnis une plaque de papier cuisson.",
+          "Fouette le lait de coco, la vanille, la stévia et le jus de citron.",
+          "Mélange la poudre d'amande, la coco, le chia, le zeste et le sel, puis incorpore le liquide.",
+          "Forme des boules d'une cuillère à soupe, espace-les de 5 cm et aplatis-les à environ 1 cm. Enfourne une quinzaine de minutes.",
+          "Mixe la coco de la finition avec la stévia 10–15 secondes en poudre fine et saupoudre-la sur les biscuits. Laisse refroidir avant de déguster."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "ground almonds",
+        "name": {
+          "en": "Ground almonds",
+          "nl": "Gemalen amandelen",
+          "fr": "Poudre d'amande"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/lemon-coconut-cookies/"
+  },
+  {
+    "id": "candida-strawberry-muffins",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 6,
+    "category": [
+      "dessert",
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Strawberry Muffins",
+        "subtitle": "Soft coconut-flour muffins with fresh strawberries",
+        "description": "Light coconut-flour muffins with diced strawberries folded through and a slice on top. Six of them, gone by the afternoon.",
+        "instructions": [
+          "Heat the oven to 180 °C and line 6 holes of a muffin tin.",
+          "Sift the coconut flour and whisk it with the baking soda and salt.",
+          "Whisk the coconut milk, stevia, melted coconut oil, eggs and vanilla, then stir them into the dry mix for a minute.",
+          "Fold in the diced strawberries, fill the cases and lay a strawberry slice on each.",
+          "Bake for 30–35 minutes, until golden, and let them cool."
+        ]
+      },
+      "nl": {
+        "title": "Aardbeienmuffins",
+        "subtitle": "Zachte muffins van kokosmeel met verse aardbeien",
+        "description": "Lichte muffins van kokosmeel met blokjes aardbei erdoor en een schijfje erop. Zes stuks, tegen de namiddag op.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bekleed 6 holtes van een muffinvorm.",
+          "Zeef het kokosmeel en klop het met het zuiveringszout en zout.",
+          "Klop de kokosmelk, stevia, gesmolten kokosolie, eieren en vanille, en roer het een minuut door het droge mengsel.",
+          "Spatel de blokjes aardbei erdoor, vul de vormpjes en leg op elk een schijfje aardbei.",
+          "Bak 30–35 minuten, tot ze goudbruin zijn, en laat afkoelen."
+        ]
+      },
+      "fr": {
+        "title": "Muffins aux fraises",
+        "subtitle": "De tendres muffins à la farine de coco et aux fraises fraîches",
+        "description": "Des muffins légers à la farine de coco avec des dés de fraise incorporés et une tranche par-dessus. Six pièces, envolées avant le goûter.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et garnis 6 empreintes d'un moule à muffins.",
+          "Tamise la farine de coco et fouette-la avec le bicarbonate et le sel.",
+          "Fouette le lait de coco, la stévia, l'huile de coco fondue, les œufs et la vanille, puis incorpore au sec pendant une minute.",
+          "Ajoute délicatement les dés de fraise, remplis les caissettes et pose une tranche de fraise sur chacune.",
+          "Enfourne 30–35 minutes, jusqu'à ce qu'ils soient dorés, et laisse refroidir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "strawberries",
+        "name": {
+          "en": "strawberries",
+          "nl": "aardbeien",
+          "fr": "fraises"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/strawberry-muffins/"
+  },
+  {
+    "id": "candida-vanilla-cardamom-ice-cream",
+    "prepTime": "15 mins",
+    "cookTime": "40 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Vanilla Cardamom Ice Cream",
+        "subtitle": "Coconut ice cream with real vanilla seeds",
+        "description": "Coconut milk steeped with freshly ground cardamom and a split vanilla pod, chilled and churned into a creamy, sugar-free ice. Glycerin keeps it scoopable.",
+        "instructions": [
+          "Crush the cardamom pods, pick out the seeds and grind them. Split the vanilla pod and scrape out the seeds.",
+          "Put everything in a pan, bring it just to a simmer, then take it off the heat and leave it to steep for 30 minutes.",
+          "Strain through a fine sieve and chill for 3–4 hours.",
+          "Churn in an ice cream maker for about 20 minutes, until set, then freeze in a closed tub for 3–4 hours."
+        ]
+      },
+      "nl": {
+        "title": "Vanille-kardemomijs",
+        "subtitle": "Kokosijs met echte vanillezaadjes",
+        "description": "Kokosmelk getrokken met vers gemalen kardemom en een opengesneden vanillestokje, gekoeld en gedraaid tot een romig ijs zonder suiker. Glycerine houdt het schepbaar.",
+        "instructions": [
+          "Kneus de kardemompeulen, haal de zaadjes eruit en maal ze. Snijd het vanillestokje open en schraap de zaadjes eruit.",
+          "Doe alles in een pan, breng net aan de kook, haal van het vuur en laat 30 minuten trekken.",
+          "Zeef door een fijne zeef en laat 3–4 uur afkoelen in de koelkast.",
+          "Draai zo'n 20 minuten in een ijsmachine tot het opgesteven is en zet dan 3–4 uur in een gesloten doos in de diepvries."
+        ]
+      },
+      "fr": {
+        "title": "Glace vanille-cardamome",
+        "subtitle": "Une glace coco aux vraies graines de vanille",
+        "description": "Du lait de coco infusé avec de la cardamome fraîchement moulue et une gousse de vanille fendue, refroidi puis turbiné en une glace crémeuse sans sucre. La glycérine la garde facile à servir.",
+        "instructions": [
+          "Écrase les gousses de cardamome, récupère les graines et moud-les. Fends la gousse de vanille et gratte les graines.",
+          "Mets le tout dans une casserole, porte juste à frémissement, retire du feu et laisse infuser 30 minutes.",
+          "Filtre au tamis fin et réfrigère 3–4 heures.",
+          "Turbine en sorbetière environ 20 minutes, jusqu'à ce que ce soit pris, puis congèle 3–4 heures dans une boîte fermée."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "vegetable glycerin",
+        "name": {
+          "en": "Vegetable glycerin",
+          "nl": "Plantaardige glycerine",
+          "fr": "Glycérine végétale"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.75,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cardamom pods",
+        "name": {
+          "en": "Cardamom pods",
+          "nl": "Kardemompeulen",
+          "fr": "Gousses de cardamome"
+        },
+        "amount": 6,
+        "unit": "st.",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "vanilla bean",
+        "name": {
+          "en": "Vanilla bean",
+          "nl": "Vanillestokje",
+          "fr": "Gousse de vanille"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/vanilla-cardamom-ice-cream/"
+  },
+  {
+    "id": "candida-cinnamon-pecan-crumb-cakes",
+    "prepTime": "15 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 9,
+    "category": [
+      "dessert",
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Cinnamon Pecan Crumb Cake",
+        "subtitle": "A soft almond cake under a thick pecan crumble",
+        "description": "A tender almond-flour cake heavy with cinnamon, covered in a crunchy pecan crumble. Cut it into nine squares for coffee time.",
+        "instructions": [
+          "Heat the oven to 180 °C. Oil a 20 × 20 cm tin and line it with oiled baking paper.",
+          "Mix the pecans, 50 g of the almond flour, stevia, a teaspoon of cinnamon, salt and melted coconut oil for the crumble, and chill it.",
+          "Whisk the rest of the almond flour with the coconut flour, salt, baking soda and half a tablespoon of cinnamon.",
+          "Whisk the eggs with the stevia and a tablespoon of cinnamon until frothy, then stir in the yogurt. Combine with the dry mix and spread it in the tin.",
+          "Scatter the crumble over the top and bake for about 20 minutes, until the middle is firm. Let it cool before cutting."
+        ]
+      },
+      "nl": {
+        "title": "Kruimelcake met kaneel en pecannoten",
+        "subtitle": "Een zachte amandelcake onder een dikke crumble van pecannoten",
+        "description": "Een malse cake van amandelmeel vol kaneel, bedekt met een knapperige crumble van pecannoten. Snijd in negen vierkantjes voor bij de koffie.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C. Vet een vorm van 20 × 20 cm in en bekleed met ingevet bakpapier.",
+          "Meng de pecannoten, 50 g van het amandelmeel, de stevia, een theelepel kaneel, het zout en de gesmolten kokosolie voor de crumble, en zet in de koelkast.",
+          "Klop de rest van het amandelmeel met het kokosmeel, zout, zuiveringszout en een halve eetlepel kaneel.",
+          "Klop de eieren met de stevia en een eetlepel kaneel schuimig en roer de yoghurt erdoor. Meng met het droge en strijk uit in de vorm.",
+          "Strooi de crumble erover en bak zo'n 20 minuten, tot het midden stevig is. Laat afkoelen voor je snijdt."
+        ]
+      },
+      "fr": {
+        "title": "Gâteau crumble cannelle et pécan",
+        "subtitle": "Un gâteau tendre aux amandes sous un épais crumble de pécan",
+        "description": "Un gâteau moelleux à la farine d'amande bien parfumé à la cannelle, couvert d'un crumble croquant aux noix de pécan. Coupe-le en neuf carrés pour l'heure du café.",
+        "instructions": [
+          "Préchauffe le four à 180 °C. Huile un moule de 20 × 20 cm et chemise-le de papier cuisson huilé.",
+          "Mélange les noix de pécan, 50 g de farine d'amande, la stévia, une cuillère à café de cannelle, le sel et l'huile de coco fondue pour le crumble, et mets au frais.",
+          "Fouette le reste de la farine d'amande avec la farine de coco, le sel, le bicarbonate et une demi-cuillère à soupe de cannelle.",
+          "Fouette les œufs avec la stévia et une cuillère à soupe de cannelle jusqu'à ce qu'ils moussent, puis ajoute le yaourt. Mélange au sec et étale dans le moule.",
+          "Parsème de crumble et enfourne une vingtaine de minutes, jusqu'à ce que le centre soit ferme. Laisse refroidir avant de couper."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "pecans",
+        "name": {
+          "en": "pecans",
+          "nl": "pecannoten",
+          "fr": "noix de pécan"
+        },
+        "amount": 165,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "baking soda",
+        "name": {
+          "en": "baking soda",
+          "nl": "zuiveringszout",
+          "fr": "bicarbonate de soude"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 80,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cinnamon-pecan-crumb-cakes/"
+  },
+  {
+    "id": "candida-avocado-lime-tart",
+    "prepTime": "30 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 8,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Avocado Lime Tart",
+        "subtitle": "A no-bake key lime filling in an almond crust",
+        "description": "A smooth, tangy lime filling made from avocado and coconut, set in the fridge in a baked almond-coconut crust. Nobody guesses the avocado.",
+        "instructions": [
+          "Bake the almond-coconut tart crust from this book and let it cool.",
+          "Whisk the coconut milk, vanilla, stevia and salt until dissolved.",
+          "Blend the avocado with the lime zest and juice until smooth, then blend in the coconut milk mixture.",
+          "With the motor running, pour in the melted coconut oil.",
+          "Spread the filling in the crust and chill for 1–2 hours. Scatter with toasted coconut flakes. Leftovers keep for 2 days in the fridge."
+        ]
+      },
+      "nl": {
+        "title": "Avocado-limoentaart",
+        "subtitle": "Een limoenvulling zonder oven in een amandelbodem",
+        "description": "Een gladde, frisse limoenvulling van avocado en kokos, opgesteven in de koelkast in een gebakken bodem van amandel en kokos. Niemand raadt de avocado.",
+        "instructions": [
+          "Bak de taartbodem van amandel en kokos uit dit boek en laat afkoelen.",
+          "Klop de kokosmelk, vanille, stevia en het zout tot alles opgelost is.",
+          "Mix de avocado met de limoenzeste en het -sap glad en mix dan het kokosmelkmengsel erdoor.",
+          "Giet de gesmolten kokosolie erbij terwijl de mixer draait.",
+          "Strijk de vulling in de bodem en laat 1–2 uur opstijven in de koelkast. Strooi er geroosterde kokosschilfers over. Restjes blijven 2 dagen goed in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Tarte avocat-citron vert",
+        "subtitle": "Une crème au citron vert sans cuisson dans une pâte aux amandes",
+        "description": "Une garniture lisse et acidulée au citron vert, à base d'avocat et de coco, prise au frigo dans un fond cuit amande-coco. Personne ne devine l'avocat.",
+        "instructions": [
+          "Fais cuire le fond de tarte amande-coco de ce livre et laisse-le refroidir.",
+          "Fouette le lait de coco, la vanille, la stévia et le sel jusqu'à dissolution.",
+          "Mixe l'avocat avec le zeste et le jus de citron vert jusqu'à ce que ce soit lisse, puis ajoute le mélange au lait de coco.",
+          "Moteur en marche, verse l'huile de coco fondue.",
+          "Étale la garniture dans le fond et mets 1–2 heures au frais. Parsème de copeaux de coco grillés. Les restes se gardent 2 jours au frigo."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "avocado",
+        "name": {
+          "en": "avocado",
+          "nl": "avocado",
+          "fr": "avocat"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/avocado-lime-tart/"
+  },
+  {
+    "id": "candida-almond-coconut-tart-crust",
+    "prepTime": "10 mins",
+    "cookTime": "10 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 8,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Almond Coconut Tart Crust",
+        "subtitle": "The base for every tart in this book",
+        "description": "A press-in crust of almond flour, coconut and chia bound with egg and coconut oil, blind-baked in ten minutes. Fill it with the avocado lime filling or whatever you like.",
+        "instructions": [
+          "Heat the oven to 180 °C. Grease a 23 cm loose-bottomed tart tin with coconut oil and line the base with baking paper.",
+          "Pulse the almond flour, coconut, chia, stevia and salt in a food processor.",
+          "Whisk the egg with the melted coconut oil and pour it in with the motor running until the dough holds together.",
+          "Press the dough evenly over the base and up the sides of the tin.",
+          "Bake for 10–12 minutes, until the edges just start to brown. Let it cool before filling."
+        ]
+      },
+      "nl": {
+        "title": "Taartbodem van amandel en kokos",
+        "subtitle": "De bodem voor elke taart in dit boek",
+        "description": "Een bodem van amandelmeel, kokos en chia, gebonden met ei en kokosolie, in de vorm gedrukt en in tien minuten blind gebakken. Vul hem met de avocado-limoenvulling of wat je maar wilt.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C. Vet een taartvorm met losse bodem van 23 cm in met kokosolie en bekleed de bodem met bakpapier.",
+          "Mix het amandelmeel, de kokos, chia, stevia en het zout kort in de keukenrobot.",
+          "Klop het ei met de gesmolten kokosolie en giet het erbij terwijl de robot draait, tot het deeg samenhangt.",
+          "Druk het deeg gelijkmatig over de bodem en tegen de randen van de vorm.",
+          "Bak 10–12 minuten, tot de randen net beginnen te kleuren. Laat afkoelen voor je hem vult."
+        ]
+      },
+      "fr": {
+        "title": "Fond de tarte amande-coco",
+        "subtitle": "La base de toutes les tartes de ce livre",
+        "description": "Un fond à presser de farine d'amande, de coco et de chia lié à l'œuf et à l'huile de coco, cuit à blanc en dix minutes. Garnis-le de crème avocat-citron vert ou de ce qui te plaît.",
+        "instructions": [
+          "Préchauffe le four à 180 °C. Graisse un moule à tarte à fond amovible de 23 cm à l'huile de coco et chemise le fond de papier cuisson.",
+          "Mixe brièvement la farine d'amande, la coco, le chia, la stévia et le sel au robot.",
+          "Fouette l'œuf avec l'huile de coco fondue et verse-le moteur en marche jusqu'à ce que la pâte se tienne.",
+          "Presse la pâte uniformément sur le fond et les bords du moule.",
+          "Enfourne 10–12 minutes, jusqu'à ce que les bords commencent à dorer. Laisse refroidir avant de garnir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 150,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/almond-coconut-tart-crust/"
+  },
+  {
+    "id": "candida-pumpkin-seed-butter-energy-bars",
+    "prepTime": "10 mins",
+    "cookTime": "1 hr",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 8,
+    "category": [
+      "snack",
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Pumpkin Seed Energy Bars",
+        "subtitle": "No-bake bars with quinoa, chia and warm spice",
+        "description": "Pumpkin seed butter, cooked quinoa, coconut and chia blended with pumpkin spice and set in the freezer, topped with toasted coconut. Keep them in the fridge for a quick snack.",
+        "instructions": [
+          "Grease a loaf tin with coconut oil and line it with baking paper.",
+          "Whisk the coconut milk, vanilla and stevia and set aside.",
+          "Blitz the quinoa, pumpkin seed butter, spice, shredded coconut and chia in a food processor, then blend in the coconut milk mixture and finally the melted coconut oil.",
+          "Toast the coconut flakes at 180 °C for 5–6 minutes. Spread the mixture in the tin and press the flakes on top.",
+          "Freeze for about an hour, until set, then lift out and slice. Keep in the fridge or freezer."
+        ]
+      },
+      "nl": {
+        "title": "Energierepen met pompoenpitten",
+        "subtitle": "Repen zonder oven met quinoa, chia en warme kruiden",
+        "description": "Pompoenpittenpasta, gekookte quinoa, kokos en chia gemixt met speculaaskruiden en opgesteven in de diepvries, met geroosterde kokos erop. Bewaar ze in de koelkast voor een snelle snack.",
+        "instructions": [
+          "Vet een cakevorm in met kokosolie en bekleed met bakpapier.",
+          "Klop de kokosmelk, vanille en stevia en zet opzij.",
+          "Mix de quinoa, pompoenpittenpasta, kruiden, geraspte kokos en chia in de keukenrobot, mix dan het kokosmelkmengsel erdoor en ten slotte de gesmolten kokosolie.",
+          "Rooster de kokosschilfers 5–6 minuten op 180 °C. Strijk het mengsel uit in de vorm en druk de schilfers erop.",
+          "Zet zo'n uur in de diepvries tot het stevig is, haal eruit en snijd in repen. Bewaar in de koelkast of diepvries."
+        ]
+      },
+      "fr": {
+        "title": "Barres énergétiques aux graines de courge",
+        "subtitle": "Des barres sans cuisson au quinoa, au chia et aux épices douces",
+        "description": "Du beurre de graines de courge, du quinoa cuit, de la coco et du chia mixés avec des épices à speculoos et pris au congélateur, couverts de coco grillée. Garde-les au frigo pour une collation rapide.",
+        "instructions": [
+          "Graisse un moule à cake d'huile de coco et chemise-le de papier cuisson.",
+          "Fouette le lait de coco, la vanille et la stévia et réserve.",
+          "Mixe le quinoa, le beurre de graines de courge, les épices, la coco râpée et le chia au robot, puis ajoute le mélange au lait de coco et enfin l'huile de coco fondue.",
+          "Fais griller les copeaux de coco à 180 °C 5–6 minutes. Étale le mélange dans le moule et presse les copeaux dessus.",
+          "Congèle environ une heure jusqu'à ce que ce soit pris, démoule et coupe en barres. Garde au frigo ou au congélateur."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "pumpkin seed butter",
+        "name": {
+          "en": "Pumpkin seed butter",
+          "nl": "Pompoenpittenpasta",
+          "fr": "Beurre de graines de courge"
+        },
+        "amount": 125,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "cooked quinoa",
+        "name": {
+          "en": "Cooked quinoa",
+          "nl": "Gekookte quinoa",
+          "fr": "Quinoa cuit"
+        },
+        "amount": 90,
+        "unit": "g",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "pumpkin pie spice",
+        "name": {
+          "en": "Pumpkin pie spice",
+          "nl": "Speculaaskruiden",
+          "fr": "Épices pour speculoos"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 20,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 15,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/pumpkin-seed-butter-energy-bars/"
+  },
+  {
+    "id": "candida-easy-sugar-free-eggnog",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 4,
+    "category": [
+      "drink"
+    ],
+    "image": "images/candida-easy-sugar-free-eggnog.jpg",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Sugar-Free Eggnog",
+        "subtitle": "Advocaat's gentler cousin, no alcohol",
+        "description": "Coconut and almond milk blended with eggs, vanilla, nutmeg and cinnamon until frothy. A festive drink for December without the sugar or the rum.",
+        "instructions": [
+          "Put the coconut milk, almond milk, eggs, vanilla, stevia, nutmeg and cinnamon in a blender.",
+          "Blend on high until frothy.",
+          "Chill before serving.",
+          "Pour into glasses and dust with cinnamon, with a cinnamon stick in each."
+        ]
+      },
+      "nl": {
+        "title": "Eggnog zonder suiker",
+        "subtitle": "Het zachtere neefje van advocaat, zonder alcohol",
+        "description": "Kokos- en amandelmelk gemixt met eieren, vanille, nootmuskaat en kaneel tot het schuimt. Een feestelijk drankje voor december, zonder suiker of rum.",
+        "instructions": [
+          "Doe de kokosmelk, amandelmelk, eieren, vanille, stevia, nootmuskaat en kaneel in een blender.",
+          "Mix op hoge snelheid tot het schuimt.",
+          "Laat afkoelen voor je het opdient.",
+          "Schenk in glazen en bestuif met kaneel, met een kaneelstokje in elk glas."
+        ]
+      },
+      "fr": {
+        "title": "Lait de poule sans sucre",
+        "subtitle": "Le cousin plus doux de l'advocaat, sans alcool",
+        "description": "Du lait de coco et d'amande mixé avec des œufs, de la vanille, de la muscade et de la cannelle jusqu'à ce qu'il mousse. Une boisson de fête pour décembre, sans sucre ni rhum.",
+        "instructions": [
+          "Mets le lait de coco, le lait d'amande, les œufs, la vanille, la stévia, la muscade et la cannelle dans un mixeur.",
+          "Mixe à pleine vitesse jusqu'à ce que ce soit mousseux.",
+          "Mets au frais avant de servir.",
+          "Verse dans des verres et saupoudre de cannelle, avec un bâton de cannelle dans chacun."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 350,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "nutmeg",
+        "name": {
+          "en": "nutmeg",
+          "nl": "nootmuskaat",
+          "fr": "noix de muscade"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cinnamon",
+        "name": {
+          "en": "cinnamon",
+          "nl": "kaneel",
+          "fr": "cannelle"
+        },
+        "amount": 0.25,
+        "unit": "kl",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "cinnamon sticks",
+        "name": {
+          "en": "Cinnamon sticks",
+          "nl": "Kaneelstokjes",
+          "fr": "Bâtons de cannelle"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/easy-sugar-free-eggnog/",
+    "imageCredit": {
+      "author": "Dinner Series",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Eggnog2.jpg"
+    }
+  },
+  {
+    "id": "candida-coconut-mint-ice-cream",
+    "prepTime": "5 mins",
+    "cookTime": "20 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 3,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Mint Ice Cream",
+        "subtitle": "Cool, creamy and sugar-free",
+        "description": "Coconut milk whisked with mint flavouring and stevia and churned into a refreshing ice cream. No cooking, just an ice cream maker.",
+        "instructions": [
+          "Whisk the coconut milk, glycerin, mint flavouring, stevia and salt in a bowl.",
+          "Pour it into your ice cream maker and churn for 20–25 minutes, until just set.",
+          "For a firmer ice, freeze it in a closed tub for about 2 hours.",
+          "Serve with fresh mint leaves."
+        ]
+      },
+      "nl": {
+        "title": "Kokos-muntijs",
+        "subtitle": "Fris, romig en zonder suiker",
+        "description": "Kokosmelk geklopt met muntaroma en stevia en gedraaid tot een verfrissend ijs. Niet koken, alleen een ijsmachine.",
+        "instructions": [
+          "Klop de kokosmelk, glycerine, het muntaroma, de stevia en het zout samen in een kom.",
+          "Giet in je ijsmachine en draai 20–25 minuten tot het net opgesteven is.",
+          "Voor steviger ijs zet je het zo'n 2 uur in een gesloten doos in de diepvries.",
+          "Dien op met verse muntblaadjes."
+        ]
+      },
+      "fr": {
+        "title": "Glace coco-menthe",
+        "subtitle": "Fraîche, crémeuse et sans sucre",
+        "description": "Du lait de coco fouetté avec de l'arôme de menthe et de la stévia, turbiné en une glace rafraîchissante. Sans cuisson, juste une sorbetière.",
+        "instructions": [
+          "Fouette le lait de coco, la glycérine, l'arôme de menthe, la stévia et le sel dans un bol.",
+          "Verse dans la sorbetière et turbine 20–25 minutes, jusqu'à ce que ce soit juste pris.",
+          "Pour une glace plus ferme, congèle environ 2 heures dans une boîte fermée.",
+          "Sers avec des feuilles de menthe fraîche."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 480,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "vegetable glycerin",
+        "name": {
+          "en": "Vegetable glycerin",
+          "nl": "Plantaardige glycerine",
+          "fr": "Glycérine végétale"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free mint extract",
+        "name": {
+          "en": "Alcohol-free mint extract",
+          "nl": "Alcoholvrij muntaroma",
+          "fr": "Arôme de menthe sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 3,
+        "unit": "sprig",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-mint-ice-cream/"
+  },
+  {
+    "id": "candida-coconut-ginger-clouds",
+    "prepTime": "10 mins",
+    "cookTime": "12 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 12,
+    "category": [
+      "dessert",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Ginger Clouds",
+        "subtitle": "Macaroon-style bites with fresh ginger",
+        "description": "Whipped egg white folded with two kinds of coconut, vanilla and a little fresh ginger, baked into light, chewy macaroons. A cookie made of almost nothing.",
+        "instructions": [
+          "Heat the oven to 180 °C and line a baking tray with baking paper.",
+          "Whisk the egg whites until light and foamy.",
+          "Whisk in the stevia, vanilla and ginger, then fold in the shredded coconut and coconut flakes.",
+          "Drop tablespoon-sized heaps onto the tray and bake for 10–12 minutes, until just starting to brown.",
+          "Let them cool on the tray for 10 minutes before lifting them off."
+        ]
+      },
+      "nl": {
+        "title": "Kokoswolkjes met gember",
+        "subtitle": "Hapjes zoals kokosmakronen, met verse gember",
+        "description": "Opgeklopt eiwit gemengd met twee soorten kokos, vanille en een beetje verse gember, gebakken tot lichte, taaie kokosmakronen. Een koekje van bijna niets.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bekleed een bakplaat met bakpapier.",
+          "Klop de eiwitten licht en schuimig.",
+          "Klop de stevia, vanille en gember erdoor en spatel er dan de geraspte kokos en kokosschilfers door.",
+          "Schep hoopjes ter grootte van een eetlepel op de plaat en bak 10–12 minuten, tot ze net beginnen te kleuren.",
+          "Laat 10 minuten afkoelen op de plaat voor je ze eraf haalt."
+        ]
+      },
+      "fr": {
+        "title": "Nuages coco-gingembre",
+        "subtitle": "Des bouchées façon congolais, au gingembre frais",
+        "description": "Des blancs montés mêlés à deux sortes de coco, à la vanille et à un peu de gingembre frais, cuits en congolais légers et moelleux. Un biscuit fait de presque rien.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et garnis une plaque de papier cuisson.",
+          "Fouette les blancs jusqu'à ce qu'ils soient légers et mousseux.",
+          "Ajoute la stévia, la vanille et le gingembre en fouettant, puis incorpore la coco râpée et les copeaux de coco.",
+          "Dépose des tas d'une cuillère à soupe sur la plaque et enfourne 10–12 minutes, jusqu'à ce qu'ils commencent à dorer.",
+          "Laisse-les refroidir 10 minutes sur la plaque avant de les décoller."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "egg whites",
+        "name": {
+          "en": "egg whites",
+          "nl": "eiwitten",
+          "fr": "blancs d'oeuf"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 80,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-ginger-clouds/"
+  },
+  {
+    "id": "candida-lemon-lime-tarts",
+    "prepTime": "2 hrs",
+    "cookTime": "15 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 8,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Lemon-Lime Tartlets",
+        "subtitle": "Buttery hazelnut shells with a creamy citrus yogurt filling",
+        "description": "Little tart cases of hazelnut, buckwheat and butter baked in a muffin tin and filled with thick Greek yogurt bright with lemon and lime zest. Make the dough ahead.",
+        "instructions": [
+          "Whisk the egg yolks with the stevia, salt and zests. Mix the hazelnut flour, buckwheat flour and flaxseed in another bowl.",
+          "Beat the butter, add the yolk mixture, then the flours. Chill the dough for 1–2 hours.",
+          "Stir the yogurt with the stevia, vanilla and the rest of the zest and keep it in the fridge.",
+          "Oil 8 muffin holes and line each base with a circle of baking paper. Divide the dough into 8, flatten each piece to about 5 mm and press into the holes. Freeze for 30 minutes.",
+          "Bake at 180 °C for 15 minutes, cool for 15–20 minutes, then lift the shells out and let them cool completely. Fill with the yogurt and top with lemon and lime slices."
+        ]
+      },
+      "nl": {
+        "title": "Citroen-limoentaartjes",
+        "subtitle": "Boterige hazelnootbakjes met een romige citrusyoghurt",
+        "description": "Kleine taartbakjes van hazelnoot, boekweit en boter, gebakken in een muffinvorm en gevuld met dikke Griekse yoghurt, fris van citroen- en limoenzeste. Maak het deeg op voorhand.",
+        "instructions": [
+          "Klop de eidooiers met de stevia, het zout en de zestes. Meng het hazelnootmeel, boekweitmeel en lijnzaad in een andere kom.",
+          "Klop de boter, voeg het dooiermengsel toe en dan het meel. Laat het deeg 1–2 uur rusten in de koelkast.",
+          "Roer de yoghurt met de stevia, vanille en de rest van de zestes en zet in de koelkast.",
+          "Vet 8 muffinholtes in en leg in elke bodem een rondje bakpapier. Verdeel het deeg in 8, druk elk stuk plat tot zo'n 5 mm en druk in de holtes. Zet 30 minuten in de diepvries.",
+          "Bak 15 minuten op 180 °C, laat 15–20 minuten afkoelen, haal de bakjes eruit en laat helemaal afkoelen. Vul met de yoghurt en leg er schijfjes citroen en limoen op."
+        ]
+      },
+      "fr": {
+        "title": "Tartelettes citron-citron vert",
+        "subtitle": "Des fonds beurrés à la noisette, une crème de yaourt aux agrumes",
+        "description": "De petits fonds de tarte à la noisette, au sarrasin et au beurre cuits dans un moule à muffins et garnis de yaourt grec épais relevé de zestes de citron et de citron vert. Prépare la pâte à l'avance.",
+        "instructions": [
+          "Fouette les jaunes d'œuf avec la stévia, le sel et les zestes. Mélange la farine de noisette, la farine de sarrasin et le lin dans un autre bol.",
+          "Travaille le beurre, ajoute le mélange aux jaunes, puis les farines. Mets la pâte 1–2 heures au frais.",
+          "Mélange le yaourt avec la stévia, la vanille et le reste des zestes et garde au frigo.",
+          "Huile 8 empreintes à muffins et pose un disque de papier cuisson au fond de chacune. Divise la pâte en 8, aplatis chaque morceau à environ 5 mm et presse-le dans les empreintes. Congèle 30 minutes.",
+          "Enfourne 15 minutes à 180 °C, laisse tiédir 15–20 minutes, démoule les fonds et laisse refroidir complètement. Garnis de yaourt et décore de rondelles de citron et de citron vert."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "egg yolk",
+        "name": {
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
+        },
+        "amount": 3,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 3.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 2.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime zest",
+        "name": {
+          "en": "Lime zest",
+          "nl": "Limoenzeste",
+          "fr": "Zeste de citron vert"
+        },
+        "amount": 2.5,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "hazelnut flour",
+        "name": {
+          "en": "Hazelnut flour",
+          "nl": "Hazelnootmeel",
+          "fr": "Farine de noisette"
+        },
+        "amount": 100,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "buckwheat flour",
+        "name": {
+          "en": "Buckwheat flour",
+          "nl": "Boekweitmeel",
+          "fr": "Farine de sarrasin"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "flaxseed meal",
+        "name": {
+          "en": "Flaxseed meal",
+          "nl": "Gemalen lijnzaad",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": 30,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "butter",
+        "name": {
+          "en": "butter",
+          "nl": "boter",
+          "fr": "beurre"
+        },
+        "amount": 115,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "greek yogurt",
+        "name": {
+          "en": "Greek yogurt",
+          "nl": "Griekse yoghurt",
+          "fr": "Yaourt grec"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 0.75,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon",
+        "name": {
+          "en": "lemon",
+          "nl": "citroen",
+          "fr": "citron"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "lime",
+        "name": {
+          "en": "lime",
+          "nl": "limoen",
+          "fr": "citron vert"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/lemon-lime-tarts/"
+  },
+  {
+    "id": "candida-coconut-vanilla-custard",
+    "prepTime": "15 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 4,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Vanilla Custard",
+        "subtitle": "Silky baked pots with a real vanilla pod",
+        "description": "Egg yolks and coconut milk infused with vanilla seeds, baked gently in a water bath until just set. Pudding the way grandma made it, without the milk or sugar.",
+        "instructions": [
+          "Heat the oven to 180 °C. Split the vanilla pod and scrape out the seeds.",
+          "Whisk the egg yolks. Set a sieve over a bowl holding half the coconut milk.",
+          "Heat the other half of the coconut milk with the stevia, vanilla seeds and pod until steaming — don't let it simmer.",
+          "Whisk the warm milk into the yolks, then strain it into the bowl with the cold coconut milk and whisk.",
+          "Pour into 4 cups, set them in a deep tin, add hot water halfway up their sides and cover tightly with foil. Bake for 25–30 minutes, until the edges are firm and the middles still soft. Serve at room temperature or cold, with coconut flakes."
+        ]
+      },
+      "nl": {
+        "title": "Kokos-vanillepuddinkjes",
+        "subtitle": "Zijdezachte potjes uit de oven met een echt vanillestokje",
+        "description": "Eidooiers en kokosmelk met vanillezaadjes, zachtjes gegaard in een waterbad tot ze net gestold zijn. Pudding zoals bomma hem maakte, zonder melk of suiker.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C. Snijd het vanillestokje open en schraap de zaadjes eruit.",
+          "Klop de eidooiers los. Hang een zeef boven een kom met de helft van de kokosmelk.",
+          "Verwarm de andere helft van de kokosmelk met de stevia, vanillezaadjes en het stokje tot het dampt — niet laten koken.",
+          "Klop de warme melk door de dooiers en zeef het dan in de kom met de koude kokosmelk en klop.",
+          "Giet in 4 kopjes, zet ze in een diepe vorm, giet er heet water bij tot halverwege en dek goed af met aluminiumfolie. Bak 25–30 minuten, tot de randen stevig zijn en het midden nog zacht. Dien op op kamertemperatuur of koud, met kokosschilfers."
+        ]
+      },
+      "fr": {
+        "title": "Petits pots de crème coco-vanille",
+        "subtitle": "Des crèmes soyeuses au four, à la vraie gousse de vanille",
+        "description": "Des jaunes d'œuf et du lait de coco infusés aux graines de vanille, cuits doucement au bain-marie jusqu'à être juste pris. La crème comme celle de grand-mère, sans lait ni sucre.",
+        "instructions": [
+          "Préchauffe le four à 180 °C. Fends la gousse de vanille et gratte les graines.",
+          "Fouette les jaunes d'œuf. Pose un tamis sur un bol contenant la moitié du lait de coco.",
+          "Chauffe l'autre moitié du lait de coco avec la stévia, les graines et la gousse de vanille jusqu'à ce qu'il fume — sans frémir.",
+          "Verse le lait chaud sur les jaunes en fouettant, puis filtre dans le bol de lait de coco froid et fouette.",
+          "Verse dans 4 ramequins, pose-les dans un plat profond, ajoute de l'eau chaude à mi-hauteur et couvre bien d'aluminium. Enfourne 25–30 minutes, jusqu'à ce que les bords soient fermes et le centre encore souple. Sers à température ambiante ou froid, avec des copeaux de coco."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "egg yolk",
+        "name": {
+          "en": "egg yolk",
+          "nl": "eidooier",
+          "fr": "jaune d'oeuf"
+        },
+        "amount": 4,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "vanilla bean",
+        "name": {
+          "en": "Vanilla bean",
+          "nl": "Vanillestokje",
+          "fr": "Gousse de vanille"
+        },
+        "amount": 1,
+        "unit": "st.",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-vanilla-custard/"
+  },
+  {
+    "id": "candida-almond-sponge-cake-lemon-curd",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Medium",
+      "nl": "Gemiddeld",
+      "fr": "Moyen"
+    },
+    "servings": 8,
+    "category": [
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": false,
+    "translations": {
+      "en": {
+        "title": "Almond Sponge with Lemon Curd",
+        "subtitle": "A light birthday cake, no flour, no sugar",
+        "description": "An airy almond sponge raised with whipped egg whites, served with a quick, tangy lemon curd made with coconut oil. A cake for celebrations that still fits the diet.",
+        "instructions": [
+          "Heat the oven to 180 °C. Oil a 20–23 cm cake tin and line the base with baking paper.",
+          "Whisk the whites to stiff peaks. In another bowl whisk the yolks with the yogurt, stevia, vanilla and lemon zest.",
+          "Gently fold the almond flour, whites and yolk mixture together and pour into the tin. Bake for 20–25 minutes, until the top springs back and a skewer comes out clean.",
+          "Cool for 10 minutes in the tin, turn out, peel off the paper and cool on a rack.",
+          "For the curd, whisk the eggs, stevia, vanilla and zest off the heat, then the coconut oil and lemon juice. Whisk constantly over medium heat for 1–2 minutes, until thick and opaque. Strain, cool and serve with the cake. The curd keeps 3–4 days in the fridge."
+        ]
+      },
+      "nl": {
+        "title": "Amandelbiscuit met lemon curd",
+        "subtitle": "Een lichte verjaardagstaart, zonder bloem, zonder suiker",
+        "description": "Een luchtige amandelbiscuit, opgeklopt met eiwit, met een snelle, frisse lemon curd gemaakt met kokosolie. Een taart voor feestjes die toch in het dieet past.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C. Vet een taartvorm van 20–23 cm in en bekleed de bodem met bakpapier.",
+          "Klop de eiwitten stijf. Klop in een andere kom de dooiers met de yoghurt, stevia, vanille en citroenzeste.",
+          "Spatel het amandelmeel, het eiwit en het dooiermengsel voorzichtig samen en giet in de vorm. Bak 20–25 minuten, tot de bovenkant terugveert en een prikker er droog uitkomt.",
+          "Laat 10 minuten afkoelen in de vorm, stort, trek het papier eraf en laat afkoelen op een rooster.",
+          "Voor de curd klop je buiten het vuur de eieren, stevia, vanille en zeste, en dan de kokosolie en het citroensap. Klop 1–2 minuten onafgebroken op middelhoog vuur tot het dik en ondoorzichtig is. Zeef, laat afkoelen en dien op bij de taart. De curd blijft 3–4 dagen goed in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Génoise aux amandes et lemon curd",
+        "subtitle": "Un gâteau d'anniversaire léger, sans farine ni sucre",
+        "description": "Une génoise aux amandes aérienne, gonflée aux blancs montés, servie avec un lemon curd minute et acidulé à l'huile de coco. Un gâteau de fête qui reste dans le régime.",
+        "instructions": [
+          "Préchauffe le four à 180 °C. Huile un moule de 20–23 cm et chemise le fond de papier cuisson.",
+          "Monte les blancs en neige ferme. Dans un autre bol, fouette les jaunes avec le yaourt, la stévia, la vanille et le zeste de citron.",
+          "Incorpore délicatement la farine d'amande, les blancs et le mélange aux jaunes et verse dans le moule. Enfourne 20–25 minutes, jusqu'à ce que le dessus rebondisse et qu'une pique ressorte sèche.",
+          "Laisse tiédir 10 minutes dans le moule, démoule, retire le papier et laisse refroidir sur une grille.",
+          "Pour le curd, fouette hors du feu les œufs, la stévia, la vanille et le zeste, puis l'huile de coco et le jus de citron. Fouette sans arrêt à feu moyen 1–2 minutes, jusqu'à ce que ce soit épais et opaque. Filtre, laisse refroidir et sers avec le gâteau. Le curd se garde 3–4 jours au frigo."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "eggs",
+        "name": {
+          "en": "eggs",
+          "nl": "eieren",
+          "fr": "oeufs"
+        },
+        "amount": 8,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "plain yogurt",
+        "name": {
+          "en": "Plain yogurt",
+          "nl": "Natuuryoghurt",
+          "fr": "Yaourt nature"
+        },
+        "amount": 120,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 3.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 4,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon zest",
+        "name": {
+          "en": "lemon zest",
+          "nl": "citroenrasp",
+          "fr": "zeste de citron"
+        },
+        "amount": 2,
+        "unit": "kl",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "almond flour",
+        "name": {
+          "en": "almond flour",
+          "nl": "amandelmeel",
+          "fr": "poudre d'amandes"
+        },
+        "amount": 175,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 60,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "lemon juice",
+        "name": {
+          "en": "lemon juice",
+          "nl": "citroensap",
+          "fr": "jus de citron"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/almond-sponge-cake-lemon-curd/"
+  },
+  {
+    "id": "candida-coconut-ginger-cookies",
+    "prepTime": "10 mins",
+    "cookTime": "25 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 18,
+    "category": [
+      "dessert",
+      "snack"
+    ],
+    "image": "",
+    "isNutFree": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": false,
+    "isVegetarian": true,
+    "isVegan": false,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": true,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Coconut Ginger Cookies",
+        "subtitle": "Soft cookies with a real ginger bite",
+        "description": "Coconut-flour cookies with lots of fresh grated ginger and hemp seeds, lightened with whipped egg white. Soft in the middle, golden at the edges.",
+        "instructions": [
+          "Heat the oven to 180 °C and line a baking tray with baking paper.",
+          "Mix the coconut flour, hemp seeds and salt.",
+          "Whisk the egg whites to soft peaks, then fold in the coconut milk, stevia and ginger.",
+          "Stir in the dry mix for a minute. If it's too dry, add a little more coconut milk a tablespoon at a time.",
+          "Drop rounded tablespoons onto the tray, sprinkle with hemp seeds and bake for 25–30 minutes, until the edges brown. Let them cool."
+        ]
+      },
+      "nl": {
+        "title": "Kokos-gemberkoekjes",
+        "subtitle": "Zachte koekjes met een echte gemberbeet",
+        "description": "Koekjes van kokosmeel met veel verse geraspte gember en hennepzaad, luchtig gemaakt met opgeklopt eiwit. Zacht in het midden, goudbruin aan de randen.",
+        "instructions": [
+          "Verwarm de oven voor op 180 °C en bekleed een bakplaat met bakpapier.",
+          "Meng het kokosmeel, het hennepzaad en het zout.",
+          "Klop de eiwitten tot zachte pieken en spatel er de kokosmelk, stevia en gember door.",
+          "Roer er een minuut het droge mengsel door. Is het te droog, voeg dan eetlepel per eetlepel wat kokosmelk toe.",
+          "Schep bolle eetlepels op de plaat, bestrooi met hennepzaad en bak 25–30 minuten, tot de randen bruin worden. Laat afkoelen."
+        ]
+      },
+      "fr": {
+        "title": "Biscuits coco-gingembre",
+        "subtitle": "Des biscuits tendres avec un vrai piquant de gingembre",
+        "description": "Des biscuits à la farine de coco avec beaucoup de gingembre frais râpé et des graines de chanvre, allégés aux blancs montés. Moelleux au centre, dorés sur les bords.",
+        "instructions": [
+          "Préchauffe le four à 180 °C et garnis une plaque de papier cuisson.",
+          "Mélange la farine de coco, les graines de chanvre et le sel.",
+          "Monte les blancs en neige souple, puis incorpore le lait de coco, la stévia et le gingembre.",
+          "Ajoute le mélange sec et remue une minute. Si c'est trop sec, ajoute un peu de lait de coco cuillère par cuillère.",
+          "Dépose des cuillerées bombées sur la plaque, parsème de graines de chanvre et enfourne 25–30 minutes, jusqu'à ce que les bords dorent. Laisse refroidir."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "hemp seeds",
+        "name": {
+          "en": "Hemp seeds",
+          "nl": "Hennepzaad",
+          "fr": "Graines de chanvre"
+        },
+        "amount": 3,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "salt",
+        "name": {
+          "en": "salt",
+          "nl": "zout",
+          "fr": "sel"
+        },
+        "amount": null,
+        "unit": "pinch",
+        "category": "Kruiden & Specerijen",
+        "staple": true
+      },
+      {
+        "key": "egg whites",
+        "name": {
+          "en": "egg whites",
+          "nl": "eiwitten",
+          "fr": "blancs d'oeuf"
+        },
+        "amount": 2,
+        "unit": "st.",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 180,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "fresh ginger",
+        "name": {
+          "en": "Fresh ginger",
+          "nl": "Verse gember",
+          "fr": "Gingembre frais"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-ginger-cookies/"
+  },
+  {
+    "id": "candida-no-bake-almond-coconut-balls",
+    "prepTime": "10 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 15,
+    "category": [
+      "snack",
+      "dessert"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "No-Bake Almond Coconut Balls",
+        "subtitle": "Five minutes in the food processor",
+        "description": "Almond butter, coconut flour and coconut blended together, rolled into bite-sized balls and coated in more coconut. The sweet snack to keep in the fridge for weak moments.",
+        "instructions": [
+          "Set aside a heaped tablespoon of the shredded coconut.",
+          "Blend the rest of the ingredients in a food processor until well mixed.",
+          "Roll into bite-sized balls with your hands.",
+          "Roll them in the reserved coconut and chill for 30 minutes."
+        ]
+      },
+      "nl": {
+        "title": "Amandel-kokosballetjes zonder oven",
+        "subtitle": "Vijf minuten in de keukenrobot",
+        "description": "Amandelpasta, kokosmeel en kokos samen gemixt, tot hapklare balletjes gerold en door nog wat kokos gehaald. De zoete snack om in de koelkast te hebben voor zwakke momenten.",
+        "instructions": [
+          "Hou een bolle eetlepel geraspte kokos opzij.",
+          "Mix de rest van de ingrediënten in de keukenrobot tot alles goed gemengd is.",
+          "Rol er met je handen hapklare balletjes van.",
+          "Rol ze door de opzijgehouden kokos en zet 30 minuten in de koelkast."
+        ]
+      },
+      "fr": {
+        "title": "Boules amande-coco sans cuisson",
+        "subtitle": "Cinq minutes au robot",
+        "description": "Du beurre d'amande, de la farine de coco et de la coco mixés ensemble, roulés en bouchées et enrobés de coco. Le snack sucré à garder au frigo pour les moments de faiblesse.",
+        "instructions": [
+          "Réserve une cuillère à soupe bombée de coco râpée.",
+          "Mixe le reste des ingrédients au robot jusqu'à ce que ce soit bien mélangé.",
+          "Forme des bouchées à la main.",
+          "Roule-les dans la coco réservée et mets 30 minutes au frais."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "almond butter",
+        "name": {
+          "en": "Almond butter",
+          "nl": "Amandelpasta",
+          "fr": "Beurre d'amande"
+        },
+        "amount": 250,
+        "unit": "g",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "coconut flour",
+        "name": {
+          "en": "Coconut flour",
+          "nl": "Kokosmeel",
+          "fr": "Farine de coco"
+        },
+        "amount": 60,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "desiccated coconut",
+        "name": {
+          "en": "Desiccated coconut",
+          "nl": "Geraspte kokos",
+          "fr": "Noix de coco râpée"
+        },
+        "amount": 40,
+        "unit": "g",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "coconut oil",
+        "name": {
+          "en": "coconut oil",
+          "nl": "kokosolie",
+          "fr": "huile de coco"
+        },
+        "amount": 4,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "stevia",
+        "name": {
+          "en": "Stevia",
+          "nl": "Stevia",
+          "fr": "Stévia"
+        },
+        "amount": 0.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/no-bake-almond-coconut-balls/"
+  },
+  {
+    "id": "candida-coconut-smoothie",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 1,
+    "category": [
+      "drink",
+      "breakfast"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Very Coconut Smoothie",
+        "subtitle": "Thick, cold and very coconut",
+        "description": "Coconut milk blended with coconut milk ice cubes, almond butter, chia and coconut extract into a thick, creamy smoothie. Freeze a tray of coconut milk the day before.",
+        "instructions": [
+          "Put the coconut milk, coconut milk ice cubes, almond butter, chia, coconut extract and stevia in a blender.",
+          "Blend until smooth.",
+          "Pour into a glass and scatter with coconut flakes."
+        ]
+      },
+      "nl": {
+        "title": "Heel kokosachtige smoothie",
+        "subtitle": "Dik, koud en heel veel kokos",
+        "description": "Kokosmelk gemixt met ijsblokjes van kokosmelk, amandelpasta, chia en kokosextract tot een dikke, romige smoothie. Vries de dag ervoor een bakje kokosmelk in.",
+        "instructions": [
+          "Doe de kokosmelk, de ijsblokjes van kokosmelk, de amandelpasta, chia, het kokosextract en de stevia in een blender.",
+          "Mix glad.",
+          "Schenk in een glas en strooi er kokosschilfers over."
+        ]
+      },
+      "fr": {
+        "title": "Smoothie très coco",
+        "subtitle": "Épais, glacé et très coco",
+        "description": "Du lait de coco mixé avec des glaçons de lait de coco, du beurre d'amande, du chia et de l'extrait de coco en un smoothie épais et crémeux. Congèle un bac de lait de coco la veille.",
+        "instructions": [
+          "Mets le lait de coco, les glaçons de lait de coco, le beurre d'amande, le chia, l'extrait de coco et la stévia dans un mixeur.",
+          "Mixe jusqu'à ce que ce soit lisse.",
+          "Verse dans un verre et parsème de copeaux de coco."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "coconut milk",
+        "name": {
+          "en": "Coconut milk",
+          "nl": "Kokosmelk",
+          "fr": "Lait de coco"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "almond butter",
+        "name": {
+          "en": "Almond butter",
+          "nl": "Amandelpasta",
+          "fr": "Beurre d'amande"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "chia seeds",
+        "name": {
+          "en": "Chia seeds",
+          "nl": "Chiazaad",
+          "fr": "Graines de chia"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free coconut extract",
+        "name": {
+          "en": "Alcohol-free coconut extract",
+          "nl": "Alcoholvrij kokosextract",
+          "fr": "Extrait de coco sans alcool"
+        },
+        "amount": 1,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "liquid stevia",
+        "name": {
+          "en": "Liquid stevia",
+          "nl": "Vloeibare stevia",
+          "fr": "Stévia liquide"
+        },
+        "amount": null,
+        "unit": "drop",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "coconut flakes",
+        "name": {
+          "en": "Coconut flakes",
+          "nl": "Kokosschilfers",
+          "fr": "Copeaux de coco"
+        },
+        "amount": 1,
+        "unit": "el",
+        "category": "Kruidenier",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/coconut-smoothie/"
+  },
+  {
+    "id": "candida-cool-almond-mint-smoothie",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "difficulty": {
+      "en": "Easy",
+      "nl": "Makkelijk",
+      "fr": "Facile"
+    },
+    "servings": 2,
+    "category": [
+      "drink"
+    ],
+    "image": "",
+    "isNutFree": false,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "isEggFree": true,
+    "isVegetarian": true,
+    "isVegan": true,
+    "isPescatarian": true,
+    "isCandidaFriendly": true,
+    "isKeto": false,
+    "isPaleo": true,
+    "translations": {
+      "en": {
+        "title": "Almond Mint Smoothie",
+        "subtitle": "Frothy, cold and fresh",
+        "description": "Almond milk blended with almond butter, vanilla and fresh mint leaves over almond milk ice cubes. A refreshing glass for a warm afternoon.",
+        "instructions": [
+          "Put the almond milk, almond butter, vanilla, stevia, mint leaves and almond milk ice cubes in a blender.",
+          "Blend until smooth and frothy.",
+          "Serve in chilled glasses."
+        ]
+      },
+      "nl": {
+        "title": "Amandel-muntsmoothie",
+        "subtitle": "Schuimig, koud en fris",
+        "description": "Amandelmelk gemixt met amandelpasta, vanille en verse muntblaadjes over ijsblokjes van amandelmelk. Een verfrissend glas voor een warme namiddag.",
+        "instructions": [
+          "Doe de amandelmelk, amandelpasta, vanille, stevia, muntblaadjes en ijsblokjes van amandelmelk in een blender.",
+          "Mix tot het glad en schuimig is.",
+          "Dien op in gekoelde glazen."
+        ]
+      },
+      "fr": {
+        "title": "Smoothie amande-menthe",
+        "subtitle": "Mousseux, glacé et frais",
+        "description": "Du lait d'amande mixé avec du beurre d'amande, de la vanille et des feuilles de menthe fraîche sur des glaçons de lait d'amande. Un verre rafraîchissant pour un après-midi chaud.",
+        "instructions": [
+          "Mets le lait d'amande, le beurre d'amande, la vanille, la stévia, les feuilles de menthe et les glaçons de lait d'amande dans un mixeur.",
+          "Mixe jusqu'à ce que ce soit lisse et mousseux.",
+          "Sers dans des verres bien froids."
+        ]
+      }
+    },
+    "ingredients": [
+      {
+        "key": "almond milk",
+        "name": {
+          "en": "almond milk",
+          "nl": "amandelmelk",
+          "fr": "lait d'amande"
+        },
+        "amount": 360,
+        "unit": "ml",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "almond butter",
+        "name": {
+          "en": "Almond butter",
+          "nl": "Amandelpasta",
+          "fr": "Beurre d'amande"
+        },
+        "amount": 2,
+        "unit": "el",
+        "category": "Zuivel & Eieren",
+        "staple": false
+      },
+      {
+        "key": "alcohol-free vanilla extract",
+        "name": {
+          "en": "Alcohol-free vanilla extract",
+          "nl": "Alcoholvrij vanille-extract",
+          "fr": "Extrait de vanille sans alcool"
+        },
+        "amount": 1.5,
+        "unit": "kl",
+        "category": "Kruidenier",
+        "staple": false
+      },
+      {
+        "key": "liquid stevia",
+        "name": {
+          "en": "Liquid stevia",
+          "nl": "Vloeibare stevia",
+          "fr": "Stévia liquide"
+        },
+        "amount": null,
+        "unit": "drop",
+        "category": "Groenten & Fruit",
+        "staple": false
+      },
+      {
+        "key": "mint",
+        "name": {
+          "en": "Mint",
+          "nl": "Munt",
+          "fr": "Menthe"
+        },
+        "amount": 10,
+        "unit": "st.",
+        "category": "Groenten & Fruit",
+        "staple": false
+      }
+    ],
+    "sourceUrl": "https://www.thecandidadiet.com/recipe/cool-almond-mint-smoothie/"
   }
 ];
